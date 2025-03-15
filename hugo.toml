@@ -1,0 +1,48 @@
+baseURL = 'https://madn.xyz/scbase/'
+
+
+defaultContentLanguage = "zh"  # 设置默认语言
+languageCode = "zh-CN"         # 设定 HTML 语言代码
+hasCJKLanguage = true          # 让 Hugo 识别中日韩字符，优化字数统计
+
+title = '超级细胞情报站'
+theme = 'pehtheme-hugo'
+
+pageSize = '6' # <- Set the desired number of posts per page 
+summaryLength = '20' # <- 20 words are approximately 160 characters
+googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
+disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
+
+
+[permalinks]
+  posts = "/:sections/:year/:month/:slug"
+
+[params]
+	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
+	description = '超级细胞'
+	mainSections = 'posts'
+
+
+[menu] # Menu management
+	[[menu.main]]
+		name = '主页'
+		pageRef = '/'
+		weight = 10
+	[[menu.main]]
+		name = '工具'
+		pageRef = '/tools'
+		weight = 15
+	[[menu.main]]
+		name = '国际服'
+		pageRef = '/global'
+		weight = 20
+	[[menu.main]]
+		name = '关于'
+		pageRef = '/about'
+		weight = 25
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.116.0"
+
