@@ -1,0 +1,41 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    width: fit-content;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.slide-cover {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    bottom:0;
+    inset:0;
+
+}
+
+.slide-title {
+    position:absolute;
+}
+
+.slide-title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}

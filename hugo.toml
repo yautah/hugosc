@@ -22,6 +22,27 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	description = '超级细胞'
 	mainSections = 'posts'
 
+	[[params.slides]]
+    title = "皇室战争新版本更新，或将加入新天梯"
+    image = "/global_banner.jpg"
+    description = "全新英雄登场，战斗系统升级"
+    date = "2024-03-15"
+    link = "/posts/update-2024"
+
+  [[params.slides]]
+    title = "2024年度最佳卡组"
+    image = "/about.webp"
+    description = "专业选手推荐，助你上分"
+    date = "2024-03-14"
+    link = "/posts/best-deck-2024"
+
+  [[params.slides]]
+    title = "新手入门攻略"
+    image = "/global_banner.jpg"
+    description = "从零开始的皇室之旅"
+    date = "2024-03-13"
+    link = "/posts/beginner-guide"
+
 
 [menu] # Menu management
 	[[menu.main]]
@@ -40,6 +61,8 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 		name = '关于'
 		pageRef = '/about'
 		weight = 25
+
+  
 
 [module]
   [module.hugoVersion]
