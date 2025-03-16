@@ -1,4 +1,4 @@
-baseURL = 'https://hugosc-yautahs-projects.vercel.app/'
+baseURL = 'https://scbase.cn/'
 
 
 defaultContentLanguage = "zh"  # 设置默认语言
