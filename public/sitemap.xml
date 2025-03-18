@@ -2,28 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://192.168.0.108:1313/posts/clashofclans/</loc>
+  </url><url>
     <loc>http://192.168.0.108:1313/posts/clashroyale/</loc>
-    <lastmod>2025-03-09T12:15:05+00:00</lastmod>
+    <lastmod>2025-03-17T13:15:05+00:00</lastmod>
   </url><url>
     <loc>http://192.168.0.108:1313/posts/</loc>
-    <lastmod>2025-03-10T18:15:05+00:00</lastmod>
+    <lastmod>2025-03-17T13:15:05+00:00</lastmod>
   </url><url>
     <loc>http://192.168.0.108:1313/posts/brawlstars/</loc>
   </url><url>
     <loc>http://192.168.0.108:1313/posts/squadbusters/</loc>
     <lastmod>2025-03-10T18:15:05+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.0.108:1313/posts/clashofclans/</loc>
-  </url><url>
     <loc>http://192.168.0.108:1313/posts/moco/</loc>
   </url><url>
     <loc>http://192.168.0.108:1313/categories/</loc>
-    <lastmod>2025-03-10T18:15:05+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.0.108:1313/tags/hot/</loc>
-    <lastmod>2025-03-10T18:15:05+00:00</lastmod>
+    <lastmod>2025-03-17T13:15:05+00:00</lastmod>
   </url><url>
     <loc>http://192.168.0.108:1313/tags/</loc>
+    <lastmod>2025-03-17T13:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.0.108:1313/</loc>
+    <lastmod>2025-03-17T13:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.0.108:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
+    <lastmod>2025-03-17T13:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.0.108:1313/posts/clashroyale/2025/03/how_to_install_clashroyale_android/</loc>
+    <lastmod>2025-03-17T13:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.0.108:1313/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2025-03-17T13:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.0.108:1313/posts/clashroyale/2025/03/how-to-play-global-clash-royale/</loc>
+    <lastmod>2025-03-17T12:15:05+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.0.108:1313/tags/hot/</loc>
     <lastmod>2025-03-10T18:15:05+00:00</lastmod>
   </url><url>
     <loc>http://192.168.0.108:1313/categories/%E7%88%86%E8%A3%82%E5%B0%8F%E9%98%9F/</loc>
@@ -35,16 +50,10 @@
     <loc>http://192.168.0.108:1313/posts/squadbusters/2025/03/transformers-is-back/</loc>
     <lastmod>2025-03-10T18:15:05+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.0.108:1313/</loc>
-    <lastmod>2025-03-10T18:15:05+00:00</lastmod>
-  </url><url>
     <loc>http://192.168.0.108:1313/tags/%E7%83%AD%E9%97%A8/</loc>
     <lastmod>2025-03-10T18:15:05+00:00</lastmod>
   </url><url>
     <loc>http://192.168.0.108:1313/posts/clashroyale/2025/03/retro-royale/</loc>
-    <lastmod>2025-03-09T12:15:05+00:00</lastmod>
-  </url><url>
-    <loc>http://192.168.0.108:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
     <lastmod>2025-03-09T12:15:05+00:00</lastmod>
   </url><url>
     <loc>http://192.168.0.108:1313/tags/%E7%9A%87%E5%AE%A4%E8%B5%84%E8%AE%AF/</loc>
@@ -65,10 +74,13 @@
     <loc>http://192.168.0.108:1313/posts/clashroyale/2025/01/2024-years-report/</loc>
     <lastmod>2025-01-01T04:15:05+00:00</lastmod>
   </url><url>
-    <loc>http://192.168.0.108:1313/global/</loc>
+    <loc>http://192.168.0.108:1313/resources/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
   </url><url>
     <loc>http://192.168.0.108:1313/about/</loc>
+    <lastmod>2023-10-06T20:37:29+07:00</lastmod>
+  </url><url>
+    <loc>http://192.168.0.108:1313/tools/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
   </url>
 </urlset>

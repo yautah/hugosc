@@ -2,7 +2,7 @@
 
 ---
 title: "复古皇室即将上线，怀旧天梯规则、介绍及奖励细则~"
-image: "images/2025/retro-royale.jpeg"
+image: "images/2025/retro-royale.png"
 description: "复古皇室（Retro Royale）是一种限时游戏模式，将从3月12日开始，持续到3月26日。"
 date: 2025-03-09 12:15:05
 slug: /retro-royale/

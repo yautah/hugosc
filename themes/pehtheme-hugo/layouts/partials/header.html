@@ -25,10 +25,9 @@
 				</a>
 			</div>
 			<div class="topNav relative  py-1.5 px-2 text-xl font-bold uppercase mx-2">
-				<a class="text-zinc-500 hover:bg-zinc-300 ml-4 " href="{{ .Site.BaseURL }}">首页</a>
-				<a class="text-zinc-500 ml-4 " href="{{ .Site.BaseURL }}">工具</a>
-				<a class="text-zinc-500 ml-4" href="/global">国际服</a>
-				<a class="text-zinc-500 ml-4" href="/about">关于</a>
+				{{ range .Site.Menus.main }}
+				<a class="text-zinc-500 hover:bg-zinc-300 ml-4 " href="{{ .URL }}">{{ .Name }}</a>
+				{{ end }}
 			</div>
 		</div>
 		<div style="display:none" class="flex items-center ml-auto">

@@ -23,25 +23,19 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	mainSections = 'posts'
 
 	[[params.slides]]
-    title = "皇室战争新版本更新，或将加入新天梯"
-    image = "/global_banner.jpg"
-    description = "全新英雄登场，战斗系统升级"
-    date = "2024-03-15"
-    link = "/posts/update-2024"
+    title = "皇室战争国际服苹果手机安装指南"
+    image = "/ios_banner.jpg"
+    description = "苹果手机玩家必看"
+    date = "2025-03-17"
+    link = "/posts/clashroyale/2025/03/how-to-play-global-clash-royale"
 
-  [[params.slides]]
-    title = "2024年度最佳卡组"
-    image = "/about.webp"
-    description = "专业选手推荐，助你上分"
-    date = "2024-03-14"
-    link = "/posts/best-deck-2024"
+	[[params.slides]]
+    title = "皇室战争国际服安卓手机安装指南"
+    image = "/android_banner.jpg"
+    description = "安卓手机玩家必看"
+    date = "2025-03-17"
+    link = "/posts/clashroyale/2025/03/how_to_install_clashroyale_android"
 
-  [[params.slides]]
-    title = "新手入门攻略"
-    image = "/global_banner.jpg"
-    description = "从零开始的皇室之旅"
-    date = "2024-03-13"
-    link = "/posts/beginner-guide"
 
 
 [menu] # Menu management
@@ -54,8 +48,8 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 		pageRef = '/tools'
 		weight = 15
 	[[menu.main]]
-		name = '国际服'
-		pageRef = '/global'
+		name = '资源'
+		pageRef = '/resources'
 		weight = 20
 	[[menu.main]]
 		name = '关于'
