@@ -23,6 +23,13 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	mainSections = 'posts'
 
 	[[params.slides]]
+    title = "Moco即将全球上线"
+    image = "/moco_is_going_global.png"
+    description = "Supercell的全新手游Moco即将全球发布"
+    date = "2025-03-18"
+    link = "/posts/moco/2025/03/moco_is_going_global"
+
+	[[params.slides]]
     title = "皇室战争国际服苹果手机安装指南"
     image = "/ios_banner.jpg"
     description = "苹果手机玩家必看"
@@ -35,6 +42,8 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
     description = "安卓手机玩家必看"
     date = "2025-03-17"
     link = "/posts/clashroyale/2025/03/how_to_install_clashroyale_android"
+
+
 
 
 
