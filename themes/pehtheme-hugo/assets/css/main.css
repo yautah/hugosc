@@ -1608,8 +1608,12 @@ video {
 }
 
 .text-slide {
-  font-size: 1.6rem;
-  line-height: 1.7rem;
+  font-size: 1.25rem;
+  line-height: 1.4rem;
+}
+.text-slide-desc {
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
 
 .text-sm {
@@ -2170,6 +2174,11 @@ video {
   line-height: 2.5rem;
 }
 
+.md\:text-slide-desc {
+  font-size: 1.25rem;
+  line-height: 1.4rem;
+}
+
   .md\:aspect-slide {
     aspect-ratio: 16/5;
   }
@@ -2251,6 +2260,11 @@ video {
 .lg\:text-slide {
   font-size: 2.75rem;
   line-height: 3.2rem;
+}
+
+.lg\:text-slide-desc {
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 }
 
