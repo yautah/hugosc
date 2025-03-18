@@ -15,9 +15,6 @@ draft: false
 今天来讲一下，皇室战争国际服在安卓手机上的最新安装方法。  
   
   
-![](b03fc75d52cb8cbf73a3989e20a1a77e.png)  
-  
-  
 此前，我曾经做过一期《[苹果手机皇室战争国际服的安装指南](/posts/clashroyale/2025/03/how-to-play-global-clash-royale)  
 》，主要面向苹果手机用户。当时，对于安卓手机而言，即便用户不熟悉通过 Google Play 进行安装，在网络上随意找寻一个客户端进行安装应可顺利完成。  
   
