@@ -23,11 +23,11 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	mainSections = 'posts'
 
 	[[params.slides]]
-    title = "Moco即将全球上线"
-    image = "/moco_is_going_global.png"
-    description = "Supercell的全新手游Moco即将全球发布"
-    date = "2025-03-18"
-    link = "/posts/moco/2025/03/moco_is_going_global"
+    title = "Moco入坑新手问题汇总"
+    image = "/moco-qa.webp"
+    description = "超级细胞的新游戏mo.co新手必看指南"
+    date = "2025-03-20"
+    link = "/posts/moco/2025/03/moco_qa"
 
 	[[params.slides]]
     title = "皇室战争国际服苹果手机安装指南"
