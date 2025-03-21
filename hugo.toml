@@ -72,3 +72,8 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
     extended = true
     min = "0.116.0"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允许 Markdown 文件中的 HTML
+
