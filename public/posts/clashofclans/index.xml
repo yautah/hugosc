@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>部落冲突 on 超级细胞情报站</title>
-    <link>http://192.168.0.101:1313/posts/clashofclans/</link>
+    <link>http://192.168.0.104:1313/posts/clashofclans/</link>
     <description>Recent content in 部落冲突 on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <atom:link href="http://192.168.0.101:1313/posts/clashofclans/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.0.104:1313/posts/clashofclans/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

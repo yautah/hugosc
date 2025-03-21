@@ -53,6 +53,21 @@ draft: false
 
 锁定直播，不仅享受高水平对局，还能赢取专属奖励。  
 
+<div style="width: 100%; text-align: center;">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6805938250941375"
+      crossorigin="anonymous"></script>
+    <!-- footer广告 -->
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6805938250941375"
+      data-ad-slot="6009517339"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
 
 
 ## 参赛队伍
@@ -77,7 +92,6 @@ draft: false
 - **Ryley** – 快攻流派代表，Z 世代操作天花板  
 
 老将 vs 新生，经典 vs 现代，谁将成为最终的胜利者？  
-
 
 
 ## 如何观看
