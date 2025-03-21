@@ -10,7 +10,7 @@ theme = 'pehtheme-hugo'
 
 pageSize = '6' # <- Set the desired number of posts per page 
 summaryLength = '20' # <- 20 words are approximately 160 characters
-googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
+googleAnalytics = 'G-VNF9P6RDMW' # <- Your GA-4
 disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
 
 
