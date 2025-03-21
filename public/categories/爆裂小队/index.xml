@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>爆裂小队 on 超级细胞情报站</title>
-    <link>http://192.168.0.100:1313/categories/%E7%88%86%E8%A3%82%E5%B0%8F%E9%98%9F/</link>
+    <link>http://192.168.0.101:1313/categories/%E7%88%86%E8%A3%82%E5%B0%8F%E9%98%9F/</link>
     <description>Recent content in 爆裂小队 on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 10 Mar 2025 18:15:05 +0000</lastBuildDate>
-    <atom:link href="http://192.168.0.100:1313/categories/%E7%88%86%E8%A3%82%E5%B0%8F%E9%98%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.0.101:1313/categories/%E7%88%86%E8%A3%82%E5%B0%8F%E9%98%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>变形金刚联名活动再次回归！</title>
-      <link>http://192.168.0.100:1313/posts/squadbusters/2025/03/transformers-is-back/</link>
+      <link>http://192.168.0.101:1313/posts/squadbusters/2025/03/transformers-is-back/</link>
       <pubDate>Mon, 10 Mar 2025 18:15:05 +0000</pubDate>
-      <guid>http://192.168.0.100:1313/posts/squadbusters/2025/03/transformers-is-back/</guid>
+      <guid>http://192.168.0.101:1313/posts/squadbusters/2025/03/transformers-is-back/</guid>
       <description>&lt;h2 id=&#34;活动简介&#34;&gt;活动简介&lt;/h2&gt;&#xA;&lt;p&gt;变形金刚活动再次回归！本次活动将带来全新的活动商店和宇宙大帝模式，以及大量免费奖励！&lt;/p&gt;</description>
     </item>
   </channel>

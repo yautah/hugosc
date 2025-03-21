@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>资讯 on 超级细胞情报站</title>
-    <link>http://192.168.0.100:1313/tags/%E8%B5%84%E8%AE%AF/</link>
+    <link>http://192.168.0.101:1313/tags/%E8%B5%84%E8%AE%AF/</link>
     <description>Recent content in 资讯 on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 22 Mar 2025 03:23:23 +0800</lastBuildDate>
-    <atom:link href="http://192.168.0.100:1313/tags/%E8%B5%84%E8%AE%AF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.0.101:1313/tags/%E8%B5%84%E8%AE%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>皇室战争：锁定传奇选手巅峰对决，领取观赛奖励！</title>
-      <link>http://192.168.0.100:1313/posts/clashroyale/2025/03/retro-royale-showdown-boomers-vs-zoomers/</link>
+      <link>http://192.168.0.101:1313/posts/clashroyale/2025/03/retro-royale-showdown-boomers-vs-zoomers/</link>
       <pubDate>Sat, 22 Mar 2025 03:23:23 +0800</pubDate>
-      <guid>http://192.168.0.100:1313/posts/clashroyale/2025/03/retro-royale-showdown-boomers-vs-zoomers/</guid>
+      <guid>http://192.168.0.101:1313/posts/clashroyale/2025/03/retro-royale-showdown-boomers-vs-zoomers/</guid>
       <description>&lt;p&gt;传奇碰撞，巅峰对决！&lt;/p&gt;&#xA;&lt;p&gt;《皇室战争》电竞史上的 10 位传奇选手，即将迎来一场前所未有的对决——&lt;strong&gt;婴儿潮世代 vs Z世代&lt;/strong&gt;！&lt;/p&gt;</description>
     </item>
     <item>
       <title>怎么才能玩到超级细胞新游《mo.co》？入坑各类问题汇总~</title>
-      <link>http://192.168.0.100:1313/posts/moco/2025/03/moco_qa/</link>
+      <link>http://192.168.0.101:1313/posts/moco/2025/03/moco_qa/</link>
       <pubDate>Thu, 20 Mar 2025 04:15:05 +0000</pubDate>
-      <guid>http://192.168.0.100:1313/posts/moco/2025/03/moco_qa/</guid>
+      <guid>http://192.168.0.101:1313/posts/moco/2025/03/moco_qa/</guid>
       <description>&lt;p&gt;超级细胞的新游戏Mo.co已经正式上线，现总结了大家的一些常见问题和疑问，总结一点小指南，希望对大家有所帮助。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Moco即将全球上线</title>
-      <link>http://192.168.0.100:1313/posts/moco/2025/03/moco_is_going_global/</link>
+      <link>http://192.168.0.101:1313/posts/moco/2025/03/moco_is_going_global/</link>
       <pubDate>Tue, 18 Mar 2025 04:15:05 +0000</pubDate>
-      <guid>http://192.168.0.100:1313/posts/moco/2025/03/moco_is_going_global/</guid>
+      <guid>http://192.168.0.101:1313/posts/moco/2025/03/moco_is_going_global/</guid>
       <description>&lt;p&gt;Moco是什么？&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.webp&#34; alt=&#34;moco封面图&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Moco是超级细胞开发已久的一款轻度mmo手游，之前已经在小范围进行了多轮内部创作者测试，去年一年在社区也是相当活跃。&lt;/p&gt;</description>
     </item>
   </channel>

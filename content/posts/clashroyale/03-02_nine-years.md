@@ -2,7 +2,7 @@
 
 ---
 title: "皇室战争：九年，那一段简史~"
-image: "images/2025/9years.png"
+image: "images/2025/9years.jpeg"
 description: "今天，3月2日，皇室战争的生日！"
 date: 2025-03-02 12:15:05
 slug: /nine-years/
