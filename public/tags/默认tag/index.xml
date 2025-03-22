@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>默认tag on 超级细胞情报站</title>
+    <link>http://192.168.0.104:1313/tags/%E9%BB%98%E8%AE%A4tag/</link>
+    <description>Recent content in 默认tag on 超级细胞情报站</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <atom:link href="http://192.168.0.104:1313/tags/%E9%BB%98%E8%AE%A4tag/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
