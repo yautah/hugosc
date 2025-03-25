@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教程 on 超级细胞情报站</title>
-    <link>http://192.168.0.104:1313/tags/%E6%95%99%E7%A8%8B/</link>
+    <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 教程 on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 17 Mar 2025 13:15:05 +0000</lastBuildDate>
-    <atom:link href="http://192.168.0.104:1313/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>皇室战争国际服安卓下载、安装全攻略！</title>
-      <link>http://192.168.0.104:1313/posts/clashroyale/2025/03/how_to_install_clashroyale_android/</link>
+      <link>http://localhost:1313/posts/clashroyale/2025/03/how_to_install_clashroyale_android/</link>
       <pubDate>Mon, 17 Mar 2025 13:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/posts/clashroyale/2025/03/how_to_install_clashroyale_android/</guid>
+      <guid>http://localhost:1313/posts/clashroyale/2025/03/how_to_install_clashroyale_android/</guid>
       <description>&lt;p&gt;今天来讲一下，皇室战争国际服在安卓手机上的最新安装方法。&lt;/p&gt;</description>
     </item>
     <item>
       <title>皇室战争国际服下载、安装、更新、畅玩全攻略！</title>
-      <link>http://192.168.0.104:1313/posts/clashroyale/2025/03/how-to-play-global-clash-royale/</link>
+      <link>http://localhost:1313/posts/clashroyale/2025/03/how-to-play-global-clash-royale/</link>
       <pubDate>Mon, 17 Mar 2025 12:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/posts/clashroyale/2025/03/how-to-play-global-clash-royale/</guid>
+      <guid>http://localhost:1313/posts/clashroyale/2025/03/how-to-play-global-clash-royale/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;自从2022年的3月16日皇室战争分服以来，国服彻底沦为皇室战争的国内私服。国服版本不能及时更新、在线人数日益减少、匹配时间过长、各种运营骚操作，真是令人不胜唏嘘。反观国际服的一系列更新动作，卡牌进化、新玩法、升级特惠，火爆的各种官方、民间联赛，着实也让不少国服玩家羡慕不已。&lt;/p&gt;</description>
     </item>
   </channel>

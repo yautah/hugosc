@@ -2,59 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 超级细胞情报站</title>
-    <link>http://192.168.0.104:1313/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 23 Mar 2025 02:38:27 +0800</lastBuildDate>
-    <atom:link href="http://192.168.0.104:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Mar 2025 12:51:11 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>卡牌觉醒</title>
+      <link>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</link>
+      <pubDate>Tue, 25 Mar 2025 12:51:11 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</guid>
+      <description></description>
+    </item>
     <item>
       <title>资讯</title>
-      <link>http://192.168.0.104:1313/tags/%E8%B5%84%E8%AE%AF/</link>
-      <pubDate>Sun, 23 Mar 2025 02:38:27 +0800</pubDate>
-      <guid>http://192.168.0.104:1313/tags/%E8%B5%84%E8%AE%AF/</guid>
+      <link>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</link>
+      <pubDate>Tue, 25 Mar 2025 12:51:11 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>新卡牌</title>
+      <link>http://localhost:1313/tags/%E6%96%B0%E5%8D%A1%E7%89%8C/</link>
+      <pubDate>Mon, 24 Mar 2025 12:43:52 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E6%96%B0%E5%8D%A1%E7%89%8C/</guid>
       <description></description>
     </item>
     <item>
       <title>教程</title>
-      <link>http://192.168.0.104:1313/tags/%E6%95%99%E7%A8%8B/</link>
+      <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</link>
       <pubDate>Mon, 17 Mar 2025 13:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/tags/%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Hot</title>
-      <link>http://192.168.0.104:1313/tags/hot/</link>
+      <link>http://localhost:1313/tags/hot/</link>
       <pubDate>Mon, 10 Mar 2025 18:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/tags/hot/</guid>
+      <guid>http://localhost:1313/tags/hot/</guid>
       <description></description>
     </item>
     <item>
       <title>爆裂资讯</title>
-      <link>http://192.168.0.104:1313/tags/%E7%88%86%E8%A3%82%E8%B5%84%E8%AE%AF/</link>
+      <link>http://localhost:1313/tags/%E7%88%86%E8%A3%82%E8%B5%84%E8%AE%AF/</link>
       <pubDate>Mon, 10 Mar 2025 18:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/tags/%E7%88%86%E8%A3%82%E8%B5%84%E8%AE%AF/</guid>
+      <guid>http://localhost:1313/tags/%E7%88%86%E8%A3%82%E8%B5%84%E8%AE%AF/</guid>
       <description></description>
     </item>
     <item>
       <title>热门</title>
-      <link>http://192.168.0.104:1313/tags/%E7%83%AD%E9%97%A8/</link>
+      <link>http://localhost:1313/tags/%E7%83%AD%E9%97%A8/</link>
       <pubDate>Mon, 10 Mar 2025 18:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/tags/%E7%83%AD%E9%97%A8/</guid>
+      <guid>http://localhost:1313/tags/%E7%83%AD%E9%97%A8/</guid>
       <description></description>
     </item>
     <item>
       <title>皇室资讯</title>
-      <link>http://192.168.0.104:1313/tags/%E7%9A%87%E5%AE%A4%E8%B5%84%E8%AE%AF/</link>
+      <link>http://localhost:1313/tags/%E7%9A%87%E5%AE%A4%E8%B5%84%E8%AE%AF/</link>
       <pubDate>Sun, 09 Mar 2025 12:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/tags/%E7%9A%87%E5%AE%A4%E8%B5%84%E8%AE%AF/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>卡牌觉醒</title>
-      <link>http://192.168.0.104:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</link>
-      <pubDate>Tue, 18 Feb 2025 12:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</guid>
+      <guid>http://localhost:1313/tags/%E7%9A%87%E5%AE%A4%E8%B5%84%E8%AE%AF/</guid>
       <description></description>
     </item>
   </channel>

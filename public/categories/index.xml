@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 超级细胞情报站</title>
-    <link>http://192.168.0.104:1313/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 23 Mar 2025 02:38:27 +0800</lastBuildDate>
-    <atom:link href="http://192.168.0.104:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Mar 2025 12:51:11 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>皇室战争</title>
-      <link>http://192.168.0.104:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</link>
-      <pubDate>Sun, 23 Mar 2025 02:38:27 +0800</pubDate>
-      <guid>http://192.168.0.104:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</guid>
+      <link>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</link>
+      <pubDate>Tue, 25 Mar 2025 12:51:11 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</guid>
       <description></description>
     </item>
     <item>
       <title>Moco</title>
-      <link>http://192.168.0.104:1313/categories/moco/</link>
+      <link>http://localhost:1313/categories/moco/</link>
       <pubDate>Thu, 20 Mar 2025 04:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/categories/moco/</guid>
+      <guid>http://localhost:1313/categories/moco/</guid>
       <description></description>
     </item>
     <item>
       <title>爆裂小队</title>
-      <link>http://192.168.0.104:1313/categories/%E7%88%86%E8%A3%82%E5%B0%8F%E9%98%9F/</link>
+      <link>http://localhost:1313/categories/%E7%88%86%E8%A3%82%E5%B0%8F%E9%98%9F/</link>
       <pubDate>Mon, 10 Mar 2025 18:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/categories/%E7%88%86%E8%A3%82%E5%B0%8F%E9%98%9F/</guid>
+      <guid>http://localhost:1313/categories/%E7%88%86%E8%A3%82%E5%B0%8F%E9%98%9F/</guid>
       <description></description>
     </item>
   </channel>

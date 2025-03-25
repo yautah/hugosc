@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>卡牌觉醒 on 超级细胞情报站</title>
-    <link>http://192.168.0.104:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</link>
+    <link>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</link>
     <description>Recent content in 卡牌觉醒 on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 18 Feb 2025 12:15:05 +0000</lastBuildDate>
-    <atom:link href="http://192.168.0.104:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Mar 2025 12:51:11 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>又一次灾难性的泄密事件，新卡和觉醒卡牌被揭了个底儿掉~</title>
+      <link>http://localhost:1313/posts/clashroyale/2025/03/new-leak-incident/</link>
+      <pubDate>Tue, 25 Mar 2025 12:51:11 +0800</pubDate>
+      <guid>http://localhost:1313/posts/clashroyale/2025/03/new-leak-incident/</guid>
+      <description>&lt;p&gt;必下个月的新卡和觉醒卡牌对大家来说已经不是新鲜事了。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>重生幽灵！觉醒樵夫进入竞技场</title>
-      <link>http://192.168.0.104:1313/posts/clashroyale/2025/02/evo-lumberjack/</link>
+      <link>http://localhost:1313/posts/clashroyale/2025/02/evo-lumberjack/</link>
       <pubDate>Tue, 18 Feb 2025 12:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/posts/clashroyale/2025/02/evo-lumberjack/</guid>
+      <guid>http://localhost:1313/posts/clashroyale/2025/02/evo-lumberjack/</guid>
       <description>&lt;h1 id=&#34;樵夫觉醒&#34;&gt;樵夫觉醒&lt;/h1&gt;&#xA;&lt;p&gt;在最近几个月中，有两种明显的内容更新发布模式：&lt;/p&gt;</description>
     </item>
     <item>
       <title>永久毒云！觉醒吹箭哥布林进入竞技场</title>
-      <link>http://192.168.0.104:1313/posts/clashroyale/2025/01/evo-dart-goblin/</link>
+      <link>http://localhost:1313/posts/clashroyale/2025/01/evo-dart-goblin/</link>
       <pubDate>Sun, 12 Jan 2025 14:15:05 +0000</pubDate>
-      <guid>http://192.168.0.104:1313/posts/clashroyale/2025/01/evo-dart-goblin/</guid>
+      <guid>http://localhost:1313/posts/clashroyale/2025/01/evo-dart-goblin/</guid>
       <description>&lt;p&gt;近几个月，每月的新内容发布基本都遵循以下方式：&lt;/p&gt;</description>
     </item>
   </channel>
