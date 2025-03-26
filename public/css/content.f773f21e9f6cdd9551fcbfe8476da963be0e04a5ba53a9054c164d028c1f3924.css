@@ -1,0 +1,24 @@
+.custom-block.details {
+    border-color: var(--vp-custom-block-details-border);
+    color: var(--vp-custom-block-details-text);
+    background-color: var(--vp-custom-block-details-bg);
+}
+
+.custom-block {
+    margin: 16px 0;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 16px 16px 8px;
+    line-height: 24px;
+    font-size: var(--vp-custom-block-font-size);
+    color: var(--vp-c-text-2);
+}
+
+
+.custom-block.details summary {
+    margin: 0 0 8px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}

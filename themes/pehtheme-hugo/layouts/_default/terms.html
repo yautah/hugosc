@@ -1,3 +1,7 @@
+{{ define "css" }}
+  {{ $contentCSS := resources.Get "css/content.css" | fingerprint }}
+  <link rel="stylesheet" href="{{ $contentCSS.RelPermalink }}">
+{{ end }}
 {{ define "main" }}
 
 {{- partial "content/breadcrumb.html" . -}}
