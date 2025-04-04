@@ -5,10 +5,10 @@
     <loc>http://localhost:1313/posts/clashofclans/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/</loc>
-    <lastmod>2025-04-03T01:38:55+08:00</lastmod>
+    <lastmod>2025-04-04T15:35:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-03T01:38:55+08:00</lastmod>
+    <lastmod>2025-04-04T15:35:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/brawlstars/</loc>
   </url><url>
@@ -19,24 +19,27 @@
     <lastmod>2025-03-20T04:15:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-03T01:38:55+08:00</lastmod>
+    <lastmod>2025-04-04T15:35:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-03T01:38:55+08:00</lastmod>
+    <lastmod>2025-04-04T15:35:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-03T01:38:55+08:00</lastmod>
+    <lastmod>2025-04-04T15:35:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/clashroyale/2025/04/season70-april-2025/</loc>
+    <lastmod>2025-04-04T15:35:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
-    <lastmod>2025-04-03T01:38:55+08:00</lastmod>
+    <lastmod>2025-04-04T15:35:15+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</loc>
+    <lastmod>2025-04-04T15:35:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/04/executioner-evolution-2025-april/</loc>
     <lastmod>2025-04-03T01:38:55+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</loc>
-    <lastmod>2025-04-03T01:38:55+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</loc>
     <lastmod>2025-04-03T01:38:55+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/04/new-champion-boss-bandit/</loc>
@@ -122,9 +125,5 @@
   </url><url>
     <loc>http://localhost:1313/tools/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E9%BB%98%E8%AE%A4tag/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/</loc>
   </url>
 </urlset>
