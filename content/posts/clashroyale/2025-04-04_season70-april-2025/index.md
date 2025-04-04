@@ -64,9 +64,9 @@ draft: false
   
 - **屠夫**（Executioner）  
   
-- **强盗**（Bandit）  
+- **刺客**（Bandit）  
   
-- **火枪手**（Firecracker）  
+- **烟花炮手**（Firecracker）  
   
 - **绿林小队**（Rascals）  
   
