@@ -6,8 +6,15 @@
     <description>Recent content in Categories on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 10 Apr 2025 10:11:28 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 03:23:06 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>皇室战争</title>
+      <link>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</link>
+      <pubDate>Sat, 26 Apr 2025 03:23:06 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Moco</title>
       <link>http://localhost:1313/categories/moco/</link>
@@ -23,10 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>皇室战争</title>
-      <link>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</link>
-      <pubDate>Fri, 04 Apr 2025 15:35:15 +0800</pubDate>
-      <guid>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</guid>
+      <title>默认分类</title>
+      <link>http://localhost:1313/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/</guid>
       <description></description>
     </item>
   </channel>
