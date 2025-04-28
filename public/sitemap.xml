@@ -140,9 +140,5 @@
   </url><url>
     <loc>http://localhost:1313/tools/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E9%BB%98%E8%AE%A4tag/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/</loc>
   </url>
 </urlset>
