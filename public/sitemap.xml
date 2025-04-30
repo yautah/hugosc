@@ -5,10 +5,10 @@
     <loc>http://localhost:1313/posts/clashofclans/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/</loc>
-    <lastmod>2025-04-26T03:23:06+08:00</lastmod>
+    <lastmod>2025-05-01T03:11:26+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-26T03:23:06+08:00</lastmod>
+    <lastmod>2025-05-01T03:11:26+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/brawlstars/</loc>
   </url><url>
@@ -19,21 +19,30 @@
     <lastmod>2025-04-10T10:11:28+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-26T03:23:06+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/clashroyale/2025/04/crl-2025-rulebook/</loc>
-    <lastmod>2025-04-26T03:23:06+08:00</lastmod>
+    <lastmod>2025-05-01T03:11:26+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-26T03:23:06+08:00</lastmod>
+    <lastmod>2025-05-01T03:11:26+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-26T03:23:06+08:00</lastmod>
+    <lastmod>2025-05-01T03:11:26+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
-    <lastmod>2025-04-26T03:23:06+08:00</lastmod>
+    <lastmod>2025-05-01T03:11:26+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/clashroyale/2025/05/season-71-detail/</loc>
+    <lastmod>2025-05-01T03:11:26+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</loc>
+    <lastmod>2025-05-01T03:11:26+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</loc>
+    <lastmod>2025-05-01T02:40:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/clashroyale/2025/05/evo-witch-is-coming/</loc>
+    <lastmod>2025-05-01T02:40:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/clashroyale/2025/04/crl-2025-rulebook/</loc>
     <lastmod>2025-04-26T03:23:06+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/moco/2025/04/squid-blade-rework/</loc>
@@ -61,9 +70,6 @@
     <lastmod>2025-04-04T15:35:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/04/executioner-evolution-2025-april/</loc>
-    <lastmod>2025-04-03T01:38:55+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</loc>
     <lastmod>2025-04-03T01:38:55+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/04/new-champion-boss-bandit/</loc>
