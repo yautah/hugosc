@@ -28,14 +28,14 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
     image = "/ios_banner.jpg"
     description = "苹果手机玩家必看"
     date = "2025-03-17"
-    link = "/posts/clashroyale/2025/03/how-to-play-global-clash-royale"
+    link = "/posts/clashroyale/2025/03/how-to-play-global-clash-royale/"
 
 	[[params.slides]]
     title = "皇室战争国际服安卓手机安装指南"
     image = "/android_banner.jpg"
     description = "安卓手机玩家必看"
     date = "2025-03-17"
-    link = "/posts/clashroyale/2025/03/how_to_install_clashroyale_android"
+    link = "/posts/clashroyale/2025/03/how_to_install_clashroyale_android/"
 
 
 
