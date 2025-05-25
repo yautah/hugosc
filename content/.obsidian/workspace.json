@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
+                "file": "posts/clashroyale/2025-05-25/clash-netflix/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "index"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
+                "file": "posts/clashroyale/2025-05-25/clash-netflix/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
+                "file": "posts/clashroyale/2025-05-25/clash-netflix/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
+                "file": "posts/clashroyale/2025-05-25/clash-netflix/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,17 +171,22 @@
   },
   "active": "e612c4a354a58603",
   "lastOpenFiles": [
+    "posts/clashroyale/2025-05-25/clash-netflix/81e9d9f72dabb0840a0bee35b7f6145abd26ff6d.jpg",
+    "posts/clashroyale/2025-05-24/wip-balance-change-2025-may/index.md",
+    "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
+    "posts/clashroyale/2025-05-25/clash-netflix/index.md",
+    "posts/clashroyale/2025-05-25/clash-netflix/fda5d96368b50decf1e727e04a41e47012d49102.jpg",
+    "posts/clashroyale/2025-05-25/clash-netflix/772e1685b7a3be9d9567477222c0226b38587d1f.jpg",
+    "resources.md",
+    "posts/clashroyale/2025-05-25/clash-netflix",
     "posts/brawlstars/_index.md",
     "about.md",
-    "resources.md",
     "tools.md",
     "未命名.md",
     "未命名.canvas",
-    "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
     "posts/clashroyale/2025-05-03/cards-rework-2025-may/index.md",
     "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale",
     "posts/clashroyale/2025-05-25",
-    "posts/clashroyale/2025-05-24/wip-balance-change-2025-may/index.md",
     "posts/clashroyale/01-01_2024-year-report.md",
     "posts/clashroyale/01-12_evo-dart-goblin.md",
     "posts/clashroyale/_index.md",
