@@ -11,10 +11,14 @@
             "id": "e612c4a354a58603",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "index"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 281.5
   },
   "right": {
     "id": "2642b3d61185b34c",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "index 的反向链接列表"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "index 的出链列表"
             }
           },
           {
@@ -136,19 +142,22 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "index 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,6 +171,20 @@
   },
   "active": "e612c4a354a58603",
   "lastOpenFiles": [
+    "posts/brawlstars/_index.md",
+    "about.md",
+    "resources.md",
+    "tools.md",
+    "未命名.md",
+    "未命名.canvas",
+    "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
+    "posts/clashroyale/2025-05-03/cards-rework-2025-may/index.md",
+    "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale",
+    "posts/clashroyale/2025-05-25",
+    "posts/clashroyale/2025-05-24/wip-balance-change-2025-may/index.md",
+    "posts/clashroyale/01-01_2024-year-report.md",
+    "posts/clashroyale/01-12_evo-dart-goblin.md",
+    "posts/clashroyale/_index.md",
     "posts/moco/2025-04-10_squid_blade_rework/index.md",
     "posts/clashroyale/2025-04-03_executioner-evolution-2025-april/index.md",
     "posts/clashroyale/2025-03-23_boomers_vs_zoomers_results/index.md",
