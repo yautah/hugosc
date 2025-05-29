@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/clashroyale/2025-05-25/clash-netflix/index.md",
+                "file": "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "index"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/clashroyale/2025-05-25/clash-netflix/index.md",
+                "file": "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/clashroyale/2025-05-25/clash-netflix/index.md",
+                "file": "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/clashroyale/2025-05-25/clash-netflix/index.md",
+                "file": "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,12 +171,26 @@
   },
   "active": "e612c4a354a58603",
   "lastOpenFiles": [
-    "posts/clashroyale/2025-05-25/clash-netflix/81e9d9f72dabb0840a0bee35b7f6145abd26ff6d.jpg",
-    "posts/clashroyale/2025-05-24/wip-balance-change-2025-may/index.md",
-    "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
+    "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/ed4985e2-f8b2-44a6-972f-005b6ee29042.webp",
+    "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/f042097f-4f6b-4af9-bf05-eceaa6a82ac0.webp",
+    "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
+    "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/3207840b-cef3-48a0-8708-93b5ba87b07f.webp",
+    "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/3719485f-3a21-4695-9a99-9d4afcf83d4d.webp",
+    "ed4985e2-f8b2-44a6-972f-005b6ee29042 1.webp",
+    "3719485f-3a21-4695-9a99-9d4afcf83d4d 1.webp",
+    "3207840b-cef3-48a0-8708-93b5ba87b07f 1.webp",
+    "f042097f-4f6b-4af9-bf05-eceaa6a82ac0 4.webp",
+    "ed4985e2-f8b2-44a6-972f-005b6ee29042.webp",
+    "3719485f-3a21-4695-9a99-9d4afcf83d4d.webp",
+    "posts/clashroyale/2025-05-30/evo-inferno-dragon/index.md",
+    "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job",
+    "posts/clashroyale/2025-05-29",
+    "posts/clashroyale/2025-05-03/cards-rework-2025-may/index.md",
     "posts/clashroyale/2025-05-25/clash-netflix/index.md",
-    "posts/clashroyale/2025-05-25/clash-netflix/fda5d96368b50decf1e727e04a41e47012d49102.jpg",
-    "posts/clashroyale/2025-05-25/clash-netflix/772e1685b7a3be9d9567477222c0226b38587d1f.jpg",
+    "posts/clashroyale/2025-05-30/evo-inferno-dragon",
+    "posts/clashroyale/2025-05-30",
+    "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
+    "posts/clashroyale/2025-05-24/wip-balance-change-2025-may/index.md",
     "resources.md",
     "posts/clashroyale/2025-05-25/clash-netflix",
     "posts/brawlstars/_index.md",
@@ -184,7 +198,6 @@
     "tools.md",
     "未命名.md",
     "未命名.canvas",
-    "posts/clashroyale/2025-05-03/cards-rework-2025-may/index.md",
     "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale",
     "posts/clashroyale/2025-05-25",
     "posts/clashroyale/01-01_2024-year-report.md",

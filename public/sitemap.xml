@@ -5,10 +5,10 @@
     <loc>http://localhost:1313/posts/clashofclans/</loc>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/</loc>
-    <lastmod>2025-05-25T19:50:50+08:00</lastmod>
+    <lastmod>2025-05-30T01:29:36+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-25T19:50:50+08:00</lastmod>
+    <lastmod>2025-05-30T01:29:36+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/brawlstars/</loc>
   </url><url>
@@ -19,24 +19,33 @@
     <lastmod>2025-04-10T10:11:28+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-05-25T19:50:50+08:00</lastmod>
+    <lastmod>2025-05-30T01:29:36+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-25T19:50:50+08:00</lastmod>
+    <lastmod>2025-05-30T01:29:36+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-30T01:29:36+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
+    <lastmod>2025-05-30T01:29:36+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/clashroyale/2025/05/evo-inferno-dragon/</loc>
+    <lastmod>2025-05-30T01:29:36+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</loc>
+    <lastmod>2025-05-30T01:29:36+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</loc>
+    <lastmod>2025-05-30T01:29:36+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/clashroyale/2025/05/inferno-dragon-looking-for-job/</loc>
+    <lastmod>2025-05-29T01:42:32+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81/</loc>
     <lastmod>2025-05-25T19:50:50+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/05/clash-netflix/</loc>
-    <lastmod>2025-05-25T19:50:50+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-25T19:50:50+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
-    <lastmod>2025-05-25T19:50:50+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</loc>
     <lastmod>2025-05-25T19:50:50+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/05/available-rewards-in-clashroyale/</loc>
@@ -56,9 +65,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/05/season-71-detail/</loc>
     <lastmod>2025-05-01T03:11:26+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</loc>
-    <lastmod>2025-05-01T02:40:44+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/05/evo-witch-is-coming/</loc>
     <lastmod>2025-05-01T02:40:44+08:00</lastmod>
@@ -164,13 +170,5 @@
   </url><url>
     <loc>http://localhost:1313/tools/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/buluochongtu/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/i/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E9%BB%98%E8%AE%A4tag/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/</loc>
   </url>
 </urlset>
