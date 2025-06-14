@@ -1,0 +1,16 @@
+{
+  "defaultStyle": "obsidian-light",
+  "defaultHighlight": "默认",
+  "showStyleUI": true,
+  "linkStyle": "inline",
+  "embedStyle": "content",
+  "lineNumber": true,
+  "authKey": "112412312312121",
+  "wxInfo": [],
+  "math": "latex",
+  "useCustomCss": false,
+  "baseCSS": "",
+  "watermark": "",
+  "useFigcaption": false,
+  "customCSSNote": ""
+}
