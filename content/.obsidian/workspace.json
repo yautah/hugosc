@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ed925780fbe025d2",
+        "id": "06c0342f677d8a66",
         "type": "tabs",
         "children": [
           {
-            "id": "e612c4a354a58603",
+            "id": "cc421328dc02ce08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/moco/2025-06-12/chapter-2-is-coming/index.md",
+                "file": "posts/squadbusters/2025-06-15/june-update/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -142,17 +142,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "e1a904df1ba12a88",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {},
+              "icon": "viewIcon",
+              "title": "Markdown-Autocomplete"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -166,24 +175,30 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "9c732e7a8e3588fb",
+  "active": "cc421328dc02ce08",
   "lastOpenFiles": [
-    "posts/moco/2025-06-12/chapter-2-is-coming/EliteModules.png",
-    "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
-    "posts/moco/2025-06-12/chapter-2-is-coming/WeaponsV2.png",
-    "posts/moco/2025-06-12/chapter-2-is-coming/patch_notes_hero.png",
-    "posts/moco/2025-06-12/chapter-2-is-coming/Passives.png",
-    "posts/moco/2025-06-12/chapter-2-is-coming/Gadgets.png",
-    "f042097f-4f6b-4af9-bf05-eceaa6a82ac0 1.webp",
-    "f042097f-4f6b-4af9-bf05-eceaa6a82ac0 2.webp",
-    "f042097f-4f6b-4af9-bf05-eceaa6a82ac0 4.webp",
-    "f042097f-4f6b-4af9-bf05-eceaa6a82ac0 3.webp",
-    "f042097f-4f6b-4af9-bf05-eceaa6a82ac0.webp",
-    "posts/brawlstars/2025-06-05/moba-and-free-skins/index.md",
+    "posts/squadbusters/2025-06-15/june-update/index-1749920294353.png",
+    "posts/squadbusters/2025-06-15/june-update/index-1749920279106.png",
+    "posts/squadbusters/2025-06-15/june-update/index-1749920269885.png",
+    "posts/squadbusters/2025-06-15/june-update/index-1749920254015.png",
+    "posts/squadbusters/2025-06-15/june-update/index-1749920240210.png",
+    "posts/squadbusters/2025-06-15/june-update/index-1749920231518.png",
+    "posts/squadbusters/2025-06-15/june-update/index-1749920204856.webp",
+    "posts/squadbusters/2025-06-15/june-update/index.md",
+    "posts/squadbusters/2025-06-15/june-update/SQUAD UPdate- Sonic Joins Squad Busters! Dr. Eggman Modifier, Event Details, and NEW Hero?! 🌀💨-0001.webp",
+    "index-1749920122263.webp",
+    "posts/squadbusters/2025-06-15/june-update/SQUAD UPdate- Sonic Joins Squad Busters! Dr. Eggman Modifier, Event Details, and NEW Hero?! 🌀💨-0002.png",
+    "posts/squadbusters/2025-06-15/june-update/SQUAD UPdate- Sonic Joins Squad Busters! Dr. Eggman Modifier, Event Details, and NEW Hero?! 🌀💨-0003.png",
     "posts/moco/2025-06-12/chapter-2-is-coming/index.md",
+    "posts/squadbusters/2025-06-15/june-update",
+    "posts/squadbusters/2025-06-15",
+    "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
+    "posts/brawlstars/2025-06-05/moba-and-free-skins/index.md",
     "posts/moco/2025-06-12/chapter-2-is-coming",
     "posts/moco/2025-06-12",
     "posts/clashofclans/2025-06-04/supercells-15th-anniversary-art/index.md",
@@ -197,8 +212,6 @@
     "posts/brawlstars/2025-06-03/rip-masteries",
     "posts/brawlstars/2025-06-03",
     "posts/clashroyale/2025-05-31/balance_changes_june_2025/index.md",
-    "posts/clashofclans/2025-06-01/dark-days-are-upon-us",
-    "posts/clashofclans/2025-06-01",
     "posts/clashroyale/2025-05-31/qlash-dragon-league-gold-edition/index.md",
     "posts/clashroyale/2025-05-31/season-72-june-2025/index.md",
     "posts/clashroyale/2025-05-30/evo-inferno-dragon/index.md",
@@ -215,7 +228,6 @@
     "posts/clashroyale/01-12_evo-dart-goblin.md",
     "posts/clashroyale/_index.md",
     "posts/moco/2025-04-10_squid_blade_rework/index.md",
-    "posts/clashroyale/2025-04-03_executioner-evolution-2025-april/index.md",
-    "posts/clashroyale/2025-03-23_boomers_vs_zoomers_results/index.md"
+    "posts/clashroyale/2025-04-03_executioner-evolution-2025-april/index.md"
   ]
 }
