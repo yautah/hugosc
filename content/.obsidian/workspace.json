@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/clashofclans/2025-06-15/june-update-clashofclans/index.md",
+                "file": "posts/clashofclans/2025-06-16/lets-get-crafty-update/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "index"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/clashofclans/2025-06-15/june-update-clashofclans/index.md",
+                "file": "posts/clashofclans/2025-06-16/lets-get-crafty-update/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/clashofclans/2025-06-15/june-update-clashofclans/index.md",
+                "file": "posts/clashofclans/2025-06-16/lets-get-crafty-update/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,23 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/clashofclans/2025-06-15/june-update-clashofclans/index.md",
+                "file": "posts/clashofclans/2025-06-16/lets-get-crafty-update/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "index 的大纲"
-            }
-          },
-          {
-            "id": "e1a904df1ba12a88",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {},
-              "icon": "viewIcon",
-              "title": "Markdown-Autocomplete"
             }
           },
           {
@@ -170,9 +160,19 @@
               "icon": "clipboard-paste",
               "title": "笔记预览"
             }
+          },
+          {
+            "id": "257c103621a72946",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {},
+              "icon": "viewIcon",
+              "title": "Markdown-Autocomplete"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,21 +194,27 @@
   },
   "active": "cc421328dc02ce08",
   "lastOpenFiles": [
-    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924791897.png",
-    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924734397.png",
-    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924618369.png",
-    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924551906.png",
-    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924518361.png",
-    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924450276.png",
-    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924347737.png",
-    "posts/squadbusters/2025-06-15/june-update/index.md",
     "posts/clashofclans/2025-06-15/june-update-clashofclans/index.md",
+    "posts/clashofclans/2025-06-16/lets-get-crafty-update/index.md",
+    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924791897.png",
+    "posts/clashofclans/2025-06-16/lets-get-crafty-update/index-1749924791897.png",
+    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924347737.png",
+    "posts/clashofclans/2025-06-16/lets-get-crafty-update/index-1749924450276.png",
+    "posts/clashofclans/2025-06-16/lets-get-crafty-update/index-1749924347737.png",
+    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924450276.png",
+    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924518361.png",
+    "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/index.md",
+    "posts/clashofclans/2025-06-16/lets-get-crafty-update",
+    "posts/clashofclans/2025-06-16",
+    "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/d00eb508-1281-44ae-ab40-296ff20343bc.gif",
+    "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/af5c0be3-0aac-4478-b3b6-53e60bc6ea68.png",
+    "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/QQ20250616-220042.png",
+    "posts/squadbusters/03-11_transformers-is-back.md",
+    "posts/squadbusters/2025-06-16/sonic-joins-squad-busters",
+    "posts/squadbusters/2025-06-16",
+    "posts/squadbusters/2025-06-15/june-update/index.md",
     "posts/clashofclans/2025-06-15/june-update-clashofclans",
     "posts/clashofclans/2025-06-15",
-    "posts/squadbusters/2025-06-15/june-update/index-1749920294353.png",
-    "posts/squadbusters/2025-06-15/june-update/index-1749920279106.png",
-    "posts/squadbusters/2025-06-15/june-update/index-1749920269885.png",
-    "posts/squadbusters/2025-06-15/june-update/index-1749920254015.png",
     "posts/moco/2025-06-12/chapter-2-is-coming/index.md",
     "posts/squadbusters/2025-06-15/june-update",
     "posts/squadbusters/2025-06-15",
@@ -217,11 +223,7 @@
     "posts/moco/2025-06-12/chapter-2-is-coming",
     "posts/moco/2025-06-12",
     "posts/clashofclans/2025-06-04/supercells-15th-anniversary-art/index.md",
-    "posts/brawlstars/2025-06-05/moba-and-free-skins",
-    "posts/brawlstars/2025-06-05",
     "posts/brawlstars/2025-06-03/rip-masteries/index.md",
-    "posts/clashofclans/2025-06-04/supercells-15th-anniversary-art",
-    "posts/clashofclans/2025-06-04",
     "posts/brawlstars/_index.md",
     "posts/clashofclans/2025-06-01/dark-days-are-upon-us/index.md",
     "posts/clashroyale/2025-05-31/balance_changes_june_2025/index.md",
@@ -237,9 +239,6 @@
     "tools.md",
     "未命名.md",
     "未命名.canvas",
-    "posts/clashroyale/01-01_2024-year-report.md",
-    "posts/clashroyale/01-12_evo-dart-goblin.md",
-    "posts/clashroyale/_index.md",
-    "posts/moco/2025-04-10_squid_blade_rework/index.md"
+    "posts/clashroyale/01-01_2024-year-report.md"
   ]
 }
