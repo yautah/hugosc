@@ -1,6 +1,6 @@
 ---
 title: mo.co 更新公告：重要改动及最新进展～
-image: /images/2025/mocoupdae.jpeg
+image: /images/2025/mocoupdate.jpeg
 description: 官方 Reddit 关于 moco 第二章更新内容、已知问题、平衡调整和后续计划的相关问题。
 date: 2025-06-17T15:17:32+08:00
 slug: update-on-mocos-june-update
