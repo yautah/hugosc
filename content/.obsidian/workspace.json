@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index.md",
+                "file": "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index.md",
+                "file": "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index.md",
+                "file": "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index.md",
+                "file": "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -194,12 +194,19 @@
   },
   "active": "cc421328dc02ce08",
   "lastOpenFiles": [
+    "posts/brawlstars/2025-06-17/matcherino-tournament-rework/index.md",
+    "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
+    "posts/moco/2025-06-17/an_update_on_mocos_june_update",
+    "posts/moco/2025-06-17",
+    "posts/brawlstars/2025-06-17/matcherino-tournament-rework/index-1750143263278.avif",
+    "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index.md",
+    "posts/brawlstars/2025-06-17/matcherino-tournament-rework",
+    "posts/brawlstars/2025-06-17",
     "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index-1750096723235.png",
     "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index-1750096713375.jpeg",
     "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index-1750096709694.jpeg",
     "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index-1750096702737.jpeg",
     "posts/squadbusters/2025-06-17/spike-and-balance-changes/index.md",
-    "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index.md",
     "posts/clashroyale/2025-06-17/clash-mini-maybe-back",
     "posts/clashroyale/2025-06-17",
     "posts/squadbusters/2025-06-17/spike-and-balance-changes/index-1750093067863.jpeg",
@@ -210,18 +217,12 @@
     "posts/squadbusters/2025-06-17",
     "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/a8deb-17499192619794-1920.webp",
     "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/191ad7f0-2135-40cd-a4f5-1e230016f524.png",
-    "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/4f903942-30c9-4fa3-b35f-c11491a53bf3.png",
     "posts/clashofclans/2025-06-16/lets-get-crafty-update/index.md",
     "posts/clashofclans/2025-06-15/june-update-clashofclans/index.md",
-    "posts/clashofclans/2025-06-15/june-update-clashofclans/index-1749924791897.png",
     "posts/clashofclans/2025-06-16/lets-get-crafty-update",
     "posts/clashofclans/2025-06-16",
     "posts/squadbusters/03-11_transformers-is-back.md",
-    "posts/squadbusters/2025-06-16/sonic-joins-squad-busters",
-    "posts/squadbusters/2025-06-16",
     "posts/squadbusters/2025-06-15/june-update/index.md",
-    "posts/clashofclans/2025-06-15/june-update-clashofclans",
-    "posts/clashofclans/2025-06-15",
     "posts/moco/2025-06-12/chapter-2-is-coming/index.md",
     "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
     "posts/brawlstars/2025-06-05/moba-and-free-skins/index.md",
@@ -239,7 +240,6 @@
     "posts/clashroyale/2025-05-24/wip-balance-change-2025-may/index.md",
     "resources.md",
     "about.md",
-    "tools.md",
     "未命名.canvas"
   ]
 }
