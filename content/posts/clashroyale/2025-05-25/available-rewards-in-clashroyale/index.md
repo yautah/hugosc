@@ -40,6 +40,8 @@ draft: false
 | [点击这里](https://link.clashroyale.com/en/?action=voucher&code=db13f72b-93ce-4005-93ec-2e3832662125) | 爆裂小队主题塔皮 | ❌ |
 | [点击这里](https://link.clashroyale.com/en/?action=voucher&code=d8cd459a-2ae0-4883-9a27-7ac4a38517c8) | 野蛮人表情 | ❌ |
 | [点击这里](https://link.clashroyale.com/cn/?action=voucher&code=dd2d4beb-6948-43ae-a59e-7e3c5cbf5ba5) | 3个惊喜宝箱 | ✅ |
+| [点击这里](https://store.supercell.com/zh-cn/clashroyale)-([查看教程](https://www.bilibili.com/video/BV1wy7pzYEQt)) | 凶猛飞龙表情 | ✅ |
+
 
 
 
