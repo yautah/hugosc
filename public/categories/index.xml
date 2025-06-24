@@ -6,12 +6,12 @@
     <description>Recent content in Categories on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Jun 2025 22:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 23:37:29 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>荒野乱斗</title>
       <link>http://localhost:1313/categories/%E8%8D%92%E9%87%8E%E4%B9%B1%E6%96%97/</link>
-      <pubDate>Thu, 19 Jun 2025 22:35:00 +0800</pubDate>
+      <pubDate>Sat, 21 Jun 2025 23:37:29 +0800</pubDate>
       <guid>http://localhost:1313/categories/%E8%8D%92%E9%87%8E%E4%B9%B1%E6%96%97/</guid>
       <description></description>
     </item>
@@ -48,6 +48,13 @@
       <link>http://localhost:1313/categories/moco/</link>
       <pubDate>Thu, 12 Jun 2025 20:53:12 +0800</pubDate>
       <guid>http://localhost:1313/categories/moco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>默认</title>
+      <link>http://localhost:1313/categories/%E9%BB%98%E8%AE%A4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E9%BB%98%E8%AE%A4/</guid>
       <description></description>
     </item>
   </channel>

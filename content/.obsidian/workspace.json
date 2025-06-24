@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview/index.md",
-                "mode": "preview",
-                "source": true
+                "file": "resources.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "resources"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview/index.md",
+                "file": "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview/index.md",
+                "file": "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview/index.md",
+                "file": "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -194,33 +194,34 @@
   },
   "active": "cc421328dc02ce08",
   "lastOpenFiles": [
-    "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress/index.md",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index.md",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750537117973.png",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536383502.png",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536379024.png",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536199529.png",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536125763.png",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536113632.png",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536063588.png",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750535831228.png",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750535754809.png",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750535545733.webp",
     "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview/index.md",
+    "posts/brawlstars/2025-06-22/brawl-talk-june-2025",
+    "posts/brawlstars/2025-06-22",
+    "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress/index.md",
     "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview",
     "posts/brawlstars/2025-06-20",
     "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index.md",
     "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index.md",
-    "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress/index-1750358499870.png",
-    "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress/index-1750358490827.png",
-    "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress/index-1750358455027.png",
-    "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress/index-1750358449290.png",
-    "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress/index-1750358241790.png",
     "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
     "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress",
     "posts/clashroyale/2025-06-20",
-    "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index-1750303852191.jpg",
-    "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index-1750303847346.jpg",
-    "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index-1750303829832.jpg",
-    "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index-1750303819088.jpg",
     "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
     "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame",
     "posts/clashofclans/2025-06-19",
     "posts/brawlstars/2025-06-17/matcherino-tournament-rework/index.md",
     "posts/moco/2025-06-17/an_update_on_mocos_june_update",
     "posts/moco/2025-06-17",
-    "posts/brawlstars/2025-06-17/matcherino-tournament-rework/index-1750143263278.avif",
-    "posts/brawlstars/2025-06-17/matcherino-tournament-rework",
-    "posts/brawlstars/2025-06-17",
     "posts/squadbusters/2025-06-17/spike-and-balance-changes/index.md",
     "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/index.md",
     "posts/clashofclans/2025-06-16/lets-get-crafty-update/index.md",
@@ -238,8 +239,6 @@
     "posts/clashroyale/2025-05-31/qlash-dragon-league-gold-edition/index.md",
     "posts/clashroyale/2025-05-31/season-72-june-2025/index.md",
     "posts/clashroyale/2025-05-30/evo-inferno-dragon/index.md",
-    "posts/clashroyale/2025-05-03/cards-rework-2025-may/index.md",
-    "posts/clashroyale/2025-05-25/clash-netflix/index.md",
     "未命名.canvas"
   ]
 }
