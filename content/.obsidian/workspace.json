@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources.md",
+                "file": "posts/clashroyale/2025-06-25/new-evo-card-speculation/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "resources"
+              "title": "index"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 339.5
   },
   "right": {
     "id": "2642b3d61185b34c",
@@ -194,17 +194,27 @@
   },
   "active": "cc421328dc02ce08",
   "lastOpenFiles": [
+    "posts/clashroyale/2025-06-25/clash-mini-confirmed/index.md",
+    "posts/clashroyale/2025-06-25/clash-mini-confirmed/index-1750832607856.webp",
+    "posts/clashroyale/2025-06-25/new-evo-card-speculation/index.md",
+    "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
+    "posts/moco/2025-06-17/an_update_on_mocos_june_update/index-1750830926651.png",
+    "posts/clashroyale/2025-06-25/new-evo-card-speculation/index-1750833386706.webp",
+    "posts/clashroyale/2025-06-25/new-evo-card-speculation/index-1750833381610.webp",
+    "posts/clashroyale/2025-06-25/new-evo-card-speculation/index-1750833374914.webp",
+    "posts/clashroyale/2025-06-25/new-evo-card-speculation/index-1750833371980.webp",
+    "posts/clashroyale/2025-06-25/new-evo-card-speculation/index-1750833365709.webp",
+    "posts/clashroyale/2025-06-25/new-evo-card-speculation/index-1750833357816.webp",
+    "posts/clashroyale/2025-06-25/new-evo-card-speculation",
+    "posts/clashroyale/2025-06-25/clash-mini-confirmed",
+    "posts/moco/2025-06-25/moco-update-in-june/index-1750830984352.png",
+    "posts/moco/2025-06-25/moco-update-in-june/index-1750830931773.png",
+    "posts/moco/2025-06-25/moco-update-in-june/index.md",
+    "posts/moco/2025-06-25/moco-update-in-june",
+    "posts/moco/2025-06-25",
+    "posts/clashroyale/2025-06-25",
+    "resources.md",
     "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index.md",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750537117973.png",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536383502.png",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536379024.png",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536199529.png",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536125763.png",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536113632.png",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750536063588.png",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750535831228.png",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750535754809.png",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index-1750535545733.webp",
     "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview/index.md",
     "posts/brawlstars/2025-06-22/brawl-talk-june-2025",
     "posts/brawlstars/2025-06-22",
@@ -215,13 +225,7 @@
     "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index.md",
     "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
     "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress",
-    "posts/clashroyale/2025-06-20",
-    "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
-    "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame",
-    "posts/clashofclans/2025-06-19",
     "posts/brawlstars/2025-06-17/matcherino-tournament-rework/index.md",
-    "posts/moco/2025-06-17/an_update_on_mocos_june_update",
-    "posts/moco/2025-06-17",
     "posts/squadbusters/2025-06-17/spike-and-balance-changes/index.md",
     "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/index.md",
     "posts/clashofclans/2025-06-16/lets-get-crafty-update/index.md",
@@ -235,10 +239,6 @@
     "posts/brawlstars/2025-06-03/rip-masteries/index.md",
     "posts/brawlstars/_index.md",
     "posts/clashofclans/2025-06-01/dark-days-are-upon-us/index.md",
-    "posts/clashroyale/2025-05-31/balance_changes_june_2025/index.md",
-    "posts/clashroyale/2025-05-31/qlash-dragon-league-gold-edition/index.md",
-    "posts/clashroyale/2025-05-31/season-72-june-2025/index.md",
-    "posts/clashroyale/2025-05-30/evo-inferno-dragon/index.md",
     "未命名.canvas"
   ]
 }
