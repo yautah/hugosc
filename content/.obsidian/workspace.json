@@ -11,14 +11,12 @@
             "id": "cc421328dc02ce08",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "posts/clashroyale/2025-06-29/summer-update-info/index.md",
-                "mode": "preview",
-                "source": true
+                "file": "posts/brawlstars/2025-06-29/brawl-stars-supercell-id-rewards-skins-promotion/index-1751201314009.png"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "index-1751201314009"
             }
           }
         ]
@@ -53,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:游戏资讯",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,19 +192,25 @@
   },
   "active": "cc421328dc02ce08",
   "lastOpenFiles": [
+    "posts/brawlstars/2025-06-29/brawl-stars-supercell-id-rewards-skins-promotion/index.md",
+    "posts/brawlstars/2025-06-29/brawl-stars-supercell-id-rewards-skins-promotion/index-1751201328206.png",
+    "posts/brawlstars/2025-06-29/brawl-stars-supercell-id-rewards-skins-promotion/index-1751201321431.png",
+    "posts/brawlstars/2025-06-29/brawl-stars-supercell-id-rewards-skins-promotion/index-1751201314009.png",
+    "posts/clashofclans/2025-06-29/clash-of-clans-cyber-futurist-season/index.md",
+    "posts/brawlstars/2025-06-29/brawl-stars-supercell-id-rewards-skins-promotion",
+    "posts/brawlstars/2025-06-29",
+    "posts/clashofclans/2025-06-29/clash-of-clans-cyber-futurist-season/index-1751200233723.png",
+    "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index.md",
+    "posts/clashroyale/2025-06-29/summer-update-info/index.md",
+    "posts/clashofclans/2025-06-29/clash-of-clans-cyber-futurist-season",
+    "posts/clashofclans/2025-06-29",
     "posts/clashroyale/2025-06-29/summer-update-info/index-1751127788836.png",
     "posts/clashroyale/2025-06-29/summer-update-info/index-1751127733842.png",
     "posts/clashroyale/2025-06-29/summer-update-info/index-1751127730343.png",
     "posts/clashroyale/2025-06-29/summer-update-info/index-1751127715392.png",
     "posts/clashroyale/2025-06-29/summer-update-info/index-1751127556972.webp",
     "posts/clashroyale/2025-06-29/summer-update-info/index-1751127553115.webp",
-    "posts/clashroyale/2025-06-29/summer-update-info/index-1751127549419.png",
-    "posts/clashroyale/2025-06-29/summer-update-info/index-1751127543183.png",
-    "posts/clashroyale/2025-06-29/summer-update-info/index-1751127527567.webp",
-    "posts/clashroyale/2025-06-29/summer-update-info/index-1751127517211.png",
-    "posts/clashroyale/2025-06-29/summer-update-info/index-1751127499574.png",
     "posts/clashroyale/2025-06-25/new-evo-card-speculation/index.md",
-    "posts/clashroyale/2025-06-29/summer-update-info/index.md",
     "posts/clashroyale/2025-06-29/summer-update-info",
     "posts/clashroyale/2025-06-29",
     "posts/clashroyale/2025-06-25/clash-mini-confirmed/index.md",
@@ -216,15 +220,10 @@
     "posts/moco/2025-06-25/moco-update-in-june/index.md",
     "posts/moco/2025-06-25/moco-update-in-june",
     "posts/moco/2025-06-25",
-    "posts/clashroyale/2025-06-25",
     "resources.md",
     "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index.md",
     "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview/index.md",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025",
-    "posts/brawlstars/2025-06-22",
     "posts/clashroyale/2025-06-20/clash-royale-season-73-spirit-empress/index.md",
-    "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview",
-    "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index.md",
     "posts/clashroyale/2025-06-17/clash-mini-maybe-back/index.md",
     "posts/clashroyale/2025-05-25/available-rewards-in-clashroyale/index.md",
     "posts/brawlstars/2025-06-17/matcherino-tournament-rework/index.md",
@@ -238,8 +237,6 @@
     "posts/clashroyale/2025-05-29/inferno-dragon-looking-for-job/index.md",
     "posts/brawlstars/2025-06-05/moba-and-free-skins/index.md",
     "posts/clashofclans/2025-06-04/supercells-15th-anniversary-art/index.md",
-    "posts/brawlstars/2025-06-03/rip-masteries/index.md",
-    "posts/brawlstars/_index.md",
     "未命名.canvas"
   ]
 }

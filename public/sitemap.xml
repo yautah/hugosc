@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/clashofclans/</loc>
-    <lastmod>2025-06-19T10:52:30+08:00</lastmod>
+    <lastmod>2025-06-29T09:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/</loc>
     <lastmod>2025-06-29T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-06-29T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/brawlstars/</loc>
-    <lastmod>2025-06-21T23:37:29+08:00</lastmod>
+    <lastmod>2025-06-29T10:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-06-29T10:10:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/squadbusters/</loc>
     <lastmod>2025-06-17T00:56:57+08:00</lastmod>
@@ -21,13 +21,34 @@
     <lastmod>2025-06-25T13:37:29+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-06-29T00:00:00+08:00</lastmod>
+    <lastmod>2025-06-29T10:10:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-06-29T00:00:00+08:00</lastmod>
+    <lastmod>2025-06-29T10:10:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-29T00:00:00+08:00</lastmod>
+    <lastmod>2025-06-29T10:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E4%BF%83%E9%94%80%E6%B4%BB%E5%8A%A8/</loc>
+    <lastmod>2025-06-29T10:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E8%8D%92%E9%87%8E%E4%B9%B1%E6%96%97/</loc>
+    <lastmod>2025-06-29T10:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/brawlstars/2025/06/brawl-stars-supercell-id-rewards-skins-promotion/</loc>
+    <lastmod>2025-06-29T10:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</loc>
+    <lastmod>2025-06-29T10:10:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/clashofclans/2025/06/clash-of-clans-cyber-futurist-season/</loc>
+    <lastmod>2025-06-29T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81/</loc>
+    <lastmod>2025-06-29T09:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%B5%9B%E5%AD%A3%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2025-06-29T09:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
     <lastmod>2025-06-29T00:00:00+08:00</lastmod>
@@ -36,9 +57,6 @@
     <lastmod>2025-06-29T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E6%B8%B8%E6%88%8F%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2025-06-29T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</loc>
     <lastmod>2025-06-29T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/06/clash-mini-confirmed/</loc>
@@ -56,9 +74,6 @@
     <loc>http://localhost:1313/posts/clashroyale/2025/06/new-evo-card-speculation/</loc>
     <lastmod>2025-06-25T12:22:37+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E8%8D%92%E9%87%8E%E4%B9%B1%E6%96%97/</loc>
-    <lastmod>2025-06-21T23:37:29+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/brawlstars/2025/06/brawl-talk-june-2025/</loc>
     <lastmod>2025-06-21T23:37:29+08:00</lastmod>
   </url><url>
@@ -70,9 +85,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/%E6%96%B0%E5%8D%A1%E7%89%8C/</loc>
     <lastmod>2025-06-19T21:30:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81/</loc>
-    <lastmod>2025-06-19T10:52:30+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashofclans/2025/06/coc-epic-raid-boardgame/</loc>
     <lastmod>2025-06-19T10:52:30+08:00</lastmod>
@@ -256,5 +268,9 @@
   </url><url>
     <loc>http://localhost:1313/tools/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E7%9A%AE%E8%82%A4%E6%B4%BB%E5%8A%A8/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E6%B8%B8%E6%88%8F%E8%B5%84%E8%AE%AF/</loc>
   </url>
 </urlset>
