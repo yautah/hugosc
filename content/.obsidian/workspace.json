@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources.md",
-                "mode": "source",
+                "file": "posts/clashroyale/2025-07-05/clash-royale-season-73/index.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "resources"
+              "title": "index"
             }
           }
         ]
@@ -194,36 +194,38 @@
   },
   "active": "cc421328dc02ce08",
   "lastOpenFiles": [
+    "posts/clashroyale/2025-05-30/evo-inferno-dragon/index.md",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index.md",
+    "posts/clashroyale/2025-07-02/spirit-empress-new-card-2025-july/index.md",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index-1751651707657.webp",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index-1751651670582.png",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index-1751651602969.png",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index-1751651248551.webp",
+    "posts/clashroyale/2025-06-29/merge-tactics-2025-july/index.md",
+    "posts/clashroyale/2025-06-29/summer-update-info/index.md",
+    "posts/clashroyale/2025-07-03/evo-skeleton-barrel-2025-july/index.md",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index-1751651426872.png",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index-1751651411144.webp",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index-1751651407309.webp",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index-1751651278410.png",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73/index-1751651259680.png",
+    "resources.md",
+    "posts/clashroyale/2025-07-05/clash-royale-season-73",
+    "posts/clashroyale/2025-07-05",
     "posts/moco/2025-07-03/moco-announce-global/index.md",
     "posts/moco/2025-07-03/moco-announce-global/index-1751511426215.webp",
     "posts/clashofclans/2025-07-03/coc-2025-summer-upgrade-event/index.md",
     "posts/moco/2025-07-03/moco-announce-global",
     "posts/moco/2025-07-03",
-    "posts/clashroyale/2025-07-03/evo-skeleton-barrel-2025-july/index.md",
     "posts/clashofclans/2025-07-03/coc-2025-summer-upgrade-event",
     "posts/clashofclans/2025-07-03",
-    "posts/clashroyale/2025-07-03/evo-skeleton-barrel-2025-july/index-1751475641593.png",
-    "posts/clashroyale/2025-07-03/evo-skeleton-barrel-2025-july/index-1751475637133.png",
-    "posts/clashroyale/2025-07-03/evo-skeleton-barrel-2025-july/index-1751475618041.png",
-    "posts/clashroyale/2025-07-03/evo-skeleton-barrel-2025-july/index-1751475605576.png",
-    "posts/clashroyale/2025-07-03/evo-skeleton-barrel-2025-july/index-1751475573706.png",
-    "posts/clashroyale/2025-07-02/spirit-empress-new-card-2025-july/index.md",
     "posts/clashroyale/2025-07-03/evo-skeleton-barrel-2025-july",
     "posts/clashroyale/2025-07-03",
-    "posts/clashroyale/2025-07-02/spirit-empress-new-card-2025-july/index-1751387248093.png",
-    "posts/clashroyale/2025-07-02/spirit-empress-new-card-2025-july/index-1751387245114.png",
-    "posts/clashroyale/2025-07-02/spirit-empress-new-card-2025-july/index-1751387220269.png",
-    "posts/clashroyale/2025-07-02/spirit-empress-new-card-2025-july/index-1751387217737.png",
-    "resources.md",
     "posts/clashroyale/2025-07-02/spirit-empress-new-card-2025-july",
     "posts/clashroyale/2025-07-02",
-    "posts/clashroyale/2025-06-29/merge-tactics-2025-july/index.md",
     "posts/clashofclans/2025-06-29/clash-of-clans-cyber-futurist-season/index.md",
     "posts/brawlstars/2025-06-29/brawl-stars-supercell-id-rewards-skins-promotion/index.md",
-    "posts/clashroyale/2025-06-29/merge-tactics-2025-july",
-    "posts/brawlstars/2025-06-29/brawl-stars-supercell-id-rewards-skins-promotion",
     "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index.md",
-    "posts/clashroyale/2025-06-29/summer-update-info/index.md",
     "posts/clashroyale/2025-06-25/new-evo-card-speculation/index.md",
     "posts/clashroyale/2025-06-25/clash-mini-confirmed/index.md",
     "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
@@ -238,7 +240,6 @@
     "posts/squadbusters/2025-06-16/sonic-joins-squad-busters/index.md",
     "posts/clashofclans/2025-06-16/lets-get-crafty-update/index.md",
     "posts/clashofclans/2025-06-15/june-update-clashofclans/index.md",
-    "posts/squadbusters/03-11_transformers-is-back.md",
     "未命名.canvas"
   ]
 }

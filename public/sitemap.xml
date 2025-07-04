@@ -6,10 +6,10 @@
     <lastmod>2025-07-03T08:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/</loc>
-    <lastmod>2025-07-03T00:50:47+08:00</lastmod>
+    <lastmod>2025-07-05T01:34:55+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-03T10:56:34+08:00</lastmod>
+    <lastmod>2025-07-05T01:34:55+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/brawlstars/</loc>
     <lastmod>2025-06-29T10:10:00+08:00</lastmod>
@@ -21,21 +21,30 @@
     <lastmod>2025-07-03T10:56:34+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-07-03T10:56:34+08:00</lastmod>
+    <lastmod>2025-07-05T01:34:55+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-05T01:34:55+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-07-05T01:34:55+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
+    <lastmod>2025-07-05T01:34:55+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/clashroyale/2025/07/clash-royale-season-73/</loc>
+    <lastmod>2025-07-05T01:34:55+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%B5%9B%E5%AD%A3%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2025-07-05T01:34:55+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</loc>
+    <lastmod>2025-07-05T01:34:55+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/moco/</loc>
     <lastmod>2025-07-03T10:56:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-07-03T10:56:34+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-03T10:56:34+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/moco/2025/07/moco-announce-global/</loc>
-    <lastmod>2025-07-03T10:56:34+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</loc>
     <lastmod>2025-07-03T10:56:34+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81/</loc>
@@ -43,9 +52,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/clashofclans/2025/07/coc-2025-summer-upgrade-event/</loc>
     <lastmod>2025-07-03T08:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
-    <lastmod>2025-07-03T00:50:47+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/07/evo-skeleton-barrel-2025-july/</loc>
     <lastmod>2025-07-03T00:50:47+08:00</lastmod>
@@ -75,9 +81,6 @@
     <lastmod>2025-06-29T10:10:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashofclans/2025/06/clash-of-clans-cyber-futurist-season/</loc>
-    <lastmod>2025-06-29T09:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%B5%9B%E5%AD%A3%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2025-06-29T09:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/06/clash-royale-summer-update/</loc>
