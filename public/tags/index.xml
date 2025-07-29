@@ -6,13 +6,20 @@
     <description>Recent content in Tags on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 12 Jul 2025 15:57:59 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 17:54:55 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>默认tag</title>
-      <link>http://localhost:1313/tags/%E9%BB%98%E8%AE%A4tag/</link>
+      <title>卡牌觉醒</title>
+      <link>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</link>
+      <pubDate>Tue, 29 Jul 2025 17:54:55 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>资讯</title>
+      <link>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</link>
       <pubDate>Sat, 12 Jul 2025 15:57:59 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E9%BB%98%E8%AE%A4tag/</guid>
+      <guid>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</guid>
       <description></description>
     </item>
     <item>
@@ -37,20 +44,6 @@
       <description></description>
     </item>
     <item>
-      <title>资讯</title>
-      <link>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</link>
-      <pubDate>Sat, 05 Jul 2025 01:34:55 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E8%B5%84%E8%AE%AF/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>卡牌觉醒</title>
-      <link>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</link>
-      <pubDate>Thu, 03 Jul 2025 00:50:47 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E5%8D%A1%E7%89%8C%E8%A7%89%E9%86%92/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>新卡牌</title>
       <link>http://localhost:1313/tags/%E6%96%B0%E5%8D%A1%E7%89%8C/</link>
       <pubDate>Wed, 02 Jul 2025 00:15:47 +0800</pubDate>
@@ -69,6 +62,13 @@
       <link>http://localhost:1313/tags/%E4%BF%83%E9%94%80%E6%B4%BB%E5%8A%A8/</link>
       <pubDate>Sun, 29 Jun 2025 10:10:00 +0800</pubDate>
       <guid>http://localhost:1313/tags/%E4%BF%83%E9%94%80%E6%B4%BB%E5%8A%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>默认tag</title>
+      <link>http://localhost:1313/tags/%E9%BB%98%E8%AE%A4tag/</link>
+      <pubDate>Tue, 17 Jun 2025 15:17:32 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E9%BB%98%E8%AE%A4tag/</guid>
       <description></description>
     </item>
     <item>
