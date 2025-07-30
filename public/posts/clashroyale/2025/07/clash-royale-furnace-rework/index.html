@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>R.I.P 熔炉～但是，我们把它重做了，行走的熔炉法师！ | 超级细胞情报站</title>
+
+<meta name="description" content="皇室战争对熔炉进行了深度重做，卡牌从建筑变为远程单位，带来全新玩法体验。">
+
+  <meta name="keywords" content="皇室战争, 烈焰熔炉, 卡牌重做">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+ 
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/favicon.svg"> 
+<link rel="icon" type="image/x-icon" href="http://localhost:1313/favicon.ico"> 
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png"> 
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32.png"> 
+<link rel="icon" type="image/png" sizes="64x64" href="http://localhost:1313/favicon-64.png"> 
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-VNF9P6RDMW"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-VNF9P6RDMW');
+        }
+      </script>
+  
+  <link rel="stylesheet" href="/css/content.01cfae70059a2e018ca1347958d7ce116de9b9ec3cf6c444d51e1cc87b58ffd3.css">
+</head>
+<body>
+  <header class="py-4 border-b"><div class="max-w-7xl mx-auto px-2 md:px-4 lg:px-6 flex flex-col">
+	<div class="flex items-center">
+		<div class="flex items-center">
+			
+			<div class="relative flex basis-0 items-center  lg:mr-8">
+				<a class="text-white text-xl font-bold upper" href="http://localhost:1313/">
+					<img class="rounded-full" width="30" height="30" src="/ico.jpg" alt="">
+				</a>
+			</div>
+			<div class="topNav relative  py-1.5 px-2 text-xl font-bold uppercase mx-2">
+				
+				<a class="text-zinc-500 hover:bg-zinc-300 ml-4 " href="/">主页</a>
+				
+				<a class="text-zinc-500 hover:bg-zinc-300 ml-4 " href="/tools/">工具</a>
+				
+				<a class="text-zinc-500 hover:bg-zinc-300 ml-4 " href="/resources/">资源</a>
+				
+				<a class="text-zinc-500 hover:bg-zinc-300 ml-4 " href="/about/">关于</a>
+				
+			</div>
+		</div>
+		<div style="display:none" class="flex items-center ml-auto">
+			<button class="flex items-center rounded-full p-3 bg-zinc-100 hover:bg-zinc-200 toggle-button"
+				data-target="search-bar">
+				<svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+					<path id="path1" class="transition-all ease-linear"
+						d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+					</path>
+					<path id="path2" class="transition-all ease-linear hidden"
+						d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z">
+					</path>
+				</svg>
+			</button>
+		</div>
+	</div>
+  <nav id="menu-bar" class="block mt-3 close">
+    <ul class="flex items-center flex flex-nowrap whitespace-nowrap overflow-x-auto space-x-4">
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/">主页</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/tools/">工具</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/resources/">资源</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/about/">关于</a>
+    </li>
+    </ul>
+  </nav>
+<div id="search-bar" class="block mt-3 close">
+	<form id="search" class="flex items-stretch">
+		<input class="w-full block px-6 py-2 rounded-l-full focus:outline-none border border-zinc-200" type="text" placeholder="Search...">
+		<button class="flex items-center px-7 py-2.5 rounded-r-full border border-zinc-200 ">
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="group-hover:animate-pulse" viewBox="0 0 16 16">
+				<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+			</svg>
+		</button>
+	</form>
+</div>
+</div></header>
+  <main class="max-w-7xl mx-auto px-4 md:px-4 lg:px-6"><div id="breadcrumb" class="max-w-7xl mx-auto py-8">
+	<ul class="flex space-x-2 text-md text-zinc-500">
+		<li class="after:content-['❯'] after:ml-2 after:opacity-30 last:after:content-none uppercase">
+			<a href="http://localhost:1313/">超级细胞情报站</a>
+		</li>
+		<li class="after:content-['❯'] after:ml-2 after:opacity-30 last:after:content-none uppercase">
+			<a href="javascript:void(0)">文章</a>
+		</li>
+		<li class="after:content-['❯'] after:ml-2 after:opacity-30 last:after:content-none uppercase">
+			<a href="javascript:void(0)">皇室战争</a>
+		</li>
+	</ul>
+</div><div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+
+  <article class="md:col-span-2 prose lg:prose-lg">
+
+    <header class="not-prose">
+      
+      <h1 id="title" class="text-2xl md:text-3xl lg:text-4xl font-bold leading-normal">R.I.P 熔炉～但是，我们把它重做了，行走的熔炉法师！</h1>
+
+      <div id="lead" class="my-6">
+
+        <p class="font-weight-8">皇室战争对熔炉进行了深度重做，卡牌从建筑变为远程单位，带来全新玩法体验。 </p>
+
+      </div>
+      
+      <div id="writer" class="flex items-center space-x-4"><ul class="flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
+          
+          <li class="font-semibold my-2"></li>
+          
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2"><time datetime="2025-07-30T22:57:29&#43;08:00">2025年7月30日</time>
+          </li>
+
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
+            2 分钟 阅读
+          </li>
+
+        </ul>
+
+      </div>
+      
+    </header>
+
+    <figure id="featureimage" class="rounded-xl aspect-video">
+            <img class="rounded-lg" src="http://localhost:1313/images/2025/furance-rework_hu_19f984bbc0800dcf.png" alt="" width="750" height="422">
+
+    </figure>
+
+    <div id="content" class="mb-14">
+      <p>皇室战争带来了一次全新的卡牌重做，主角是大家熟悉的熔炉。这张卡牌不再是一座刷怪建筑，而是彻底变身为一支地面远程部队。它仍旧保留火豆子，但整体玩法与体验将焕然一新。</p>
+<p>几个赛季前，皇室战争开始尝试重制低人气建筑卡，比如哥布林小屋。而烈焰熔炉，作为刷怪笼建筑的代表之一，也长期因被动、难以交互、缺乏趣味而被玩家忽视。数据上也显示，它与野蛮人小屋是上赛季 1000 套高分卡组中<strong>使用率最低的两张建筑卡</strong>。</p>
+<p>于是，我们迎来了这次焕然一新的重做。</p>
+<p><img src="index-1753897343676.webp" alt=""></p>
+<h2 id="熔炉的身份转换从建筑到部队">熔炉的身份转换：从建筑到部队</h2>
+<p>在 8 月份的第 74 赛季中，烈焰熔炉将作为新版本的“主角卡”登场，出现在加载画面，并拥有全新的边框设计与角色形象。</p>
+<p>它不再是部署后等待火豆子自动刷出的建筑，而是会<strong>直接作为一支部队进入战场</strong>，并且拥有主动攻击能力。这种转变意味着它可以更灵活地应对各种战局，而不再局限于防守或压迫的固定套路。</p>
+<h2 id="卡牌描述">卡牌描述</h2>
+<blockquote>
+<p>熔炉每次会召唤一个火豆子，同时用其特殊的熔炉酿造物造成伤害。<br>
+它还可以制作美味的砖炉煎饼。</p></blockquote>
+<p>虽然这句描述略显轻松幽默，但新熔炉确实有了实质变化：</p>
+<ul>
+<li>攻击方式：远程攻击</li>
+<li>攻击对象：空中与地面单位</li>
+<li>攻击类型：单体伤害（无溅射）</li>
+<li>射程：6 格</li>
+</ul>
+<h2 id="新旧对比数据">新旧对比数据</h2>
+<table>
+  <thead>
+      <tr>
+          <th><strong>属性</strong></th>
+          <th><strong>旧版熔炉</strong></th>
+          <th><strong>重做后熔炉</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>HP</td>
+          <td>847</td>
+          <td>896</td>
+      </tr>
+      <tr>
+          <td>寿命</td>
+          <td>28秒</td>
+          <td>无</td>
+      </tr>
+      <tr>
+          <td>速度</td>
+          <td>无</td>
+          <td>缓慢（45）</td>
+      </tr>
+      <tr>
+          <td>生成时间</td>
+          <td>5秒</td>
+          <td>5秒</td>
+      </tr>
+      <tr>
+          <td>DPS</td>
+          <td>41（火豆子）</td>
+          <td>99</td>
+      </tr>
+      <tr>
+          <td>总 DPS</td>
+          <td>—</td>
+          <td>140（含火豆子）</td>
+      </tr>
+  </tbody>
+</table>
+<p>新的熔炉拥有接近猎人的血量（885），这意味着它可以承受火球（688）或火球+电击（880）组合攻击，但会被闪电术（1057）或火球+滚木（954）击倒。</p>
+<p><img src="index-1753897281748.webp" alt=""></p>
+<p>火豆子的刷新频率没有变化，仍然每 5 秒生成一个，提供额外爆发。</p>
+<h2 id="与其他卡的输出对比">与其他卡的输出对比</h2>
+<table>
+  <thead>
+      <tr>
+          <th><strong>部队</strong></th>
+          <th><strong>伤害</strong></th>
+          <th><strong>命中间隔</strong></th>
+          <th><strong>DPS</strong></th>
+          <th><strong>射程</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>熔炉</td>
+          <td>179</td>
+          <td>1.8</td>
+          <td>99</td>
+          <td>6</td>
+      </tr>
+      <tr>
+          <td>熔炉 + 火豆子</td>
+          <td>—</td>
+          <td>—</td>
+          <td>140</td>
+          <td>—</td>
+      </tr>
+      <tr>
+          <td>飞行器</td>
+          <td>171</td>
+          <td>1.1</td>
+          <td>155</td>
+          <td>6</td>
+      </tr>
+      <tr>
+          <td>飞镖哥布林</td>
+          <td>148</td>
+          <td>0.8</td>
+          <td>185</td>
+          <td>6.5</td>
+      </tr>
+      <tr>
+          <td>火枪手</td>
+          <td>217</td>
+          <td>1</td>
+          <td>217</td>
+          <td>6</td>
+      </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+      <tr>
+          <th><strong>部队</strong></th>
+          <th><strong>伤害</strong></th>
+          <th><strong>命中间隔</strong></th>
+          <th><strong>DPS</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>火豆子</td>
+          <td>207</td>
+          <td>5</td>
+          <td>41</td>
+      </tr>
+      <tr>
+          <td>冰法</td>
+          <td>89</td>
+          <td>1.7</td>
+          <td>52</td>
+      </tr>
+      <tr>
+          <td>熔炉</td>
+          <td>179</td>
+          <td>1.8</td>
+          <td>99</td>
+      </tr>
+      <tr>
+          <td>龙宝宝</td>
+          <td>161</td>
+          <td>1.5</td>
+          <td>107</td>
+      </tr>
+      <tr>
+          <td>女巫</td>
+          <td>135</td>
+          <td>1.1</td>
+          <td>123</td>
+      </tr>
+      <tr>
+          <td>熔炉 + 火豆子</td>
+          <td>—</td>
+          <td>—</td>
+          <td>140</td>
+      </tr>
+      <tr>
+          <td>法师</td>
+          <td>281</td>
+          <td>1.4</td>
+          <td>201</td>
+      </tr>
+  </tbody>
+</table>
+<p>可以看出，在<strong>纯输出角度</strong>，熔炉并不突出，其优势更多体现在召唤机制带来的<strong>持续性骚扰</strong>和<strong>火豆子配合</strong>。它或许更适合作为推进组件，而不是独立的防守核心。</p>
+<p><img src="index-1753897289537.webp" alt=""></p>
+<h2 id="卡牌大师">卡牌大师</h2>
+<p>原版熔炉的精通任务将继续保留，玩家的进度不会丢失。具体包括：</p>
+<ul>
+<li>生成 X 个火精灵</li>
+<li>用火精灵造成 X 点伤害</li>
+</ul>
+<p>第三组精通任务目前仍未上线。</p>
+<h2 id="结语">结语</h2>
+<p>熔炉的重制无疑是 Supercell 再次对低热度卡牌进行系统性调整的尝试。从建筑转型为远程部队，它不再只是一个刷怪装置，而有望成为卡组中多面手的存在。</p>
+<p>而下一个“候选人”——野蛮人小屋，或许已经在路上了。</p>
+
+
+    <ul id="taxonomy" class="not-prose flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
+
+      <li class="font-semibold my-4">Tags:</li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/%E5%8D%A1%E7%89%8C/">卡牌</a></li>
+    </ul>
+</div>
+
+    <footer id="content-footer" class="not-prose">
+
+      <div style="display:none" id="comment" class="border p-8 bg-zinc-100 rounded-2xl">
+
+        <h2 class="text-xl font-semibold">Comment</h2>
+
+        <p>Disqus comment here</p></div>
+
+      <div style="display:none" id="author-box" class="my-8 md:my-14 border p-8 bg-zinc-100 rounded-2xl">
+
+        <img class="w-20 h-20 rounded-full" src="" alt="">
+
+        <h2 class="text-xl font-bold my-4">Writter by : </h2>
+
+        <p class="mb-4"></p>
+
+        <ul class="flex flex-wrap space-x-4">
+          <li>
+            <a class="flex items-center decoration-auto hover:underline" href="https://facebook.com/#" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+              <span class="ml-2">Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a class="flex items-center decoration-auto hover:underline" href="https://facebook.com/#" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+              </svg>
+              <span class="ml-2">Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a class="flex items-center decoration-auto hover:underline" href="https://facebook.com/#" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+
+              </svg>
+              <span class="ml-2">Instagram</span>
+            </a>
+          </li>
+
+        </ul>
+        
+      </div>
+
+      <div id="related-post" class="">
+
+        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">相关阅读</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/clashroyale/2025/07/clash-royale-furnace-evolution-leak/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-t-xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/2025/imgi_35_640_hu_3ea3f5262d62f84d.jpg" alt="# 玉足！又见玉足～这次是谁？锅炉真的要觉醒了嘛？" width="750" height="422">
+
+	  </figure>
+
+	<div class="p-4">
+
+		<time class="text-zinc-300" datetime="2025-07-29T17:54:55&#43;08:00">2025-07-29 05:54:55</time>
+
+		<h3 class="my-2 text-xl font-bold"># 玉足！又见玉足～这次是谁？锅炉真的要觉醒了嘛？</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">就在昨天，皇室战争官方又放出了一张全新的剧透图片。引起大家注意的不是画面内容，而是它，又是一张玉足特写。</p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-xl">
+	
+	<a class="insert-link" href="http://localhost:1313/posts/clashroyale/2025/07/clash-royale-supercell-comeback-2025/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-t-xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/2025/clashroyaleback_hu_f3580d3f6d7bcd5e.jpg" alt="皇室战争正在统治 Supercell？一场八年后王者归来的奇迹!" width="750" height="422">
+
+	  </figure>
+
+	<div class="p-4">
+
+		<time class="text-zinc-300" datetime="2025-07-10T10:00:00&#43;08:00">2025-07-10 10:00:00</time>
+
+		<h3 class="my-2 text-xl font-bold">皇室战争正在统治 Supercell？一场八年后王者归来的奇迹!</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">2025年6月，《皇室战争》创下收入新高，击败《部落冲突》和《荒野乱斗》，一场从崩盘边缘逆转的绝地反击，到底发生了什么？</p>
+
+	</div>
+</article>
+          
+        </div>
+      </div>
+
+    </footer>
+
+  </article>
+
+  
+  <aside class="md:col-span-1"><div class="lg:sticky lg:top-8"><div style="" class="rounded-2xl p-4 bg-zinc-100 mb-10">
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6805938250941375"
+          crossorigin="anonymous"></script>
+     
+     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6805938250941375" data-ad-slot="5072680509"
+          data-ad-format="auto" data-full-width-responsive="true"></ins>
+     <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+</div><div class="space-y-6">
+
+		<h2 class="font-bold text-xl mb-8">最新发布</h2>
+
+		<article class="relative group flex flex-row">
+	<a class="insert-link" href="http://localhost:1313/posts/clashroyale/2025/07/clash-royale-furnace-rework/"></a>
+	<figure class="basis-1/5 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/2025/furance-rework_hu_54aa2be9e5e72963.png" alt="R.I.P 熔炉～但是，我们把它重做了，行走的熔炉法师！" width="250" height="250">
+
+	</figure>
+	<div class="basis-2/3 self-center ml-4">
+		<h3 class="font-medium group-hover:underline decoration-auto">R.I.P 熔炉～但是，我们把它重做了，行走的熔炉法师！</h3>
+	</div>
+</article><article class="relative group flex flex-row">
+	<a class="insert-link" href="http://localhost:1313/posts/clashroyale/2025/07/clash-royale-furnace-evolution-leak/"></a>
+	<figure class="basis-1/5 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/2025/imgi_35_640_hu_aee523eb0352879b.jpg" alt="# 玉足！又见玉足～这次是谁？锅炉真的要觉醒了嘛？" width="250" height="250">
+
+	</figure>
+	<div class="basis-2/3 self-center ml-4">
+		<h3 class="font-medium group-hover:underline decoration-auto"># 玉足！又见玉足～这次是谁？锅炉真的要觉醒了嘛？</h3>
+	</div>
+</article><article class="relative group flex flex-row">
+	<a class="insert-link" href="http://localhost:1313/posts/clashroyale/2025/07/supercell-store-ban-china-ip/"></a>
+	<figure class="basis-1/5 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/2025/store_hu_689c067bed1b308e.png" alt="Supercell 官方商城再次出手锁区！这次可能要玩真的了～" width="250" height="250">
+
+	</figure>
+	<div class="basis-2/3 self-center ml-4">
+		<h3 class="font-medium group-hover:underline decoration-auto">Supercell 官方商城再次出手锁区！这次可能要玩真的了～</h3>
+	</div>
+</article><article class="relative group flex flex-row">
+	<a class="insert-link" href="http://localhost:1313/posts/clashroyale/2025/07/clash-royale-supercell-comeback-2025/"></a>
+	<figure class="basis-1/5 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/2025/clashroyaleback_hu_90b2d7952e122bd1.jpg" alt="皇室战争正在统治 Supercell？一场八年后王者归来的奇迹!" width="250" height="250">
+
+	</figure>
+	<div class="basis-2/3 self-center ml-4">
+		<h3 class="font-medium group-hover:underline decoration-auto">皇室战争正在统治 Supercell？一场八年后王者归来的奇迹!</h3>
+	</div>
+</article><article class="relative group flex flex-row">
+	<a class="insert-link" href="http://localhost:1313/posts/clashroyale/2025/07/clash-royale-season-73/"></a>
+	<figure class="basis-1/5 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/2025/crseason73_hu_3bd59ed27cc69560.png" alt="皇室战争：第 73 赛季抢先看，全新表情、塔楼皮肤、活动日历和活动奖励～" width="250" height="250">
+
+	</figure>
+	<div class="basis-2/3 self-center ml-4">
+		<h3 class="font-medium group-hover:underline decoration-auto">皇室战争：第 73 赛季抢先看，全新表情、塔楼皮肤、活动日历和活动奖励～</h3>
+	</div>
+</article>
+		
+	</div>
+
+</div>
+</aside>
+
+</div>
+  
+</main>
+  <footer class="bg-zinc-100 py-10 md:py-14"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+
+  <div class="flex flex-wrap space-y-6 mb-4">
+
+    <div class="displayw-full md:w-3/5 flex flex-col space-y-4 md:pr-8 lg:pr-10">
+
+      <a class="flex items-center group" href="http://localhost:1313/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="mr-2 group-hover:animate-spin" viewBox="0 0 16 16">
+          <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          <path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"/>
+        </svg>
+        
+        <span class="text-2xl font-semibold uppercase">超级细胞情报站</span>
+      </a>
+
+      <p class="font-semibold">
+        为爱发电.<br>聊泛游戏的话题，包括不限于皇室战争、部落冲突、荒野乱斗、手机游戏、主机游戏。
+      </p>
+
+      <p>还没想好放点什么，先这样子吧</p>
+
+    </div>
+
+    <div class="self-center flex flex-col w-full md:w-2/5">
+
+<ul id="social-media" class="flex items-center space-x-4">
+	<li style="display: none;">
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.facebook.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+				<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.twitter.com/#" target="https://x.com/imCrazzzy" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://github.com/yautah" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+			</svg>
+		</a>
+	</li>
+	<li style="display: none;">
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.instagram.com/#" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2" href="https://www.instagram.com/#" target="https://space.bilibili.com/44441533" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+				<path fill="#1e88e5" d="M36.5,12h-7.086l3.793-3.793c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0L26.586,12 h-5.172l-5.207-5.207c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414L18.586,12H12.5C9.467,12,7,14.467,7,17.5v15 c0,3.033,2.467,5.5,5.5,5.5h2c0,0.829,0.671,1.5,1.5,1.5s1.5-0.671,1.5-1.5h14c0,0.829,0.671,1.5,1.5,1.5s1.5-0.671,1.5-1.5h2 c3.033,0,5.5-2.467,5.5-5.5v-15C42,14.467,39.533,12,36.5,12z M39,32.5c0,1.378-1.122,2.5-2.5,2.5h-24c-1.378,0-2.5-1.122-2.5-2.5 v-15c0-1.378,1.122-2.5,2.5-2.5h24c1.378,0,2.5,1.122,2.5,2.5V32.5z"></path><rect width="2.75" height="7.075" x="30.625" y="18.463" fill="#1e88e5" transform="rotate(-71.567 32.001 22)"></rect><rect width="7.075" height="2.75" x="14.463" y="20.625" fill="#1e88e5" transform="rotate(-18.432 17.998 21.997)"></rect><path fill="#1e88e5" d="M28.033,27.526c-0.189,0.593-0.644,0.896-1.326,0.896c-0.076-0.013-0.139-0.013-0.24-0.025 c-0.013,0-0.05-0.013-0.063,0c-0.341-0.05-0.745-0.177-1.061-0.467c-0.366-0.265-0.808-0.745-0.947-1.477 c0,0-0.29,1.174-0.896,1.49c-0.076,0.05-0.164,0.114-0.253,0.164l-0.038,0.025c-0.303,0.164-0.682,0.265-1.086,0.278 c-0.568-0.051-0.947-0.328-1.136-0.821l-0.063-0.164l-1.427,0.656l0.05,0.139c0.467,1.124,1.465,1.768,2.74,1.768 c0.922,0,1.667-0.303,2.209-0.909c0.556,0.606,1.288,0.909,2.209,0.909c1.856,0,2.55-1.288,2.765-1.843l0.051-0.126l-1.427-0.657 L28.033,27.526z"></path>
+				</svg>
+		</a>
+	</li>
+</ul>
+
+    </div>
+    
+  </div>
+
+  <div class="my-8">
+    <ul class="flex items-center space-x-4">
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/">主页</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/tools/">工具</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/resources/">资源</a></li>
+      
+        <li><a class="decoration-auto hover:underline font-semibold" href="/about/">关于</a></li>
+      
+    </ul>
+  </div>
+
+  <div class="border-t pt-4">
+
+    <p class="text-sm">Copyright © 2025. All rights reserved. <a href="https://madn.xyz/" target="_blank" rel="noopener">madn.xyz</a></p>
+
+  </div>
+  
+</div>
+</footer>
+      <script src="/js/insertoggle.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      cssMode: true,
+      slidesPerView: 'auto',
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+</script>
+</body>
+</html>
