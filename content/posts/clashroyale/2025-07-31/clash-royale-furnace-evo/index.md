@@ -1,7 +1,7 @@
 ---
 title: 觉醒熔炉登场！不用杀怪也能无限下蛋的新刑具～
 image: /images/2025/xxxccccccc.jpg
-description: ""
+description: "熔炉卡牌将是本赛季的主要进化，也是唯一的进化！"
 date: 2025-07-31T23:14:31+08:00
 slug: clash-royale-furnace-evo
 categories:
