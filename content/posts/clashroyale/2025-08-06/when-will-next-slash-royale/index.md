@@ -1,6 +1,6 @@
 ---
 title: 半价升级的皇室狠惠怎么还没来？这事可能比你想的要复杂～
-image: /images/2025/imgi.jpg
+image: /images/2025/imgi.png
 description: 皇室狠惠（Slash Royale）是皇室战争历史上极少数的全民级活动之一，最突出的特色就是优惠。
 date: 2025-08-06T23:39:00+08:00
 slug: when-will-next-slash-royale
