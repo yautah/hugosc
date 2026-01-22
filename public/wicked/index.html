@@ -1,0 +1,2458 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>恶意不息 装备附魔手册 - Scbase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Noto+Sans+SC:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --void-dark: #020617;
+        --void-deep: #0f172a;
+        --neon-purple: #a855f7;
+        --neon-blue: #3b82f6;
+        --neon-green: #10b981;
+        --neon-red: #ef4444;
+      }
+      body {
+        font-family: "Noto Sans SC", sans-serif;
+        background: var(--void-dark);
+        color: #f1f5f9;
+        min-height: 100vh;
+        background-image: radial-gradient(
+          circle at 50% 50%,
+          #1e1b4b 0%,
+          #020617 100%
+        );
+      }
+      .header-font {
+        font-family: "Orbitron", sans-serif;
+      }
+      .glass-card {
+        background: rgba(30, 41, 59, 0.4);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(148, 163, 184, 0.1);
+        transition: all 0.3s ease;
+      }
+      .category-card:hover {
+        border-color: var(--neon-purple);
+        box-shadow: 0 0 20px rgba(168, 85, 247, 0.2);
+        transform: translateY(-5px);
+      }
+      .tag-magical {
+        color: #60a5fa;
+        background: rgba(59, 130, 246, 0.1);
+        border: 1px solid rgba(59, 130, 246, 0.3);
+      }
+      .tag-plagued {
+        color: #c084fc;
+        background: rgba(168, 85, 247, 0.1);
+        border: 1px solid rgba(168, 85, 247, 0.3);
+      }
+      .tag-downside {
+        color: #f87171;
+        background: rgba(239, 68, 68, 0.1);
+        border: 1px solid rgba(239, 68, 68, 0.3);
+      }
+
+      tr:nth-child(even) {
+        background: rgba(255, 255, 255, 0.02);
+      }
+      .sticky-header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: #0f172a;
+      }
+
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--void-dark);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--neon-purple);
+      }
+    </style>
+  </head>
+  <body class="p-4 md:p-10">
+    <div class="max-w-6xl mx-auto">
+      <header class="mb-16 text-center">
+        <h1
+          class="text-4xl md:text-6xl font-bold header-font tracking-tighter bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400 bg-clip-text text-transparent mb-4"
+        >
+          WICKED ENCHANTMENTS
+        </h1>
+        <p class="text-slate-400 tracking-widest uppercase text-sm">
+          Scbase // 恶意不息 联机更新全量数据
+        </p>
+        <div
+          class="mt-6 h-1 w-32 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto rounded-full"
+        ></div>
+      </header>
+
+      <div id="home-view" class="grid grid-cols-2 md:grid-cols-4 gap-6"></div>
+
+      <div id="detail-view" class="hidden">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4"
+        >
+          <button
+            onclick="showHome()"
+            class="px-6 py-2 glass-card hover:bg-slate-800 rounded-full text-sm font-bold flex items-center transition-all group"
+          >
+            <span class="mr-2 group-hover:-translate-x-1 transition-transform"
+              >←</span
+            >
+            返回分类
+          </button>
+          <div class="text-right border-r-4 border-purple-500 pr-4">
+            <h2
+              id="current-title"
+              class="text-3xl font-bold text-white header-font uppercase"
+            ></h2>
+            <p
+              id="current-count"
+              class="text-xs text-purple-400 mt-1 font-mono"
+            ></p>
+          </div>
+        </div>
+
+        <div
+          class="glass-card rounded-2xl overflow-hidden border border-slate-800/50"
+        >
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead class="sticky-header">
+                <tr class="border-b border-slate-700 bg-slate-900/90">
+                  <th
+                    class="p-5 text-xs font-bold text-slate-400 uppercase tracking-widest"
+                  >
+                    词缀组 (Group)
+                  </th>
+                  <th
+                    class="p-5 text-xs font-bold text-slate-400 uppercase tracking-widest"
+                  >
+                    效果描述 (Description)
+                  </th>
+                  <th
+                    class="p-5 text-xs font-bold text-slate-400 uppercase tracking-widest w-24"
+                  >
+                    品质
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="table-content" class="text-sm"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <footer
+        class="mt-24 text-center text-slate-600 text-[10px] uppercase tracking-[0.2em] pb-10"
+      >
+        &copy; 2026 Scbase Artifacts. "Evolution is mandatory."
+      </footer>
+    </div>
+
+    <script>
+      // 完整嵌入 404 条词缀数据
+      const fullData = {
+        "武器 (Weapon)": [
+          {
+            group: "杂项 Misc",
+            desc: "击杀敌人后，硬直伤害增加15%-30%，持续20秒<br>    Stagger Damage increased by 15%-30% for 20 seconds after Kill",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "背刺后，硬直伤害增加15%-30%，持续30秒<br>    Stagger Damage increased by 15%-30% for 30 seconds after Backstab",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值增加30%-100%<br>    Durability increased by 30%-100%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "致命一击后，伤害增加15%-30%，持续20秒<br>    Damage increased by 15%-30% for 20 seconds after Fatality",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "致命一击后，获得的专注增加15%-30%，持续20秒<br>    Focus Gain increased by 15%-30% for 20 seconds after Fatality",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "击杀敌人后，专注增加5-15点<br>    5-15 Focus gained after Kill",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "击杀敌人后，伤害增加15%-30%，持续20秒<br>    Damage increased by 15%-30% for 20 seconds after Kill",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "对满生命值敌人造成的伤害增加15%-30%<br>    Damage to Full Health enemies increased by 15%-30%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "符文攻击伤害增加10%-25%<br>    Rune Attack Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击伤害增加10%-25%<br>    Crit Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度增加5%-15%<br>    Attack Speed increased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害增加10%-25%<br>    Stagger Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "造成的硬直增加10%-25%<br>    Poise Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "伤害增加10%-25%<br>    Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "攻击消耗的体力减少5%-15%<br>    Stamina Cost on Attack decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "致命一击后，体力消耗减少15%-30%，持续20秒<br>    Stamina Cost decreased by 15%-30% for 20 seconds after Fatality",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "击杀敌人后，体力恢复10-25点<br>    10-25 Stamina regained after Kill",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "击中敌人后，有3%-10%概率恢复10-25点体力<br>    3%-10% Chance to gain 10-25 Stamina on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "击杀敌人后，生命值恢复5%-15%<br>    5%-15% Health regained after Kill",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "致命一击后，生命值恢复10%-25%<br>    10%-25% Health regained after Fatality",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "致命一击后，符文消耗减少15%-30%，持续20秒<br>    Rune Cost decreased by 15%-30% for 20 seconds after Fatality",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性伤害增加10%-25%<br>    Fire Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性状态累计增加10%-25%<br>    Fire Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性伤害增加10%-25%<br>    Lightning Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性状态累计增加10%-25%<br>    Lightning Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性伤害增加10%-25%<br>    Plague Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性状态累计增加10%-25%<br>    Plague Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性伤害增加10%-25%<br>    Cold Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性状态累计增加10%-25%<br>    Cold Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的经验值减少30%-100%<br>    Exp lost on Death reduced by 30%-100%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值增加30%-100%<br>    Durability increased by 30%-100%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "致命一击后，伤害增加15%-30%，持续20秒<br>    Damage increased by 15%-30% for 20 seconds after Fatality",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "致命一击后，获得的专注增加15%-30%，持续20秒<br>    Focus Gain increased by 15%-30% for 20 seconds after Fatality",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "对满生命值敌人造成的伤害增加15%-30%<br>    Damage to Full Health enemies increased by 15%-30%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "符文攻击伤害增加10%-25%<br>    Rune Attack Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击伤害增加10%-25%<br>    Crit Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度增加5%-15%<br>    Attack Speed increased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "伤害增加10%-25%<br>    Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "攻击消耗的体力减少5%-15%<br>    Stamina Cost on Attack decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "致命一击后，体力消耗减少15%-30%，持续20秒<br>    Stamina Cost decreased by 15%-30% for 20 seconds after Fatality",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "致命一击后，生命值恢复10%-25%<br>    10%-25% Health regained after Fatality",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "致命一击后，符文消耗减少15%-30%，持续20秒<br>    Rune Cost decreased by 15%-30% for 20 seconds after Fatality",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性伤害增加10%-25%<br>    Fire Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性伤害增加10%-25%<br>    Lightning Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性伤害增加10%-25%<br>    Plague Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性伤害增加10%-25%<br>    Cold Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "装备负重减少20%-30%<br>    Equip Load reduced by 20%-30%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的经验值增加20%-50%<br>    Exp lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的金钱增加20%-50%<br>    Money lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值减少15%-30%<br>    Durability decreased by 15%-30%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "对满生命值敌人造成的伤害减少15%-30%<br>    Damage to Full Health enemies decreased by 15%-30%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度减少5%-15%<br>    Attack Speed decreased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "伤害减少10%-20%<br>    Damage reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害减少10%-25%<br>    Stagger Damage decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "攻击消耗的体力增加5%-15%<br>    Stamina Cost on Attack increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度减少10%-20%<br>    Stamina Regen decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果减少10%-25%<br>    Healing decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人时失去生命值<br>    Lose Health on Hit",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命值减少5%-15%<br>    Health reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗增加5%-15%<br>    Rune Cost increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取减少10%-25%<br>    Focus Gain decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性防御减少10%-20%<br>    Fire Defence decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性防御减少10%-20%<br>    Lightning Defence decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性防御减少10%-20%<br>    Plague Defence decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性防御减少10%-20%<br>    Cold Defence decreased by 10%-20%",
+            type: "Downside",
+          },
+        ],
+        "盾牌 (Shield)": [
+          {
+            group: "杂项 Misc",
+            desc: "格挡后，硬直伤害增加15%-30%，持续20秒<br>    Stagger Damage increased by 15%-30% for 20 seconds after Block",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值增加30%-100%<br>    Durability increased by 30%-100%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "格挡后，造成的伤害增加15%-30%，持续20秒<br>    Damage increased by 15%-30% for 20 seconds after Block",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "反击伤害增加10%-25%<br>    Riposte Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "格挡后，反击伤害增加15%-30%，持续20秒<br>    Riposte Damage increased by 15%-30% for 20 seconds after Block",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害增加10%-25%<br>    Stagger Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "造成的硬直增加10%-25%<br>    Poise Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "格挡消耗的体力减少5%-15%<br>    Stamina Cost on Block decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "成功招架后，体力恢复10-25点<br>    10-25 Stamina regained after successful Parry",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "击中敌人后，有3%-10%概率恢复10-25点体力<br>    3%-10% Chance to gain 10-25 Stamina on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "成功招架后，生命值恢复5%-15%<br>    5%-15% Health regained after successful Parry",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "格挡稳定性增加15%-30%<br>    Block Stability increased by 15%-30%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "格挡后，防御增加15%-30%，持续20秒<br>    Defence increased by 15%-30% for 20 seconds after Block",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "成功招架后，专注增加15-30点<br>    15-30 Focus gained after successful Parry",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值增加30%-100%<br>    Durability increased by 30%-100%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "格挡后，造成的伤害增加15%-30%，持续20秒<br>    Damage increased by 15%-30% for 20 seconds after Block",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "反击伤害增加10%-25%<br>    Riposte Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "格挡消耗的体力减少5%-15%<br>    Stamina Cost on Block decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "成功招架后，体力恢复10-25点<br>    10-25 Stamina regained after successful Parry",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "成功招架后，生命值恢复5%-15%<br>    5%-15% Health regained after successful Parry",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "格挡稳定性增加15%-30%<br>    Block Stability increased by 15%-30%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "格挡后，防御增加15%-30%，持续20秒<br>    Defence increased by 15%-30% for 20 seconds after Block",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "成功招架后，专注增加15-30点<br>    15-30 Focus gained after successful Parry",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "装备负重增加20%-30%<br>    Equip Load increased by 20%-30%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的经验值增加20%-50%<br>    Exp lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的金钱增加20%-50%<br>    Money lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值减少15%-30%<br>    Durability decreased by 15%-30%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度减少5%-15%<br>    Attack Speed decreased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "伤害减少10%-20%<br>    Damage reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害减少10%-25%<br>    Stagger Damage decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度减少10%-20%<br>    Stamina Regen decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力减少5%-15%<br>    Stamina reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果减少10%-25%<br>    Healing decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人时失去生命值<br>    Lose Health on Hit",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命值减少5%-15%<br>    Health reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御减少10%-20%<br>    Defence reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "格挡消耗的体力增加5%-15%<br>    Stamina Cost on Block increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗增加5%-15%<br>    Rune Cost increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取减少10%-25%<br>    Focus Gain decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性减少10%-20%<br>    Fire Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性减少10%-20%<br>    Lightning Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性减少10%-20%<br>    Plague Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性减少10%-20%<br>    Cold Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+        ],
+        "弓 (Bow)": [
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值增加30%-100%<br>    Durability increased by 30%-100%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "击杀敌人后，获得的专注增加15%-30%，持续20秒<br>    Focus Gain increased by 15%-30% for 20 seconds after Kill",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "击杀敌人后，伤害增加15%-30%，持续20秒<br>    Damage increased by 15%-30% for 20 seconds after Kill",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "对满生命值敌人造成的伤害增加15%-30%<br>    Damage to Full Health enemies increased by 15%-30%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "符文攻击伤害增加10%-25%<br>    Rune Attack Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击伤害增加10%-25%<br>    Crit Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "远程伤害增加10%-25%<br>    Ranged Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害增加10%-25%<br>    Stagger Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "造成的硬直增加10%-25%<br>    Poise Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "攻击消耗的体力减少5%-15%<br>    Stamina Cost on Attack decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "击中敌人后，有3%-10%概率恢复10-25点体力<br>    3%-10% Chance to gain 10-25 Stamina on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "击杀敌人后，生命值恢复5%-15%<br>    5%-15% Health regained after Kill",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性伤害增加10%-25%<br>    Fire Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性状态累计增加10%-25%<br>    Fire Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性伤害增加10%-25%<br>    Lightning Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性状态累计增加10%-25%<br>    Lightning Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性伤害增加10%-25%<br>    Plague Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性状态累计增加10%-25%<br>    Plague Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性伤害增加10%-25%<br>    Cold Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性状态累计增加10%-25%<br>    Cold Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值增加30%-100%<br>    Durability increased by 30%-100%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "击杀敌人后，伤害增加15%-30%，持续20秒<br>    Damage increased by 15%-30% for 20 seconds after Kill",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "对满生命值敌人造成的伤害增加15%-30%<br>    Damage to Full Health enemies increased by 15%-30%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "符文攻击伤害增加10%-25%<br>    Rune Attack Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击伤害增加10%-25%<br>    Crit Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "远程伤害增加10%-25%<br>    Ranged Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "攻击消耗的体力减少5%-15%<br>    Stamina Cost on Attack decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性伤害增加10%-25%<br>    Fire Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性伤害增加10%-25%<br>    Lightning Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性伤害增加10%-25%<br>    Plague Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性伤害增加10%-25%<br>    Cold Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "装备负重减少20%-30%<br>    Equip Load reduced by 20%-30%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的经验值增加20%-50%<br>    Exp lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的金钱增加20%-50%<br>    Money lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值减少15%-30%<br>    Durability decreased by 15%-30%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "对满生命值敌人造成的伤害减少15%-30%<br>    Damage to Full Health enemies decreased by 15%-30%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度减少5%-15%<br>    Attack Speed decreased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "伤害减少10%-20%<br>    Damage reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害减少10%-25%<br>    Stagger Damage decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "攻击消耗的体力增加5%-15%<br>    Stamina Cost on Attack increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度减少10%-20%<br>    Stamina Regen decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果减少10%-25%<br>    Healing decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人时失去生命值<br>    Lose Health on Hit",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命值减少5%-15%<br>    Health reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗增加5%-15%<br>    Rune Cost increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取减少10%-25%<br>    Focus Gain decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性防御减少10%-20%<br>    Fire Defence decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性防御减少10%-20%<br>    Lightning Defence decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性防御减少10%-20%<br>    Plague Defence decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性防御减少10%-20%<br>    Cold Defence decreased by 10%-20%",
+            type: "Downside",
+          },
+        ],
+        "头盔 (Helmet)": [
+          {
+            group: "杂项 Misc",
+            desc: "获得的经验值增加10%-20%<br>    Exp Gain increased by 10%-20%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "背刺伤害增加10%-25%<br>    Backstab Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "致命一击后，专注增加15-30点<br>    15-30 Focus gained after Fatality",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "反击伤害增加10%-25%<br>    Riposte Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害增加10%-25%<br>    Stagger Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "击中敌人后，有3%-10%概率恢复10-25点体力<br>    3%-10% Chance to gain 10-25 Stamina on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的伤害减少5%-10%<br>    Damage Taken reduced by 5%-10%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御增加10%-20%<br>    Defence increased by 10%-20%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的硬直伤害减少10%-25%<br>    Stagger Damage Taken reduced by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "硬直增加10%-25%<br>    Poise increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "最大专注增加10%-25%<br>    Max Focus increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "获得的经验值增加10%-20%<br>    Exp Gain increased by 10%-20%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "背刺伤害增加10%-25%<br>    Backstab Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "反击伤害增加10%-25%<br>    Riposte Damage increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的伤害减少5%-10%<br>    Damage Taken reduced by 5%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御增加10%-20%<br>    Defence increased by 10%-20%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "硬直增加10%-25%<br>    Poise increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "最大专注增加10%-25%<br>    Max Focus increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "装备负重增加20%-30%<br>    Equip Load increased by 20%-30%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的经验值增加20%-50%<br>    Exp lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的金钱增加20%-50%<br>    Money lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值减少15%-30%<br>    Durability decreased by 15%-30%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度减少5%-15%<br>    Attack Speed decreased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "伤害减少10%-20%<br>    Damage reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害减少10%-25%<br>    Stagger Damage decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度减少10%-20%<br>    Stamina Regen decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力减少5%-15%<br>    Stamina reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果减少10%-25%<br>    Healing decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人时失去生命值<br>    Lose Health on Hit",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命值减少5%-15%<br>    Health reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御减少10%-20%<br>    Defence reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "格挡消耗的体力增加5%-15%<br>    Stamina Cost on Block increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗增加5%-15%<br>    Rune Cost increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取减少10%-25%<br>    Focus Gain decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性减少10%-20%<br>    Fire Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性减少10%-20%<br>    Lightning Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性减少10%-20%<br>    Plague Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性减少10%-20%<br>    Cold Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+        ],
+        "护甲 (Armor)": [
+          {
+            group: "杂项 Misc",
+            desc: "装备负重减少5%-15%<br>    Equip Load reduced by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "获得的专注增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害增加10%-25%<br>    Stagger Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度增加10%-20%<br>    Stamina Regen increased by 10%-20%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "最大体力增加10%-25%<br>    Max Stamina increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "击中敌人后，有3%-10%概率恢复10-25点体力<br>    3%-10% Chance to gain 10-25 Stamina on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "最大生命值增加5%-15%<br>    Max Health increased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "可回复生命增加15%-30%<br>    Regainable Health increased by 15%-30%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的伤害减少5%-10%<br>    Damage Taken reduced by 5%-10%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御增加10%-20%<br>    Defence increased by 10%-20%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的硬直伤害减少10%-25%<br>    Stagger Damage Taken reduced by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "硬直增加10%-25%<br>    Poise increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "装备负重减少5%-15%<br>    Equip Load reduced by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度增加10%-20%<br>    Stamina Regen increased by 10%-20%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "最大体力增加10%-25%<br>    Max Stamina increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "最大生命值增加5%-15%<br>    Max Health increased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "可回复生命增加15%-30%<br>    Regainable Health increased by 15%-30%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的伤害减少5%-10%<br>    Damage Taken reduced by 5%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御增加10%-20%<br>    Defence increased by 10%-20%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "硬直增加10%-25%<br>    Poise increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "装备负重增加20%-30%<br>    Equip Load increased by 20%-30%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的经验值增加20%-50%<br>    Exp lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的金钱增加20%-50%<br>    Money lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值减少15%-30%<br>    Durability decreased by 15%-30%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度减少5%-15%<br>    Attack Speed decreased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "伤害减少10%-20%<br>    Damage reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害减少10%-25%<br>    Stagger Damage decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度减少10%-20%<br>    Stamina Regen decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力减少5%-15%<br>    Stamina reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果减少10%-25%<br>    Healing decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人时失去生命值<br>    Lose Health on Hit",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命值减少5%-15%<br>    Health reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御减少10%-20%<br>    Defence reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "格挡消耗的体力增加5%-15%<br>    Stamina Cost on Block increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗增加5%-15%<br>    Rune Cost increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取减少10%-25%<br>    Focus Gain decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性减少10%-20%<br>    Fire Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性减少10%-20%<br>    Lightning Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性减少10%-20%<br>    Plague Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性减少10%-20%<br>    Cold Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+        ],
+        "裤子 (Pants)": [
+          {
+            group: "行动 Movement",
+            desc: "翻滚/闪避消耗的体力减少5%-15%<br>    Stamina Cost on Dodge decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "行动 Movement",
+            desc: "移动速度增加5%-12%<br>    Movement Speed increased by 5%-12%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害增加10%-25%<br>    Stagger Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度增加10%-20%<br>    Stamina Regen increased by 10%-20%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "最大体力增加10%-25%<br>    Max Stamina increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "击中敌人后，有3%-10%概率恢复10-25点体力<br>    3%-10% Chance to gain 10-25 Stamina on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "最大生命值增加5%-15%<br>    Max Health increased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "可回复生命增加15%-30%<br>    Regainable Health increased by 15%-30%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的伤害减少5%-10%<br>    Damage Taken reduced by 5%-10%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御增加10%-20%<br>    Defence increased by 10%-20%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的硬直伤害减少10%-25%<br>    Stagger Damage Taken reduced by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "硬直增加10%-25%<br>    Poise increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "行动 Movement",
+            desc: "翻滚/闪避消耗的体力减少5%-15%<br>    Stamina Cost on Dodge decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "行动 Movement",
+            desc: "移动速度增加5%-12%<br>    Movement Speed increased by 5%-12%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度增加10%-20%<br>    Stamina Regen increased by 10%-20%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "最大体力增加10%-25%<br>    Max Stamina increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "最大生命值增加5%-15%<br>    Max Health increased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "可回复生命增加15%-30%<br>    Regainable Health increased by 15%-30%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的伤害减少5%-10%<br>    Damage Taken reduced by 5%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御增加10%-20%<br>    Defence increased by 10%-20%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "硬直增加10%-25%<br>    Poise increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "装备负重增加20%-30%<br>    Equip Load increased by 20%-30%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的经验值增加20%-50%<br>    Exp lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的金钱增加20%-50%<br>    Money lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值减少15%-30%<br>    Durability decreased by 15%-30%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度减少5%-15%<br>    Attack Speed decreased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "伤害减少10%-20%<br>    Damage reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害减少10%-25%<br>    Stagger Damage decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度减少10%-20%<br>    Stamina Regen decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力减少5%-15%<br>    Stamina reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果减少10%-25%<br>    Healing decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人时失去生命值<br>    Lose Health on Hit",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命值减少5%-15%<br>    Health reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御减少10%-20%<br>    Defence reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "格挡消耗的体力增加5%-15%<br>    Stamina Cost on Block increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗增加5%-15%<br>    Rune Cost increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取减少10%-25%<br>    Focus Gain decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性减少10%-20%<br>    Fire Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性减少10%-20%<br>    Lightning Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性减少10%-20%<br>    Plague Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性减少10%-20%<br>    Cold Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+        ],
+        "手套 (Gloves)": [
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度增加5%-15%<br>    Attack Speed increased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害增加10%-25%<br>    Stagger Damage increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "攻击消耗的体力减少5%-15%<br>    Stamina Cost on Attack decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度增加10%-20%<br>    Stamina Regen increased by 10%-20%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "最大体力增加10%-25%<br>    Max Stamina increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "击中敌人后，有3%-10%概率恢复10-25点体力<br>    3%-10% Chance to gain 10-25 Stamina on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "最大生命值增加5%-15%<br>    Max Health increased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "生命 Health",
+            desc: "可回复生命增加15%-30%<br>    Regainable Health increased by 15%-30%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的伤害减少5%-10%<br>    Damage Taken reduced by 5%-10%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御增加10%-20%<br>    Defence increased by 10%-20%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的硬直伤害减少10%-25%<br>    Stagger Damage Taken reduced by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "防御 Defence",
+            desc: "硬直增加10%-25%<br>    Poise increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Magical",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度增加5%-15%<br>    Attack Speed increased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "暴击率增加3%-10%<br>    Crit Chance increased by 3%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "攻击消耗的体力减少5%-15%<br>    Stamina Cost on Attack decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度增加10%-20%<br>    Stamina Regen increased by 10%-20%",
+            type: "Plagued",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "最大体力增加10%-25%<br>    Max Stamina increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果增加10%-25%<br>    Healing increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人后，造成的伤害有1%-5%转化为生命值<br>    1%-5% Damage dealt as Health on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "最大生命值增加5%-15%<br>    Max Health increased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "生命 Health",
+            desc: "可回复生命增加15%-30%<br>    Regainable Health increased by 15%-30%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "受到的伤害减少5%-10%<br>    Damage Taken reduced by 5%-10%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御增加10%-20%<br>    Defence increased by 10%-20%",
+            type: "Plagued",
+          },
+          {
+            group: "防御 Defence",
+            desc: "硬直增加10%-25%<br>    Poise increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗减少5%-15%<br>    Rune Cost decreased by 5%-15%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取增加10%-25%<br>    Focus Gain increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "专注 Focus",
+            desc: "击中敌人后，获得的专注增加3%-10%<br>    3%-10% Focus gained on Hit",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性增加10%-25%<br>    Fire Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性增加10%-25%<br>    Lightning Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性增加10%-25%<br>    Plague Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性增加10%-25%<br>    Cold Resistance increased by 10%-25%",
+            type: "Plagued",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "装备负重增加20%-30%<br>    Equip Load increased by 20%-30%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的经验值增加20%-50%<br>    Exp lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "死亡时失去的金钱增加20%-50%<br>    Money lost on Death increased by 20%-50%",
+            type: "Downside",
+          },
+          {
+            group: "杂项 Misc",
+            desc: "物品耐久值减少15%-30%<br>    Durability decreased by 15%-30%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "攻击速度减少5%-15%<br>    Attack Speed decreased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "伤害减少10%-20%<br>    Damage reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "攻击 Offensive",
+            desc: "硬直伤害减少10%-25%<br>    Stagger Damage decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力回复速度减少10%-20%<br>    Stamina Regen decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "体力 Stamina",
+            desc: "体力减少5%-15%<br>    Stamina reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命回复效果减少10%-25%<br>    Healing decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "击中敌人时失去生命值<br>    Lose Health on Hit",
+            type: "Downside",
+          },
+          {
+            group: "生命 Health",
+            desc: "生命值减少5%-15%<br>    Health reduced by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "防御减少10%-20%<br>    Defence reduced by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "防御 Defence",
+            desc: "格挡消耗的体力增加5%-15%<br>    Stamina Cost on Block increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "符文消耗增加5%-15%<br>    Rune Cost increased by 5%-15%",
+            type: "Downside",
+          },
+          {
+            group: "专注 Focus",
+            desc: "专注获取减少10%-25%<br>    Focus Gain decreased by 10%-25%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "火属性抗性减少10%-20%<br>    Fire Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "电属性抗性减少10%-20%<br>    Lightning Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "瘟疫属性抗性减少10%-20%<br>    Plague Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+          {
+            group: "元素 Elemental",
+            desc: "冰属性抗性减少10%-20%<br>    Cold Resistance decreased by 10%-20%",
+            type: "Downside",
+          },
+        ],
+      };
+
+      const icons = {
+        "武器 (Weapon)": "⚔️",
+        "盾牌 (Shield)": "🛡️",
+        "弓 (Bow)": "🏹",
+        "头盔 (Helmet)": "🪖",
+        "护甲 (Armor)": "👕",
+        "裤子 (Pants)": "👖",
+        "手套 (Gloves)": "🧤",
+      };
+
+      function initHome() {
+        const home = document.getElementById("home-view");
+        home.innerHTML = "";
+        Object.keys(fullData)
+          .sort()
+          .forEach((cat) => {
+            const count = fullData[cat].length;
+            home.innerHTML += `
+                    <div onclick="showTable('${cat}')" class="glass-card p-8 rounded-3xl cursor-pointer category-card text-center">
+                        <div class="text-5xl mb-4 filter drop-shadow-[0_0_8px_rgba(168,85,247,0.5)]">${
+                          icons[cat] || "💎"
+                        }</div>
+                        <h3 class="text-lg font-bold text-white mb-2">${cat}</h3>
+                        <p class="text-[10px] text-slate-500 uppercase tracking-widest">${count} 项词缀</p>
+                    </div>
+                `;
+          });
+      }
+
+      function showTable(category) {
+        document.getElementById("home-view").classList.add("hidden");
+        document.getElementById("detail-view").classList.remove("hidden");
+        document.getElementById("current-title").innerText = category;
+
+        const list = fullData[category];
+        document.getElementById("current-count").innerText =
+          `${list.length} 项可用词缀记录`;
+
+        const tbody = document.getElementById("table-content");
+        tbody.innerHTML = "";
+
+        list.forEach((item) => {
+          const typeClass = `tag-${item.type.toLowerCase()}`;
+          tbody.innerHTML += `
+                    <tr class="hover:bg-purple-900/10 transition-colors border-b border-slate-800/30">
+                        <td class="p-5">
+                            <span class="font-mono text-[11px] text-purple-300 bg-purple-950/40 px-2 py-1 rounded border border-purple-800/30">
+                                ${item.group}
+                            </span>
+                        </td>
+                        <td class="p-5 text-slate-300 leading-relaxed font-light">
+                            ${item.desc}
+                        </td>
+                        <td class="p-5">
+                            <span class="px-2 py-1 rounded-md text-[9px] font-bold uppercase tracking-tighter ${typeClass}">
+                                ${item.type}
+                            </span>
+                        </td>
+                    </tr>
+                `;
+        });
+        window.scrollTo(0, 0);
+      }
+
+      function showHome() {
+        document.getElementById("home-view").classList.remove("hidden");
+        document.getElementById("detail-view").classList.add("hidden");
+      }
+
+      initHome();
+    </script>
+  </body>
+</html>
