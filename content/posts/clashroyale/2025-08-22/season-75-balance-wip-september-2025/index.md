@@ -21,7 +21,7 @@ draft: false
 
 ### 亡灵&亡灵海
 
-![](https://fastly.jsdelivr.net/gh/bucketio/img19@main/2025/08/21/1755783631130-66a9ca9c-5a45-4b90-a880-c58bad1a7036.png)
+![|300x360](https://fastly.jsdelivr.net/gh/bucketio/img19@main/2025/08/21/1755783631130-66a9ca9c-5a45-4b90-a880-c58bad1a7036.png)
 
 | 调整项           | 调整前 | 调整后 |  
 |------------------|--------|--------|  

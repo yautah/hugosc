@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/clashroyale/2025-08-22/season-75-balance-wip-september-2025/index.md",
+                "file": "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "187213e6bdb3ed5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/clashroyale/2026-05-10/how-to-play-mega-draft-challenge/index.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 245.5
   },
   "right": {
     "id": "2642b3d61185b34c",
@@ -181,7 +196,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -193,22 +208,30 @@
       "note-to-mp:复制到公众号": false
     }
   },
-  "active": "cc421328dc02ce08",
+  "active": "187213e6bdb3ed5e",
   "lastOpenFiles": [
+    "posts/clashroyale/2026-05-10/how-to-play-mega-draft-challenge/index.md",
+    "posts/clashroyale/2026-05-10/how-to-play-mega-draft-challenge",
+    "posts/clashroyale/2026-05-10",
+    "未命名.md",
     "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index.md",
+    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494921841.webp",
+    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494915345.webp",
+    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494909975.webp",
     "posts/clashroyale/2025-08-22/season-75-balance-wip-september-2025/index.md",
+    "posts/clashroyale/2026-05-08/new-content/index.md",
+    "posts/clashroyale/2025-07-10/clash-royale-is-back/index.md",
+    "posts/clashroyale/2026-05-08/new-content",
+    "posts/clashroyale/2026-05-08",
+    "posts/clashroyale/2025-07-10/clash-royale-is-back/index-1752137479100.png",
+    "posts/clashroyale/2025-07-10/clash-royale-is-back/index-1752138003121.png",
+    "posts/clashroyale/2025-07-10/clash-royale-is-back/index-1752137966835.png",
+    "posts/clashroyale/2025-07-10/clash-royale-is-back/index-1752137871649.png",
+    "posts/clashroyale/2025-07-10/clash-royale-is-back/index-1752137797374.png",
     "posts/clashroyale/2025-08-22/season-75-balance-wip-september-2025",
     "posts/clashroyale/2025-08-22",
     "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494980669.png",
     "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494975869.webp",
-    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494971254.webp",
-    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494966048.png",
-    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494960359.webp",
-    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494954348.webp",
-    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494946134.webp",
-    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494941969.webp",
-    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494937527.webp",
-    "posts/clashroyale/2025-08-06/when-will-next-slash-royale/index-1754494932486.png",
     "posts/clashroyale/2025-08-03/clash-royale-season-74/index.md",
     "posts/clashroyale/2025-08-06/when-will-next-slash-royale",
     "posts/clashroyale/2025-08-06",
@@ -216,13 +239,8 @@
     "posts/clashroyale/2025-08-03/clash-royale-season-74",
     "posts/clashroyale/2025-08-03",
     "posts/clashroyale/2025-07-30/clash-royale-furnace-rework/index.md",
-    "posts/clashroyale/2025-07-31/clash-royale-furnace-evo",
-    "posts/clashroyale/2025-07-31",
     "posts/clashroyale/2025-07-29/clash-royale-furnace-evolution-leak/index.md",
-    "posts/clashroyale/2025-07-30/clash-royale-furnace-rework",
-    "posts/clashroyale/2025-07-30",
     "posts/clashroyale/2025-07-12/supercell-store-ban-china-ip/index.md",
-    "posts/clashroyale/2025-07-10/clash-royale-is-back/index.md",
     "posts/clashroyale/2025-07-05/clash-royale-season-73/index.md",
     "posts/clashroyale/2025-05-30/evo-inferno-dragon/index.md",
     "posts/clashroyale/2025-07-02/spirit-empress-new-card-2025-july/index.md",
@@ -238,9 +256,6 @@
     "posts/clashroyale/2025-06-25/new-evo-card-speculation/index.md",
     "posts/clashroyale/2025-06-25/clash-mini-confirmed/index.md",
     "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
-    "posts/moco/2025-06-25/moco-update-in-june/index.md",
-    "posts/brawlstars/2025-06-22/brawl-talk-june-2025/index.md",
-    "posts/brawlstars/2025-06-20/brawl-stars-june-2025-brawl-talk-preview/index.md",
     "未命名.canvas"
   ]
 }

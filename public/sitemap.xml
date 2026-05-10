@@ -6,10 +6,10 @@
     <lastmod>2025-07-03T08:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/</loc>
-    <lastmod>2025-08-22T10:28:29+08:00</lastmod>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-22T10:28:29+08:00</lastmod>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/brawlstars/</loc>
     <lastmod>2025-06-29T10:10:00+08:00</lastmod>
@@ -21,16 +21,28 @@
     <lastmod>2025-07-03T10:56:34+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-22T10:28:29+08:00</lastmod>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-22T10:28:29+08:00</lastmod>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-22T10:28:29+08:00</lastmod>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%B6%85%E7%BA%A7%E9%80%89%E5%8D%A1/</loc>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
-    <lastmod>2025-08-22T10:28:29+08:00</lastmod>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/clashroyale/2026/05/how-to-play-mega-draft-challenge/</loc>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89%E6%94%BB%E7%95%A5/</loc>
+    <lastmod>2026-05-10T15:00:59+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/08/season-75-balance-wip-september-2025/</loc>
     <lastmod>2025-08-22T10:28:29+08:00</lastmod>
@@ -69,9 +81,6 @@
     <lastmod>2025-07-12T15:57:59+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E5%90%88%E5%90%88%E5%A5%87%E5%85%B5/</loc>
-    <lastmod>2025-07-10T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E7%9A%87%E5%AE%A4%E6%88%98%E4%BA%89/</loc>
     <lastmod>2025-07-10T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/clashroyale/2025/07/clash-royale-supercell-comeback-2025/</loc>
@@ -319,5 +328,7 @@
   </url><url>
     <loc>http://localhost:1313/tools/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/%E6%9C%AA%E5%91%BD%E5%90%8D/</loc>
   </url>
 </urlset>
