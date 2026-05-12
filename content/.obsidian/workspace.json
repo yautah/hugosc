@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/clashroyale/2026-05-10/how-to-play-mega-draft-challenge/index.md",
-                "mode": "preview",
+                "file": "posts/clashroyale/2026-05-12/clash-royale-deck-archetypes.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "clash-royale-deck-archetypes"
             }
           }
         ],
@@ -211,6 +211,8 @@
   "active": "187213e6bdb3ed5e",
   "lastOpenFiles": [
     "posts/clashroyale/2026-05-10/how-to-play-mega-draft-challenge/index.md",
+    "posts/clashroyale/2026-05-12/clash-royale-deck-archetypes.md",
+    "posts/clashroyale/2026-05-12",
     "posts/clashroyale/2026-05-10/how-to-play-mega-draft-challenge",
     "posts/clashroyale/2026-05-10",
     "未命名.md",
@@ -237,7 +239,6 @@
     "posts/clashroyale/2025-08-06",
     "posts/clashroyale/2025-07-31/clash-royale-furnace-evo/index.md",
     "posts/clashroyale/2025-08-03/clash-royale-season-74",
-    "posts/clashroyale/2025-08-03",
     "posts/clashroyale/2025-07-30/clash-royale-furnace-rework/index.md",
     "posts/clashroyale/2025-07-29/clash-royale-furnace-evolution-leak/index.md",
     "posts/clashroyale/2025-07-12/supercell-store-ban-china-ip/index.md",
@@ -255,7 +256,6 @@
     "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index.md",
     "posts/clashroyale/2025-06-25/new-evo-card-speculation/index.md",
     "posts/clashroyale/2025-06-25/clash-mini-confirmed/index.md",
-    "posts/moco/2025-06-17/an_update_on_mocos_june_update/index.md",
     "未命名.canvas"
   ]
 }
