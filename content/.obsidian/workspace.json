@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/clashroyale/2026-05-12/clash-royale-deck-archetypes.md",
-                "mode": "source",
-                "source": false
+                "file": "posts/clashroyale/2026-05-14/2026-q2-update-may-2026-preview-1.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "clash-royale-deck-archetypes"
+              "title": "2026-q2-update-may-2026-preview-1"
             }
           }
         ],
@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,16 +168,6 @@
             }
           },
           {
-            "id": "17b11be0864534d5",
-            "type": "leaf",
-            "state": {
-              "type": "note-preview",
-              "state": {},
-              "icon": "clipboard-paste",
-              "title": "笔记预览"
-            }
-          },
-          {
             "id": "257c103621a72946",
             "type": "leaf",
             "state": {
@@ -210,8 +201,10 @@
   },
   "active": "187213e6bdb3ed5e",
   "lastOpenFiles": [
-    "posts/clashroyale/2026-05-10/how-to-play-mega-draft-challenge/index.md",
     "posts/clashroyale/2026-05-12/clash-royale-deck-archetypes.md",
+    "posts/clashroyale/2026-05-10/how-to-play-mega-draft-challenge/index.md",
+    "posts/clashroyale/2026-05-14/2026-q2-update-may-2026-preview-1.md",
+    "posts/clashroyale/2026-05-14",
     "posts/clashroyale/2026-05-12",
     "posts/clashroyale/2026-05-10/how-to-play-mega-draft-challenge",
     "posts/clashroyale/2026-05-10",
@@ -238,7 +231,6 @@
     "posts/clashroyale/2025-08-06/when-will-next-slash-royale",
     "posts/clashroyale/2025-08-06",
     "posts/clashroyale/2025-07-31/clash-royale-furnace-evo/index.md",
-    "posts/clashroyale/2025-08-03/clash-royale-season-74",
     "posts/clashroyale/2025-07-30/clash-royale-furnace-rework/index.md",
     "posts/clashroyale/2025-07-29/clash-royale-furnace-evolution-leak/index.md",
     "posts/clashroyale/2025-07-12/supercell-store-ban-china-ip/index.md",
@@ -255,7 +247,6 @@
     "posts/brawlstars/2025-06-29/brawl-stars-supercell-id-rewards-skins-promotion/index.md",
     "posts/clashofclans/2025-06-19/coc-epic-raid-boardgame/index.md",
     "posts/clashroyale/2025-06-25/new-evo-card-speculation/index.md",
-    "posts/clashroyale/2025-06-25/clash-mini-confirmed/index.md",
     "未命名.canvas"
   ]
 }
