@@ -20,7 +20,6 @@ const rewardTowerSkins = document.getElementById("reward-tower-skins");
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
-	//const
 
   const tag = verifyTag(input.value);
   if (!tag) {
@@ -34,7 +33,7 @@ form.addEventListener("submit", async (event) => {
   resultCard.classList.add("hidden");
 
   try {
-    const response = await fetch(`http://api.madn.xyz/kl/api/v1/kinglevel?tag=${encodeURIComponent(tag)}`);
+    const response = await fetch(`https://api.madn.xyz/kl/api/v1/kinglevel?tag=${encodeURIComponent(tag)}`);
     const data = await response.json();
 
     if (!response.ok) {
