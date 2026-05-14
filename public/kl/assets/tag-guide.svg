@@ -1,0 +1,21 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="420" rx="28" fill="#D8EEFF"/>
+  <rect x="148" y="32" width="344" height="356" rx="34" fill="#1B3650"/>
+  <rect x="163" y="47" width="314" height="326" rx="28" fill="#F3FAFF"/>
+  <rect x="192" y="79" width="256" height="92" rx="24" fill="#CFE8FF"/>
+  <circle cx="239" cy="125" r="28" fill="#7AA9D6"/>
+  <rect x="279" y="98" width="127" height="18" rx="9" fill="#306287" opacity="0.88"/>
+  <rect x="279" y="126" width="98" height="12" rx="6" fill="#7A9DBA"/>
+  <rect x="204" y="198" width="232" height="112" rx="24" fill="#E5F3FF"/>
+  <rect x="221" y="218" width="198" height="16" rx="8" fill="#8AB7DE"/>
+  <rect x="221" y="246" width="141" height="11" rx="5.5" fill="#ABCBE7"/>
+  <rect x="221" y="266" width="158" height="11" rx="5.5" fill="#ABCBE7"/>
+  <path d="M421 279L491 258" stroke="#FF8A00" stroke-width="8" stroke-linecap="round"/>
+  <path d="M489 258L463 243" stroke="#FF8A00" stroke-width="8" stroke-linecap="round"/>
+  <path d="M489 258L469 283" stroke="#FF8A00" stroke-width="8" stroke-linecap="round"/>
+  <rect x="350" y="322" width="180" height="44" rx="22" fill="#FF8A00"/>
+  <text x="440" y="350" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">玩家 Tag</text>
+  <text x="315" y="289" text-anchor="middle" fill="#2A5A82" font-family="Arial, sans-serif" font-size="26" font-weight="700">#8ABC1234</text>
+  <text x="320" y="25" text-anchor="middle" fill="#2A5A82" font-family="Arial, sans-serif" font-size="24" font-weight="700">点击头像进入个人资料页</text>
+  <text x="320" y="408" text-anchor="middle" fill="#4B769B" font-family="Arial, sans-serif" font-size="22">名字下方的 #XXXXXXXX 就是玩家 Tag</text>
+</svg>

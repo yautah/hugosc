@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>皇室战争新国王等级查询</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/app.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero-card">
+        <div class="hero-copy">
+          <p class="eyebrow">创作者代码：xiaomi</p>
+          <h1>收藏等级、奖励查询</h1>
+          <p class="hero-desc">
+            输入玩家 Tag，即可查看旧经验等级、旧国王塔等级、新收藏等级、新国王塔等级，以及本次可领取的庆祝奖励。
+          </p>
+        </div>
+
+        <form id="query-form" class="query-panel">
+          <label class="field-label" for="player-tag">玩家 Tag</label>
+          <div class="field-row">
+            <span class="field-prefix">#</span>
+            <input
+              id="player-tag"
+              name="tag"
+              type="text"
+              inputmode="text"
+              autocomplete="off"
+              placeholder="例如 C0G20PR2"
+              maxlength="20"
+            />
+            <button id="query-button" type="submit">开始查询</button>
+          </div>
+          <p class="field-tip">支持直接输入带或不带 `#` 的 Tag。</p>
+          <p id="status-text" class="status-text" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section id="loading-card" class="loading-card hidden" aria-live="polite">
+        <div class="spinner"></div>
+        <div>
+          <p class="loading-title">正在查询中</p>
+          <p class="loading-desc">正在获取玩家资料并计算更新后的等级与奖励。</p>
+        </div>
+      </section>
+
+      <section id="result-card" class="result-card hidden">
+        <header class="result-header">
+          <div>
+            <p class="result-tag-label">查询结果</p>
+            <h2 id="player-name">玩家名称</h2>
+            <p id="player-tag-display" class="player-tag-display">#TAG</p>
+          </div>
+          <div class="result-badge">新等级预览</div>
+        </header>
+
+        <div class="level-grid">
+          <article class="panel before-panel">
+            <h3>更新前</h3>
+            <ul class="metric-list">
+              <li>
+                <span class="metric-icon">
+                  <img src="/assets/icon-xp.png" alt="" />
+                </span>
+                <div>
+                  <p class="metric-label">经验等级</p>
+                  <strong id="experience-level">0</strong>
+                </div>
+              </li>
+              <li>
+                <span class="metric-icon">
+                  <img src="/assets/icon-king-level.png" alt="" />
+                </span>
+                <div>
+                  <p class="metric-label">国王塔等级</p>
+                  <strong id="old-king-level">0</strong>
+                </div>
+              </li>
+            </ul>
+          </article>
+
+          <article class="panel after-panel">
+            <h3>更新后</h3>
+            <ul class="metric-list">
+              <li>
+                <span class="metric-icon">
+                  <img src="/assets/collection-level.png" alt="" />
+                </span>
+                <div>
+                  <p class="metric-label">收藏等级</p>
+                  <strong id="collection-level">0</strong>
+                </div>
+              </li>
+              <li>
+                <span class="metric-icon">
+                  <img src="/assets/icon-king-level.png" alt="" />
+                </span>
+                <div>
+                  <p class="metric-label">国王塔等级</p>
+                  <strong id="new-king-level">0</strong>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <section class="summary-strip" style="display: none;">
+          <div class="summary-item">
+            <span class="summary-label">已拥有普通卡牌</span>
+            <strong id="owned-card-count">0</strong>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">已拥有塔楼部队</span>
+            <strong id="owned-support-count">0</strong>
+          </div>
+        </section>
+
+        <section class="panel reward-panel">
+          <h3>庆祝奖励</h3>
+          <div class="reward-grid">
+            <div class="reward-item">
+              <span class="reward-icon">
+                <img src="/assets/icon-gem.png" alt="" />
+              </span>
+              <div>
+                <p class="metric-label">宝石</p>
+                <strong id="reward-gems">0</strong>
+              </div>
+            </div>
+            <div class="reward-item">
+              <span class="reward-icon">
+                <img src="/assets/icon-chest-lucky.png" alt="" />
+              </span>
+              <div>
+                <p class="metric-label">5 星惊喜宝箱</p>
+                <strong id="reward-boxes">0</strong>
+              </div>
+            </div>
+            <div class="reward-item">
+              <span class="reward-icon">
+                <img src="/assets/icon-banners.png" alt="" />
+              </span>
+              <div>
+                <p class="metric-label">战旗</p>
+                <strong id="reward-banners">0</strong>
+              </div>
+            </div>
+            <div class="reward-item">
+              <span class="reward-icon">
+                <img src="/assets/icon-tower-skin.png" alt="" />
+              </span>
+              <div>
+                <p class="metric-label">塔楼皮肤</p>
+                <strong id="reward-tower-skins">0</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="guide-card">
+        <div class="guide-copy">
+          <h2>游戏里怎么找到 Tag？</h2>
+          <p>打开游戏主页，点击左上角昵称进入个人资料页，玩家昵称下方的 `#XXXXXXXX` 就是 Tag，点击即可复制。</p>
+        </div>
+        <img
+          class="guide-image"
+          src="/assets/tag-guide.png"
+          alt="如何在皇室战争游戏内找到玩家 Tag 的示意图"
+        />
+      </section>
+    </main>
+
+    <script src="/app.js" defer></script>
+  </body>
+  </html>
