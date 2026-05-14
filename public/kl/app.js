@@ -20,6 +20,7 @@ const rewardTowerSkins = document.getElementById("reward-tower-skins");
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
+	//const
 
   const tag = verifyTag(input.value);
   if (!tag) {
