@@ -333,6 +333,7 @@ img {
 }
 
 .compare-column {
+  min-width: 0;
   padding: 22px;
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.52);
@@ -441,6 +442,14 @@ img {
   gap: 16px;
 }
 
+.reward-item {
+  min-width: 0;
+}
+
+.reward-item > div {
+  min-width: 0;
+}
+
 @media (max-width: 900px) {
   .page-shell {
     width: min(100% - 24px, 1120px);
@@ -460,7 +469,7 @@ img {
   }
 
   .reward-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
   }
 
   .compare-panel {
@@ -556,5 +565,46 @@ img {
   .metric-list li {
     align-items: flex-start;
     gap: 10px;
+  }
+
+  .reward-item {
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .compare-panel {
+    grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr);
+    gap: 6px;
+    padding: 10px;
+  }
+
+  .compare-divider span {
+    width: 24px;
+    height: 24px;
+    font-size: 15px;
+  }
+
+  .compare-column {
+    padding: 12px 10px;
+  }
+
+  .compare-column h3 {
+    font-size: 20px;
+  }
+
+  .metric-list strong,
+  .reward-item strong {
+    font-size: 20px;
+  }
+
+  .metric-label {
+    font-size: 12px;
+  }
+
+  .reward-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
   }
 }
