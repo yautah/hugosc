@@ -33,6 +33,7 @@ form.addEventListener("submit", async (event) => {
   resultCard.classList.add("hidden");
 
   try {
+	  //const
     const response = await fetch(`https://api.madn.xyz/kl/api/v1/kinglevel?tag=${encodeURIComponent(tag)}`);
     const data = await response.json();
 
