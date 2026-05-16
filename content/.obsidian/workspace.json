@@ -27,9 +27,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/clashroyale/2026-05-15/what-to-do-before-may-update/index.md",
+                "file": "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "index"
@@ -194,25 +194,29 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "templater-obsidian:Templater": false,
-      "note-to-mp:复制到公众号": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "187213e6bdb3ed5e",
   "lastOpenFiles": [
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/Tinified/index-1778836241095.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/Tinified/index-1778836209354.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/Tinified/index-1778836199253.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/Tinified/index-1778836196905.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/Tinified/index-1778836170399.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/Tinified/index-1778836152170.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/Tinified/index-1778836124377.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/Tinified",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/index-1778836241095.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/index-1778836209354.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/index-1778836199253.png",
-    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/index-1778836196905.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937062600.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937058051.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937051276.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937050122.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937044502.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937037721.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937032550.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937025326.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937019210.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937013314.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index-1778937006591.png",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck/index.md",
+    "posts/clashroyale/2025-06-29/merge-tactics-2025-july/index.md",
+    "posts/clashroyale/2026-05-16/how-to-make-reasonable-deck",
+    "posts/clashroyale/2026-05-16",
+    "posts/clashroyale/03-18_how_to_install_clashroyale_android/index.md",
     "posts/clashroyale/2026-05-15/what-to-do-before-may-update/index.md",
+    "posts/clashroyale/2026-05-15/what-to-do-before-may-update/Tinified",
     "posts/clashroyale/01-01_2024-year-report.md",
     "未命名.canvas",
     "posts/clashroyale/2026-05-15/what-to-do-before-may-update",
@@ -230,8 +234,6 @@
     "posts/clashroyale/2025-08-22/season-75-balance-wip-september-2025/index.md",
     "posts/clashroyale/2026-05-08/new-content/index.md",
     "posts/clashroyale/2025-07-10/clash-royale-is-back/index.md",
-    "posts/clashroyale/2026-05-08/new-content",
-    "posts/clashroyale/2026-05-08",
     "posts/clashroyale/2025-08-03/clash-royale-season-74/index.md",
     "posts/clashroyale/2025-07-31/clash-royale-furnace-evo/index.md",
     "posts/clashroyale/2025-07-30/clash-royale-furnace-rework/index.md",
@@ -240,12 +242,9 @@
     "posts/clashroyale/2025-07-05/clash-royale-season-73/index.md",
     "posts/clashroyale/2025-05-30/evo-inferno-dragon/index.md",
     "posts/clashroyale/2025-07-02/spirit-empress-new-card-2025-july/index.md",
-    "posts/clashroyale/2025-06-29/merge-tactics-2025-july/index.md",
     "posts/clashroyale/2025-06-29/summer-update-info/index.md",
     "posts/clashroyale/2025-07-03/evo-skeleton-barrel-2025-july/index.md",
     "resources.md",
-    "posts/moco/2025-07-03/moco-announce-global/index.md",
-    "posts/clashofclans/2025-07-03/coc-2025-summer-upgrade-event/index.md",
-    "posts/clashofclans/2025-06-29/clash-of-clans-cyber-futurist-season/index.md"
+    "posts/moco/2025-07-03/moco-announce-global/index.md"
   ]
 }
