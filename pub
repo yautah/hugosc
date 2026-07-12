@@ -1,0 +1,126 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$ROOT_DIR"
+
+CLI="$ROOT_DIR/.venv-content-publisher/bin/content-publish"
+
+if [[ ! -x "$CLI" ]]; then
+  echo "没有找到 content-publish：$CLI"
+  echo
+  echo "请先执行："
+  echo "  /Users/yang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m venv .venv-content-publisher"
+  echo "  .venv-content-publisher/bin/python -m pip install -e tools/content-publisher"
+  exit 1
+fi
+
+article="${1:-}"
+
+latest_article() {
+  find content/posts -path "*/index.md" -type f -print0 \
+    | xargs -0 ls -t 2>/dev/null \
+    | head -n 1
+}
+
+choose_article() {
+  if [[ -n "$article" ]]; then
+    return
+  fi
+
+  local latest
+  latest="$(latest_article || true)"
+  if [[ -n "$latest" ]]; then
+    echo "文章路径 [直接回车使用最近文章：$latest]"
+  else
+    echo "文章路径"
+  fi
+
+  read -r input
+  if [[ -n "$input" ]]; then
+    article="$input"
+  elif [[ -n "$latest" ]]; then
+    article="$latest"
+  fi
+}
+
+ensure_article() {
+  choose_article
+  if [[ -z "$article" ]]; then
+    echo "没有选择文章。"
+    exit 1
+  fi
+  if [[ ! -f "$article" ]]; then
+    echo "找不到文章：$article"
+    exit 1
+  fi
+}
+
+run_check() {
+  ensure_article
+  "$CLI" check "$article"
+}
+
+run_preview() {
+  ensure_article
+  "$CLI" build "$article"
+  echo
+  echo "公众号预览："
+  echo "  tools/content-publisher/dist/wechat/$(basename "$(dirname "$article")").html"
+}
+
+run_wechat_draft() {
+  ensure_article
+  "$CLI" wechat-draft "$article"
+}
+
+show_menu() {
+  cat <<'MENU'
+请选择操作：
+  1) 检查文章
+  2) 生成公众号/百家号预览
+  3) 创建公众号草稿
+  4) 检查文章 + 生成预览
+  5) 检查文章 + 创建公众号草稿
+  0) 退出
+MENU
+}
+
+if [[ "${2:-}" != "" ]]; then
+  echo "用法：./pub [content/posts/.../index.md]"
+  exit 2
+fi
+
+while true; do
+  echo
+  if [[ -n "$article" ]]; then
+    echo "当前文章：$article"
+  fi
+  show_menu
+  read -r -p "> " choice
+  case "$choice" in
+    1)
+      run_check
+      ;;
+    2)
+      run_preview
+      ;;
+    3)
+      run_wechat_draft
+      ;;
+    4)
+      run_check
+      run_preview
+      ;;
+    5)
+      run_check
+      run_wechat_draft
+      ;;
+    0)
+      exit 0
+      ;;
+    *)
+      echo "未知选项：$choice"
+      ;;
+  esac
+done

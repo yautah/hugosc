@@ -40,8 +40,8 @@
       {{- else }}
 
         {{- with $imgfeature := resources.Get .Params.image }}
-          {{ $imgfeature := $imgfeature.Resize "720x Q85" -}}
-          <img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imgfeature.Permalink }}" alt="{{ $.Name }}" width="{{ $imgfeature.Width }}" height="{{ $imgfeature.Height }}">
+          {{ $imgfeature := $imgfeature.Fill "720x405 Center q85" -}}
+          <img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imgfeature.Permalink }}" alt="{{ $.Name }}" width="{{ $imgfeature.Width }}" height="{{ $imgfeature.Height }}">
         {{- end }}
 
       {{- end }}

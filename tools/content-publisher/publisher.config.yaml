@@ -1,0 +1,20 @@
+site:
+  author: "皇室小蜜"
+  source_url: "https://scbase.cn"
+
+paths:
+  dist: "dist"
+  hugo_content_dir: ""
+  assets_image_dir: "../../assets/images"
+
+wechat:
+  enabled: true
+  app_id_env: "WECHAT_APP_ID"
+  app_secret_env: "WECHAT_APP_SECRET"
+  author: "皇家劝退师"
+  default_need_open_comment: 0
+  default_only_fans_can_comment: 1
+
+baijiahao:
+  enabled: true
+  mode: "html-only"

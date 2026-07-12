@@ -1,0 +1,21 @@
+site:
+  author: "你的名字"
+  source_url: "https://example.com"
+
+paths:
+  dist: "dist"
+  hugo_content_dir: ""
+  assets_image_dir: "../../assets/images"
+
+wechat:
+  enabled: true
+  app_id_env: "WECHAT_APP_ID"
+  app_secret_env: "WECHAT_APP_SECRET"
+  author: "你的名字"
+  default_template: "redream-obsidian-blue"
+  default_need_open_comment: 0
+  default_only_fans_can_comment: 0
+
+baijiahao:
+  enabled: true
+  mode: "html-only"

@@ -1,0 +1,10 @@
+.env
+.venv/
+.venv-content-publisher/
+dist/
+tools/content-publisher/.env
+tools/content-publisher/.venv/
+tools/content-publisher/dist/
+__pycache__/
+.pytest_cache/
+*.egg-info/
