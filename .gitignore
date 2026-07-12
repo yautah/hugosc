@@ -1,4 +1,7 @@
 .env
+.DS_Store
+public/
+content/.obsidian/workspace.json
 .venv/
 .venv-content-publisher/
 dist/

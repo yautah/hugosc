@@ -1,6 +1,6 @@
 ---
 title: ""
-image: "/images/2025/"
+image: "/images/{{ now.Format "2006" }}/"
 description: ""
 date: '{{ .Date }}'
 slug: "{{ replaceRE `^.*?_(.*)$` `$1` .File.ContentBaseName | replaceRE `_` `-` }}"
@@ -12,4 +12,3 @@ keywords:
   -
 draft: false
 ---
-

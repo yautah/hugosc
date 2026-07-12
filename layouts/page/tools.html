@@ -1,0 +1,143 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-tools.css" }}
+    {{ $toolsCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $toolsCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+
+<section class="sc-tools-hero">
+  <div class="sc-tools-hero-inner">
+    <div>
+      <p class="sc-tools-kicker">Tools</p>
+      <h1 class="sc-tools-title">超级细胞营地工具箱</h1>
+      <p class="sc-tools-lead">
+        整理超级细胞营地自维护工具、玩家常用入口和相关开源项目。优先保留能直接解决问题的工具，再逐步补齐更稳定的资料型功能。
+      </p>
+    </div>
+
+    <aside class="sc-tools-panel" aria-label="工具状态">
+      <h2 class="sc-tools-panel-title">当前状态</h2>
+      <ul class="sc-tools-panel-list">
+        <li><span>站内工具</span><strong>2 个</strong></li>
+        <li><span>外部工具</span><strong>2 个</strong></li>
+        <li><span>开源项目</span><strong>2 个</strong></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="sc-tools-section">
+  <div class="sc-tools-section-head">
+    <div>
+      <p class="sc-tools-kicker">Featured</p>
+      <h2 class="sc-tools-section-title">站内工具</h2>
+      <p class="sc-tools-section-desc">可以直接在超级细胞营地使用的玩家工具。</p>
+    </div>
+  </div>
+
+  <div class="sc-tools-grid">
+    <a class="sc-tool-card sc-tool-card-primary" href="/sb-chests/">
+      <div class="sc-tool-card-main">
+        <span class="sc-tool-icon"><img src="/squad.png" alt=""></span>
+        <h3>爆裂小队国服宝箱查询</h3>
+        <p>输入玩家信息后查询爆裂小队宝箱序列，适合国服玩家快速查看后续宝箱。</p>
+      </div>
+      <div class="sc-tool-meta">
+        <span class="sc-tool-chip">站内可用</span>
+        <span class="sc-tool-chip">爆裂小队</span>
+      </div>
+    </a>
+
+    <a class="sc-tool-card sc-tool-card-primary" href="/kl/">
+      <div class="sc-tool-card-main">
+        <span class="sc-tool-icon"><img src="/royale.svg" alt=""></span>
+        <h3>皇室小蜜收藏等级查询</h3>
+        <p>输入皇室战争玩家 Tag，查询收藏等级、国王塔等级和版本奖励等信息。</p>
+      </div>
+      <div class="sc-tool-meta">
+        <span class="sc-tool-chip">站内可用</span>
+        <span class="sc-tool-chip">皇室战争</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="sc-tools-section">
+  <div class="sc-tools-section-head">
+    <div>
+      <p class="sc-tools-kicker">Links</p>
+      <h2 class="sc-tools-section-title">外部工具</h2>
+      <p class="sc-tools-section-desc">由超级细胞营地或同一维护者提供，但托管在站外的工具入口。</p>
+    </div>
+  </div>
+
+  <div class="sc-tools-grid">
+    <a class="sc-tool-card" href="https://yautah.github.io/sb-chests/" target="_blank" rel="noopener noreferrer">
+      <div class="sc-tool-card-main">
+        <span class="sc-tool-icon"><img src="/squad.png" alt=""></span>
+        <h3>爆裂小队国际服宝箱查询</h3>
+        <p>面向国际服玩家的宝箱查询入口，适合和国服工具分开使用。</p>
+      </div>
+      <div class="sc-tool-meta">
+        <span class="sc-tool-chip">外部链接</span>
+        <span class="sc-tool-chip">爆裂小队</span>
+      </div>
+    </a>
+
+    <a class="sc-tool-card" href="http://www.madn.xyz/sc-background/" target="_blank" rel="noopener noreferrer">
+      <div class="sc-tool-card-main">
+        <span class="sc-tool-icon"><img src="/clash.svg" alt=""></span>
+        <h3>超级细胞背景生成器</h3>
+        <p>用于生成 超级细胞风格背景图，适合制作文章配图、社媒图片或个人素材。</p>
+      </div>
+      <div class="sc-tool-meta">
+        <span class="sc-tool-chip">外部链接</span>
+        <span class="sc-tool-chip">素材工具</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="sc-tools-section">
+  <div class="sc-tools-section-head">
+    <div>
+      <p class="sc-tools-kicker">Open Source</p>
+      <h2 class="sc-tools-section-title">开源项目</h2>
+      <p class="sc-tools-section-desc">和超级细胞营地内容生产、素材整理或游戏数据相关的开源项目。</p>
+    </div>
+  </div>
+
+  <div class="sc-tools-grid">
+    <a class="sc-tool-card" href="https://github.com/yautah/scdownload" target="_blank" rel="noopener noreferrer">
+      <div class="sc-tool-card-main">
+        <span class="sc-tool-icon"><img src="/global_banner.jpg" alt=""></span>
+        <h3>超级细胞资源下载器</h3>
+        <p>用于下载和整理超级细胞游戏相关资源，适合作为文章素材和资料整理的辅助工具。</p>
+      </div>
+      <div class="sc-tool-meta">
+        <span class="sc-tool-chip">GitHub</span>
+        <span class="sc-tool-chip">资源整理</span>
+      </div>
+    </a>
+
+    <a class="sc-tool-card" href="https://github.com/yautah/goroyale" target="_blank" rel="noopener noreferrer">
+      <div class="sc-tool-card-main">
+        <span class="sc-tool-icon"><img src="/royale.svg" alt=""></span>
+        <h3>goroyale</h3>
+        <p>皇室战争官方 API 的 Go 实现，当前用于皇室小蜜等相关项目。</p>
+      </div>
+      <div class="sc-tool-meta">
+        <span class="sc-tool-chip">GitHub</span>
+        <span class="sc-tool-chip">皇室战争</span>
+      </div>
+    </a>
+  </div>
+
+  <p class="sc-tools-note">
+    超级细胞营地会优先维护与本站内容强相关、能长期复用的工具。外部链接如出现失效，会在后续整理时迁移或下线。
+  </p>
+</section>
+
+{{ end }}

@@ -1,0 +1,32 @@
+<div class="sc-header-inner">
+  <div class="sc-header-row">
+    <a class="sc-brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }}">
+      <img src="{{ "/ico.jpg" | relURL }}" width="34" height="34" alt="">
+      <span class="sc-brand-text">
+        <span class="sc-brand-name">超级细胞营地</span>
+        <span class="sc-brand-subtitle">超级细胞玩家营地</span>
+      </span>
+    </a>
+
+    <nav class="sc-nav" aria-label="主导航">
+      {{- $current := . -}}
+      {{- range site.Menus.main }}
+        {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
+        {{- if and (eq .URL "/") $current.IsHome -}}
+          {{- $active = true -}}
+        {{- else if and (ne .URL "/") (hasPrefix $current.RelPermalink .URL) -}}
+          {{- $active = true -}}
+        {{- else if and (eq .URL "/clashroyale/") (hasPrefix $current.RelPermalink "/posts/clashroyale/") -}}
+          {{- $active = true -}}
+        {{- else if and (eq .URL "/brawlstars/") (hasPrefix $current.RelPermalink "/posts/brawlstars/") -}}
+          {{- $active = true -}}
+        {{- else if and (eq .URL "/clashofclans/") (hasPrefix $current.RelPermalink "/posts/clashofclans/") -}}
+          {{- $active = true -}}
+        {{- else if and (eq .URL "/moco/") (hasPrefix $current.RelPermalink "/posts/moco/") -}}
+          {{- $active = true -}}
+        {{- end -}}
+        <a class="sc-nav-link{{ if $active }} sc-nav-link-active{{ end }}" href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{- end }}
+    </nav>
+  </div>
+</div>

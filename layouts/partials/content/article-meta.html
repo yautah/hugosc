@@ -1,0 +1,47 @@
+{{- $gameLabels := dict
+  "clashroyale" "皇室战争"
+  "brawlstars" "荒野乱斗"
+  "clashofclans" "部落冲突"
+  "moco" "Mo.Co"
+  "squadbusters" "爆裂小队"
+-}}
+{{- $typeLabels := dict
+  "guide" "攻略"
+  "deck-guide" "卡组攻略"
+  "news" "资讯"
+  "update" "版本更新"
+  "event" "活动"
+-}}
+{{- $difficultyLabels := dict
+  "beginner" "入门"
+  "intermediate" "进阶"
+  "advanced" "高阶"
+-}}
+{{- $game := default "" .Params.game -}}
+{{- $contentType := default "" .Params.content_type -}}
+{{- $difficulty := default "" .Params.difficulty -}}
+{{- $updated := "" -}}
+{{- with .Params.updated }}
+  {{- $updated = (time .).Format "2006-01-02" -}}
+{{- else }}
+  {{- $updated = .Date.Format "2006-01-02" -}}
+{{- end }}
+<div class="sc-article-meta">
+  {{- with $game }}
+    <span class="sc-meta-chip">{{ default . (index $gameLabels .) }}</span>
+  {{- else }}
+    {{- with index .Params.categories 0 }}
+      <span class="sc-meta-chip">{{ . }}</span>
+    {{- end }}
+  {{- end }}
+  {{- with $contentType }}
+    <span class="sc-meta-chip">{{ default . (index $typeLabels .) }}</span>
+  {{- end }}
+  {{- with $difficulty }}
+    <span class="sc-meta-chip">{{ default . (index $difficultyLabels .) }}</span>
+  {{- end }}
+  {{- if .Params.evergreen }}
+    <span class="sc-meta-chip">长期攻略</span>
+  {{- end }}
+  <span class="sc-meta-chip">更新于 {{ $updated }}</span>
+</div>

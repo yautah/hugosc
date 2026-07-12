@@ -1,0 +1,38 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-list.css" }}
+    {{ $listCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $listCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{- partial "content/breadcrumb.html" . -}}
+
+{{- $title := .Title | humanize -}}
+{{- $desc := "按主题浏览超级细胞营地的攻略、资讯和资料整理。" -}}
+{{- if eq .Type "tags" -}}
+  {{- $title = "标签" -}}
+  {{- $desc = "从卡组、版本、活动、机制等标签进入对应内容。" -}}
+{{- else if eq .Type "categories" -}}
+  {{- $title = "分类" -}}
+  {{- $desc = "按游戏和内容大类浏览超级细胞营地的全部文章。" -}}
+{{- end -}}
+
+<div class="sc-list-page">
+  <header class="sc-list-hero">
+    <p class="sc-list-kicker">主题索引</p>
+    <h1 class="sc-list-title">{{ $title }}</h1>
+    <p class="sc-list-desc">{{ $desc }}</p>
+    <span class="sc-list-count">{{ len .Pages }} 个主题</span>
+  </header>
+
+  <section class="sc-term-grid">
+    {{- range .Pages.ByTitle -}}
+      <a class="sc-term-card" href="{{ .RelPermalink }}">
+        <h2>{{ .LinkTitle | humanize }}</h2>
+        <p>{{ len .Pages }} 篇内容</p>
+      </a>
+    {{- end -}}
+  </section>
+</div>
+{{ end }}

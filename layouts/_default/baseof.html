@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+  {{- block "css" . }}{{ end -}}
+</head>
+<body>
+  <header class="sc-site-header">
+    {{- partial "header.html" . -}}
+  </header>
+  <main class="max-w-7xl mx-auto px-4 md:px-4 lg:px-6">
+    {{- block "main" . }}{{ end -}}
+  </main>
+  <footer class="sc-site-footer">
+    {{- partial "footer.html" . -}}
+  </footer>
+  {{- partialCached "footer/js.html" . }}
+</body>
+</html>

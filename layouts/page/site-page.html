@@ -1,0 +1,49 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-site-page.css" }}
+    {{ $sitePageCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $sitePageCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{- $pages := slice
+  (dict "title" "关于超级细胞营地" "url" "/about/")
+  (dict "title" "联系方式" "url" "/contact/")
+  (dict "title" "隐私政策" "url" "/privacy/")
+  (dict "title" "版权声明" "url" "/copyright/")
+  (dict "title" "免责声明" "url" "/disclaimer/")
+-}}
+
+<section class="sc-site-page">
+  <header class="sc-site-page-hero">
+    <div>
+      <p class="sc-site-page-kicker">{{ default "Site Info" .Params.kicker }}</p>
+      <h1 class="sc-site-page-title">{{ .Title }}</h1>
+      {{ with .Description }}
+        <p class="sc-site-page-desc">{{ . }}</p>
+      {{ end }}
+    </div>
+    <time class="sc-site-page-date" datetime="{{ .Date.Format "2006-01-02" }}">
+      更新于 {{ .Date.Format "2006-01-02" }}
+    </time>
+  </header>
+
+  <div class="sc-site-page-grid">
+    <article class="sc-site-page-content">
+      {{ .Content }}
+    </article>
+
+    <aside class="sc-site-page-aside" aria-label="站点说明导航">
+      <h2>站点说明</h2>
+      <ul class="sc-site-page-links">
+        {{ range $pages }}
+          <li>
+            <a href="{{ .url }}" {{ if eq $.RelPermalink .url }}aria-current="page"{{ end }}>{{ .title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </aside>
+  </div>
+</section>
+
+{{ end }}
