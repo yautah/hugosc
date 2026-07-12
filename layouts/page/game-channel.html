@@ -1,0 +1,95 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-home.css" }}
+    {{ $homeCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $homeCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+
+{{- $posts := where .Site.RegularPages "Section" "posts" -}}
+{{- $gamePath := printf "^posts/%s/" .Params.game_key -}}
+{{- $categories := default (slice .Title) .Params.game_categories -}}
+{{- $gamePosts := where $posts "File.Dir" "like" $gamePath -}}
+{{- if eq (len $gamePosts) 0 -}}
+  {{- $gamePosts = where $posts "Params.categories" "intersect" $categories -}}
+{{- end -}}
+{{- $allPostsURL := default "/posts/" .Params.posts_url -}}
+
+<section class="sc-home-hero">
+  <div class="sc-hero-grid">
+    <div>
+      <p class="sc-kicker">{{ default .Title .Params.channel_kicker }}</p>
+      <h1 class="sc-hero-title">{{ default .Title .Params.hero_title }}</h1>
+      <p class="sc-hero-lead">{{ default .Description .Params.hero_lead }}</p>
+      <div class="sc-actions">
+        <a class="sc-button sc-button-primary" href="{{ $allPostsURL }}">最新文章</a>
+        {{ range .Params.hero_actions }}
+          <a class="sc-button sc-button-secondary" href="{{ .url }}">{{ .label }}</a>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="sc-game-grid">
+      {{ range .Params.channel_topics }}
+        <a class="sc-game-card {{ .color }}" href="{{ .url }}">
+          <img class="sc-game-icon" src="{{ .icon }}" alt="{{ .title }}">
+          <h2>{{ .title }}</h2>
+          <p>{{ .description }}</p>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="sc-section">
+  <div class="sc-section-head">
+    <div>
+      <p class="sc-kicker">Focus</p>
+      <h2 class="sc-section-title">当前重点</h2>
+      <p class="sc-section-desc">{{ default (printf "优先展示最近仍有参考价值的%s内容。" .Title) .Params.focus_description }}</p>
+    </div>
+  </div>
+
+  <div class="sc-latest-grid">
+    {{ range first 3 $gamePosts }}
+      {{- partial "content/card.html" . -}}
+    {{ end }}
+  </div>
+</section>
+
+<section class="sc-section">
+  <div class="sc-section-head">
+    <div>
+      <p class="sc-kicker">Browse</p>
+      <h2 class="sc-section-title">按主题浏览</h2>
+    </div>
+  </div>
+
+  <div class="sc-entry-grid">
+    {{ range .Params.channel_browse }}
+      <a class="sc-entry-card" href="{{ .url }}">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<section class="sc-section">
+  <div class="sc-section-head">
+    <div>
+      <p class="sc-kicker">Latest</p>
+      <h2 class="sc-section-title">最新{{ .Title }}文章</h2>
+    </div>
+    <a class="sc-button sc-button-secondary" href="{{ $allPostsURL }}">全部{{ .Title }}文章</a>
+  </div>
+
+  <div class="sc-latest-grid">
+    {{ range first 9 $gamePosts }}
+      {{- partial "content/card.html" . -}}
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

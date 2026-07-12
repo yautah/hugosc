@@ -2,8 +2,10 @@
 title: "关于"
 date: 2023-10-06T20:37:29+07:00
 description: "关于 SCBase：一个面向中文玩家的 Supercell 游戏攻略、资料与工具站。"
-image: /about.webp
+image: /global_banner.jpg
 draft: false
+layout: site-page
+kicker: About
 ---
 
 SCBase 是一个面向中文玩家的 Supercell 游戏攻略、资料与工具站。

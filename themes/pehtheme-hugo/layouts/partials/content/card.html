@@ -2,26 +2,36 @@
 	
 	<a class="insert-link" href="{{ .Permalink }}"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-t-xl">
+	<figure class="w-full aspect-video overflow-hidden rounded-t-xl bg-zinc-200">
 
-		{{- if .Params.image }}
+		{{- $hasImage := false -}}
 
-		  {{- if (strings.HasPrefix .Params.image "http") }}
+		{{- with .Params.image }}
 
-			<img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ .Params.image }}" alt="{{ $.Name }}" style="width: 100%; height: 100%; object-fit: cover;">
+			{{- if (strings.HasPrefix . "http") }}
 
-		  {{- else }}
+				{{- $hasImage = true -}}
+				<img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ . }}" alt="{{ $.Name }}">
 
-			{{- with $imgcard := resources.Get .Params.image -}}
-			  {{- $imgcard := $imgcard.Fill "750x422 Center" -}}
-			  <img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imgcard.Permalink }}" alt="{{ $.Name }}" width="{{ $imgcard.Width }}" height="{{ $imgcard.Height }}">
+			{{- else }}
+
+				{{- with $imgcard := resources.Get . -}}
+					{{- $hasImage = true -}}
+					{{- $imgcard := $imgcard.Fill "750x422 Center" -}}
+					<img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imgcard.Permalink }}" alt="{{ $.Name }}" width="{{ $imgcard.Width }}" height="{{ $imgcard.Height }}">
+				{{- end }}
+
 			{{- end }}
-
-		  {{- end }}
 
 		{{- end }}
 
-	  </figure>
+		{{- if not $hasImage }}
+			<div class="flex h-full w-full items-center justify-center bg-zinc-200 px-5 text-center">
+				<span class="text-sm font-bold text-zinc-500">SCBase</span>
+			</div>
+		{{- end }}
+
+	</figure>
 
 	<div class="p-4">
 

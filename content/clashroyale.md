@@ -2,6 +2,7 @@
 title: "皇室战争攻略中心"
 date: 2026-07-13T00:00:00+08:00
 description: "皇室战争卡组推荐、版本更新、活动挑战、新卡解析与实用指南。"
+layout: clashroyale
 draft: false
 ---
 
@@ -26,4 +27,3 @@ draft: false
 - 新手入门与升级建议
 - 卡牌机制解析
 - 活动与挑战专题
-

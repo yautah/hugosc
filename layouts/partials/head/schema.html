@@ -1,0 +1,71 @@
+{{- $siteName := .Site.Title -}}
+{{- $siteURL := .Site.BaseURL -}}
+{{- $siteDescription := .Site.Params.description -}}
+{{- $authorName := default "SCBase" .Site.Author.name -}}
+{{- $organization := dict "@type" "Organization" "name" $siteName "url" $siteURL -}}
+
+{{- if .IsHome }}
+  {{- $website := dict "@context" "https://schema.org" "@type" "WebSite" "name" $siteName "url" $siteURL "description" $siteDescription "inLanguage" .Site.LanguageCode "publisher" $organization -}}
+  <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- end }}
+
+{{- if and .IsPage (eq .Section "posts") }}
+  {{- $image := "" -}}
+  {{- with .Params.image }}
+    {{- $image = . | absURL -}}
+  {{- end }}
+  {{- $dateModified := .Date -}}
+  {{- with .Params.updated }}
+    {{- $dateModified = time . -}}
+  {{- else }}
+    {{- with .Lastmod }}
+      {{- $dateModified = . -}}
+    {{- end }}
+  {{- end }}
+  {{- $article := dict
+    "@context" "https://schema.org"
+    "@type" "Article"
+    "headline" .Title
+    "description" .Params.description
+    "url" .Permalink
+    "mainEntityOfPage" .Permalink
+    "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+    "dateModified" ($dateModified.Format "2006-01-02T15:04:05-07:00")
+    "author" (dict "@type" "Person" "name" $authorName)
+    "publisher" $organization
+    "inLanguage" .Site.LanguageCode
+  -}}
+  {{- if $image }}
+    {{- $article = merge $article (dict "image" (slice $image)) -}}
+  {{- end }}
+  <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+{{- end }}
+
+{{- if not .IsHome }}
+  {{- $breadcrumbItems := slice -}}
+  {{- $position := 1 -}}
+  {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .Site.Title "item" .Site.BaseURL) -}}
+  {{- range .Ancestors.Reverse }}
+    {{- if ne .Kind "home" }}
+      {{- $position = add $position 1 -}}
+      {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .LinkTitle "item" .Permalink) -}}
+    {{- end }}
+  {{- end }}
+  {{- $position = add $position 1 -}}
+  {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .LinkTitle "item" .Permalink) -}}
+  {{- $breadcrumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $breadcrumbItems -}}
+  <script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
+{{- end }}
+
+{{- with .Params.faq }}
+  {{- $faqItems := slice -}}
+  {{- range . }}
+    {{- if and .question .answer }}
+      {{- $faqItems = $faqItems | append (dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) -}}
+    {{- end }}
+  {{- end }}
+  {{- if gt (len $faqItems) 0 }}
+    {{- $faq := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $faqItems -}}
+    <script type="application/ld+json">{{ $faq | jsonify | safeJS }}</script>
+  {{- end }}
+{{- end }}

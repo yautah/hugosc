@@ -1,0 +1,167 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-home.css" }}
+    {{ $homeCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $homeCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+
+{{- $posts := where .Site.RegularPages "Section" "posts" -}}
+{{- $crPosts := where $posts "Params.categories" "intersect" (slice "皇室战争") -}}
+
+<section class="sc-home-hero">
+  <div class="sc-hero-grid">
+    <div>
+      <p class="sc-kicker">Clash Royale</p>
+      <h1 class="sc-hero-title">皇室战争攻略中心</h1>
+      <p class="sc-hero-lead">
+        聚合皇室战争卡组推荐、版本更新、活动挑战、新卡解析和长期指南。这里会优先沉淀能反复查阅的攻略内容，而不是只做短期资讯列表。
+      </p>
+      <div class="sc-actions">
+        <a class="sc-button sc-button-primary" href="/posts/clashroyale/">最新文章</a>
+        <a class="sc-button sc-button-secondary" href="/tags/皇室战争卡组/">卡组推荐</a>
+        <a class="sc-button sc-button-secondary" href="/tags/皇室战争攻略/">长期指南</a>
+      </div>
+    </div>
+
+    <div class="sc-game-grid">
+      <a class="sc-game-card sc-game-card-blue" href="/tags/皇室战争卡组/">
+        <img class="sc-game-icon" src="/royale.svg" alt="卡组推荐">
+        <h2>卡组推荐</h2>
+        <p>当前版本可参考的强势、娱乐和挑战卡组。</p>
+      </a>
+      <a class="sc-game-card sc-game-card-amber" href="/tags/游戏更新/">
+        <img class="sc-game-icon" src="/clash.svg" alt="版本更新">
+        <h2>版本更新</h2>
+        <p>更新内容、平衡调整和环境影响分析。</p>
+      </a>
+      <a class="sc-game-card sc-game-card-emerald" href="/tags/超级选卡/">
+        <img class="sc-game-icon" src="/royale.svg" alt="活动挑战">
+        <h2>活动挑战</h2>
+        <p>限时活动、挑战玩法和实战思路。</p>
+      </a>
+      <a class="sc-game-card sc-game-card-violet" href="/tags/皇室战争攻略/">
+        <img class="sc-game-icon" src="/royale.svg" alt="长期指南">
+        <h2>长期指南</h2>
+        <p>组卡、对局、资源规划和机制理解。</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="sc-section">
+  <div class="sc-section-head">
+    <div>
+      <p class="sc-kicker">Focus</p>
+      <h2 class="sc-section-title">当前重点</h2>
+      <p class="sc-section-desc">优先展示最近仍有参考价值的皇室战争内容。</p>
+    </div>
+  </div>
+
+  <div class="sc-latest-grid">
+    {{ range first 3 $crPosts }}
+      {{- partial "content/card.html" . -}}
+    {{ end }}
+  </div>
+</section>
+
+<section class="sc-section">
+  <div class="sc-section-head">
+    <div>
+      <p class="sc-kicker">Guides</p>
+      <h2 class="sc-section-title">精选长期攻略</h2>
+      <p class="sc-section-desc">这些文章更适合作为栏目核心内容长期保留。</p>
+    </div>
+  </div>
+
+  <div class="sc-guide-grid">
+    <article class="sc-guide-card">
+      <a href="/posts/clashroyale/2026/05/how-to-make-reasonable-deck/">
+        {{- with resources.Get "images/2026/recommend.png" -}}
+          {{- $img := .Fill "750x422 Center" -}}
+          <img class="sc-guide-image" src="{{ $img.Permalink }}" alt="如何构建一套合情合理好玩有趣的真卡组" width="{{ $img.Width }}" height="{{ $img.Height }}">
+        {{- end -}}
+      </a>
+      <div class="sc-guide-body">
+        <p class="sc-guide-label">组卡指南</p>
+        <h3><a href="/posts/clashroyale/2026/05/how-to-make-reasonable-deck/">如何构建一套合理好玩的真卡组</a></h3>
+        <p>从卡组结构、费用曲线和对局职责理解一套合理卡组。</p>
+      </div>
+    </article>
+
+    <article class="sc-guide-card">
+      <a href="/posts/clashroyale/2026/05/clash-royale-deck-archetypes/">
+        {{- with resources.Get "images/2026/QQ20260512-173228.png" -}}
+          {{- $img := .Fill "750x422 Center" -}}
+          <img class="sc-guide-image" src="{{ $img.Permalink }}" alt="卡组原型介绍、类型及策略" width="{{ $img.Width }}" height="{{ $img.Height }}">
+        {{- end -}}
+      </a>
+      <div class="sc-guide-body">
+        <p class="sc-guide-label">卡组体系</p>
+        <h3><a href="/posts/clashroyale/2026/05/clash-royale-deck-archetypes/">卡组原型介绍、类型及策略</a></h3>
+        <p>理解速转、推进、控制、攻城等常见体系的基本逻辑。</p>
+      </div>
+    </article>
+
+    <article class="sc-guide-card">
+      <a href="/posts/clashroyale/2026/05/how-to-play-mega-draft-challenge/">
+        {{- with resources.Get "images/2026/how-to-play-mega-draft-challenge.png" -}}
+          {{- $img := .Fill "750x422 Center" -}}
+          <img class="sc-guide-image" src="{{ $img.Permalink }}" alt="超级选卡攻略" width="{{ $img.Width }}" height="{{ $img.Height }}">
+        {{- end -}}
+      </a>
+      <div class="sc-guide-body">
+        <p class="sc-guide-label">活动挑战</p>
+        <h3><a href="/posts/clashroyale/2026/05/how-to-play-mega-draft-challenge/">超级选卡最全最细攻略</a></h3>
+        <p>选对卡只是开始，关键是构建结构完整的对局计划。</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="sc-section">
+  <div class="sc-section-head">
+    <div>
+      <p class="sc-kicker">Browse</p>
+      <h2 class="sc-section-title">按主题浏览</h2>
+    </div>
+  </div>
+
+  <div class="sc-entry-grid">
+    <a class="sc-entry-card" href="/tags/皇室战争卡组/">
+      <h3>皇室战争卡组</h3>
+      <p>版本卡组、推荐卡组和玩法思路。</p>
+    </a>
+    <a class="sc-entry-card" href="/tags/皇室战争更新/">
+      <h3>皇室战争更新</h3>
+      <p>版本更新、赛季变化和系统改动。</p>
+    </a>
+    <a class="sc-entry-card" href="/tags/卡牌觉醒/">
+      <h3>卡牌觉醒</h3>
+      <p>觉醒卡牌、强度变化和实战影响。</p>
+    </a>
+    <a class="sc-entry-card" href="/tags/平衡性调整/">
+      <h3>平衡性调整</h3>
+      <p>平衡预案、实装变化和环境判断。</p>
+    </a>
+  </div>
+</section>
+
+<section class="sc-section">
+  <div class="sc-section-head">
+    <div>
+      <p class="sc-kicker">Latest</p>
+      <h2 class="sc-section-title">最新皇室战争文章</h2>
+    </div>
+    <a class="sc-button sc-button-secondary" href="/posts/clashroyale/">全部皇室战争文章</a>
+  </div>
+
+  <div class="sc-latest-grid">
+    {{ range first 9 $crPosts }}
+      {{- partial "content/card.html" . -}}
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,46 @@
+<div class="sc-footer-inner">
+  <div class="sc-footer-main">
+    <section>
+      <a class="sc-footer-brand" href="{{ site.Home.RelPermalink }}">
+        <img src="{{ "/ico.jpg" | relURL }}" width="36" height="36" alt="">
+        <span>SCBase</span>
+      </a>
+      <p class="sc-footer-lead">
+        面向中文玩家整理 Supercell 游戏攻略、版本更新、活动信息和实用工具。现阶段优先建设皇室战争攻略中心，并逐步补齐荒野乱斗、部落冲突、Mo.Co 等内容。
+      </p>
+      <p class="sc-footer-note">
+        本站为玩家个人维护的非官方站点，与 Supercell 没有隶属、授权或合作关系。游戏名称、图片和素材版权归其各自权利方所有。
+      </p>
+    </section>
+
+    <section>
+      <h2 class="sc-footer-section-title">站点入口</h2>
+      <ul class="sc-footer-links">
+        {{- range site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{- end }}
+      </ul>
+
+      <h2 class="sc-footer-section-title" style="margin-top: 24px;">关注与反馈</h2>
+      <ul class="sc-footer-social">
+        <li><a href="https://x.com/imCrazzzy" target="_blank" rel="noopener noreferrer">X</a></li>
+        <li><a href="https://github.com/yautah" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://space.bilibili.com/44441533" target="_blank" rel="noopener noreferrer">Bilibili</a></li>
+        <li><a href="/contact/">联系反馈</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="sc-footer-legal">
+    <p>Copyright © {{ now.Format "2006" }} SCBase. All rights reserved.</p>
+    <nav aria-label="法律与隐私">
+      <a href="/contact/">联系方式</a>
+      <span aria-hidden="true"> · </span>
+      <a href="/privacy/">隐私政策</a>
+      <span aria-hidden="true"> · </span>
+      <a href="/copyright/">版权声明</a>
+      <span aria-hidden="true"> · </span>
+      <a href="/disclaimer/">免责声明</a>
+    </nav>
+  </div>
+</div>

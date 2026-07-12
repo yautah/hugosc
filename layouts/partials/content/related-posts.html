@@ -1,0 +1,24 @@
+{{- $related := slice -}}
+{{- with .Params.related }}
+  {{- range . }}
+    {{- with site.GetPage . }}
+      {{- $related = $related | append . -}}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- if eq (len $related) 0 }}
+  {{- $related = .Site.RegularPages.Related . | first 2 -}}
+{{- else }}
+  {{- $related = first 2 $related -}}
+{{- end }}
+
+{{- with $related }}
+  <div id="related-post">
+    <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">相关阅读</h2>
+    <div class="sc-related-list">
+      {{- range . }}
+        {{- partial "content/card.html" . -}}
+      {{- end }}
+    </div>
+  </div>
+{{- end }}

@@ -2,6 +2,7 @@
 title: "超级细胞全家桶"
 date: 2023-10-06T20:37:29+07:00
 image: "/global_banner.jpg"
+description: "Supercell 旗下游戏国际服安装包和相关资源整理，覆盖皇室战争、部落冲突、荒野乱斗、爆裂小队、Mo.Co 等游戏。"
 draft: false
 ---
 

@@ -3,6 +3,8 @@ title: "隐私政策"
 date: 2026-07-13T00:00:00+08:00
 description: "SCBase 的隐私政策，说明本站可能收集的信息、统计服务和第三方链接。"
 draft: false
+layout: site-page
+kicker: Privacy
 ---
 
 本隐私政策说明 SCBase 在网站运行过程中可能涉及的信息收集与使用方式。
@@ -28,4 +30,3 @@ draft: false
 ## 政策更新
 
 本站可能会根据实际功能变化更新本隐私政策。更新后的内容会发布在本页面。
-

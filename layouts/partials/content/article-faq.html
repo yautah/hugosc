@@ -1,0 +1,16 @@
+{{- with .Params.faq }}
+  {{- $items := where . "question" "!=" nil -}}
+  {{- if gt (len $items) 0 }}
+    <section class="sc-article-faq not-prose">
+      <h2>常见问题</h2>
+      {{- range . }}
+        {{- if and .question .answer }}
+          <div class="sc-faq-item">
+            <h3>{{ .question }}</h3>
+            <p>{{ .answer }}</p>
+          </div>
+        {{- end }}
+      {{- end }}
+    </section>
+  {{- end }}
+{{- end }}

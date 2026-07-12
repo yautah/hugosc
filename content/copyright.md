@@ -3,6 +3,8 @@ title: "版权声明"
 date: 2026-07-13T00:00:00+08:00
 description: "SCBase 的版权声明，说明原创内容、引用内容、游戏素材和侵权反馈处理方式。"
 draft: false
+layout: site-page
+kicker: Copyright
 ---
 
 SCBase 尊重原创内容和相关权利方的合法权益。
@@ -32,4 +34,3 @@ SCBase 尊重原创内容和相关权利方的合法权益。
 - 希望采取的处理方式。
 
 确认后，我们会尽快进行修改、标注来源或移除相关内容。
-

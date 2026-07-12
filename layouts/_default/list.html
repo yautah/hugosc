@@ -1,0 +1,71 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-list.css" }}
+    {{ $listCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $listCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{- partial "content/breadcrumb.html" . -}}
+
+{{- $pages := .RegularPages -}}
+{{- if and (eq .Kind "section") (eq .Section "posts") -}}
+  {{- $pages = .RegularPagesRecursive -}}
+{{- end -}}
+{{- if eq (len $pages) 0 -}}
+  {{- $pages = where .Pages "Kind" "page" -}}
+{{- end -}}
+{{- $paginator := .Paginate $pages 9 -}}
+{{- $title := .Title | humanize -}}
+{{- if eq .Section "posts" -}}
+  {{- if eq .Kind "section" -}}
+    {{- $title = cond (eq .RelPermalink "/posts/") "全部文章" .Title -}}
+  {{- end -}}
+{{- end -}}
+{{- $kicker := "内容归档" -}}
+{{- if eq .Kind "term" -}}
+  {{- $kicker = "主题浏览" -}}
+{{- else if eq .Kind "section" -}}
+  {{- $kicker = "文章列表" -}}
+{{- end -}}
+{{- $desc := .Description -}}
+{{- if not $desc -}}
+  {{- if eq .Kind "term" -}}
+    {{- $desc = printf "这里收录与「%s」相关的攻略、资讯和资料整理，方便按主题持续追踪。" $title -}}
+  {{- else -}}
+    {{- $desc = "按发布时间整理 SCBase 的攻略、更新、资料与实用内容。" -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="sc-list-page">
+  <header class="sc-list-hero">
+    <p class="sc-list-kicker">{{ $kicker }}</p>
+    <h1 class="sc-list-title">{{ $title }}</h1>
+    <p class="sc-list-desc">{{ $desc }}</p>
+    <span class="sc-list-count">{{ len $pages }} 篇内容</span>
+  </header>
+
+  <div class="sc-list-layout">
+    <section>
+      <div class="sc-list-grid">
+        {{ range $paginator.Pages }}
+          {{- partial "content/card.html" . -}}
+        {{ end }}
+      </div>
+
+      <nav class="sc-list-pagination" aria-label="分页">
+        {{- if $paginator.HasPrev -}}
+          <a class="sc-list-page-link" href="{{ $paginator.Prev.URL }}">上一页</a>
+        {{- end -}}
+        {{- if $paginator.HasNext -}}
+          <a class="sc-list-page-link sc-list-pagination-next" href="{{ $paginator.Next.URL }}">下一页</a>
+        {{- end -}}
+      </nav>
+    </section>
+
+    <aside>
+      {{- partial "content/aside.html" . -}}
+    </aside>
+  </div>
+</div>
+{{ end }}
