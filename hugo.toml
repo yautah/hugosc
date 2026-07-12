@@ -19,7 +19,7 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = '超级细胞'
+	description = 'SCBase 是面向中文玩家的 Supercell 游戏攻略与资料站，整理皇室战争、荒野乱斗、部落冲突、Mo.Co 等游戏的攻略、更新与实用工具。'
 	mainSections = 'posts'
 
 	
@@ -47,17 +47,29 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 		pageRef = '/'
 		weight = 10
 	[[menu.main]]
+		name = '皇室战争'
+		pageRef = '/clashroyale'
+		weight = 20
+	[[menu.main]]
+		name = '荒野乱斗'
+		pageRef = '/brawlstars'
+		weight = 30
+	[[menu.main]]
+		name = '部落冲突'
+		pageRef = '/clashofclans'
+		weight = 40
+	[[menu.main]]
+		name = 'Mo.Co'
+		pageRef = '/moco'
+		weight = 50
+	[[menu.main]]
 		name = '工具'
 		pageRef = '/tools'
-		weight = 15
-	[[menu.main]]
-		name = '资源'
-		pageRef = '/resources'
-		weight = 20
+		weight = 60
 	[[menu.main]]
 		name = '关于'
 		pageRef = '/about'
-		weight = 25
+		weight = 70
 
   
 
@@ -70,5 +82,4 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true  # 允许 Markdown 文件中的 HTML
-
 

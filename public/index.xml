@@ -6,8 +6,64 @@
     <description>Recent content on 超级细胞情报站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 12 Jul 2026 00:59:16 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mo.Co</title>
+      <link>http://localhost:1313/moco/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/moco/</guid>
+      <description>&lt;p&gt;这里整理 Mo.Co 相关的更新观察、资讯整理和玩家实用内容。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>版权声明</title>
+      <link>http://localhost:1313/copyright/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/copyright/</guid>
+      <description>&lt;p&gt;SCBase 尊重原创内容和相关权利方的合法权益。&lt;/p&gt;&#xA;&lt;h2 id=&#34;原创内容&#34;&gt;原创内容&lt;/h2&gt;&#xA;&lt;p&gt;本站文章中的中文整理、攻略分析、经验总结和页面结构，除特别说明外，均为本站作者整理或创作。未经允许，请勿整篇转载或用于商业用途。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>部落冲突</title>
+      <link>http://localhost:1313/clashofclans/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/clashofclans/</guid>
+      <description>&lt;p&gt;这里整理部落冲突相关的版本更新、活动资讯和玩家实用内容。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>荒野乱斗</title>
+      <link>http://localhost:1313/brawlstars/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/brawlstars/</guid>
+      <description>&lt;p&gt;这里整理荒野乱斗相关的更新资讯、活动内容、英雄调整和实用攻略。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>皇室战争攻略中心</title>
+      <link>http://localhost:1313/clashroyale/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/clashroyale/</guid>
+      <description>&lt;p&gt;这里是 SCBase 目前重点建设的皇室战争攻略中心，主要整理卡组推荐、版本更新、活动挑战、新卡解析和长期指南。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>联系方式</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;如果你想反馈 SCBase 的内容错误、链接失效、工具问题，或有其他建议，可以通过以下方式联系。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>免责声明</title>
+      <link>http://localhost:1313/disclaimer/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/disclaimer/</guid>
+      <description>&lt;p&gt;SCBase 是玩家个人维护的非官方游戏资料与攻略站。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>隐私政策</title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>&lt;p&gt;本隐私政策说明 SCBase 在网站运行过程中可能涉及的信息收集与使用方式。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>皇室战争｜浪人强势登场！5 套新赛季浪人强力卡组推荐～</title>
       <link>http://localhost:1313/posts/clashroyale/2026/07/5-ronin-decks/</link>
@@ -552,7 +608,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 06 Oct 2023 20:37:29 +0700</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/about.webp&#34; alt=&#34;supercell&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;为爱发电。&#xA;回头在写关于~&lt;/p&gt;</description>
+      <description>&lt;p&gt;SCBase 是一个面向中文玩家的 Supercell 游戏攻略、资料与工具站。&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于</title>
@@ -562,7 +618,7 @@
       <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/about.webp&#34; alt=&#34;supercell&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;几个以前写的小工具有缘人自取&#34;&gt;几个以前写的小工具，有缘人自取&lt;/h3&gt;&#xA;&lt;h4 id=&#34;1-爆裂小队国服查询宝箱&#34;&gt;1. 爆裂小队国服查询宝箱&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://scbase.cn/sb-chests/&#34;&gt;点击访问&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;2-爆裂小队国际服查询宝箱&#34;&gt;2. 爆裂小队国际服查询宝箱&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yautah.github.io/sb-chests/&#34;&gt;点击访问&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
+      <title>未命名</title>
       <link>http://localhost:1313/%E6%9C%AA%E5%91%BD%E5%90%8D/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/%E6%9C%AA%E5%91%BD%E5%90%8D/</guid>
