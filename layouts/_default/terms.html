@@ -9,13 +9,13 @@
 {{- partial "content/breadcrumb.html" . -}}
 
 {{- $title := .Title | humanize -}}
-{{- $desc := "按主题浏览 SCBase 的攻略、资讯和资料整理。" -}}
+{{- $desc := "按主题浏览超级细胞营地的攻略、资讯和资料整理。" -}}
 {{- if eq .Type "tags" -}}
   {{- $title = "标签" -}}
   {{- $desc = "从卡组、版本、活动、机制等标签进入对应内容。" -}}
 {{- else if eq .Type "categories" -}}
   {{- $title = "分类" -}}
-  {{- $desc = "按游戏和内容大类浏览 SCBase 的全部文章。" -}}
+  {{- $desc = "按游戏和内容大类浏览超级细胞营地的全部文章。" -}}
 {{- end -}}
 
 <div class="sc-list-page">

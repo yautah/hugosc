@@ -5,7 +5,7 @@ defaultContentLanguage = "zh"  # 设置默认语言
 languageCode = "zh-CN"         # 设定 HTML 语言代码
 hasCJKLanguage = true          # 让 Hugo 识别中日韩字符，优化字数统计
 
-title = '超级细胞情报站'
+title = '超级细胞营地'
 theme = 'pehtheme-hugo'
 
 pageSize = '6' # <- Set the desired number of posts per page 
@@ -19,7 +19,7 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = 'SCBase 是面向中文玩家的 Supercell 游戏攻略与资料站，整理皇室战争、荒野乱斗、部落冲突、Mo.Co 等游戏的攻略、更新与实用工具。'
+	description = '超级细胞营地是面向中文玩家的超级细胞游戏攻略、资料与工具站，整理皇室战争、荒野乱斗、部落冲突、Mo.Co 等游戏的攻略、更新与实用工具。'
 	mainSections = 'posts'
 
 	

@@ -1,7 +1,7 @@
 {{- $siteName := .Site.Title -}}
 {{- $siteURL := .Site.BaseURL -}}
 {{- $siteDescription := .Site.Params.description -}}
-{{- $authorName := default "SCBase" .Site.Author.name -}}
+{{- $authorName := default "超级细胞营地" .Site.Author.name -}}
 {{- $organization := dict "@type" "Organization" "name" $siteName "url" $siteURL -}}
 
 {{- if .IsHome }}
