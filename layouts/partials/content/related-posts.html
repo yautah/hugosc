@@ -1,8 +1,10 @@
 {{- $related := slice -}}
 {{- with .Params.related }}
   {{- range . }}
-    {{- with site.GetPage . }}
-      {{- $related = $related | append . -}}
+    {{- with . }}
+      {{- with site.GetPage . }}
+        {{- $related = $related | append . -}}
+      {{- end }}
     {{- end }}
   {{- end }}
 {{- end }}

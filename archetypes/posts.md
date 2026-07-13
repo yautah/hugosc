@@ -35,8 +35,7 @@ tags:
   - {{ $category }}
 keywords:
   -
-related:
-  -
+related: []
 wechat:
   template: redream-obsidian-blue
 draft: false
