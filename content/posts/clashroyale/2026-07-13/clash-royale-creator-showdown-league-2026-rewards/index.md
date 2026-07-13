@@ -1,5 +1,5 @@
 ---
-title: 皇室战争 Creator Showdown League 2026：赛制、冠军队伍与观赛奖励汇总～
+title: 皇室战争创造者对决联赛：赛制、冠军队伍与观赛奖励汇总～
 image: /images/2026/maxresde3fault.jpg
 description: 回顾皇室战争 Creator Showdown League 2026：赛制规则、冠军队伍、奖金池分配，以及浪人主题观赛奖励。
 date: 2026-07-13T09:07:53+08:00
