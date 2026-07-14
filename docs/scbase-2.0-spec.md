@@ -365,7 +365,7 @@ clashroyale:
 
 目标：让用户和搜索引擎看懂站点核心价值。
 
-状态：新首页已完成本地迁移，等待发布和线上验收。
+状态：新首页已发布并完成线上验收，进入审核期稳定运行阶段。
 
 已完成：
 
@@ -474,9 +474,9 @@ clashroyale:
 
 - [x] `home_pinned`、`home_popular` 由运维人工维护顺序和互斥关系，不增加构建校验。
 - [x] 完成正式首页本地视觉确认。
-- [ ] 审查 Git 变更范围，提交并推送当前改造。
-- [ ] 确认 GitHub Actions/Vercel 构建成功。
-- [ ] 在线检查首页 H1、canonical、sitemap、图片、轮播和关键入口。
+- [x] 审查 Git 变更范围，提交并推送当前改造。
+- [x] 确认 Vercel Git 部署成功；仓库当前未配置 GitHub Actions 工作流。
+- [x] 在线检查首页 H1、canonical、sitemap、图片、轮播和关键入口。
 - [ ] 发布后保持结构稳定，继续观察 AdSense 与 Search Console。
 
 P0 验收标准：
