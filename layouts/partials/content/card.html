@@ -1,0 +1,32 @@
+<article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-xl">
+  <a class="insert-link" href="{{ .Permalink }}"></a>
+
+  <figure class="w-full aspect-video overflow-hidden rounded-t-xl bg-zinc-200">
+    {{- $page := . -}}
+    {{- $hasImage := false -}}
+    {{- with .Params.image -}}
+      {{- if strings.HasPrefix . "http" -}}
+        {{- $hasImage = true -}}
+        <img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ . }}" alt="{{ $page.LinkTitle }}" loading="lazy" decoding="async">
+      {{- else -}}
+        {{- with resources.Get . -}}
+          {{- $hasImage = true -}}
+          {{- $imgcard := .Fill "750x422 Center webp q82" -}}
+          <img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imgcard.RelPermalink }}" alt="{{ $page.LinkTitle }}" width="{{ $imgcard.Width }}" height="{{ $imgcard.Height }}" loading="lazy" decoding="async">
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- if not $hasImage -}}
+      <div class="flex h-full w-full items-center justify-center bg-zinc-200 px-5 text-center">
+        <span class="text-sm font-bold text-zinc-500">超级细胞营地</span>
+      </div>
+    {{- end -}}
+  </figure>
+
+  <div class="p-4">
+    <time class="text-zinc-300" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}">{{ .Date.Format "2006-01-02 15:04:05" }}</time>
+    <h3 class="my-2 text-xl font-bold">{{ .LinkTitle }}</h3>
+    <p class="text-normal leading-normal text-zinc-500 line-clamp-2">{{ .Params.description }}</p>
+  </div>
+</article>

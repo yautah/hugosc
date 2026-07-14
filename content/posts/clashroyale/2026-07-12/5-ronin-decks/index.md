@@ -4,6 +4,7 @@ image: /images/2026/imgi_1_0.jpg
 description: 5套浪人卡组，覆盖皇家巨人、墓园、X弩、迫击炮和速转飞桶，想尝试新卡的玩家可以直接抄作业。
 date: 2026-07-12T00:59:16+08:00
 slug: 5-ronin-decks
+home_pinned: 2
 categories:
   - 皇室战争
 tags:
@@ -162,5 +163,4 @@ draft: false
 ![](imgi_9_640.webp)
 
 _小蜜也会一如既往的为大家输出更多的资讯、攻略、以及各种白嫖福利～_
-
 

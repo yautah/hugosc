@@ -3,13 +3,16 @@
     <a class="sc-brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }}">
       <img src="{{ "/ico.jpg" | relURL }}" width="34" height="34" alt="">
       <span class="sc-brand-text">
-        <span class="sc-brand-name">超级细胞营地</span>
-        <span class="sc-brand-subtitle">超级细胞玩家营地</span>
+        {{- if .IsHome -}}
+          <h1 class="sc-brand-name">超级细胞营地</h1>
+        {{- else -}}
+          <span class="sc-brand-name">超级细胞营地</span>
+        {{- end -}}
       </span>
     </a>
 
+    {{- $current := . -}}
     <nav class="sc-nav" aria-label="主导航">
-      {{- $current := . -}}
       {{- range site.Menus.main }}
         {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
         {{- if and (eq .URL "/") $current.IsHome -}}
@@ -28,5 +31,32 @@
         <a class="sc-nav-link{{ if $active }} sc-nav-link-active{{ end }}" href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
       {{- end }}
     </nav>
+
+    <details class="sc-mobile-nav">
+      <summary aria-label="打开导航菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </summary>
+      <nav class="sc-mobile-nav-panel" aria-label="移动端导航">
+        {{- range site.Menus.main }}
+          {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
+          {{- if and (eq .URL "/") $current.IsHome -}}
+            {{- $active = true -}}
+          {{- else if and (ne .URL "/") (hasPrefix $current.RelPermalink .URL) -}}
+            {{- $active = true -}}
+          {{- else if and (eq .URL "/clashroyale/") (hasPrefix $current.RelPermalink "/posts/clashroyale/") -}}
+            {{- $active = true -}}
+          {{- else if and (eq .URL "/brawlstars/") (hasPrefix $current.RelPermalink "/posts/brawlstars/") -}}
+            {{- $active = true -}}
+          {{- else if and (eq .URL "/clashofclans/") (hasPrefix $current.RelPermalink "/posts/clashofclans/") -}}
+            {{- $active = true -}}
+          {{- else if and (eq .URL "/moco/") (hasPrefix $current.RelPermalink "/posts/moco/") -}}
+            {{- $active = true -}}
+          {{- end -}}
+          <a class="sc-mobile-nav-link{{ if $active }} sc-mobile-nav-link-active{{ end }}" href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        {{- end }}
+      </nav>
+    </details>
   </div>
 </div>

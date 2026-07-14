@@ -4,6 +4,7 @@ image: /images/2026/recommend.png
 description: 今天，我们就来深入探讨一下皇室战争组卡的基本逻辑。掌握这个，你就能更快地理解合理卡组的基本构成，也能更准确地判断对面卡组的问题所在，从而做出更好的防守决策。
 date: 2026-05-16T20:57:24+08:00
 slug: how-to-make-reasonable-deck
+home_pinned: 3
 categories:
   - 皇室战争
 tags:

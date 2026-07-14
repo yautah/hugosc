@@ -4,6 +4,7 @@ image: /images/2026/QQ20260514-005302.png
 description: 这次更新的核心，可以概括为几件事。国王之旅会移除，经验值会消失，收藏等级会成为新的账号进度系统。
 date: 2026-05-14T00:50:07+08:00
 slug: 2026-q2-update-may-2026-preview-1
+home_popular: 3
 categories:
   - 皇室战争
 tags:

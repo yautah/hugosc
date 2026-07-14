@@ -4,6 +4,7 @@ image: /images/2026/QQ20260512-173228.png
 description: 今天，我们来深入探讨一下皇室战争卡组的分类逻辑。掌握这个，你就能更快地理解每个卡组的套路，也能更准确地判断对面用的是什么卡组，从而做出更好的防守决策。
 date: 2026-05-12T17:34:36+08:00
 slug: clash-royale-deck-archetypes
+home_pinned: 4
 categories:
   - 皇室战争
 tags:

@@ -4,6 +4,7 @@ image: /images/2026/how-to-play-mega-draft-challenge.png
 description: 超级选卡的核心不是选最强的 8 张牌，而是选出一套结构完整、能针对对手、也能打出自己进攻节奏的卡组。
 date: 2026-05-10T15:00:59+08:00
 slug: how-to-play-mega-draft-challenge
+home_pinned: 5
 categories:
   - 皇室战争
 tags:

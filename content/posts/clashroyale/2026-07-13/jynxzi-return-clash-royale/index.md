@@ -5,6 +5,7 @@ description: Jynxzi 宣布回归直播皇室战争，皇室战争会迎来再一
 date: 2026-07-13T19:45:25+08:00
 updated: 2026-07-13T19:45:25+08:00
 slug: jynxzi-return-clash-royale
+home_pinned: 1
 game: clashroyale
 content_type: commentary
 difficulty: beginner
