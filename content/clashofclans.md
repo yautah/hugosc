@@ -12,6 +12,8 @@ posts_url: /posts/clashofclans/
 game_categories:
   - 部落冲突
 hero_actions:
+  - label: 免费奖励
+    url: /rewards/clash-of-clans/
   - label: 游戏更新
     url: /tags/游戏更新/
   - label: 活动资讯

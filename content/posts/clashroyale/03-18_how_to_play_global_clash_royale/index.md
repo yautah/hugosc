@@ -6,7 +6,7 @@ description: "皇室战争国际服 iOS 怎么下载安装？详细了解海外 
 date: 2025-03-17 12:15:05
 updated: 2026-07-15T00:00:00+08:00
 slug: /how-to-play-global-clash-royale/
-home_popular: 1
+home_popular: 2
 game: clashroyale
 content_type: guide
 difficulty: advanced

@@ -12,6 +12,8 @@ posts_url: /posts/brawlstars/
 game_categories:
   - 荒野乱斗
 hero_actions:
+  - label: 免费奖励
+    url: /rewards/brawl-stars/
   - label: 游戏更新
     url: /tags/游戏更新/
   - label: 资讯

@@ -1,0 +1,463 @@
+.sc-rewards-page {
+  --sc-reward-accent: var(--sc-accent);
+  --sc-reward-soft: var(--sc-accent-soft);
+  padding-bottom: 64px;
+}
+
+.sc-rewards-royale {
+  --sc-reward-accent: var(--sc-game-royale);
+  --sc-reward-soft: var(--sc-game-royale-soft);
+}
+
+.sc-rewards-brawl {
+  --sc-reward-accent: var(--sc-game-brawl);
+  --sc-reward-soft: var(--sc-game-brawl-soft);
+}
+
+.sc-rewards-clash {
+  --sc-reward-accent: var(--sc-game-clash);
+  --sc-reward-soft: var(--sc-game-clash-soft);
+}
+
+.sc-rewards-hero {
+  padding: 34px 24px 42px;
+}
+
+.sc-rewards-hero-copy {
+  max-width: 790px;
+}
+
+.sc-rewards-eyebrow {
+  margin: 0 0 10px;
+  color: var(--sc-reward-accent);
+  font-size: 14px;
+  font-weight: 850;
+}
+
+.sc-rewards-hero h1 {
+  margin: 0;
+  color: var(--sc-ink-strong);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+.sc-rewards-hero-copy > p:last-child {
+  margin: 16px 0 0;
+  color: var(--sc-text-muted);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.sc-rewards-games {
+  display: flex;
+  gap: 4px;
+  margin-top: 16px;
+  padding: 10px;
+  overflow-x: auto;
+  border: 1px solid var(--sc-border);
+  border-radius: var(--sc-radius-md);
+  background: var(--sc-surface-muted);
+  scrollbar-width: none;
+}
+
+.sc-rewards-games::-webkit-scrollbar {
+  display: none;
+}
+
+.sc-rewards-games a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: var(--sc-radius-sm);
+  color: var(--sc-text-muted);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sc-rewards-games a:hover {
+  border-color: var(--sc-border-strong);
+  background: var(--sc-surface);
+  color: var(--sc-ink-strong);
+}
+
+.sc-rewards-games a.is-active {
+  border-color: var(--sc-ink-strong);
+  background: var(--sc-ink-strong);
+  color: var(--sc-surface);
+}
+
+.sc-rewards-games img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.sc-rewards-games a.is-active img {
+  filter: brightness(0) invert(1);
+}
+
+.sc-rewards-section {
+  padding: 42px 0;
+  border-bottom: 1px solid var(--sc-border);
+}
+
+.sc-rewards-section-head {
+  margin-bottom: 22px;
+}
+
+.sc-rewards-section-head h2 {
+  margin: 0;
+  color: var(--sc-ink-strong);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.sc-rewards-section-head p {
+  margin: 9px 0 0;
+  color: var(--sc-text-muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.sc-rewards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.sc-reward-card {
+  --sc-card-accent: var(--sc-accent);
+  --sc-card-soft: var(--sc-accent-soft);
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  min-height: 92px;
+  padding: 12px 16px 12px 12px;
+  border: 1px solid var(--sc-border);
+  border-left: 3px solid var(--sc-card-accent);
+  border-radius: 0;
+  background: var(--sc-surface);
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+
+.sc-reward-card:hover {
+  border-color: var(--sc-card-accent);
+  background: var(--sc-card-soft);
+}
+
+.sc-reward-card[hidden] {
+  display: none;
+}
+
+.sc-reward-card-royale {
+  --sc-card-accent: var(--sc-game-royale);
+  --sc-card-soft: var(--sc-game-royale-soft);
+}
+
+.sc-reward-card-brawl {
+  --sc-card-accent: var(--sc-game-brawl);
+  --sc-card-soft: var(--sc-game-brawl-soft);
+}
+
+.sc-reward-card-clash {
+  --sc-card-accent: var(--sc-game-clash);
+  --sc-card-soft: var(--sc-game-clash-soft);
+}
+
+.sc-reward-media {
+  display: grid;
+  width: 82px;
+  height: 66px;
+  place-items: center;
+  overflow: hidden;
+  border-radius: var(--sc-radius-sm);
+  background: var(--sc-card-soft);
+}
+
+.sc-reward-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sc-reward-media .sc-reward-media-fallback {
+  width: 38px;
+  height: 38px;
+}
+
+.sc-reward-heading {
+  min-width: 0;
+}
+
+.sc-reward-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  color: var(--sc-text-subtle);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.sc-reward-labels span + span::before {
+  margin-right: 5px;
+  content: "·";
+}
+
+.sc-reward-heading h3 {
+  margin: 4px 0 0;
+  color: var(--sc-ink-strong);
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.sc-reward-code {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border: 1px dashed var(--sc-border-strong);
+  border-radius: var(--sc-radius-sm);
+}
+
+.sc-reward-code code {
+  min-width: 0;
+  flex: 1 1 auto;
+  overflow-wrap: anywhere;
+  color: var(--sc-ink-strong);
+  font-size: 13px;
+}
+
+.sc-reward-code button {
+  flex: 0 0 auto;
+  min-height: 32px;
+  padding: 6px 9px;
+  border: 0;
+  border-radius: var(--sc-radius-sm);
+  background: var(--sc-ink-strong);
+  color: var(--sc-surface);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.sc-reward-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  white-space: nowrap;
+}
+
+.sc-reward-actions a {
+  text-decoration: none;
+}
+
+.sc-reward-primary,
+.sc-reward-disabled {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 39px;
+  padding: 8px 13px;
+  border-radius: var(--sc-radius-sm);
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.sc-reward-primary {
+  background: var(--sc-card-accent);
+  color: var(--sc-surface);
+}
+
+.sc-reward-primary:hover {
+  filter: brightness(0.9);
+}
+
+.sc-reward-disabled {
+  background: var(--sc-surface-hover);
+  color: var(--sc-text-subtle);
+}
+
+.sc-rewards-empty {
+  padding: 42px 20px;
+  border: 1px dashed var(--sc-border-strong);
+  border-radius: var(--sc-radius-md);
+  text-align: center;
+  background: var(--sc-surface-muted);
+}
+
+.sc-rewards-empty[hidden] {
+  display: none;
+}
+
+.sc-rewards-empty h3,
+.sc-rewards-empty p {
+  margin: 0;
+}
+
+.sc-rewards-empty h3 {
+  color: var(--sc-ink-strong);
+  font-size: 20px;
+  font-weight: 850;
+}
+
+.sc-rewards-empty p {
+  margin-top: 8px;
+  color: var(--sc-text-muted);
+  font-size: 14px;
+}
+
+.sc-rewards-help-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.sc-rewards-help-grid div {
+  padding-left: 15px;
+  border-left: 3px solid var(--sc-reward-accent);
+}
+
+.sc-rewards-help-grid strong {
+  color: var(--sc-ink-strong);
+  font-size: 16px;
+}
+
+.sc-rewards-help-grid p {
+  margin: 7px 0 0;
+  color: var(--sc-text-muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.sc-rewards-notice {
+  margin-top: 32px;
+  padding: 18px 20px;
+  border-left: 4px solid var(--sc-highlight);
+  background: var(--sc-highlight-soft);
+}
+
+.sc-rewards-notice strong {
+  color: var(--sc-ink-strong);
+}
+
+.sc-rewards-notice p {
+  margin: 7px 0 0;
+  color: var(--sc-text-muted);
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  .sc-reward-card {
+    grid-template-columns: 74px minmax(0, 1fr) auto;
+    gap: 12px;
+  }
+
+  .sc-reward-media {
+    width: 74px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sc-rewards-page {
+    padding-bottom: 44px;
+  }
+
+  .sc-rewards-hero {
+    padding: 20px 16px 28px;
+  }
+
+  .sc-rewards-hero h1 {
+    font-size: 34px;
+  }
+
+  .sc-rewards-hero-copy > p:last-child {
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .sc-rewards-games {
+    margin-top: 12px;
+    padding: 7px;
+  }
+
+  .sc-rewards-games a {
+    min-height: 38px;
+    padding: 7px 8px;
+    font-size: 13px;
+  }
+
+  .sc-rewards-section {
+    padding: 30px 0;
+  }
+
+  .sc-rewards-section-head h2 {
+    font-size: 23px;
+  }
+
+  .sc-reward-card {
+    grid-template-columns: 64px minmax(0, 1fr) auto;
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 8px 12px;
+    min-height: 0;
+    padding: 12px;
+  }
+
+  .sc-reward-media {
+    width: 64px;
+    height: 54px;
+    grid-row: 1;
+  }
+
+  .sc-reward-heading {
+    grid-column: 2;
+  }
+
+  .sc-reward-media .sc-reward-media-fallback {
+    width: 32px;
+    height: 32px;
+  }
+
+  .sc-reward-labels {
+    font-size: 11px;
+  }
+
+  .sc-reward-heading h3 {
+    font-size: 16px;
+  }
+
+  .sc-reward-actions {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: center;
+    justify-content: flex-end;
+    justify-self: end;
+  }
+
+  .sc-reward-code {
+    grid-column: 1 / -1;
+  }
+
+  .sc-rewards-help-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}

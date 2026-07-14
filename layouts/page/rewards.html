@@ -1,0 +1,85 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-rewards.css" }}
+    {{ $rewardsCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $rewardsCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{- $data := site.Data.rewards -}}
+{{- $gameKey := default "" .Params.game_key -}}
+{{- $rewards := $data.items -}}
+{{- $allCurrentRewards := where $data.items "status" "ne" "expired" -}}
+{{- $currentGame := dict "class" "all" "icon" "/ico.jpg" "short_title" "全部游戏" -}}
+{{- if $gameKey -}}
+  {{- $rewards = where $rewards "game" $gameKey -}}
+  {{- range $data.games -}}
+    {{- if eq .key $gameKey -}}
+      {{- $currentGame = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $currentRewards := where $rewards "status" "ne" "expired" -}}
+
+{{- partial "content/breadcrumb.html" . -}}
+
+<div class="sc-rewards-page sc-rewards-{{ $currentGame.class }}" data-rewards>
+  <header class="sc-rewards-hero">
+    <div class="sc-rewards-hero-copy">
+      <p class="sc-rewards-eyebrow">免费资源</p>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Description }}{{ with $data.source }} 最近同步于 {{ .synced_at }}。{{ end }}</p>
+    </div>
+  </header>
+
+  <nav class="sc-rewards-games" aria-label="按游戏查看奖励">
+    <a class="{{ if not $gameKey }}is-active{{ end }}" href="/rewards/">全部 ({{ len $allCurrentRewards }})</a>
+    {{- range $data.games }}
+      {{- $gameRewards := where $data.items "game" .key -}}
+      {{- $currentGameRewards := where $gameRewards "status" "ne" "expired" -}}
+      <a class="sc-rewards-game-{{ .class }} {{ if eq $gameKey .key }}is-active{{ end }}" href="{{ .url }}">
+        <img src="{{ .icon }}" alt="">
+        <span>{{ .title }} ({{ len $currentGameRewards }})</span>
+      </a>
+    {{- end }}
+  </nav>
+
+  <section class="sc-rewards-section">
+    <div class="sc-rewards-grid">
+      {{- range $currentRewards }}
+        {{- $reward := . -}}
+        {{- $rewardGame := dict -}}
+        {{- range $data.games -}}
+          {{- if eq .key $reward.game -}}
+            {{- $rewardGame = . -}}
+          {{- end -}}
+        {{- end -}}
+        {{- partial "rewards/card.html" (dict "reward" $reward "game" $rewardGame) -}}
+      {{- end }}
+    </div>
+
+    <div class="sc-rewards-empty" data-rewards-empty{{ if gt (len $currentRewards) 0 }} hidden{{ end }}>
+      <h3>暂时没有可展示的奖励</h3>
+      <p>还没有完成可靠验证的记录。发现新的官方奖励后会补充到这里。</p>
+    </div>
+  </section>
+
+  <section class="sc-rewards-section sc-rewards-help">
+    <div class="sc-rewards-section-head"><h2>领取方式</h2></div>
+    <div class="sc-rewards-help-grid">
+      <div><strong>游戏领取链接</strong><p>在安装了对应游戏的手机上，用系统浏览器打开链接并确认跳转。</p></div>
+      <div><strong>官方活动页面</strong><p>进入活动页面后按提示登录、点击领取或完成指定操作。</p></div>
+      <div><strong>官方商店兑换码</strong><p>登录 Supercell Store，选择对应游戏，在兑换区域输入代码。</p></div>
+    </div>
+  </section>
+
+  <aside class="sc-rewards-notice">
+    <strong>领取前请确认</strong>
+    <p>本站只收录公开奖励信息，不会要求提供账号密码或邮箱验证码。请核对链接域名和所登录的 Supercell ID；本站为非官方玩家站点，与超级细胞官方没有隶属或合作关系。</p>
+  </aside>
+</div>
+
+{{- with resources.Get "js/scbase-rewards.js" | minify | fingerprint }}
+  <script src="{{ .RelPermalink }}" defer></script>
+{{- end }}
+{{ end }}

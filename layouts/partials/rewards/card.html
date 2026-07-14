@@ -1,0 +1,44 @@
+{{- $reward := .reward -}}
+{{- $game := .game -}}
+
+<article class="sc-reward-card sc-reward-card-{{ $game.class }}" data-reward-card data-type="{{ $reward.type }}" data-status="{{ $reward.status }}">
+  <div class="sc-reward-media">
+    {{- with $reward.image }}
+      {{- with resources.Get . }}
+        {{- $image := . | fingerprint -}}
+        <img src="{{ $image.RelPermalink }}" alt="{{ $reward.title }}" loading="lazy" decoding="async">
+      {{- else }}
+        <img class="sc-reward-media-fallback" src="{{ $game.icon }}" alt="" loading="lazy" decoding="async">
+      {{- end }}
+    {{- else }}
+      <img class="sc-reward-media-fallback" src="{{ $game.icon }}" alt="" loading="lazy" decoding="async">
+    {{- end }}
+  </div>
+
+  <div class="sc-reward-heading">
+    <div class="sc-reward-labels">
+      <span>{{ $game.short_title }}</span>
+      <span>{{ $reward.type_label }}</span>
+    </div>
+    <h3>{{ $reward.title }}</h3>
+  </div>
+
+  {{- if eq $reward.redeem_type "store_code" }}
+    <div class="sc-reward-code">
+      <code>{{ $reward.code }}</code>
+      <button type="button" data-copy-code="{{ $reward.code }}">复制代码</button>
+    </div>
+  {{- end }}
+
+  <div class="sc-reward-actions">
+    {{- if eq $reward.status "expired" }}
+      <span class="sc-reward-disabled">领取已结束</span>
+    {{- else if eq $reward.redeem_type "direct_link" }}
+      <a class="sc-reward-primary" href="{{ $reward.redeem_url }}" target="_blank" rel="noopener noreferrer">{{ cond (eq $reward.status "checking") "尝试领取" "立即领取" }}</a>
+    {{- else if eq $reward.redeem_type "official_page" }}
+      <a class="sc-reward-primary" href="{{ $reward.redeem_url }}" target="_blank" rel="noopener noreferrer">前往领取</a>
+    {{- else if eq $reward.redeem_type "store_code" }}
+      <a class="sc-reward-primary" href="{{ $reward.redeem_url }}" target="_blank" rel="noopener noreferrer">前往官方商店</a>
+    {{- end }}
+  </div>
+</article>

@@ -6,7 +6,7 @@ description: "皇室战争国际服 Android 怎么安装？详细了解 APK、XA
 date: 2025-03-17 13:15:05
 updated: 2026-07-15T00:00:00+08:00
 slug: /how_to_install_clashroyale_android/
-home_popular: 2
+home_popular: 3
 game: clashroyale
 content_type: guide
 difficulty: intermediate

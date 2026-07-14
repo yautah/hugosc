@@ -4,7 +4,7 @@ image: /images/2025/imgi.png
 description: 皇室狠惠（Slash Royale）是皇室战争历史上极少数的全民级活动之一，最突出的特色就是优惠。
 date: 2025-08-06T23:39:00+08:00
 slug: when-will-next-slash-royale
-home_popular: 6
+home_popular: 7
 categories:
   - 皇室战争
 tags: 

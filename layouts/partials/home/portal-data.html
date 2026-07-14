@@ -1,4 +1,5 @@
 {{- $posts := (where .Site.RegularPages "Section" "posts").ByDate.Reverse -}}
+{{- $popularCandidates := where .Site.RegularPages "Params.home_popular" "ne" nil -}}
 {{- $pinnedTarget := 5 -}}
 {{- $popularTarget := 5 -}}
 
@@ -21,7 +22,7 @@
 
 {{- $popular := slice -}}
 {{- $popularKeys := slice -}}
-{{- range sort (where $posts "Params.home_popular" "ne" nil) "Params.home_popular" "asc" -}}
+{{- range sort $popularCandidates "Params.home_popular" "asc" -}}
   {{- if and (lt (len $popular) $popularTarget) (not (in $pinnedKeys .RelPermalink)) -}}
     {{- $popular = $popular | append . -}}
     {{- $popularKeys = $popularKeys | append .RelPermalink -}}

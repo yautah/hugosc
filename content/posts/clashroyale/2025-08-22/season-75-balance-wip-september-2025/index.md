@@ -4,7 +4,7 @@ image: /images/2025/sep-balance.png
 description: 本次调整涉及很多本赛季热门卡牌，整体来说还不错。当然，这只是平衡性调整预案，实装可能会有变化。
 date: 2025-08-22T10:28:29+08:00
 slug: season-75-balance-wip-september-2025
-home_popular: 5
+home_popular: 6
 categories:
   - 皇室战争
 tags:
