@@ -4,7 +4,7 @@ image: /images/2026/hq720.png
 description: 5月26日，皇室战争即将迎来一次大更新，简单来说，移除国王之旅和现有的经验体系，转用单独的一个收藏等级来替代，同时对于卡牌大师也有调整。
 date: 2026-05-15T17:02:38+08:00
 slug: what-to-do-before-may-update
-home_popular: 2
+home_popular: 3
 categories:
   - 皇室战争
 tags:

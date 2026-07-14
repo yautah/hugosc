@@ -1,6 +1,14 @@
 groups:
   - title: 站内工具
     items:
+      - title: 超级细胞全家桶
+        description: 超级细胞旗下游戏的安装包、安装工具、表情、动画、视频等。
+        href: /resources/
+        icon: /global_banner.jpg
+        class: neutral
+        chips:
+          - 站内资源
+          - 游戏下载
       - title: 爆裂小队国服宝箱查询
         description: 输入玩家信息，快速查看后续宝箱序列。
         href: /sb-chests/
