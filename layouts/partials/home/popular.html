@@ -1,0 +1,32 @@
+{{- $popular := . -}}
+{{- if gt (len $popular) 0 }}
+  <section class="hp-section hp-section-plain hp-carousel-section">
+    <div class="hp-section-head hp-section-head-compact">
+      <div>
+        <h2>热门</h2>
+      </div>
+    </div>
+
+    <div class="hp-carousel" data-carousel aria-label="热门内容轮播">
+      <button class="hp-carousel-arrow hp-carousel-arrow-prev" type="button" data-carousel-prev aria-label="上一条">‹</button>
+      <div class="hp-carousel-viewport">
+        <div class="hp-carousel-track" data-carousel-track>
+        {{ range $popular }}
+          <article class="hp-carousel-card">
+            <a class="hp-focus-link" href="{{ .RelPermalink }}" aria-label="{{ .LinkTitle }}"></a>
+            <div class="hp-focus-image">
+              {{- partial "home/image.html" (dict "page" . "fill" "760x428 Center webp q82" "loading" "lazy") -}}
+            </div>
+            <div class="hp-focus-body">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+              <h3>{{ .LinkTitle }}</h3>
+            </div>
+          </article>
+        {{ end }}
+        </div>
+      </div>
+      <button class="hp-carousel-arrow hp-carousel-arrow-next" type="button" data-carousel-next aria-label="下一条">›</button>
+      <div class="hp-carousel-dots" data-carousel-dots aria-label="轮播分页"></div>
+    </div>
+  </section>
+{{- end }}

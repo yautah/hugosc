@@ -1,0 +1,33 @@
+<section id="latest" class="hp-section">
+  <div class="hp-section-head">
+    <div>
+      <h2>最新资讯</h2>
+    </div>
+    <a class="hp-text-link" href="/posts/">全部文章</a>
+  </div>
+
+  <div class="hp-latest-grid">
+    {{ range . }}
+      <article class="hp-latest-item">
+        <a href="{{ .RelPermalink }}">
+          <figure class="hp-latest-thumb">
+            {{- partial "home/image.html" (dict
+              "page" .
+              "fill" "750x422 Center webp q82"
+              "srcsetFill" "360x252 Center webp q82"
+              "sizes" "(max-width: 768px) 116px, (max-width: 1024px) 50vw, 33vw"
+              "loading" "lazy"
+              "externalLoading" "lazy"
+              "decoding" "async"
+            ) -}}
+          </figure>
+          <div class="hp-latest-body">
+            <h3>{{ .LinkTitle }}</h3>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
+            <p>{{ .Params.description }}</p>
+          </div>
+        </a>
+      </article>
+    {{ end }}
+  </div>
+</section>

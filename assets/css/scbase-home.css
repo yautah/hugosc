@@ -229,7 +229,7 @@
 .hp-card-link {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .hp-pinned-image {
@@ -322,7 +322,7 @@
 .hp-focus-link {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .hp-focus-image {
@@ -369,7 +369,7 @@
 .hp-carousel-arrow {
   position: absolute;
   top: 50%;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,0 +1,31 @@
+{{- $page := .page -}}
+{{- $fill := .fill -}}
+{{- $srcsetFill := default "" .srcsetFill -}}
+{{- $sizes := default "" .sizes -}}
+{{- $loading := default "" .loading -}}
+{{- $externalLoading := default "" .externalLoading -}}
+{{- $decoding := default "" .decoding -}}
+{{- $fetchpriority := default "" .fetchpriority -}}
+{{- $hasImage := false -}}
+
+{{- with $page.Params.image -}}
+  {{- if strings.HasPrefix . "http" -}}
+    {{- $hasImage = true -}}
+    <img src="{{ . }}" alt="{{ $page.LinkTitle }}"{{ with $externalLoading }} loading="{{ . }}"{{ end }}>
+  {{- else -}}
+    {{- with resources.Get . -}}
+      {{- $hasImage = true -}}
+      {{- $source := . -}}
+      {{- $image := $source.Fill $fill -}}
+      {{- $srcsetImage := false -}}
+      {{- with $srcsetFill -}}
+        {{- $srcsetImage = $source.Fill . -}}
+      {{- end -}}
+      <img src="{{ $image.RelPermalink }}"{{ with $srcsetImage }} srcset="{{ .RelPermalink }} {{ .Width }}w, {{ $image.RelPermalink }} {{ $image.Width }}w"{{ end }}{{ with $sizes }} sizes="{{ . }}"{{ end }} alt="{{ $page.LinkTitle }}" width="{{ $image.Width }}" height="{{ $image.Height }}"{{ with $fetchpriority }} fetchpriority="{{ . }}"{{ end }}{{ with $loading }} loading="{{ . }}"{{ end }}{{ with $decoding }} decoding="{{ . }}"{{ end }}>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $hasImage -}}
+  <span>超级细胞营地</span>
+{{- end -}}

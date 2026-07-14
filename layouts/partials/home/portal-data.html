@@ -1,0 +1,46 @@
+{{- $posts := (where .Site.RegularPages "Section" "posts").ByDate.Reverse -}}
+{{- $pinnedTarget := 5 -}}
+{{- $popularTarget := 5 -}}
+
+{{- $pinned := slice -}}
+{{- $pinnedKeys := slice -}}
+{{- range sort (where $posts "Params.home_pinned" "ne" nil) "Params.home_pinned" "asc" -}}
+  {{- if lt (len $pinned) $pinnedTarget -}}
+    {{- $pinned = $pinned | append . -}}
+    {{- $pinnedKeys = $pinnedKeys | append .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- if lt (len $pinned) $pinnedTarget -}}
+  {{- range $posts -}}
+    {{- if and (lt (len $pinned) $pinnedTarget) (not (in $pinnedKeys .RelPermalink)) -}}
+      {{- $pinned = $pinned | append . -}}
+      {{- $pinnedKeys = $pinnedKeys | append .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $popular := slice -}}
+{{- $popularKeys := slice -}}
+{{- range sort (where $posts "Params.home_popular" "ne" nil) "Params.home_popular" "asc" -}}
+  {{- if and (lt (len $popular) $popularTarget) (not (in $pinnedKeys .RelPermalink)) -}}
+    {{- $popular = $popular | append . -}}
+    {{- $popularKeys = $popularKeys | append .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- if lt (len $popular) $popularTarget -}}
+  {{- range $posts -}}
+    {{- if and (lt (len $popular) $popularTarget) (not (in $pinnedKeys .RelPermalink)) (not (in $popularKeys .RelPermalink)) -}}
+      {{- $popular = $popular | append . -}}
+      {{- $popularKeys = $popularKeys | append .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $latest := slice -}}
+{{- range $posts -}}
+  {{- if and (lt (len $latest) 12) (not (in $pinnedKeys .RelPermalink)) (not (in $popularKeys .RelPermalink)) -}}
+    {{- $latest = $latest | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (dict "pinned" $pinned "popular" $popular "latest" $latest) -}}

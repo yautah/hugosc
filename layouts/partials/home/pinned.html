@@ -1,0 +1,34 @@
+{{- $pinned := . -}}
+{{- if gt (len $pinned) 0 }}
+  <section class="hp-section hp-section-plain hp-section-first">
+    <div class="hp-pinned-layout">
+      {{ range first 1 $pinned }}
+        <article class="hp-pinned-card hp-pinned-card-main">
+          <a class="hp-card-link" href="{{ .RelPermalink }}" aria-label="{{ .LinkTitle }}"></a>
+          <div class="hp-pinned-image">
+            {{- partial "home/image.html" (dict "page" . "fill" "820x462 Center webp q82" "fetchpriority" "high") -}}
+          </div>
+          <div class="hp-pinned-body">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+            <h3>{{ .LinkTitle }}</h3>
+          </div>
+        </article>
+      {{ end }}
+
+      <div class="hp-pinned-side">
+        {{ range after 1 (first 5 $pinned) }}
+          <article class="hp-pinned-card hp-pinned-card-small">
+            <a class="hp-card-link" href="{{ .RelPermalink }}" aria-label="{{ .LinkTitle }}"></a>
+            <div class="hp-pinned-image">
+              {{- partial "home/image.html" (dict "page" . "fill" "420x236 Center webp q82") -}}
+            </div>
+            <div class="hp-pinned-body">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+              <h3>{{ .LinkTitle }}</h3>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{- end }}

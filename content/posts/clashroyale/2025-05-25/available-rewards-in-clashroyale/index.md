@@ -4,14 +4,13 @@ image: /images/2025/clash-royale-gold-cover.png
 description: 长期有效的奖励，持续更新ing
 date: 2025-05-25T10:30:07+08:00
 slug: available-rewards-in-clashroyale
-home_popular: 3
+home_popular: 1
 categories:
   - 皇室战争
 tags:
   - 资讯
   - 免费资源
 draft: false
-home_pinned: 5
 ---
 
 
