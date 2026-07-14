@@ -10,10 +10,10 @@
 {{- $posts := where .Site.RegularPages "Section" "posts" -}}
 {{- $crPosts := where $posts "Params.categories" "intersect" (slice "皇室战争") -}}
 
+<div class="sc-channel-page sc-channel-clashroyale">
 <section class="sc-home-hero">
   <div class="sc-hero-grid">
     <div>
-      <p class="sc-kicker">Clash Royale</p>
       <h1 class="sc-hero-title">皇室战争攻略中心</h1>
       <p class="sc-hero-lead">
         聚合皇室战争卡组推荐、版本更新、活动挑战、新卡解析和长期指南。这里会优先沉淀能反复查阅的攻略内容，而不是只做短期资讯列表。
@@ -53,7 +53,6 @@
 <section class="sc-section">
   <div class="sc-section-head">
     <div>
-      <p class="sc-kicker">Focus</p>
       <h2 class="sc-section-title">当前重点</h2>
       <p class="sc-section-desc">优先展示最近仍有参考价值的皇室战争内容。</p>
     </div>
@@ -69,7 +68,6 @@
 <section class="sc-section">
   <div class="sc-section-head">
     <div>
-      <p class="sc-kicker">Guides</p>
       <h2 class="sc-section-title">精选长期攻略</h2>
       <p class="sc-section-desc">这些文章更适合作为栏目核心内容长期保留。</p>
     </div>
@@ -123,7 +121,6 @@
 <section class="sc-section">
   <div class="sc-section-head">
     <div>
-      <p class="sc-kicker">Browse</p>
       <h2 class="sc-section-title">按主题浏览</h2>
     </div>
   </div>
@@ -151,7 +148,6 @@
 <section class="sc-section">
   <div class="sc-section-head">
     <div>
-      <p class="sc-kicker">Latest</p>
       <h2 class="sc-section-title">最新皇室战争文章</h2>
     </div>
     <a class="sc-button sc-button-secondary" href="/posts/clashroyale/">全部皇室战争文章</a>
@@ -163,5 +159,6 @@
     {{ end }}
   </div>
 </section>
+</div>
 
 {{ end }}

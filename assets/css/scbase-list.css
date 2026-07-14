@@ -8,7 +8,7 @@
 
 .sc-list-kicker {
   margin: 0 0 10px;
-  color: #2563eb;
+  color: var(--sc-accent);
   font-size: 14px;
   font-weight: 800;
 }
@@ -24,7 +24,7 @@
 .sc-list-desc {
   max-width: 760px;
   margin: 16px 0 0;
-  color: #52525b;
+  color: var(--sc-text-muted);
   font-size: 16px;
   line-height: 1.8;
 }
@@ -35,10 +35,10 @@
   min-height: 32px;
   margin-top: 20px;
   padding: 6px 10px;
-  border: 1px solid #e4e4e7;
-  border-radius: 8px;
-  background: #fafafa;
-  color: #3f3f46;
+  border: 1px solid var(--sc-border);
+  border-radius: var(--sc-radius-md);
+  background: var(--sc-surface-muted);
+  color: var(--sc-ink-soft);
   font-size: 13px;
   font-weight: 800;
 }
@@ -58,9 +58,9 @@
 
 .sc-list-grid article,
 .sc-term-card {
-  border: 1px solid #e4e4e7;
-  border-radius: 8px;
-  background: #fff;
+  border: 1px solid var(--sc-border);
+  border-radius: var(--sc-radius-md);
+  background: var(--sc-surface);
 }
 
 .sc-list-grid article {
@@ -69,7 +69,7 @@
 
 .sc-list-grid article:hover,
 .sc-term-card:hover {
-  background: #fafafa;
+  background: var(--sc-surface-muted);
 }
 
 .sc-list-grid article figure {
@@ -77,7 +77,7 @@
 }
 
 .sc-list-grid article time {
-  color: #71717a;
+  color: var(--sc-text-subtle);
   font-size: 13px;
   font-weight: 700;
 }
@@ -103,15 +103,15 @@
   justify-content: center;
   min-height: 42px;
   padding: 9px 16px;
-  border: 1px solid #d4d4d8;
-  border-radius: 8px;
-  color: #18181b;
+  border: 1px solid var(--sc-border-strong);
+  border-radius: var(--sc-radius-md);
+  color: var(--sc-ink);
   font-weight: 800;
   text-decoration: none;
 }
 
 .sc-list-page-link:hover {
-  background: #f4f4f5;
+  background: var(--sc-surface-hover);
 }
 
 .sc-term-grid {
@@ -124,7 +124,7 @@
   display: block;
   min-height: 128px;
   padding: 20px;
-  color: #18181b;
+  color: var(--sc-ink);
   text-decoration: none;
 }
 
@@ -137,7 +137,7 @@
 
 .sc-term-card p {
   margin: 12px 0 0;
-  color: #52525b;
+  color: var(--sc-text-muted);
   font-size: 14px;
   line-height: 1.7;
 }

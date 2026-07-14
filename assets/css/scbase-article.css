@@ -21,10 +21,10 @@
   align-items: center;
   min-height: 32px;
   padding: 6px 10px;
-  border: 1px solid #e4e4e7;
-  border-radius: 8px;
-  background: #fafafa;
-  color: #3f3f46;
+  border: 1px solid var(--sc-border);
+  border-radius: var(--sc-radius-md);
+  background: var(--sc-surface-muted);
+  color: var(--sc-ink-soft);
   font-size: 13px;
   font-weight: 700;
   line-height: 1.2;
@@ -34,9 +34,9 @@
 .sc-article-faq {
   margin: 32px 0;
   padding: 22px;
-  border: 1px solid #e4e4e7;
-  border-radius: 8px;
-  background: #fafafa;
+  border: 1px solid var(--sc-border);
+  border-radius: var(--sc-radius-md);
+  background: var(--sc-surface-muted);
 }
 
 .sc-article-note h2,
@@ -49,7 +49,7 @@
 
 .sc-article-note p {
   margin: 0;
-  color: #52525b;
+  color: var(--sc-text-muted);
   font-size: 15px;
   line-height: 1.8;
 }
@@ -57,7 +57,7 @@
 .sc-faq-item {
   padding-top: 18px;
   margin-top: 18px;
-  border-top: 1px solid #e4e4e7;
+  border-top: 1px solid var(--sc-border);
 }
 
 .sc-faq-item:first-of-type {
@@ -75,7 +75,7 @@
 
 .sc-faq-item p {
   margin: 8px 0 0;
-  color: #52525b;
+  color: var(--sc-text-muted);
   font-size: 15px;
   line-height: 1.8;
 }

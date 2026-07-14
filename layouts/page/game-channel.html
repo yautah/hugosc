@@ -16,10 +16,10 @@
 {{- end -}}
 {{- $allPostsURL := default "/posts/" .Params.posts_url -}}
 
+<div class="sc-channel-page sc-channel-{{ .Params.game_key }}">
 <section class="sc-home-hero">
   <div class="sc-hero-grid">
     <div>
-      <p class="sc-kicker">{{ default .Title .Params.channel_kicker }}</p>
       <h1 class="sc-hero-title">{{ default .Title .Params.hero_title }}</h1>
       <p class="sc-hero-lead">{{ default .Description .Params.hero_lead }}</p>
       <div class="sc-actions">
@@ -45,7 +45,6 @@
 <section class="sc-section">
   <div class="sc-section-head">
     <div>
-      <p class="sc-kicker">Focus</p>
       <h2 class="sc-section-title">当前重点</h2>
       <p class="sc-section-desc">{{ default (printf "优先展示最近仍有参考价值的%s内容。" .Title) .Params.focus_description }}</p>
     </div>
@@ -61,7 +60,6 @@
 <section class="sc-section">
   <div class="sc-section-head">
     <div>
-      <p class="sc-kicker">Browse</p>
       <h2 class="sc-section-title">按主题浏览</h2>
     </div>
   </div>
@@ -79,7 +77,6 @@
 <section class="sc-section">
   <div class="sc-section-head">
     <div>
-      <p class="sc-kicker">Latest</p>
       <h2 class="sc-section-title">最新{{ .Title }}文章</h2>
     </div>
     <a class="sc-button sc-button-secondary" href="{{ $allPostsURL }}">全部{{ .Title }}文章</a>
@@ -91,5 +88,6 @@
     {{ end }}
   </div>
 </section>
+</div>
 
 {{ end }}
