@@ -1,16 +1,21 @@
 .sc-list-page {
-  padding: 10px 0 56px;
+  padding: 0 0 56px;
 }
 
-.sc-list-hero {
-  padding: 24px 0 34px;
+header.sc-list-hero {
+  position: static;
+  padding: 12px 0 28px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid var(--sc-border);
+  background: transparent;
+  box-shadow: none;
 }
 
-.sc-list-kicker {
-  margin: 0 0 10px;
-  color: var(--sc-accent);
-  font-size: 14px;
-  font-weight: 800;
+.sc-list-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .sc-list-title {
@@ -23,24 +28,17 @@
 
 .sc-list-desc {
   max-width: 760px;
-  margin: 16px 0 0;
+  margin: 12px 0 0;
   color: var(--sc-text-muted);
   font-size: 16px;
   line-height: 1.8;
 }
 
 .sc-list-count {
-  display: inline-flex;
-  align-items: center;
-  min-height: 32px;
-  margin-top: 20px;
-  padding: 6px 10px;
-  border: 1px solid var(--sc-border);
-  border-radius: var(--sc-radius-md);
-  background: var(--sc-surface-muted);
-  color: var(--sc-ink-soft);
+  flex: 0 0 auto;
+  color: var(--sc-text-subtle);
   font-size: 13px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .sc-list-layout {
@@ -83,7 +81,13 @@
 }
 
 .sc-list-grid article h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
   line-height: 1.45;
+}
+
+.sc-list-grid article > div {
+  padding: 18px;
 }
 
 .sc-list-pagination {
@@ -159,6 +163,26 @@
 
   .sc-list-title {
     font-size: 34px;
+  }
+
+  header.sc-list-hero {
+    padding: 4px 0 22px;
+    margin-bottom: 20px;
+  }
+
+  .sc-list-heading {
+    align-items: flex-end;
+    gap: 12px;
+  }
+
+  .sc-list-desc {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .sc-list-grid article > div {
+    padding: 16px;
   }
 
   .sc-list-grid,

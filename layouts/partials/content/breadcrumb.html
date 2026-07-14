@@ -1,0 +1,15 @@
+<nav id="breadcrumb" class="sc-breadcrumb" aria-label="面包屑">
+  <ol>
+    {{- range .Ancestors.Reverse }}
+      {{- $label := .LinkTitle -}}
+      {{- if eq .Kind "taxonomy" }}
+        {{- if eq .Type "tags" }}
+          {{- $label = "标签" -}}
+        {{- else if eq .Type "categories" }}
+          {{- $label = "分类" -}}
+        {{- end -}}
+      {{- end }}
+      <li><a href="{{ .RelPermalink }}">{{ $label }}</a></li>
+    {{- end }}
+  </ol>
+</nav>

@@ -238,6 +238,37 @@
   border-top: 1px solid var(--sc-border);
 }
 
+.sc-breadcrumb {
+  padding: 24px 0;
+}
+
+.sc-breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  margin: 0;
+  padding: 0;
+  color: var(--sc-text-subtle);
+  font-size: 14px;
+  line-height: 1.5;
+  list-style: none;
+}
+
+.sc-breadcrumb li + li::before {
+  content: "/";
+  margin-right: 10px;
+  color: var(--sc-text-faint);
+}
+
+.sc-breadcrumb a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sc-breadcrumb a:hover {
+  color: var(--sc-ink);
+}
+
 .sc-footer-inner {
   max-width: 1280px;
   margin: 0 auto;
@@ -402,6 +433,10 @@
 
   .sc-header-row {
     height: 100%;
+  }
+
+  .sc-breadcrumb {
+    padding: 20px 0;
   }
 
   .sc-brand img {

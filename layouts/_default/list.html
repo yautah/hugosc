@@ -22,12 +22,6 @@
     {{- $title = cond (eq .RelPermalink "/posts/") "全部文章" .Title -}}
   {{- end -}}
 {{- end -}}
-{{- $kicker := "内容归档" -}}
-{{- if eq .Kind "term" -}}
-  {{- $kicker = "主题浏览" -}}
-{{- else if eq .Kind "section" -}}
-  {{- $kicker = "文章列表" -}}
-{{- end -}}
 {{- $desc := .Description -}}
 {{- if not $desc -}}
   {{- if eq .Kind "term" -}}
@@ -39,10 +33,11 @@
 
 <div class="sc-list-page">
   <header class="sc-list-hero">
-    <p class="sc-list-kicker">{{ $kicker }}</p>
-    <h1 class="sc-list-title">{{ $title }}</h1>
+    <div class="sc-list-heading">
+      <h1 class="sc-list-title">{{ $title }}</h1>
+      <span class="sc-list-count">{{ len $pages }} 篇内容</span>
+    </div>
     <p class="sc-list-desc">{{ $desc }}</p>
-    <span class="sc-list-count">{{ len $pages }} 篇内容</span>
   </header>
 
   <div class="sc-list-layout">
