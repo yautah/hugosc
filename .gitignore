@@ -6,6 +6,7 @@ content/.obsidian/workspace.json
 .venv/
 .venv-content-publisher/
 dist/
+node_modules/
 tools/content-publisher/.env
 tools/content-publisher/.venv/
 tools/content-publisher/dist/

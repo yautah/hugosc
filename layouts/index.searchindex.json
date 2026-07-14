@@ -1,0 +1,63 @@
+{{- $gameLabels := dict
+  "clashroyale" "皇室战争"
+  "brawlstars" "荒野乱斗"
+  "clashofclans" "部落冲突"
+  "moco" "Mo.Co"
+  "squadbusters" "爆裂小队"
+-}}
+{{- $typeLabels := dict
+  "guide" "攻略"
+  "deck-guide" "卡组攻略"
+  "news" "资讯"
+  "update" "版本更新"
+  "event" "活动"
+  "commentary" "观点解读"
+  "event-recap" "活动回顾"
+-}}
+{{- $entries := slice -}}
+{{- range where site.RegularPages "Section" "posts" -}}
+  {{- $game := "文章" -}}
+  {{- with .Params.game -}}
+    {{- $game = default . (index $gameLabels .) -}}
+  {{- else -}}
+    {{- with index .Params.categories 0 -}}
+      {{- $game = . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $contentType := "文章" -}}
+  {{- with .Params.content_type -}}
+    {{- $contentType = default "文章" (index $typeLabels .) -}}
+  {{- end -}}
+  {{- $description := default (.Summary | plainify) (.Params.description | plainify) -}}
+  {{- $entries = $entries | append (dict
+    "title" .Title
+    "url" .RelPermalink
+    "description" $description
+    "game" $game
+    "type" $contentType
+    "kind" "article"
+    "date" (.Date.Format "2006-01-02")
+    "tags" (default (slice) .Params.tags)
+    "keywords" (default (slice) .Params.keywords)
+  ) -}}
+{{- end -}}
+{{- range $group := site.Data.tools.groups -}}
+  {{- range $group.items -}}
+    {{- $game := "工具" -}}
+    {{- with index .chips 1 -}}
+      {{- $game = . -}}
+    {{- end -}}
+    {{- $entries = $entries | append (dict
+      "title" .title
+      "url" .href
+      "description" .description
+      "game" $game
+      "type" $group.title
+      "kind" "tool"
+      "date" ""
+      "tags" .chips
+      "keywords" (slice)
+    ) -}}
+  {{- end -}}
+{{- end -}}
+{{- $entries | jsonify -}}

@@ -1,0 +1,36 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-search.css" }}
+    {{ $searchCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $searchCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+  <section class="sc-search" data-search data-index="/search-index.json">
+    <header class="sc-search-header">
+      <h1>搜索</h1>
+    </header>
+
+    <form class="sc-search-form" role="search">
+      <label class="sc-visually-hidden" for="site-search">搜索站内内容</label>
+      <input id="site-search" name="q" type="search" placeholder="搜索攻略、更新、卡组或工具" autocomplete="off" spellcheck="false">
+    </form>
+
+    <div class="sc-search-controls">
+      <div class="sc-search-tabs" role="group" aria-label="结果类型">
+        <button class="sc-search-tab is-active" type="button" data-filter="all" aria-pressed="true">全部</button>
+        <button class="sc-search-tab" type="button" data-filter="article" aria-pressed="false">文章</button>
+        <button class="sc-search-tab" type="button" data-filter="tool" aria-pressed="false">工具</button>
+      </div>
+      <p class="sc-search-status" role="status" aria-live="polite">正在载入</p>
+    </div>
+
+    <div class="sc-search-results" aria-label="搜索结果"></div>
+    <noscript><p class="sc-search-message">需要启用 JavaScript 才能使用站内搜索。</p></noscript>
+  </section>
+
+  {{- $opts := dict "targetPath" "js/scbase-search.js" "minify" (ne hugo.Environment "development") -}}
+  {{- with resources.Get "js/scbase-search.js" | js.Build $opts | fingerprint }}
+    <script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+  {{- end }}
+{{ end }}

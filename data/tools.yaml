@@ -1,0 +1,59 @@
+groups:
+  - title: 站内工具
+    items:
+      - title: 爆裂小队国服宝箱查询
+        description: 输入玩家信息，快速查看后续宝箱序列。
+        href: /sb-chests/
+        icon: /sb-chests/assets/chest_epic.png
+        class: squad
+        chips:
+          - 站内可用
+          - 爆裂小队
+      - title: 皇室小蜜收藏等级查询
+        description: 查询收藏等级、国王塔等级和版本奖励等信息。
+        href: /kl/
+        icon: /kl/assets/collection-level.png
+        class: royale
+        chips:
+          - 站内可用
+          - 皇室战争
+  - title: 外部工具
+    items:
+      - title: 爆裂小队国际服宝箱查询
+        description: 面向国际服玩家的宝箱序列查询入口。
+        href: https://yautah.github.io/sb-chests/
+        icon: /sb-chests/assets/chest_epic.png
+        class: squad
+        external: true
+        chips:
+          - 外部链接
+          - 爆裂小队
+      - title: 超级细胞背景生成器
+        description: 生成超级细胞风格背景图，用于文章和社媒配图。
+        href: http://www.madn.xyz/sc-background/
+        icon: /clash.svg
+        class: neutral
+        external: true
+        chips:
+          - 外部链接
+          - 素材工具
+  - title: 开源项目
+    items:
+      - title: 超级细胞资源下载器
+        description: 下载和整理游戏资源，辅助文章素材与资料整理。
+        href: https://github.com/yautah/scdownload
+        icon: /global_banner.jpg
+        class: neutral
+        external: true
+        chips:
+          - 开源项目
+          - 资源整理
+      - title: goroyale
+        description: 皇室战争官方 API 的 Go 实现，用于皇室小蜜等项目。
+        href: https://github.com/yautah/goroyale
+        icon: /royale.svg
+        class: royale
+        external: true
+        chips:
+          - 开源项目
+          - 皇室战争

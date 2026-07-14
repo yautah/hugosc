@@ -1,0 +1,77 @@
+{{ define "css" }}
+  {{ $contentCSS := resources.Get "css/content.css" | fingerprint }}
+  <link rel="stylesheet" href="{{ $contentCSS.RelPermalink }}">
+  {{ with resources.Get "css/scbase-article.css" }}
+    {{ $articleCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $articleCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+  {{- partial "content/breadcrumb.html" . -}}
+
+  <div class="sc-article-layout">
+    <article class="sc-article prose lg:prose-lg">
+      <header class="sc-article-header not-prose">
+        <h1 id="title" class="sc-article-title">{{ .Title }}</h1>
+
+        {{- with .Params.description }}
+          <p id="lead" class="sc-article-lead">{{ . }}</p>
+        {{- end }}
+
+        <div id="writer" class="sc-article-byline">
+          {{- $name := default "超级细胞营地" .Site.Author.name -}}
+          {{- with $avatar := resources.Get .Site.Author.avatar }}
+            <img class="sc-article-avatar" src="{{ $avatar.Permalink }}" alt="{{ $name }}" width="{{ $avatar.Width }}" height="{{ $avatar.Height }}">
+          {{- end }}
+
+          <div class="sc-article-byline-copy">
+            <span class="sc-article-author">{{ $name }}</span>
+            {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+            {{- $dateHuman := .Date | time.Format ":date_long" -}}
+            <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+            <span>阅读约 {{ .ReadingTime }} 分钟</span>
+          </div>
+        </div>
+
+        {{- partial "content/article-meta.html" . -}}
+      </header>
+
+      {{- with .Params.image }}
+        {{- if strings.HasPrefix . "http" }}
+          <figure id="featureimage" class="sc-article-feature not-prose">
+            <img src="{{ . }}" alt="{{ $.Title }}">
+            {{- with $.Params.caption }}
+              <figcaption>{{ . }}</figcaption>
+            {{- end }}
+          </figure>
+        {{- else }}
+          {{- with resources.Get . }}
+            <figure id="featureimage" class="sc-article-feature not-prose">
+              {{- $image := .Fill "900x506 Center webp q82" }}
+              <img src="{{ $image.RelPermalink }}" alt="{{ $.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+              {{- with $.Params.caption }}
+                <figcaption>{{ . }}</figcaption>
+              {{- end }}
+            </figure>
+          {{- end }}
+        {{- end }}
+      {{- end }}
+
+      <div id="content" class="sc-article-content">
+        {{- .Content -}}
+        {{- partial "terms.html" (dict "taxonomy" "tags" "page" .) -}}
+        {{- partial "content/article-faq.html" . -}}
+        {{- partial "content/article-note.html" . -}}
+      </div>
+
+      <footer id="content-footer" class="sc-article-footer not-prose">
+        {{- partial "content/related-posts.html" . -}}
+      </footer>
+    </article>
+
+    <aside class="sc-article-aside">
+      {{- partial "content/aside.html" . -}}
+    </aside>
+  </div>
+{{ end }}

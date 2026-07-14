@@ -1,0 +1,11 @@
+{{- $page := .page -}}
+{{- $taxonomy := .taxonomy -}}
+
+{{- with $page.GetTerms $taxonomy }}
+  <ul id="taxonomy" class="not-prose">
+    <li class="sc-taxonomy-label">标签</li>
+    {{- range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{- end }}
+  </ul>
+{{- end }}

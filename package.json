@@ -1,1 +1,7 @@
-{}
+{
+  "name": "hugosc",
+  "private": true,
+  "dependencies": {
+    "fuse.js": "7.5.0"
+  }
+}

@@ -11,6 +11,8 @@
   "news" "资讯"
   "update" "版本更新"
   "event" "活动"
+  "commentary" "观点解读"
+  "event-recap" "活动回顾"
 -}}
 {{- $difficultyLabels := dict
   "beginner" "入门"
@@ -28,17 +30,23 @@
 {{- end }}
 <div class="sc-article-meta">
   {{- with $game }}
-    <span class="sc-meta-chip">{{ default . (index $gameLabels .) }}</span>
+    {{- with index $gameLabels . }}
+      <span class="sc-meta-chip">{{ . }}</span>
+    {{- end }}
   {{- else }}
     {{- with index .Params.categories 0 }}
       <span class="sc-meta-chip">{{ . }}</span>
     {{- end }}
   {{- end }}
   {{- with $contentType }}
-    <span class="sc-meta-chip">{{ default . (index $typeLabels .) }}</span>
+    {{- with index $typeLabels . }}
+      <span class="sc-meta-chip">{{ . }}</span>
+    {{- end }}
   {{- end }}
   {{- with $difficulty }}
-    <span class="sc-meta-chip">{{ default . (index $difficultyLabels .) }}</span>
+    {{- with index $difficultyLabels . }}
+      <span class="sc-meta-chip">{{ . }}</span>
+    {{- end }}
   {{- end }}
   {{- if .Params.evergreen }}
     <span class="sc-meta-chip">长期攻略</span>
