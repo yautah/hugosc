@@ -1,15 +1,17 @@
 ---
-title: "皇室战争免费奖励、资源大全，战旗、表情、塔皮还有更多～"
-image: "/images/2025/clash-royale-gold-cover.png"
-description: "长期有效的奖励，持续更新ing"
-date: '2025-05-25T10:30:07+08:00'
-slug: "available-rewards-in-clashroyale"
+title: 皇室战争免费奖励、资源大全，战旗、表情、塔皮还有更多～
+image: /images/2025/clash-royale-gold-cover.png
+description: 长期有效的奖励，持续更新ing
+date: 2025-05-25T10:30:07+08:00
+slug: available-rewards-in-clashroyale
+home_popular: 3
 categories:
   - 皇室战争
 tags:
   - 资讯
   - 免费资源
 draft: false
+home_pinned: 5
 ---
 
 

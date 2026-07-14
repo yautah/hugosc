@@ -5,6 +5,7 @@ image: "/images/2025/globalplay.webp"
 description: "本文重点介绍苹果手机玩家如何下载、安装、更新和畅玩国际服版本皇室战争。"
 date: 2025-03-17 12:15:05
 slug: /how-to-play-global-clash-royale/
+home_popular: 1
 categories:
   - 皇室战争
 tags:

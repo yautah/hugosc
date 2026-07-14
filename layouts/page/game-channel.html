@@ -1,7 +1,7 @@
 {{ define "css" }}
-  {{ with resources.Get "css/scbase-home.css" }}
-    {{ $homeCSS := . | fingerprint }}
-    <link rel="stylesheet" href="{{ $homeCSS.RelPermalink }}">
+  {{ with resources.Get "css/scbase-channel.css" }}
+    {{ $channelCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $channelCSS.RelPermalink }}">
   {{ end }}
 {{ end }}
 
