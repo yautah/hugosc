@@ -3,7 +3,7 @@ title: "皇室战争免费奖励"
 date: 2026-07-15T00:00:00+08:00
 updated: 2026-07-15T00:00:00+08:00
 url: /rewards/clash-royale/
-description: "查看皇室战争免费表情、塔皮、旗帜、宝箱、金币和其他官方奖励，包含领取链接、兑换方式、有效状态与最后验证时间。"
+description: "查看皇室战争免费表情、塔皮、战旗、宝箱、金币和其他官方奖励，包含领取链接、兑换方式、有效状态与最后验证时间。"
 layout: rewards
 game_key: clashroyale
 draft: false

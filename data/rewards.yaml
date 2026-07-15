@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-15"
+  synced_at: "2026-07-16"
 
 items:
   - id: cr-310
@@ -27,7 +27,7 @@ items:
     title: "2 张浪人传奇卡"
     original_title: "x2 Ronin Legendary Cards"
     type: resource
-    type_label: "宝箱"
+    type_label: "卡牌"
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz"
     image: "images/rewards/clashroyale/cr-310.webp"
@@ -48,10 +48,10 @@ items:
     expires_at: ""
   - id: cr-270
     game: clashroyale
-    title: "浪人浴场旗帜套装"
+    title: "浪人浴场战旗套装"
     original_title: "Ronin bath Banner set"
     type: cosmetic
-    type_label: "旗帜"
+    type_label: "战旗"
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/?action=voucher&code=819f7582-9242-444a-a6bf-9ea3efa913e3"
     image: "images/rewards/clashroyale/cr-270.webp"
@@ -72,10 +72,10 @@ items:
     expires_at: ""
   - id: cr-166
     game: clashroyale
-    title: "足球场与致命盘带旗帜套装"
+    title: "足球场与致命盘带战旗套装"
     original_title: "Sports Ball Stadium / Deadly Dribble Banner set"
     type: cosmetic
-    type_label: "旗帜"
+    type_label: "战旗"
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=ade6dc82-6909-4b22-a50d-8a7b39afe21d"
     image: "images/rewards/clashroyale/cr-166.webp"
@@ -84,10 +84,10 @@ items:
     expires_at: ""
   - id: cr-157
     game: clashroyale
-    title: "飞天野猪旗帜边框"
+    title: "飞天野猪战旗边框"
     original_title: "Flying Hog : Banner frame"
     type: cosmetic
-    type_label: "旗帜"
+    type_label: "战旗"
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=f49b8488-8068-4b1a-8f9f-57e1517f2f5a"
     image: "images/rewards/clashroyale/cr-157.webp"
@@ -96,10 +96,10 @@ items:
     expires_at: ""
   - id: cr-156
     game: clashroyale
-    title: "冲突动物旗帜套装"
+    title: "冲突动物战旗套装"
     original_title: "Clash Animals : Banner set"
     type: cosmetic
-    type_label: "旗帜"
+    type_label: "战旗"
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=856a823c-c920-42f5-993a-c68d75ab02c7"
     image: "images/rewards/clashroyale/cr-156.webp"
@@ -120,10 +120,10 @@ items:
     expires_at: ""
   - id: cr-142
     game: clashroyale
-    title: "觉醒公主冰冻旗帜"
+    title: "觉醒公主冰冻战旗"
     original_title: "Evo Princess Fiercely frozen"
     type: cosmetic
-    type_label: "旗帜"
+    type_label: "战旗"
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/en/clashroyale?boost=tryaz&storeCode=PRINCESSEVO%21"
     image: "images/rewards/clashroyale/cr-142.webp"
@@ -156,15 +156,15 @@ items:
     expires_at: ""
   - id: cr-97
     game: clashroyale
-    title: "十周年旗帜套装"
-    original_title: "10th anniversary banner set"
+    title: "皇室战争10周年纪念"
+    original_title: "Clash Royale 10th Anniversary"
     type: cosmetic
-    type_label: "旗帜"
+    type_label: "战旗"
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=f9a8c8fa-8844-4e3d-99df-8c01de1d8862"
     image: "images/rewards/clashroyale/cr-97.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-16"
     expires_at: ""
   - id: cr-74
     game: clashroyale
@@ -180,10 +180,10 @@ items:
     expires_at: ""
   - id: cr-36
     game: clashroyale
-    title: "火枪手旗帜套装"
+    title: "火枪手战旗套装"
     original_title: "Musketeer banner set"
     type: cosmetic
-    type_label: "旗帜"
+    type_label: "战旗"
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=94158c89-9f24-4d8c-8694-76eb087caef2"
     image: "images/rewards/clashroyale/cr-36.webp"
@@ -204,10 +204,10 @@ items:
     expires_at: ""
   - id: cr-34
     game: clashroyale
-    title: "飞天野猪旗帜装饰"
+    title: "飞天野猪战旗装饰"
     original_title: "Flying Hog : Banner decoration"
     type: cosmetic
-    type_label: "旗帜"
+    type_label: "战旗"
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=80486871-5620-4237-83fb-42174ddc8a83"
     image: "images/rewards/clashroyale/cr-34.webp"
@@ -228,10 +228,10 @@ items:
     expires_at: ""
   - id: cr-8
     game: clashroyale
-    title: "烈焰风暴旗帜"
+    title: "烈焰风暴战旗"
     original_title: " Firestorm banner"
     type: cosmetic
-    type_label: "旗帜"
+    type_label: "战旗"
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/en/clashroyale?boost=tryaz&storeCode=FIREANDICE!%21"
     image: "images/rewards/clashroyale/cr-8.webp"
