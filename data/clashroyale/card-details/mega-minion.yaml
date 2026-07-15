@@ -1,0 +1,132 @@
+---
+release_date: '2016-09-19'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 重甲亡灵
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.5 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.4 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：长 (1.6)
+  - key: projectile_speed
+    label: 投射物速度
+    value: '1000'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 空中
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      hitpoints: '390'
+      damage: '146'
+      damage_per_second: '97'
+    - level: '4'
+      hitpoints: '430'
+      damage: '160'
+      damage_per_second: '106'
+    - level: '5'
+      hitpoints: '472'
+      damage: '176'
+      damage_per_second: '117'
+    - level: '6'
+      hitpoints: '520'
+      damage: '194'
+      damage_per_second: '129'
+    - level: '7'
+      hitpoints: '572'
+      damage: '213'
+      damage_per_second: '142'
+    - level: '8'
+      hitpoints: '629'
+      damage: '234'
+      damage_per_second: '156'
+    - level: '9'
+      hitpoints: '692'
+      damage: '258'
+      damage_per_second: '172'
+    - level: '10'
+      hitpoints: '761'
+      damage: '284'
+      damage_per_second: '189'
+    - level: '11'
+      hitpoints: '837'
+      damage: '312'
+      damage_per_second: '208'
+    - level: '12'
+      hitpoints: '921'
+      damage: '343'
+      damage_per_second: '228'
+    - level: '13'
+      hitpoints: '1013'
+      damage: '378'
+      damage_per_second: '252'
+    - level: '14'
+      hitpoints: '1114'
+      damage: '415'
+      damage_per_second: '276'
+    - level: '15'
+      hitpoints: '1225'
+      damage: '457'
+      damage_per_second: '304'
+    - level: '16'
+      hitpoints: '1348'
+      damage: '502'
+      damage_per_second: '334'
+balance_history:
+- date: '2026-02-13'
+  type: hero
+  summary: 精英重甲亡灵开放抢先体验，随后于 3 月 2 日加入精英召唤池。
+- date: '2026-02-02'
+  type: visual
+  summary: 重甲亡灵的卡牌图片更新为当前版本。
+- date: '2025-03-31'
+  type: buff
+  summary: 伤害提高 0.32%。
+- date: '2023-04-04'
+  type: buff
+  summary: 攻击间隔从 1.6 秒缩短至 1.5 秒。
+- date: '2022-04-28'
+  type: visual
+  summary: 卡牌信息页面加入重甲亡灵角色立绘。
+- date: '2019-07-01'
+  type: nerf
+  summary: 攻击距离从 2 格缩短至 1.6 格，并归类为长距离近战。
+- date: '2018-07-02'
+  type: nerf
+  summary: 攻击间隔从 1.5 秒延长至 1.6 秒。
+- date: '2017-01-23'
+  type: nerf
+  summary: 伤害降低 4%，攻击间隔从 1.4 秒延长至 1.5 秒。
+- date: '2016-11-30'
+  type: nerf
+  summary: 伤害降低 6%，攻击间隔从 1.3 秒延长至 1.4 秒。
+- date: '2016-09-19'
+  type: release
+  summary: 重甲亡灵随 2016 年 9 月版本正式加入游戏。

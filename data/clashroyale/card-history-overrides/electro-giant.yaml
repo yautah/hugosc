@@ -1,0 +1,14 @@
+source_url: https://clashroyale.fandom.com/wiki/Electro_Giant
+items:
+  - { date: '2026-07-06', type: buff, summary: '生命值提高 3%。' }
+  - { date: '2026-05-04', type: adjustment, summary: '攻击间隔从 2.1 秒缩短至 1.8 秒，首次攻击从 1.5 秒缩短至 1 秒；11 级反弹皇家塔伤害从 50 降至 38。' }
+  - { date: '2025-04-01', type: nerf, summary: '反弹皇家塔伤害降低 33%。' }
+  - { date: '2025-03-31', type: adjustment, summary: '生命值因数值取整降低约 0.02%，反弹皇家塔伤害提高 37.5%。' }
+  - { date: '2025-01-08', type: adjustment, summary: '加入 2 格视野偏移，使其更早注意并转向附近建筑。' }
+  - { date: '2022-08-02', type: nerf, summary: '反弹皇家塔伤害降低 33%。' }
+  - { date: '2022-06-07', type: buff, summary: '生命值提高 9%。' }
+  - { date: '2022-04-04', type: adjustment, summary: '费用从 8 点降至 7 点，生命值和普通伤害同时降低 15%。' }
+  - { date: '2021-09-06', type: nerf, summary: '生命值降低 4%。' }
+  - { date: '2020-11-18', type: adjustment, summary: '反弹伤害开始随卡牌等级成长，并调整猎人多弹丸等特殊攻击与反弹机制的交互。' }
+  - { date: '2020-11-02', type: release, summary: '雷电巨人正式加入游戏。' }
+  - { date: '2020-10-14', type: buff, summary: '正式上线前生命值提高 12.5%。' }

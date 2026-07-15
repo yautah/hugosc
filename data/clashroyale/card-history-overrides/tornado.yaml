@@ -1,0 +1,14 @@
+source_url: https://clashroyale.fandom.com/wiki/Tornado
+items:
+  - { date: '2025-04-09', type: nerf, summary: '伤害间隔从 0.5 秒延长至 0.55 秒。' }
+  - { date: '2025-02-04', type: adjustment, summary: '伐木工幽灵改为免疫飓风拉扯。' }
+  - { date: '2023-06-19', type: adjustment, summary: '修复单位被拉出攻击距离后仍继续攻击皇家塔的问题。' }
+  - { date: '2022-03-30', type: adjustment, summary: '修复部分单位偶尔忽略拉扯效果的问题。' }
+  - { date: '2021-11-15', type: adjustment, summary: '英雄发动主动技能时仍会受到飓风伤害。' }
+  - { date: '2021-06-07', type: visual, summary: '卡牌信息页面加入飓风法术形象。' }
+  - { date: '2020-05-05', type: adjustment, summary: '持续时间从 2.05 秒缩短至 1.05 秒，拉力从 220% 提高至 360%，伤害提高 100%，并开始伤害建筑。' }
+  - { date: '2018-04-25', type: adjustment, summary: '每秒伤害提高 21%，持续时间从 2.55 秒缩短至 2.05 秒，并允许在河道区域施放。' }
+  - { date: '2017-06-12', type: adjustment, summary: '持续时间从 3.05 秒缩短至 2.55 秒，多个飓风效果现在可以叠加。' }
+  - { date: '2017-03-13', type: adjustment, summary: '允许在建筑占据的区域施放。' }
+  - { date: '2016-12-15', type: buff, summary: '作用半径从 5 格提高至 5.5 格，拉力从 60% 提高至 220%。' }
+  - { date: '2016-11-11', type: release, summary: '飓风法术正式加入游戏。' }

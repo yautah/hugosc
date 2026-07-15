@@ -1,0 +1,16 @@
+source_url: https://clashroyale.fandom.com/wiki/Baby_Dragon
+items:
+  - { date: '2025-09-01', type: evolution, summary: 觉醒飞龙宝宝正式加入游戏。 }
+  - { date: '2025-03-31', type: buff, summary: 伤害提高约 0.62%。 }
+  - { date: '2025-01-08', type: buff, summary: 攻击溅射半径从 1.2 格提高至 1.5 格。 }
+  - { date: '2022-10-26', type: adjustment, summary: 解锁竞技场调整至皮卡超人乐园。 }
+  - { date: '2020-07-30', type: visual, summary: 更换飞龙宝宝卡牌立绘。 }
+  - { date: '2020-05-05', type: nerf, summary: 生命值降低 6.5%。 }
+  - { date: '2019-11-26', type: visual, summary: 卡牌信息页面加入飞龙宝宝立绘。 }
+  - { date: '2019-11-04', type: nerf, summary: 生命值降低 4%。 }
+  - { date: '2018-08-06', type: adjustment, summary: '攻击间隔从 1.6 秒缩短至 1.5 秒，同时允许被击退。' }
+  - { date: '2017-02-13', type: buff, summary: 攻击距离从 3 格提高至 3.5 格。 }
+  - { date: '2016-08-24', type: buff, summary: '攻击间隔从 1.8 秒缩短至 1.6 秒，首次攻击间隔从 0.5 秒缩短至 0.3 秒。' }
+  - { date: '2016-05-03', type: adjustment, summary: 修复射程计算问题，面板距离从 3.5 格调整为 3 格，但实际有效距离保持不变。 }
+  - { date: '2016-02-29', type: adjustment, summary: 目标在攻击动画中被消灭时不再中止攻击，视野距离从 6 格缩短至 5.5 格。 }
+  - { date: '2016-01-04', type: release, summary: 飞龙宝宝随游戏上线。 }

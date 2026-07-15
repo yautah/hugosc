@@ -1,0 +1,11 @@
+source_url: https://clashroyale.fandom.com/wiki/Monk
+items:
+  - { date: '2025-07-08', type: adjustment, summary: '生命值提高 3%，超然物外伤害减免从 80% 降至 65%。' }
+  - { date: '2025-03-31', type: adjustment, summary: '修复多项超然物外技能交互问题。' }
+  - { date: '2024-06-17', type: buff, summary: '第三段连击伤害提高 0.47%，并修正部分伤害倍率问题。' }
+  - { date: '2024-03-05', type: buff, summary: '生命值提高 7.5%。' }
+  - { date: '2023-02-07', type: buff, summary: '攻击间隔从 0.9 秒缩短至 0.8 秒。' }
+  - { date: '2022-12-12', type: adjustment, summary: '治疗精灵的投射物不再被超然物外反弹。' }
+  - { date: '2022-12-07', type: nerf, summary: '圣水费用从 4 提高至 5。' }
+  - { date: '2022-11-02', type: nerf, summary: '超然物外技能冷却从 15 秒延长至 17 秒。' }
+  - { date: '2022-10-26', type: release, summary: '盖世武僧正式加入游戏。' }

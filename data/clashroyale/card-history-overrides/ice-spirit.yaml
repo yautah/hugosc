@@ -1,0 +1,12 @@
+source_url: https://clashroyale.fandom.com/wiki/Ice_Spirit
+items:
+- { date: '2025-07-08', type: nerf, summary: '冻结时间从 1.2 秒缩短至 1.1 秒。' }
+- { date: '2023-12-04', type: evolution, summary: '觉醒冰雪精灵正式上线，冰雪精灵获得觉醒形态。' }
+- { date: '2023-06-06', type: nerf, summary: '冻结时间从 1.3 秒缩短至 1.2 秒。' }
+- { date: '2022-04-04', type: buff, summary: '冻结时间从 1 秒延长至 1.3 秒。' }
+- { date: '2020-02-03', type: visual, summary: '卡牌信息界面增加新的卡牌图片。' }
+- { date: '2018-09-03', type: adjustment, summary: '冰雪精灵不再重置电击车小队的攻击。' }
+- { date: '2018-04-25', type: nerf, summary: '伤害降低 4%，冻结时间从 1.5 秒缩短至 1 秒。' }
+- { date: '2017-01-23', type: nerf, summary: '伤害降低 10%。' }
+- { date: '2016-11-01', type: nerf, summary: '冻结时间从 2 秒缩短至 1.5 秒。' }
+- { date: '2016-07-04', type: release, summary: '冰雪精灵正式加入游戏。' }

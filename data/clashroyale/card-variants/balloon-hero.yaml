@@ -1,0 +1,94 @@
+key: balloon-hero
+parent_key: balloon
+kind: hero
+order: 3
+name: 精英气球兵
+label: 精英
+url: /clashroyale/cards/balloon/hero/
+image: images/clashroyale/cards/variants/balloon-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Balloon/Hero
+source_retrieved_at: '2026-07-15'
+release_date: '2026-04-06'
+summary: 精英气球兵可消耗 2 点圣水派出一名空降骷髅兵，冲向附近地面目标造成落地范围伤害，随后留在场上继续近战。
+facts:
+  - { label: 部署圣水, value: '5' }
+  - { label: 技能圣水, value: '2' }
+  - { label: 技能冷却, value: 12 秒 }
+  - { label: 基础卡牌, value: 气球兵 }
+overview:
+  - 精英气球兵保留普通气球兵的生命、投弹和死亡炸弹属性，新增“空降小队”技能。发动后，一名空降骷髅兵会寻找 6.5 格内最近的地面部队或建筑，俯冲并造成半径 2 格的落地伤害；范围内没有目标时会落在气球兵下方。
+  - 俯冲不能主动锁定皇冠塔，落地伤害和骷髅兵对皇冠塔的伤害还会大幅降低，因此技能主要用于清理或牵制防空单位，帮助气球兵接近建筑，而不是额外制造塔伤。
+units:
+  - name: 精英气球兵
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 2 秒 }
+      - { label: 首次攻击间隔, value: 0.2 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 攻击距离, value: 近战：短 (0.1) }
+      - { label: 攻击目标, value: 建筑 }
+      - { label: 死亡炸弹引爆, value: 3 秒 }
+      - { label: 死亡伤害半径, value: 3 格 }
+      - { label: 移动方式, value: 空中 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: death_damage, label: 死亡伤害 }
+      rows:
+        - { level: '6', hitpoints: '1049', damage: '400', damage_per_second: '200', death_damage: '150' }
+        - { level: '7', hitpoints: '1154', damage: '440', damage_per_second: '220', death_damage: '165' }
+        - { level: '8', hitpoints: '1266', damage: '482', damage_per_second: '241', death_damage: '181' }
+        - { level: '9', hitpoints: '1390', damage: '530', damage_per_second: '265', death_damage: '199' }
+        - { level: '10', hitpoints: '1528', damage: '582', damage_per_second: '291', death_damage: '219' }
+        - { level: '11', hitpoints: '1679', damage: '640', damage_per_second: '320', death_damage: '240' }
+        - { level: '12', hitpoints: '1843', damage: '702', damage_per_second: '351', death_damage: '264' }
+        - { level: '13', hitpoints: '2027', damage: '772', damage_per_second: '386', death_damage: '290' }
+        - { level: '14', hitpoints: '2223', damage: '847', damage_per_second: '423', death_damage: '318' }
+        - { level: '15', hitpoints: '2440', damage: '930', damage_per_second: '465', death_damage: '349' }
+        - { level: '16', hitpoints: '2683', damage: '1022', damage_per_second: '511', death_damage: '384' }
+  - name: 空降骷髅兵
+    kind: child
+    section_label: 技能召唤单位
+    summary: 发动技能后俯冲至附近地面目标，造成落地范围伤害，随后作为单体近战单位继续作战。
+    mechanics:
+      - { label: 技能搜索半径, value: 6.5 格 }
+      - { label: 落地伤害半径, value: 2 格 }
+      - { label: 攻击间隔, value: 1.1 秒 }
+      - { label: 攻击距离, value: 近战：短 }
+      - { label: 攻击目标, value: 地面 }
+      - { label: 皇冠塔伤害, value: 10% }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: landing_damage, label: 落地伤害 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '296', landing_damage: '164', damage: '128', damage_per_second: '116' }
+        - { level: '7', hitpoints: '325', landing_damage: '181', damage: '140', damage_per_second: '127' }
+        - { level: '8', hitpoints: '357', landing_damage: '198', damage: '154', damage_per_second: '140' }
+        - { level: '9', hitpoints: '392', landing_damage: '218', damage: '169', damage_per_second: '154' }
+        - { level: '10', hitpoints: '430', landing_damage: '239', damage: '186', damage_per_second: '169' }
+        - { level: '11', hitpoints: '473', landing_damage: '263', damage: '204', damage_per_second: '185' }
+        - { level: '12', hitpoints: '519', landing_damage: '289', damage: '224', damage_per_second: '204' }
+        - { level: '13', hitpoints: '571', landing_damage: '317', damage: '246', damage_per_second: '224' }
+        - { level: '14', hitpoints: '627', landing_damage: '348', damage: '270', damage_per_second: '245' }
+        - { level: '15', hitpoints: '688', landing_damage: '382', damage: '297', damage_per_second: '270' }
+        - { level: '16', hitpoints: '756', landing_damage: '420', damage: '326', damage_per_second: '296' }
+usage_tips:
+  - 在气球兵接近对手防空单位时发动技能，让空降骷髅兵落地造成伤害并吸引地面火力，争取气球兵继续飞向建筑。
+  - 技能不能直接选择落点，发动前要确认最近的地面目标是否符合预期，避免骷髅兵被边路单位带离主战场。
+  - 两点技能费用会显著提高整轮进攻成本，不要只为补充皇冠塔伤害而使用；对塔伤害衰减使这种用法收益很低。
+  - 冷却为 12 秒，只有存活较久的气球兵才有机会再次发动，应优先围绕第一次技能创造投弹，而不是保留技能等待第二次。
+matchups:
+  - { title: 适合应对, text: '适合干扰猎人、弓箭手等地面防空单位，落地范围伤害能削弱它们，并让骷髅兵继续贴身施压。' }
+  - { title: 需要提防, text: '纯空中防守单位不会成为俯冲目标，建筑还能改变气球兵路线；高额技能成本也可能让后续防守圣水不足。' }
+  - { title: 搭配思路, text: '与前排、冰冻或击退法术配合，先让空降骷髅兵扰乱地面防空，再用控制效果帮助气球兵完成投弹。' }
+balance_history:
+  - { date: '2026-07-06', type: nerf, summary: '11 级空降骷髅兵伤害从 256 降至 204，攻击间隔从 0.9 秒延长至 1.1 秒。' }
+  - { date: '2026-06-01', type: nerf, summary: '11 级空降骷髅兵的落地伤害从 307 降至 263。' }
+  - { date: '2026-04-06', type: hero, summary: '精英气球兵正式上线。' }

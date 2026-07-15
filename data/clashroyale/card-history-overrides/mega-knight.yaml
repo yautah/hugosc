@@ -1,0 +1,13 @@
+source_url: https://clashroyale.fandom.com/wiki/Mega_Knight
+items:
+  - { date: '2025-03-31', type: adjustment, summary: '登场伤害因数值取整提高约 0.23%。' }
+  - { date: '2024-09-14', type: evolution, summary: '觉醒超级骑士正式上线。' }
+  - { date: '2022-08-02', type: buff, summary: '跃击蓄力时间从 1.1 秒缩短至 0.9 秒。' }
+  - { date: '2022-04-04', type: nerf, summary: '登场伤害降低 20%。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2019-07-01', type: buff, summary: '普通攻击距离从 1 格提高至 1.2 格。' }
+  - { date: '2018-11-05', type: buff, summary: '攻击间隔从 1.8 秒缩短至 1.7 秒，首次攻击从 0.6 秒缩短至 0.5 秒。' }
+  - { date: '2018-06-20', type: buff, summary: '最短跃击距离从 4 格缩短至 3.5 格。' }
+  - { date: '2018-06-04', type: adjustment, summary: '登场伤害和跃击伤害提高 23%，普通伤害降低 7.5%。' }
+  - { date: '2018-02-12', type: nerf, summary: '登场伤害和跃击伤害降低 25%，登场范围半径从 2.5 格缩短至 2.2 格。' }
+  - { date: '2017-09-08', type: release, summary: '超级骑士正式加入游戏。' }

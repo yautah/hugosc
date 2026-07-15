@@ -1,0 +1,18 @@
+source_url: https://clashroyale.fandom.com/wiki/Ice_Wizard
+items:
+  - { date: '2025-10-06', type: nerf, summary: '减速幅度从 35% 降至 30%。' }
+  - { date: '2025-03-31', type: adjustment, summary: '普通攻击伤害降低 1.11%，登场伤害提高 1.2%。' }
+  - { date: '2024-08-06', type: buff, summary: '普通攻击范围半径从 1 格提高至 1.5 格。' }
+  - { date: '2023-06-06', type: buff, summary: '登场伤害作用半径从 2.5 格提高至 3 格。' }
+  - { date: '2021-12-07', type: buff, summary: '部署时新增范围伤害和减速效果。' }
+  - { date: '2021-06-10', type: nerf, summary: '生命值因数值取整降低约 0.1%，确保同等级火球可以击败对应等级的寒冰法师。' }
+  - { date: '2021-06-07', type: nerf, summary: '生命值降低 3%。' }
+  - { date: '2020-07-07', type: visual, summary: '更换卡牌立绘。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2018-12-03', type: adjustment, summary: '生命值降低 11%，伤害提高 10%。' }
+  - { date: '2018-10-01', type: buff, summary: '减速持续时间从 2 秒提高至 2.5 秒。' }
+  - { date: '2017-08-11', type: adjustment, summary: '伤害提高 10%，攻击间隔从 1.5 秒延长至 1.7 秒。' }
+  - { date: '2016-08-24', type: nerf, summary: '生命值降低 5%。' }
+  - { date: '2016-05-03', type: adjustment, summary: '修复射程问题，显示射程从 6 格调整为 5.5 格，实际有效射程不变。' }
+  - { date: '2016-03-23', type: buff, summary: '伤害提高 5%。' }
+  - { date: '2016-02-29', type: release, summary: '寒冰法师正式加入游戏。' }

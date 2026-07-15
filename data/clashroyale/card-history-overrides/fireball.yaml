@@ -1,0 +1,11 @@
+source_url: https://clashroyale.fandom.com/wiki/Fireball
+items:
+  - { date: '2025-03-31', type: nerf, summary: '伤害降低 0.14%。' }
+  - { date: '2023-03-27', type: buff, summary: '反弹判定半径从 0.6 格提高至 0.7 格。' }
+  - { date: '2022-08-02', type: nerf, summary: '击退距离从 1.8 格缩短至 1 格。' }
+  - { date: '2020-08-04', type: nerf, summary: '对皇家塔伤害比例从 35% 降至 30%。' }
+  - { date: '2018-04-25', type: adjustment, summary: '允许直接在河道区域施放。' }
+  - { date: '2017-12-12', type: nerf, summary: '对皇家塔伤害比例从 40% 降至 35%。' }
+  - { date: '2016-02-29', type: visual, summary: '更换火球卡牌图片。' }
+  - { date: '2016-02-19', type: nerf, summary: '对皇家塔伤害比例从 50% 降至 40%。' }
+  - { date: '2016-01-04', type: release, summary: '火球随游戏首发加入。' }

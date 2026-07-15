@@ -1,0 +1,9 @@
+source_url: https://clashroyale.fandom.com/wiki/Spirit_Empress
+items:
+  - { date: '2026-05-04', type: nerf, summary: '地面形态攻击间隔从 1.1 秒延长至 1.2 秒、生命值从 1152 降至 1121；空中形态生命值从 1177 降至 1121。' }
+  - { date: '2026-03-02', type: adjustment, summary: '地面形态生命值从 1244 降至 1152，移动速度由中等提高为快速；空中形态生命值从 1192 降至 1177。' }
+  - { date: '2025-11-03', type: buff, summary: '地面形态生命值从 1134 提高至 1244。' }
+  - { date: '2025-09-02', type: nerf, summary: '空中形态生命值从 1318 降至 1192。' }
+  - { date: '2025-08-04', type: buff, summary: '两种形态生命值提高 5%，空中形态攻击距离从 4.5 格提高至 5 格。' }
+  - { date: '2025-07-10', type: buff, summary: '地面形态生命值提高 5%，空中形态攻击间隔从 1.5 秒缩短至 1.4 秒。' }
+  - { date: '2025-07-07', type: release, summary: '精灵女王正式加入游戏，玩家可用三费部署地面形态或用六费部署空中形态。' }

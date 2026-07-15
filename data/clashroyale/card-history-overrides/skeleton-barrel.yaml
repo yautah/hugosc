@@ -1,0 +1,14 @@
+source_url: https://clashroyale.fandom.com/wiki/Skeleton_Barrel
+items:
+- { date: '2025-10-06', type: nerf, summary: '死亡生成的骷髅兵攻击间隔从 1 秒延长至 1.1 秒。' }
+- { date: '2025-07-07', type: evolution, summary: '觉醒骷髅气球正式上线，骷髅气球获得觉醒形态。' }
+- { date: '2024-10-08', type: buff, summary: '死亡伤害提高 9%。' }
+- { date: '2020-12-09', type: nerf, summary: '生命值降低 19%。' }
+- { date: '2020-09-10', type: adjustment, summary: '修复被克隆的骷髅气球无法正常生效的问题。' }
+- { date: '2020-04-07', type: adjustment, summary: '生命值降低 15%，移动速度从中等 (60) 提高至快 (90)。' }
+- { date: '2019-11-26', type: visual, summary: '卡牌信息界面增加新的卡牌图片。' }
+- { date: '2018-11-05', type: buff, summary: '死亡伤害提高 62%。' }
+- { date: '2018-04-25', type: buff, summary: '死亡生成的骷髅兵数量从 6 个增加至 7 个。' }
+- { date: '2018-02-12', type: nerf, summary: '死亡生成的骷髅兵数量从 8 个减少至 6 个。' }
+- { date: '2017-12-12', type: buff, summary: '骷髅气球破裂时新增范围死亡伤害。' }
+- { date: '2017-11-17', type: release, summary: '骷髅气球正式向全部玩家开放。' }

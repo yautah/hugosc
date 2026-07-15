@@ -1,0 +1,79 @@
+key: mega-minion-hero
+parent_key: mega-minion
+kind: hero
+order: 3
+name: 精英重甲亡灵
+label: 精英
+url: /clashroyale/cards/mega-minion/hero/
+image: images/clashroyale/cards/variants/mega-minion-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Mega_Minion/Hero
+source_retrieved_at: '2026-07-15'
+source_revision: 435704
+release_date: '2026-02-13'
+summary: 精英重甲亡灵可以额外消耗两费，瞬移到全场最大生命值最低的敌方目标附近，并以强化攻击造成跃迁伤害。
+facts:
+  - { label: 圣水, value: '3' }
+  - { label: 技能费用, value: 2 圣水 }
+  - { label: 使用次数, value: 每次部署 1 次 }
+  - { label: 基础卡牌, value: 重甲亡灵 }
+overview:
+  - 精英重甲亡灵的基础属性与普通形态相同，主动技能“致伤跃迁”会锁定全场最大生命值最低的敌方目标，并瞬移到目标附近发动一次强化攻击。最大生命值相同时会优先选择距离更远的目标，因此技能既能清理后排，也可能让重甲亡灵跨越整座竞技场。
+  - 技能每次部署只能使用一次，不能直接选择目标，也不会锁定皇家塔。目标由系统提前标记，施放前需要确认瞬移后的落点、附近防守和另一条路线的变化；只看眼前伤害而忽略落点，容易让单位深入敌方火力。
+units:
+  - name: 精英重甲亡灵
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.5 秒 }
+      - { label: 首次攻击间隔, value: 0.4 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 攻击距离, value: 近战：长 (1.6) }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 技能名称, value: 致伤跃迁 }
+      - { label: 技能范围, value: 全场 }
+      - { label: 出场技能延迟, value: 1.5 秒 }
+      - { label: 目标规则, value: 最大生命值最低，平手时优先最远 }
+      - { label: 可选目标, value: 部队和建筑，不含皇家塔 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: warp_damage, label: 跃迁伤害 }
+      rows:
+        - { level: '3', hitpoints: '390', damage: '146', damage_per_second: '97', warp_damage: '174' }
+        - { level: '4', hitpoints: '430', damage: '160', damage_per_second: '106', warp_damage: '191' }
+        - { level: '5', hitpoints: '472', damage: '176', damage_per_second: '117', warp_damage: '211' }
+        - { level: '6', hitpoints: '520', damage: '194', damage_per_second: '129', warp_damage: '232' }
+        - { level: '7', hitpoints: '572', damage: '213', damage_per_second: '142', warp_damage: '255' }
+        - { level: '8', hitpoints: '629', damage: '234', damage_per_second: '156', warp_damage: '280' }
+        - { level: '9', hitpoints: '692', damage: '258', damage_per_second: '172', warp_damage: '308' }
+        - { level: '10', hitpoints: '761', damage: '284', damage_per_second: '189', warp_damage: '339' }
+        - { level: '11', hitpoints: '837', damage: '312', damage_per_second: '208', warp_damage: '373' }
+        - { level: '12', hitpoints: '921', damage: '343', damage_per_second: '228', warp_damage: '410' }
+        - { level: '13', hitpoints: '1013', damage: '378', damage_per_second: '252', warp_damage: '451' }
+        - { level: '14', hitpoints: '1114', damage: '415', damage_per_second: '276', warp_damage: '496' }
+        - { level: '15', hitpoints: '1225', damage: '457', damage_per_second: '304', warp_damage: '546' }
+        - { level: '16', hitpoints: '1348', damage: '502', damage_per_second: '334', warp_damage: '601' }
+usage_tips:
+  - 观察技能标记后再决定是否跃迁，优先利用它清除藏在坦克后方、最大生命值较低的远程单位。
+  - 瞬移会让原本攻击重甲亡灵的单位重新选择目标，可在它承受火力时用技能脱离，但要确认新落点不会进入更危险的包围。
+  - 技能每次部署只能使用一次，不必在第一个可用时机立即消耗；等待对手放下关键后排往往更有价值。
+  - 目标规则依据最大生命值而不是当前剩余生命值，不能依靠先削弱某个高生命值单位来强行改变锁定顺序。
+matchups:
+  - { title: 适合应对, text: '适合越过坦克处理生命值较低的远程后排，也能跨路线接近圣水收集器等非皇家塔建筑。' }
+  - { title: 需要提防, text: '对手可以用更低最大生命值的单位影响锁定目标，瞬移落点附近的人海和集中防空也能迅速处理它。' }
+  - { title: 搭配思路, text: '与慢速坦克搭配时，跃迁负责清理后排防守；防守阶段则可先完成单体交换，再把存活单位送往有价值的目标。' }
+balance_history:
+  - date: '2026-05-04'
+    type: nerf
+    summary: 11 级跃迁伤害从 412 降至 373，降低 9%。
+  - date: '2026-04-06'
+    type: nerf
+    summary: 部署后的技能可用延迟从立即使用延长至 1.5 秒。
+  - date: '2026-03-02'
+    type: nerf
+    summary: 11 级跃迁伤害从 468 降至 412，降低 12%。
+  - date: '2026-02-13'
+    type: hero
+    summary: 精英重甲亡灵开放抢先体验，并于 3 月 2 日加入精英召唤池。

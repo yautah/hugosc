@@ -1,0 +1,165 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 迷你皮卡
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.6 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.8)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      hitpoints: '669'
+      damage: '352'
+      damage_per_second: '220'
+    - level: '4'
+      hitpoints: '735'
+      damage: '387'
+      damage_per_second: '241'
+    - level: '5'
+      hitpoints: '809'
+      damage: '426'
+      damage_per_second: '266'
+    - level: '6'
+      hitpoints: '890'
+      damage: '469'
+      damage_per_second: '293'
+    - level: '7'
+      hitpoints: '979'
+      damage: '516'
+      damage_per_second: '322'
+    - level: '8'
+      hitpoints: '1077'
+      damage: '567'
+      damage_per_second: '354'
+    - level: '9'
+      hitpoints: '1184'
+      damage: '624'
+      damage_per_second: '390'
+    - level: '10'
+      hitpoints: '1303'
+      damage: '686'
+      damage_per_second: '428'
+    - level: '11'
+      hitpoints: '1433'
+      damage: '755'
+      damage_per_second: '471'
+    - level: '12'
+      hitpoints: '1576'
+      damage: '831'
+      damage_per_second: '519'
+    - level: '13'
+      hitpoints: '1734'
+      damage: '914'
+      damage_per_second: '571'
+    - level: '14'
+      hitpoints: '1907'
+      damage: '1005'
+      damage_per_second: '628'
+    - level: '15'
+      hitpoints: '2098'
+      damage: '1105'
+      damage_per_second: '690'
+    - level: '16'
+      hitpoints: '2308'
+      damage: '1216'
+      damage_per_second: '760'
+balance_history:
+- date: '2026-01-12'
+  type: nerf
+  summary: 生命值降低 3%。
+- date: '2025-12-01'
+  type: hero
+  summary: 精英迷你皮卡正式加入游戏，推出薄饼积累与早餐强化技能。
+- date: '2025-07-08'
+  type: buff
+  summary: 生命值提高 5%。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 季度更新先将伤害降低 3.05%，随后同日维护又将伤害提高 5%。
+- date: '2025-01-08'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2022-07-01'
+  type: visual
+  summary: 更换迷你皮卡的卡牌图片。
+- date: '2022-02-03'
+  type: buff
+  summary: 攻击间隔从 1.7 秒缩短至 1.6 秒。
+- date: '2020-11-03'
+  type: buff
+  summary: 攻击间隔从 1.8 秒缩短至 1.7 秒。
+- date: '2020-05-05'
+  type: nerf
+  summary: 攻击距离从 1.2 格缩短至 0.8 格，并归类为近战：短。
+- date: '2019-07-01'
+  type: buff
+  summary: 攻击距离从 1.05 格提高至 1.2 格，并归类为近战：中。
+- date: '2018-01-24'
+  type: buff
+  summary: 生命值提高 7%。
+- date: '2017-08-11'
+  type: buff
+  summary: 伤害提高 4.6%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 迷你皮卡改为会受到所有击退效果影响；显示攻击距离从 1.5 格修正为 1.05 格，实际有效距离不变。
+- date: '2016-02-29'
+  type: buff
+  summary: 视野范围从 6 格缩短至 5.5 格，使其较不容易被远处目标吸引。
+- date: '2016-02-09'
+  type: buff
+  summary: 生命值提高 3%。
+- date: '2016-01-04'
+  type: release
+  summary: 迷你皮卡随游戏早期版本正式加入。
+strategy:
+  positioning: 迷你皮卡的主要价值是用较低费用处理高血量地面单位，并把存活单位转化为反击压力。它的单次伤害很高，但攻击间隔较长，部署位置和目标选择通常比主动桥头进攻更重要。
+  strengths:
+  - 对巨人、皇家巨人等高血量地面单位能快速造成大量伤害。
+  - 防守后若仍有较高生命值，对手必须继续投入费用处理反击。
+  - 能够迅速清除靠近推进单位的高价值单体后排。
+  tips:
+  - 尽量先在己方半场完成防守，再搭配前排或法术组织反击。
+  - 对付坦克加后排的推进时，可优先切掉后排，再回头处理坦克。
+  - 进攻前观察对手是否保留骷髅军团、哥布林团伙等杂兵，并准备相应的小法术。
+  weaknesses:
+  - 只能攻击地面，无法直接处理空中单位。
+  - 攻击速度较慢，容易被骷髅兵、守卫和其他杂兵牵制。
+  - 单独进攻容易被中置单位拉扯，四点圣水很难形成有效交换。
+  synergies:
+  - 电击法术、滚木等低费法术可清理杂兵，减少其被低费单位拖住的风险。
+  - 女武神、飞斧屠夫等范围单位可以保护它免受杂兵围攻。
+  - 冰人等低费前排能够吸收伤害并帮助它接近防守单位。

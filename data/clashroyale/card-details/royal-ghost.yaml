@@ -1,0 +1,111 @@
+---
+release_date: '2018-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 皇家幽灵
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.8 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.6 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: invisibility_time
+    label: 隐身持续时间
+    value: 2 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：中 (1.2)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      hitpoints: '1002'
+      area_damage: '216'
+      damage_per_second: '120'
+    - level: '10'
+      hitpoints: '1102'
+      area_damage: '237'
+      damage_per_second: '131'
+    - level: '11'
+      hitpoints: '1210'
+      area_damage: '261'
+      damage_per_second: '145'
+    - level: '12'
+      hitpoints: '1329'
+      area_damage: '287'
+      damage_per_second: '159'
+    - level: '13'
+      hitpoints: '1461'
+      area_damage: '315'
+      damage_per_second: '175'
+    - level: '14'
+      hitpoints: '1603'
+      area_damage: '345'
+      damage_per_second: '191'
+    - level: '15'
+      hitpoints: '1759'
+      area_damage: '380'
+      damage_per_second: '211'
+    - level: '16'
+      hitpoints: '1934'
+      area_damage: '417'
+      damage_per_second: '231'
+balance_history:
+- date: '2025-10-17'
+  type: evolution
+  summary: 觉醒皇家幽灵正式上线。
+- date: '2022-06-07'
+  type: nerf
+  summary: 重新隐身所需时间从 1.6 秒延长至 1.8 秒。
+- date: '2020-11-18'
+  type: adjustment
+  summary: 调整悬浮机制，不再穿过建筑、推开空中单位或在被击退时从河道弹回。
+- date: '2020-11-03'
+  type: visual
+  summary: 更换卡牌立绘。
+- date: '2020-10-06'
+  type: adjustment
+  summary: 加入悬浮移动机制，可以跨越河道。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页加入角色立绘。
+- date: '2019-09-02'
+  type: buff
+  summary: 范围伤害半径从 0.8 格提高至 1 格。
+- date: '2018-11-05'
+  type: nerf
+  summary: 生命值降低 9%。
+- date: '2018-06-04'
+  type: nerf
+  summary: 重新隐身所需时间从 1.2 秒延长至 1.6 秒。
+- date: '2018-01-24'
+  type: nerf
+  summary: 伤害降低 6%，攻击间隔从 1.7 秒延长至 1.8 秒，首次攻击间隔从 0.5 秒延长至 0.6 秒，重新隐身所需时间从 0.7 秒延长至 1.2 秒。
+- date: '2018-01-04'
+  type: release
+  summary: 皇家幽灵正式加入游戏。

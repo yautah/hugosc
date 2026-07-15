@@ -1,0 +1,182 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 特斯拉电磁塔
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: lifetime
+    label: 持续时间
+    value: 25 秒
+  - key: range
+    label: 攻击距离
+    value: '5.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: hitpoints_lost_per_second
+      label: 每秒损失生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '444'
+      hitpoints_lost_per_second: '17.8'
+      damage: '85'
+      damage_per_second: '77'
+    - level: '2'
+      hitpoints: '489'
+      hitpoints_lost_per_second: '19.5'
+      damage: '93'
+      damage_per_second: '84'
+    - level: '3'
+      hitpoints: '537'
+      hitpoints_lost_per_second: '21.5'
+      damage: '103'
+      damage_per_second: '93'
+    - level: '4'
+      hitpoints: '591'
+      hitpoints_lost_per_second: '23.6'
+      damage: '113'
+      damage_per_second: '102'
+    - level: '5'
+      hitpoints: '650'
+      hitpoints_lost_per_second: '26'
+      damage: '124'
+      damage_per_second: '112'
+    - level: '6'
+      hitpoints: '715'
+      hitpoints_lost_per_second: '28.6'
+      damage: '137'
+      damage_per_second: '124'
+    - level: '7'
+      hitpoints: '787'
+      hitpoints_lost_per_second: '31.5'
+      damage: '150'
+      damage_per_second: '136'
+    - level: '8'
+      hitpoints: '866'
+      hitpoints_lost_per_second: '34.6'
+      damage: '165'
+      damage_per_second: '150'
+    - level: '9'
+      hitpoints: '952'
+      hitpoints_lost_per_second: '38.1'
+      damage: '182'
+      damage_per_second: '165'
+    - level: '10'
+      hitpoints: '1047'
+      hitpoints_lost_per_second: '41.9'
+      damage: '200'
+      damage_per_second: '181'
+    - level: '11'
+      hitpoints: '1152'
+      hitpoints_lost_per_second: '46.1'
+      damage: '220'
+      damage_per_second: '199'
+    - level: '12'
+      hitpoints: '1267'
+      hitpoints_lost_per_second: '50.7'
+      damage: '242'
+      damage_per_second: '219'
+    - level: '13'
+      hitpoints: '1394'
+      hitpoints_lost_per_second: '55.8'
+      damage: '266'
+      damage_per_second: '241'
+    - level: '14'
+      hitpoints: '1533'
+      hitpoints_lost_per_second: '61.3'
+      damage: '293'
+      damage_per_second: '266'
+    - level: '15'
+      hitpoints: '1687'
+      hitpoints_lost_per_second: '67.5'
+      damage: '322'
+      damage_per_second: '292'
+    - level: '16'
+      hitpoints: '1855'
+      hitpoints_lost_per_second: '74.2'
+      damage: '354'
+      damage_per_second: '321'
+balance_history:
+- date: '2024-10-08'
+  type: buff
+  summary: 攻击间隔由 1.2 秒缩短至 1.1 秒。
+- date: '2024-07-02'
+  type: nerf
+  summary: 伤害降低 4%，攻击间隔由 1.1 秒延长至 1.2 秒。
+- date: '2024-06-17'
+  type: adjustment
+  summary: 修复部署期间被冻结时的行为异常。
+- date: '2024-03-04'
+  type: evolution
+  summary: 特斯拉电磁塔觉醒上线。
+- date: '2023-08-08'
+  type: buff
+  summary: 攻击间隔由 1.2 秒缩短至 1.1 秒。
+- date: '2021-12-07'
+  type: nerf
+  summary: 攻击间隔由 1.1 秒延长至 1.2 秒。
+- date: '2021-09-06'
+  type: nerf
+  summary: 持续时间由 35 秒缩短至 30 秒。
+- date: '2020-03-03'
+  type: adjustment
+  summary: 地下状态的特斯拉电磁塔也会受到地震法术伤害。
+- date: '2019-11-26'
+  type: visual
+  summary: 更换特斯拉电磁塔的卡牌图片。
+- date: '2019-04-15'
+  type: visual
+  summary: 更新特斯拉电磁塔的卡牌图片。
+- date: '2018-12-03'
+  type: buff
+  summary: 首次攻击间隔由 0.7 秒缩短至 0.5 秒。
+- date: '2018-08-06'
+  type: nerf
+  summary: 持续时间由 40 秒缩短至 35 秒，攻击间隔由 1 秒延长至 1.1 秒。
+- date: '2018-06-20'
+  type: adjustment
+  summary: 修复目标位于射程边缘时可能停止攻击的问题。
+- date: '2017-10-09'
+  type: adjustment
+  summary: 伤害提高 41%，攻击间隔由 0.8 秒延长至 1 秒。
+- date: '2016-06-21'
+  type: buff
+  summary: 生命值提高 8%。
+- date: '2016-05-18'
+  type: buff
+  summary: 生命值提高 5%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 面板射程由 6 格调整为 5.5 格，实际有效射程不变。
+- date: '2016-03-23'
+  type: nerf
+  summary: 攻击间隔由 0.7 秒延长至 0.8 秒，持续时间由 60 秒缩短至 40 秒。
+- date: '2016-02-29'
+  type: nerf
+  summary: 生命值降低 5%。
+- date: '2016-02-09'
+  type: buff
+  summary: 伤害提高 7%。
+- date: '2016-01-04'
+  type: release
+  summary: 特斯拉电磁塔随《皇室战争》上线加入游戏。

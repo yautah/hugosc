@@ -1,0 +1,99 @@
+key: witch-evolution
+parent_key: witch
+kind: evolution
+order: 2
+name: 觉醒女巫
+label: 觉醒
+url: /clashroyale/cards/witch/evolution/
+image: images/clashroyale/cards/variants/witch-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Witch/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 435499
+release_date: '2025-05-05'
+summary: 觉醒女巫召唤的骷髅兵被击败后会治疗她，并可把生命值提高到基础上限的 124%。
+facts:
+  - { label: 圣水, value: '5' }
+  - { label: 觉醒周期, value: 1 次循环 }
+  - { label: 最高生命值, value: 基础生命值的 124% }
+  - { label: 基础卡牌, value: 女巫 }
+overview:
+  - 觉醒女巫保留普通女巫的攻击和召唤方式，核心差异是她自己召唤的普通骷髅兵被击败后会为她恢复生命。治疗可以超过初始生命上限，最高达到基础生命值的 124%，因此骷髅兵不仅承担拉扯，也会直接延长本体存活时间。
+  - 治疗只由觉醒女巫自己召唤的普通骷髅兵触发，其他骷髅、觉醒骷髅和骷髅护卫均不能提供治疗。高伤害法术仍可直接处理本体；用低伤害范围攻击反复清理骷髅兵，反而可能让她维持较高生命值。
+units:
+  - name: 觉醒女巫
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.1 秒 }
+      - { label: 首次攻击间隔, value: 0.7 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 召唤间隔, value: 7 秒 }
+      - { label: 攻击距离, value: 5.5 格 }
+      - { label: 范围半径, value: 1.5 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 最高超额生命, value: 124% }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: max_hitpoints, label: 最高生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '524', max_hitpoints: '649', area_damage: '84', damage_per_second: '76' }
+        - { level: '7', hitpoints: '577', max_hitpoints: '714', area_damage: '93', damage_per_second: '84' }
+        - { level: '8', hitpoints: '633', max_hitpoints: '783', area_damage: '102', damage_per_second: '92' }
+        - { level: '9', hitpoints: '695', max_hitpoints: '860', area_damage: '112', damage_per_second: '101' }
+        - { level: '10', hitpoints: '764', max_hitpoints: '945', area_damage: '123', damage_per_second: '111' }
+        - { level: '11', hitpoints: '839', max_hitpoints: '1039', area_damage: '135', damage_per_second: '122' }
+        - { level: '12', hitpoints: '921', max_hitpoints: '1140', area_damage: '148', damage_per_second: '134' }
+        - { level: '13', hitpoints: '1013', max_hitpoints: '1254', area_damage: '163', damage_per_second: '148' }
+        - { level: '14', hitpoints: '1111', max_hitpoints: '1376', area_damage: '179', damage_per_second: '162' }
+        - { level: '15', hitpoints: '1220', max_hitpoints: '1510', area_damage: '197', damage_per_second: '179' }
+        - { level: '16', hitpoints: '1341', max_hitpoints: '1662', area_damage: '216', damage_per_second: '196' }
+  - name: 觉醒骷髅兵
+    kind: child
+    section_label: 召唤与治疗单位
+    summary: 每隔 7 秒召唤 4 只；这些骷髅兵被击败后会治疗召唤它们的觉醒女巫。
+    mechanics:
+      - { label: 攻击间隔, value: 1.1 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 快 (90) }
+      - { label: 攻击距离, value: 近战：短 (0.5) }
+      - { label: 每次召唤数量, value: '4' }
+      - { label: 攻击目标, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: death_heal, label: 死亡治疗 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '51', death_heal: '33', damage: '51', damage_per_second: '46' }
+        - { level: '7', hitpoints: '56', death_heal: '36', damage: '56', damage_per_second: '50' }
+        - { level: '8', hitpoints: '61', death_heal: '40', damage: '61', damage_per_second: '55' }
+        - { level: '9', hitpoints: '67', death_heal: '44', damage: '67', damage_per_second: '60' }
+        - { level: '10', hitpoints: '74', death_heal: '48', damage: '74', damage_per_second: '67' }
+        - { level: '11', hitpoints: '81', death_heal: '53', damage: '81', damage_per_second: '73' }
+        - { level: '12', hitpoints: '89', death_heal: '58', damage: '89', damage_per_second: '80' }
+        - { level: '13', hitpoints: '98', death_heal: '64', damage: '98', damage_per_second: '89' }
+        - { level: '14', hitpoints: '108', death_heal: '70', damage: '108', damage_per_second: '98' }
+        - { level: '15', hitpoints: '119', death_heal: '77', damage: '119', damage_per_second: '108' }
+        - { level: '16', hitpoints: '130', death_heal: '85', damage: '130', damage_per_second: '118' }
+usage_tips:
+  - 从国王塔后部署，让首批骷髅兵先行并在接战后提供治疗，通常比桥头直接使用更容易积累超额生命。
+  - 面对轻型范围攻击时，不要急于保护每一只骷髅；骷髅被击败可以换取治疗，但本体仍要避开能够一次造成高额伤害的单位。
+  - 与慢速前排搭配时保持间距，避免雷电或火箭同时命中前排支援和女巫；治疗不能弥补一次被高伤害法术直接击败。
+  - 计算对手法术周期，等关键高伤害法术离手后再投入觉醒女巫，能显著提高持续召唤和治疗的上限。
+matchups:
+  - { title: 适合应对, text: '适合消耗单体攻击和低频范围单位，骷髅兵死亡后的治疗可以抵消部分持续伤害，并让本体在慢速交战中越战越久。' }
+  - { title: 需要提防, text: '火箭、雷电等高伤害法术和能够快速接近本体的单位仍是直接解法；范围伤害若能同时覆盖本体，也不会只留下治疗收益。' }
+  - { title: 搭配思路, text: '与巨人、戈仑石人和气球兵等慢速推进组合，让前排吸引主要火力，觉醒女巫在后方召唤、治疗并处理空地防守。' }
+balance_history:
+  - { date: '2026-02-02', type: nerf, summary: '11 级每只骷髅兵的死亡治疗从 60 降至 53，降低约 11%。' }
+  - { date: '2025-10-06', type: nerf, summary: '11 级每只骷髅兵的死亡治疗从 76 降至 60；同时骷髅兵攻击间隔从 1 秒延长至 1.1 秒。' }
+  - { date: '2025-08-04', type: adjustment, summary: '死亡治疗提高 36%，但仅由自己召唤的普通骷髅兵触发，其他骷髅单位不再提供治疗。' }
+  - { date: '2025-07-08', type: nerf, summary: '每只骷髅兵的死亡治疗降低 12%。' }
+  - { date: '2025-06-03', type: nerf, summary: '每只骷髅兵的死亡治疗降低 12%。' }
+  - { date: '2025-05-06', type: nerf, summary: '最高超额生命从 125% 调整为 124%。' }
+  - { date: '2025-05-05', type: evolution, summary: '觉醒女巫正式上线。' }

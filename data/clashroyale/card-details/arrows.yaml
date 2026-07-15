@@ -1,0 +1,110 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 万箭齐发
+  kind: main
+  mechanics:
+  - key: radius
+    label: 作用半径
+    value: '3.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    rows:
+    - level: '1'
+      area_damage: 47 x3 (141)
+      crown_tower_damage: 12 x3 (36)
+    - level: '2'
+      area_damage: 52 x3 (156)
+      crown_tower_damage: 13 x3 (39)
+    - level: '3'
+      area_damage: 57 x3 (171)
+      crown_tower_damage: 14 x3 (42)
+    - level: '4'
+      area_damage: 63 x3 (189)
+      crown_tower_damage: 16 x3 (48)
+    - level: '5'
+      area_damage: 69 x3 (207)
+      crown_tower_damage: 17 x3 (51)
+    - level: '6'
+      area_damage: 76 x3 (228)
+      crown_tower_damage: 19 x3 (57)
+    - level: '7'
+      area_damage: 83 x3 (249)
+      crown_tower_damage: 21 x3 (63)
+    - level: '8'
+      area_damage: 92 x3 (276)
+      crown_tower_damage: 23 x3 (69)
+    - level: '9'
+      area_damage: 101 x3 (303)
+      crown_tower_damage: 26 x3 (78)
+    - level: '10'
+      area_damage: 111 x3 (333)
+      crown_tower_damage: 28 x3 (84)
+    - level: '11'
+      area_damage: 122 x3 (366)
+      crown_tower_damage: 31 x3 (93)
+    - level: '12'
+      area_damage: 134 x3 (402)
+      crown_tower_damage: 34 x3 (102)
+    - level: '13'
+      area_damage: 148 x3 (444)
+      crown_tower_damage: 38 x3 (114)
+    - level: '14'
+      area_damage: 162 x3 (486)
+      crown_tower_damage: 41 x3 (123)
+    - level: '15'
+      area_damage: 179 x3 (537)
+      crown_tower_damage: 45 x3 (135)
+    - level: '16'
+      area_damage: 196 x3 (588)
+      crown_tower_damage: 50 x3 (150)
+balance_history:
+- date: '2025-03-04'
+  type: nerf
+  summary: 作用半径从 4 格缩短至 3.5 格。
+- date: '2024-08-06'
+  type: nerf
+  summary: 对皇家塔伤害比例从 30% 降至 25%。
+- date: '2023-03-27'
+  type: adjustment
+  summary: 修复在双人对战中对超级国王塔造成双倍伤害的问题。
+- date: '2022-10-26'
+  type: adjustment
+  summary: 伤害判定改为多个 1.4 格区域，避免全部箭雨被盖世武僧一次反弹；有效范围不变。
+- date: '2020-08-04'
+  type: nerf
+  summary: 对皇家塔伤害比例从 35% 降至 30%。
+- date: '2019-11-26'
+  type: adjustment
+  summary: 单轮伤害降低 58%，改为连续三轮箭雨，总伤害提高 23%，并加入卡牌形象。
+- date: '2019-06-03'
+  type: buff
+  summary: 投射物速度从 800 提高至 1100。
+- date: '2018-04-25'
+  type: adjustment
+  summary: 允许直接在河道区域施放。
+- date: '2017-12-12'
+  type: nerf
+  summary: 对皇家塔伤害比例从 40% 降至 35%。
+- date: '2017-03-13'
+  type: buff
+  summary: 投射物速度从 600 提高至 800。
+- date: '2016-02-19'
+  type: nerf
+  summary: 对皇家塔伤害比例从 50% 降至 40%。
+- date: '2016-02-02'
+  type: nerf
+  summary: 伤害降低 4%。
+- date: '2016-01-04'
+  type: release
+  summary: 万箭齐发随游戏首发加入。

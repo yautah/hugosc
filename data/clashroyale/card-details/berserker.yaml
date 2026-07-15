@@ -1,0 +1,119 @@
+---
+release_date: '2025-02-03'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 狂战士
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 0.6 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.2 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.8)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '345'
+      damage: '39'
+      damage_per_second: '65'
+    - level: '2'
+      hitpoints: '380'
+      damage: '43'
+      damage_per_second: '71'
+    - level: '3'
+      hitpoints: '418'
+      damage: '48'
+      damage_per_second: '80'
+    - level: '4'
+      hitpoints: '460'
+      damage: '52'
+      damage_per_second: '86'
+    - level: '5'
+      hitpoints: '506'
+      damage: '58'
+      damage_per_second: '96'
+    - level: '6'
+      hitpoints: '556'
+      damage: '63'
+      damage_per_second: '105'
+    - level: '7'
+      hitpoints: '612'
+      damage: '70'
+      damage_per_second: '116'
+    - level: '8'
+      hitpoints: '673'
+      damage: '77'
+      damage_per_second: '128'
+    - level: '9'
+      hitpoints: '740'
+      damage: '84'
+      damage_per_second: '140'
+    - level: '10'
+      hitpoints: '815'
+      damage: '93'
+      damage_per_second: '155'
+    - level: '11'
+      hitpoints: '896'
+      damage: '102'
+      damage_per_second: '170'
+    - level: '12'
+      hitpoints: '986'
+      damage: '112'
+      damage_per_second: '186'
+    - level: '13'
+      hitpoints: '1084'
+      damage: '123'
+      damage_per_second: '205'
+    - level: '14'
+      hitpoints: '1193'
+      damage: '136'
+      damage_per_second: '226'
+    - level: '15'
+      hitpoints: '1312'
+      damage: '149'
+      damage_per_second: '248'
+    - level: '16'
+      hitpoints: '1443'
+      damage: '164'
+      damage_per_second: '273'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 攻击间隔从 0.5 秒延长至 0.6 秒。
+- date: '2025-04-09'
+  type: buff
+  summary: 生命值提高 8%。
+- date: '2025-02-11'
+  type: buff
+  summary: 攻击间隔从 0.6 秒缩短至 0.5 秒。
+- date: '2025-02-03'
+  type: release
+  summary: 狂战士正式加入游戏。

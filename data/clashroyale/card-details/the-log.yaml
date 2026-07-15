@@ -1,0 +1,104 @@
+---
+release_date: '2016-07-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 滚木
+  kind: main
+  mechanics:
+  - key: range
+    label: 攻击距离
+    value: '10.1'
+  - key: width
+    label: 宽度
+    value: '3.9'
+  - key: target
+    label: 攻击目标
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    rows:
+    - level: '9'
+      area_damage: '220'
+      crown_tower_damage: '33'
+    - level: '10'
+      area_damage: '242'
+      crown_tower_damage: '36'
+    - level: '11'
+      area_damage: '266'
+      crown_tower_damage: '40'
+    - level: '12'
+      area_damage: '293'
+      crown_tower_damage: '44'
+    - level: '13'
+      area_damage: '322'
+      crown_tower_damage: '48'
+    - level: '14'
+      area_damage: '354'
+      crown_tower_damage: '53'
+    - level: '15'
+      area_damage: '389'
+      crown_tower_damage: '59'
+    - level: '16'
+      area_damage: '428'
+      crown_tower_damage: '64'
+balance_history:
+- date: '2025-09-01'
+  type: buff
+  summary: 伤害提高 1%。
+- date: '2025-07-08'
+  type: nerf
+  summary: 伤害降低 8%。
+- date: '2025-03-31'
+  type: nerf
+  summary: 伤害降低 0.34%。
+- date: '2025-03-04'
+  type: nerf
+  summary: 对皇家塔伤害比例从 20% 降至 15%。
+- date: '2023-03-27'
+  type: buff
+  summary: 改善滚动碰撞判定。
+- date: '2023-02-07'
+  type: nerf
+  summary: 击退距离从 1 格缩短至 0.7 格。
+- date: '2022-06-07'
+  type: nerf
+  summary: 对皇家塔伤害比例从 30% 降至 20%。
+- date: '2020-08-04'
+  type: nerf
+  summary: 滚动距离从 11.1 格缩短至 10.1 格，对皇家塔伤害比例从 35% 降至 30%。
+- date: '2020-04-07'
+  type: visual
+  summary: 卡牌信息页面加入滚木形象。
+- date: '2018-04-25'
+  type: adjustment
+  summary: 一座皇家塔被摧毁后允许在河道区域施放。
+- date: '2017-12-12'
+  type: nerf
+  summary: 对皇家塔伤害比例从 40% 降至 35%。
+- date: '2017-06-12'
+  type: nerf
+  summary: 滚动距离从 11.6 格缩短至 11.1 格。
+- date: '2017-03-13'
+  type: nerf
+  summary: 伤害降低 4%，并在修复建筑区域部署问题后缩短滚动距离。
+- date: '2017-01-23'
+  type: nerf
+  summary: 伤害降低 4%，击退距离从 1.5 格缩短至 1 格。
+- date: '2016-10-20'
+  type: buff
+  summary: 提高施放和滚动速度，距离从 9.6 格提高至 11.6 格，伤害提高 8.5%。
+- date: '2016-09-19'
+  type: buff
+  summary: 现在可击退所有地面单位并重置王子类冲锋。
+- date: '2016-08-24'
+  type: buff
+  summary: 提高施放与滚动速度。
+- date: '2016-07-04'
+  type: release
+  summary: 滚木正式加入游戏。

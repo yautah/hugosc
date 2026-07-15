@@ -1,0 +1,73 @@
+key: tesla-evolution
+parent_key: tesla
+kind: evolution
+order: 2
+name: 觉醒特斯拉电磁塔
+label: 觉醒
+url: /clashroyale/cards/tesla/evolution/
+image: images/clashroyale/cards/variants/tesla-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Tesla/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-03-04'
+summary: 觉醒特斯拉电磁塔升起时释放电击脉冲，对周围空地单位造成伤害并短暂眩晕。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 脉冲半径, value: 6 格 }
+  - { label: 基础卡牌, value: 特斯拉电磁塔 }
+overview:
+  - 觉醒特斯拉电磁塔每次从地下升起时都会释放六格半径的电击脉冲，对空中和地面单位造成伤害并眩晕半秒。脉冲能打断冲锋、重置部分攻击并为本体争取额外输出时间。
+  - 脉冲依赖电磁塔重新升起，持续锁定目标时不会反复触发。对手可以用单位维持其地上状态，也可以通过法术和远程火力缩短它的存活时间。
+units:
+  - name: 觉醒特斯拉电磁塔
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.1 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 部署时间, value: 1 秒 }
+      - { label: 持续时间, value: 25 秒 }
+      - { label: 攻击距离, value: 5.5 格 }
+      - { label: 脉冲半径, value: 6 格 }
+      - { label: 脉冲眩晕, value: 0.5 秒 }
+      - { label: 攻击目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: pulse_damage, label: 脉冲伤害 }
+      rows:
+        - { level: '1', hitpoints: '444', damage: '85', damage_per_second: '77', pulse_damage: '67' }
+        - { level: '2', hitpoints: '489', damage: '93', damage_per_second: '84', pulse_damage: '74' }
+        - { level: '3', hitpoints: '537', damage: '103', damage_per_second: '93', pulse_damage: '81' }
+        - { level: '4', hitpoints: '591', damage: '113', damage_per_second: '102', pulse_damage: '89' }
+        - { level: '5', hitpoints: '650', damage: '124', damage_per_second: '112', pulse_damage: '98' }
+        - { level: '6', hitpoints: '715', damage: '137', damage_per_second: '124', pulse_damage: '108' }
+        - { level: '7', hitpoints: '787', damage: '150', damage_per_second: '136', pulse_damage: '119' }
+        - { level: '8', hitpoints: '866', damage: '165', damage_per_second: '150', pulse_damage: '131' }
+        - { level: '9', hitpoints: '952', damage: '182', damage_per_second: '165', pulse_damage: '144' }
+        - { level: '10', hitpoints: '1047', damage: '200', damage_per_second: '181', pulse_damage: '158' }
+        - { level: '11', hitpoints: '1152', damage: '220', damage_per_second: '199', pulse_damage: '174' }
+        - { level: '12', hitpoints: '1267', damage: '242', damage_per_second: '219', pulse_damage: '191' }
+        - { level: '13', hitpoints: '1394', damage: '266', damage_per_second: '241', pulse_damage: '211' }
+        - { level: '14', hitpoints: '1533', damage: '293', damage_per_second: '266', pulse_damage: '232' }
+        - { level: '15', hitpoints: '1687', damage: '322', damage_per_second: '292', pulse_damage: '255' }
+        - { level: '16', hitpoints: '1855', damage: '354', damage_per_second: '321', pulse_damage: '280' }
+usage_tips:
+  - 利用单位接近的节奏让电磁塔重新升起，脉冲可同时打断多名单位并帮助皇家塔集中输出。
+  - 面对冲锋单位时保留部署时机，用首次脉冲重置其攻击，再通过中央位置完成拉扯。
+  - 不要让低威胁单位长期维持电磁塔地上状态，否则很难再次触发升起脉冲。
+matchups:
+  - { title: 适合应对, text: 适合处理聚集的空地推进、冲锋单位和依赖连续攻击的目标，脉冲提供额外控制。 }
+  - { title: 需要提防, text: 地震法术、远程高伤和用于维持锁定的低费单位会压缩脉冲次数与建筑寿命。 }
+  - { title: 搭配思路, text: 与拉扯、击退和范围伤害配合，把敌军留在脉冲覆盖区并延长皇家塔输出窗口。 }
+balance_history:
+  - { date: '2025-04-09', type: buff, summary: 脉冲伤害提高 17%。 }
+  - { date: '2025-02-04', type: adjustment, summary: 樵夫幽灵不再受到觉醒特斯拉电磁塔脉冲影响。 }
+  - { date: '2024-12-16', type: visual, summary: 新增觉醒特斯拉电磁塔被摧毁后的音效。 }
+  - { date: '2024-10-08', type: adjustment, summary: '攻击间隔由 1.2 秒缩短至 1.1 秒，并移除摧毁时的脉冲。' }
+  - { date: '2024-07-02', type: nerf, summary: '伤害降低 4%，攻击间隔由 1.1 秒延长至 1.2 秒。' }
+  - { date: '2024-06-17', type: nerf, summary: '脉冲伤害降低 22.9%，眩晕时间由 1 秒缩短至 0.5 秒，并修复部署冻结与摧毁脉冲异常。' }
+  - { date: '2024-05-14', type: adjustment, summary: 移除额外生命值加成，并新增被摧毁时的脉冲。 }
+  - { date: '2024-03-04', type: evolution, summary: 觉醒特斯拉电磁塔正式上线。 }

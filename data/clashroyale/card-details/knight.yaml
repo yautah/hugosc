@@ -1,0 +1,161 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 骑士
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.2 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：中 (1.2)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '681'
+      damage: '78'
+      damage_per_second: '65'
+    - level: '2'
+      hitpoints: '749'
+      damage: '86'
+      damage_per_second: '71'
+    - level: '3'
+      hitpoints: '824'
+      damage: '94'
+      damage_per_second: '78'
+    - level: '4'
+      hitpoints: '906'
+      damage: '104'
+      damage_per_second: '86'
+    - level: '5'
+      hitpoints: '997'
+      damage: '114'
+      damage_per_second: '95'
+    - level: '6'
+      hitpoints: '1097'
+      damage: '125'
+      damage_per_second: '104'
+    - level: '7'
+      hitpoints: '1206'
+      damage: '138'
+      damage_per_second: '115'
+    - level: '8'
+      hitpoints: '1327'
+      damage: '152'
+      damage_per_second: '126'
+    - level: '9'
+      hitpoints: '1460'
+      damage: '167'
+      damage_per_second: '139'
+    - level: '10'
+      hitpoints: '1605'
+      damage: '184'
+      damage_per_second: '153'
+    - level: '11'
+      hitpoints: '1766'
+      damage: '202'
+      damage_per_second: '168'
+    - level: '12'
+      hitpoints: '1943'
+      damage: '222'
+      damage_per_second: '185'
+    - level: '13'
+      hitpoints: '2137'
+      damage: '244'
+      damage_per_second: '203'
+    - level: '14'
+      hitpoints: '2351'
+      damage: '269'
+      damage_per_second: '224'
+    - level: '15'
+      hitpoints: '2586'
+      damage: '296'
+      damage_per_second: '246'
+    - level: '16'
+      hitpoints: '2844'
+      damage: '325'
+      damage_per_second: '270'
+balance_history:
+- date: '2025-12-01'
+  type: hero
+  summary: 精英骑士正式上线，骑士获得精英形态和主动技能“凯旋嘲讽”。
+- date: '2023-08-07'
+  type: evolution
+  summary: 觉醒骑士正式上线，骑士获得觉醒形态。
+- date: '2023-08-04'
+  type: visual
+  summary: 更换骑士的卡牌图片。
+- date: '2023-02-07'
+  type: buff
+  summary: 生命值提高 3%。
+- date: '2022-10-26'
+  type: buff
+  summary: 生命值提高 3%。
+- date: '2021-03-30'
+  type: nerf
+  summary: 生命值降低 5%。
+- date: '2019-12-02'
+  type: buff
+  summary: 生命值提高 5%。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2019-07-01'
+  type: buff
+  summary: 攻击距离从 1 格提高至 1.2 格，并归类为中距离近战。
+- date: '2019-02-04'
+  type: buff
+  summary: 生命值提高 2.5%。
+- date: '2018-08-06'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2018-04-25'
+  type: buff
+  summary: 生命值提高 3%。
+- date: '2018-02-12'
+  type: nerf
+  summary: 生命值降低 6%。
+- date: '2017-12-12'
+  type: nerf
+  summary: 攻击间隔从 1.1 秒延长至 1.2 秒，首次攻击间隔从 0.4 秒延长至 0.5 秒。
+- date: '2016-05-18'
+  type: buff
+  summary: 生命值提高 10%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 1.5 格改为 1 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: visual
+  summary: 视野范围从 6 格缩小至 5.5 格，同时更换卡牌图片并移除肩部阵营配色。
+- date: '2016-01-04'
+  type: release
+  summary: 骑士随皇室战争上线加入游戏。

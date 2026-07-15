@@ -1,0 +1,94 @@
+key: wall-breakers-evolution
+parent_key: wall-breakers
+kind: evolution
+order: 2
+name: 觉醒攻城炸弹人
+label: 觉醒
+url: /clashroyale/cards/wall-breakers/evolution/
+image: images/clashroyale/cards/variants/wall-breakers-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Wall_Breakers/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-02-14'
+summary: 觉醒攻城炸弹人的火药桶被摧毁时会先爆炸，并各自生成一名继续冲向建筑的炸弹人，提供第二次连接机会。
+facts:
+  - { label: 圣水, value: '2' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 初始单位, value: 2 名 }
+  - { label: 基础卡牌, value: 攻城炸弹人 }
+overview:
+  - 觉醒攻城炸弹人保留普通形态的生命值与连接伤害。当外层火药桶在接触建筑前被摧毁时，会立即造成范围死亡伤害，并各自生成一名继续冲向建筑的炸弹人，使对手必须连续完成两次拦截。
+  - 桶破坏后的死亡伤害对部队与皇冠塔采用不同数值，2026 年调整后更偏向进攻续航而非防守清场。生成单位生命值更低、连接伤害也低于普通形态，但速度同样极快。
+units:
+  - name: 觉醒攻城炸弹人
+    kind: main
+    mechanics:
+      - { label: 移动速度, value: 极快 (120) }
+      - { label: 攻击距离, value: 近战：短 (0.5) }
+      - { label: 范围半径, value: 1.5 格 }
+      - { label: 攻击目标, value: 建筑 }
+      - { label: 单位数量, value: '2' }
+      - { label: 桶破坏效果, value: 爆炸并生成后续单位 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 连接伤害 }
+        - { key: death_damage, label: 对部队死亡伤害 }
+        - { key: tower_death_damage, label: 对塔死亡伤害 }
+      rows:
+        - { level: '6', hitpoints: '206', area_damage: '219', death_damage: '120', tower_death_damage: '121' }
+        - { level: '7', hitpoints: '227', area_damage: '241', death_damage: '132', tower_death_damage: '132' }
+        - { level: '8', hitpoints: '248', area_damage: '264', death_damage: '145', tower_death_damage: '146' }
+        - { level: '9', hitpoints: '273', area_damage: '290', death_damage: '159', tower_death_damage: '160' }
+        - { level: '10', hitpoints: '300', area_damage: '319', death_damage: '175', tower_death_damage: '175' }
+        - { level: '11', hitpoints: '330', area_damage: '350', death_damage: '192', tower_death_damage: '193' }
+        - { level: '12', hitpoints: '362', area_damage: '384', death_damage: '211', tower_death_damage: '212' }
+        - { level: '13', hitpoints: '398', area_damage: '422', death_damage: '232', tower_death_damage: '233' }
+        - { level: '14', hitpoints: '437', area_damage: '463', death_damage: '255', tower_death_damage: '255' }
+        - { level: '15', hitpoints: '479', area_damage: '508', death_damage: '279', tower_death_damage: '280' }
+        - { level: '16', hitpoints: '527', area_damage: '559', death_damage: '307', tower_death_damage: '308' }
+  - name: 后续炸弹人
+    kind: child
+    section_label: 火药桶破坏后单位
+    summary: 外层火药桶被摧毁后各生成一名，继续以极快速度冲向建筑并自爆。
+    mechanics:
+      - { label: 移动速度, value: 极快 (120) }
+      - { label: 攻击距离, value: 近战：短 (0.5) }
+      - { label: 范围半径, value: 1.5 格 }
+      - { label: 攻击目标, value: 建筑 }
+      - { label: 每桶生成, value: 1 名 }
+      - { label: 生成总上限, value: 2 名 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 连接伤害 }
+      rows:
+        - { level: '6', hitpoints: '103', area_damage: '115' }
+        - { level: '7', hitpoints: '113', area_damage: '127' }
+        - { level: '8', hitpoints: '124', area_damage: '139' }
+        - { level: '9', hitpoints: '136', area_damage: '153' }
+        - { level: '10', hitpoints: '150', area_damage: '167' }
+        - { level: '11', hitpoints: '164', area_damage: '184' }
+        - { level: '12', hitpoints: '181', area_damage: '202' }
+        - { level: '13', hitpoints: '198', area_damage: '222' }
+        - { level: '14', hitpoints: '218', area_damage: '244' }
+        - { level: '15', hitpoints: '238', area_damage: '268' }
+        - { level: '16', hitpoints: '262', area_damage: '294' }
+usage_tips:
+  - 利用第一段死亡爆炸削弱防守单位，再让后续炸弹人继续冲塔；对手若只准备一次攻击或一个单体单位，往往难以连续处理两段。
+  - 与矿工或冰人配合承受塔伤，可以同时提高外层与后续单位的连接机会；两费低成本也适合在另一条路制造即时压力。
+  - 不要过度依赖死亡伤害防守大型推进，2026 年后对部队伤害已经降低，主要价值仍是迫使对手完成第二次拦截。
+  - 面对范围攻击时适当分路或错开节奏，避免同一轮伤害同时摧毁两个桶并快速清理全部后续单位。
+matchups:
+  - { title: 适合应对, text: '对单体攻击、攻击间隔较长或只准备一次拦截的防守特别有效，后续单位能利用攻击空档继续冲塔。' }
+  - { title: 需要提防, text: '炸弹塔、女武神等持续范围伤害可以连续覆盖两段单位，建筑也能把全部冲锋集中到可控位置。' }
+  - { title: 搭配思路, text: '与矿工、冰人和雪球搭配，用前排承伤、雪球击退防守者，让两个阶段的单位依次获得连接窗口。' }
+balance_history:
+  - { date: '2026-04-06', type: nerf, summary: '11 级火药桶破坏后对部队的范围伤害从 258 降至 192。' }
+  - { date: '2025-11-03', type: nerf, summary: '随基础卡调整，本体连接伤害降低 10%；11 级后续炸弹人连接伤害从 197 降至 184。' }
+  - { date: '2025-10-06', type: nerf, summary: '11 级火药桶破坏后的对部队范围伤害从 291 降至 258。' }
+  - { date: '2025-03-31', type: nerf, summary: '生命值降低 0.3%，本体连接伤害降低 0.25%。' }
+  - { date: '2025-01-08', type: buff, summary: '火药桶破坏后的死亡伤害提高 50%，并规定对皇冠塔造成约 66% 伤害。' }
+  - { date: '2024-05-14', type: adjustment, summary: '后续炸弹人连接伤害降低 50%，移动速度提高至极快，并移除觉醒本体的额外连接伤害。' }
+  - { date: '2024-02-14', type: evolution, summary: '觉醒攻城炸弹人正式上线。' }

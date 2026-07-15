@@ -1,0 +1,14 @@
+source_url: https://clashroyale.fandom.com/wiki/Rage
+items:
+  - { date: '2025-10-06', type: nerf, summary: '速度强化从 35% 降至 30%。' }
+  - { date: '2025-08-04', type: adjustment, summary: '伤害提高 21%，持续时间从 5.5 秒缩短至 4.5 秒。' }
+  - { date: '2025-04-09', type: nerf, summary: '伤害降低 23%。' }
+  - { date: '2025-03-04', type: nerf, summary: '单位离开范围后的强化保留时间从 2 秒缩短至 1 秒。' }
+  - { date: '2024-01-03', type: nerf, summary: '持续时间从 6 秒缩短至 5.5 秒。' }
+  - { date: '2022-12-12', type: adjustment, summary: '持续时间统一为 6 秒并加入范围伤害，作用半径从 5 格缩短至 3 格，增加 0.5 秒部署时间。' }
+  - { date: '2018-04-25', type: adjustment, summary: '允许直接在河道区域施放。' }
+  - { date: '2016-11-01', type: buff, summary: '速度强化从 30% 提高至 35%。' }
+  - { date: '2016-09-19', type: adjustment, summary: '费用从 3 降至 2，速度强化从 40% 降至 30%，持续时间缩短 2 秒。' }
+  - { date: '2016-03-23', type: adjustment, summary: '速度强化从 35% 提高至 40%，持续时间缩短 2 秒。' }
+  - { date: '2016-02-29', type: adjustment, summary: '加入离开范围后两秒结束强化的衰减机制。' }
+  - { date: '2016-01-04', type: release, summary: '狂暴法术随游戏首发加入。' }

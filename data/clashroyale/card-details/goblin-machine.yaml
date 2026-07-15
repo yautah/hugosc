@@ -1,0 +1,140 @@
+---
+release_date: '2024-06-17'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 哥布林机甲
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.2 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：中 (1.2)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: hit_speed
+    label: 火箭发射器·攻击间隔
+    value: 3.5 秒
+  - key: first_hit_speed
+    label: 火箭发射器·首次攻击间隔
+    value: 1.5 秒
+  - key: range
+    label: 火箭发射器·攻击距离
+    value: 2.5-5
+  - key: radius
+    label: 火箭发射器·作用半径
+    value: '1.5'
+  - key: projectile_speed
+    label: 火箭发射器·投射物速度
+    value: '250'
+  - key: target
+    label: 火箭发射器·攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: rocket_launcher_damage
+      label: 火箭发射器伤害
+    - key: rocket_launcher_crown_tower_damage
+      label: 火箭发射器皇家塔伤害
+    - key: rocket_launcher_damage_per_second
+      label: 火箭发射器每秒伤害
+    rows:
+    - level: '9'
+      hitpoints: '1780'
+      damage: '175'
+      damage_per_second: '145'
+      rocket_launcher_damage: '252'
+      rocket_launcher_crown_tower_damage: '126'
+      rocket_launcher_damage_per_second: '72'
+    - level: '10'
+      hitpoints: '1957'
+      damage: '193'
+      damage_per_second: '160'
+      rocket_launcher_damage: '277'
+      rocket_launcher_crown_tower_damage: '139'
+      rocket_launcher_damage_per_second: '79'
+    - level: '11'
+      hitpoints: '2150'
+      damage: '212'
+      damage_per_second: '176'
+      rocket_launcher_damage: '304'
+      rocket_launcher_crown_tower_damage: '152'
+      rocket_launcher_damage_per_second: '86'
+    - level: '12'
+      hitpoints: '2360'
+      damage: '233'
+      damage_per_second: '194'
+      rocket_launcher_damage: '334'
+      rocket_launcher_crown_tower_damage: '167'
+      rocket_launcher_damage_per_second: '95'
+    - level: '13'
+      hitpoints: '2595'
+      damage: '256'
+      damage_per_second: '213'
+      rocket_launcher_damage: '367'
+      rocket_launcher_crown_tower_damage: '184'
+      rocket_launcher_damage_per_second: '104'
+    - level: '14'
+      hitpoints: '2847'
+      damage: '281'
+      damage_per_second: '234'
+      rocket_launcher_damage: '403'
+      rocket_launcher_crown_tower_damage: '202'
+      rocket_launcher_damage_per_second: '115'
+    - level: '15'
+      hitpoints: '3124'
+      damage: '308'
+      damage_per_second: '256'
+      rocket_launcher_damage: '442'
+      rocket_launcher_crown_tower_damage: '221'
+      rocket_launcher_damage_per_second: '126'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 生命值从 2304 降至 2150，火箭发射器伤害从 391 降至 304。
+- date: '2025-01-30'
+  type: adjustment
+  summary: 符文巨人提供的强化不再作用于火箭发射器。
+- date: '2025-01-08'
+  type: adjustment
+  summary: 近战伤害提高 57%，攻击间隔从 0.9 秒延长至 1.2 秒。
+- date: '2024-10-08'
+  type: buff
+  summary: 生命值提高 5%。
+- date: '2024-08-06'
+  type: buff
+  summary: 火箭发射器攻击间隔从 4 秒缩短至 3.5 秒。
+- date: '2024-07-02'
+  type: nerf
+  summary: 生命值降低 15.5%，首次攻击间隔从 0.2 秒延长至 0.5 秒。
+- date: '2024-06-19'
+  type: nerf
+  summary: 火箭发射器伤害从 588 降至 391，对皇家塔伤害调整为 50%，攻击间隔从 3.5 秒延长至 4 秒。
+- date: '2024-06-17'
+  type: release
+  summary: 哥布林机甲正式加入游戏。

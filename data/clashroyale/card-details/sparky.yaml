@@ -1,0 +1,99 @@
+---
+release_date: '2016-05-03'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 电磁炮
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 4 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 1 秒
+  - key: speed
+    label: 移动速度
+    value: 慢 (45)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '5'
+  - key: splash_radius
+    label: 溅射半径
+    value: '1.8'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '1400'
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      hitpoints: '1202'
+      area_damage: '1102'
+      damage_per_second: '275'
+    - level: '10'
+      hitpoints: '1321'
+      area_damage: '1211'
+      damage_per_second: '302'
+    - level: '11'
+      hitpoints: '1451'
+      area_damage: '1331'
+      damage_per_second: '332'
+    - level: '12'
+      hitpoints: '1593'
+      area_damage: '1461'
+      damage_per_second: '365'
+    - level: '13'
+      hitpoints: '1752'
+      area_damage: '1606'
+      damage_per_second: '401'
+    - level: '14'
+      hitpoints: '1922'
+      area_damage: '1762'
+      damage_per_second: '440'
+    - level: '15'
+      hitpoints: '2109'
+      area_damage: '1934'
+      damage_per_second: '483'
+    - level: '16'
+      hitpoints: '2319'
+      area_damage: '2126'
+      damage_per_second: '531'
+balance_history:
+- date: '2025-03-31'
+  type: adjustment
+  summary: 生命值因数值取整降低约 0.06%。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页加入角色立绘。
+- date: '2018-06-20'
+  type: buff
+  summary: 射程从 4.5 格提高至 5 格。
+- date: '2017-10-09'
+  type: adjustment
+  summary: 伤害降低 15%，攻击间隔从 5 秒缩短至 4 秒。
+- date: '2016-05-18'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2016-05-03'
+  type: release
+  summary: 电磁炮正式加入游戏。

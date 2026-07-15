@@ -1,0 +1,6 @@
+source_url: https://clashroyale.fandom.com/wiki/Boss_Bandit
+items:
+  - { date: '2026-01-12', type: adjustment, summary: '普通伤害和突袭伤害降低 9%，攻击间隔从 1.2 秒缩短至 1.1 秒。' }
+  - { date: '2025-07-08', type: adjustment, summary: '逃生手榴弹改为固定可使用两次，两次之间有 3 秒冷却；生命值同时降低 4%。' }
+  - { date: '2025-06-03', type: nerf, summary: '生命值降低 3%。' }
+  - { date: '2025-04-07', type: release, summary: '刺客头领正式加入游戏。' }

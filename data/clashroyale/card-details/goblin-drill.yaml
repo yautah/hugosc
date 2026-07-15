@@ -1,0 +1,190 @@
+---
+release_date: '2021-07-11'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 哥布林钻机
+  kind: main
+  mechanics:
+  - key: spawn_speed
+    label: 生成间隔
+    value: 3 秒
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: lifetime
+    label: 持续时间
+    value: 10 秒
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: goblin_drill_hitpoints
+      label: 生命值
+    - key: goblin_drill_hitpoints_lost_per_second
+      label: 每秒损失生命值
+    - key: goblin_drill_spawn_damage
+      label: 登场伤害
+    - key: goblin_drill_spawn_tower_damage
+      label: 登场效果皇家塔伤害
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '6'
+      goblin_drill_hitpoints: '815'
+      goblin_drill_hitpoints_lost_per_second: '81.5'
+      goblin_drill_spawn_damage: '52'
+      goblin_drill_spawn_tower_damage: '16'
+      hitpoints: '125'
+      damage: '75'
+      damage_per_second: '68'
+    - level: '7'
+      goblin_drill_hitpoints: '897'
+      goblin_drill_hitpoints_lost_per_second: '89.7'
+      goblin_drill_spawn_damage: '57'
+      goblin_drill_spawn_tower_damage: '18'
+      hitpoints: '138'
+      damage: '82'
+      damage_per_second: '74'
+    - level: '8'
+      goblin_drill_hitpoints: '986'
+      goblin_drill_hitpoints_lost_per_second: '98.6'
+      goblin_drill_spawn_damage: '63'
+      goblin_drill_spawn_tower_damage: '20'
+      hitpoints: '152'
+      damage: '90'
+      damage_per_second: '81'
+    - level: '9'
+      goblin_drill_hitpoints: '1085'
+      goblin_drill_hitpoints_lost_per_second: '108.5'
+      goblin_drill_spawn_damage: '69'
+      goblin_drill_spawn_tower_damage: '21'
+      hitpoints: '167'
+      damage: '99'
+      damage_per_second: '89'
+    - level: '10'
+      goblin_drill_hitpoints: '1194'
+      goblin_drill_hitpoints_lost_per_second: '119.4'
+      goblin_drill_spawn_damage: '76'
+      goblin_drill_spawn_tower_damage: '24'
+      hitpoints: '184'
+      damage: '109'
+      damage_per_second: '99'
+    - level: '11'
+      goblin_drill_hitpoints: '1313'
+      goblin_drill_hitpoints_lost_per_second: '20.2'
+      goblin_drill_spawn_damage: '84'
+      goblin_drill_spawn_tower_damage: '26'
+      hitpoints: '202'
+      damage: '120'
+      damage_per_second: '109'
+    - level: '12'
+      goblin_drill_hitpoints: '1444'
+      goblin_drill_hitpoints_lost_per_second: '144.4'
+      goblin_drill_spawn_damage: '92'
+      goblin_drill_spawn_tower_damage: '29'
+      hitpoints: '222'
+      damage: '132'
+      damage_per_second: '119'
+    - level: '13'
+      goblin_drill_hitpoints: '1589'
+      goblin_drill_hitpoints_lost_per_second: '158.9'
+      goblin_drill_spawn_damage: '102'
+      goblin_drill_spawn_tower_damage: '31'
+      hitpoints: '244'
+      damage: '145'
+      damage_per_second: '131'
+    - level: '14'
+      goblin_drill_hitpoints: '1748'
+      goblin_drill_hitpoints_lost_per_second: '174.8'
+      goblin_drill_spawn_damage: '112'
+      goblin_drill_spawn_tower_damage: '35'
+      hitpoints: '269'
+      damage: '160'
+      damage_per_second: '145'
+    - level: '15'
+      goblin_drill_hitpoints: '1922'
+      goblin_drill_hitpoints_lost_per_second: '192.2'
+      goblin_drill_spawn_damage: '123'
+      goblin_drill_spawn_tower_damage: '38'
+      hitpoints: '296'
+      damage: '176'
+      damage_per_second: '160'
+    - level: '16'
+      goblin_drill_hitpoints: '2115'
+      goblin_drill_hitpoints_lost_per_second: '211.5'
+      goblin_drill_spawn_damage: '135'
+      goblin_drill_spawn_tower_damage: '42'
+      hitpoints: '325'
+      damage: '193'
+      damage_per_second: '175'
+- name: 哥布林
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.4 秒
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.5)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: transport
+    label: 移动方式
+    value: 地面
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 首次生成时间由 0.8 秒延长至 1 秒。
+- date: '2025-03-31'
+  type: buff
+  summary: 生命值小幅提高，钻出伤害提高 1.2%。
+- date: '2024-07-15'
+  type: evolution
+  summary: 哥布林钻机觉醒上线。
+- date: '2024-06-17'
+  type: adjustment
+  summary: 哥布林钻机归入哥布林单位。
+- date: '2024-05-14'
+  type: nerf
+  summary: 首次生成时间由 0.5 秒延长至 0.8 秒。
+- date: '2024-03-05'
+  type: adjustment
+  summary: 持续时间由 9 秒提高至 10 秒，首次生成时间由 1 秒缩短至 0.5 秒，生命值降低 8.9%。
+- date: '2023-10-23'
+  type: buff
+  summary: 钻出伤害提高 1%。
+- date: '2022-10-26'
+  type: nerf
+  summary: 哥布林首次攻击间隔由 0.2 秒延长至 0.4 秒，并更新星级粒子效果。
+- date: '2022-06-07'
+  type: nerf
+  summary: 地下移动速度由 400 降至 300。
+- date: '2022-03-30'
+  type: adjustment
+  summary: 修复星级外观错误使用矿工音效的问题。
+- date: '2021-10-27'
+  type: visual
+  summary: 调整地下移动轨迹以区别于矿工，并修复与克隆法术的异常互动。
+- date: '2021-09-06'
+  type: nerf
+  summary: 被摧毁时生成的哥布林由 3 名减少至 2 名。
+- date: '2021-07-11'
+  type: release
+  summary: 哥布林钻机面向所有玩家正式推出。
+- date: '2021-06-17'
+  type: adjustment
+  summary: 首次生成新增 1 秒延迟，调整被摧毁时哥布林的阵型，并降低钻出时对地面单位的推动效果。
+- date: '2021-06-12'
+  type: release
+  summary: 哥布林钻机首次在专属选卡挑战中开放使用。

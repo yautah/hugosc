@@ -1,0 +1,74 @@
+key: minion-horde-evolution
+parent_key: minion-horde
+kind: evolution
+order: 2
+name: 觉醒亡灵大军
+label: 觉醒
+url: /clashroyale/cards/minion-horde/evolution/
+image: images/clashroyale/cards/variants/minion-horde-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Minion_Horde/Evolution
+reference_urls:
+  - https://supercell.com/en/games/clashroyale/blog/news/new-season-balloon-festival/
+  - https://liquipedia.net/clashroyale/Minion_Horde_Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436373
+release_date: '2026-04-06'
+summary: 觉醒亡灵大军中每只亡灵首次承受非致命伤害后，都会独立进入三秒免疫状态，但移动和攻击速度会随之降低。
+facts:
+  - { label: 圣水, value: '5' }
+  - { label: 觉醒周期, value: 1 次循环 }
+  - { label: 免疫持续, value: 3 秒 }
+  - { label: 基础卡牌, value: 亡灵大军 }
+overview:
+  - 觉醒亡灵大军仍然部署六只亡灵。每只亡灵第一次受到不会直接将其击败的伤害时，会各自进入三秒免疫状态；免疫期间不能被锁定，不受伤害和控制效果影响，但移动速度降低约三分之一、攻击速度降低一半。
+  - 免疫按单个亡灵分别触发，因此范围攻击可能让整组同时进入免疫，单体攻击则会逐只触发。箭雨等足以直接击败当前生命值亡灵的伤害不会留下触发机会，部署时机仍需围绕对手的范围法术和对空输出判断。
+units:
+  - name: 觉醒亡灵大军
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.2 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 快 (90) }
+      - { label: 部署时间, value: 1 秒 }
+      - { label: 攻击距离, value: '2.5' }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 单位数量, value: '6' }
+      - { label: 免疫触发, value: 首次承受非致命伤害 }
+      - { label: 免疫期间移动速度, value: 降低 33% }
+      - { label: 免疫期间攻击速度, value: 降低 50% }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '1', hitpoints: '89', damage: '41', damage_per_second: '34' }
+        - { level: '2', hitpoints: '98', damage: '45', damage_per_second: '37' }
+        - { level: '3', hitpoints: '107', damage: '50', damage_per_second: '41' }
+        - { level: '4', hitpoints: '118', damage: '55', damage_per_second: '45' }
+        - { level: '5', hitpoints: '130', damage: '60', damage_per_second: '50' }
+        - { level: '6', hitpoints: '143', damage: '66', damage_per_second: '55' }
+        - { level: '7', hitpoints: '157', damage: '73', damage_per_second: '60' }
+        - { level: '8', hitpoints: '173', damage: '80', damage_per_second: '66' }
+        - { level: '9', hitpoints: '190', damage: '88', damage_per_second: '73' }
+        - { level: '10', hitpoints: '209', damage: '97', damage_per_second: '80' }
+        - { level: '11', hitpoints: '230', damage: '107', damage_per_second: '89' }
+        - { level: '12', hitpoints: '253', damage: '118', damage_per_second: '98' }
+        - { level: '13', hitpoints: '278', damage: '129', damage_per_second: '107' }
+        - { level: '14', hitpoints: '306', damage: '142', damage_per_second: '118' }
+        - { level: '15', hitpoints: '337', damage: '157', damage_per_second: '130' }
+        - { level: '16', hitpoints: '370', damage: '172', damage_per_second: '143' }
+usage_tips:
+  - 优先在对手只能用多段或低伤害范围攻击处理时部署，让六只亡灵获得触发免疫并接近目标的机会。
+  - 免疫期间攻速和移速都会下降，不要只看无敌时间；最好让前排或控制法术帮助它们维持攻击距离。
+  - 可以利用单体防空逐只触发免疫的特点吸收火力，但面对能直接击败亡灵的高伤害法术时应先用其他单位诱出解牌。
+  - 防守大型单体单位时从其上方或侧后方部署，亡灵在第一次受击后进入免疫，能够继续围攻并拖延推进。
+matchups:
+  - { title: 适合应对, text: '伤害不足以一次击败亡灵的范围单位和单体防空。它们往往会主动触发免疫，却无法在三秒内继续处理目标。' }
+  - { title: 需要提防, text: '万箭齐发等能够直接击败亡灵的范围法术，以及先压低生命值再补伤害的多段组合；致命伤害不会触发免疫。' }
+  - { title: 搭配思路, text: '与矿工、巨人和熔岩猎犬等前排搭配，让前排吸引皇家塔，觉醒亡灵大军则利用免疫穿过防空火力并补充爆发输出。' }
+balance_history:
+  - date: '2026-04-06'
+    type: evolution
+    summary: 觉醒亡灵大军正式加入游戏，推出每只亡灵首次承受非致命伤害后独立获得三秒免疫的机制。

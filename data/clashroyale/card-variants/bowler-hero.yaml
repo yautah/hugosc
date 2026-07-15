@@ -1,0 +1,64 @@
+key: bowler-hero
+parent_key: bowler
+kind: hero
+order: 3
+name: 精英巨石投手
+label: 精英
+url: /clashroyale/cards/bowler/hero/
+image: images/clashroyale/cards/variants/bowler-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Bowler/Hero
+source_retrieved_at: '2026-07-15'
+source_revision: 436559
+release_date: '2026-05-04'
+summary: 精英巨石投手可消耗 2 点圣水原地架势，在短时间内把巨石投向远至 11.5 格的目标，落点造成圆形范围伤害。
+facts:
+  - { label: 部署圣水, value: '5' }
+  - { label: 技能圣水, value: '2' }
+  - { label: 技能持续, value: 7.3 秒 }
+  - { label: 基础卡牌, value: 巨石投手 }
+overview:
+  - 精英巨石投手保留普通形态的生命值、伤害和滚石攻击，新增“远投三分”技能。发动后会经过 2.5 秒准备并固定在原地，攻击方式暂时改为最远 11.5 格的抛投，巨石落点造成圆形范围伤害，但不再沿直线滚动或击退敌军。
+  - 2026 年 6 月调整后技能持续 7.3 秒，通常能够投出三颗巨石。技能对皇家塔只有 50% 伤害，因此价值主要来自超远距离覆盖、提前打击后排和迫使对手改变站位，而不是无条件远程削塔。
+units:
+  - name: 精英巨石投手
+    kind: main
+    mechanics:
+      - { label: 普通攻击间隔, value: 2.5 秒 }
+      - { label: 技能准备时间, value: 2.5 秒 }
+      - { label: 技能射程, value: 11.5 格 }
+      - { label: 技能持续时间, value: 7.3 秒 }
+      - { label: 技能落点半径, value: 2 格 }
+      - { label: 技能期间移动, value: 无法移动 }
+      - { label: 技能攻击次数, value: 通常 3 次 }
+      - { label: 皇家塔伤害, value: 50% }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 普通范围伤害 }
+        - { key: ability_damage, label: 技能范围伤害 }
+        - { key: ability_tower_damage, label: 技能皇家塔伤害 }
+      rows:
+        - { level: '6', hitpoints: '1300', area_damage: '180', ability_damage: '240', ability_tower_damage: '120' }
+        - { level: '7', hitpoints: '1430', area_damage: '198', ability_damage: '264', ability_tower_damage: '132' }
+        - { level: '8', hitpoints: '1569', area_damage: '218', ability_damage: '290', ability_tower_damage: '145' }
+        - { level: '9', hitpoints: '1723', area_damage: '239', ability_damage: '319', ability_tower_damage: '159' }
+        - { level: '10', hitpoints: '1894', area_damage: '263', ability_damage: '350', ability_tower_damage: '175' }
+        - { level: '11', hitpoints: '2081', area_damage: '289', ability_damage: '384', ability_tower_damage: '192' }
+        - { level: '12', hitpoints: '2284', area_damage: '317', ability_damage: '422', ability_tower_damage: '211' }
+        - { level: '13', hitpoints: '2512', area_damage: '349', ability_damage: '463', ability_tower_damage: '232' }
+        - { level: '14', hitpoints: '2756', area_damage: '383', ability_damage: '508', ability_tower_damage: '254' }
+        - { level: '15', hitpoints: '3024', area_damage: '420', ability_damage: '558', ability_tower_damage: '279' }
+        - { level: '16', hitpoints: '3324', area_damage: '462', ability_damage: '614', ability_tower_damage: '307' }
+usage_tips:
+  - 在对手后排或皇家塔进入 11.5 格射程、且巨石投手暂时不需要移动时发动技能，避免准备动作结束后没有合适目标。
+  - 技能攻击不带直线贯穿和击退，防守快速地面推进时普通攻击往往更可靠；不要因为技能可用就立即失去原本的控制能力。
+  - 利用建筑或前排固定敌军位置，让远投巨石覆盖后排与皇家塔附近区域；对手若分散站位，落点范围价值会明显降低。
+  - 技能持续时间有限且额外消耗两费，优先用于跨河压制高价值单位或制造明确的塔前压力。
+matchups:
+  - { title: 适合应对, text: '适合远程压制女巫、火枪手等后排，或在推进被建筑牵制时越过前排打击后方单位。' }
+  - { title: 需要提防, text: '技能准备和持续期间无法移动，突进单位、法术和分散站位都能降低远投收益；空军仍可直接攻击他。' }
+  - { title: 搭配思路, text: '与坦克、建筑和龙卷风搭配，固定战线或聚拢目标，为三次远投创造稳定落点。' }
+balance_history:
+  - { date: '2026-06-01', type: nerf, summary: '技能持续时间从 9 秒缩短至 7.3 秒，通常攻击次数从四次降为三次。' }
+  - { date: '2026-05-04', type: hero, summary: '精英巨石投手与“远投三分”技能正式上线。' }

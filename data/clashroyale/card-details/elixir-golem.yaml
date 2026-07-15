@@ -1,0 +1,308 @@
+---
+release_date: '2019-11-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 圣水戈仑
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.8 秒
+  - key: speed
+    label: 移动速度
+    value: 慢 (45)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.8)
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: elixir_golem_hitpoints
+      label: 生命值
+    - key: elixir_golem_damage
+      label: 伤害
+    - key: elixir_golem_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      elixir_golem_hitpoints: '741'
+      elixir_golem_damage: '119'
+      elixir_golem_damage_per_second: '108'
+    - level: '4'
+      elixir_golem_hitpoints: '815'
+      elixir_golem_damage: '131'
+      elixir_golem_damage_per_second: '119'
+    - level: '5'
+      elixir_golem_hitpoints: '894'
+      elixir_golem_damage: '144'
+      elixir_golem_damage_per_second: '130'
+    - level: '6'
+      elixir_golem_hitpoints: '980'
+      elixir_golem_damage: '158'
+      elixir_golem_damage_per_second: '143'
+    - level: '7'
+      elixir_golem_hitpoints: '1078'
+      elixir_golem_damage: '174'
+      elixir_golem_damage_per_second: '158'
+    - level: '8'
+      elixir_golem_hitpoints: '1183'
+      elixir_golem_damage: '191'
+      elixir_golem_damage_per_second: '173'
+    - level: '9'
+      elixir_golem_hitpoints: '1299'
+      elixir_golem_damage: '209'
+      elixir_golem_damage_per_second: '189'
+    - level: '10'
+      elixir_golem_hitpoints: '1428'
+      elixir_golem_damage: '230'
+      elixir_golem_damage_per_second: '209'
+    - level: '11'
+      elixir_golem_hitpoints: '1569'
+      elixir_golem_damage: '253'
+      elixir_golem_damage_per_second: '229'
+    - level: '12'
+      elixir_golem_hitpoints: '1722'
+      elixir_golem_damage: '278'
+      elixir_golem_damage_per_second: '252'
+    - level: '13'
+      elixir_golem_hitpoints: '1894'
+      elixir_golem_damage: '305'
+      elixir_golem_damage_per_second: '277'
+    - level: '14'
+      elixir_golem_hitpoints: '2078'
+      elixir_golem_damage: '335'
+      elixir_golem_damage_per_second: '304'
+    - level: '15'
+      elixir_golem_hitpoints: '2280'
+      elixir_golem_damage: '368'
+      elixir_golem_damage_per_second: '334'
+    - level: '16'
+      elixir_golem_hitpoints: '2507'
+      elixir_golem_damage: '404'
+      elixir_golem_damage_per_second: '367'
+- name: 小圣水戈仑
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.8 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.8)
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '2'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: elixir_golemite_hitpoints
+      label: 生命值
+    - key: elixir_golemite_damage
+      label: 伤害
+    - key: elixir_golemite_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      elixir_golemite_hitpoints: '360'
+      elixir_golemite_damage: '60'
+      elixir_golemite_damage_per_second: '54'
+    - level: '4'
+      elixir_golemite_hitpoints: '396'
+      elixir_golemite_damage: '66'
+      elixir_golemite_damage_per_second: '59'
+    - level: '5'
+      elixir_golemite_hitpoints: '435'
+      elixir_golemite_damage: '73'
+      elixir_golemite_damage_per_second: '66'
+    - level: '6'
+      elixir_golemite_hitpoints: '476'
+      elixir_golemite_damage: '80'
+      elixir_golemite_damage_per_second: '72'
+    - level: '7'
+      elixir_golemite_hitpoints: '524'
+      elixir_golemite_damage: '88'
+      elixir_golemite_damage_per_second: '80'
+    - level: '8'
+      elixir_golemite_hitpoints: '575'
+      elixir_golemite_damage: '96'
+      elixir_golemite_damage_per_second: '87'
+    - level: '9'
+      elixir_golemite_hitpoints: '631'
+      elixir_golemite_damage: '106'
+      elixir_golemite_damage_per_second: '96'
+    - level: '10'
+      elixir_golemite_hitpoints: '694'
+      elixir_golemite_damage: '116'
+      elixir_golemite_damage_per_second: '105'
+    - level: '11'
+      elixir_golemite_hitpoints: '762'
+      elixir_golemite_damage: '128'
+      elixir_golemite_damage_per_second: '116'
+    - level: '12'
+      elixir_golemite_hitpoints: '837'
+      elixir_golemite_damage: '140'
+      elixir_golemite_damage_per_second: '127'
+    - level: '13'
+      elixir_golemite_hitpoints: '920'
+      elixir_golemite_damage: '154'
+      elixir_golemite_damage_per_second: '140'
+    - level: '14'
+      elixir_golemite_hitpoints: '1010'
+      elixir_golemite_damage: '169'
+      elixir_golemite_damage_per_second: '153'
+    - level: '15'
+      elixir_golemite_hitpoints: '1108'
+      elixir_golemite_damage: '186'
+      elixir_golemite_damage_per_second: '169'
+    - level: '16'
+      elixir_golemite_hitpoints: '1218'
+      elixir_golemite_damage: '204'
+      elixir_golemite_damage_per_second: '185'
+- name: 圣水泡泡
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.8 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.8)
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '4'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: elixir_blob_hitpoints
+      label: 生命值
+    - key: elixir_blob_damage
+      label: 伤害
+    - key: elixir_blob_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      elixir_blob_hitpoints: '170'
+      elixir_blob_damage: '30'
+      elixir_blob_damage_per_second: '27'
+    - level: '4'
+      elixir_blob_hitpoints: '187'
+      elixir_blob_damage: '33'
+      elixir_blob_damage_per_second: '29'
+    - level: '5'
+      elixir_blob_hitpoints: '205'
+      elixir_blob_damage: '36'
+      elixir_blob_damage_per_second: '32'
+    - level: '6'
+      elixir_blob_hitpoints: '225'
+      elixir_blob_damage: '40'
+      elixir_blob_damage_per_second: '36'
+    - level: '7'
+      elixir_blob_hitpoints: '248'
+      elixir_blob_damage: '44'
+      elixir_blob_damage_per_second: '40'
+    - level: '8'
+      elixir_blob_hitpoints: '272'
+      elixir_blob_damage: '48'
+      elixir_blob_damage_per_second: '43'
+    - level: '9'
+      elixir_blob_hitpoints: '298'
+      elixir_blob_damage: '53'
+      elixir_blob_damage_per_second: '48'
+    - level: '10'
+      elixir_blob_hitpoints: '328'
+      elixir_blob_damage: '58'
+      elixir_blob_damage_per_second: '52'
+    - level: '11'
+      elixir_blob_hitpoints: '360'
+      elixir_blob_damage: '64'
+      elixir_blob_damage_per_second: '58'
+    - level: '12'
+      elixir_blob_hitpoints: '396'
+      elixir_blob_damage: '70'
+      elixir_blob_damage_per_second: '63'
+    - level: '13'
+      elixir_blob_hitpoints: '435'
+      elixir_blob_damage: '77'
+      elixir_blob_damage_per_second: '70'
+    - level: '14'
+      elixir_blob_hitpoints: '477'
+      elixir_blob_damage: '84'
+      elixir_blob_damage_per_second: '76'
+    - level: '15'
+      elixir_blob_hitpoints: '524'
+      elixir_blob_damage: '93'
+      elixir_blob_damage_per_second: '84'
+    - level: '16'
+      elixir_blob_hitpoints: '576'
+      elixir_blob_damage: '102'
+      elixir_blob_damage_per_second: '92'
+balance_history:
+- date: '2025-03-31'
+  type: adjustment
+  summary: 圣水戈仑生命值提高约 0.06%、伤害降低约 0.39%；小圣水戈仑生命值降低约 0.13%、伤害提高约 0.78%；圣水泡泡伤害提高约 1.58%，并修复受皇家大厨强化后不分裂的问题。
+- date: '2023-06-30'
+  type: adjustment
+  summary: 修复部分情况下被消灭后没有向对手返还圣水的问题。
+- date: '2022-10-04'
+  type: buff
+  summary: 所有形态攻击间隔从 1.3 秒缩短至 1.1 秒，首次攻击间隔从 1 秒调整为 0.8 秒。
+- date: '2022-08-02'
+  type: adjustment
+  summary: 圣水戈仑生命值提高 9%，小圣水戈仑生命值提高 6%；返费改为本体 1 点、每个小戈仑 0.5 点、每个泡泡 0.5 点，总返费仍为 4 点。
+- date: '2021-06-07'
+  type: adjustment
+  summary: 解锁竞技场从电磁峡谷调整至宁静圣殿。
+- date: '2020-01-07'
+  type: nerf
+  summary: 三种形态生命值均降低 6%。
+- date: '2019-12-02'
+  type: adjustment
+  summary: 三种形态的攻击间隔统一为 1.3 秒，提高本体和小戈仑输出，但降低圣水泡泡的每秒伤害。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页面加入圣水戈仑立绘。
+- date: '2019-11-04'
+  type: release
+  summary: 圣水戈仑正式发布，三种形态生命值同时降低 10%。

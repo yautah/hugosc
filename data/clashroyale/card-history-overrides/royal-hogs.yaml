@@ -1,0 +1,12 @@
+source_url: https://clashroyale.fandom.com/wiki/Royal_Hogs
+items:
+  - { date: '2025-11-03', type: evolution, summary: 觉醒皇家野猪正式加入游戏。 }
+  - { date: '2022-10-04', type: nerf, summary: 首次攻击间隔从 0.25 秒延长至 0.4 秒。 }
+  - { date: '2022-02-03', type: nerf, summary: 伤害降低 3%。 }
+  - { date: '2021-09-06', type: buff, summary: 伤害提高 6%。 }
+  - { date: '2020-02-04', type: buff, summary: 伤害提高 6%。 }
+  - { date: '2019-11-26', type: visual, summary: 卡牌信息页面加入角色立绘。 }
+  - { date: '2018-11-05', type: nerf, summary: '伤害降低 6%，单位质量从 4 降至 2，更容易被其他单位推动。' }
+  - { date: '2018-09-03', type: nerf, summary: '攻击间隔从 1.1 秒延长至 1.2 秒，首次攻击间隔从 0.1 秒延长至 0.25 秒。' }
+  - { date: '2018-08-06', type: buff, summary: 首次攻击间隔从 0.75 秒缩短至 0.1 秒。 }
+  - { date: '2018-06-20', type: release, summary: 皇家野猪正式加入游戏。 }

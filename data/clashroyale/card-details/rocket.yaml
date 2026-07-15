@@ -1,0 +1,89 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 火箭
+  kind: main
+  mechanics:
+  - key: radius
+    label: 作用半径
+    value: '2'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    rows:
+    - level: '3'
+      area_damage: '692'
+      crown_tower_damage: '173'
+    - level: '4'
+      area_damage: '762'
+      crown_tower_damage: '190'
+    - level: '5'
+      area_damage: '838'
+      crown_tower_damage: '209'
+    - level: '6'
+      area_damage: '921'
+      crown_tower_damage: '230'
+    - level: '7'
+      area_damage: '1014'
+      crown_tower_damage: '253'
+    - level: '8'
+      area_damage: '1115'
+      crown_tower_damage: '279'
+    - level: '9'
+      area_damage: '1226'
+      crown_tower_damage: '307'
+    - level: '10'
+      area_damage: '1349'
+      crown_tower_damage: '337'
+    - level: '11'
+      area_damage: '1484'
+      crown_tower_damage: '371'
+    - level: '12'
+      area_damage: '1632'
+      crown_tower_damage: '408'
+    - level: '13'
+      area_damage: '1796'
+      crown_tower_damage: '449'
+    - level: '14'
+      area_damage: '1975'
+      crown_tower_damage: '494'
+    - level: '15'
+      area_damage: '2173'
+      crown_tower_damage: '543'
+    - level: '16'
+      area_damage: '2390'
+      crown_tower_damage: '597'
+balance_history:
+- date: '2023-02-07'
+  type: nerf
+  summary: 对皇家塔伤害比例从 30% 降至 25%。
+- date: '2020-08-04'
+  type: nerf
+  summary: 对皇家塔伤害比例从 35% 降至 30%。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页面加入火箭的卡牌形象。
+- date: '2018-04-25'
+  type: adjustment
+  summary: 允许直接在河道区域施放。
+- date: '2017-12-12'
+  type: nerf
+  summary: 对皇家塔伤害比例从 40% 降至 35%。
+- date: '2017-03-13'
+  type: adjustment
+  summary: 修复火箭同时命中两只冰人时造成双倍伤害的问题。
+- date: '2016-02-19'
+  type: nerf
+  summary: 对皇家塔伤害比例从 50% 降至 40%。
+- date: '2016-01-04'
+  type: release
+  summary: 火箭随游戏首发加入。

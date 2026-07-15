@@ -1,0 +1,13 @@
+source_url: https://clashroyale.fandom.com/wiki/Giant_Snowball
+items:
+  - { date: '2025-10-06', type: nerf, summary: '减速幅度从 35% 降至 30%。' }
+  - { date: '2024-12-02', type: evolution, summary: '大雪球觉醒形态正式上线。' }
+  - { date: '2023-10-03', type: adjustment, summary: '减速持续时间从 2.5 秒延长至 3 秒，伤害降低 6.7%。' }
+  - { date: '2023-03-27', type: buff, summary: '反弹判定半径从 0.6 格提高至 0.7 格。' }
+  - { date: '2021-09-06', type: buff, summary: '击退距离从 1.5 格提高至 1.8 格。' }
+  - { date: '2020-08-04', type: nerf, summary: '对皇家塔伤害比例从 35% 降至 30%。' }
+  - { date: '2019-10-07', type: nerf, summary: '击退距离从 1.8 格缩短至 1.5 格。' }
+  - { date: '2019-07-01', type: nerf, summary: '作用半径从 3 格缩短至 2.5 格。' }
+  - { date: '2018-12-03', type: buff, summary: '伤害提高 14%。' }
+  - { date: '2018-10-01', type: buff, summary: '减速持续时间从 2 秒延长至 2.5 秒，伤害提高 10%。' }
+  - { date: '2018-06-20', type: release, summary: '大雪球正式加入游戏。' }

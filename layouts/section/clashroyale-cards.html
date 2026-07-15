@@ -1,0 +1,83 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-clash-data.css" }}
+    {{ $css := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{- $data := site.Data.clashroyale.cards -}}
+<div class="sc-data-page">
+  <nav class="sc-data-breadcrumb" aria-label="面包屑">
+    <a href="/clashroyale/">皇室战争</a><span>/</span><span aria-current="page">卡牌百科</span>
+  </nav>
+
+  <header class="sc-data-hero">
+    <div>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.description }}</p>
+    </div>
+    <a class="sc-data-switch" href="/clashroyale/decks/">查看卡组榜单</a>
+  </header>
+
+  <section class="sc-data-browser" data-filter-root>
+    <div class="sc-filter-bar">
+      <label class="sc-filter-search">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+        <input type="search" aria-label="搜索卡牌" placeholder="搜索卡牌名称或定位" data-filter-search>
+      </label>
+      <label class="sc-filter-select sc-filter-type-select">类型
+        <select data-filter-select="type">
+          <option value="all">全部类型</option>
+          <option value="troop">部队</option>
+          <option value="spell">法术</option>
+          <option value="building">建筑</option>
+          <option value="tower_troop">皇家塔部队</option>
+        </select>
+      </label>
+      <div class="sc-filter-group" aria-label="按卡牌类型筛选" data-filter-group="type">
+        <button class="is-active" type="button" data-filter-value="all">全部类型</button>
+        <button type="button" data-filter-value="troop">部队</button>
+        <button type="button" data-filter-value="spell">法术</button>
+        <button type="button" data-filter-value="building">建筑</button>
+        <button type="button" data-filter-value="tower_troop">皇家塔部队</button>
+      </div>
+      <label class="sc-filter-select">圣水
+        <select data-filter-select="elixir">
+          <option value="all">不限</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+      </label>
+      <label class="sc-filter-select">稀有度
+        <select data-filter-select="rarity">
+          <option value="all">不限</option>
+          <option value="common">普通</option>
+          <option value="rare">稀有</option>
+          <option value="epic">史诗</option>
+          <option value="legendary">传奇</option>
+          <option value="champion">英雄</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="sc-data-status"><span data-result-count>{{ len $data.items }}</span> 张卡牌 · 数据核验于 {{ $data.meta.updated_at }}</div>
+    <div class="sc-card-grid">
+      {{ range $data.items }}{{ partial "clashroyale/card-tile.html" . }}{{ end }}
+    </div>
+    <p class="sc-filter-empty" data-filter-empty hidden>没有符合当前条件的卡牌。</p>
+  </section>
+
+  <aside class="sc-data-notice">
+    卡牌事实字段根据公开资料核验，中文定位与策略由超级细胞营地编辑维护。
+  </aside>
+  {{ with resources.Get "js/scbase-clash-data.js" }}
+    {{ $js := . | minify | fingerprint }}
+    <script src="{{ $js.RelPermalink }}" defer></script>
+  {{ end }}
+</div>
+{{ end }}

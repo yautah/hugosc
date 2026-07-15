@@ -1,0 +1,38 @@
+source_url: https://clashroyale.fandom.com/wiki/Elite_Barbarians
+items:
+  - date: '2021-09-02'
+    type: visual
+    summary: 调整卡牌插图和单位外观表现。
+  - date: '2021-06-07'
+    type: nerf
+    summary: 视野范围从 5.5 格提高至 6 格，使野蛮人精锐更容易被远处单位或建筑吸引。
+  - date: '2021-04-07'
+    type: nerf
+    summary: 首次攻击间隔从 0.4 秒延长至 0.5 秒。
+  - date: '2021-03-30'
+    type: adjustment
+    summary: 攻击间隔从 1.5 秒缩短至 1.4 秒，首次攻击间隔从 0.5 秒缩短至 0.4 秒。
+  - date: '2020-11-03'
+    type: adjustment
+    summary: 移动速度从极快降低至快，攻击间隔从 1.7 秒缩短至 1.5 秒；生命值提高 14%、伤害提高 5.5%，首次攻击间隔从 0.7 秒缩短至 0.5 秒。
+  - date: '2020-06-02'
+    type: adjustment
+    summary: 两个单位改为间隔 0.1 秒依次部署，避免完全重叠生成。
+  - date: '2019-07-01'
+    type: buff
+    summary: 攻击距离从 1 格提高至 1.2 格，并归类为近战：中。
+  - date: '2019-06-03'
+    type: adjustment
+    summary: 伤害提高 18%，攻击间隔从 1.5 秒延长至 1.7 秒，首次攻击间隔从 0.5 秒延长至 0.7 秒。
+  - date: '2017-04-19'
+    type: nerf
+    summary: 生命值降低 4%，首次攻击间隔从 0.4 秒延长至 0.5 秒。
+  - date: '2017-01-23'
+    type: nerf
+    summary: 生命值降低 4.4%、伤害降低 4%，攻击间隔从 1.4 秒延长至 1.5 秒。
+  - date: '2016-12-15'
+    type: buff
+    summary: 生命值提高 19%、伤害提高 14%，攻击间隔从 1.5 秒缩短至 1.4 秒。
+  - date: '2016-11-25'
+    type: release
+    summary: 野蛮人精锐正式加入游戏。

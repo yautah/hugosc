@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Elixir_Collector
+items:
+  - { date: '2025-11-03', type: adjustment, summary: 生产间隔由 12 秒延长至 13 秒，持续时间由 86 秒提高至 93 秒。 }
+  - { date: '2025-09-01', type: visual, summary: 新增卡牌信息界面立绘。 }
+  - { date: '2024-05-14', type: adjustment, summary: 生产间隔由 9 秒延长至 12 秒，持续时间由 65 秒提高至 86 秒。 }
+  - { date: '2022-04-04', type: adjustment, summary: '持续时间由 70 秒缩短至 65 秒，生产间隔由 8.5 秒延长至 9 秒，并新增被摧毁时产出 1 点圣水。' }
+  - { date: '2018-12-05', type: adjustment, summary: 圣水收集器不再出现在玩家起手四张卡牌中。 }
+  - { date: '2017-12-12', type: nerf, summary: 生命值降低 13%。 }
+  - { date: '2016-11-30', type: adjustment, summary: 生产间隔由 9.8 秒缩短至 8.5 秒，持续时间由 80 秒缩短至 70 秒。 }
+  - { date: '2016-10-20', type: adjustment, summary: 圣水费用由 5 点提高至 6 点，持续时间提高 10 秒，最多可生产 8 点圣水。 }
+  - { date: '2016-07-04', type: adjustment, summary: 冰冻、电击、狂暴和冰法师减速开始影响圣水生产速度。 }
+  - { date: '2016-05-18', type: nerf, summary: 生命值降低 9%。 }
+  - { date: '2016-05-03', type: nerf, summary: 生命值降低 20%。 }
+  - { date: '2016-02-02', type: adjustment, summary: 生产间隔调整为 9.8 秒，修复原本只能生产 6 点圣水的问题。 }
+  - { date: '2016-01-04', type: release, summary: 圣水收集器随《皇室战争》上线加入游戏。 }

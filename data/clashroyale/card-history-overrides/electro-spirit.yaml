@@ -1,0 +1,11 @@
+source_url: https://clashroyale.fandom.com/wiki/Electro_Spirit
+items:
+- date: '2025-12-01'
+  type: nerf
+  summary: 连锁攻击的投射物速度从 2000 降低至 1000。
+- date: '2022-10-26'
+  type: adjustment
+  summary: 修复电磁炮在被渔夫钩中期间遭雷电精灵命中时，蓄力没有正确重置的问题。
+- date: '2020-11-02'
+  type: release
+  summary: 雷电精灵正式加入游戏。

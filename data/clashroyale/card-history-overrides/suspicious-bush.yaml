@@ -1,0 +1,7 @@
+source_url: https://clashroyale.fandom.com/wiki/Suspicious_Bush
+items:
+  - { date: '2026-04-06', type: nerf, summary: 草丛触发距离从近战短距离 0.5 格调整为近战长距离 1.6 格，使哥布林在离建筑更远的位置出现。 }
+  - { date: '2025-04-09', type: buff, summary: 草丛哥布林伤害提高 12%。 }
+  - { date: '2024-10-30', type: adjustment, summary: 解锁竞技场从派对海滩调整至淘气岭。 }
+  - { date: '2024-10-08', type: buff, summary: 草丛移动速度从慢速 45 提高至中等 60。 }
+  - { date: '2024-07-30', type: release, summary: 可疑草丛正式加入游戏。 }

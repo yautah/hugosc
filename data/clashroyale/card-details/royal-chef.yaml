@@ -1,0 +1,92 @@
+---
+release_date: '2024-12-16'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 皇家大厨
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.8 秒
+  - key: range
+    label: 攻击距离
+    value: '7.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: cooking_speed
+    label: 烹饪·烹饪间隔
+    value: 23-38 秒
+  - key: time_before_cooking
+    label: 烹饪·首次烹饪时间
+    value: 7 秒
+  - key: buff_threshold
+    label: 烹饪·增益触发阈值
+    value: 33%
+  - key: level_increase
+    label: 烹饪·提升等级
+    value: "+1"
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      hitpoints: '2244'
+      damage: '90'
+      damage_per_second: '90'
+    - level: '10'
+      hitpoints: '2467'
+      damage: '99'
+      damage_per_second: '99'
+    - level: '11'
+      hitpoints: '2703'
+      damage: '109'
+      damage_per_second: '109'
+    - level: '12'
+      hitpoints: '2963'
+      damage: '119'
+      damage_per_second: '119'
+    - level: '13'
+      hitpoints: '3248'
+      damage: '131'
+      damage_per_second: '131'
+    - level: '14'
+      hitpoints: '3571'
+      damage: '144'
+      damage_per_second: '144'
+    - level: '15'
+      hitpoints: '3918'
+      damage: '158'
+      damage_per_second: '158'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 生命值降低 7%。
+- date: '2025-08-04'
+  type: nerf
+  summary: 烹饪时间由 21 至 35 秒延长至 23 至 38 秒。
+- date: '2025-05-05'
+  type: buff
+  summary: 生命值提高 8%。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修复被强化母单位死亡后子单位无法生成的问题，并允许强化突袭单位和地下状态的神威矿工。
+- date: '2025-03-04'
+  type: buff
+  summary: 烹饪时间由 24 至 40 秒缩短至 21 至 35 秒。
+- date: '2025-02-04'
+  type: nerf
+  summary: 烹饪时间由 18 至 30 秒延长至 24 至 40 秒，攻击间隔由 0.9 秒延长至 1 秒，强化触发阈值由 20% 提高至 33%，并在皇家塔被摧毁后降低烹饪速度。
+- date: '2024-12-16'
+  type: release
+  summary: 皇家大厨正式加入游戏。

@@ -1,0 +1,12 @@
+source_url: https://clashroyale.fandom.com/wiki/Earthquake
+items:
+  - { date: '2025-03-31', type: buff, summary: '伤害提高 2.43%。' }
+  - { date: '2025-02-04', type: adjustment, summary: '伐木工幽灵改为免疫地震法术。' }
+  - { date: '2024-10-02', type: buff, summary: '悬浮地面单位不再免疫地震法术。' }
+  - { date: '2022-04-28', type: visual, summary: '卡牌信息页面加入地震法术的卡牌形象。' }
+  - { date: '2022-04-08', type: nerf, summary: '对皇家塔伤害比例从普通单位伤害的 85% 降至 65%。' }
+  - { date: '2021-02-11', type: adjustment, summary: '对皇家塔伤害调整为普通单位伤害的 85%，对普通建筑倍率从 200% 提高至 250%。' }
+  - { date: '2020-06-02', type: adjustment, summary: '移动减速从 35% 提高至 50%，移除攻击速度和生成速度减速。' }
+  - { date: '2020-05-05', type: adjustment, summary: '伤害提高 11%，对建筑伤害倍率从 300% 降至 200%。' }
+  - { date: '2020-03-03', type: buff, summary: '现在可以命中隐藏状态的特斯拉电磁塔。' }
+  - { date: '2019-04-15', type: release, summary: '地震法术正式加入游戏。' }

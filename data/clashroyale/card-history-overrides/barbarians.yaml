@@ -1,0 +1,38 @@
+source_url: https://clashroyale.fandom.com/wiki/Barbarians
+items:
+  - date: '2025-03-31'
+    type: adjustment
+    summary: 修复部署阵型未能根据竞技场左右侧正确镜像的问题。
+  - date: '2023-06-19'
+    type: evolution
+    summary: 野蛮人觉醒上线，同时更换卡牌图片。
+  - date: '2022-09-02'
+    type: visual
+    summary: 撤销 8 月 1 日启用的像素风卡牌图片，恢复此前版本。
+  - date: '2022-08-01'
+    type: visual
+    summary: 卡牌图片临时更换为像素风版本。
+  - date: '2022-06-07'
+    type: buff
+    summary: 攻击间隔从 1.4 秒缩短至 1.3 秒。
+  - date: '2020-06-02'
+    type: buff
+    summary: 五名野蛮人依次登场的间隔从 0.15 秒缩短至 0.1 秒。
+  - date: '2019-03-04'
+    type: adjustment
+    summary: 生命值降低 13%，单位数量从 4 增加至 5，并加入每名单位相隔 0.15 秒登场的部署机制。
+  - date: '2018-06-04'
+    type: adjustment
+    summary: 攻击间隔从 1.5 秒缩短至 1.4 秒，同时增大部署后各单位之间的距离。
+  - date: '2016-05-03'
+    type: adjustment
+    summary: 修正攻击距离计算问题，面板攻击距离从 1.2 格调整为 0.7 格，实际有效距离保持不变。
+  - date: '2016-02-29'
+    type: buff
+    summary: 视野距离从 6 格缩短至 5.5 格，使野蛮人更晚锁定远处目标。
+  - date: '2016-02-02'
+    type: nerf
+    summary: 生命值降低 3%。
+  - date: '2016-01-04'
+    type: release
+    summary: 野蛮人随《皇室战争》上线加入游戏。

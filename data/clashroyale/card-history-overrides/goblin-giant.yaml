@@ -1,0 +1,18 @@
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Giant
+items:
+  - { date: '2026-06-01', type: buff, summary: '11 级生命值从约 3020 提高至 3110，提升约 3%。' }
+  - { date: '2025-10-06', type: nerf, summary: '生命值降低 7%；背包投矛手首次攻击间隔延长至 0.5 秒，攻击距离缩短至 5 格。' }
+  - { date: '2025-08-04', type: nerf, summary: '哥布林投矛手首次攻击间隔延长至 0.5 秒，攻击距离缩短至 5 格。' }
+  - { date: '2024-07-01', type: evolution, summary: '哥布林巨人的觉醒形态正式上线。' }
+  - { date: '2024-06-17', type: buff, summary: '背包投矛手首次攻击间隔从 0.5 秒缩短至 0.3 秒。' }
+  - { date: '2024-03-05', type: nerf, summary: '生命值降低 3.2%。' }
+  - { date: '2023-12-13', type: nerf, summary: '背包投矛手攻击间隔从 1.5 秒延长至 1.7 秒。' }
+  - { date: '2023-08-08', type: buff, summary: '生命值提高 6%。' }
+  - { date: '2023-04-04', type: buff, summary: '哥布林投矛手攻击距离从 5 格提高至 5.5 格。' }
+  - { date: '2023-02-07', type: buff, summary: '背包投矛手攻击间隔从 1.7 秒缩短至 1.5 秒。' }
+  - { date: '2020-12-09', type: buff, summary: '本体攻击间隔从 1.7 秒缩短至 1.5 秒，首次攻击间隔从 1 秒缩短至 0.8 秒。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2019-07-01', type: adjustment, summary: '攻击距离从 1.25 格调整为近战：中 1.2 格。' }
+  - { date: '2019-01-07', type: buff, summary: '生命值提高 3%，背包投矛手攻击距离从 5 格提高至 5.5 格。' }
+  - { date: '2018-10-01', type: buff, summary: '生命值提高 6%。' }
+  - { date: '2018-09-05', type: release, summary: '哥布林巨人正式加入游戏。' }

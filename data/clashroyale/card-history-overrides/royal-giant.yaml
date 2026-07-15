@@ -1,0 +1,13 @@
+source_url: https://clashroyale.fandom.com/wiki/Royal_Giant
+items:
+- { date: '2024-05-14', type: buff, summary: '生命值提高 3%。' }
+- { date: '2023-06-19', type: evolution, summary: '觉醒皇家巨人正式上线，皇家巨人获得觉醒形态。' }
+- { date: '2022-09-02', type: visual, summary: '更换皇家巨人的卡牌图片，并在卡牌信息界面增加新立绘。' }
+- { date: '2021-09-06', type: nerf, summary: '首次攻击间隔从 0.7 秒延长至 0.9 秒。' }
+- { date: '2018-10-01', type: adjustment, summary: '攻击距离从 6.5 格缩短至 5 格，伤害提高 60%，部署时间从 2 秒缩短至 1 秒。' }
+- { date: '2017-04-19', type: nerf, summary: '部署时间从 1 秒延长至 2 秒。' }
+- { date: '2016-08-24', type: nerf, summary: '攻击间隔从 1.5 秒延长至 1.7 秒，首次攻击间隔从 0.5 秒延长至 0.7 秒。' }
+- { date: '2016-05-18', type: nerf, summary: '伤害降低 4%。' }
+- { date: '2016-05-03', type: buff, summary: '修复攻击距离问题，有效射程从 6 格提高至 6.5 格。' }
+- { date: '2016-03-23', type: buff, summary: '伤害提高 20%。' }
+- { date: '2016-02-29', type: release, summary: '皇家巨人正式加入游戏。' }

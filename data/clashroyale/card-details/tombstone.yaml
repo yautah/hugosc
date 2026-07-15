@@ -1,0 +1,210 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 骷髅墓碑
+  kind: main
+  mechanics:
+  - key: spawn_speed
+    label: 生成间隔
+    value: 4 秒
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: lifetime
+    label: 持续时间
+    value: 30 秒
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: hitpoints_lost_per_second
+      label: 每秒损失生命值
+    rows:
+    - level: '3'
+      hitpoints: '247'
+      hitpoints_lost_per_second: '8.2'
+    - level: '4'
+      hitpoints: '271'
+      hitpoints_lost_per_second: '9'
+    - level: '5'
+      hitpoints: '299'
+      hitpoints_lost_per_second: '10'
+    - level: '6'
+      hitpoints: '328'
+      hitpoints_lost_per_second: '10.9'
+    - level: '7'
+      hitpoints: '361'
+      hitpoints_lost_per_second: '12'
+    - level: '8'
+      hitpoints: '397'
+      hitpoints_lost_per_second: '13.2'
+    - level: '9'
+      hitpoints: '437'
+      hitpoints_lost_per_second: '14.6'
+    - level: '10'
+      hitpoints: '481'
+      hitpoints_lost_per_second: '16'
+    - level: '11'
+      hitpoints: '529'
+      hitpoints_lost_per_second: '17.6'
+    - level: '12'
+      hitpoints: '582'
+      hitpoints_lost_per_second: '19.4'
+    - level: '13'
+      hitpoints: '640'
+      hitpoints_lost_per_second: '21.3'
+    - level: '14'
+      hitpoints: '704'
+      hitpoints_lost_per_second: '23.5'
+    - level: '15'
+      hitpoints: '775'
+      hitpoints_lost_per_second: '25.8'
+    - level: '16'
+      hitpoints: '852'
+      hitpoints_lost_per_second: '28.4'
+- name: 骷髅兵
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.5)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints_2
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      hitpoints_2: '38'
+      damage: '38'
+      damage_per_second: '34'
+    - level: '4'
+      hitpoints_2: '42'
+      damage: '42'
+      damage_per_second: '38'
+    - level: '5'
+      hitpoints_2: '46'
+      damage: '46'
+      damage_per_second: '41'
+    - level: '6'
+      hitpoints_2: '50'
+      damage: '50'
+      damage_per_second: '45'
+    - level: '7'
+      hitpoints_2: '55'
+      damage: '55'
+      damage_per_second: '49'
+    - level: '8'
+      hitpoints_2: '61'
+      damage: '61'
+      damage_per_second: '55'
+    - level: '9'
+      hitpoints_2: '67'
+      damage: '67'
+      damage_per_second: '60'
+    - level: '10'
+      hitpoints_2: '74'
+      damage: '74'
+      damage_per_second: '67'
+    - level: '11'
+      hitpoints_2: '81'
+      damage: '81'
+      damage_per_second: '73'
+    - level: '12'
+      hitpoints_2: '89'
+      damage: '89'
+      damage_per_second: '80'
+    - level: '13'
+      hitpoints_2: '98'
+      damage: '98'
+      damage_per_second: '89'
+    - level: '14'
+      hitpoints_2: '108'
+      damage: '108'
+      damage_per_second: '98'
+    - level: '15'
+      hitpoints_2: '119'
+      damage: '119'
+      damage_per_second: '108'
+    - level: '16'
+      hitpoints_2: '130'
+      damage: '130'
+      damage_per_second: '118'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 骷髅兵攻击间隔由 1 秒延长至 1.1 秒。
+- date: '2025-08-04'
+  type: adjustment
+  summary: 被骷髅兵击倒的单位不再为觉醒女巫提供治疗。
+- date: '2025-03-31'
+  type: nerf
+  summary: 生命值小幅降低。
+- date: '2022-06-03'
+  type: visual
+  summary: 新增卡牌信息界面立绘。
+- date: '2022-04-04'
+  type: nerf
+  summary: 生成间隔由 3.3 秒延长至 3.5 秒。
+- date: '2021-12-07'
+  type: adjustment
+  summary: 持续时间由 40 秒缩短至 30 秒，生成间隔由 3.1 秒延长至 3.3 秒，每波生成数量由 1 名提高至 2 名。
+- date: '2021-09-06'
+  type: buff
+  summary: 被摧毁时生成的骷髅兵由 3 名提高至 4 名。
+- date: '2020-11-03'
+  type: buff
+  summary: 生命值提高 4%。
+- date: '2018-11-05'
+  type: nerf
+  summary: 生成间隔由 2.95 秒延长至 3.1 秒，被摧毁时生成的骷髅兵由 4 名减少至 3 名。
+- date: '2016-11-30'
+  type: nerf
+  summary: 生成间隔由 2.55 秒延长至 2.95 秒。
+- date: '2016-08-24'
+  type: buff
+  summary: 生成间隔由 2.95 秒缩短至 2.55 秒。
+- date: '2016-07-04'
+  type: buff
+  summary: 生命值提高 9%。
+- date: '2016-05-18'
+  type: buff
+  summary: 墓碑生命值提高 10%，骷髅兵生命值和伤害提高 5%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 骷髅兵面板攻击距离由 0.75 格调整为 0.5 格，实际有效距离不变。
+- date: '2016-02-29'
+  type: buff
+  summary: 骷髅兵视野距离由 6 格缩短至 5.5 格。
+- date: '2016-02-19'
+  type: adjustment
+  summary: 持续时间由 60 秒缩短至 40 秒，骷髅兵生命值和伤害提高 11%。
+- date: '2016-02-09'
+  type: nerf
+  summary: 被摧毁时生成的骷髅兵由 6 名减少至 4 名。
+- date: '2016-01-04'
+  type: release
+  summary: 骷髅墓碑随《皇室战争》上线加入游戏。

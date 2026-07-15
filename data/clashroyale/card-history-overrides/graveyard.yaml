@@ -1,0 +1,14 @@
+source_url: https://clashroyale.fandom.com/wiki/Graveyard
+items:
+  - { date: '2025-10-06', type: nerf, summary: '生成骷髅兵攻击间隔从 1 秒延长至 1.1 秒。' }
+  - { date: '2025-08-04', type: adjustment, summary: '觉醒女巫不再因骷髅召唤生成的骷髅兵阵亡而获得治疗。' }
+  - { date: '2024-03-05', type: nerf, summary: '持续时间从 9.5 秒缩短至 9 秒。' }
+  - { date: '2022-06-03', type: visual, summary: '卡牌信息页面加入骷髅召唤形象。' }
+  - { date: '2022-04-04', type: nerf, summary: '持续时间从 10 秒缩短至 9.5 秒。' }
+  - { date: '2020-12-09', type: nerf, summary: '首次生成时间从 2 秒延长至 2.2 秒。' }
+  - { date: '2020-11-18', type: adjustment, summary: '撤销当月早些时候的生成内圈扩大，最小生成半径恢复为 3 格。' }
+  - { date: '2020-11-03', type: nerf, summary: '最小生成半径从 3 格提高至 3.5 格。' }
+  - { date: '2018-04-25', type: adjustment, summary: '允许直接在河道区域施放。' }
+  - { date: '2017-10-09', type: adjustment, summary: '持续时间恢复至 10 秒，半径从 5 格缩短至 4 格，首次生成延长至 2 秒，骷髅改为沿边缘生成。' }
+  - { date: '2017-08-11', type: nerf, summary: '持续时间从 10 秒缩短至 9 秒。' }
+  - { date: '2016-10-28', type: release, summary: '骷髅召唤正式加入游戏。' }

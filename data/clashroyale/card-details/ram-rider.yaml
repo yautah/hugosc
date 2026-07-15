@@ -1,0 +1,185 @@
+---
+release_date: '2018-12-24'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 攻城槌
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.8 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.6 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.8)
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: speed
+    label: 冲锋·移动速度
+    value: 极快 (120)
+  - key: charge_range
+    label: 冲锋·冲锋距离
+    value: '2.5'
+  - key: target
+    label: 冲锋·攻击目标
+    value: 建筑
+  - key: transport
+    label: 冲锋·移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: ram_damage
+      label: 伤害
+    - key: ram_charge_damage
+      label: 冲锋伤害
+    - key: ram_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      hitpoints: '1405'
+      ram_damage: '207'
+      ram_charge_damage: '415'
+      ram_damage_per_second: '115'
+    - level: '10'
+      hitpoints: '1544'
+      ram_damage: '228'
+      ram_charge_damage: '456'
+      ram_damage_per_second: '126'
+    - level: '11'
+      hitpoints: '1697'
+      ram_damage: '250'
+      ram_charge_damage: '501'
+      ram_damage_per_second: '138'
+    - level: '12'
+      hitpoints: '1863'
+      ram_damage: '275'
+      ram_charge_damage: '550'
+      ram_damage_per_second: '152'
+    - level: '13'
+      hitpoints: '2048'
+      ram_damage: '302'
+      ram_charge_damage: '605'
+      ram_damage_per_second: '167'
+    - level: '14'
+      hitpoints: '2247'
+      ram_damage: '332'
+      ram_charge_damage: '664'
+      ram_damage_per_second: '184'
+    - level: '15'
+      hitpoints: '2466'
+      ram_damage: '364'
+      ram_charge_damage: '729'
+      ram_damage_per_second: '202'
+- name: 骑手
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.4 秒
+  - key: snare_duration
+    label: 束缚持续时间
+    value: 2 秒
+  - key: slowdown
+    label: 减速幅度
+    value: "-70%"
+  - key: range
+    label: 攻击距离
+    value: '5.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '600'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面 (仅部队)
+  - key: count
+    label: 单位数量
+    value: '1'
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: rider_damage
+      label: 伤害
+    - key: rider_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      rider_damage: '86'
+      rider_damage_per_second: '78'
+    - level: '10'
+      rider_damage: '95'
+      rider_damage_per_second: '86'
+    - level: '11'
+      rider_damage: '104'
+      rider_damage_per_second: '94'
+    - level: '12'
+      rider_damage: '115'
+      rider_damage_per_second: '104'
+    - level: '13'
+      rider_damage: '126'
+      rider_damage_per_second: '114'
+    - level: '14'
+      rider_damage: '138'
+      rider_damage_per_second: '125'
+    - level: '15'
+      rider_damage: '152'
+      rider_damage_per_second: '138'
+balance_history:
+- date: '2026-07-06'
+  type: buff
+  summary: 11 级生命值从 1697 提高至 1766。
+- date: '2025-10-06'
+  type: nerf
+  summary: 触发冲锋所需距离从 2 格提高至 2.5 格。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 生命值因数值取整提高约 0.05%，冲锋伤害提高约 0.2%，并允许受到狂暴攻速影响。
+- date: '2025-01-08'
+  type: nerf
+  summary: 生命值降低 4%。
+- date: '2024-11-14'
+  type: nerf
+  summary: 普通伤害和冲锋伤害降低 6%。
+- date: '2024-07-02'
+  type: nerf
+  summary: 触发冲锋所需距离从 1.5 格提高至 2 格。
+- date: '2024-06-17'
+  type: buff
+  summary: 触发冲锋所需距离从 3 格缩短至 1.5 格。
+- date: '2022-08-02'
+  type: buff
+  summary: 触发冲锋所需距离从 3.5 格缩短至 3 格。
+- date: '2022-04-04'
+  type: nerf
+  summary: 套索移动减速从 85% 降至 70%。
+- date: '2019-05-17'
+  type: visual
+  summary: 更换卡牌图片。
+- date: '2019-04-01'
+  type: nerf
+  summary: 套索移动减速从完全停止调整为 85%。
+- date: '2018-12-24'
+  type: release
+  summary: 蛮羊骑士正式加入游戏。

@@ -1,0 +1,50 @@
+meta:
+  updated_at: "2026-07-15"
+  status: prototype
+  methodology: "编辑样例，不代表实时强度或使用率排名"
+items:
+  - id: hog-cycle-classic
+    slug: hog-cycle-classic
+    name: "经典野猪速转"
+    archetype: cycle
+    difficulty: advanced
+    modes: ["天梯", "经典挑战"]
+    cards: [hog-rider, musketeer, cannon, fireball, the-log, ice-golem, skeletons, ice-spirit]
+    average_elixir: 2.6
+    cycle_elixir: 6
+    summary: "以低费防守和快速循环不断制造野猪骑士的进攻窗口。"
+    strengths: ["循环速度快", "防守结构清晰", "适合练习基本功"]
+    weaknesses: ["容错率较低", "需要准确计算对手法术和建筑"]
+    status: evergreen
+    detail_url: "/clashroyale/decks/hog-cycle-classic/"
+    updated_at: "2026-07-15"
+  - id: royal-giant-fisherman
+    slug: royal-giant-fisherman
+    name: "皇家巨人渔夫控制"
+    archetype: control
+    difficulty: intermediate
+    modes: ["天梯", "终极挑战"]
+    cards: [royal-giant, fisherman, hunter, royal-ghost, lightning, the-log, electro-spirit, skeletons]
+    average_elixir: 3.3
+    cycle_elixir: 7
+    summary: "先用渔夫和猎人建立防守优势，再以皇家巨人组织反击。"
+    strengths: ["防守反击稳定", "对高血量单位有较强处理能力"]
+    weaknesses: ["重法术使用失误代价高", "核心防守卡需要保留"]
+    status: editorial
+    guide_url: "/posts/clashroyale/2026/05/clash-royale-deck-archetypes/"
+    updated_at: "2026-07-15"
+  - id: classic-log-bait
+    slug: classic-log-bait
+    name: "经典滚木诱饵"
+    archetype: bait
+    difficulty: advanced
+    modes: ["天梯", "经典挑战"]
+    cards: [goblin-barrel, princess, knight, inferno-tower, rocket, the-log, ice-spirit, goblin-gang]
+    average_elixir: 3.3
+    cycle_elixir: 9
+    summary: "通过多张需要小法术处理的卡牌消耗对手，再寻找飞桶和火箭机会。"
+    strengths: ["持续施压能力强", "拥有明确的终结手段"]
+    weaknesses: ["依赖法术跟踪", "面对多小法术阵容时难度提高"]
+    status: evergreen
+    guide_url: "/posts/clashroyale/2026/05/clash-royale-deck-archetypes/"
+    updated_at: "2026-07-15"

@@ -1,0 +1,73 @@
+key: cannon-evolution
+parent_key: cannon
+kind: evolution
+order: 2
+name: 觉醒加农炮
+label: 觉醒
+url: /clashroyale/cards/cannon/evolution/
+image: images/clashroyale/cards/variants/cannon-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Cannon/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-11-15'
+summary: 觉醒加农炮部署时会向周围发射九发炮弹，对范围内地面单位造成集中轰炸。
+facts:
+  - { label: 圣水, value: '3' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 弹幕数量, value: '9' }
+  - { label: 基础卡牌, value: 加农炮 }
+overview:
+  - 觉醒加农炮保留普通形态的持续输出和地面拉扯能力，部署时额外向半径两格范围发射九发炮弹。弹幕能快速削弱靠近落点的地面单位，为加农炮争取稳定开火的时间。
+  - 弹幕只在部署时触发，而且对皇冠塔伤害明显降低。若落点附近没有合适目标，觉醒收益就会被浪费；它仍然无法攻击空中单位，也会被远程部队和法术快速处理。
+units:
+  - name: 觉醒加农炮
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1 秒 }
+      - { label: 首次攻击间隔, value: 1 秒 }
+      - { label: 部署时间, value: 1 秒 }
+      - { label: 持续时间, value: 30 秒 }
+      - { label: 攻击距离, value: 5.5 格 }
+      - { label: 弹幕半径, value: 2 格 }
+      - { label: 弹幕数量, value: '9' }
+      - { label: 攻击目标, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: barrage_damage, label: 弹幕伤害 }
+        - { key: barrage_tower_damage, label: 弹幕皇冠塔伤害 }
+      rows:
+        - { level: '1', hitpoints: '318', damage: '82', damage_per_second: '82', barrage_damage: '117', barrage_tower_damage: '34' }
+        - { level: '2', hitpoints: '349', damage: '90', damage_per_second: '90', barrage_damage: '129', barrage_tower_damage: '38' }
+        - { level: '3', hitpoints: '384', damage: '99', damage_per_second: '99', barrage_damage: '142', barrage_tower_damage: '42' }
+        - { level: '4', hitpoints: '423', damage: '109', damage_per_second: '109', barrage_damage: '156', barrage_tower_damage: '46' }
+        - { level: '5', hitpoints: '465', damage: '120', damage_per_second: '120', barrage_damage: '172', barrage_tower_damage: '50' }
+        - { level: '6', hitpoints: '512', damage: '132', damage_per_second: '132', barrage_damage: '189', barrage_tower_damage: '55' }
+        - { level: '7', hitpoints: '563', damage: '145', damage_per_second: '145', barrage_damage: '208', barrage_tower_damage: '61' }
+        - { level: '8', hitpoints: '619', damage: '159', damage_per_second: '159', barrage_damage: '228', barrage_tower_damage: '67' }
+        - { level: '9', hitpoints: '681', damage: '175', damage_per_second: '175', barrage_damage: '251', barrage_tower_damage: '74' }
+        - { level: '10', hitpoints: '749', damage: '193', damage_per_second: '193', barrage_damage: '276', barrage_tower_damage: '81' }
+        - { level: '11', hitpoints: '824', damage: '212', damage_per_second: '212', barrage_damage: '304', barrage_tower_damage: '89' }
+        - { level: '12', hitpoints: '906', damage: '233', damage_per_second: '233', barrage_damage: '334', barrage_tower_damage: '98' }
+        - { level: '13', hitpoints: '997', damage: '257', damage_per_second: '257', barrage_damage: '368', barrage_tower_damage: '108' }
+        - { level: '14', hitpoints: '1097', damage: '282', damage_per_second: '282', barrage_damage: '405', barrage_tower_damage: '118' }
+        - { level: '15', hitpoints: '1206', damage: '310', damage_per_second: '310', barrage_damage: '445', barrage_tower_damage: '130' }
+        - { level: '16', hitpoints: '1327', damage: '341', damage_per_second: '341', barrage_damage: '490', barrage_tower_damage: '143' }
+usage_tips:
+  - 尽量让部署弹幕同时命中多个地面单位，再利用建筑位置完成后续拉扯。
+  - 面对单个高生命值目标时，把落点贴近其行进路线，确保九发炮弹尽可能集中命中。
+  - 不要为了皇冠塔伤害强行前置部署，弹幕对塔伤害较低，防守价值通常更高。
+matchups:
+  - { title: 适合应对, text: 适合处理靠近落点的地面人海和中型推进，弹幕可先削弱目标，再由本体持续输出。 }
+  - { title: 需要提防, text: 空中单位、远程高伤和法术仍能绕开或快速处理加农炮，分散目标也会降低弹幕集中伤害。 }
+  - { title: 搭配思路, text: 与减速、拉扯和击退效果配合，把更多地面单位聚到部署区域，提高弹幕命中率。 }
+balance_history:
+  - { date: '2025-12-01', type: nerf, summary: 弹幕伤害降低 8%。 }
+  - { date: '2025-10-06', type: nerf, summary: 弹幕伤害降低 14%。 }
+  - { date: '2025-05-05', type: nerf, summary: 弹幕半径由 2.5 格缩小至 2 格。 }
+  - { date: '2025-03-04', type: nerf, summary: 随基础卡牌调整，攻击间隔由 0.9 秒延长至 1 秒。 }
+  - { date: '2025-01-08', type: buff, summary: 弹幕伤害提高 10%。 }
+  - { date: '2024-11-15', type: evolution, summary: 觉醒加农炮正式上线。 }
+  - { date: '2024-11-14', type: nerf, summary: 弹幕对皇冠塔的伤害降低 75%。 }

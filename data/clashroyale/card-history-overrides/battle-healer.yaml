@@ -1,0 +1,11 @@
+source_url: https://clashroyale.fandom.com/wiki/Battle_Healer
+items:
+  - { date: '2025-03-31', type: buff, summary: '攻击治疗提高 0.99%，登场治疗提高 0.49%。' }
+  - { date: '2024-10-02', type: adjustment, summary: 战斗天使不再免疫地震法术和觉醒皇家巨人的后坐伤害。 }
+  - { date: '2024-06-19', type: nerf, summary: 移除脱离战斗时的被动自我治疗。 }
+  - { date: '2023-06-06', type: buff, summary: 新增登场治疗，部署时为附近友军恢复生命值。 }
+  - { date: '2020-11-18', type: adjustment, summary: '调整悬浮机制：不再穿过建筑、推动空中单位或在被击退至河道时反弹。' }
+  - { date: '2020-10-06', type: adjustment, summary: 获得悬浮移动能力，可以跨越河道，并改为与空中单位发生碰撞。 }
+  - { date: '2020-08-31', type: nerf, summary: 克隆生成的单位不再能被战斗天使治疗。 }
+  - { date: '2020-05-05', type: nerf, summary: 生命值降低 10%。 }
+  - { date: '2020-01-06', type: release, summary: 战斗天使正式加入游戏。 }

@@ -1,0 +1,63 @@
+key: goblin-barrel-evolution
+parent_key: goblin-barrel
+kind: evolution
+order: 2
+name: 觉醒哥布林飞桶
+label: 觉醒
+url: /clashroyale/cards/goblin-barrel/evolution/
+image: images/clashroyale/cards/variants/goblin-barrel-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Barrel/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-06-03'
+summary: 觉醒哥布林飞桶会在另一座皇家塔投下诱饵桶，用三名诱饵哥布林制造双路压力。
+facts:
+  - { label: 圣水, value: '3' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 本体数量, value: 3 名 }
+  - { label: 基础卡牌, value: 哥布林飞桶 }
+overview:
+  - 觉醒哥布林飞桶在目标位置投下普通飞桶的同时，会向另一座公主塔投下一只诱饵桶。诱饵桶同样放出三名哥布林，但生命值和伤害较低，用于迫使对手同时照顾两路。
+  - 对手可以根据飞桶起飞时短暂不同的视觉效果辨认诱饵，范围法术也能低费处理一侧。觉醒价值来自分散防守资源，而不是让诱饵哥布林拥有与本体相同的输出。
+units:
+  - name: 觉醒哥布林飞桶
+    kind: main
+    mechanics:
+      - { label: 作用半径, value: 1.5 格 }
+      - { label: 哥布林部署时间, value: 1.1 秒 }
+      - { label: 攻击间隔, value: 1.1 秒 }
+      - { label: 移动速度, value: 极快 (120) }
+      - { label: 本体数量, value: 3 名 }
+      - { label: 诱饵数量, value: 3 名 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 哥布林生命值 }
+        - { key: damage, label: 哥布林伤害 }
+        - { key: damage_per_second, label: 哥布林每秒伤害 }
+        - { key: decoy_hitpoints, label: 诱饵生命值 }
+        - { key: decoy_damage, label: 诱饵伤害 }
+        - { key: decoy_damage_per_second, label: 诱饵每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '125', damage: '75', damage_per_second: '68', decoy_hitpoints: '50', decoy_damage: '55', decoy_damage_per_second: '49' }
+        - { level: '7', hitpoints: '138', damage: '82', damage_per_second: '74', decoy_hitpoints: '55', decoy_damage: '61', decoy_damage_per_second: '55' }
+        - { level: '8', hitpoints: '152', damage: '90', damage_per_second: '81', decoy_hitpoints: '61', decoy_damage: '67', decoy_damage_per_second: '60' }
+        - { level: '9', hitpoints: '167', damage: '99', damage_per_second: '89', decoy_hitpoints: '67', decoy_damage: '74', decoy_damage_per_second: '67' }
+        - { level: '10', hitpoints: '184', damage: '109', damage_per_second: '99', decoy_hitpoints: '74', decoy_damage: '81', decoy_damage_per_second: '73' }
+        - { level: '11', hitpoints: '202', damage: '120', damage_per_second: '109', decoy_hitpoints: '81', decoy_damage: '89', decoy_damage_per_second: '80' }
+        - { level: '12', hitpoints: '222', damage: '132', damage_per_second: '119', decoy_hitpoints: '89', decoy_damage: '98', decoy_damage_per_second: '89' }
+        - { level: '13', hitpoints: '244', damage: '145', damage_per_second: '131', decoy_hitpoints: '98', decoy_damage: '108', decoy_damage_per_second: '98' }
+        - { level: '14', hitpoints: '269', damage: '160', damage_per_second: '145', decoy_hitpoints: '108', decoy_damage: '118', decoy_damage_per_second: '107' }
+        - { level: '15', hitpoints: '296', damage: '176', damage_per_second: '160', decoy_hitpoints: '119', decoy_damage: '130', decoy_damage_per_second: '118' }
+        - { level: '16', hitpoints: '325', damage: '193', damage_per_second: '175', decoy_hitpoints: '130', decoy_damage: '143', decoy_damage_per_second: '130' }
+usage_tips:
+  - 把普通桶投向主要进攻塔，让诱饵桶迫使对手决定如何分配法术和单位。
+  - 在对手只有一张可靠小法术时使用，双路同时落地更容易让一侧哥布林获得攻击机会。
+  - 改变普通桶落点，避免对手只看固定位置就能立即判断和预判防守。
+matchups:
+  - { title: 适合应对, text: 只有一张小法术或防守资源集中在单路的卡组，双路落桶能迫使其拆分应对。 }
+  - { title: 需要提防, text: 多张范围法术、范围塔楼部队和能快速辨认诱饵的对手会显著降低额外压力。 }
+  - { title: 搭配思路, text: 与公主、哥布林团伙等诱饵卡配合，持续消耗对手范围法术并制造双路选择。 }
+balance_history:
+  - { date: '2025-07-08', type: nerf, summary: 诱饵哥布林伤害降低 26%。 }
+  - { date: '2025-01-08', type: visual, summary: 调整诱饵桶视觉效果，发射后的第一秒会显示不同颜色。 }
+  - { date: '2024-06-03', type: evolution, summary: 觉醒哥布林飞桶正式上线。 }

@@ -1,0 +1,67 @@
+key: giant-snowball-evolution
+parent_key: giant-snowball
+kind: evolution
+order: 2
+name: 觉醒大雪球
+label: 觉醒
+url: /clashroyale/cards/giant-snowball/evolution/
+image: images/clashroyale/cards/variants/giant-snowball-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Giant_Snowball/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-12-02'
+summary: 觉醒大雪球命中后会继续向前滚动，把目标推动更远，并延长减速控制。
+facts:
+  - { label: 圣水, value: '2' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 滚动距离, value: 4.5 格 }
+  - { label: 基础卡牌, value: 大雪球 }
+overview:
+  - 觉醒大雪球在落点造成范围伤害后继续向前滚动，把命中的空地单位沿施法方向推动，最多移动四点五格。四秒减速会进一步拖延目标回到战斗位置。
+  - 推动方向取决于施法角度，错误落点可能把敌军送向己方皇家塔或避开后续法术。大型或特殊目标的位移效果也可能受限制，需要以控制位置而不是伤害作为主要目的。
+units:
+  - name: 觉醒大雪球
+    kind: main
+    mechanics:
+      - { label: 作用半径, value: 2.5 格 }
+      - { label: 滚动距离, value: 4.5 格 }
+      - { label: 滚动速度, value: '300' }
+      - { label: 减速时间, value: 4 秒 }
+      - { label: 减速幅度, value: '30%' }
+      - { label: 作用目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: crown_tower_damage, label: 皇冠塔伤害 }
+      rows:
+        - { level: '1', area_damage: '69', crown_tower_damage: '21' }
+        - { level: '2', area_damage: '76', crown_tower_damage: '23' }
+        - { level: '3', area_damage: '84', crown_tower_damage: '25' }
+        - { level: '4', area_damage: '92', crown_tower_damage: '28' }
+        - { level: '5', area_damage: '101', crown_tower_damage: '30' }
+        - { level: '6', area_damage: '111', crown_tower_damage: '34' }
+        - { level: '7', area_damage: '122', crown_tower_damage: '37' }
+        - { level: '8', area_damage: '134', crown_tower_damage: '41' }
+        - { level: '9', area_damage: '148', crown_tower_damage: '45' }
+        - { level: '10', area_damage: '163', crown_tower_damage: '49' }
+        - { level: '11', area_damage: '179', crown_tower_damage: '54' }
+        - { level: '12', area_damage: '197', crown_tower_damage: '59' }
+        - { level: '13', area_damage: '217', crown_tower_damage: '65' }
+        - { level: '14', area_damage: '238', crown_tower_damage: '72' }
+        - { level: '15', area_damage: '262', crown_tower_damage: '79' }
+        - { level: '16', area_damage: '288', crown_tower_damage: '87' }
+usage_tips:
+  - 从侧面施法可把防守单位推离己方进攻路线，也能把目标集中到后续范围伤害中。
+  - 防守时把目标向场地中央或远离皇家塔的方向推动，为皇家塔争取额外攻击时间。
+  - 施法前确认滚动方向，避免把近战单位直接推到己方后排或皇家塔附近。
+matchups:
+  - { title: 适合应对, text: 依赖站位的远程防守、气球兵等需要被推离目标的单位，以及密集空地人海。 }
+  - { title: 需要提防, text: 位移不敏感的高生命值目标和错误施法角度会降低控制价值，伤害本身也不足以处理大型单位。 }
+  - { title: 搭配思路, text: 与范围法术、建筑和快速推进配合，利用长距离推动改变锁定和防守站位。 }
+balance_history:
+  - { date: '2025-10-06', type: nerf, summary: 减速幅度由 35% 降至 30%。 }
+  - { date: '2025-08-04', type: buff, summary: 滚动速度由 200 提高至 300。 }
+  - { date: '2025-03-04', type: buff, summary: 减速时间由 3 秒提高至 4 秒。 }
+  - { date: '2025-02-04', type: buff, summary: 滚动距离由 4 格提高至 4.5 格。 }
+  - { date: '2024-12-16', type: adjustment, summary: 修复觉醒大雪球的多项行为异常。 }
+  - { date: '2024-12-02', type: evolution, summary: 觉醒大雪球正式上线。 }

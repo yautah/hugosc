@@ -1,0 +1,152 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 亡灵
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.2 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '2.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '1000'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '3'
+  - key: transport
+    label: 移动方式
+    value: 空中
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '89'
+      damage: '41'
+      damage_per_second: '34'
+    - level: '2'
+      hitpoints: '98'
+      damage: '45'
+      damage_per_second: '37'
+    - level: '3'
+      hitpoints: '107'
+      damage: '50'
+      damage_per_second: '41'
+    - level: '4'
+      hitpoints: '118'
+      damage: '55'
+      damage_per_second: '45'
+    - level: '5'
+      hitpoints: '130'
+      damage: '60'
+      damage_per_second: '50'
+    - level: '6'
+      hitpoints: '143'
+      damage: '66'
+      damage_per_second: '55'
+    - level: '7'
+      hitpoints: '157'
+      damage: '73'
+      damage_per_second: '60'
+    - level: '8'
+      hitpoints: '173'
+      damage: '80'
+      damage_per_second: '66'
+    - level: '9'
+      hitpoints: '190'
+      damage: '88'
+      damage_per_second: '73'
+    - level: '10'
+      hitpoints: '209'
+      damage: '97'
+      damage_per_second: '80'
+    - level: '11'
+      hitpoints: '230'
+      damage: '107'
+      damage_per_second: '89'
+    - level: '12'
+      hitpoints: '253'
+      damage: '118'
+      damage_per_second: '98'
+    - level: '13'
+      hitpoints: '278'
+      damage: '129'
+      damage_per_second: '107'
+    - level: '14'
+      hitpoints: '306'
+      damage: '142'
+      damage_per_second: '118'
+    - level: '15'
+      hitpoints: '337'
+      damage: '157'
+      damage_per_second: '130'
+    - level: '16'
+      hitpoints: '370'
+      damage: '172'
+      damage_per_second: '143'
+balance_history:
+- date: '2026-02-02'
+  type: nerf
+  summary: 攻击间隔从 1.1 秒延长至 1.2 秒。
+- date: '2025-10-06'
+  type: nerf
+  summary: 伤害降低 9%。
+- date: '2025-09-01'
+  type: nerf
+  summary: 攻击间隔从 1 秒延长至 1.1 秒。
+- date: '2025-08-07'
+  type: nerf
+  summary: 生命值降低 14%。
+- date: '2025-08-04'
+  type: buff
+  summary: 生命值提高 16%，攻击距离从 1.6 格提高至 2.5 格，并取消近战攻击距离分类。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修复不同阵营部署时，三只亡灵的生成阵型没有正确镜像的问题。
+- date: '2022-12-07'
+  type: buff
+  summary: 伤害提高 15%。
+- date: '2020-11-03'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2020-06-02'
+  type: buff
+  summary: 三只亡灵依次登场的间隔从 0.15 秒缩短至 0.1 秒。
+- date: '2019-07-01'
+  type: nerf
+  summary: 攻击距离从 2 格缩短至 1.6 格，并归类为远距离近战。
+- date: '2018-06-20'
+  type: adjustment
+  summary: 三只亡灵改为依次登场，每只之间间隔 0.15 秒。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 2.5 格改为 2 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 视野范围从 6 格缩小至 5.5 格。
+- date: '2016-01-04'
+  type: release
+  summary: 亡灵随皇室战争上线加入游戏。

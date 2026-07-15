@@ -1,0 +1,17 @@
+source_url: https://clashroyale.fandom.com/wiki/Magic_Archer
+items:
+  - { date: '2026-03-02', type: hero, summary: '精英神箭游侠正式上线。' }
+  - { date: '2025-12-01', type: buff, summary: '伤害提高 8%，11 级数值从 133 提高至 143。' }
+  - { date: '2025-03-31', type: nerf, summary: '生命值降低 0.18%，伤害降低 0.74%。' }
+  - { date: '2024-10-08', type: nerf, summary: '生命值因数值取整降低约 0.2%。' }
+  - { date: '2024-03-05', type: buff, summary: '首次攻击间隔从 0.8 秒缩短至 0.7 秒。' }
+  - { date: '2023-10-03', type: nerf, summary: '首次攻击间隔从 0.5 秒延长至 0.8 秒。' }
+  - { date: '2023-02-06', type: visual, summary: '更换卡牌立绘。' }
+  - { date: '2020-05-05', type: adjustment, summary: '射程从 6 格恢复至 7 格，生命值降低 10%。' }
+  - { date: '2020-04-07', type: nerf, summary: '射程从 7 格缩短至 6 格。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2019-08-05', type: adjustment, summary: '伤害提高 16%，攻击间隔从 1 秒延长至 1.1 秒，首次攻击间隔从 0.6 秒缩短至 0.5 秒。' }
+  - { date: '2019-01-07', type: buff, summary: '首次攻击间隔从 0.9 秒缩短至 0.6 秒。' }
+  - { date: '2018-11-05', type: nerf, summary: '首次攻击间隔从 0.4 秒延长至 0.9 秒。' }
+  - { date: '2018-04-25', type: buff, summary: '投射物速度从 800 提高至 1000。' }
+  - { date: '2018-03-02', type: release, summary: '神箭游侠正式加入游戏。' }

@@ -1,0 +1,96 @@
+key: knight-hero
+parent_key: knight
+kind: hero
+order: 3
+name: 精英骑士
+label: 精英
+url: /clashroyale/cards/knight/hero/
+image: images/clashroyale/cards/variants/knight-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Knight/Hero
+source_retrieved_at: '2026-07-15'
+release_date: '2025-12-01'
+summary: 精英骑士可以主动展开护盾并嘲讽附近敌人，用技能改变敌方目标并为己方单位争取输出时间。
+facts:
+- label: 圣水
+  value: '3'
+- label: 技能费用
+  value: 2 圣水
+- label: 技能冷却
+  value: 25 秒
+- label: 基础卡牌
+  value: 骑士
+overview:
+- 精英骑士的基础战斗方式与普通骑士一致，核心差异来自主动技能“凯旋嘲讽”。技能发动后，他会获得护盾并迫使范围内的敌方单位转而攻击自己，可以保护高价值后排，也能打断敌方原本的进攻目标。
+- 技能需要额外消耗圣水，并且冷却时间较长。嘲讽的收益取决于施放时机：过早使用可能只吸引少量单位，过晚使用则来不及保护后排。面对范围伤害时，还要避免把己方单位聚集在精英骑士附近。
+units:
+- name: 精英骑士
+  kind: main
+  mechanics:
+  - label: 攻击间隔
+    value: 1.2 秒
+  - label: 首次攻击间隔
+    value: 0.5 秒
+  - label: 移动速度
+    value: 中等 (60)
+  - label: 攻击距离
+    value: 近战：中 (1.2)
+  - label: 技能名称
+    value: 凯旋嘲讽
+  - label: 嘲讽范围
+    value: 7.5 格
+  - label: 技能持续
+    value: 5 秒
+  - label: 施放时间
+    value: 约 1 秒
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: shield_hitpoints
+      label: 护盾值
+    rows:
+    - { level: '1', hitpoints: '681', damage: '94', damage_per_second: '78', shield_hitpoints: '316' }
+    - { level: '2', hitpoints: '749', damage: '104', damage_per_second: '86', shield_hitpoints: '347' }
+    - { level: '3', hitpoints: '824', damage: '94', damage_per_second: '78', shield_hitpoints: '382' }
+    - { level: '4', hitpoints: '906', damage: '104', damage_per_second: '86', shield_hitpoints: '420' }
+    - { level: '5', hitpoints: '997', damage: '114', damage_per_second: '95', shield_hitpoints: '462' }
+    - { level: '6', hitpoints: '1097', damage: '125', damage_per_second: '104', shield_hitpoints: '509' }
+    - { level: '7', hitpoints: '1206', damage: '138', damage_per_second: '115', shield_hitpoints: '559' }
+    - { level: '8', hitpoints: '1327', damage: '152', damage_per_second: '126', shield_hitpoints: '615' }
+    - { level: '9', hitpoints: '1460', damage: '167', damage_per_second: '139', shield_hitpoints: '677' }
+    - { level: '10', hitpoints: '1605', damage: '184', damage_per_second: '153', shield_hitpoints: '745' }
+    - { level: '11', hitpoints: '1766', damage: '202', damage_per_second: '168', shield_hitpoints: '819' }
+    - { level: '12', hitpoints: '1943', damage: '222', damage_per_second: '185', shield_hitpoints: '901' }
+    - { level: '13', hitpoints: '2137', damage: '244', damage_per_second: '203', shield_hitpoints: '991' }
+    - { level: '14', hitpoints: '2351', damage: '269', damage_per_second: '224', shield_hitpoints: '1090' }
+    - { level: '15', hitpoints: '2586', damage: '296', damage_per_second: '246', shield_hitpoints: '1199' }
+    - { level: '16', hitpoints: '2844', damage: '325', damage_per_second: '270', shield_hitpoints: '1319' }
+usage_tips:
+- 等敌方关键单位进入嘲讽范围后再发动技能，避免把额外圣水花在只能吸引单个低威胁目标的场面。
+- 用护盾和嘲讽保护火枪手等后排单位时，应留意敌方范围伤害，避免保护动作反而让部队过度集中。
+- 防守反击中保留技能通常更有威胁，对手必须持续考虑目标被改变以及护盾吸收伤害的可能。
+matchups:
+- title: 适合应对
+  text: 适合干扰依赖锁定目标的单体单位，并为己方脆弱后排争取重新输出或撤离的时间。
+- title: 需要提防
+  text: 范围伤害、强控制和能够快速击破护盾的集中火力会压缩嘲讽带来的保护收益。
+- title: 搭配思路
+  text: 与高输出远程单位组合最直接，也可以利用嘲讽改变目标，为另一条进攻路线争取时间。
+balance_history:
+- date: '2026-03-01'
+  date_precision: month
+  type: nerf
+  summary: “凯旋嘲讽”的作用范围缩小 1 格。
+- date: '2026-01-01'
+  date_precision: month
+  type: nerf
+  summary: 技能护盾的生命值降低。
+- date: '2025-12-01'
+  type: hero
+  summary: 精英骑士与主动技能“凯旋嘲讽”正式上线。

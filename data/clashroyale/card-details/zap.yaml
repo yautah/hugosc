@@ -1,0 +1,122 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 电击法术
+  kind: main
+  mechanics:
+  - key: radius
+    label: 作用半径
+    value: '2.5'
+  - key: stun_duration
+    label: 眩晕持续时间
+    value: 0.5 秒
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: radius
+    label: 电击法术·作用半径
+    value: '2.5'
+  - key: stun_duration
+    label: 电击法术·眩晕持续时间
+    value: 0.5 秒
+  - key: target
+    label: 电击法术·攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    rows:
+    - level: '1'
+      area_damage: '74'
+      crown_tower_damage: '22'
+    - level: '2'
+      area_damage: '81'
+      crown_tower_damage: '25'
+    - level: '3'
+      area_damage: '90'
+      crown_tower_damage: '27'
+    - level: '4'
+      area_damage: '99'
+      crown_tower_damage: '30'
+    - level: '5'
+      area_damage: '108'
+      crown_tower_damage: '33'
+    - level: '6'
+      area_damage: '119'
+      crown_tower_damage: '36'
+    - level: '7'
+      area_damage: '131'
+      crown_tower_damage: '40'
+    - level: '8'
+      area_damage: '144'
+      crown_tower_damage: '44'
+    - level: '9'
+      area_damage: '159'
+      crown_tower_damage: '48'
+    - level: '10'
+      area_damage: '175'
+      crown_tower_damage: '53'
+    - level: '11'
+      area_damage: '192'
+      crown_tower_damage: '58'
+    - level: '12'
+      area_damage: '211'
+      crown_tower_damage: '64'
+    - level: '13'
+      area_damage: '232'
+      crown_tower_damage: '70'
+    - level: '14'
+      area_damage: '256'
+      crown_tower_damage: '77'
+    - level: '15'
+      area_damage: '281'
+      crown_tower_damage: '85'
+    - level: '16'
+      area_damage: '309'
+      crown_tower_damage: '93'
+balance_history:
+- date: '2024-03-11'
+  type: evolution
+  summary: 电击法术觉醒形态正式上线。
+- date: '2022-04-28'
+  type: visual
+  summary: 卡牌信息页面加入电击法术的卡牌形象。
+- date: '2020-08-04'
+  type: nerf
+  summary: 对皇家塔伤害比例从 35% 降至 30%。
+- date: '2018-09-03'
+  type: adjustment
+  summary: 电击法术不再重置电击车小队的攻击。
+- date: '2018-04-25'
+  type: adjustment
+  summary: 允许直接在河道区域施放。
+- date: '2017-12-12'
+  type: nerf
+  summary: 对皇家塔伤害比例从 40% 降至 35%。
+- date: '2017-01-23'
+  type: nerf
+  summary: 伤害降低 6%。
+- date: '2016-08-24'
+  type: nerf
+  summary: 眩晕时间从 1 秒缩短至 0.5 秒。
+- date: '2016-07-04'
+  type: adjustment
+  summary: 现在可以中断圣水收集器产出并重置地狱之塔递增伤害。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 加入 1 秒眩晕效果，伤害降低 6%。
+- date: '2016-02-19'
+  type: nerf
+  summary: 对皇家塔伤害比例从 50% 降至 40%。
+- date: '2016-02-09'
+  type: buff
+  summary: 伤害提高 6%。
+- date: '2016-01-04'
+  type: release
+  summary: 电击法术随游戏首发加入。

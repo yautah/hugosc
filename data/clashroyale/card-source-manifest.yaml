@@ -1,0 +1,1407 @@
+---
+meta:
+  source: https://clashroyale.fandom.com/wiki/Card_Overviews
+  retrieved_at: '2026-07-15'
+  count: 126
+items:
+- key: minions
+  fandom_page: Minions
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Minions
+  name_zh: 亡灵
+  cost: '3'
+  arena: Training Camp
+  release_date: 4 January 2016
+  official_id: 26000005
+  official_description_zh: 三个行动迅速、无护甲保护的飞行进攻战士。红蔷薇，蓝部队，亡灵飞，敌阵摧！
+- key: archers
+  fandom_page: Archers
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Archers
+  name_zh: 弓箭手
+  cost: '3'
+  arena: Training Camp
+  release_date: 4 January 2016
+  official_id: 26000001
+  official_description_zh: 这对轻装上阵的姐妹花擅长远程攻击，不会放过任何陆空目标，不过可别奢望她们分享美发秘诀！
+- key: knight
+  fandom_page: Knight
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Knight
+  name_zh: 骑士
+  cost: '3'
+  arena: Training Camp
+  release_date: 4 January 2016
+  official_id: 26000000
+  official_description_zh: 一位强悍的近战勇士。他是野蛮人的远亲，但是更英俊、更有教养。传言说，他仅因为那拉风的胡须就受封骑士了。
+- key: spear-goblins
+  fandom_page: Spear Goblins
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Spear_Goblins
+  name_zh: 哥布林投矛手
+  cost: '2'
+  arena: Goblin Stadium
+  release_date: 4 January 2016
+  official_id: 26000019
+  official_description_zh: 三个无护甲保护的远程进攻战士。到底是谁教会了他们扔长矛！？是谁想出的这个馊主意？！
+- key: goblins
+  fandom_page: Goblins
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Goblins
+  name_zh: 哥布林
+  cost: '2'
+  arena: Goblin Stadium
+  release_date: 4 January 2016
+  official_id: 26000002
+  official_description_zh: 四个近战攻击的小绿人，没有盔甲护身。他们身型矮小，行动迅速，且贪得无厌。
+- key: bomber
+  fandom_page: Bomber
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Bomber
+  name_zh: 炸弹兵
+  cost: '2'
+  arena: Bone Pit
+  release_date: 4 January 2016
+  official_id: 26000013
+  official_description_zh: 别看这骷髅又小又脆弱，他投掷的炸弹可会造成范围伤害，能消灭一群敌军。
+- key: skeletons
+  fandom_page: Skeletons
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Skeletons
+  name_zh: 骷髅兵
+  cost: '1'
+  arena: Bone Pit
+  release_date: 4 January 2016
+  official_id: 26000010
+  official_description_zh: 三个快速但脆弱的近战单位。用这些骷髅来围攻敌军吧！
+- key: barbarians
+  fandom_page: Barbarians
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Barbarians
+  name_zh: 野蛮人
+  cost: '5'
+  arena: Barbarian Bowl
+  release_date: 4 January 2016
+  official_id: 26000008
+  official_description_zh: 这些近战勇士胡子邋遢，脾气更是暴躁。
+- key: electro-spirit
+  fandom_page: Electro Spirit
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Electro_Spirit
+  name_zh: 雷电精灵
+  cost: '1'
+  arena: Spell Valley
+  release_date: 2 November 2020
+  official_id: 26000084
+  official_description_zh: 雷电精灵会跳向敌军，造成范围伤害，并最多击晕9个目标。谁的胡子最拉风，这是它和骑士之间永恒的争论。
+- key: skeleton-dragons
+  fandom_page: Skeleton Dragons
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Skeleton_Dragons
+  name_zh: 骷髅飞龙
+  cost: 4
+  arena: 4
+  release_date: 6/7/2020
+  official_id: 26000080
+  official_description_zh: 骷髅飞龙总是成对出现，它们会从空中喷吐烈焰造成范围伤害，还会用自己的肋骨当木琴表演二重奏。
+- key: fire-spirit
+  fandom_page: Fire Spirit
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Fire_Spirit
+  name_zh: 烈焰精灵
+  cost: '1'
+  arena: Spell Valley
+  release_date: 3 May 2016
+  official_id: 26000031
+  official_description_zh: 烈焰精灵抱着必死的决心，扑向敌方给予他们一个热烈的"拥抱"，如果不是因为它整天想对人开火，它其实还挺可爱的。
+- key: bats
+  fandom_page: Bats
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Bats
+  name_zh: 蝙蝠
+  cost: '2'
+  arena: Builder's Workshop
+  release_date: 7 July 2017
+  official_id: 26000049
+  official_description_zh: 一群身披紫衣的空中小精灵，看着挺可爱，但小小的身体聚集在一起却能产生大大的破坏力！
+- key: royal-recruits
+  fandom_page: Royal Recruits
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Recruits
+  name_zh: 皇家卫队
+  cost: '7'
+  arena: Royal Arena
+  release_date: 7 August 2018
+  official_id: 26000047
+  official_description_zh: 部署皇家卫队 — 一排头戴木桶、手持矛和盾的皇家新兵。他们梦想着有一天能头戴铁桶，身骑小马。
+- key: royal-giant
+  fandom_page: Royal Giant
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Giant
+  name_zh: 皇家巨人
+  cost: '6'
+  arena: Royal Arena
+  release_date: 29 February 2016
+  official_id: 26000024
+  official_description_zh: 用手中的巨型加农炮摧毁敌方建筑是皇家巨人的职责；打理好自己杂乱的金色胡须则是皇家巨人的爱好。
+- key: ice-spirit
+  fandom_page: Ice Spirit
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Ice_Spirit
+  name_zh: 冰雪精灵
+  cost: '1'
+  arena: Frozen Peak
+  release_date: 4 July 2016
+  official_id: 26000030
+  official_description_zh: 一个活泼可爱的冰雪精灵，它可以冻住一群敌军。冻住，不许走！
+- key: berserker
+  fandom_page: Berserker
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Berserker
+  name_zh: 狂战士
+  cost: '2'
+  arena: Jungle Arena
+  release_date: 3 February 2025
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/2月-活动-挑战-2
+- key: skeleton-barrel
+  fandom_page: Skeleton Barrel
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Skeleton_Barrel
+  name_zh: 骷髅气球
+  cost: '3'
+  arena: Jungle Arena
+  release_date: 17 November 2017
+  official_id: 26000056
+  official_description_zh: 在它的气球爆炸之前，这就是一场空中骷髅派对......之后则会变成一场地面骷髅派对！
+- key: goblin-gang
+  fandom_page: Goblin Gang
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Gang
+  name_zh: 哥布林团伙
+  cost: '3'
+  arena: Jungle Arena
+  release_date: 24 February 2017
+  official_id: 26000041
+  official_description_zh: 哥布林六人行：三人持匕首，三人执长矛，圣水花费少，哥布林超值包！
+- key: elite-barbarians
+  fandom_page: Elite Barbarians
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Elite_Barbarians
+  name_zh: 野蛮人精锐
+  cost: '6'
+  arena: Hog Mountain
+  release_date: 25 November 2016
+  official_id: 26000043
+  official_description_zh: 两个加强版野蛮人。他们跟普通野蛮人有些相似，不过更凶、更强、更快、更壮。
+- key: minion-horde
+  fandom_page: Minion Horde
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Minion_Horde
+  name_zh: 亡灵大军
+  cost: '5'
+  arena: Hog Mountain
+  release_date: 4 January 2016
+  official_id: 26000022
+  official_description_zh: 六个行动迅速、无护甲保护的飞行进攻战士。三人为伍，六人成军！
+- key: firecracker
+  fandom_page: Firecracker
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Firecracker
+  name_zh: 烟花炮手
+  cost: '3'
+  arena: Spooky Town
+  release_date: 3 February 2020
+  official_id: 26000064
+  official_description_zh: 为了打发无聊，弓箭手就换上了这种新颖的武器！她每次能射出一枚烟花，烟花在命中目标后会爆炸并对目标造成伤害，而爆炸产生的火花会伤害目标后方的所有敌人。
+- key: rascals
+  fandom_page: Rascals
+  type: troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Rascals
+  name_zh: 绿林团伙
+  cost: '5'
+  arena: Rascal's Hideout
+  release_date: 25 May 2018
+  official_id: 26000053
+  official_description_zh: 召唤调皮捣蛋的绿林团伙！绿林小哥带头挺进，绿林小妹则在后方拿弹弓痛击敌人，弹弓子弹用的可是大名鼎鼎的淘淘泡泡糖！
+- key: mini-pekka
+  fandom_page: Mini P.E.K.K.A.
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A.
+  name_zh: 迷你皮卡
+  cost: '4'
+  arena: Training Camp
+  release_date: 4 January 2016
+  official_id: 26000018
+  official_description_zh: 竞技场可不是追着蝴蝶跑的地方，迷你皮卡不是来消遣的，而是来消灭一切的！
+- key: musketeer
+  fandom_page: Musketeer
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Musketeer
+  name_zh: 火枪手
+  cost: '4'
+  arena: Training Camp
+  release_date: 4 January 2016
+  official_id: 26000014
+  official_description_zh: 别被火枪手优雅的外表迷惑了，她一拿起武器可是毫不留情！
+- key: giant
+  fandom_page: Giant
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Giant
+  name_zh: 巨人
+  cost: '5'
+  arena: Training Camp
+  release_date: 4 January 2016
+  official_id: 26000003
+  official_description_zh: 巨人行动缓慢，但是耐击打。他专门攻击建筑，是名副其实的人肉攻城器！
+- key: valkyrie
+  fandom_page: Valkyrie
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Valkyrie
+  name_zh: 瓦基丽武神
+  cost: '4'
+  arena: Bone Pit
+  release_date: 4 January 2016
+  official_id: 26000011
+  official_description_zh: 她是强悍的近战战士，能对敌军造成范围伤害。即使敌军成群结队她都不放在眼里，因为只需几个旋风斩她就能将敌军全部粉碎。
+- key: mega-minion
+  fandom_page: Mega Minion
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Mega_Minion
+  name_zh: 重甲亡灵
+  cost: '3'
+  arena: Barbarian Bowl
+  release_date: 19 September 2016
+  official_id: 26000039
+  official_description_zh: 翱翔天际，重装来袭，其势若此，岂无敌手乎？答曰：纸杯蛋糕可解此围也！
+- key: battle-ram
+  fandom_page: Battle Ram
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Battle_Ram
+  name_zh: 野蛮人攻城槌
+  cost: '4'
+  arena: Barbarian Bowl
+  release_date: 10 February 2017
+  official_id: 26000036
+  official_description_zh: 两个野蛮人托举着巨大的攻城槌向最近的建筑发起冲锋。攻城槌撞击建筑时会对建筑造成显著伤害。攻城槌掉落后，野蛮人将拿着剑继续奋力对抗。
+- key: wizard
+  fandom_page: Wizard
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Wizard
+  name_zh: 法师
+  cost: '5'
+  arena: Spell Valley
+  release_date: 4 January 2016
+  official_id: 26000017
+  official_description_zh: 他是竞技场史上最酷炫的男人！他击退对手靠的就是帅气！哦，对了，还有火球术。
+- key: flying-machine
+  fandom_page: Flying Machine
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Flying_Machine
+  name_zh: 飞行器
+  cost: '4'
+  arena: Builder's Workshop
+  release_date: 6 October 2017
+  official_id: 26000057
+  official_description_zh: 竞技场上迎来了建筑大师的首个新发明！这是一个很有意思的高速飞行器，不过不太牢靠！
+- key: hog-rider
+  fandom_page: Hog Rider
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Hog_Rider
+  name_zh: 野猪骑士
+  cost: '4'
+  arena: Builder's Workshop
+  release_date: 4 January 2016
+  official_id: 26000021
+  official_description_zh: |-
+    行动迅速的近战部队，以建筑作为攻击目标，可以跳过河流。
+    他会追随着"野猪骑士"的召唤声一路冲向竞技场。
+- key: royal-hogs
+  fandom_page: Royal Hogs
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Hogs
+  name_zh: 皇家野猪
+  cost: '5'
+  arena: Royal Arena
+  release_date: 20 June 2018
+  official_id: 26000059
+  official_description_zh: 国王的爱宠跑出来啦，它们最爱啃苹果和皇家塔！到底是谁把这些皇家野猪放出来的？！
+- key: three-musketeers
+  fandom_page: Three Musketeers
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Three_Musketeers
+  name_zh: 三个火枪手
+  cost: '9'
+  arena: Royal Arena
+  release_date: 29 February 2016
+  official_id: 26000028
+  official_description_zh: 三位强大、独立的女神枪手，为了正义与荣耀而战。对她们不敬可不仅仅是个小错，事儿大着呢。
+- key: battle-healer
+  fandom_page: Battle Healer
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Battle_Healer
+  name_zh: 战斗天使
+  cost: '4'
+  arena: Frozen Peak
+  release_date: 6 January 2020
+  official_id: 26000068
+  official_description_zh: 战斗天使每次攻击时都能施放强大的治疗光环，为自己和光环内的友军恢复生命值。在非战斗状态下，她还会自动恢复生命值！
+- key: ice-golem
+  fandom_page: Ice Golem
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Ice_Golem
+  name_zh: 戈仑冰人
+  cost: '2'
+  arena: Frozen Peak
+  release_date: 14 October 2016
+  official_id: 26000038
+  official_description_zh: 强悍的戈仑冰人只会攻击建筑，被摧毁后会爆炸并减缓周围敌军的速度。他全身上下都是冰做的呢......真的是这样吗？千真万确。
+- key: dart-goblin
+  fandom_page: Dart Goblin
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Dart_Goblin
+  name_zh: 吹箭哥布林
+  cost: '3'
+  arena: Jungle Arena
+  release_date: 13 January 2017
+  official_id: 26000040
+  official_description_zh: 他脚下生风，射程够远，还嚼着淘淘泡泡糖。满嘴泡泡糖的他居然还能吹出飞箭？这可多亏了他学了几年笛子。
+- key: furnace
+  fandom_page: Furnace
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Furnace
+  name_zh: 烈焰熔炉
+  cost: '4'
+  arena: Hog Mountain
+  release_date: 3 May 2016
+  official_id: 27000010
+  official_description_zh: 烈焰熔炉每次能产出1个烈焰精灵。不仅如此，用它烤出来的煎饼也很美味。
+- key: zappies
+  fandom_page: Zappies
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Zappies
+  name_zh: 电击车小队
+  cost: '4'
+  arena: Hog Mountain
+  release_date: 12 December 2017
+  official_id: 26000052
+  official_description_zh: 竞技场上的微型电击车。究竟是谁在操控它们......？恐怕只有建筑大师知道。
+- key: goblin-demolisher
+  fandom_page: Goblin Demolisher
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Demolisher
+  name_zh: 哥布林爆破手
+  cost: '4'
+  arena: Spooky Town
+  release_date: 17 June 2024
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/news/哥布林女皇征程更新
+- key: heal-spirit
+  fandom_page: Heal Spirit
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Heal_Spirit
+  name_zh: 治疗精灵
+  cost: 1
+  arena: 13
+  release_date: 2/4/2020
+  official_id: 28000016
+  official_description_zh: |-
+    这只淘气的治疗精灵会跳向敌军，对他们造成伤害，并留下一道强大的治疗光环治疗附近的友军！
+
+    治疗法术，愿你安息
+    2017-2020
+    可惜大家并不常用你。
+- key: suspicious-bush
+  fandom_page: Suspicious Bush
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Suspicious_Bush
+  name_zh: 可疑草丛
+  cost: '2'
+  arena: Rascal's Hideout
+  release_date: 30 July 2024
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/哥布林女皇征程调整
+- key: elixir-golem
+  fandom_page: Elixir Golem
+  type: troop
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Elixir_Golem
+  name_zh: 圣水戈仑
+  cost: '3'
+  arena: Serenity Peak
+  release_date: 4 November 2019
+  official_id: 26000067
+  official_description_zh: 被消灭后会分裂成两个圣水小戈仑，圣水小戈仑被消灭后会再次分裂成两个圣水泡泡。对手消灭圣水戈仑的每个部分都能获得一定数量的圣水。
+- key: guards
+  fandom_page: Guards
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Guards
+  name_zh: 骷髅守卫
+  cost: '3'
+  arena: P.E.K.K.A.'s Playhouse
+  release_date: 3 May 2016
+  official_id: 26000025
+  official_description_zh: 骷髅三兄弟，手持盾牌，冷酷无情。即使被打掉了盾牌，他们也会战斗到底。
+- key: baby-dragon
+  fandom_page: Baby Dragon
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Baby_Dragon
+  name_zh: 飞龙宝宝
+  cost: '4'
+  arena: P.E.K.K.A.'s Playhouse
+  release_date: 4 January 2016
+  official_id: 26000015
+  official_description_zh: 飞龙宝宝从空中喷出火球，可造成范围伤害。可爱又贪吃的它已经准备好迎接烤肉大餐啦！
+- key: skeleton-army
+  fandom_page: Skeleton Army
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Skeleton_Army
+  name_zh: 骷髅军团
+  cost: '3'
+  arena: P.E.K.K.A.'s Playhouse
+  release_date: 4 January 2016
+  official_id: 26000012
+  official_description_zh: |-
+    召唤一支骷髅大军。
+    来见见拉里和他的好哥们
+    哈里、格里、特里和玛丽一家子吧。
+- key: witch
+  fandom_page: Witch
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Witch
+  name_zh: 女巫
+  cost: '5'
+  arena: P.E.K.K.A.'s Playhouse
+  release_date: 4 January 2016
+  official_id: 26000007
+  official_description_zh: 不仅能召唤骷髅军队，还可以发射魔法光束，只可惜那对粉光电眼无法发射激光。
+- key: pekka
+  fandom_page: P.E.K.K.A.
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/P.E.K.K.A.
+  name_zh: 皮卡超人
+  cost: '7'
+  arena: P.E.K.K.A.'s Playhouse
+  release_date: 4 January 2016
+  official_id: 26000004
+  official_description_zh: 身披重甲的近战勇士，虽然她摇摆着身体，动作有点缓慢，但攻击力极高。
+- key: dark-prince
+  fandom_page: Dark Prince
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Dark_Prince
+  name_zh: 黑暗王子
+  cost: '4'
+  arena: Royal Arena
+  release_date: 29 February 2016
+  official_id: 26000027
+  official_description_zh: 黑暗王子可以造成范围伤害，他用狼牙棒为自己代言 — 因为当他说话时，听起来就像头上罩了个水桶。
+- key: prince
+  fandom_page: Prince
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Prince
+  name_zh: 王子
+  cost: '5'
+  arena: Royal Arena
+  release_date: 4 January 2016
+  official_id: 26000016
+  official_description_zh: 不要因为王子骑的是匹小马就小瞧他哦。一旦王子开始往前冲，你就知道他有多厉害了。王子冲锋时会造成双倍伤害。
+- key: balloon
+  fandom_page: Balloon
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Balloon
+  name_zh: 气球兵
+  cost: '5'
+  arena: Royal Arena
+  release_date: 4 January 2016
+  official_id: 26000006
+  official_description_zh: 这些气球虽然非常漂亮，但您绝不想看到它们成队出现在您的领空。气球兵会投掷强大的炸弹，而且气球被击落后将爆炸，造成范围伤害。
+- key: giant-skeleton
+  fandom_page: Giant Skeleton
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Giant_Skeleton
+  name_zh: 骷髅巨人
+  cost: '6'
+  arena: Frozen Peak
+  release_date: 4 January 2016
+  official_id: 26000020
+  official_description_zh: 骷髅的个头越大，携带的炸弹威力就越强。骷髅巨人携带的炸弹会在他阵亡后爆炸。
+- key: rune-giant
+  fandom_page: Rune Giant
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Rune_Giant
+  name_zh: 符文巨人
+  cost: '4'
+  arena: Jungle Arena
+  release_date: 6 January 2025
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/2月-活动-挑战-2
+- key: goblin-giant
+  fandom_page: Goblin Giant
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Giant
+  name_zh: 哥布林巨人
+  cost: '6'
+  arena: Jungle Arena
+  release_date: 5 September 2018
+  official_id: 26000060
+  official_description_zh: 哥布林巨人总是很欢乐，他魁梧的身躯会坚定地朝着敌方建筑迈进。他无论走到哪里都背着两名哥布林投矛手。这个组合看似奇怪，但他们的实力不容小觑！
+- key: hunter
+  fandom_page: Hunter
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Hunter
+  name_zh: 猎人
+  cost: '4'
+  arena: Hog Mountain
+  release_date: 12 December 2017
+  official_id: 26000044
+  official_description_zh: 他能对近距离目标造成大量伤害，但对付远距离目标时效果略逊一筹。他的射击精度不高，不过他那标志性的浓密眉毛却给他加分不少。命中不够，造型来凑！
+- key: golem
+  fandom_page: Golem
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Golem
+  name_zh: 戈仑石人
+  cost: '8'
+  arena: Hog Mountain
+  release_date: 4 January 2016
+  official_id: 26000009
+  official_description_zh: 缓慢但强韧的戈仑石人只会攻击建筑。被摧毁后，他会分裂成两个小戈仑石人，同时造成范围伤害！
+- key: electro-dragon
+  fandom_page: Electro Dragon
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Electro_Dragon
+  name_zh: 雷电飞龙
+  cost: '5'
+  arena: Spooky Town
+  release_date: 9 November 2018
+  official_id: 26000063
+  official_description_zh: 雷电飞龙喷出的雷电每次最多可攻击到3个目标。和所有排行老二的孩子一样，它也是个渴望关爱的宝宝。
+- key: wall-breakers
+  fandom_page: Wall Breakers
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Wall_Breakers
+  name_zh: 攻城炸弹人
+  cost: '2'
+  arena: Spooky Town
+  release_date: 26 February 2019
+  official_id: 26000058
+  official_description_zh: 这两个炸弹人举着炸药桶，在竞技场上视死如归。只有轰塌一座座建筑才能让炸弹人那颗冰冷的心得到些许温暖。
+- key: electro-giant
+  fandom_page: Electro Giant
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Electro_Giant
+  name_zh: 雷电巨人
+  cost: '7'
+  arena: Rascal's Hideout
+  release_date: 2 November 2020
+  official_id: 26000085
+  official_description_zh: |-
+    雷电巨人背着一个特制的电击背包，可以发射电流，击晕并伤害作用范围内胆敢对他动手的敌人。
+
+    可别当着雷电巨人的面说"比手枪"是幼稚行为，不然他准会给你来场电疗。
+- key: bowler
+  fandom_page: Bowler
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Bowler
+  name_zh: 巨石投手
+  cost: '5'
+  arena: Rascal's Hideout
+  release_date: 4 July 2016
+  official_id: 26000034
+  official_description_zh: 这个蓝皮大个子一辈子只做两件简单的事：豪饮暗黑重油、投掷巨型岩石。他扔出的巨石在击中目标后，仍会向前滚动对路径上的目标造成伤害。
+- key: executioner
+  fandom_page: Executioner
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Executioner
+  name_zh: 飞斧屠夫
+  cost: '5'
+  arena: Serenity Peak
+  release_date: 27 January 2017
+  official_id: 26000045
+  official_description_zh: 他扔出的斧头像一把回旋镖，斧头在飞出和飞回时都会对其路径上的敌军造成伤害。斧头这么使还能保住双臂，真是奇迹。
+- key: cannon-cart
+  fandom_page: Cannon Cart
+  type: troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Cannon_Cart
+  name_zh: 加农炮战车
+  cost: '5'
+  arena: Miner's Mine
+  release_date: 5 August 2017
+  official_id: 26000054
+  official_description_zh: 带轮子的加农炮？敌军肯定没料到！一旦护盾被击破，它就会变成一个不带轮子的加农炮。
+- key: mega-knight
+  fandom_page: Mega Knight
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Mega_Knight
+  name_zh: 超级骑士
+  cost: '7'
+  arena: Electro Valley
+  release_date: 8 September 2017
+  official_id: 26000055
+  official_description_zh: 他登场时伴随着"千髯之力"，之后他会跃向敌军发动攻击，跃击能造成巨量范围伤害。最好离他远点！
+- key: ram-rider
+  fandom_page: Ram Rider
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Ram_Rider
+  name_zh: 蛮羊骑士
+  cost: '5'
+  arena: Electro Valley
+  release_date: 24 December 2018
+  official_id: 26000051
+  official_description_zh: 竞技场上，一人一羊，缚敌推塔，势不可挡，还有......青草真香？！
+- key: electro-wizard
+  fandom_page: Electro Wizard
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Electro_Wizard
+  name_zh: 闪电法师
+  cost: '4'
+  arena: Electro Valley
+  release_date: 30 December 2016
+  official_id: 26000042
+  official_description_zh: 天空一声轰隆巨响，闪电法师酷炫登场。登场眩晕附近敌军，双手放电英姿飒爽！真是个爱显摆的家伙。
+- key: inferno-dragon
+  fandom_page: Inferno Dragon
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Inferno_Dragon
+  name_zh: 地狱飞龙
+  cost: '4'
+  arena: Electro Valley
+  release_date: 30 September 2016
+  official_id: 26000037
+  official_description_zh: 地狱飞龙对单个目标喷射火焰射线，造成的伤害会随着时间递增。飞行有危险，记得戴头盔。
+- key: sparky
+  fandom_page: Sparky
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Sparky
+  name_zh: 电磁炮
+  cost: '6'
+  arena: Electro Valley
+  release_date: 3 May 2016
+  official_id: 26000033
+  official_description_zh: 电磁炮会慢慢充能，然后可造成巨量范围伤害。她的字典里可没有"伤害过量"这个词。
+- key: miner
+  fandom_page: Miner
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Miner
+  name_zh: 掘地矿工
+  cost: '3'
+  arena: Electro Valley
+  release_date: 3 May 2016
+  official_id: 26000032
+  official_description_zh: 掘地矿工可以掘地三尺并在竞技场中的任何位置破土而出。这可不是什么魔法，他靠的是他的铲子。对皇家塔的伤害会大打折扣。
+- key: princess
+  fandom_page: Princess
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Princess
+  name_zh: 公主
+  cost: '3'
+  arena: Electro Valley
+  release_date: 29 February 2016
+  official_id: 26000026
+  official_description_zh: 这位迷人的公主会从远距离发射火焰箭。如果你看到她时感到很温暖，当心了，这可能是因为你身上着火了。
+- key: phoenix
+  fandom_page: Phoenix
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Phoenix
+  name_zh: 凤凰
+  cost: '4'
+  arena: Spooky Town
+  release_date: 26 October 2022
+  official_id: 26000087
+  official_description_zh: |-
+    被击倒后，这只神秘生物将变成一颗蛋。这颗蛋如果成功孵化，凤凰将重新在竞技场上翱翔！这技能真是鸟见鸟爱！
+
+    凤凰蛋成功孵化后会以完整生命值和伤害重返竞技场，但重生的凤凰再次被击败时不会生成新的蛋。
+- key: royal-ghost
+  fandom_page: Royal Ghost
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Ghost
+  name_zh: 皇家幽灵
+  cost: '3'
+  arena: Spooky Town
+  release_date: 4 January 2018
+  official_id: 26000050
+  official_description_zh: 一个在竞技场中游荡的隐形幽灵，当他被敌人惊醒后便会显形并发动攻击！解决了眼前的敌人后，他会再次隐身继续呼呼大睡。
+- key: ice-wizard
+  fandom_page: Ice Wizard
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Ice_Wizard
+  name_zh: 寒冰法师
+  cost: '3'
+  arena: Spooky Town
+  release_date: 29 February 2016
+  official_id: 26000023
+  official_description_zh: 这位超酷的法师会向敌人发射冰晶，降低他们的移动速度和攻击速度。虽然寒冰法师外表冷酷，但他那迷人的胡子透露出的热情就足以让他在皇室频道人气大旺了。
+- key: magic-archer
+  fandom_page: Magic Archer
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Magic_Archer
+  name_zh: 神箭游侠
+  cost: '4'
+  arena: Rascal's Hideout
+  release_date: 2 March 2018
+  official_id: 26000062
+  official_description_zh: 说他是法师或是弓箭手未免有点太小瞧他了！他射出的神箭穿透性极强，可对飞行路径上的所有敌人造成伤害。这可不是街头魔术，这是他的魔法神箭！
+- key: bandit
+  fandom_page: Bandit
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Bandit
+  name_zh: 幻影刺客
+  cost: '3'
+  arena: Rascal's Hideout
+  release_date: 24 March 2017
+  official_id: 26000046
+  official_description_zh: 幻影刺客可以向目标发动突袭，造成双倍伤害！幻影刺客在突袭过程中不会受到攻击。面具掩饰了她神秘的身份，也给她增添了一分高冷！
+- key: lava-hound
+  fandom_page: Lava Hound
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Lava_Hound
+  name_zh: 熔岩猎犬
+  cost: '7'
+  arena: Rascal's Hideout
+  release_date: 3 May 2016
+  official_id: 26000029
+  official_description_zh: 熔岩猎犬是一只专门攻击建筑物的飞行巨兽。熔岩幼犬的个头虽没那么伟岸，但它们脾气暴躁，会攻击任何单位。
+- key: night-witch
+  fandom_page: Night Witch
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Night_Witch
+  name_zh: 暗夜女巫
+  cost: '4'
+  arena: Serenity Peak
+  release_date: 31 May 2017
+  official_id: 26000048
+  official_description_zh: 她能召唤蝙蝠，只要她一声号令，这些蝙蝠便会为她赴汤蹈火。如果你靠得太近，她可不介意用手中那造型恐怖的法杖教训教训你。
+- key: lumberjack
+  fandom_page: Lumberjack
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Lumberjack
+  name_zh: 狂暴樵夫
+  cost: '4'
+  arena: Serenity Peak
+  release_date: 4 July 2016
+  official_id: 26000035
+  official_description_zh: 他白天砍树，晚上追踪滚木。当他倒下时，他扛着的那瓶狂暴药水便会洒得到处都是。
+- key: spirit-empress
+  fandom_page: Spirit Empress
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Spirit_Empress
+  name_zh: 精灵女王
+  cost: '6 ''''(Air form: if the player''s Elixir count ≥ 6)''''<br />3 ''''(Ground form: otherwise)'''''
+  arena: Miner's Mine
+  release_date: 7 July 2025
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/news/全新-主题季-女王-的-新衣
+- key: goblin-machine
+  fandom_page: Goblin Machine
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Machine
+  name_zh: 哥布林机甲
+  cost: '5'
+  arena: Miner's Mine
+  release_date: 17 June 2024
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/news/哥布林女皇征程更新
+- key: mother-witch
+  fandom_page: Mother Witch
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Mother_Witch
+  name_zh: 女巫婆婆
+  cost: '4'
+  arena: Miner's Mine
+  release_date: 7 December 2020
+  official_id: 26000083
+  official_description_zh: |-
+    女巫婆婆每次攻击都会对敌方军队施加魔法，受到魔力侵蚀的军队单位被消灭后会变成野猪。这些被魔力侵蚀的野猪会加入女巫婆婆的阵营，向敌方建筑发起冲击！
+
+    除了会魔法，女巫婆婆还烤得一手好饼干。
+- key: fisherman
+  fandom_page: Fisherman
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Fisherman
+  name_zh: 渔夫
+  cost: '3'
+  arena: Miner's Mine
+  release_date: 5 August 2019
+  official_id: 26000061
+  official_description_zh: 他的远程攻击能将敌人拉到自己身前，也可以把自己拉到敌方建筑脚下。他还精通失传已久的"咸鱼十八掌"。
+- key: ronin
+  fandom_page: Ronin
+  type: troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Ronin
+  name_zh: 浪人
+  cost: '5'
+  arena: Serenity Peak
+  release_date: 6 July 2026
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/全新-主题季-荣耀-与-离乡
+- key: golden-knight
+  fandom_page: Golden Knight
+  type: troop
+  rarity: champion
+  source_url: https://clashroyale.fandom.com/wiki/Golden_Knight
+  name_zh: 黄金圣骑
+  cost: '4'
+  arena: Executioner's Kitchen
+  release_date: 27 October 2021
+  official_id: 26000074
+  official_description_zh: 他是一位秀发浓密、身体柔韧的战士。如有需要，他会展示自己的有氧运动技巧。
+- key: skeleton-king
+  fandom_page: Skeleton King
+  type: troop
+  rarity: champion
+  source_url: https://clashroyale.fandom.com/wiki/Skeleton_King
+  name_zh: 骷髅帝王
+  cost: '4'
+  arena: Executioner's Kitchen
+  release_date: 27 October 2021
+  official_id: 26000069
+  official_description_zh: 不死之王本王。有时他会感到孤独（可能是因为他不太招人喜欢），会把死去的朋友召回战场和他并肩作战。硬汉也有柔情！
+- key: boss-bandit
+  fandom_page: Boss Bandit
+  type: troop
+  rarity: champion
+  source_url: https://clashroyale.fandom.com/wiki/Boss_Bandit
+  name_zh: 刺客头领
+  cost: '6'
+  arena: Royal Crypt
+  release_date: 7 April 2025
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/4月-更新
+- key: archer-queen
+  fandom_page: Archer Queen
+  type: troop
+  rarity: champion
+  source_url: https://clashroyale.fandom.com/wiki/Archer_Queen
+  name_zh: 弓箭女皇
+  cost: '5'
+  arena: Royal Crypt
+  release_date: 27 October 2021
+  official_id: 26000072
+  official_description_zh: 她快如疾风、极其危险，并且难以捉摸。当心她的箭矢！和她对战别眨眼，不然你可能找不到她！
+- key: mighty-miner
+  fandom_page: Mighty Miner
+  type: troop
+  rarity: champion
+  source_url: https://clashroyale.fandom.com/wiki/Mighty_Miner
+  name_zh: 威猛矿工
+  cost: 4
+  arena: 17
+  release_date: 30/3/2022
+  official_id: 26000065
+  official_description_zh: |-
+    轻轻的我来了，扛着巨大的钻机！
+
+    这位英雄对目标造成的伤害会不断提升，还能钻到另一路，从激战中脱身或改变攻击目标。
+
+    凭着这股"钻"劲儿，他成为了竞技场上最威猛、最狡猾的矿工！
+- key: goblinstein
+  fandom_page: Goblinstein
+  type: troop
+  rarity: champion
+  source_url: https://clashroyale.fandom.com/wiki/Goblinstein
+  name_zh: 科学怪哥布林
+  cost: '5'
+  arena: Silent Sanctuary
+  release_date: 7 October 2024
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/十月更新
+- key: little-prince
+  fandom_page: Little Prince
+  type: troop
+  rarity: champion
+  source_url: https://clashroyale.fandom.com/wiki/Little_Prince
+  name_zh: 小王子
+  cost: '3'
+  arena: Silent Sanctuary
+  release_date: 6 November 2023
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/11月13日更新
+- key: monk
+  fandom_page: Monk
+  type: troop
+  rarity: champion
+  source_url: https://clashroyale.fandom.com/wiki/Monk
+  name_zh: 盖世武僧
+  cost: '5'
+  arena: Silent Sanctuary
+  release_date: 26 October 2022
+  official_id: 26000077
+  official_description_zh: |-
+    盖世武僧闭关修炼多年，终于练就了一套独门武功。
+
+    他能对敌人发起3连击，最后一下攻击还可造成额外伤害和击退效果！
+- key: arrows
+  fandom_page: Arrows
+  type: spell
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Arrows
+  name_zh: 万箭齐发
+  cost: '3'
+  arena: Training Camp
+  release_date: 4 January 2016
+  official_id: 28000001
+  official_description_zh: 万箭齐发可以覆盖大片区域并对该区域内的所有敌军造成伤害。对皇家塔的伤害会大打折扣。
+- key: zap
+  fandom_page: Zap
+  type: spell
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Zap
+  name_zh: 电击法术
+  cost: '2'
+  arena: Builder's Workshop
+  release_date: 4 January 2016
+  official_id: 28000008
+  official_description_zh: 电击法术可以对目标单位造成瞬间眩晕效果，并在小范围内造成伤害。对皇家塔的伤害会大打折扣。
+- key: giant-snowball
+  fandom_page: Giant Snowball
+  type: spell
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Giant_Snowball
+  name_zh: 大雪球
+  cost: '2'
+  arena: Frozen Peak
+  release_date: 20 June 2018
+  official_id: 28000017
+  official_description_zh: 大雪球从天而降！它从冰封之巅滚落，无人可挡。大雪球会对敌军造成击退和减速效果。对皇家塔的伤害会大打折扣。
+- key: royal-delivery
+  fandom_page: Royal Delivery
+  type: spell
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Delivery
+  name_zh: 皇家速递
+  cost: '3'
+  arena: Serenity Peak
+  release_date: 6 April 2020
+  official_id: 28000018
+  official_description_zh: |-
+    签不签收由不得你！
+
+    一个箱子从天而降，对范围内的敌军造成伤害，最后放出一名皇家卫队新兵。
+
+    用过的箱子还是谍报特工的绝佳伪装。
+- key: fireball
+  fandom_page: Fireball
+  type: spell
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Fireball
+  name_zh: 火球
+  cost: '4'
+  arena: Training Camp
+  release_date: 4 January 2016
+  official_id: 28000000
+  official_description_zh: 啊啊啊啊......火球出击。它能焚烧小片区域并造成大量伤害。对皇家塔的伤害会大打折扣。
+- key: rocket
+  fandom_page: Rocket
+  type: spell
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Rocket
+  name_zh: 火箭
+  cost: '6'
+  arena: Builder's Workshop
+  release_date: 4 January 2016
+  official_id: 28000003
+  official_description_zh: 在小范围内造成大量伤害，效果看上去很过瘾。对皇家塔的伤害会大打折扣。
+- key: earthquake
+  fandom_page: Earthquake
+  type: spell
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Earthquake
+  name_zh: 地震法术
+  cost: '3'
+  arena: Spooky Town
+  release_date: 15 April 2019
+  official_id: 28000014
+  official_description_zh: 地震法术可对目标区域内的军队和皇家塔造成每秒伤害，对除皇家塔之外的建筑更可造成大量伤害！对飞行单位无效，毕竟它叫"地"震法术。
+- key: goblin-barrel
+  fandom_page: Goblin Barrel
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Barrel
+  name_zh: 哥布林飞桶
+  cost: '3'
+  arena: P.E.K.K.A.'s Playhouse
+  release_date: 4 January 2016
+  official_id: 28000004
+  official_description_zh: 可在竞技场任意地点释放三个哥布林。小伙子们，这会是趟惊险的旅程！
+- key: vines
+  fandom_page: Vines
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Vines
+  name_zh: 藤蔓法术
+  cost: '3'
+  arena: Frozen Peak
+  release_date: 1 September 2025
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/三月-平衡性-调整
+- key: lightning
+  fandom_page: Lightning
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Lightning
+  name_zh: 雷电法术
+  cost: '6'
+  arena: Frozen Peak
+  release_date: 4 January 2016
+  official_id: 28000007
+  official_description_zh: 雷电法术最多可伤害和短暂眩晕目标区域内三个当前生命值最高的敌方军队或建筑。对皇家塔的伤害会大打折扣。
+- key: freeze
+  fandom_page: Freeze
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Freeze
+  name_zh: 冰冻法术
+  cost: '4'
+  arena: Frozen Peak
+  release_date: 4 January 2016
+  official_id: 28000005
+  official_description_zh: 冻结军队和建筑，使其无法移动或攻击，还能对其造成伤害。瞧，敌人已经瑟瑟发抖了！对皇家塔的伤害会大打折扣。
+- key: barbarian-barrel
+  fandom_page: Barbarian Barrel
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Barbarian_Barrel
+  name_zh: 野蛮人滚桶
+  cost: '2'
+  arena: Jungle Arena
+  release_date: 6 April 2018
+  official_id: 28000015
+  official_description_zh: 它会向前滚动，对路径上的所有目标造成伤害。滚桶碎裂后会蹦出来一个野蛮人！他到底是怎么钻进去的？！
+- key: poison
+  fandom_page: Poison
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Poison
+  name_zh: 毒药法术
+  cost: '4'
+  arena: Jungle Arena
+  release_date: 29 February 2016
+  official_id: 28000009
+  official_description_zh: 强烈的药效覆盖目标区域，并对区域内的军队和建筑造成持续性伤害。为什么伤害药水法术作用过的草地依然生机勃勃绿意盎然呢？猜猜看吧。对皇家塔的伤害会大打折扣。
+- key: goblin-curse
+  fandom_page: Goblin Curse
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Curse
+  name_zh: 哥布林魔咒
+  cost: '2'
+  arena: Serenity Peak
+  release_date: 17 June 2024
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/news/哥布林女皇征程更新
+- key: rage
+  fandom_page: Rage
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Rage
+  name_zh: 狂暴法术
+  cost: '2'
+  arena: Serenity Peak
+  release_date: 4 January 2016
+  official_id: 28000002
+  official_description_zh: 提高军队的移动速度和攻击速度，还可以让建筑的攻击速度和出兵速度加快。冲锋吧！
+- key: clone
+  fandom_page: Clone
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Clone
+  name_zh: 克隆法术
+  cost: '3'
+  arena: Miner's Mine
+  release_date: 9 December 2016
+  official_id: 28000013
+  official_description_zh: 克隆目标区域内的我方军队。克隆出的军队非常脆弱，但其伤害输出和同等级的本体一致！克隆法术对建筑无效。
+- key: tornado
+  fandom_page: Tornado
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Tornado
+  name_zh: 飓风法术
+  cost: '3'
+  arena: Miner's Mine
+  release_date: 11 November 2016
+  official_id: 28000012
+  official_description_zh: 飓风法术就像个不断旋转产生飓风旋涡的巨型磁铁，会将目标区域内的敌方军队卷至飓风中心，并对其中的敌军造成持续性伤害。
+- key: mirror
+  fandom_page: Mirror
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Mirror
+  name_zh: 镜像法术
+  cost: "? ''(Cost of previous card played +1)''"
+  arena: Miner's Mine
+  release_date: 4 January 2016
+  official_id: 28000006
+  official_description_zh: 复制您用的上一张牌，圣水花费在原卡牌的基础上+1。不会出现在初始卡牌中。
+- key: void
+  fandom_page: Void
+  type: spell
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Void
+  name_zh: 虚空法术
+  cost: '3'
+  arena: Miner's Mine
+  release_date: 6 May 2024
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/十月更新
+- key: the-log
+  fandom_page: The Log
+  type: spell
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/The_Log
+  name_zh: 滚木
+  cost: '2'
+  arena: Electro Valley
+  release_date: 4 July 2016
+  official_id: 28000011
+  official_description_zh: 不小心洒出的狂暴药水将这根无辜的圆木变成了"滚木"。现在，它会无情碾过挡在面前的一切！对皇家塔的伤害会大打折扣。
+- key: graveyard
+  fandom_page: Graveyard
+  type: spell
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Graveyard
+  name_zh: 骷髅召唤
+  cost: '5'
+  arena: Spooky Town
+  release_date: 28 October 2016
+  official_id: 28000010
+  official_description_zh: 没想到吧！这是一场派对，一场可以在竞技场中任意地点举办的骷髅派对，哇哦！
+- key: cannon
+  fandom_page: Cannon
+  type: building
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Cannon
+  name_zh: 加农炮
+  cost: '3'
+  arena: Barbarian Bowl
+  release_date: 4 January 2016
+  official_id: 27000000
+  official_description_zh: 防御建筑，发射强力炮弹，但无法攻击飞行单位。
+- key: mortar
+  fandom_page: Mortar
+  type: building
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Mortar
+  name_zh: 迫击炮
+  cost: '4'
+  arena: Builder's Workshop
+  release_date: 4 January 2016
+  official_id: 27000002
+  official_description_zh: 射程极远的防御建筑，能发射巨石并造成范围伤害，无法攻击靠得太近的目标！
+- key: tesla
+  fandom_page: Tesla
+  type: building
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Tesla
+  name_zh: 特斯拉电磁塔
+  cost: '4'
+  arena: Hog Mountain
+  release_date: 4 January 2016
+  official_id: 27000006
+  official_description_zh: 防御建筑。不用电击敌军的时候，拥有雷电之力的特斯拉电磁塔还是藏在地底会比较安全。
+- key: goblin-cage
+  fandom_page: Goblin Cage
+  type: building
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Cage
+  name_zh: 哥布林牢笼
+  cost: '4'
+  arena: Goblin Stadium
+  release_date: 17 May 2019
+  official_id: 27000012
+  official_description_zh: 哥布林牢笼被摧毁后，牢笼里的哥布林硬汉会冲向竞技场！虽然这位硬汉的腿细了点，但他的拳头可硬了。
+- key: goblin-hut
+  fandom_page: Goblin Hut
+  type: building
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Hut
+  name_zh: 哥布林小屋
+  cost: '4'
+  arena: Goblin Stadium
+  release_date: 4 January 2016
+  official_id: 27000001
+  official_description_zh: 这座小屋能放出哥布林投矛手。千万别往里瞧，相信我，你不会想知道他们是如何训练出来的。
+- key: tombstone
+  fandom_page: Tombstone
+  type: building
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Tombstone
+  name_zh: 骷髅墓碑
+  cost: '3'
+  arena: Bone Pit
+  release_date: 4 January 2016
+  official_id: 27000009
+  official_description_zh: 军队建筑，每隔一会儿放出骷髅兵攻击敌军。被摧毁后会产生4个骷髅兵。有点小恐怖哦！
+- key: bomb-tower
+  fandom_page: Bomb Tower
+  type: building
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Bomb_Tower
+  name_zh: 炸弹塔
+  cost: '4'
+  arena: Spell Valley
+  release_date: 4 January 2016
+  official_id: 27000004
+  official_description_zh: 防御建筑，它里面住着一个炸弹兵，会对任何蠢到接近它的笨蛋造成范围伤害。
+- key: inferno-tower
+  fandom_page: Inferno Tower
+  type: building
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Inferno_Tower
+  name_zh: 地狱之塔
+  cost: '5'
+  arena: Spell Valley
+  release_date: 4 January 2016
+  official_id: 27000003
+  official_description_zh: 防御建筑，炙烤敌人造成的伤害会随着时间而递增。无论多庞大多耐打的敌人，到了它面前都会灰飞烟灭！
+- key: barbarian-hut
+  fandom_page: Barbarian Hut
+  type: building
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Barbarian_Hut
+  name_zh: 野蛮人小屋
+  cost: '6'
+  arena: Jungle Arena
+  release_date: 4 January 2016
+  official_id: 27000005
+  official_description_zh: 这座小屋每隔一会儿就会放出野蛮人攻击敌军。野蛮人出征！
+- key: elixir-collector
+  fandom_page: Elixir Collector
+  type: building
+  rarity: rare
+  source_url: https://clashroyale.fandom.com/wiki/Elixir_Collector
+  name_zh: 圣水收集器
+  cost: '6'
+  arena: Miner's Mine
+  release_date: 4 January 2016
+  official_id: 27000007
+  official_description_zh: 钱生钱，圣水生圣水。圣水收集器在场上总共可以产出8圣水，不会出现在初始卡牌中。
+- key: x-bow
+  fandom_page: X-Bow
+  type: building
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/X-Bow
+  name_zh: 十字连弩
+  cost: '6'
+  arena: Hog Mountain
+  release_date: 4 January 2016
+  official_id: 27000008
+  official_description_zh: 你的皇家塔不错啊，但这把十字连弩在竞技场这边就能把它射成筛子，真是遗憾呢......
+- key: goblin-drill
+  fandom_page: Goblin Drill
+  type: building
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Drill
+  name_zh: 哥布林钻机
+  cost: '4'
+  arena: Serenity Peak
+  release_date: 11 July 2021
+  official_id: 27000013
+  official_description_zh: 建筑卡牌，在地底穿行并能从竞技场的任何位置钻出。钻机里每次会跑出一个哥布林，被摧毁时，还会再跑出几个哥布林，手持匕首捅向附近的敌人或建筑。
+- key: tower-princess
+  fandom_page: Tower Princess
+  type: tower_troop
+  rarity: common
+  source_url: https://clashroyale.fandom.com/wiki/Tower_Princess
+  name_zh: 皇家塔公主
+  cost: 
+  arena: Training Camp
+  release_date: 13 December 2023
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/12月13日游戏更新
+- key: cannoneer
+  fandom_page: Cannoneer
+  type: tower_troop
+  rarity: epic
+  source_url: https://clashroyale.fandom.com/wiki/Cannoneer
+  name_zh: 炮兵
+  cost: 
+  arena: Frozen Peak
+  release_date: 1 January 2024
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/维护调整详情
+- key: dagger-duchess
+  fandom_page: Dagger Duchess
+  type: tower_troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Dagger_Duchess
+  name_zh: 飞刀女爵
+  cost: 
+  arena: Electro Valley
+  release_date: 1 April 2024
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/4月活动和挑战
+- key: royal-chef
+  fandom_page: Royal Chef
+  type: tower_troop
+  rarity: legendary
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Chef
+  name_zh: 皇家大厨
+  cost: 
+  arena: Rascal's Hideout
+  release_date: 16 December 2024
+  name_source: https://supercell.com/en/games/clashroyale/zh-hans/blog/release-notes/游戏更新-全新皇家塔部队皇家大厨

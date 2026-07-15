@@ -1,0 +1,12 @@
+source_url: https://clashroyale.fandom.com/wiki/Electro_Wizard
+items:
+  - { date: '2025-03-31', type: adjustment, summary: '生命值因数值取整降低约 0.14%，伤害降低约 0.86%。' }
+  - { date: '2025-03-04', type: buff, summary: '伤害提高 5%。' }
+  - { date: '2024-08-06', type: buff, summary: '登场电击半径从 2.5 格提高至 3 格。' }
+  - { date: '2020-12-09', type: nerf, summary: '伤害降低 2.5%。' }
+  - { date: '2020-11-03', type: nerf, summary: '伤害降低 3.5%。' }
+  - { date: '2017-08-11', type: nerf, summary: '生命值降低 2%。' }
+  - { date: '2017-04-19', type: nerf, summary: '攻击间隔从 1.7 秒延长至 1.8 秒，首次攻击从 0.3 秒延长至 0.4 秒。' }
+  - { date: '2017-03-13', type: adjustment, summary: '移除永久眩晕敌军的异常交互。' }
+  - { date: '2017-01-23', type: adjustment, summary: '登场伤害降低 6%，生命值提高 9%。' }
+  - { date: '2016-12-30', type: release, summary: '闪电法师正式加入游戏。' }

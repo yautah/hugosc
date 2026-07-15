@@ -1,0 +1,126 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 骷髅军团
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.5)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '15'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '6'
+      hitpoints: '51'
+      damage: '51'
+      damage_per_second: '46'
+    - level: '7'
+      hitpoints: '56'
+      damage: '56'
+      damage_per_second: '50'
+    - level: '8'
+      hitpoints: '61'
+      damage: '61'
+      damage_per_second: '55'
+    - level: '9'
+      hitpoints: '67'
+      damage: '67'
+      damage_per_second: '60'
+    - level: '10'
+      hitpoints: '74'
+      damage: '74'
+      damage_per_second: '67'
+    - level: '11'
+      hitpoints: '81'
+      damage: '81'
+      damage_per_second: '73'
+    - level: '12'
+      hitpoints: '89'
+      damage: '89'
+      damage_per_second: '80'
+    - level: '13'
+      hitpoints: '98'
+      damage: '98'
+      damage_per_second: '89'
+    - level: '14'
+      hitpoints: '108'
+      damage: '108'
+      damage_per_second: '98'
+    - level: '15'
+      hitpoints: '119'
+      damage: '119'
+      damage_per_second: '108'
+    - level: '16'
+      hitpoints: '130'
+      damage: '130'
+      damage_per_second: '118'
+balance_history:
+- date: '2025-10-06'
+  type: adjustment
+  summary: 骷髅攻击间隔从 1 秒延长至 1.1 秒，觉醒骷髅军团正式加入游戏。
+- date: '2025-08-04'
+  type: adjustment
+  summary: 觉醒女巫不再因被消灭的骷髅获得治疗。
+- date: '2022-10-26'
+  type: adjustment
+  summary: 解锁竞技场调整至皮卡超人乐园。
+- date: '2021-09-02'
+  type: visual
+  summary: 更换骷髅军团卡牌立绘。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页面加入骷髅军团立绘。
+- date: '2018-10-01'
+  type: buff
+  summary: 骷髅数量从 14 只提高至 15 只。
+- date: '2017-04-19'
+  type: nerf
+  summary: 骷髅数量从 15 只降低至 14 只。
+- date: '2017-02-13'
+  type: nerf
+  summary: 骷髅数量从 16 只降低至 15 只。
+- date: '2016-10-20'
+  type: adjustment
+  summary: 圣水费用从 4 降至 3，骷髅数量从 21 只降低至 16 只，并调整等级至锦标赛标准。
+- date: '2016-07-04'
+  type: buff
+  summary: 骷髅数量从 20 只提高至 21 只，并压缩河道附近的部署阵型。
+- date: '2016-05-18'
+  type: buff
+  summary: 骷髅生命值与伤害提高 5%。
+- date: '2016-02-19'
+  type: buff
+  summary: 骷髅生命值与伤害提高 11%。
+- date: '2016-01-04'
+  type: release
+  summary: 骷髅军团随游戏上线。

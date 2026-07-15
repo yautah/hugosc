@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Golem
+items:
+  - { date: '2025-08-04', type: buff, summary: '小戈仑石人伤害提高 74%。' }
+  - { date: '2025-03-31', type: adjustment, summary: '戈仑石人死亡伤害提高 0.44%；小戈仑石人生命值降低 0.09%，伤害降低 2.04%。' }
+  - { date: '2022-12-15', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2021-06-07', type: nerf, summary: '戈仑石人死亡伤害降低 28%。' }
+  - { date: '2020-03-03', type: adjustment, summary: '小戈仑石人普通伤害降低 22.5%，死亡伤害提高 55%。' }
+  - { date: '2019-01-07', type: nerf, summary: '小戈仑石人死亡时的击退距离从 1.8 格缩短至 0.9 格。' }
+  - { date: '2016-10-20', type: buff, summary: '戈仑石人和小戈仑石人的死亡伤害开始影响空中单位。' }
+  - { date: '2016-08-24', type: buff, summary: '戈仑石人伤害和死亡伤害提高 5%，生命值提高 1%；小戈仑石人伤害和死亡伤害提高 8%，生命值提高 3.2%。' }
+  - { date: '2016-05-18', type: buff, summary: '戈仑石人和小戈仑石人生命值提高 5%。' }
+  - { date: '2016-05-03', type: visual, summary: '更新角色外观与死亡动画，并修复攻击距离显示：本体调整为 0.75 格，小戈仑石人调整为 0.25 格。' }
+  - { date: '2016-02-19', type: nerf, summary: '戈仑石人和小戈仑石人生命值降低 5%。' }
+  - { date: '2016-02-02', type: adjustment, summary: '本体生命值、伤害和死亡伤害提高 43%，小戈仑石人对应属性降低 43%，并在卡牌信息中加入死亡伤害。' }
+  - { date: '2016-01-04', type: release, summary: '戈仑石人随皇室战争上线正式加入游戏。' }

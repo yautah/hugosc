@@ -1,0 +1,17 @@
+source_url: https://clashroyale.fandom.com/wiki/Skeleton_Dragons
+items:
+- date: '2024-08-06'
+  type: nerf
+  summary: 生命值降低 0.5%。
+- date: '2023-06-06'
+  type: buff
+  summary: 生命值提高 5.8%，同时增大两只骷髅飞龙的初始部署间距。
+- date: '2020-10-06'
+  type: nerf
+  summary: 攻击间隔从 1.7 秒延长至 1.9 秒。
+- date: '2020-07-07'
+  type: nerf
+  summary: 伤害降低 6%。
+- date: '2020-07-06'
+  type: release
+  summary: 骷髅飞龙正式加入游戏。

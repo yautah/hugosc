@@ -1,0 +1,14 @@
+source_url: https://clashroyale.fandom.com/wiki/Hunter
+items:
+  - { date: '2025-06-03', type: buff, summary: '首次攻击间隔从 0.8 秒缩短至 0.7 秒。' }
+  - { date: '2025-03-31', type: buff, summary: '生命值提高 0.11%。' }
+  - { date: '2025-03-03', type: evolution, summary: '猎人的觉醒形态正式上线。' }
+  - { date: '2025-01-30', type: adjustment, summary: '符文巨人的追加伤害改为在十枚弹丸之间分摊，不再让每枚弹丸分别获得完整加成。' }
+  - { date: '2024-08-06', type: buff, summary: '生命值提高 5.5%。' }
+  - { date: '2022-02-03', type: buff, summary: '首次攻击间隔从 0.9 秒缩短至 0.8 秒。' }
+  - { date: '2021-09-06', type: buff, summary: '首次攻击间隔从 1.1 秒缩短至 0.9 秒。' }
+  - { date: '2021-03-30', type: nerf, summary: '首次攻击间隔从 0.7 秒延长至 1.1 秒。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2019-10-07', type: buff, summary: '每枚弹丸伤害提高 2%。' }
+  - { date: '2018-01-24', type: adjustment, summary: '攻击距离从 5 格缩短至 4 格，并略微收窄弹丸散布。' }
+  - { date: '2017-12-12', type: release, summary: '猎人正式加入游戏。' }

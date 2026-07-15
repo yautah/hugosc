@@ -1,0 +1,17 @@
+source_url: https://clashroyale.fandom.com/wiki/Three_Musketeers
+items:
+  - { date: '2025-12-01', type: buff, summary: 优化三名精英火枪手的目标选择，减少同时攻击同一低生命值目标的情况。 }
+  - { date: '2025-11-03', type: adjustment, summary: '重做为三名精英火枪手并更换卡牌图片；新增刺刀近战形态，近身时改为攻击地面并使用更高伤害。' }
+  - { date: '2025-03-31', type: adjustment, summary: '生命值降低 0.06%，伤害降低 0.45%；同时修复左右侧部署时阵型未正确镜像的问题。' }
+  - { date: '2025-02-04', type: buff, summary: 首次攻击间隔从 0.8 秒缩短至 0.7 秒。 }
+  - { date: '2022-02-03', type: buff, summary: 攻击间隔从 1.1 秒缩短至 1 秒。 }
+  - { date: '2021-03-30', type: buff, summary: 部署时间从 2 秒缩短至 1 秒。 }
+  - { date: '2020-10-06', type: nerf, summary: 首次攻击间隔从 0.5 秒延长至 0.8 秒。 }
+  - { date: '2020-08-31', type: visual, summary: 卡牌信息页面加入角色立绘。 }
+  - { date: '2020-06-02', type: buff, summary: 三名火枪手之间的部署间隔从 0.5 秒缩短至 0.1 秒。 }
+  - { date: '2019-12-02', type: adjustment, summary: '部署时间从 3 秒缩短至 2 秒，三名火枪手之间的部署间隔从 0.15 秒延长至 0.5 秒。' }
+  - { date: '2019-05-06', type: adjustment, summary: '圣水费用从 10 降至 9，部署时间从 1 秒延长至 3 秒，并加入每名火枪手 0.15 秒的部署间隔。' }
+  - { date: '2019-02-04', type: adjustment, summary: '圣水费用从 9 提高至 10，火枪手伤害提高 3%。' }
+  - { date: '2016-05-03', type: adjustment, summary: 修复射程显示问题；面板射程从 6.5 格改为 6 格，实际攻击范围不变。 }
+  - { date: '2016-03-23', type: buff, summary: 圣水费用从 10 降至 9。 }
+  - { date: '2016-02-29', type: release, summary: 三个火枪手正式加入游戏。 }

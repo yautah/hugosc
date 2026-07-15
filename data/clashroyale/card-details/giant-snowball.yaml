@@ -1,0 +1,110 @@
+---
+release_date: '2018-06-20'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 大雪球
+  kind: main
+  mechanics:
+  - key: radius
+    label: 作用半径
+    value: '2.5'
+  - key: slow_duration
+    label: 减速持续时间
+    value: 3 秒
+  - key: slowdown
+    label: 减速幅度
+    value: "-30%"
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    rows:
+    - level: '1'
+      area_damage: '69'
+      crown_tower_damage: '21'
+    - level: '2'
+      area_damage: '76'
+      crown_tower_damage: '23'
+    - level: '3'
+      area_damage: '84'
+      crown_tower_damage: '25'
+    - level: '4'
+      area_damage: '92'
+      crown_tower_damage: '28'
+    - level: '5'
+      area_damage: '101'
+      crown_tower_damage: '30'
+    - level: '6'
+      area_damage: '111'
+      crown_tower_damage: '34'
+    - level: '7'
+      area_damage: '122'
+      crown_tower_damage: '37'
+    - level: '8'
+      area_damage: '134'
+      crown_tower_damage: '41'
+    - level: '9'
+      area_damage: '148'
+      crown_tower_damage: '45'
+    - level: '10'
+      area_damage: '163'
+      crown_tower_damage: '49'
+    - level: '11'
+      area_damage: '179'
+      crown_tower_damage: '54'
+    - level: '12'
+      area_damage: '197'
+      crown_tower_damage: '59'
+    - level: '13'
+      area_damage: '217'
+      crown_tower_damage: '65'
+    - level: '14'
+      area_damage: '238'
+      crown_tower_damage: '72'
+    - level: '15'
+      area_damage: '262'
+      crown_tower_damage: '79'
+    - level: '16'
+      area_damage: '288'
+      crown_tower_damage: '87'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 减速幅度从 35% 降至 30%。
+- date: '2024-12-02'
+  type: evolution
+  summary: 大雪球觉醒形态正式上线。
+- date: '2023-10-03'
+  type: adjustment
+  summary: 减速持续时间从 2.5 秒延长至 3 秒，伤害降低 6.7%。
+- date: '2023-03-27'
+  type: buff
+  summary: 反弹判定半径从 0.6 格提高至 0.7 格。
+- date: '2021-09-06'
+  type: buff
+  summary: 击退距离从 1.5 格提高至 1.8 格。
+- date: '2020-08-04'
+  type: nerf
+  summary: 对皇家塔伤害比例从 35% 降至 30%。
+- date: '2019-10-07'
+  type: nerf
+  summary: 击退距离从 1.8 格缩短至 1.5 格。
+- date: '2019-07-01'
+  type: nerf
+  summary: 作用半径从 3 格缩短至 2.5 格。
+- date: '2018-12-03'
+  type: buff
+  summary: 伤害提高 14%。
+- date: '2018-10-01'
+  type: buff
+  summary: 减速持续时间从 2 秒延长至 2.5 秒，伤害提高 10%。
+- date: '2018-06-20'
+  type: release
+  summary: 大雪球正式加入游戏。

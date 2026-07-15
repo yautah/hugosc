@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Skeleton_Army
+items:
+  - { date: '2025-10-06', type: adjustment, summary: '骷髅攻击间隔从 1 秒延长至 1.1 秒，觉醒骷髅军团正式加入游戏。' }
+  - { date: '2025-08-04', type: adjustment, summary: 觉醒女巫不再因被消灭的骷髅获得治疗。 }
+  - { date: '2022-10-26', type: adjustment, summary: 解锁竞技场调整至皮卡超人乐园。 }
+  - { date: '2021-09-02', type: visual, summary: 更换骷髅军团卡牌立绘。 }
+  - { date: '2019-11-26', type: visual, summary: 卡牌信息页面加入骷髅军团立绘。 }
+  - { date: '2018-10-01', type: buff, summary: 骷髅数量从 14 只提高至 15 只。 }
+  - { date: '2017-04-19', type: nerf, summary: 骷髅数量从 15 只降低至 14 只。 }
+  - { date: '2017-02-13', type: nerf, summary: 骷髅数量从 16 只降低至 15 只。 }
+  - { date: '2016-10-20', type: adjustment, summary: '圣水费用从 4 降至 3，骷髅数量从 21 只降低至 16 只，并调整等级至锦标赛标准。' }
+  - { date: '2016-07-04', type: buff, summary: 骷髅数量从 20 只提高至 21 只，并压缩河道附近的部署阵型。 }
+  - { date: '2016-05-18', type: buff, summary: 骷髅生命值与伤害提高 5%。 }
+  - { date: '2016-02-19', type: buff, summary: 骷髅生命值与伤害提高 11%。 }
+  - { date: '2016-01-04', type: release, summary: 骷髅军团随游戏上线。 }

@@ -1,0 +1,18 @@
+source_url: https://clashroyale.fandom.com/wiki/Bomb_Tower
+items:
+  - { date: '2023-10-03', type: nerf, summary: 攻击间隔由 1.6 秒延长至 1.8 秒。 }
+  - { date: '2022-06-03', type: visual, summary: 新增卡牌信息界面立绘。 }
+  - { date: '2021-09-06', type: buff, summary: 持续时间由 25 秒提高至 30 秒。 }
+  - { date: '2021-03-30', type: nerf, summary: 死亡伤害降低 50%。 }
+  - { date: '2020-06-02', type: nerf, summary: 持续时间由 35 秒缩短至 25 秒。 }
+  - { date: '2019-03-04', type: buff, summary: 新增被摧毁后的死亡伤害。 }
+  - { date: '2018-10-01', type: buff, summary: 伤害提高 5%。 }
+  - { date: '2018-08-06', type: adjustment, summary: '圣水费用由 5 点降至 4 点，持续时间由 40 秒缩短至 35 秒，生命值降低 33%。' }
+  - { date: '2018-06-20', type: adjustment, summary: 修复目标位于射程边缘时可能停止攻击的问题。 }
+  - { date: '2017-03-13', type: buff, summary: 投射物速度由 300 提高至 500。 }
+  - { date: '2016-07-04', type: buff, summary: 生命值提高 6%。 }
+  - { date: '2016-05-03', type: nerf, summary: '持续时间由 60 秒缩短至 40 秒，面板射程由 6.5 格调整为 6 格，实际有效射程不变。' }
+  - { date: '2016-02-29', type: adjustment, summary: 目标在攻击动作中被消灭时，炸弹塔不再停止投弹。 }
+  - { date: '2016-02-09', type: buff, summary: 攻击间隔由 1.7 秒缩短至 1.6 秒。 }
+  - { date: '2016-02-02', type: buff, summary: 攻击间隔由 1.8 秒缩短至 1.7 秒。 }
+  - { date: '2016-01-04', type: release, summary: 炸弹塔随《皇室战争》上线加入游戏。 }

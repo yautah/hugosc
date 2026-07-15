@@ -1,0 +1,50 @@
+source_url: https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A.
+items:
+  - date: '2026-01-12'
+    type: nerf
+    summary: 生命值降低 3%。
+  - date: '2025-12-01'
+    type: hero
+    summary: 精英迷你皮卡正式加入游戏，推出薄饼积累与早餐强化技能。
+  - date: '2025-07-08'
+    type: buff
+    summary: 生命值提高 5%。
+  - date: '2025-03-31'
+    type: adjustment
+    summary: 季度更新先将伤害降低 3.05%，随后同日维护又将伤害提高 5%。
+  - date: '2025-01-08'
+    type: buff
+    summary: 伤害提高 5%。
+  - date: '2022-07-01'
+    type: visual
+    summary: 更换迷你皮卡的卡牌图片。
+  - date: '2022-02-03'
+    type: buff
+    summary: 攻击间隔从 1.7 秒缩短至 1.6 秒。
+  - date: '2020-11-03'
+    type: buff
+    summary: 攻击间隔从 1.8 秒缩短至 1.7 秒。
+  - date: '2020-05-05'
+    type: nerf
+    summary: 攻击距离从 1.2 格缩短至 0.8 格，并归类为近战：短。
+  - date: '2019-07-01'
+    type: buff
+    summary: 攻击距离从 1.05 格提高至 1.2 格，并归类为近战：中。
+  - date: '2018-01-24'
+    type: buff
+    summary: 生命值提高 7%。
+  - date: '2017-08-11'
+    type: buff
+    summary: 伤害提高 4.6%。
+  - date: '2016-05-03'
+    type: adjustment
+    summary: 迷你皮卡改为会受到所有击退效果影响；显示攻击距离从 1.5 格修正为 1.05 格，实际有效距离不变。
+  - date: '2016-02-29'
+    type: buff
+    summary: 视野范围从 6 格缩短至 5.5 格，使其较不容易被远处目标吸引。
+  - date: '2016-02-09'
+    type: buff
+    summary: 生命值提高 3%。
+  - date: '2016-01-04'
+    type: release
+    summary: 迷你皮卡随游戏早期版本正式加入。

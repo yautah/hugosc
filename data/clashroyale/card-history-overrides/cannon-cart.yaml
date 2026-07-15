@@ -1,0 +1,13 @@
+source_url: https://clashroyale.fandom.com/wiki/Cannon_Cart
+items:
+  - { date: '2025-06-03', type: buff, summary: '生命值提高 5%。' }
+  - { date: '2025-05-05', type: adjustment, summary: '生命值提高 109%，移除独立护盾；生命值降至一半时改为转化为限时建筑。' }
+  - { date: '2025-01-08', type: adjustment, summary: '护盾生命值降低 8%，本体生命值提高 0.5%。' }
+  - { date: '2024-08-06', type: buff, summary: '攻击间隔从 1 秒缩短至 0.9 秒，首次攻击从 0.6 秒缩短至 0.5 秒。' }
+  - { date: '2022-10-04', type: nerf, summary: '生命值降低 8%。' }
+  - { date: '2021-06-07', type: buff, summary: '固定形态攻击间隔从 1 秒缩短至 0.9 秒，首次攻击从 0.6 秒缩短至 0.5 秒。' }
+  - { date: '2021-03-30', type: nerf, summary: '移动速度从快降低为中等。' }
+  - { date: '2020-03-03', type: buff, summary: '伤害提高 5%。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2019-07-01', type: adjustment, summary: '攻击间隔缩短至 1 秒、射程提高至 5.5 格，伤害降低 17%，生命值和护盾生命值提高 1.5%。' }
+  - { date: '2017-08-05', type: release, summary: '加农炮战车正式加入游戏。' }

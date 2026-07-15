@@ -1,0 +1,9 @@
+source_url: https://clashroyale.fandom.com/wiki/Mother_Witch
+items:
+  - { date: '2025-03-31', type: nerf, summary: '生命值降低 0.18%。' }
+  - { date: '2024-10-08', type: nerf, summary: '生命值降低 0.2%。' }
+  - { date: '2022-06-07', type: buff, summary: '攻击间隔从 1.1 秒缩短至 1 秒，首次攻击间隔从 0.4 秒缩短至 0.3 秒。' }
+  - { date: '2021-12-07', type: nerf, summary: '生命值降低 18%。' }
+  - { date: '2021-09-06', type: nerf, summary: '生命值降低 4%。' }
+  - { date: '2021-03-30', type: buff, summary: '攻击间隔从 1.2 秒缩短至 1.1 秒，首次攻击间隔从 0.5 秒缩短至 0.4 秒，伤害提高 14%。' }
+  - { date: '2020-12-07', type: release, summary: '女巫婆婆通过挑战活动正式加入游戏。' }

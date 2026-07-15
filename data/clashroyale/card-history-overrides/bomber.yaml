@@ -1,0 +1,59 @@
+source_url: https://clashroyale.fandom.com/wiki/Bomber
+items:
+- date: '2025-10-06'
+  type: nerf
+  summary: 生命值降低 7%。
+- date: '2024-10-08'
+  type: nerf
+  summary: 伤害降低 2%。
+- date: '2024-02-05'
+  type: evolution
+  summary: 觉醒炸弹兵正式上线，炸弹兵获得觉醒形态。
+- date: '2024-01-03'
+  type: buff
+  summary: 伤害提高 4%。
+- date: '2021-09-06'
+  type: nerf
+  summary: 攻击距离从 5 格缩短至 4.5 格。
+- date: '2021-03-30'
+  type: adjustment
+  summary: 卡牌重做：圣水费用从 3 降至 2，生命值降低 31%，伤害降低 32%。
+- date: '2020-09-09'
+  type: buff
+  summary: 攻击间隔从 1.9 秒缩短至 1.8 秒。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2019-05-06'
+  type: buff
+  summary: 生命值提高 28%。
+- date: '2018-07-02'
+  type: buff
+  summary: 攻击距离从 4.5 格提高至 5 格。
+- date: '2017-03-16'
+  type: buff
+  summary: 投射物速度从 300 提高至 400。
+- date: '2016-12-15'
+  type: buff
+  summary: 伤害提高 4%。
+- date: '2016-09-19'
+  type: adjustment
+  summary: 生命值降低 2%，伤害提高 2.5%，修正部分等级下哥布林无法三次攻击将其击败的问题。
+- date: '2016-07-04'
+  type: buff
+  summary: 伤害提高 9%。
+- date: '2016-05-18'
+  type: buff
+  summary: 伤害提高 10%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 5 格改为 4.5 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 目标在投弹动作中被击败时不再中止攻击，视野范围从 6 格缩小至 5.5 格。
+- date: '2016-02-02'
+  type: buff
+  summary: 攻击间隔从 2 秒缩短至 1.9 秒。
+- date: '2016-01-04'
+  type: release
+  summary: 炸弹兵随皇室战争上线加入游戏。

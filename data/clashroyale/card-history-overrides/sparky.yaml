@@ -1,0 +1,8 @@
+source_url: https://clashroyale.fandom.com/wiki/Sparky
+items:
+  - { date: '2025-03-31', type: adjustment, summary: '生命值因数值取整降低约 0.06%。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2018-06-20', type: buff, summary: '射程从 4.5 格提高至 5 格。' }
+  - { date: '2017-10-09', type: adjustment, summary: '伤害降低 15%，攻击间隔从 5 秒缩短至 4 秒。' }
+  - { date: '2016-05-18', type: buff, summary: '伤害提高 5%。' }
+  - { date: '2016-05-03', type: release, summary: '电磁炮正式加入游戏。' }

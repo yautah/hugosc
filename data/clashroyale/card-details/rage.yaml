@@ -1,0 +1,116 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 狂暴法术
+  kind: main
+  mechanics:
+  - key: radius
+    label: 作用半径
+    value: '3'
+  - key: deploy_time
+    label: 部署时间
+    value: 0.5 秒
+  - key: duration
+    label: 持续时间
+    value: 4.5 秒
+  - key: boost
+    label: 强化效果
+    value: "+30%"
+  - key: target
+    label: 攻击目标
+    value: 友方部队和建筑
+  - key: radius
+    label: 狂暴法术·作用半径
+    value: '3'
+  - key: deploy_time
+    label: 狂暴法术·部署时间
+    value: 0.5 秒
+  - key: duration
+    label: 狂暴法术·持续时间
+    value: 4.5 秒
+  - key: boost
+    label: 狂暴法术·强化效果
+    value: "+30%"
+  - key: target
+    label: 狂暴法术·攻击目标
+    value: 友方部队和建筑
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    rows:
+    - level: '6'
+      area_damage: '111'
+      crown_tower_damage: '34'
+    - level: '7'
+      area_damage: '122'
+      crown_tower_damage: '37'
+    - level: '8'
+      area_damage: '134'
+      crown_tower_damage: '41'
+    - level: '9'
+      area_damage: '148'
+      crown_tower_damage: '45'
+    - level: '10'
+      area_damage: '163'
+      crown_tower_damage: '49'
+    - level: '11'
+      area_damage: '179'
+      crown_tower_damage: '54'
+    - level: '12'
+      area_damage: '197'
+      crown_tower_damage: '59'
+    - level: '13'
+      area_damage: '217'
+      crown_tower_damage: '65'
+    - level: '14'
+      area_damage: '238'
+      crown_tower_damage: '72'
+    - level: '15'
+      area_damage: '262'
+      crown_tower_damage: '79'
+    - level: '16'
+      area_damage: '288'
+      crown_tower_damage: '87'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 速度强化从 35% 降至 30%。
+- date: '2025-08-04'
+  type: adjustment
+  summary: 伤害提高 21%，持续时间从 5.5 秒缩短至 4.5 秒。
+- date: '2025-04-09'
+  type: nerf
+  summary: 伤害降低 23%。
+- date: '2025-03-04'
+  type: nerf
+  summary: 单位离开范围后的强化保留时间从 2 秒缩短至 1 秒。
+- date: '2024-01-03'
+  type: nerf
+  summary: 持续时间从 6 秒缩短至 5.5 秒。
+- date: '2022-12-12'
+  type: adjustment
+  summary: 持续时间统一为 6 秒并加入范围伤害，作用半径从 5 格缩短至 3 格，增加 0.5 秒部署时间。
+- date: '2018-04-25'
+  type: adjustment
+  summary: 允许直接在河道区域施放。
+- date: '2016-11-01'
+  type: buff
+  summary: 速度强化从 30% 提高至 35%。
+- date: '2016-09-19'
+  type: adjustment
+  summary: 费用从 3 降至 2，速度强化从 40% 降至 30%，持续时间缩短 2 秒。
+- date: '2016-03-23'
+  type: adjustment
+  summary: 速度强化从 35% 提高至 40%，持续时间缩短 2 秒。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 加入离开范围后两秒结束强化的衰减机制。
+- date: '2016-01-04'
+  type: release
+  summary: 狂暴法术随游戏首发加入。

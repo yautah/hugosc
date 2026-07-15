@@ -1,0 +1,8 @@
+source_url: https://clashroyale.fandom.com/wiki/Cannoneer
+items:
+  - { date: '2025-09-01', type: nerf, summary: 攻击间隔由 2.1 秒延长至 2.2 秒。 }
+  - { date: '2025-08-04', type: adjustment, summary: '伤害降低 17%，攻击间隔由 2.4 秒缩短至 2.1 秒。' }
+  - { date: '2024-10-08', type: nerf, summary: '伤害降低 5%，首次攻击间隔由 0.6 秒延长至 0.8 秒。' }
+  - { date: '2024-05-14', type: nerf, summary: 伤害降低 5%。 }
+  - { date: '2024-01-10', type: buff, summary: 视野范围提高至与皇家塔公主一致。 }
+  - { date: '2024-01-01', type: release, summary: 炮兵正式加入游戏。 }

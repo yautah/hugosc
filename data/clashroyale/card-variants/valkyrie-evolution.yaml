@@ -1,0 +1,84 @@
+key: valkyrie-evolution
+parent_key: valkyrie
+kind: evolution
+order: 2
+name: 觉醒瓦基丽武神
+label: 觉醒
+url: /clashroyale/cards/valkyrie/evolution/
+image: images/clashroyale/cards/variants/valkyrie-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Valkyrie/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436529
+release_date: '2024-01-01'
+summary: 觉醒瓦基丽武神每次挥斧都会生成短暂旋风，把五格内的空中和地面单位拉向自己并造成额外伤害。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 旋风半径, value: 5 格 }
+  - { label: 基础卡牌, value: 瓦基丽武神 }
+overview:
+  - 觉醒瓦基丽武神的基础属性与普通形态一致，每次攻击都会在身边生成持续半秒的旋风。旋风可以影响空中和地面单位，把五格范围内的目标拉向她并造成伤害，使原本只能攻击地面的武神获得额外控制与对空消耗能力。
+  - 拉扯效果可以阻止建筑目标单位继续前进，也能把分散敌军聚到范围伤害中心。她仍然需要完成攻击动作才能产生旋风，受到眩晕、击退或高伤害空中单位压制时，控制链会被明显缩短。
+units:
+  - name: 觉醒瓦基丽武神
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.5 秒 }
+      - { label: 首次攻击间隔, value: 0.1 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 攻击距离, value: 近战：中 (1.2) }
+      - { label: 范围伤害半径, value: 2 格 }
+      - { label: 旋风半径, value: 5 格 }
+      - { label: 旋风持续, value: 0.5 秒 }
+      - { label: 旋风目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: tornado_damage, label: 旋风伤害 }
+        - { key: tornado_tower_damage, label: 旋风皇家塔伤害 }
+      rows:
+        - { level: '3', hitpoints: '890', area_damage: '124', damage_per_second: '82', tornado_damage: '39', tornado_tower_damage: '17' }
+        - { level: '4', hitpoints: '979', area_damage: '137', damage_per_second: '91', tornado_damage: '43', tornado_tower_damage: '19' }
+        - { level: '5', hitpoints: '1076', area_damage: '150', damage_per_second: '100', tornado_damage: '47', tornado_tower_damage: '21' }
+        - { level: '6', hitpoints: '1184', area_damage: '165', damage_per_second: '110', tornado_damage: '52', tornado_tower_damage: '23' }
+        - { level: '7', hitpoints: '1303', area_damage: '182', damage_per_second: '121', tornado_damage: '57', tornado_tower_damage: '25' }
+        - { level: '8', hitpoints: '1433', area_damage: '200', damage_per_second: '133', tornado_damage: '63', tornado_tower_damage: '28' }
+        - { level: '9', hitpoints: '1576', area_damage: '220', damage_per_second: '146', tornado_damage: '69', tornado_tower_damage: '31' }
+        - { level: '10', hitpoints: '1734', area_damage: '242', damage_per_second: '161', tornado_damage: '76', tornado_tower_damage: '34' }
+        - { level: '11', hitpoints: '1907', area_damage: '266', damage_per_second: '177', tornado_damage: '84', tornado_tower_damage: '37' }
+        - { level: '12', hitpoints: '2098', area_damage: '293', damage_per_second: '195', tornado_damage: '92', tornado_tower_damage: '41' }
+        - { level: '13', hitpoints: '2307', area_damage: '322', damage_per_second: '214', tornado_damage: '102', tornado_tower_damage: '45' }
+        - { level: '14', hitpoints: '2538', area_damage: '354', damage_per_second: '236', tornado_damage: '112', tornado_tower_damage: '49' }
+        - { level: '15', hitpoints: '2792', area_damage: '389', damage_per_second: '259', tornado_damage: '123', tornado_tower_damage: '54' }
+        - { level: '16', hitpoints: '3071', area_damage: '428', damage_per_second: '285', tornado_damage: '135', tornado_tower_damage: '60' }
+usage_tips:
+  - 把她部署在推进路线中央，让第一次旋转尽快触发旋风，可以同时拉住前排、后排与靠近的空中支援。
+  - 对付野猪骑士、巨人等建筑目标单位时，连续拉扯能延长它们到达皇家塔的时间，应配合其他输出尽快完成击杀。
+  - 旋风会把敌军聚集到一起，适合与飞斧屠夫、炸弹兵和烟花炮手等范围输出配合。
+  - 面对高伤害空中单位时不要依赖旋风伤害单独解决，仍应准备防空单位保护觉醒武神继续攻击。
+matchups:
+  - { title: 适合应对, text: '适合地面人海、建筑目标单位和聚集推进；持续拉扯可以打乱路线，并让范围伤害覆盖更多目标。' }
+  - { title: 需要提防, text: '重甲亡灵、地狱飞龙等高伤害空中单位不会被她的普通攻击命中，眩晕与击退也会减少旋风触发次数。' }
+  - { title: 搭配思路, text: '与飞斧屠夫、烟花炮手、电磁炮等范围单位配合，让旋风把目标拉入集中火力；防守后也可作为反击前排。' }
+balance_history:
+  - date: '2025-12-01'
+    type: nerf
+    summary: 旋风半径从 5.5 格缩短至 5 格。
+  - date: '2025-10-06'
+    type: nerf
+    summary: 移除觉醒形态的额外生命值加成。
+  - date: '2025-03-31'
+    type: adjustment
+    summary: 生命值降低 0.09%，普通攻击伤害降低 0.45%。
+  - date: '2024-05-14'
+    type: adjustment
+    summary: 旋风伤害提高 11%，生命值加成从 15% 降至 10%。
+  - date: '2024-03-05'
+    type: buff
+    summary: 获得 15% 额外生命值加成。
+  - date: '2024-01-01'
+    type: evolution
+    summary: 觉醒瓦基丽武神正式上线。

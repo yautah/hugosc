@@ -1,0 +1,140 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 骷髅兵
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.5)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '3'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '31'
+      damage: '31'
+      damage_per_second: '28'
+    - level: '2'
+      hitpoints: '34'
+      damage: '34'
+      damage_per_second: '30'
+    - level: '3'
+      hitpoints: '38'
+      damage: '38'
+      damage_per_second: '34'
+    - level: '4'
+      hitpoints: '42'
+      damage: '42'
+      damage_per_second: '38'
+    - level: '5'
+      hitpoints: '46'
+      damage: '46'
+      damage_per_second: '41'
+    - level: '6'
+      hitpoints: '50'
+      damage: '50'
+      damage_per_second: '45'
+    - level: '7'
+      hitpoints: '55'
+      damage: '55'
+      damage_per_second: '49'
+    - level: '8'
+      hitpoints: '61'
+      damage: '61'
+      damage_per_second: '55'
+    - level: '9'
+      hitpoints: '67'
+      damage: '67'
+      damage_per_second: '60'
+    - level: '10'
+      hitpoints: '74'
+      damage: '74'
+      damage_per_second: '67'
+    - level: '11'
+      hitpoints: '81'
+      damage: '81'
+      damage_per_second: '73'
+    - level: '12'
+      hitpoints: '89'
+      damage: '89'
+      damage_per_second: '80'
+    - level: '13'
+      hitpoints: '98'
+      damage: '98'
+      damage_per_second: '89'
+    - level: '14'
+      hitpoints: '108'
+      damage: '108'
+      damage_per_second: '98'
+    - level: '15'
+      hitpoints: '119'
+      damage: '119'
+      damage_per_second: '108'
+    - level: '16'
+      hitpoints: '130'
+      damage: '130'
+      damage_per_second: '118'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 攻击间隔从 1 秒延长至 1.1 秒。
+- date: '2023-06-19'
+  type: evolution
+  summary: 觉醒骷髅兵正式上线，骷髅兵获得觉醒形态，同时更换卡牌图片。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2017-06-12'
+  type: adjustment
+  summary: 单位数量从 4 个减少至 3 个，并增大骷髅兵部署后的站位间距。
+- date: '2017-02-13'
+  type: buff
+  summary: 单位数量从 3 个增加至 4 个。
+- date: '2016-06-21'
+  type: nerf
+  summary: 单位数量从 4 个减少至 3 个。
+- date: '2016-05-18'
+  type: buff
+  summary: 生命值和伤害均提高 5%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 0.75 格改为 0.5 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 视野范围从 6 格缩小至 5.5 格。
+- date: '2016-02-19'
+  type: buff
+  summary: 生命值和伤害均提高 11%。
+- date: '2016-01-04'
+  type: release
+  summary: 骷髅兵随皇室战争上线加入游戏。

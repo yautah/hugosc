@@ -1,0 +1,12 @@
+source_url: https://clashroyale.fandom.com/wiki/Royal_Recruits
+items:
+- { date: '2025-03-31', type: adjustment, summary: '修正部署队形，使皇家卫队根据竞技场所在一侧正确镜像排列。' }
+- { date: '2024-05-14', type: buff, summary: '生命值提高 3%。' }
+- { date: '2023-09-04', type: evolution, summary: '觉醒皇家卫队正式上线，皇家卫队获得觉醒形态。' }
+- { date: '2022-10-26', type: adjustment, summary: '修复皇家卫队能够部署到对手半场的问题。' }
+- { date: '2020-08-04', type: buff, summary: '伤害提高 8%。' }
+- { date: '2020-06-02', type: adjustment, summary: '六名卫队改为依次部署，每名单位之间间隔 0.1 秒。' }
+- { date: '2019-11-26', type: visual, summary: '卡牌信息界面增加新的卡牌图片。' }
+- { date: '2018-12-03', type: adjustment, summary: '圣水花费从 8 降低至 7，攻击间隔从 1.2 秒延长至 1.3 秒。' }
+- { date: '2018-09-03', type: buff, summary: '伤害提高 12%，并调整部署队形，允许二四或四二分路。' }
+- { date: '2018-08-07', type: release, summary: '皇家卫队正式向全部玩家开放。' }

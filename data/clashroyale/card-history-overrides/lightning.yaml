@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Lightning
+items:
+  - { date: '2025-11-24', type: visual, summary: '卡牌信息页面加入雷电法术的卡牌形象。' }
+  - { date: '2025-06-03', type: nerf, summary: '对皇家塔伤害比例从 30% 降至 27%。' }
+  - { date: '2025-03-31', type: buff, summary: '伤害提高 0.09%。' }
+  - { date: '2022-03-30', type: visual, summary: '即使没有造成伤害，雷电法术也会显示施法视觉效果。' }
+  - { date: '2020-11-19', type: adjustment, summary: '修复雷电法术命中雷电巨人可能导致游戏崩溃的问题。' }
+  - { date: '2020-08-04', type: nerf, summary: '对皇家塔伤害比例从 35% 降至 30%。' }
+  - { date: '2018-09-03', type: adjustment, summary: '伤害提高 5%，但不再重置电击车小队攻击。' }
+  - { date: '2018-04-25', type: buff, summary: '作用半径从 3 格提高至 3.5 格，并允许在河道区域施放。' }
+  - { date: '2017-12-12', type: nerf, summary: '对皇家塔伤害比例从 40% 降至 35%。' }
+  - { date: '2017-10-09', type: nerf, summary: '伤害降低 3%，作用半径从 3.5 格缩短至 3 格。' }
+  - { date: '2016-09-19', type: buff, summary: '加入 0.5 秒眩晕效果。' }
+  - { date: '2016-02-19', type: nerf, summary: '对皇家塔伤害比例从 50% 降至 40%。' }
+  - { date: '2016-01-04', type: release, summary: '雷电法术随游戏首发加入。' }

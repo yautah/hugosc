@@ -1,0 +1,76 @@
+key: ice-spirit-evolution
+parent_key: ice-spirit
+kind: evolution
+order: 2
+name: 觉醒冰雪精灵
+label: 觉醒
+url: /clashroyale/cards/ice-spirit/evolution/
+image: images/clashroyale/cards/variants/ice-spirit-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Ice_Spirit/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436469
+release_date: '2023-12-04'
+summary: 觉醒冰雪精灵命中后会在目标身上留下冰爆，3 秒后再次造成同等伤害与 1.1 秒冻结。
+facts:
+- { label: 圣水, value: '1' }
+- { label: 觉醒周期, value: 2 次循环 }
+- { label: 冰爆延迟, value: 3 秒 }
+- { label: 基础卡牌, value: 冰雪精灵 }
+overview:
+- 觉醒冰雪精灵仍然只需一费，初次跳跃的伤害和生命值与基础形态相同，但溅射半径从 1.5 格扩大到 2 格。它命中目标后会留下冰爆效果，3 秒后再次造成与初次跳跃相同的范围伤害，并再次冻结目标 1.1 秒。
+- 延迟冰爆会围绕被标记的目标触发，因此目标在三秒内移动到其他单位附近时，也可能把后续伤害和冻结带到新的区域。对手可以用低费单位在前方吸收初次跳跃，让关键部队避开标记；使用者则应优先命中需要打断蓄力、冲锋或持续输出的核心目标。
+units:
+- name: 觉醒冰雪精灵
+  kind: main
+  mechanics:
+  - { label: 移动速度, value: 极快 (120) }
+  - { label: 部署时间, value: 1 秒 }
+  - { label: 攻击距离, value: '2.5' }
+  - { label: 溅射半径, value: '2' }
+  - { label: 攻击目标, value: 空中和地面 }
+  - { label: 冻结时间, value: 1.1 秒 }
+  - { label: 冰爆延迟, value: 3 秒 }
+  - { label: 移动方式, value: 地面 }
+  level_stats:
+    columns:
+    - { key: level, label: 等级 }
+    - { key: hitpoints, label: 生命值 }
+    - { key: damage, label: 伤害 }
+    - { key: ice_blast_damage, label: 冰爆伤害 }
+    rows:
+    - { level: '1', hitpoints: '89', damage: '42', ice_blast_damage: '42' }
+    - { level: '2', hitpoints: '98', damage: '47', ice_blast_damage: '47' }
+    - { level: '3', hitpoints: '107', damage: '51', ice_blast_damage: '51' }
+    - { level: '4', hitpoints: '118', damage: '56', ice_blast_damage: '56' }
+    - { level: '5', hitpoints: '130', damage: '62', ice_blast_damage: '62' }
+    - { level: '6', hitpoints: '143', damage: '68', ice_blast_damage: '68' }
+    - { level: '7', hitpoints: '157', damage: '75', ice_blast_damage: '75' }
+    - { level: '8', hitpoints: '173', damage: '83', ice_blast_damage: '83' }
+    - { level: '9', hitpoints: '190', damage: '91', ice_blast_damage: '91' }
+    - { level: '10', hitpoints: '209', damage: '100', ice_blast_damage: '100' }
+    - { level: '11', hitpoints: '230', damage: '110', ice_blast_damage: '110' }
+    - { level: '12', hitpoints: '253', damage: '121', ice_blast_damage: '121' }
+    - { level: '13', hitpoints: '278', damage: '133', ice_blast_damage: '133' }
+    - { level: '14', hitpoints: '306', damage: '146', ice_blast_damage: '146' }
+    - { level: '15', hitpoints: '337', damage: '161', ice_blast_damage: '161' }
+    - { level: '16', hitpoints: '370', damage: '177', ice_blast_damage: '177' }
+usage_tips:
+- 优先让觉醒冰雪精灵命中王子、蛮羊骑士、电磁炮和地狱系单位，延迟冰爆可以在三秒后再次打断其攻击、冲锋或蓄力。
+- 在对手支援单位即将靠近被标记目标时制造冰爆，使后续范围伤害和冻结同时覆盖更多单位。
+- 进攻前先清理可能吸收跳跃的骷髅兵、烈焰精灵等低费单位，避免关键防守单位完全绕开冰爆标记。
+- 不要在被标记目标附近继续堆叠己方单位；镜像对局或对手使用觉醒冰雪精灵时，应主动拉开站位避免第二次范围冻结。
+matchups:
+- title: 适合应对
+  text: 王子、黑暗王子、蛮羊骑士、攻城锤、电磁炮和地狱系单位。两次冻结可以反复打断冲锋、蓄力和持续输出。
+- title: 需要提防
+  text: 骷髅兵、烈焰精灵等一费单位可以在前方吸收初次跳跃，使冰爆标记落在低价值目标上；分散站位也会降低后续范围效果。
+- title: 搭配思路
+  text: 与野猪骑士、矿工和快速循环体系搭配，用一费连续制造两次控制；也可配合防御建筑和远程输出，让目标在两轮冻结期间承受更多火力。
+balance_history:
+- { date: '2025-07-08', type: nerf, summary: '初次跳跃与冰爆的冻结时间从 1.2 秒缩短至 1.1 秒。' }
+- { date: '2025-06-03', type: nerf, summary: '移除觉醒形态原有的伤害加成，冰爆伤害恢复为与基础形态相同。' }
+- { date: '2025-01-08', type: adjustment, summary: '增加 48% 伤害加成，同时移除第三次冰爆。' }
+- { date: '2024-03-05', type: buff, summary: '冰爆范围半径从 1.5 格提高至 2 格。' }
+- { date: '2023-12-13', type: buff, summary: '觉醒周期从 3 次循环减少至 2 次循环。' }
+- { date: '2023-12-04', type: evolution, summary: '觉醒冰雪精灵正式加入游戏，推出延迟冰爆和再次冻结机制。' }
+

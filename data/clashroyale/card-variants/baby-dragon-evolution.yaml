@@ -1,0 +1,66 @@
+key: baby-dragon-evolution
+parent_key: baby-dragon
+kind: evolution
+order: 2
+name: 觉醒飞龙宝宝
+label: 觉醒
+url: /clashroyale/cards/baby-dragon/evolution/
+image: images/clashroyale/cards/variants/baby-dragon-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Baby_Dragon/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436629
+release_date: '2025-09-01'
+summary: 觉醒飞龙宝宝在攻击时形成大范围风场，使友军移动加快百分之三十，并让敌军移动减慢百分之三十。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 风场范围, value: 8×9 格 }
+  - { label: 基础卡牌, value: 飞龙宝宝 }
+overview:
+  - 觉醒飞龙宝宝本体属性与普通形态一致，攻击时会在周围形成八乘九格的风场。风场使范围内友军移动速度提高百分之三十，同时让敌军移动速度降低百分之三十。
+  - 飞龙宝宝被消灭后，风场还会停留约两秒。效果只改变移动速度，不直接提高攻击速度；它最适合帮助建筑目标单位更快接近目标，或在防守中拖慢敌军推进。
+units:
+  - name: 觉醒飞龙宝宝
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.5 秒 }
+      - { label: 首次攻击间隔, value: 0.3 秒 }
+      - { label: 移动速度, value: 快 (90) }
+      - { label: 攻击距离, value: 3.5 格 }
+      - { label: 溅射半径, value: 1.5 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 风场范围, value: 8×9 格 }
+      - { label: 友军移动加速, value: 30% }
+      - { label: 敌军移动减速, value: 30% }
+      - { label: 阵亡后残留, value: 约 2 秒 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '720', area_damage: '100', damage_per_second: '66' }
+        - { level: '7', hitpoints: '792', area_damage: '110', damage_per_second: '73' }
+        - { level: '8', hitpoints: '868', area_damage: '121', damage_per_second: '80' }
+        - { level: '9', hitpoints: '954', area_damage: '133', damage_per_second: '88' }
+        - { level: '10', hitpoints: '1048', area_damage: '146', damage_per_second: '97' }
+        - { level: '11', hitpoints: '1152', area_damage: '161', damage_per_second: '107' }
+        - { level: '12', hitpoints: '1264', area_damage: '177', damage_per_second: '118' }
+        - { level: '13', hitpoints: '1390', area_damage: '194', damage_per_second: '129' }
+        - { level: '14', hitpoints: '1525', area_damage: '213', damage_per_second: '142' }
+        - { level: '15', hitpoints: '1674', area_damage: '234', damage_per_second: '156' }
+        - { level: '16', hitpoints: '1840', area_damage: '257', damage_per_second: '171' }
+usage_tips:
+  - 与气球兵、戈仑石人等建筑目标单位同行，让风场缩短其接近目标的时间，同时用范围伤害清理沿途人海。
+  - 防守时把飞龙宝宝放在敌军推进侧面，让大范围风场覆盖主力并减缓移动，为皇家塔和其他防守单位争取输出时间。
+  - 风场只在攻击期间稳定存在，应确保附近有可攻击目标；被拉离战场或迟迟不接敌会浪费觉醒能力。
+  - 阵亡后仍有约两秒残留，可在即将被消灭时利用最后的减速完成防守，或让后续进攻单位继续获得短暂加速。
+matchups:
+  - { title: 适合应对, text: '适合减缓密集推进和近战单位，并帮助慢速建筑目标单位更快接近；范围伤害还能同步处理人海。' }
+  - { title: 需要提防, text: '高伤防空、拉扯和远离风场的分散部署会降低能力覆盖，本体单体伤害仍不足以快速处理高生命值目标。' }
+  - { title: 搭配思路, text: '与气球兵、熔岩猎犬、戈仑石人和圣水戈仑搭配，利用移动加速扩大推进压力。' }
+balance_history:
+  - { date: '2025-12-01', type: nerf, summary: 友军移动速度加成从 50% 降低至 30%。 }
+  - { date: '2025-10-06', type: nerf, summary: 觉醒周期从 1 次循环增加至 2 次，并修复部署视觉效果缺失的问题。 }
+  - { date: '2025-09-01', type: evolution, summary: 觉醒飞龙宝宝正式上线。 }

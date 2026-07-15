@@ -1,0 +1,123 @@
+---
+release_date: '2021-10-27'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 弓箭女皇
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.2 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.3 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '800'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: speed
+    label: 隐身斗篷·移动速度
+    value: 慢 (45)
+  - key: duration
+    label: 隐身斗篷·持续时间
+    value: 3.5 秒
+  - key: boost
+    label: 隐身斗篷·强化效果
+    value: "+180%"
+  - key: cast_time
+    label: 隐身斗篷·施法时间
+    value: 0.933 秒
+  - key: ability_cooldown
+    label: 隐身斗篷·技能冷却
+    value: 17 秒
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: damage_per_second_with_cloaking_cape
+      label: 每秒伤害(隐身斗篷生效时)
+    rows:
+    - level: '11'
+      hitpoints: '1000'
+      damage: '225'
+      damage_per_second: '187'
+      damage_per_second_with_cloaking_cape: '525'
+    - level: '12'
+      hitpoints: '1098'
+      damage: '247'
+      damage_per_second: '205'
+      damage_per_second_with_cloaking_cape: '576'
+    - level: '13'
+      hitpoints: '1208'
+      damage: '271'
+      damage_per_second: '225'
+      damage_per_second_with_cloaking_cape: '632'
+    - level: '14'
+      hitpoints: '1325'
+      damage: '298'
+      damage_per_second: '248'
+      damage_per_second_with_cloaking_cape: '695'
+    - level: '15'
+      hitpoints: '1454'
+      damage: '327'
+      damage_per_second: '272'
+      damage_per_second_with_cloaking_cape: '763'
+    - level: '16'
+      hitpoints: '1599'
+      damage: '359'
+      damage_per_second: '299'
+      damage_per_second_with_cloaking_cape: '837'
+balance_history:
+- date: '2025-01-08'
+  type: nerf
+  summary: 隐身斗篷技能冷却从 15 秒延长至 17 秒。
+- date: '2024-01-03'
+  type: buff
+  summary: 隐身斗篷持续时间从 3 秒延长至 3.5 秒。
+- date: '2023-02-07'
+  type: nerf
+  summary: 首次攻击间隔从 0.1 秒延长至 0.3 秒。
+- date: '2022-04-08'
+  type: adjustment
+  summary: 修复隐身状态下无法受到溅射伤害的问题。
+- date: '2022-04-04'
+  type: nerf
+  summary: 隐身斗篷攻击速度强化从 200% 降至 180%。
+- date: '2022-02-03'
+  type: adjustment
+  summary: 隐身斗篷生效时移动速度降为慢速。
+- date: '2021-11-15'
+  type: adjustment
+  summary: 超级骑士在弓箭女皇于跃击期间开启隐身时仍可造成伤害。
+- date: '2021-11-04'
+  type: nerf
+  summary: 技能冷却从 11 秒延长至 15 秒，持续时间从 3.5 秒缩短至 3 秒。
+- date: '2021-11-01'
+  type: adjustment
+  summary: 修复多项隐身交互问题。
+- date: '2021-10-27'
+  type: release
+  summary: 弓箭女皇作为首批英雄卡牌之一正式加入游戏。

@@ -1,0 +1,88 @@
+key: bats-evolution
+parent_key: bats
+kind: evolution
+order: 2
+name: 觉醒蝙蝠
+label: 觉醒
+url: /clashroyale/cards/bats/evolution/
+image: images/clashroyale/cards/variants/bats-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Bats/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436458
+release_date: '2023-10-02'
+summary: 觉醒蝙蝠初始生命值高于普通蝙蝠，每次攻击都会连续治疗自身，并可将生命值恢复到初始上限的两倍。
+facts:
+- label: 圣水
+  value: '2'
+- label: 觉醒周期
+  value: 2 次循环
+- label: 治疗频率
+  value: 每 0.5 秒一次
+- label: 基础卡牌
+  value: 蝙蝠
+overview:
+- 觉醒蝙蝠仍然花费两费并部署五只单位，但初始生命值是普通蝙蝠的 1.5 倍。每次完成攻击时，每只蝙蝠会触发两次治疗，两次之间相隔 0.5 秒；治疗可以超过初始生命值，最高恢复到初始上限的两倍。
+- 这套机制的前提是至少有蝙蝠成功完成第一次攻击。普通蝙蝠害怕的小法术在觉醒蝙蝠尚未治疗时仍然有效，但当它们通过攻击建立超额生命后，对手往往需要更高伤害的范围手段才能一次清理。
+units:
+- name: 觉醒蝙蝠
+  kind: main
+  mechanics:
+  - { label: 攻击间隔, value: 1.3 秒 }
+  - { label: 首次攻击间隔, value: 0.6 秒 }
+  - { label: 移动速度, value: 极快 (120) }
+  - { label: 部署时间, value: 1 秒 }
+  - { label: 攻击距离, value: 近战：中 (1.2) }
+  - { label: 攻击目标, value: 空中和地面 }
+  - { label: 单位数量, value: '5' }
+  - { label: 治疗速度, value: 每秒 2 次 }
+  level_stats:
+    columns:
+    - { key: level, label: 等级 }
+    - { key: hitpoints, label: 生命值 }
+    - { key: max_hitpoints, label: 生命值上限 }
+    - { key: damage, label: 伤害 }
+    - { key: damage_per_second, label: 每秒伤害 }
+    - { key: healing_per_pulse, label: 每次治疗 }
+    - { key: healing_per_second, label: 每秒治疗 }
+    rows:
+    - { level: '1', hitpoints: '47', max_hitpoints: '94', damage: '31', damage_per_second: '23', healing_per_pulse: '15', healing_per_second: '30' }
+    - { level: '2', hitpoints: '52', max_hitpoints: '103', damage: '34', damage_per_second: '26', healing_per_pulse: '16', healing_per_second: '32' }
+    - { level: '3', hitpoints: '57', max_hitpoints: '114', damage: '38', damage_per_second: '29', healing_per_pulse: '18', healing_per_second: '36' }
+    - { level: '4', hitpoints: '63', max_hitpoints: '125', damage: '42', damage_per_second: '32', healing_per_pulse: '20', healing_per_second: '40' }
+    - { level: '5', hitpoints: '69', max_hitpoints: '138', damage: '46', damage_per_second: '35', healing_per_pulse: '21', healing_per_second: '42' }
+    - { level: '6', hitpoints: '76', max_hitpoints: '152', damage: '50', damage_per_second: '38', healing_per_pulse: '24', healing_per_second: '48' }
+    - { level: '7', hitpoints: '83', max_hitpoints: '167', damage: '55', damage_per_second: '42', healing_per_pulse: '26', healing_per_second: '52' }
+    - { level: '8', hitpoints: '92', max_hitpoints: '183', damage: '61', damage_per_second: '46', healing_per_pulse: '29', healing_per_second: '58' }
+    - { level: '9', hitpoints: '101', max_hitpoints: '202', damage: '67', damage_per_second: '51', healing_per_pulse: '31', healing_per_second: '62' }
+    - { level: '10', hitpoints: '111', max_hitpoints: '222', damage: '74', damage_per_second: '56', healing_per_pulse: '35', healing_per_second: '70' }
+    - { level: '11', hitpoints: '122', max_hitpoints: '244', damage: '81', damage_per_second: '62', healing_per_pulse: '38', healing_per_second: '76' }
+    - { level: '12', hitpoints: '134', max_hitpoints: '268', damage: '89', damage_per_second: '68', healing_per_pulse: '42', healing_per_second: '84' }
+    - { level: '13', hitpoints: '148', max_hitpoints: '295', damage: '98', damage_per_second: '75', healing_per_pulse: '46', healing_per_second: '92' }
+    - { level: '14', hitpoints: '162', max_hitpoints: '325', damage: '108', damage_per_second: '83', healing_per_pulse: '51', healing_per_second: '102' }
+    - { level: '15', hitpoints: '179', max_hitpoints: '357', damage: '119', damage_per_second: '91', healing_per_pulse: '56', healing_per_second: '112' }
+    - { level: '16', hitpoints: '196', max_hitpoints: '393', damage: '130', damage_per_second: '100', healing_per_pulse: '61', healing_per_second: '122' }
+usage_tips:
+- 优先用觉醒蝙蝠围攻不能对空的单体单位，它们可以安全完成攻击并逐步将生命值恢复到超额上限。
+- 对手已使用电击法术或巨型雪球后再部署，可以提高它们完成首次攻击的概率；一旦建立超额生命，小法术就不一定能全部清除。
+- 与矿工、巨人或其他前排搭配，让前排吸引皇家塔火力，觉醒蝙蝠便能连续攻击、治疗并积累输出。
+- 面对能快速对空或造成范围伤害的远程单位时，先用法术或前排限制其输出，不要指望蝙蝠在首次攻击前硬抗集中火力。
+matchups:
+- title: 适合应对
+  text: 骑士、女武神、皮卡超人和其他不能对空的单体单位。它们可以为觉醒蝙蝠提供安全攻击和建立超额生命的机会。
+- title: 需要提防
+  text: 箭雨、觉醒电击法术，以及烟花炮手、法师、猎人等快速或范围对空单位。它们可以在治疗建立前同时清理多只蝙蝠。
+- title: 搭配思路
+  text: 与矿工和大型坦克搭配可以稳定触发攻击治疗，与狂暴法术配合则能更快攻击并维持超额生命，迫使对手使用更强的范围解牌。
+balance_history:
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修正部署队形，使觉醒蝙蝠根据竞技场所在一侧正确镜像排列。
+- date: '2024-05-14'
+  type: nerf
+  summary: 首次攻击间隔从 0.3 秒延长至 0.6 秒。
+- date: '2023-11-13'
+  type: buff
+  summary: 首次攻击间隔从 0.6 秒缩短至 0.3 秒。
+- date: '2023-10-02'
+  type: evolution
+  summary: 觉醒蝙蝠正式加入游戏，推出攻击治疗和超额生命机制。

@@ -1,0 +1,21 @@
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Gang
+items:
+- { date: '2025-08-04', type: nerf, summary: '投矛哥布林首次攻击间隔从 0.4 秒延长至 0.5 秒，射程从 5.5 格缩短至 5 格。' }
+- { date: '2025-04-09', type: nerf, summary: '近战哥布林首次攻击间隔从 0.4 秒延长至 0.6 秒。' }
+- { date: '2025-03-31', type: adjustment, summary: '修正部署队形，使哥布林团伙根据竞技场所在一侧正确镜像排列。' }
+- { date: '2025-01-08', type: nerf, summary: '投矛哥布林首次攻击间隔从 0.3 秒延长至 0.4 秒。' }
+- { date: '2024-06-17', type: buff, summary: '投矛哥布林首次攻击间隔从 0.5 秒缩短至 0.3 秒。' }
+- { date: '2023-04-04', type: buff, summary: '投矛哥布林射程从 5 格提高至 5.5 格。' }
+- { date: '2022-10-26', type: nerf, summary: '近战哥布林首次攻击间隔从 0.2 秒延长至 0.4 秒。' }
+- { date: '2022-10-04', type: buff, summary: '投矛哥布林数量从 2 个增加至 3 个。' }
+- { date: '2020-08-31', type: visual, summary: '卡牌信息界面增加新的卡牌图片。' }
+- { date: '2020-06-02', type: buff, summary: '每个哥布林之间的部署间隔从 0.15 秒缩短至 0.1 秒。' }
+- { date: '2019-03-04', type: adjustment, summary: '六个哥布林改为依次部署，每个之间间隔 0.15 秒。' }
+- { date: '2018-07-02', type: nerf, summary: '近战哥布林生命值降低 1%。' }
+- { date: '2018-06-04', type: adjustment, summary: '投矛哥布林伤害提高 34%，攻击间隔从 1.2 秒延长至 1.7 秒，首次攻击间隔从 0.2 秒延长至 0.5 秒。' }
+- { date: '2018-04-25', type: nerf, summary: '投矛哥布林攻击间隔从 1.1 秒延长至 1.2 秒。' }
+- { date: '2017-12-12', type: nerf, summary: '近战哥布林伤害降低 6%。' }
+- { date: '2017-10-09', type: buff, summary: '投矛哥布林攻击间隔从 1.3 秒缩短至 1.1 秒。' }
+- { date: '2017-06-12', type: nerf, summary: '投矛哥布林数量从 3 个减少至 2 个，并增大部署间距。' }
+- { date: '2017-03-16', type: buff, summary: '投矛哥布林投射物速度从 350 提高至 500。' }
+- { date: '2017-02-24', type: release, summary: '哥布林团伙正式加入游戏。' }

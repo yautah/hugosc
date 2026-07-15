@@ -1,0 +1,94 @@
+key: lumberjack-evolution
+parent_key: lumberjack
+kind: evolution
+order: 2
+name: 觉醒狂暴樵夫
+label: 觉醒
+url: /clashroyale/cards/lumberjack/evolution/
+image: images/clashroyale/cards/variants/lumberjack-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Lumberjack/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2025-02-03'
+summary: 觉醒狂暴樵夫阵亡后会留下无法被普通攻击选中的樵夫幽灵；幽灵只能依靠自身死亡狂暴维持存在，并继续追击地面目标。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: '2' }
+  - { label: 幽灵持续时间, value: 约 5.5 秒 }
+  - { label: 基础卡牌, value: 狂暴樵夫 }
+overview:
+  - 觉醒狂暴樵夫本体属性与基础形态一致。阵亡时除了释放狂暴法术，还会生成一名拥有无限生命、无法被部队、建筑和皇家塔直接选中的樵夫幽灵。
+  - 樵夫幽灵只有位于本次死亡产生的狂暴区域内才能维持存在，离开区域后会在短时间内消失。额外释放的狂暴法术不能延长其寿命，但击退、减速、眩晕和冰冻仍能浪费它有限的输出时间。
+units:
+  - name: 觉醒狂暴樵夫
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 0.8 秒 }
+      - { label: 首次攻击间隔, value: 0.4 秒 }
+      - { label: 移动速度, value: 极快 (120) }
+      - { label: 攻击距离, value: '近战：短 (0.7)' }
+      - { label: 狂暴半径, value: '3' }
+      - { label: 狂暴持续时间, value: 5.5 秒 }
+      - { label: 狂暴加成, value: '+30%' }
+      - { label: 攻击目标, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: rage_damage, label: 狂暴伤害 }
+        - { key: rage_crown_tower_damage, label: 皇家塔伤害 }
+      rows:
+        - { level: '9', hitpoints: '1060', damage: '212', damage_per_second: '265', rage_damage: '148', rage_crown_tower_damage: '45' }
+        - { level: '10', hitpoints: '1166', damage: '233', damage_per_second: '291', rage_damage: '163', rage_crown_tower_damage: '49' }
+        - { level: '11', hitpoints: '1282', damage: '256', damage_per_second: '320', rage_damage: '179', rage_crown_tower_damage: '54' }
+        - { level: '12', hitpoints: '1409', damage: '281', damage_per_second: '351', rage_damage: '196', rage_crown_tower_damage: '59' }
+        - { level: '13', hitpoints: '1547', damage: '309', damage_per_second: '386', rage_damage: '216', rage_crown_tower_damage: '65' }
+        - { level: '14', hitpoints: '1696', damage: '339', damage_per_second: '423', rage_damage: '237', rage_crown_tower_damage: '72' }
+        - { level: '15', hitpoints: '1863', damage: '372', damage_per_second: '465', rage_damage: '260', rage_crown_tower_damage: '78' }
+        - { level: '16', hitpoints: '2049', damage: '409', damage_per_second: '511', rage_damage: '286', rage_crown_tower_damage: '86' }
+  - name: 樵夫幽灵
+    kind: child
+    section_label: 阵亡单位
+    summary: 觉醒狂暴樵夫阵亡后生成，只能依靠本次死亡产生的狂暴区域维持存在，额外狂暴法术无法延长寿命。
+    mechanics:
+      - { label: 攻击间隔, value: 0.8 秒 }
+      - { label: 首次攻击间隔, value: 0.4 秒 }
+      - { label: 移动速度, value: 极快 (120) }
+      - { label: 攻击距离, value: '近战：短 (0.7)' }
+      - { label: 生命值, value: 无限 }
+      - { label: 普通攻击选中, value: 无法选中 }
+      - { label: 控制效果, value: 仍会受到影响 }
+      - { label: 攻击目标, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '9', damage: '212', damage_per_second: '265' }
+        - { level: '10', damage: '233', damage_per_second: '291' }
+        - { level: '11', damage: '256', damage_per_second: '320' }
+        - { level: '12', damage: '281', damage_per_second: '351' }
+        - { level: '13', damage: '309', damage_per_second: '386' }
+        - { level: '14', damage: '339', damage_per_second: '423' }
+        - { level: '15', damage: '372', damage_per_second: '465' }
+        - { level: '16', damage: '409', damage_per_second: '511' }
+usage_tips:
+  - 让本体在接近皇家塔或高价值后排时阵亡，樵夫幽灵才能在狂暴区域内获得完整输出时间；过早被拉到中场击败会明显降低觉醒收益。
+  - 幽灵无法被普通攻击选中，但仍会被击退、减速、眩晕和冰冻。对手控制手段已经交出后再部署，通常更容易让幽灵锁定目标。
+  - 防守大型推进时可以把本体直接放到前排附近，阵亡狂暴先处理低生命单位，幽灵再利用有限时间追击后排。
+  - 面对觉醒樵夫时优先把本体拉离皇家塔，并用滚木、冰冻、电击或减速拖延幽灵；不要尝试用额外狂暴延长己方幽灵寿命。
+matchups:
+  - { title: 适合应对, text: '适合处理缺少击退和控制的地面推进，幽灵不可被普通攻击选中，能在死亡狂暴期间持续追击后排。' }
+  - { title: 需要提防, text: '滚木、冰冻、大雪球、电击和减速效果可以消耗幽灵有限的存在时间，拉扯也能迫使它离开自身狂暴区域。' }
+  - { title: 搭配思路, text: '与气球兵、冰冻法术和高生命前排搭配，让本体阵亡后同时提供狂暴加速与幽灵压力。' }
+balance_history:
+  - { date: '2025-10-06', type: nerf, summary: '狂暴效果的攻速和移速加成从 35% 降低至 30%。' }
+  - { date: '2025-08-04', type: buff, summary: '狂暴法术伤害提高 21%。' }
+  - { date: '2025-04-09', type: adjustment, summary: '觉醒周期从 1 次提高至 2 次，樵夫幽灵伤害提高 33%，狂暴法术伤害降低 23%。' }
+  - { date: '2025-04-01', type: adjustment, summary: '修复雷电法师可能使觉醒樵夫死亡效果失效以及幽灵伤害异常的问题。' }
+  - { date: '2025-03-04', type: nerf, summary: '幽灵离开自身狂暴区域后的效果保留时间从 2 秒缩短至 1 秒。' }
+  - { date: '2025-02-11', type: nerf, summary: '额外狂暴法术不再延长樵夫幽灵寿命，幽灵只受本次死亡产生的狂暴区域维持。' }
+  - { date: '2025-02-04', type: adjustment, summary: '幽灵改为免疫持续法术伤害，并修复可能被部分法术立即消灭及敌方部署音效错误的问题。' }
+  - { date: '2025-02-03', type: evolution, summary: '觉醒狂暴樵夫正式上线，初始为 1 次觉醒周期。' }

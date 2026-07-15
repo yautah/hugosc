@@ -1,0 +1,87 @@
+key: royal-ghost-evolution
+parent_key: royal-ghost
+kind: evolution
+order: 2
+name: 觉醒皇家幽灵
+label: 觉醒
+url: /clashroyale/cards/royal-ghost/evolution/
+image: images/clashroyale/cards/variants/royal-ghost-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Royal_Ghost/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2025-10-17'
+summary: 觉醒皇家幽灵每次从隐身中显形攻击时会召唤两名幽灵士兵，士兵登场造成范围伤害并继续参与战斗。
+facts:
+  - { label: 圣水, value: '3' }
+  - { label: 觉醒周期, value: '2' }
+  - { label: 召唤数量, value: '2' }
+  - { label: 基础卡牌, value: 皇家幽灵 }
+overview:
+  - 觉醒皇家幽灵保留基础形态的范围攻击、悬浮移动和隐身机制。每次结束隐身并显形攻击时，会在身边召唤两名幽灵士兵，士兵登场时先造成一次范围伤害。
+  - 幽灵士兵不会自动消失，能继续以范围近战参与战斗。皇家幽灵重新隐身并再次显形后可以再召唤一组，因此让本体存活并脱离战斗是积累收益的关键。
+units:
+  - name: 觉醒皇家幽灵
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.8 秒 }
+      - { label: 首次攻击间隔, value: 0.6 秒 }
+      - { label: 重新隐身所需时间, value: 1.8 秒 }
+      - { label: 攻击距离, value: '近战：中 (1.2)' }
+      - { label: 召唤时机, value: 从隐身状态显形攻击时 }
+      - { label: 攻击目标, value: 地面 }
+      - { label: 移动方式, value: 地面悬浮 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '9', hitpoints: '1002', area_damage: '216', damage_per_second: '120' }
+        - { level: '10', hitpoints: '1102', area_damage: '237', damage_per_second: '131' }
+        - { level: '11', hitpoints: '1210', area_damage: '261', damage_per_second: '145' }
+        - { level: '12', hitpoints: '1329', area_damage: '287', damage_per_second: '159' }
+        - { level: '13', hitpoints: '1461', area_damage: '315', damage_per_second: '175' }
+        - { level: '14', hitpoints: '1603', area_damage: '345', damage_per_second: '191' }
+        - { level: '15', hitpoints: '1759', area_damage: '380', damage_per_second: '211' }
+        - { level: '16', hitpoints: '1934', area_damage: '417', damage_per_second: '231' }
+  - name: 幽灵士兵
+    kind: child
+    summary: 觉醒皇家幽灵从隐身状态显形攻击时召唤 2 名。士兵登场造成范围伤害，随后继续战斗且不会自动消失。
+    mechanics:
+      - { label: 攻击间隔, value: 1.8 秒 }
+      - { label: 首次攻击间隔, value: 0.6 秒 }
+      - { label: 部署时间, value: 0.2 秒 }
+      - { label: 攻击距离, value: '近战：中 (1.2)' }
+      - { label: 攻击目标, value: 地面 }
+      - { label: 单位数量, value: '2' }
+      - { label: 移动方式, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: spawn_damage, label: 登场伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '9', hitpoints: '67', area_damage: '67', spawn_damage: '67', damage_per_second: '37' }
+        - { level: '10', hitpoints: '74', area_damage: '74', spawn_damage: '74', damage_per_second: '41' }
+        - { level: '11', hitpoints: '81', area_damage: '81', spawn_damage: '81', damage_per_second: '45' }
+        - { level: '12', hitpoints: '89', area_damage: '89', spawn_damage: '89', damage_per_second: '49' }
+        - { level: '13', hitpoints: '98', area_damage: '98', spawn_damage: '98', damage_per_second: '54' }
+        - { level: '14', hitpoints: '108', area_damage: '108', spawn_damage: '108', damage_per_second: '60' }
+        - { level: '15', hitpoints: '119', area_damage: '119', spawn_damage: '119', damage_per_second: '66' }
+        - { level: '16', hitpoints: '130', area_damage: '130', spawn_damage: '130', damage_per_second: '72' }
+usage_tips:
+  - 尽量让本体在消灭目标后获得 1.8 秒空档重新隐身，再次显形可继续召唤士兵，单次部署的收益会随存活时间明显提高。
+  - 士兵登场伤害和本体范围攻击会集中爆发，适合对付贴近的中低生命防守，但 2026 年削弱后不应再把它视为一次性秒杀手段。
+  - 与前排或远程核心搭配，让对手先处理其他威胁，给皇家幽灵重新隐身和重复召唤的空间。
+  - 防守觉醒幽灵时用瓦基丽武神等范围近战同时处理本体与士兵，或先用低费单位迫使本体显形，再落下登场伤害单位。
+matchups:
+  - { title: 适合应对, text: '适合处理成组地面单位和持续生成单位的建筑，重复显形能够不断补充士兵。' }
+  - { title: 需要提防, text: '瓦基丽武神、超级骑士和皇家速递等范围伤害可以同时覆盖本体与士兵，高伤近战也能限制重新隐身。' }
+  - { title: 搭配思路, text: '与巨人、皇家巨人、戈仑石人和觉醒骷髅气球搭配，让前排吸引火力并为重复召唤争取时间。' }
+balance_history:
+  - { date: '2026-04-07', type: nerf, summary: '幽灵士兵 11 级登场伤害从 204 降至 81，普通伤害从 102 降至 81。' }
+  - { date: '2025-12-01', type: nerf, summary: '幽灵士兵 11 级普通伤害从 130 降至 102，登场伤害从 261 降至 204。' }
+  - { date: '2025-11-03', type: nerf, summary: '幽灵士兵普通伤害大幅降低，11 级数值从 261 调整至约 133。' }
+  - { date: '2025-10-17', type: evolution, summary: '觉醒皇家幽灵正式上线。' }

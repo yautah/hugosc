@@ -1,0 +1,154 @@
+key: firecracker-evolution
+parent_key: firecracker
+kind: evolution
+order: 2
+name: 觉醒烟花炮手
+label: 觉醒
+url: /clashroyale/cards/firecracker/evolution/
+image: images/clashroyale/cards/variants/firecracker-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Firecracker/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436478
+release_date: '2023-06-19'
+summary: 觉醒烟花炮手的弹片落点会留下持续造成伤害并附带减速的大、小火花区域，能够封锁狭窄路线和持续消耗防守单位。
+facts:
+  - { label: 圣水, value: '3' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 火花减速, value: 15% }
+  - { label: 基础卡牌, value: 烟花炮手 }
+overview:
+  - 觉醒烟花炮手保留普通形态的远距离散射和开火后坐。主弹着地点会形成一个持续三秒的大火花区，五枚分裂弹片的落点各形成持续 2.5 秒的小火花区；区域每 0.25 秒结算一次伤害，并使其中目标减速 15%。
+  - 大火花与小火花适合持续封锁单位行进路线，但同类火花的伤害不能在同一目标上叠加。她仍然需要较长时间完成一次攻击，也会被法术和快速贴身单位处理，因此价值取决于能否让至少一发完整落在关键区域。
+units:
+  - name: 觉醒烟花炮手
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 3 秒 }
+      - { label: 首次攻击间隔, value: 0.65 秒 }
+      - { label: 移动速度, value: 快 (90) }
+      - { label: 部署时间, value: 1 秒 }
+      - { label: 攻击距离, value: '6' }
+      - { label: 投射距离, value: '11' }
+      - { label: 后坐距离, value: 1 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '1', hitpoints: '117', area_damage: '25 x5 (125)', damage_per_second: '40' }
+        - { level: '2', hitpoints: '129', area_damage: '27 x5 (135)', damage_per_second: '45' }
+        - { level: '3', hitpoints: '142', area_damage: '30 x5 (150)', damage_per_second: '50' }
+        - { level: '4', hitpoints: '156', area_damage: '33 x5 (165)', damage_per_second: '55' }
+        - { level: '5', hitpoints: '172', area_damage: '36 x5 (180)', damage_per_second: '60' }
+        - { level: '6', hitpoints: '189', area_damage: '40 x5 (200)', damage_per_second: '65' }
+        - { level: '7', hitpoints: '208', area_damage: '44 x5 (220)', damage_per_second: '70' }
+        - { level: '8', hitpoints: '228', area_damage: '48 x5 (240)', damage_per_second: '80' }
+        - { level: '9', hitpoints: '251', area_damage: '53 x5 (265)', damage_per_second: '85' }
+        - { level: '10', hitpoints: '276', area_damage: '58 x5 (290)', damage_per_second: '95' }
+        - { level: '11', hitpoints: '304', area_damage: '64 x5 (320)', damage_per_second: '105' }
+        - { level: '12', hitpoints: '334', area_damage: '70 x5 (350)', damage_per_second: '115' }
+        - { level: '13', hitpoints: '368', area_damage: '77 x5 (385)', damage_per_second: '125' }
+        - { level: '14', hitpoints: '405', area_damage: '85 x5 (425)', damage_per_second: '140' }
+        - { level: '15', hitpoints: '445', area_damage: '94 x5 (470)', damage_per_second: '155' }
+        - { level: '16', hitpoints: '490', area_damage: '103 x5 (515)', damage_per_second: '170' }
+  - name: 大火花区域
+    kind: child
+    section_label: 主弹落点
+    summary: 主弹落点生成半径 2.5 格、持续 3 秒的火花区域，每 0.25 秒造成一次伤害并减速目标。
+    mechanics:
+      - { label: 持续时间, value: 3 秒 }
+      - { label: 伤害间隔, value: 0.25 秒 }
+      - { label: 作用半径, value: 2.5 格 }
+      - { label: 减速效果, value: 15% }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: damage, label: 总伤害 }
+        - { key: crown_damage, label: 皇家塔总伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: crown_damage_per_second, label: 皇家塔每秒伤害 }
+      rows:
+        - { level: '1', damage: '19 x12 (228)', crown_damage: '6 x12 (72)', damage_per_second: '76', crown_damage_per_second: '24' }
+        - { level: '2', damage: '20 x12 (240)', crown_damage: '6 x12 (72)', damage_per_second: '80', crown_damage_per_second: '24' }
+        - { level: '3', damage: '22 x12 (264)', crown_damage: '7 x12 (84)', damage_per_second: '88', crown_damage_per_second: '28' }
+        - { level: '4', damage: '25 x12 (300)', crown_damage: '8 x12 (96)', damage_per_second: '100', crown_damage_per_second: '32' }
+        - { level: '5', damage: '27 x12 (324)', crown_damage: '8 x12 (96)', damage_per_second: '108', crown_damage_per_second: '32' }
+        - { level: '6', damage: '30 x12 (360)', crown_damage: '9 x12 (108)', damage_per_second: '120', crown_damage_per_second: '36' }
+        - { level: '7', damage: '33 x12 (396)', crown_damage: '10 x12 (120)', damage_per_second: '132', crown_damage_per_second: '40' }
+        - { level: '8', damage: '36 x12 (432)', crown_damage: '11 x12 (132)', damage_per_second: '144', crown_damage_per_second: '44' }
+        - { level: '9', damage: '40 x12 (480)', crown_damage: '12 x12 (144)', damage_per_second: '160', crown_damage_per_second: '48' }
+        - { level: '10', damage: '44 x12 (528)', crown_damage: '14 x12 (168)', damage_per_second: '176', crown_damage_per_second: '56' }
+        - { level: '11', damage: '48 x12 (576)', crown_damage: '15 x12 (180)', damage_per_second: '192', crown_damage_per_second: '60' }
+        - { level: '12', damage: '53 x12 (636)', crown_damage: '17 x12 (204)', damage_per_second: '212', crown_damage_per_second: '68' }
+        - { level: '13', damage: '58 x12 (696)', crown_damage: '18 x12 (216)', damage_per_second: '232', crown_damage_per_second: '72' }
+        - { level: '14', damage: '64 x12 (768)', crown_damage: '20 x12 (240)', damage_per_second: '256', crown_damage_per_second: '80' }
+        - { level: '15', damage: '70 x12 (840)', crown_damage: '22 x12 (264)', damage_per_second: '280', crown_damage_per_second: '88' }
+        - { level: '16', damage: '77 x12 (924)', crown_damage: '24 x12 (288)', damage_per_second: '308', crown_damage_per_second: '96' }
+  - name: 小火花区域
+    kind: child
+    section_label: 分裂弹片落点
+    summary: 五枚分裂弹片各自生成半径 1.2 格、持续 2.5 秒的小火花区域，同类区域的伤害不会叠加。
+    mechanics:
+      - { label: 区域数量, value: 最多 5 个 }
+      - { label: 持续时间, value: 2.5 秒 }
+      - { label: 伤害间隔, value: 0.25 秒 }
+      - { label: 作用半径, value: 1.2 格 }
+      - { label: 减速效果, value: 15% }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: damage, label: 单区总伤害 }
+        - { key: crown_damage, label: 单区皇家塔伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: crown_damage_per_second, label: 皇家塔每秒伤害 }
+      rows:
+        - { level: '1', damage: '19 x10 (190)', crown_damage: '6 x10 (60)', damage_per_second: '76', crown_damage_per_second: '24' }
+        - { level: '2', damage: '20 x10 (200)', crown_damage: '6 x10 (60)', damage_per_second: '80', crown_damage_per_second: '24' }
+        - { level: '3', damage: '22 x10 (220)', crown_damage: '7 x10 (70)', damage_per_second: '88', crown_damage_per_second: '28' }
+        - { level: '4', damage: '25 x10 (250)', crown_damage: '8 x10 (80)', damage_per_second: '100', crown_damage_per_second: '32' }
+        - { level: '5', damage: '27 x10 (270)', crown_damage: '8 x10 (80)', damage_per_second: '108', crown_damage_per_second: '32' }
+        - { level: '6', damage: '30 x10 (300)', crown_damage: '9 x10 (90)', damage_per_second: '120', crown_damage_per_second: '36' }
+        - { level: '7', damage: '33 x10 (330)', crown_damage: '10 x10 (100)', damage_per_second: '132', crown_damage_per_second: '40' }
+        - { level: '8', damage: '36 x10 (360)', crown_damage: '11 x10 (110)', damage_per_second: '144', crown_damage_per_second: '44' }
+        - { level: '9', damage: '40 x10 (400)', crown_damage: '12 x10 (120)', damage_per_second: '160', crown_damage_per_second: '48' }
+        - { level: '10', damage: '44 x10 (440)', crown_damage: '14 x10 (140)', damage_per_second: '176', crown_damage_per_second: '56' }
+        - { level: '11', damage: '48 x10 (480)', crown_damage: '15 x10 (150)', damage_per_second: '192', crown_damage_per_second: '60' }
+        - { level: '12', damage: '53 x10 (530)', crown_damage: '17 x10 (170)', damage_per_second: '212', crown_damage_per_second: '68' }
+        - { level: '13', damage: '58 x10 (580)', crown_damage: '18 x10 (180)', damage_per_second: '232', crown_damage_per_second: '72' }
+        - { level: '14', damage: '64 x10 (640)', crown_damage: '20 x10 (200)', damage_per_second: '256', crown_damage_per_second: '80' }
+        - { level: '15', damage: '70 x10 (700)', crown_damage: '22 x10 (220)', damage_per_second: '280', crown_damage_per_second: '88' }
+        - { level: '16', damage: '77 x10 (770)', crown_damage: '24 x10 (240)', damage_per_second: '308', crown_damage_per_second: '96' }
+usage_tips:
+  - 让前排先吸引目标，确保烟花炮手完成至少一次攻击；火花区域需要命中并覆盖行进路线，才能把持续伤害完整转化为价值。
+  - 利用她的超长投射距离让主弹锁定前排、弹片覆盖后排，持续火花可以同时限制支援单位和皇家塔附近区域。
+  - 不要为了触发觉醒把她直接暴露在桥头。她生命值没有额外提升，火球、万箭齐发和快速贴身单位仍能及时处理。
+  - 对手必须穿过固定路线推进时，优先让火花落在桥口或建筑附近；减速能延长单位停留时间，并为其他防守争取更多输出。
+matchups:
+  - { title: 适合应对, text: '移动缓慢、沿同一路线推进的成组单位。持续火花能够覆盖其行进路径，并利用 15% 减速延长受伤时间。' }
+  - { title: 需要提防, text: '火球、万箭齐发、矿工和能够迅速贴身的单位。觉醒形态没有额外生命值，未完成开火前与普通烟花炮手同样脆弱。' }
+  - { title: 搭配思路, text: '与皇家巨人、野猪骑士等前排或建筑目标单位配合，迫使对手集中防守，再利用弹片和火花持续消耗后排与皇家塔。' }
+balance_history:
+  - date: '2025-08-04'
+    type: nerf
+    summary: 视野范围从 8.5 格缩短至 8 格，开火后后坐距离从 1.5 格缩短至 1 格。
+  - date: '2025-02-04'
+    type: adjustment
+    summary: 狂暴樵夫进入幽灵状态时不再受到火花区域影响。
+  - date: '2025-01-30'
+    type: adjustment
+    summary: 符文巨人的伤害强化改为平均分配到五枚弹片，而不是让每枚弹片获得完整增幅。
+  - date: '2024-05-14'
+    type: adjustment
+    summary: 大火花持续时间从 2.5 秒延长至 3 秒，小火花从 2 秒延长至 2.5 秒，并新增 15% 减速；同时移除额外生命值增幅。
+  - date: '2023-08-08'
+    type: nerf
+    summary: 生命值增幅从 143% 降低至 130%，后坐距离从 1.95 格缩短至 1.5 格，同类火花区域的伤害不再叠加。
+  - date: '2023-06-30'
+    type: nerf
+    summary: 首次攻击间隔从 0.6 秒延长至 0.65 秒。
+  - date: '2023-06-19'
+    type: evolution
+    summary: 觉醒烟花炮手正式加入游戏，推出大、小火花区域持续伤害机制。

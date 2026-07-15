@@ -1,0 +1,72 @@
+key: wizard-evolution
+parent_key: wizard
+kind: evolution
+order: 2
+name: 觉醒法师
+label: 觉醒
+url: /clashroyale/cards/wizard/evolution/
+image: images/clashroyale/cards/variants/wizard-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Wizard/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436536
+release_date: '2024-05-06'
+summary: 觉醒法师部署时获得火焰护盾，护盾破裂会对周围敌军造成范围伤害并将可推动单位击退三格。
+facts:
+  - { label: 圣水, value: '5' }
+  - { label: 觉醒周期, value: 1 次循环 }
+  - { label: 护盾爆炸半径, value: 3 格 }
+  - { label: 基础卡牌, value: 法师 }
+overview:
+  - 觉醒法师的普通攻击与基础形态相同，额外获得一层独立火焰护盾。护盾存在时可以挡住一次足以击败法师的攻击，破裂后对三格内敌军造成伤害，并把可推动单位击退三格。
+  - 护盾让他更难被单张高伤害法术直接清除，也能在敌军贴身时创造空间。小法术可以低成本先破盾，重型单位又不受击退，因此部署位置仍决定他能否持续输出。
+units:
+  - name: 觉醒法师
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.4 秒 }
+      - { label: 首次攻击间隔, value: 0.4 秒 }
+      - { label: 攻击距离, value: 5.5 格 }
+      - { label: 范围伤害半径, value: 1.5 格 }
+      - { label: 护盾爆炸半径, value: 3 格 }
+      - { label: 护盾击退距离, value: 3 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: shield_hitpoints, label: 护盾生命值 }
+        - { key: damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: shield_damage, label: 护盾爆炸伤害 }
+      rows:
+        - { level: '3', hitpoints: '352', shield_hitpoints: '90', damage: '131', damage_per_second: '93', shield_damage: '131' }
+        - { level: '4', hitpoints: '387', shield_hitpoints: '99', damage: '144', damage_per_second: '102', shield_damage: '144' }
+        - { level: '5', hitpoints: '426', shield_hitpoints: '108', damage: '159', damage_per_second: '113', shield_damage: '159' }
+        - { level: '6', hitpoints: '469', shield_hitpoints: '119', damage: '174', damage_per_second: '124', shield_damage: '174' }
+        - { level: '7', hitpoints: '516', shield_hitpoints: '131', damage: '192', damage_per_second: '137', shield_damage: '192' }
+        - { level: '8', hitpoints: '567', shield_hitpoints: '144', damage: '211', damage_per_second: '150', shield_damage: '211' }
+        - { level: '9', hitpoints: '624', shield_hitpoints: '159', damage: '232', damage_per_second: '165', shield_damage: '232' }
+        - { level: '10', hitpoints: '686', shield_hitpoints: '175', damage: '255', damage_per_second: '182', shield_damage: '255' }
+        - { level: '11', hitpoints: '755', shield_hitpoints: '192', damage: '281', damage_per_second: '200', shield_damage: '281' }
+        - { level: '12', hitpoints: '831', shield_hitpoints: '211', damage: '309', damage_per_second: '220', shield_damage: '309' }
+        - { level: '13', hitpoints: '914', shield_hitpoints: '232', damage: '340', damage_per_second: '242', shield_damage: '340' }
+        - { level: '14', hitpoints: '1005', shield_hitpoints: '256', damage: '374', damage_per_second: '267', shield_damage: '374' }
+        - { level: '15', hitpoints: '1105', shield_hitpoints: '281', damage: '411', damage_per_second: '293', shield_damage: '411' }
+        - { level: '16', hitpoints: '1216', shield_hitpoints: '309', damage: '453', damage_per_second: '323', shield_damage: '453' }
+usage_tips:
+  - 面对密集地面部队时可以部署在其附近，利用护盾破裂的伤害与击退先创造距离，再让普通火球继续清场。
+  - 对手有火球或雷电法术时，护盾能避免法师被一次解决，但仍应与其他高价值单位分散，防止法术获得额外收益。
+  - 小法术能先破盾，部署前观察对手是否留有滚木、电击法术或巨型雪球，不要把护盾等同于稳定存活保证。
+  - 护盾爆炸会改变敌军位置，可与皇家塔、建筑和其他范围单位配合，让被推开的目标重新进入己方火力范围。
+matchups:
+  - { title: 适合应对, text: '适合密集人海和依赖单次高伤害清后排的防守，护盾爆炸还能拉开贴身单位与法师的距离。' }
+  - { title: 需要提防, text: '小法术可以低成本破盾，不受击退的重型单位也能继续前进；连续控制会压缩法师后续输出。' }
+  - { title: 搭配思路, text: '与巨人、戈仑石人等前排搭配保护护盾，并用飓风法术聚集目标，让范围攻击和护盾爆炸覆盖更多单位。' }
+balance_history:
+  - { date: '2025-06-03', type: buff, summary: 护盾破裂伤害提高 22%。 }
+  - { date: '2025-03-31', type: adjustment, summary: '本体生命值提高 0.13%，护盾生命值提高 1.05%，护盾破裂伤害降低 0.43%。' }
+  - { date: '2024-10-08', type: nerf, summary: 护盾破裂的击退距离从 4 格缩短至 3 格。 }
+  - { date: '2024-08-06', type: adjustment, summary: '护盾生命值降低 35.8%，本体生命值提高 4.8%。' }
+  - { date: '2024-07-02', type: nerf, summary: 护盾生命值降低 20.2%。 }
+  - { date: '2024-05-14', type: buff, summary: 护盾生命值提高 18%。 }
+  - { date: '2024-05-06', type: evolution, summary: 觉醒法师正式上线。 }

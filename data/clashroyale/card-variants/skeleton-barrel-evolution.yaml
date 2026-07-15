@@ -1,0 +1,102 @@
+key: skeleton-barrel-evolution
+parent_key: skeleton-barrel
+kind: evolution
+order: 2
+name: 觉醒骷髅气球
+label: 觉醒
+url: /clashroyale/cards/skeleton-barrel/evolution/
+image: images/clashroyale/cards/variants/skeleton-barrel-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Skeleton_Barrel/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436472
+release_date: '2025-07-07'
+summary: 觉醒骷髅气球携带两桶骷髅兵，生命降至 75% 时提前落下一桶，气球被摧毁时再落下第二桶。
+facts:
+- { label: 圣水, value: '3' }
+- { label: 觉醒周期, value: 2 次循环 }
+- { label: 骷髅桶数量, value: 2 桶 }
+- { label: 基础卡牌, value: 骷髅气球 }
+overview:
+- 觉醒骷髅气球仍然只需三费，但本体生命值比基础形态高 25%，并同时携带两桶骷髅兵。生命值首次降至 75% 时会提前落下第一桶并造成死亡伤害、生成七个骷髅兵；气球最终被摧毁或到达目标时，再落下第二桶并重复同样效果。
+- 两次落桶把原本一次性的空中推进拆成两个时间点。防守方若立刻用小法术清理第一批骷髅兵，第二批仍可能抵达防御塔；若等待两批聚集，又可能先承受第一批伤害。高攻速或范围对空单位可更稳定地控制落桶位置，但也要避免站进两次死亡伤害范围。
+units:
+- name: 双桶气球
+  kind: main
+  mechanics:
+  - { label: 移动速度, value: 快 (90) }
+  - { label: 攻击距离, value: 近战：短 (0.35) }
+  - { label: 部署时间, value: 1 秒 }
+  - { label: 攻击目标, value: 建筑 }
+  - { label: 骷髅桶数量, value: '2' }
+  - { label: 第一桶触发, value: 剩余 75% 生命值 }
+  - { label: 每桶骷髅兵, value: '7' }
+  - { label: 移动方式, value: 空中 }
+  level_stats:
+    columns:
+    - { key: level, label: 等级 }
+    - { key: hitpoints, label: 生命值 }
+    - { key: death_damage, label: 每桶死亡伤害 }
+    rows:
+    - { level: '1', hitpoints: '256', death_damage: '92' }
+    - { level: '2', hitpoints: '282', death_damage: '101' }
+    - { level: '3', hitpoints: '310', death_damage: '111' }
+    - { level: '4', hitpoints: '341', death_damage: '122' }
+    - { level: '5', hitpoints: '375', death_damage: '134' }
+    - { level: '6', hitpoints: '413', death_damage: '148' }
+    - { level: '7', hitpoints: '454', death_damage: '163' }
+    - { level: '8', hitpoints: '500', death_damage: '179' }
+    - { level: '9', hitpoints: '550', death_damage: '197' }
+    - { level: '10', hitpoints: '605', death_damage: '216' }
+    - { level: '11', hitpoints: '665', death_damage: '238' }
+    - { level: '12', hitpoints: '732', death_damage: '262' }
+    - { level: '13', hitpoints: '805', death_damage: '288' }
+    - { level: '14', hitpoints: '885', death_damage: '317' }
+    - { level: '15', hitpoints: '974', death_damage: '348' }
+    - { level: '16', hitpoints: '1071', death_damage: '383' }
+- name: 骷髅兵
+  kind: child
+  section_label: 每桶生成单位
+  summary: 每个骷髅桶落下时都会生成 7 个骷髅兵，两桶合计最多生成 14 个。
+  mechanics:
+  - { label: 攻击间隔, value: 1.1 秒 }
+  - { label: 移动速度, value: 快 (90) }
+  - { label: 攻击距离, value: 近战：短 (0.5) }
+  - { label: 攻击目标, value: 地面 }
+  - { label: 每桶数量, value: '7' }
+  level_stats:
+    columns:
+    - { key: level, label: 等级 }
+    - { key: hitpoints, label: 生命值 }
+    - { key: damage, label: 伤害 }
+    - { key: damage_per_second, label: 每秒伤害 }
+    rows:
+    - { level: '1', hitpoints: '31', damage: '31', damage_per_second: '28' }
+    - { level: '2', hitpoints: '34', damage: '34', damage_per_second: '30' }
+    - { level: '3', hitpoints: '38', damage: '38', damage_per_second: '34' }
+    - { level: '4', hitpoints: '42', damage: '42', damage_per_second: '38' }
+    - { level: '5', hitpoints: '46', damage: '46', damage_per_second: '41' }
+    - { level: '6', hitpoints: '50', damage: '50', damage_per_second: '45' }
+    - { level: '7', hitpoints: '55', damage: '55', damage_per_second: '49' }
+    - { level: '8', hitpoints: '61', damage: '61', damage_per_second: '55' }
+    - { level: '9', hitpoints: '67', damage: '67', damage_per_second: '60' }
+    - { level: '10', hitpoints: '74', damage: '74', damage_per_second: '67' }
+    - { level: '11', hitpoints: '81', damage: '81', damage_per_second: '73' }
+    - { level: '12', hitpoints: '89', damage: '89', damage_per_second: '80' }
+    - { level: '13', hitpoints: '98', damage: '98', damage_per_second: '89' }
+    - { level: '14', hitpoints: '108', damage: '108', damage_per_second: '98' }
+    - { level: '15', hitpoints: '119', damage: '119', damage_per_second: '108' }
+    - { level: '16', hitpoints: '130', damage: '130', damage_per_second: '118' }
+usage_tips:
+- 配合矿工或前排吸引防御塔，让第一桶生成的骷髅兵立刻获得攻击时间，并迫使对手提前交出小法术。
+- 观察对手的对空单位位置，尽量让第一桶在靠近防御塔处触发，而不是在河道远端被高攻速单位提前打落。
+- 防守密集地面单位时可把觉醒骷髅气球放在其上方，让两次落桶伤害和最多十四个骷髅兵连续参与防守。
+- 不要把两次落桶视为必然的塔伤；炸弹塔、范围对空和准备好的小法术仍能分阶段处理，应先用其他诱饵消耗解牌。
+matchups:
+- { title: 适合应对, text: '只准备一张小法术、对空输出较慢的阵容。两批骷髅兵迫使对手在立即清理和等待合并之间作出取舍。' }
+- { title: 需要提防, text: '炸弹塔、烟花炮手、法师和飞斧屠夫等范围输出，以及能在远处快速打落气球并继续清理骷髅兵的高攻速对空单位。' }
+- { title: 搭配思路, text: '与矿工、哥布林飞桶和其他人海组成多层诱饵，先消耗小法术和范围解牌，再利用两次落桶持续制造塔前压力。' }
+balance_history:
+- { date: '2025-10-06', type: nerf, summary: '每桶生成的骷髅兵攻击间隔从 1 秒延长至 1.1 秒。' }
+- { date: '2025-08-04', type: nerf, summary: '每桶死亡伤害加成从基础形态的 176% 降低至 164%，并修复觉醒女巫会被这些骷髅兵死亡治疗的问题。' }
+- { date: '2025-07-07', type: evolution, summary: '觉醒骷髅气球正式加入游戏，推出 75% 生命时提前落桶与双桶生成机制。' }
+

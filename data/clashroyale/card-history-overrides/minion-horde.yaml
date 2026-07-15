@@ -1,0 +1,41 @@
+source_url: https://clashroyale.fandom.com/wiki/Minion_Horde
+items:
+  - date: '2026-04-06'
+    type: evolution
+    summary: 觉醒亡灵大军正式加入游戏。
+  - date: '2026-02-02'
+    type: nerf
+    summary: 攻击间隔从 1.1 秒延长至 1.2 秒。
+  - date: '2025-08-07'
+    type: nerf
+    summary: 生命值降低 14%，撤回同月早先范围调整中附带的生命值增幅。
+  - date: '2025-08-04'
+    type: adjustment
+    summary: 攻击距离从 1.6 格提高至 2.5 格，同时生命值提高 16%。
+  - date: '2025-03-31'
+    type: adjustment
+    summary: 调整部署队形，使六只亡灵根据竞技场所在一侧正确镜像排列。
+  - date: '2022-12-07'
+    type: adjustment
+    summary: 伤害提高 15%，同时扩大单位之间的部署间距。
+  - date: '2020-11-03'
+    type: visual
+    summary: 调整卡牌插图和单位外观表现。
+  - date: '2020-06-02'
+    type: buff
+    summary: 单位依次出现的部署间隔从 0.15 秒缩短至 0.1 秒。
+  - date: '2019-07-01'
+    type: nerf
+    summary: 攻击距离从 2 格缩短至 1.6 格。
+  - date: '2018-06-20'
+    type: adjustment
+    summary: 六只亡灵改为以 0.15 秒间隔依次部署。
+  - date: '2016-05-03'
+    type: adjustment
+    summary: 修复攻击距离显示与实际表现不一致的问题，实际有效攻击距离保持不变。
+  - date: '2016-02-29'
+    type: buff
+    summary: 视野范围从 6 格缩短至 5.5 格，使亡灵大军较不容易被远处目标吸引。
+  - date: '2016-01-04'
+    type: release
+    summary: 亡灵大军随游戏早期版本正式加入。

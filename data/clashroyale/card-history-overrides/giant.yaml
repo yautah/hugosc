@@ -1,0 +1,50 @@
+source_url: https://clashroyale.fandom.com/wiki/Giant
+items:
+  - date: '2026-02-02'
+    type: nerf
+    summary: 生命值降低 3%，11 级生命值从 4090 调整为 3968。
+  - date: '2025-12-01'
+    type: hero
+    summary: 精英巨人及其主动技能加入游戏。
+  - date: '2025-03-31'
+    type: adjustment
+    summary: 伤害降低 0.39%，生命值降低 0.02%。
+  - date: '2024-06-17'
+    type: nerf
+    summary: 攻击距离从 1.6 格缩短至 1.2 格，重新归类为中距离近战。
+  - date: '2023-10-03'
+    type: buff
+    summary: 攻击距离从 1.2 格提高至 1.6 格，归类为长距离近战。
+  - date: '2022-02-03'
+    type: buff
+    summary: 生命值提高 4%。
+  - date: '2019-11-26'
+    type: visual
+    summary: 卡牌信息页面加入新的巨人角色立绘。
+  - date: '2019-07-01'
+    type: nerf
+    summary: 攻击距离从 1.25 格缩短至 1.2 格，并归类为中距离近战。
+  - date: '2018-11-05'
+    type: nerf
+    summary: 生命值降低 2%。
+  - date: '2016-10-20'
+    type: nerf
+    summary: 生命值降低 5%。
+  - date: '2016-09-19'
+    type: nerf
+    summary: 伤害降低 5%。
+  - date: '2016-05-03'
+    type: adjustment
+    summary: 修正攻击距离显示问题，面板数值从 2 格改为 1.25 格，实际攻击范围保持不变。
+  - date: '2016-03-23'
+    type: buff
+    summary: 伤害提高 5%。
+  - date: '2016-02-29'
+    type: buff
+    summary: 视野范围从 8 格缩短至 7.5 格，使巨人更不容易被远处建筑吸引。
+  - date: '2016-02-09'
+    type: buff
+    summary: 生命值提高 5%。
+  - date: '2016-01-04'
+    type: release
+    summary: 巨人随游戏上线加入初始卡牌池。

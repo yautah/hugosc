@@ -1,0 +1,176 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 迫击炮
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 5 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 1 秒
+  - key: deploy_time
+    label: 部署时间
+    value: 3.5 秒
+  - key: lifetime
+    label: 持续时间
+    value: 30 秒
+  - key: range
+    label: 攻击距离
+    value: 3.5-11.5
+  - key: splash_radius
+    label: 溅射半径
+    value: '2'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '300'
+  - key: target
+    label: 攻击目标
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: hitpoints_lost_per_second
+      label: 每秒损失生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '528'
+      hitpoints_lost_per_second: '17.6'
+      area_damage: '103'
+      damage_per_second: '20'
+    - level: '2'
+      hitpoints: '581'
+      hitpoints_lost_per_second: '19.4'
+      area_damage: '113'
+      damage_per_second: '22'
+    - level: '3'
+      hitpoints: '639'
+      hitpoints_lost_per_second: '21.3'
+      area_damage: '124'
+      damage_per_second: '24'
+    - level: '4'
+      hitpoints: '703'
+      hitpoints_lost_per_second: '23.4'
+      area_damage: '137'
+      damage_per_second: '27'
+    - level: '5'
+      hitpoints: '773'
+      hitpoints_lost_per_second: '25.8'
+      area_damage: '150'
+      damage_per_second: '30'
+    - level: '6'
+      hitpoints: '850'
+      hitpoints_lost_per_second: '28.3'
+      area_damage: '165'
+      damage_per_second: '33'
+    - level: '7'
+      hitpoints: '935'
+      hitpoints_lost_per_second: '31.2'
+      area_damage: '182'
+      damage_per_second: '36'
+    - level: '8'
+      hitpoints: '1029'
+      hitpoints_lost_per_second: '34.3'
+      area_damage: '200'
+      damage_per_second: '40'
+    - level: '9'
+      hitpoints: '1131'
+      hitpoints_lost_per_second: '37.7'
+      area_damage: '220'
+      damage_per_second: '44'
+    - level: '10'
+      hitpoints: '1245'
+      hitpoints_lost_per_second: '41.5'
+      area_damage: '242'
+      damage_per_second: '48'
+    - level: '11'
+      hitpoints: '1369'
+      hitpoints_lost_per_second: '45.6'
+      area_damage: '266'
+      damage_per_second: '53'
+    - level: '12'
+      hitpoints: '1506'
+      hitpoints_lost_per_second: '50.2'
+      area_damage: '293'
+      damage_per_second: '58'
+    - level: '13'
+      hitpoints: '1656'
+      hitpoints_lost_per_second: '55.2'
+      area_damage: '322'
+      damage_per_second: '64'
+    - level: '14'
+      hitpoints: '1822'
+      hitpoints_lost_per_second: '60.7'
+      area_damage: '354'
+      damage_per_second: '70'
+    - level: '15'
+      hitpoints: '2004'
+      hitpoints_lost_per_second: '66.8'
+      area_damage: '389'
+      damage_per_second: '77'
+    - level: '16'
+      hitpoints: '2205'
+      hitpoints_lost_per_second: '73.5'
+      area_damage: '428'
+      damage_per_second: '85'
+balance_history:
+- date: '2023-07-03'
+  type: evolution
+  summary: 迫击炮觉醒上线。
+- date: '2022-10-04'
+  type: nerf
+  summary: 生命值降低 7%。
+- date: '2019-11-26'
+  type: visual
+  summary: 更换迫击炮的卡牌图片。
+- date: '2019-04-15'
+  type: visual
+  summary: 更新迫击炮的卡牌图片。
+- date: '2018-07-02'
+  type: nerf
+  summary: 伤害降低 3.5%，生命值降低 4%。
+- date: '2018-06-20'
+  type: adjustment
+  summary: 修复目标位于射程边缘时可能停止攻击的问题。
+- date: '2018-01-24'
+  type: buff
+  summary: 最小攻击距离由 4.5 格缩短至 3.5 格。
+- date: '2017-12-12'
+  type: adjustment
+  summary: 修复近距离盲区判定异常。
+- date: '2017-08-11'
+  type: buff
+  summary: 部署时间由 4 秒缩短至 3.5 秒。
+- date: '2016-12-15'
+  type: buff
+  summary: 范围伤害半径由 1.8 格提高至 2 格。
+- date: '2016-06-21'
+  type: buff
+  summary: 部署时间由 5 秒缩短至 4 秒。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 部署时间由 3 秒延长至 5 秒，伤害降低 10%，面板射程由 5 至 12 格调整为 4.5 至 11.5 格，实际有效射程不变，并更新音效和摧毁动画。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 目标在炮弹飞行途中被消灭时，迫击炮不再停止该发炮弹，并调整了解锁竞技场。
+- date: '2016-02-09'
+  type: buff
+  summary: 持续时间由 20 秒提高至 30 秒。
+- date: '2016-02-02'
+  type: adjustment
+  summary: 圣水费用由 6 点降至 4 点，伤害降低 40%，持续时间由 40 秒缩短至 20 秒，最大射程由 13 格降至 12 格。
+- date: '2016-01-11'
+  type: nerf
+  summary: 持续时间由 60 秒缩短至 40 秒。
+- date: '2016-01-04'
+  type: release
+  summary: 迫击炮随《皇室战争》上线加入游戏。

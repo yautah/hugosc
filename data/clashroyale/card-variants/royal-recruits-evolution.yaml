@@ -1,0 +1,80 @@
+key: royal-recruits-evolution
+parent_key: royal-recruits
+kind: evolution
+order: 2
+name: 觉醒皇家卫队
+label: 觉醒
+url: /clashroyale/cards/royal-recruits/evolution/
+image: images/clashroyale/cards/variants/royal-recruits-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Royal_Recruits/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436465
+release_date: '2023-09-04'
+summary: 觉醒皇家卫队的盾牌被击破后会获得冲锋能力，移动 2.5 格后进入冲锋，命中时造成两倍伤害。
+facts:
+- { label: 圣水, value: '7' }
+- { label: 觉醒周期, value: 1 次循环 }
+- { label: 冲锋距离, value: 2.5 格 }
+- { label: 基础卡牌, value: 皇家卫队 }
+overview:
+- 觉醒皇家卫队仍然部署六名属性与基础形态相同的带盾单位。每名卫队的盾牌被击破后，会获得类似王子的冲锋能力；连续移动 2.5 格便进入冲锋状态，命中目标时造成两倍伤害。六名单位通常分赴两路，因此一次觉醒可以同时在两侧制造必须处理的冲锋威胁。
+- 冲锋不是部署后立即生效，必须先失去盾牌并获得足够的直线移动距离。持续范围伤害可以在破盾后继续清理本体，建筑和低费单位也能打断冲锋路线；反过来，若对手只完成破盾却没有及时消灭卫队，就可能等于主动为后续反击开启冲锋。
+units:
+- name: 觉醒皇家卫队
+  kind: main
+  mechanics:
+  - { label: 攻击间隔, value: 1.3 秒 }
+  - { label: 首次攻击间隔, value: 0.5 秒 }
+  - { label: 移动速度, value: 中等 (60) }
+  - { label: 部署时间, value: 1 秒 }
+  - { label: 攻击距离, value: 近战：长 (1.6) }
+  - { label: 攻击目标, value: 地面 }
+  - { label: 单位数量, value: '6' }
+  - { label: 冲锋距离, value: 2.5 格 }
+  level_stats:
+    columns:
+    - { key: level, label: 等级 }
+    - { key: hitpoints, label: 生命值 }
+    - { key: shield_hitpoints, label: 护盾生命值 }
+    - { key: damage, label: 伤害 }
+    - { key: charge_damage, label: 冲锋伤害 }
+    - { key: damage_per_second, label: 每秒伤害 }
+    rows:
+    - { level: '1', hitpoints: '211', shield_hitpoints: '93', damage: '51', charge_damage: '103', damage_per_second: '39' }
+    - { level: '2', hitpoints: '232', shield_hitpoints: '102', damage: '56', charge_damage: '113', damage_per_second: '43' }
+    - { level: '3', hitpoints: '255', shield_hitpoints: '112', damage: '62', charge_damage: '124', damage_per_second: '47' }
+    - { level: '4', hitpoints: '281', shield_hitpoints: '123', damage: '68', charge_damage: '137', damage_per_second: '52' }
+    - { level: '5', hitpoints: '309', shield_hitpoints: '135', damage: '75', charge_damage: '150', damage_per_second: '57' }
+    - { level: '6', hitpoints: '340', shield_hitpoints: '149', damage: '83', charge_damage: '165', damage_per_second: '63' }
+    - { level: '7', hitpoints: '374', shield_hitpoints: '164', damage: '91', charge_damage: '182', damage_per_second: '70' }
+    - { level: '8', hitpoints: '411', shield_hitpoints: '180', damage: '100', charge_damage: '200', damage_per_second: '76' }
+    - { level: '9', hitpoints: '452', shield_hitpoints: '198', damage: '110', charge_damage: '220', damage_per_second: '84' }
+    - { level: '10', hitpoints: '497', shield_hitpoints: '218', damage: '121', charge_damage: '242', damage_per_second: '93' }
+    - { level: '11', hitpoints: '547', shield_hitpoints: '240', damage: '133', charge_damage: '266', damage_per_second: '102' }
+    - { level: '12', hitpoints: '602', shield_hitpoints: '264', damage: '146', charge_damage: '293', damage_per_second: '112' }
+    - { level: '13', hitpoints: '662', shield_hitpoints: '290', damage: '161', charge_damage: '322', damage_per_second: '123' }
+    - { level: '14', hitpoints: '728', shield_hitpoints: '319', damage: '177', charge_damage: '354', damage_per_second: '136' }
+    - { level: '15', hitpoints: '801', shield_hitpoints: '351', damage: '195', charge_damage: '389', damage_per_second: '150' }
+    - { level: '16', hitpoints: '881', shield_hitpoints: '387', damage: '214', charge_damage: '428', damage_per_second: '164' }
+usage_tips:
+- 根据进攻方向调整二四或四二分路，让更多觉醒卫队进入压力较大的一侧，同时保留另一侧的反击威胁。
+- 盾牌被击破后给卫队留下直线行进空间，不要让己方其他单位或错误站位阻挡冲锋路线。
+- 对手用法术统一破盾后，及时在两路补充前排或控制，迫使其同时处理多名已经获得冲锋能力的卫队。
+- 面对范围输出时分散后续支援，不要把全部投入集中在一侧，让对手用同一张牌连续清理盾牌和本体。
+matchups:
+- title: 适合应对
+  text: 单体地面输出和需要分路防守的进攻。破盾但未能及时清除卫队的攻击，还会为觉醒卫队创造冲锋反击。
+- title: 需要提防
+  text: 女武神、炸弹兵、法师等持续范围输出，以及能够反复改变目标或阻断直线路径的建筑和低费单位。
+- title: 搭配思路
+  text: 与皇家野猪和飞行器组成双路施压，用法术清除范围防守；也可在防守成功后分别向两路补充进攻核心，放大一次觉醒的覆盖面。
+balance_history:
+- { date: '2025-10-06', type: nerf, summary: '进入冲锋所需距离从 2 格增加至 2.5 格。' }
+- { date: '2025-03-31', type: adjustment, summary: '修正部署队形，使觉醒皇家卫队根据竞技场所在一侧正确镜像排列。' }
+- { date: '2025-01-08', type: nerf, summary: '冲锋伤害降低 3%，进入冲锋所需距离从 1.5 格增加至 2 格。' }
+- { date: '2024-05-14', type: adjustment, summary: '基础生命值提高 3%，同时移除觉醒形态原有的额外生命值加成。' }
+- { date: '2024-03-05', type: nerf, summary: '移除觉醒形态原有的普通攻击伤害加成。' }
+- { date: '2024-01-03', type: nerf, summary: '冲锋伤害降低 8%。' }
+- { date: '2023-11-13', type: nerf, summary: '普通攻击伤害加成从基础形态的 112% 降低至 106%。' }
+- { date: '2023-09-04', type: evolution, summary: '觉醒皇家卫队正式加入游戏，推出破盾后冲锋的机制。' }
+

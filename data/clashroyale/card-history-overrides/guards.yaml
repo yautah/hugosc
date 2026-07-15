@@ -1,0 +1,16 @@
+source_url: https://clashroyale.fandom.com/wiki/Guards
+items:
+  - { date: '2025-10-06', type: nerf, summary: 首次攻击间隔从 0.4 秒延长至 0.5 秒。 }
+  - { date: '2025-08-04', type: adjustment, summary: 觉醒女巫不再因被消灭的骷髅守卫获得治疗。 }
+  - { date: '2025-05-05', type: nerf, summary: 伤害降低 4%。 }
+  - { date: '2025-03-31', type: adjustment, summary: '伤害提高约 0.82%，并修复两侧部署时阵型没有正确镜像的问题。' }
+  - { date: '2024-01-03', type: buff, summary: 护盾生命值提高 7%。 }
+  - { date: '2022-10-26', type: adjustment, summary: 解锁竞技场调整至皮卡超人乐园。 }
+  - { date: '2021-09-06', type: buff, summary: 伤害提高 12%。 }
+  - { date: '2021-09-02', type: visual, summary: 卡牌信息页面加入骷髅守卫立绘。 }
+  - { date: '2020-12-09', type: adjustment, summary: '攻击间隔从 1.1 秒缩短至 1 秒，本体生命值降低 26%。' }
+  - { date: '2020-06-02', type: adjustment, summary: 三名守卫改为间隔 0.1 秒逐个部署。 }
+  - { date: '2017-12-12', type: buff, summary: '生命值与伤害提高 5%，攻击间隔从 1.2 秒缩短至 1.1 秒；护盾破裂会正确重置地狱伤害。' }
+  - { date: '2016-06-21', type: adjustment, summary: 移除护盾破裂时产生的击退。 }
+  - { date: '2016-05-18', type: buff, summary: 生命值与伤害提高 8%。 }
+  - { date: '2016-05-03', type: release, summary: 骷髅守卫正式加入游戏。 }

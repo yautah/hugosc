@@ -1,0 +1,44 @@
+source_url: https://clashroyale.fandom.com/wiki/Spear_Goblins
+items:
+- date: '2025-08-04'
+  type: nerf
+  summary: 首次攻击间隔从 0.4 秒延长至 0.5 秒，攻击距离从 5.5 格缩短至 5 格。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修复不同阵营部署时，三个哥布林投矛手的生成阵型没有正确镜像的问题。
+- date: '2025-01-08'
+  type: nerf
+  summary: 首次攻击间隔从 0.3 秒延长至 0.4 秒。
+- date: '2024-06-17'
+  type: buff
+  summary: 首次攻击间隔从 0.5 秒缩短至 0.3 秒。
+- date: '2023-04-04'
+  type: buff
+  summary: 攻击距离从 5 格提高至 5.5 格。
+- date: '2020-07-30'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2020-06-02'
+  type: adjustment
+  summary: 三个哥布林投矛手改为依次登场，每个单位之间间隔 0.1 秒。
+- date: '2018-06-04'
+  type: adjustment
+  summary: 伤害提高 34%，攻击间隔从 1.2 秒延长至 1.7 秒，首次攻击间隔从 0.2 秒延长至 0.5 秒。
+- date: '2018-04-25'
+  type: nerf
+  summary: 攻击间隔从 1.1 秒延长至 1.2 秒。
+- date: '2017-10-09'
+  type: buff
+  summary: 攻击间隔从 1.3 秒缩短至 1.1 秒。
+- date: '2017-03-16'
+  type: buff
+  summary: 投射物速度从 350 提高至 500。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 5.5 格改为 5 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 视野范围从 6 格缩小至 5.5 格。
+- date: '2016-01-04'
+  type: release
+  summary: 哥布林投矛手随皇室战争上线加入游戏。

@@ -1,0 +1,63 @@
+key: hunter-evolution
+parent_key: hunter
+kind: evolution
+order: 2
+name: 觉醒猎人
+label: 觉醒
+url: /clashroyale/cards/hunter/evolution/
+image: images/clashroyale/cards/variants/hunter-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Hunter/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2025-03-03'
+summary: 觉醒猎人每隔 5 秒向最近目标投出捕网，将目标定身并停止攻击 3 秒；被网住的空中单位还会暂时落地，可被地面单位攻击。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 捕网持续, value: 3 秒 }
+  - { label: 基础卡牌, value: 猎人 }
+overview:
+  - 觉醒猎人保留普通猎人的十枚弹丸和近距离爆发，每隔五秒还会向攻击距离内最近的单位投出捕网。目标在三秒内无法移动和攻击，空中目标会暂时落地，使原本只能攻击地面的友军也能命中它。
+  - 捕网动作会占用一次动画时间，因此对大量低生命单位未必比普通猎人更高效。它更适合控制气球兵、熔岩猎犬和单个高价值单位，让猎人及友军获得稳定输出窗口。
+units:
+  - name: 觉醒猎人
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 2.2 秒 }
+      - { label: 首次攻击间隔, value: 0.7 秒 }
+      - { label: 攻击距离, value: 4 格 }
+      - { label: 弹丸距离, value: 6.5 格 }
+      - { label: 每次弹丸, value: '10' }
+      - { label: 捕网间隔, value: 5 秒 }
+      - { label: 捕网持续, value: 3 秒 }
+      - { label: 捕网距离, value: 4 格 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 每枚伤害与总伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '553', damage: '52 x10 (520)', damage_per_second: '236' }
+        - { level: '7', hitpoints: '608', damage: '58 x10 (580)', damage_per_second: '263' }
+        - { level: '8', hitpoints: '667', damage: '63 x10 (630)', damage_per_second: '286' }
+        - { level: '9', hitpoints: '733', damage: '69 x10 (690)', damage_per_second: '313' }
+        - { level: '10', hitpoints: '806', damage: '76 x10 (760)', damage_per_second: '345' }
+        - { level: '11', hitpoints: '885', damage: '84 x10 (840)', damage_per_second: '381' }
+        - { level: '12', hitpoints: '972', damage: '92 x10 (920)', damage_per_second: '418' }
+        - { level: '13', hitpoints: '1069', damage: '101 x10 (1010)', damage_per_second: '459' }
+        - { level: '14', hitpoints: '1172', damage: '111 x10 (1110)', damage_per_second: '504' }
+        - { level: '15', hitpoints: '1287', damage: '122 x10 (1220)', damage_per_second: '554' }
+        - { level: '16', hitpoints: '1415', damage: '134 x10 (1340)', damage_per_second: '609' }
+usage_tips:
+  - 把觉醒猎人部署在气球兵或大型空中单位路线前方，捕网落地效果能让地面高伤害单位共同参与防守。
+  - 面对单个目标时，五秒捕网间隔和三秒持续时间能大幅压缩其行动窗口；尽量避免让低价值单位先进入四格范围骗走捕网。
+  - 贴近部署仍是获得十枚弹丸满额伤害的关键，捕网负责固定目标，但不能弥补猎人站位过远造成的弹丸散失。
+  - 对墓园等持续生成单位时，捕网动画可能拖慢普通攻击，不要只依赖觉醒猎人单卡清场，应准备小法术或塔部队协助。
+matchups:
+  - { title: 适合应对, text: '非常适合控制气球兵、熔岩猎犬和单个高价值推进单位，定身与落地能显著扩大可参与防守的单位范围。' }
+  - { title: 需要提防, text: '低费单位可以抢先吸收捕网，远程击退会降低弹丸集中度；大量持续生成的人海也会利用捕网动画争取输出。' }
+  - { title: 搭配思路, text: '与渔夫、地面高爆发单位和小法术搭配，先控制目标位置，再让猎人的近距离弹丸与友军共同完成击杀。' }
+balance_history:
+  - { date: '2025-06-03', type: adjustment, summary: '首次攻击间隔从 0.8 秒缩短至 0.7 秒；捕网持续时间从 4 秒降至 3 秒，捕网间隔从 4 秒延长至 5 秒。' }
+  - { date: '2025-03-31', type: buff, summary: '生命值提高 0.11%，并修复捕网遗漏目标及空中单位未正确落地等问题。' }
+  - { date: '2025-03-03', type: evolution, summary: '觉醒猎人正式上线。' }

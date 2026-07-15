@@ -1,0 +1,69 @@
+key: wizard-hero
+parent_key: wizard
+kind: hero
+order: 3
+name: 英雄法师
+label: 英雄
+url: /clashroyale/cards/wizard/hero/
+image: images/clashroyale/cards/variants/wizard-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Wizard/Hero
+source_retrieved_at: '2026-07-15'
+source_revision: 436538
+release_date: '2026-01-05'
+summary: 英雄法师可消耗一费发动烈焰飞行，短暂升空并强化移动，期间火球会生成能拉扯空地单位的火焰龙卷风。
+facts:
+  - { label: 部署圣水, value: '5' }
+  - { label: 技能圣水, value: '1' }
+  - { label: 技能持续, value: 5 秒 }
+  - { label: 基础卡牌, value: 法师 }
+overview:
+  - 英雄法师保留普通法师的范围火球，主动技能“烈焰飞行”在一秒准备后让他升空五秒，并提高 50% 移动速度。飞行期间每次攻击都会生成火焰龙卷风，拉扯空中和地面目标并造成额外伤害。
+  - 技能可以暂时躲开只能攻击地面的单位，并把推进中的前后排聚在一起，但二十秒冷却和短暂持续时间要求准确把握开火时机。藤蔓等强制落地效果和减速控制会明显降低技能收益。
+units:
+  - name: 英雄法师
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.4 秒 }
+      - { label: 攻击距离, value: 5.5 格 }
+      - { label: 技能准备, value: 1 秒 }
+      - { label: 飞行持续, value: 5 秒 }
+      - { label: 移速提高, value: 50% }
+      - { label: 龙卷风半径, value: 4 格 }
+      - { label: 龙卷风持续, value: 2 秒 }
+      - { label: 技能冷却, value: 20 秒 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: tornado_damage, label: 龙卷风伤害 }
+        - { key: tornado_tower_damage, label: 龙卷风皇家塔伤害 }
+      rows:
+        - { level: '3', hitpoints: '352', damage: '131', damage_per_second: '93', tornado_damage: '56', tornado_tower_damage: '20' }
+        - { level: '4', hitpoints: '387', damage: '144', damage_per_second: '102', tornado_damage: '62', tornado_tower_damage: '22' }
+        - { level: '5', hitpoints: '426', damage: '159', damage_per_second: '113', tornado_damage: '68', tornado_tower_damage: '24' }
+        - { level: '6', hitpoints: '469', damage: '174', damage_per_second: '124', tornado_damage: '75', tornado_tower_damage: '27' }
+        - { level: '7', hitpoints: '516', damage: '192', damage_per_second: '137', tornado_damage: '82', tornado_tower_damage: '29' }
+        - { level: '8', hitpoints: '567', damage: '211', damage_per_second: '150', tornado_damage: '90', tornado_tower_damage: '32' }
+        - { level: '9', hitpoints: '624', damage: '232', damage_per_second: '165', tornado_damage: '99', tornado_tower_damage: '36' }
+        - { level: '10', hitpoints: '686', damage: '255', damage_per_second: '182', tornado_damage: '109', tornado_tower_damage: '39' }
+        - { level: '11', hitpoints: '755', damage: '281', damage_per_second: '200', tornado_damage: '120', tornado_tower_damage: '43' }
+        - { level: '12', hitpoints: '831', damage: '309', damage_per_second: '220', tornado_damage: '132', tornado_tower_damage: '47' }
+        - { level: '13', hitpoints: '914', damage: '340', damage_per_second: '242', tornado_damage: '145', tornado_tower_damage: '52' }
+        - { level: '14', hitpoints: '1005', damage: '374', damage_per_second: '267', tornado_damage: '160', tornado_tower_damage: '57' }
+        - { level: '15', hitpoints: '1105', damage: '411', damage_per_second: '293', tornado_damage: '176', tornado_tower_damage: '63' }
+        - { level: '16', hitpoints: '1216', damage: '453', damage_per_second: '323', tornado_damage: '193', tornado_tower_damage: '69' }
+usage_tips:
+  - 等英雄法师已经锁定推进目标后再开技能，避免五秒持续时间浪费在赶路上，并让连续火球尽可能多地触发龙卷风。
+  - 地面单体单位贴近时可用升空暂时规避攻击，但仍要用其他单位承接目标，否则技能结束后法师和皇家塔会再次承压。
+  - 对付坦克带后排的推进时，龙卷风可以把单位拉近，让普通范围火球同时命中更多目标。
+  - 技能冷却较长，不要只为少量皇家塔消耗随意开启；优先用于关键防守或能形成完整反击的时点。
+matchups:
+  - { title: 适合应对, text: '适合聚集推进和只能攻击地面的追击单位，升空与拉扯能同时获得生存和范围输出收益。' }
+  - { title: 需要提防, text: '远程防空、减速、眩晕与强制落地会减少技能攻击次数；技能结束后的本体仍只有普通法师的耐久。' }
+  - { title: 搭配思路, text: '与高生命值前排和其他范围输出配合，让龙卷风持续聚集敌军；也可搭配建筑延长防守时间，等技能完成多次攻击。' }
+balance_history:
+  - { date: '2026-02-23', type: adjustment, summary: 修复龙卷风对皇家塔造成完整 120 点伤害的问题，皇家塔伤害改为 43。 }
+  - { date: '2026-02-02', type: buff, summary: 提高龙卷风拉力，使技能更稳定地聚集敌军。 }
+  - { date: '2026-01-05', type: hero, summary: 英雄法师正式上线。 }

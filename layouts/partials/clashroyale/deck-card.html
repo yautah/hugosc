@@ -1,0 +1,52 @@
+{{- $deck := . -}}
+{{- $cards := site.Data.clashroyale.cards.items -}}
+{{- $archetypeLabels := dict "cycle" "速转" "control" "控制" "bait" "诱饵" "beatdown" "推进" "siege" "攻城" -}}
+{{- $difficultyLabels := dict "beginner" "入门" "intermediate" "进阶" "advanced" "高阶" -}}
+{{- $href := default $deck.guide_url $deck.detail_url -}}
+{{- $searchParts := slice $deck.name $deck.summary $deck.archetype $deck.difficulty -}}
+{{- range $deck.cards -}}
+  {{- $cardKey := . -}}
+  {{- with index (where $cards "key" $cardKey) 0 -}}
+    {{- $searchParts = $searchParts | append .key .name .name_en -}}
+  {{- end -}}
+{{- end -}}
+<article
+  class="sc-data-card sc-deck-card"
+  data-filter-item
+  data-search="{{ lower (delimit $searchParts " ") }}"
+  data-archetype="{{ $deck.archetype }}"
+  data-difficulty="{{ $deck.difficulty }}"
+>
+  <div class="sc-deck-head">
+    <div>
+      <h2><a href="{{ $href }}">{{ $deck.name }}</a></h2>
+      <p>{{ $deck.summary }}</p>
+    </div>
+    <dl class="sc-deck-numbers">
+      <div><dt>平均圣水</dt><dd>{{ $deck.average_elixir }}</dd></div>
+      <div><dt>四卡循环</dt><dd>{{ $deck.cycle_elixir }}</dd></div>
+    </dl>
+  </div>
+  <div class="sc-deck-cards" aria-label="{{ $deck.name }}卡牌组成">
+    {{- range $deck.cards -}}
+      {{- $cardKey := . -}}
+      {{- with index (where $cards "key" $cardKey) 0 -}}
+        {{- $cardName := .name -}}
+        <a class="sc-deck-card-slot" href="{{ default (printf "/clashroyale/cards/#%s" .key) .detail_url }}" title="{{ .name }}">
+          {{- with resources.Get .image -}}
+            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $cardName }}卡牌图片" loading="lazy">
+          {{- end -}}
+          <span>{{ .name }}</span>
+        </a>
+      {{- end -}}
+    {{- end -}}
+  </div>
+  <footer class="sc-deck-footer">
+    <div class="sc-data-tags">
+      <span>{{ default $deck.archetype (index $archetypeLabels $deck.archetype) }}</span>
+      <span>{{ default $deck.difficulty (index $difficultyLabels $deck.difficulty) }}</span>
+      {{ range $deck.modes }}<span>{{ . }}</span>{{ end }}
+    </div>
+    <a class="sc-data-link" href="{{ $href }}">查看打法</a>
+  </footer>
+</article>

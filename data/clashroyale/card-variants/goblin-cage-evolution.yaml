@@ -1,0 +1,70 @@
+key: goblin-cage-evolution
+parent_key: goblin-cage
+kind: evolution
+order: 2
+name: 觉醒哥布林牢笼
+label: 觉醒
+url: /clashroyale/cards/goblin-cage/evolution/
+image: images/clashroyale/cards/variants/goblin-cage-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Cage/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-08-05'
+summary: 觉醒哥布林牢笼会抓住靠近的地面部队持续攻击，牢笼破坏后再放出哥布林硬汉。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 1 次循环 }
+  - { label: 抓取距离, value: 3 格 }
+  - { label: 基础卡牌, value: 哥布林牢笼 }
+overview:
+  - 觉醒哥布林牢笼可以把三格内的地面部队拖入牢笼并持续攻击，被抓单位暂时无法行动。牢笼被摧毁后，哥布林硬汉照常登场，形成控制、承伤和反击三段价值。
+  - 抓取只针对地面部队，无法处理空中目标；目标进入牢笼后，其他敌军仍可继续推进。面对多单位进攻时，需要额外防守覆盖未被抓取的威胁。
+units:
+  - name: 觉醒哥布林牢笼
+    kind: main
+    mechanics:
+      - { label: 部署时间, value: 1 秒 }
+      - { label: 持续时间, value: 20 秒 }
+      - { label: 抓取攻击间隔, value: 1 秒 }
+      - { label: 抓取距离, value: 3 格 }
+      - { label: 抓取目标, value: 地面 }
+      - { label: 哥布林硬汉攻击间隔, value: 1.1 秒 }
+      - { label: 哥布林硬汉移动速度, value: 快 (90) }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: cage_hitpoints, label: 牢笼生命值 }
+        - { key: cage_damage, label: 牢笼伤害 }
+        - { key: cage_damage_per_second, label: 牢笼每秒伤害 }
+        - { key: brawler_hitpoints, label: 硬汉生命值 }
+        - { key: brawler_damage, label: 硬汉伤害 }
+        - { key: brawler_damage_per_second, label: 硬汉每秒伤害 }
+      rows:
+        - { level: '3', cage_hitpoints: '364', cage_damage: '157', cage_damage_per_second: '157', brawler_hitpoints: '504', brawler_damage: '157', brawler_damage_per_second: '142' }
+        - { level: '4', cage_hitpoints: '400', cage_damage: '173', cage_damage_per_second: '173', brawler_hitpoints: '554', brawler_damage: '173', brawler_damage_per_second: '157' }
+        - { level: '5', cage_hitpoints: '440', cage_damage: '190', cage_damage_per_second: '190', brawler_hitpoints: '610', brawler_damage: '190', brawler_damage_per_second: '172' }
+        - { level: '6', cage_hitpoints: '484', cage_damage: '209', cage_damage_per_second: '209', brawler_hitpoints: '671', brawler_damage: '209', brawler_damage_per_second: '189' }
+        - { level: '7', cage_hitpoints: '533', cage_damage: '230', cage_damage_per_second: '230', brawler_hitpoints: '738', brawler_damage: '230', brawler_damage_per_second: '209' }
+        - { level: '8', cage_hitpoints: '586', cage_damage: '253', cage_damage_per_second: '253', brawler_hitpoints: '811', brawler_damage: '253', brawler_damage_per_second: '229' }
+        - { level: '9', cage_hitpoints: '645', cage_damage: '279', cage_damage_per_second: '279', brawler_hitpoints: '893', brawler_damage: '279', brawler_damage_per_second: '253' }
+        - { level: '10', cage_hitpoints: '709', cage_damage: '306', cage_damage_per_second: '306', brawler_hitpoints: '982', brawler_damage: '306', brawler_damage_per_second: '278' }
+        - { level: '11', cage_hitpoints: '780', cage_damage: '337', cage_damage_per_second: '337', brawler_hitpoints: '1080', brawler_damage: '337', brawler_damage_per_second: '306' }
+        - { level: '12', cage_hitpoints: '858', cage_damage: '371', cage_damage_per_second: '371', brawler_hitpoints: '1188', brawler_damage: '371', brawler_damage_per_second: '337' }
+        - { level: '13', cage_hitpoints: '944', cage_damage: '408', cage_damage_per_second: '408', brawler_hitpoints: '1307', brawler_damage: '408', brawler_damage_per_second: '370' }
+        - { level: '14', cage_hitpoints: '1038', cage_damage: '449', cage_damage_per_second: '449', brawler_hitpoints: '1437', brawler_damage: '449', brawler_damage_per_second: '408' }
+        - { level: '15', cage_hitpoints: '1142', cage_damage: '493', cage_damage_per_second: '493', brawler_hitpoints: '1581', brawler_damage: '493', brawler_damage_per_second: '448' }
+        - { level: '16', cage_hitpoints: '1256', cage_damage: '543', cage_damage_per_second: '543', brawler_hitpoints: '1739', brawler_damage: '543', brawler_damage_per_second: '493' }
+usage_tips:
+  - 让牢笼靠近最需要控制的地面核心，抓取期间集中处理其余支援单位。
+  - 面对单体高伤单位时，抓取能显著延长防守时间，但仍要避免牢笼被其他单位快速集火。
+  - 牢笼破坏后及时补充远程支援，让哥布林硬汉把防守转化为反击。
+matchups:
+  - { title: 适合应对, text: 单个高威胁地面单位、冲锋单位和需要被暂时移出战场的推进核心。 }
+  - { title: 需要提防, text: 空中单位、分散人海与远程支援不会全部被抓取，法术也能缩短牢笼控制时间。 }
+  - { title: 搭配思路, text: 与范围伤害和远程对空配合，牢笼控制最危险目标，其他单位清理剩余支援。 }
+balance_history:
+  - { date: '2025-10-06', type: nerf, summary: 移除哥布林硬汉的额外生命值加成。 }
+  - { date: '2025-03-31', type: adjustment, summary: '哥布林硬汉生命值小幅降低，被抓取的单位不再能受到符文巨人附魔。' }
+  - { date: '2024-12-16', type: visual, summary: 新增觉醒哥布林硬汉被击倒后的音效。 }
+  - { date: '2024-10-08', type: buff, summary: 牢笼攻击间隔由 1.1 秒缩短至 1 秒。 }
+  - { date: '2024-10-02', type: adjustment, summary: 修复觉醒哥布林牢笼的多项行为异常。 }
+  - { date: '2024-08-05', type: evolution, summary: 觉醒哥布林牢笼正式上线。 }

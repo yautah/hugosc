@@ -1,0 +1,61 @@
+key: tombstone-hero
+parent_key: tombstone
+kind: hero
+order: 3
+name: 精英骷髅墓碑
+label: 精英
+url: /clashroyale/cards/tombstone/hero/
+image: images/clashroyale/cards/variants/tombstone-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Tombstone/Hero
+source_retrieved_at: '2026-07-15'
+release_date: '2026-06-01'
+summary: 精英骷髅墓碑可消耗六点圣水召唤墓碑女王，生成骷髅兵并主动攻击建筑。
+facts:
+  - { label: 部署圣水, value: '3' }
+  - { label: 技能圣水, value: '6' }
+  - { label: 技能名称, value: 皇家复生 }
+  - { label: 基础卡牌, value: 骷髅墓碑 }
+overview:
+  - 精英骷髅墓碑保留普通墓碑的拉扯和骷髅兵生成机制，新增“皇家复生”技能。支付六点圣水后，墓碑女王会从地下出现，生成骷髅兵并以建筑为攻击目标。
+  - 本体与技能合计需要九点圣水，是一项高成本转化。当前来源页仍在建设中，尚未公开墓碑女王的独立逐级属性，因此页面只展示已确认的技能行为和基础墓碑数据，不虚构缺失数值。
+units:
+  - name: 精英骷髅墓碑
+    kind: main
+    mechanics:
+      - { label: 生成间隔, value: 4 秒 }
+      - { label: 部署时间, value: 1 秒 }
+      - { label: 持续时间, value: 30 秒 }
+      - { label: 技能圣水, value: '6' }
+      - { label: 技能效果, value: 召唤墓碑女王与骷髅兵 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 墓碑生命值 }
+        - { key: skeleton_hitpoints, label: 骷髅兵生命值 }
+        - { key: skeleton_damage, label: 骷髅兵伤害 }
+        - { key: skeleton_damage_per_second, label: 骷髅兵每秒伤害 }
+      rows:
+        - { level: '3', hitpoints: '247', skeleton_hitpoints: '38', skeleton_damage: '38', skeleton_damage_per_second: '34' }
+        - { level: '4', hitpoints: '271', skeleton_hitpoints: '42', skeleton_damage: '42', skeleton_damage_per_second: '38' }
+        - { level: '5', hitpoints: '299', skeleton_hitpoints: '46', skeleton_damage: '46', skeleton_damage_per_second: '41' }
+        - { level: '6', hitpoints: '328', skeleton_hitpoints: '50', skeleton_damage: '50', skeleton_damage_per_second: '45' }
+        - { level: '7', hitpoints: '361', skeleton_hitpoints: '55', skeleton_damage: '55', skeleton_damage_per_second: '49' }
+        - { level: '8', hitpoints: '397', skeleton_hitpoints: '61', skeleton_damage: '61', skeleton_damage_per_second: '55' }
+        - { level: '9', hitpoints: '437', skeleton_hitpoints: '67', skeleton_damage: '67', skeleton_damage_per_second: '60' }
+        - { level: '10', hitpoints: '481', skeleton_hitpoints: '74', skeleton_damage: '74', skeleton_damage_per_second: '67' }
+        - { level: '11', hitpoints: '529', skeleton_hitpoints: '81', skeleton_damage: '81', skeleton_damage_per_second: '73' }
+        - { level: '12', hitpoints: '582', skeleton_hitpoints: '89', skeleton_damage: '89', skeleton_damage_per_second: '80' }
+        - { level: '13', hitpoints: '640', skeleton_hitpoints: '98', skeleton_damage: '98', skeleton_damage_per_second: '89' }
+        - { level: '14', hitpoints: '704', skeleton_hitpoints: '108', skeleton_damage: '108', skeleton_damage_per_second: '98' }
+        - { level: '15', hitpoints: '775', skeleton_hitpoints: '119', skeleton_damage: '119', skeleton_damage_per_second: '108' }
+        - { level: '16', hitpoints: '852', skeleton_hitpoints: '130', skeleton_damage: '130', skeleton_damage_per_second: '118' }
+usage_tips:
+  - 只在墓碑仍有机会发动技能且场面允许投入六点圣水时使用，避免建筑被快速摧毁导致计划落空。
+  - 用普通墓碑位置完成正常拉扯，不要为了暴露技能意图而把本体放到不合理位置。
+  - 墓碑女王以建筑为目标，发动前应确认其推进路线和对手建筑位置能带来足够收益。
+matchups:
+  - { title: 适合应对, text: 防守后有充足圣水转入推进的慢节奏对局，墓碑女王和骷髅兵能形成额外场面。 }
+  - { title: 需要提防, text: 高伤法术、快速拆建筑和换路进攻可能让九点总投入来不及产生回报。 }
+  - { title: 搭配思路, text: 与范围伤害和远程支援配合，先用墓碑完成防守，再保护墓碑女王向建筑推进。 }
+balance_history:
+  - { date: '2026-06-01', type: hero, summary: 精英骷髅墓碑正式上线，新增消耗六点圣水的皇家复生技能。 }

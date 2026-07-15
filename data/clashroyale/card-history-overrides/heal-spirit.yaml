@@ -1,0 +1,11 @@
+source_url: https://clashroyale.fandom.com/wiki/Heal_Spirit
+items:
+  - { date: '2025-03-31', type: adjustment, summary: '生命值降低约 0.43%，治疗量提高约 0.25%。' }
+  - { date: '2022-12-12', type: adjustment, summary: 治疗精灵的跳跃投射不再能够被反射。 }
+  - { date: '2021-06-07', type: adjustment, summary: 解锁竞技场从野猪山脉调整至淘气岭，并修复卡牌信息中被错误归类为法术的问题。 }
+  - { date: '2021-03-30', type: adjustment, summary: '伤害提高 225%，治疗半径从 3.5 格缩小至 2.5 格。' }
+  - { date: '2020-12-09', type: nerf, summary: 伤害降低 69%。 }
+  - { date: '2020-10-06', type: nerf, summary: 治疗效果降低 9%。 }
+  - { date: '2020-09-09', type: nerf, summary: 治疗半径从 4 格缩小至 3.5 格。 }
+  - { date: '2020-08-31', type: adjustment, summary: 卡牌信息页加入伤害、治疗、射程和目标数据，克隆单位不再能够被治疗精灵恢复生命。 }
+  - { date: '2020-04-02', type: release, summary: 治疗精灵取代治疗法术并正式加入游戏。 }

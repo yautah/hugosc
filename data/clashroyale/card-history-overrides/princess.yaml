@@ -1,0 +1,12 @@
+source_url: https://clashroyale.fandom.com/wiki/Princess
+items:
+  - { date: '2026-06-01', type: evolution, summary: '觉醒公主正式上线。' }
+  - { date: '2025-03-31', type: nerf, summary: '伤害因数值取整降低约 0.59%。' }
+  - { date: '2025-03-04', type: adjustment, summary: '部署时间从 1 秒延长至 1.2 秒，首次攻击间隔从 0.5 秒缩短至 0.3 秒。' }
+  - { date: '2020-04-07', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2019-05-06', type: buff, summary: '投射物速度从 450 提高至 600。' }
+  - { date: '2016-08-29', type: buff, summary: '投射物速度从 400 提高至 450。' }
+  - { date: '2016-08-24', type: nerf, summary: '范围伤害半径从 2.5 格缩小至 2 格。' }
+  - { date: '2016-05-03', type: adjustment, summary: '修复射程问题，显示射程从 9.5 格调整为 9 格，实际有效射程不变。' }
+  - { date: '2016-03-23', type: nerf, summary: '生命值降低 10%。' }
+  - { date: '2016-02-29', type: release, summary: '公主正式加入游戏。' }

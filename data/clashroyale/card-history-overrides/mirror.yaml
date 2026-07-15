@@ -1,0 +1,17 @@
+source_url: https://clashroyale.fandom.com/wiki/Mirror
+items:
+  - { date: '2025-09-29', type: buff, summary: '镜像法术重新允许复制英雄卡牌。' }
+  - { date: '2024-12-16', type: adjustment, summary: '修复卡牌费用位置错误显示问号的问题。' }
+  - { date: '2022-10-26', type: nerf, summary: '使用英雄卡牌后镜像暂时无法使用。' }
+  - { date: '2022-09-12', type: nerf, summary: '撤销 2022 年 4 月的额外等级强化，镜像卡牌等级降低 1 级。' }
+  - { date: '2022-04-04', type: buff, summary: '所有镜像卡牌等级提高 1 级。' }
+  - { date: '2021-10-27', type: visual, summary: '卡牌信息页面加入镜像法术形象。' }
+  - { date: '2019-11-26', type: visual, summary: '为被复制卡牌加入地面镜面与专属音效。' }
+  - { date: '2018-06-20', type: adjustment, summary: '镜像法术不再出现在起始手牌。' }
+  - { date: '2016-12-15', type: buff, summary: '恢复最高等级镜像卡的额外等级。' }
+  - { date: '2016-11-02', type: nerf, summary: '为修复超过等级上限的显示问题，最高等级镜像卡暂时降低 1 级。' }
+  - { date: '2016-09-19', type: buff, summary: '所有镜像卡牌等级提高 1 级。' }
+  - { date: '2016-05-03', type: adjustment, summary: '普通和稀有镜像卡等级提高 1 级；计算卡组平均费用时按 1.5 费计入。' }
+  - { date: '2016-03-23', type: nerf, summary: '传奇镜像卡牌等级降低 1 级。' }
+  - { date: '2016-02-29', type: visual, summary: '更换镜像法术卡牌图片，并修复使用后返还 1 费的问题。' }
+  - { date: '2016-01-04', type: release, summary: '镜像法术随游戏首发加入。' }

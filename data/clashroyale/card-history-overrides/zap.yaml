@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Zap
+items:
+  - { date: '2024-03-11', type: evolution, summary: '电击法术觉醒形态正式上线。' }
+  - { date: '2022-04-28', type: visual, summary: '卡牌信息页面加入电击法术的卡牌形象。' }
+  - { date: '2020-08-04', type: nerf, summary: '对皇家塔伤害比例从 35% 降至 30%。' }
+  - { date: '2018-09-03', type: adjustment, summary: '电击法术不再重置电击车小队的攻击。' }
+  - { date: '2018-04-25', type: adjustment, summary: '允许直接在河道区域施放。' }
+  - { date: '2017-12-12', type: nerf, summary: '对皇家塔伤害比例从 40% 降至 35%。' }
+  - { date: '2017-01-23', type: nerf, summary: '伤害降低 6%。' }
+  - { date: '2016-08-24', type: nerf, summary: '眩晕时间从 1 秒缩短至 0.5 秒。' }
+  - { date: '2016-07-04', type: adjustment, summary: '现在可以中断圣水收集器产出并重置地狱之塔递增伤害。' }
+  - { date: '2016-02-29', type: adjustment, summary: '加入 1 秒眩晕效果，伤害降低 6%。' }
+  - { date: '2016-02-19', type: nerf, summary: '对皇家塔伤害比例从 50% 降至 40%。' }
+  - { date: '2016-02-09', type: buff, summary: '伤害提高 6%。' }
+  - { date: '2016-01-04', type: release, summary: '电击法术随游戏首发加入。' }

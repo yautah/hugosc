@@ -1,0 +1,4 @@
+source_url: https://clashroyale.fandom.com/wiki/Tower_Princess
+items:
+  - { date: '2024-03-28', type: buff, summary: 解锁位置由哥布林竞技场提前至训练营。 }
+  - { date: '2023-12-13', type: release, summary: 公主塔转换为皇家塔部队卡牌，皇家塔公主正式加入游戏。 }

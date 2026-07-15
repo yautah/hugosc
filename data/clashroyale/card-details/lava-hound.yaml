@@ -1,0 +1,179 @@
+---
+release_date: '2016-05-03'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 熔岩猎犬
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.3 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 1 秒
+  - key: speed
+    label: 移动速度
+    value: 慢 (45)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '3.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '400'
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 空中
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: lava_hound_hitpoints
+      label: 生命值
+    - key: lava_hound_damage
+      label: 伤害
+    - key: lava_hound_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      lava_hound_hitpoints: '2965'
+      lava_hound_damage: '44'
+      lava_hound_damage_per_second: '33'
+    - level: '10'
+      lava_hound_hitpoints: '3259'
+      lava_hound_damage: '48'
+      lava_hound_damage_per_second: '36'
+    - level: '11'
+      lava_hound_hitpoints: '3581'
+      lava_hound_damage: '53'
+      lava_hound_damage_per_second: '40'
+    - level: '12'
+      lava_hound_hitpoints: '3931'
+      lava_hound_damage: '59'
+      lava_hound_damage_per_second: '45'
+    - level: '13'
+      lava_hound_hitpoints: '4322'
+      lava_hound_damage: '64'
+      lava_hound_damage_per_second: '50'
+    - level: '14'
+      lava_hound_hitpoints: '4742'
+      lava_hound_damage: '71'
+      lava_hound_damage_per_second: '54'
+    - level: '15'
+      lava_hound_hitpoints: '5204'
+      lava_hound_damage: '78'
+      lava_hound_damage_per_second: '60'
+    derived_levels:
+    - '16'
+- name: 熔岩幼犬
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.7 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 1 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: range
+    label: 攻击距离
+    value: 近战：长 (1.6)
+  - key: projectile_speed
+    label: 投射物速度
+    value: '500'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '6'
+  - key: transport
+    label: 移动方式
+    value: 空中
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: lava_pup_hitpoints
+      label: 生命值
+    - key: lava_pup_damage
+      label: 伤害
+    - key: lava_pup_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      lava_pup_hitpoints: '180'
+      lava_pup_damage: '67'
+      lava_pup_damage_per_second: '39'
+    - level: '10'
+      lava_pup_hitpoints: '198'
+      lava_pup_damage: '74'
+      lava_pup_damage_per_second: '43'
+    - level: '11'
+      lava_pup_hitpoints: '217'
+      lava_pup_damage: '81'
+      lava_pup_damage_per_second: '47'
+    - level: '12'
+      lava_pup_hitpoints: '238'
+      lava_pup_damage: '89'
+      lava_pup_damage_per_second: '52'
+    - level: '13'
+      lava_pup_hitpoints: '262'
+      lava_pup_damage: '98'
+      lava_pup_damage_per_second: '57'
+    - level: '14'
+      lava_pup_hitpoints: '288'
+      lava_pup_damage: '108'
+      lava_pup_damage_per_second: '63'
+    - level: '15'
+      lava_pup_hitpoints: '316'
+      lava_pup_damage: '119'
+      lava_pup_damage_per_second: '70'
+    derived_levels:
+    - '16'
+  section_label: 分裂单位
+  summary: 熔岩猎犬被击败后生成 6 只，转而攻击附近的空中和地面目标。
+balance_history:
+- date: '2025-12-01'
+  type: nerf
+  summary: 熔岩幼犬生命值降低约 1%，11 级从 217 调整为 215，修正 16 级幼犬无法被同等级公主塔两次攻击击败的取整问题。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 熔岩猎犬伤害降低 1.85%；熔岩幼犬生命值提高 0.46%、伤害降低 3.57%，并修复受到皇家大厨强化后无法生成幼犬的问题。
+- date: '2025-02-04'
+  type: nerf
+  summary: 熔岩幼犬伤害降低 7%。
+- date: '2023-10-03'
+  type: nerf
+  summary: 熔岩猎犬生命值降低 6%。
+- date: '2020-01-07'
+  type: adjustment
+  summary: 熔岩猎犬攻击距离从 2 格提高至 3.5 格并调整寻路；熔岩幼犬伤害提高 70%，攻击间隔从 1 秒延长至 1.7 秒，首次攻击间隔从 0.8 秒延长至 1 秒，攻击距离从 2 格缩短至 1.6 格。
+- date: '2018-01-24'
+  type: buff
+  summary: 熔岩猎犬生命值提高 5%。
+- date: '2017-06-12'
+  type: adjustment
+  summary: 熔岩猎犬碰撞半径从 0.5 格扩大至 0.75 格。
+- date: '2016-11-30'
+  type: nerf
+  summary: 熔岩幼犬生命值降低 1%，修正同等级皇家塔无法两次攻击将其击败的取整问题。
+- date: '2016-06-21'
+  type: buff
+  summary: 熔岩猎犬伤害提高 28%。
+- date: '2016-05-18'
+  type: buff
+  summary: 熔岩猎犬生命值提高 3%，熔岩幼犬生命值提高 9%。
+- date: '2016-05-03'
+  type: release
+  summary: 熔岩猎犬随 2016 年 5 月版本正式加入游戏。

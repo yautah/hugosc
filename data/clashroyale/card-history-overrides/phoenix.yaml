@@ -1,0 +1,13 @@
+source_url: https://clashroyale.fandom.com/wiki/Phoenix
+items:
+  - { date: '2026-03-02', type: buff, summary: '凤凰蛋生命值从 240 提高至 317，孵化时间从 4.3 秒缩短至 3.8 秒。' }
+  - { date: '2025-11-03', type: buff, summary: '重生凤凰的生命值和伤害从本体的 80% 恢复为 100%，体型也恢复正常。' }
+  - { date: '2025-08-04', type: adjustment, summary: '移除死亡伤害对皇家塔的伤害削减。' }
+  - { date: '2025-03-31', type: buff, summary: '凤凰蛋生命值因数值取整提高约 0.41%，并修复受到皇家大厨强化后无法生成蛋的问题。' }
+  - { date: '2023-06-06', type: nerf, summary: '攻击间隔从 0.9 秒延长至 1 秒。' }
+  - { date: '2023-04-04', type: nerf, summary: '死亡伤害降低 10%。' }
+  - { date: '2023-02-07', type: adjustment, summary: '重生凤凰的生命值和伤害调整为本体的 80%，体型同步缩小。' }
+  - { date: '2022-12-07', type: nerf, summary: '生命值降低 13%。' }
+  - { date: '2022-11-21', type: nerf, summary: '凤凰蛋生命值降低 34%。' }
+  - { date: '2022-11-02', type: nerf, summary: '伤害降低 10%，凤凰蛋孵化时间从 4 秒延长至 4.3 秒。' }
+  - { date: '2022-10-26', type: release, summary: '凤凰正式加入游戏。' }

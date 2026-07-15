@@ -1,0 +1,50 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-clash-data.css" }}
+    {{ $css := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+<div class="sc-data-page">
+  <nav class="sc-data-breadcrumb" aria-label="面包屑">
+    <a href="/clashroyale/">皇室战争</a><span>/</span><span aria-current="page">卡组榜单</span>
+  </nav>
+
+  <header class="sc-data-hero">
+    <div>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.description }}</p>
+    </div>
+    <a class="sc-data-switch" href="/clashroyale/cards/">查看卡牌百科</a>
+  </header>
+
+  <section class="sc-ranking-shell" aria-labelledby="ranking-status">
+    <div class="sc-ranking-mode-bar" aria-label="计划支持的对战模式">
+      <span class="is-active">天梯</span>
+      <span>皇室征程</span>
+      <span>终极挑战</span>
+      <span>经典挑战</span>
+      <span>特殊活动</span>
+    </div>
+
+    <div class="sc-ranking-toolbar">
+      <div class="sc-ranking-options" aria-label="计划支持的统计周期">
+        <strong>统计周期</strong><span>1 天</span><span class="is-active">3 天</span><span>7 天</span>
+      </div>
+      <div class="sc-ranking-options" aria-label="计划支持的排序方式">
+        <strong>排序</strong><span class="is-active">综合</span><span>使用率</span><span>胜率</span>
+      </div>
+    </div>
+
+    <div class="sc-ranking-empty">
+      <strong id="ranking-status">榜单数据准备中</strong>
+      <p>当前不展示模拟排名。官方接口采集、模式识别和样本偏差验证完成后，这里将显示所选模式排名前 20 至 30 的卡组。</p>
+    </div>
+  </section>
+
+  <aside class="sc-data-notice">
+    榜单上线后会同时标明统计周期、对战模式、样本量、更新时间和数据方法，避免把短期环境误读为长期推荐。
+  </aside>
+</div>
+{{ end }}

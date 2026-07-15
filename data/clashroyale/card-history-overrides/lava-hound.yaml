@@ -1,0 +1,35 @@
+source_url: https://clashroyale.fandom.com/wiki/Lava_Hound
+items:
+  - date: '2025-12-01'
+    type: nerf
+    summary: 熔岩幼犬生命值降低约 1%，11 级从 217 调整为 215，修正 16 级幼犬无法被同等级公主塔两次攻击击败的取整问题。
+  - date: '2025-03-31'
+    type: adjustment
+    summary: 熔岩猎犬伤害降低 1.85%；熔岩幼犬生命值提高 0.46%、伤害降低 3.57%，并修复受到皇家大厨强化后无法生成幼犬的问题。
+  - date: '2025-02-04'
+    type: nerf
+    summary: 熔岩幼犬伤害降低 7%。
+  - date: '2023-10-03'
+    type: nerf
+    summary: 熔岩猎犬生命值降低 6%。
+  - date: '2020-01-07'
+    type: adjustment
+    summary: 熔岩猎犬攻击距离从 2 格提高至 3.5 格并调整寻路；熔岩幼犬伤害提高 70%，攻击间隔从 1 秒延长至 1.7 秒，首次攻击间隔从 0.8 秒延长至 1 秒，攻击距离从 2 格缩短至 1.6 格。
+  - date: '2018-01-24'
+    type: buff
+    summary: 熔岩猎犬生命值提高 5%。
+  - date: '2017-06-12'
+    type: adjustment
+    summary: 熔岩猎犬碰撞半径从 0.5 格扩大至 0.75 格。
+  - date: '2016-11-30'
+    type: nerf
+    summary: 熔岩幼犬生命值降低 1%，修正同等级皇家塔无法两次攻击将其击败的取整问题。
+  - date: '2016-06-21'
+    type: buff
+    summary: 熔岩猎犬伤害提高 28%。
+  - date: '2016-05-18'
+    type: buff
+    summary: 熔岩猎犬生命值提高 3%，熔岩幼犬生命值提高 9%。
+  - date: '2016-05-03'
+    type: release
+    summary: 熔岩猎犬随 2016 年 5 月版本正式加入游戏。

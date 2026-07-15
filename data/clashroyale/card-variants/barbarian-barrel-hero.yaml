@@ -1,0 +1,58 @@
+key: barbarian-barrel-hero
+parent_key: barbarian-barrel
+kind: hero
+order: 3
+name: 精英野蛮人滚桶
+label: 精英
+url: /clashroyale/cards/barbarian-barrel/hero/
+image: images/clashroyale/cards/variants/barbarian-barrel-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Barbarian_Barrel/Hero
+source_retrieved_at: '2026-07-15'
+release_date: '2026-03-02'
+summary: 精英野蛮人滚桶可消耗一点圣水发动喧闹再滚，让滚桶沿路线再次滚动并造成伤害。
+facts:
+  - { label: 部署圣水, value: '2' }
+  - { label: 技能圣水, value: '1' }
+  - { label: 技能名称, value: 喧闹再滚 }
+  - { label: 基础卡牌, value: 野蛮人滚桶 }
+overview:
+  - 精英野蛮人滚桶保留普通滚桶的路线伤害和野蛮人部署，新增“喧闹再滚”技能。支付一点圣水后，滚桶会沿路线再滚动一次，用第二段范围伤害继续清理地面单位并延伸控制范围。
+  - 当前来源页仍在建设中，尚未公布独立技能冷却和额外倍率表；页面仅采用已确认的基础属性与技能费用，不对未公开数值作推测。第二次滚动仍只能命中地面目标，技能投入也会把整次使用成本提高到三点圣水。
+units:
+  - name: 精英野蛮人滚桶
+    kind: main
+    mechanics:
+      - { label: 滚动距离, value: 4.5 格 }
+      - { label: 滚动宽度, value: 2.6 格 }
+      - { label: 攻击目标, value: 地面 }
+      - { label: 技能圣水, value: '1' }
+      - { label: 技能效果, value: 沿路线再次滚动 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: area_damage, label: 单次范围伤害 }
+        - { key: barbarian_hitpoints, label: 野蛮人生命值 }
+        - { key: barbarian_damage, label: 野蛮人伤害 }
+        - { key: barbarian_damage_per_second, label: 野蛮人每秒伤害 }
+      rows:
+        - { level: '6', area_damage: '143', barbarian_hitpoints: '416', barbarian_damage: '119', barbarian_damage_per_second: '91' }
+        - { level: '7', area_damage: '157', barbarian_hitpoints: '458', barbarian_damage: '130', barbarian_damage_per_second: '100' }
+        - { level: '8', area_damage: '173', barbarian_hitpoints: '503', barbarian_damage: '144', barbarian_damage_per_second: '110' }
+        - { level: '9', area_damage: '190', barbarian_hitpoints: '554', barbarian_damage: '158', barbarian_damage_per_second: '121' }
+        - { level: '10', area_damage: '209', barbarian_hitpoints: '609', barbarian_damage: '174', barbarian_damage_per_second: '133' }
+        - { level: '11', area_damage: '230', barbarian_hitpoints: '670', barbarian_damage: '191', barbarian_damage_per_second: '146' }
+        - { level: '12', area_damage: '253', barbarian_hitpoints: '737', barbarian_damage: '210', barbarian_damage_per_second: '161' }
+        - { level: '13', area_damage: '278', barbarian_hitpoints: '811', barbarian_damage: '231', barbarian_damage_per_second: '177' }
+        - { level: '14', area_damage: '306', barbarian_hitpoints: '892', barbarian_damage: '254', barbarian_damage_per_second: '195' }
+        - { level: '15', area_damage: '337', barbarian_hitpoints: '981', barbarian_damage: '280', barbarian_damage_per_second: '215' }
+        - { level: '16', area_damage: '370', barbarian_hitpoints: '1079', barbarian_damage: '308', barbarian_damage_per_second: '236' }
+usage_tips:
+  - 第一次滚动未能清理完整路线时再发动技能，用第二段伤害处理后续进入路线的地面单位。
+  - 计算额外一点圣水是否能换来关键解场，不要为了重复滚动而让总费用失去优势。
+  - 利用第二次滚动延伸控制路线，为随后出现的野蛮人减少需要面对的小型单位。
+matchups:
+  - { title: 适合应对, text: 沿同一路线连续进入的地面人海和低生命值支援单位，第二次滚动可补充清场。 }
+  - { title: 需要提防, text: 空中单位不受滚桶影响，分散站位和高生命值单位也会降低额外一点圣水的收益。 }
+  - { title: 搭配思路, text: 与需要地面清路的推进单位配合，用两段滚动移除小型防守，再由野蛮人继续承接反击。 }
+balance_history:
+  - { date: '2026-03-02', type: hero, summary: 精英野蛮人滚桶正式上线，新增消耗一点圣水的喧闹再滚技能。 }

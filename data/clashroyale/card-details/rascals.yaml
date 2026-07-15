@@ -1,0 +1,246 @@
+---
+release_date: '2018-05-25'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 绿林小哥
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.5 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.4 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.8)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: rascal_boy_hitpoints
+      label: 生命值
+    - key: rascal_boy_damage
+      label: 伤害
+    - key: rascal_boy_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      rascal_boy_hitpoints: '748'
+      rascal_boy_damage: '79'
+      rascal_boy_damage_per_second: '52'
+    - level: '2'
+      rascal_boy_hitpoints: '823'
+      rascal_boy_damage: '87'
+      rascal_boy_damage_per_second: '58'
+    - level: '3'
+      rascal_boy_hitpoints: '905'
+      rascal_boy_damage: '95'
+      rascal_boy_damage_per_second: '63'
+    - level: '4'
+      rascal_boy_hitpoints: '996'
+      rascal_boy_damage: '105'
+      rascal_boy_damage_per_second: '70'
+    - level: '5'
+      rascal_boy_hitpoints: '1095'
+      rascal_boy_damage: '115'
+      rascal_boy_damage_per_second: '76'
+    - level: '6'
+      rascal_boy_hitpoints: '1205'
+      rascal_boy_damage: '127'
+      rascal_boy_damage_per_second: '84'
+    - level: '7'
+      rascal_boy_hitpoints: '1325'
+      rascal_boy_damage: '139'
+      rascal_boy_damage_per_second: '92'
+    - level: '8'
+      rascal_boy_hitpoints: '1458'
+      rascal_boy_damage: '153'
+      rascal_boy_damage_per_second: '102'
+    - level: '9'
+      rascal_boy_hitpoints: '1603'
+      rascal_boy_damage: '169'
+      rascal_boy_damage_per_second: '112'
+    - level: '10'
+      rascal_boy_hitpoints: '1764'
+      rascal_boy_damage: '185'
+      rascal_boy_damage_per_second: '123'
+    - level: '11'
+      rascal_boy_hitpoints: '1940'
+      rascal_boy_damage: '204'
+      rascal_boy_damage_per_second: '136'
+    - level: '12'
+      rascal_boy_hitpoints: '2134'
+      rascal_boy_damage: '224'
+      rascal_boy_damage_per_second: '149'
+    - level: '13'
+      rascal_boy_hitpoints: '2347'
+      rascal_boy_damage: '247'
+      rascal_boy_damage_per_second: '164'
+    - level: '14'
+      rascal_boy_hitpoints: '2582'
+      rascal_boy_damage: '272'
+      rascal_boy_damage_per_second: '181'
+    - level: '15'
+      rascal_boy_hitpoints: '2840'
+      rascal_boy_damage: '299'
+      rascal_boy_damage_per_second: '199'
+    - level: '16'
+      rascal_boy_hitpoints: '3124'
+      rascal_boy_damage: '329'
+      rascal_boy_damage_per_second: '219'
+  section_label: 前排单位
+  summary: 绿林小哥负责走在最前方吸收地面火力，并为身后的两名绿林小妹争取输出时间。
+- name: 绿林小妹
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: range
+    label: 攻击距离
+    value: '5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '800'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '2'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: rascal_girl_hitpoints
+      label: 生命值
+    - key: rascal_girl_damage
+      label: 伤害
+    - key: rascal_girl_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      rascal_girl_hitpoints: '101'
+      rascal_girl_damage: '48'
+      rascal_girl_damage_per_second: '48'
+    - level: '2'
+      rascal_girl_hitpoints: '111'
+      rascal_girl_damage: '53'
+      rascal_girl_damage_per_second: '53'
+    - level: '3'
+      rascal_girl_hitpoints: '122'
+      rascal_girl_damage: '58'
+      rascal_girl_damage_per_second: '58'
+    - level: '4'
+      rascal_girl_hitpoints: '134'
+      rascal_girl_damage: '64'
+      rascal_girl_damage_per_second: '64'
+    - level: '5'
+      rascal_girl_hitpoints: '147'
+      rascal_girl_damage: '71'
+      rascal_girl_damage_per_second: '71'
+    - level: '6'
+      rascal_girl_hitpoints: '162'
+      rascal_girl_damage: '78'
+      rascal_girl_damage_per_second: '78'
+    - level: '7'
+      rascal_girl_hitpoints: '178'
+      rascal_girl_damage: '85'
+      rascal_girl_damage_per_second: '85'
+    - level: '8'
+      rascal_girl_hitpoints: '196'
+      rascal_girl_damage: '94'
+      rascal_girl_damage_per_second: '94'
+    - level: '9'
+      rascal_girl_hitpoints: '216'
+      rascal_girl_damage: '103'
+      rascal_girl_damage_per_second: '103'
+    - level: '10'
+      rascal_girl_hitpoints: '237'
+      rascal_girl_damage: '114'
+      rascal_girl_damage_per_second: '114'
+    - level: '11'
+      rascal_girl_hitpoints: '261'
+      rascal_girl_damage: '125'
+      rascal_girl_damage_per_second: '125'
+    - level: '12'
+      rascal_girl_hitpoints: '287'
+      rascal_girl_damage: '138'
+      rascal_girl_damage_per_second: '138'
+    - level: '13'
+      rascal_girl_hitpoints: '316'
+      rascal_girl_damage: '151'
+      rascal_girl_damage_per_second: '151'
+    - level: '14'
+      rascal_girl_hitpoints: '347'
+      rascal_girl_damage: '166'
+      rascal_girl_damage_per_second: '166'
+    - level: '15'
+      rascal_girl_hitpoints: '382'
+      rascal_girl_damage: '183'
+      rascal_girl_damage_per_second: '183'
+    - level: '16'
+      rascal_girl_hitpoints: '420'
+      rascal_girl_damage: '201'
+      rascal_girl_damage_per_second: '201'
+  section_label: 后排单位
+  summary: 两名绿林小妹在后方使用弹弓攻击空中和地面目标，是整张卡牌的主要持续输出来源。
+balance_history:
+- date: '2025-07-08'
+  type: adjustment
+  summary: 绿林小哥伤害提高 54%，绿林小妹伤害降低 6%。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 调整部署队形，使三个单位根据竞技场所在一侧正确镜像排列。
+- date: '2023-04-04'
+  type: buff
+  summary: 绿林小哥生命值提高 6%，绿林小妹首次攻击间隔从 0.8 秒缩短至 0.5 秒，并扩大三个单位之间的部署距离。
+- date: '2021-12-07'
+  type: buff
+  summary: 绿林小妹攻击间隔从 1.1 秒缩短至 1 秒。
+- date: '2021-06-07'
+  type: buff
+  summary: 绿林小妹首次攻击间隔从 1 秒缩短至 0.8 秒。
+- date: '2020-06-02'
+  type: buff
+  summary: 三个单位依次出现的部署间隔从 0.15 秒缩短至 0.1 秒。
+- date: '2019-07-01'
+  type: nerf
+  summary: 绿林小哥攻击距离从 1 格缩短至 0.8 格，并归类为近战：短。
+- date: '2019-06-03'
+  type: nerf
+  summary: 绿林小哥攻击间隔从 1.3 秒延长至 1.5 秒，首次攻击间隔从 0.3 秒延长至 0.4 秒。
+- date: '2019-03-11'
+  type: adjustment
+  summary: 调整部署顺序，改为绿林小哥先于两名绿林小妹生成。
+- date: '2019-03-04'
+  type: adjustment
+  summary: 三个单位改为以 0.15 秒间隔依次部署。
+- date: '2018-07-02'
+  type: nerf
+  summary: 绿林小哥生命值降低 5.3%，绿林小妹首次攻击间隔从 0.4 秒延长至 1 秒。
+- date: '2018-05-25'
+  type: release
+  summary: 绿林团伙正式面向所有玩家加入游戏。

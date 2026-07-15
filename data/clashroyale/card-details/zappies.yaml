@@ -1,0 +1,141 @@
+---
+release_date: '2017-12-12'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 电击车小队
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 2.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.8 秒
+  - key: stun_duration
+    label: 眩晕持续时间
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '4.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '3'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      hitpoints: '247'
+      damage: '55'
+      damage_per_second: '26'
+    - level: '4'
+      hitpoints: '271'
+      damage: '60'
+      damage_per_second: '28'
+    - level: '5'
+      hitpoints: '299'
+      damage: '66'
+      damage_per_second: '31'
+    - level: '6'
+      hitpoints: '328'
+      damage: '73'
+      damage_per_second: '34'
+    - level: '7'
+      hitpoints: '361'
+      damage: '80'
+      damage_per_second: '38'
+    - level: '8'
+      hitpoints: '397'
+      damage: '88'
+      damage_per_second: '41'
+    - level: '9'
+      hitpoints: '437'
+      damage: '97'
+      damage_per_second: '46'
+    - level: '10'
+      hitpoints: '481'
+      damage: '106'
+      damage_per_second: '50'
+    - level: '11'
+      hitpoints: '529'
+      damage: '117'
+      damage_per_second: '55'
+    - level: '12'
+      hitpoints: '582'
+      damage: '129'
+      damage_per_second: '61'
+    - level: '13'
+      hitpoints: '640'
+      damage: '142'
+      damage_per_second: '67'
+    - level: '14'
+      hitpoints: '704'
+      damage: '156'
+      damage_per_second: '74'
+    - level: '15'
+      hitpoints: '775'
+      damage: '171'
+      damage_per_second: '81'
+    - level: '16'
+      hitpoints: '852'
+      damage: '188'
+      damage_per_second: '89'
+balance_history:
+- date: '2025-08-04'
+  type: buff
+  summary: 首次攻击间隔从 1.1 秒缩短至 0.8 秒。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 生命值降低约 0.18%，伤害提高约 0.86%。
+- date: '2022-10-26'
+  type: adjustment
+  summary: 解锁竞技场从电磁峡谷调整至野猪山脉。
+- date: '2021-11-01'
+  type: adjustment
+  summary: 修复超级骑士可能被电击车小队永久眩晕的问题。
+- date: '2021-03-30'
+  type: nerf
+  summary: 首次攻击间隔从 0.9 秒延长至 1.1 秒。
+- date: '2020-09-09'
+  type: buff
+  summary: 首次攻击间隔从 1.1 秒缩短至 0.9 秒。
+- date: '2020-07-07'
+  type: adjustment
+  summary: 伤害提高 14%，攻击间隔从 2 秒延长至 2.1 秒，首次攻击间隔从 1 秒延长至 1.1 秒。
+- date: '2020-06-02'
+  type: buff
+  summary: 三辆电击车的部署间隔从 0.15 秒缩短至 0.1 秒。
+- date: '2020-02-04'
+  type: adjustment
+  summary: 伤害提高 20%，攻击间隔从 1.6 秒延长至 2 秒，首次攻击间隔从 1.4 秒缩短至 1 秒，逐个部署间隔从 0.1 秒延长至 0.15 秒。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页面加入电击车立绘。
+- date: '2018-09-03'
+  type: adjustment
+  summary: 首次攻击间隔从 0.6 秒延长至 1.4 秒，攻击蓄力不再被眩晕重置。
+- date: '2018-01-24'
+  type: buff
+  summary: 攻击目标扩展为空中和地面单位。
+- date: '2017-12-12'
+  type: release
+  summary: 电击车小队正式加入游戏。

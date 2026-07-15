@@ -1,0 +1,100 @@
+key: furnace-evolution
+parent_key: furnace
+kind: evolution
+order: 2
+name: 觉醒烈焰熔炉
+label: 觉醒
+url: /clashroyale/cards/furnace/evolution/
+image: images/clashroyale/cards/variants/furnace-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Furnace/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436650
+release_date: '2025-08-04'
+summary: 觉醒烈焰熔炉在攻击状态下会把烈焰精灵生成间隔加快至二点四秒，并让精灵从两侧交替出现。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 火热生成间隔, value: 2.4 秒 }
+  - { label: 基础卡牌, value: 烈焰熔炉 }
+overview:
+  - 觉醒烈焰熔炉保留普通形态的本体属性和七秒常规生成，但在本体处于攻击状态时会进入火热生成，改为每二点四秒生成一只烈焰精灵。精灵从左右两侧交替出现，可以更快形成两路或错位压力。
+  - 火热生成依赖本体持续攻击，若被远程点杀、控制或没有目标可打，觉醒收益会明显下降。当前本体射程已缩短至五点五格，因此需要更谨慎地选择部署位置，让它尽快接敌又不至于暴露在前排。
+units:
+  - name: 觉醒烈焰熔炉
+    kind: main
+    section_label: 熔炉本体
+    summary: 本体可移动并攻击空地目标，进入战斗后会显著加快烈焰精灵的生成频率。
+    mechanics:
+      - { label: 攻击间隔, value: 1.8 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 部署时间, value: 1 秒 }
+      - { label: 常规生成间隔, value: 7 秒 }
+      - { label: 火热生成间隔, value: 2.4 秒 }
+      - { label: 攻击距离, value: 5.5 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '3', hitpoints: '339', damage: '84', damage_per_second: '46' }
+        - { level: '4', hitpoints: '373', damage: '92', damage_per_second: '51' }
+        - { level: '5', hitpoints: '410', damage: '101', damage_per_second: '56' }
+        - { level: '6', hitpoints: '451', damage: '111', damage_per_second: '61' }
+        - { level: '7', hitpoints: '497', damage: '122', damage_per_second: '67' }
+        - { level: '8', hitpoints: '546', damage: '134', damage_per_second: '74' }
+        - { level: '9', hitpoints: '601', damage: '148', damage_per_second: '82' }
+        - { level: '10', hitpoints: '661', damage: '163', damage_per_second: '90' }
+        - { level: '11', hitpoints: '727', damage: '179', damage_per_second: '99' }
+        - { level: '12', hitpoints: '800', damage: '197', damage_per_second: '109' }
+        - { level: '13', hitpoints: '880', damage: '217', damage_per_second: '120' }
+        - { level: '14', hitpoints: '968', damage: '238', damage_per_second: '132' }
+        - { level: '15', hitpoints: '1064', damage: '262', damage_per_second: '145' }
+        - { level: '16', hitpoints: '1171', damage: '288', damage_per_second: '160' }
+  - name: 烈焰精灵
+    kind: child
+    section_label: 生成单位
+    summary: 常规状态每七秒生成一只；本体攻击时每二点四秒从左右两侧交替生成。
+    mechanics:
+      - { label: 移动速度, value: 极快 (120) }
+      - { label: 攻击距离, value: 2.5 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 移动方式, value: 地面 }
+      - { label: 每次生成数量, value: '1' }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 范围伤害 }
+      rows:
+        - { level: '3', hitpoints: '107', area_damage: '97' }
+        - { level: '4', hitpoints: '118', area_damage: '106' }
+        - { level: '5', hitpoints: '130', area_damage: '117' }
+        - { level: '6', hitpoints: '143', area_damage: '129' }
+        - { level: '7', hitpoints: '157', area_damage: '141' }
+        - { level: '8', hitpoints: '173', area_damage: '156' }
+        - { level: '9', hitpoints: '190', area_damage: '171' }
+        - { level: '10', hitpoints: '209', area_damage: '188' }
+        - { level: '11', hitpoints: '230', area_damage: '207' }
+        - { level: '12', hitpoints: '253', area_damage: '228' }
+        - { level: '13', hitpoints: '278', area_damage: '250' }
+        - { level: '14', hitpoints: '306', area_damage: '276' }
+        - { level: '15', hitpoints: '337', area_damage: '303' }
+        - { level: '16', hitpoints: '370', area_damage: '333' }
+usage_tips:
+  - 尽量把本体部署在能够持续攻击的位置，火热生成只在交战时发挥作用；用前排或控制阻止对手快速接近熔炉。
+  - 左右交替生成可以扰乱单体防守，但精灵仍会寻找附近目标，不要只依赖生成方向保证另一侧塔伤。
+  - 面对高伤法术时与其他关键单位拉开距离，避免对手一张法术同时削弱熔炉和后排，使火热生成过早结束。
+  - 当前射程只有五点五格，部署太靠后可能迟迟无法启动火热生成；部署太靠前又容易被集火，需要根据敌军路线取中间位置。
+matchups:
+  - { title: 适合应对, text: '适合处理持续推进和需要多次响应的地面人海，本体一旦稳定攻击，快速生成会不断补充范围压力。' }
+  - { title: 需要提防, text: '远程高伤、快速突进、控制和法术都能缩短攻击窗口；没有可攻击目标时也无法触发高频生成。' }
+  - { title: 搭配思路, text: '与高生命值前排、减速控制和分路卡配合，保护本体持续开火，并让交替生成的精灵扩大场面压力。' }
+balance_history:
+  - { date: '2026-06-01', type: nerf, summary: 随基础卡牌调整，攻击距离从 6 格缩短至 5.5 格。 }
+  - { date: '2025-10-06', type: buff, summary: 随基础卡牌调整，移动速度从慢速提高至中等。 }
+  - { date: '2025-09-01', type: nerf, summary: 火热状态下的烈焰精灵生成间隔从 1.8 秒延长至 2.4 秒。 }
+  - { date: '2025-08-07', type: nerf, summary: '随基础卡牌调整，生命值降低 19%，常规生成间隔从 5 秒延长至 7 秒。' }
+  - { date: '2025-08-04', type: evolution, summary: 觉醒烈焰熔炉随熔炉部队化重做正式上线。 }

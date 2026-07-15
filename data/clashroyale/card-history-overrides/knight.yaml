@@ -1,0 +1,56 @@
+source_url: https://clashroyale.fandom.com/wiki/Knight
+items:
+- date: '2025-12-01'
+  type: hero
+  summary: 精英骑士正式上线，骑士获得精英形态和主动技能“凯旋嘲讽”。
+- date: '2023-08-07'
+  type: evolution
+  summary: 觉醒骑士正式上线，骑士获得觉醒形态。
+- date: '2023-08-04'
+  type: visual
+  summary: 更换骑士的卡牌图片。
+- date: '2023-02-07'
+  type: buff
+  summary: 生命值提高 3%。
+- date: '2022-10-26'
+  type: buff
+  summary: 生命值提高 3%。
+- date: '2021-03-30'
+  type: nerf
+  summary: 生命值降低 5%。
+- date: '2019-12-02'
+  type: buff
+  summary: 生命值提高 5%。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2019-07-01'
+  type: buff
+  summary: 攻击距离从 1 格提高至 1.2 格，并归类为中距离近战。
+- date: '2019-02-04'
+  type: buff
+  summary: 生命值提高 2.5%。
+- date: '2018-08-06'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2018-04-25'
+  type: buff
+  summary: 生命值提高 3%。
+- date: '2018-02-12'
+  type: nerf
+  summary: 生命值降低 6%。
+- date: '2017-12-12'
+  type: nerf
+  summary: 攻击间隔从 1.1 秒延长至 1.2 秒，首次攻击间隔从 0.4 秒延长至 0.5 秒。
+- date: '2016-05-18'
+  type: buff
+  summary: 生命值提高 10%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 1.5 格改为 1 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: visual
+  summary: 视野范围从 6 格缩小至 5.5 格，同时更换卡牌图片并移除肩部阵营配色。
+- date: '2016-01-04'
+  type: release
+  summary: 骑士随皇室战争上线加入游戏。

@@ -1,0 +1,14 @@
+source_url: https://clashroyale.fandom.com/wiki/Ram_Rider
+items:
+  - { date: '2026-07-06', type: buff, summary: '11 级生命值从 1697 提高至 1766。' }
+  - { date: '2025-10-06', type: nerf, summary: '触发冲锋所需距离从 2 格提高至 2.5 格。' }
+  - { date: '2025-03-31', type: adjustment, summary: '生命值因数值取整提高约 0.05%，冲锋伤害提高约 0.2%，并允许受到狂暴攻速影响。' }
+  - { date: '2025-01-08', type: nerf, summary: '生命值降低 4%。' }
+  - { date: '2024-11-14', type: nerf, summary: '普通伤害和冲锋伤害降低 6%。' }
+  - { date: '2024-07-02', type: nerf, summary: '触发冲锋所需距离从 1.5 格提高至 2 格。' }
+  - { date: '2024-06-17', type: buff, summary: '触发冲锋所需距离从 3 格缩短至 1.5 格。' }
+  - { date: '2022-08-02', type: buff, summary: '触发冲锋所需距离从 3.5 格缩短至 3 格。' }
+  - { date: '2022-04-04', type: nerf, summary: '套索移动减速从 85% 降至 70%。' }
+  - { date: '2019-05-17', type: visual, summary: '更换卡牌图片。' }
+  - { date: '2019-04-01', type: nerf, summary: '套索移动减速从完全停止调整为 85%。' }
+  - { date: '2018-12-24', type: release, summary: '蛮羊骑士正式加入游戏。' }

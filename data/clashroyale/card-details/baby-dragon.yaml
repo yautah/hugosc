@@ -1,0 +1,135 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 飞龙宝宝
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.5 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.3 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '3.5'
+  - key: splash_radius
+    label: 溅射半径
+    value: '1.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '500'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 空中
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '6'
+      hitpoints: '720'
+      area_damage: "?"
+      damage_per_second: "?"
+    - level: '7'
+      hitpoints: '792'
+      area_damage: "?"
+      damage_per_second: "?"
+    - level: '8'
+      hitpoints: '868'
+      area_damage: "?"
+      damage_per_second: "?"
+    - level: '9'
+      hitpoints: '954'
+      area_damage: "?"
+      damage_per_second: "?"
+    - level: '10'
+      hitpoints: '1048'
+      area_damage: "?"
+      damage_per_second: "?"
+    - level: '11'
+      hitpoints: '1152'
+      area_damage: '168'
+      damage_per_second: '112'
+    - level: '12'
+      hitpoints: '1264'
+      area_damage: '185'
+      damage_per_second: '123'
+    - level: '13'
+      hitpoints: '1390'
+      area_damage: '203'
+      damage_per_second: '135'
+    - level: '14'
+      hitpoints: '1525'
+      area_damage: "?"
+      damage_per_second: "?"
+    - level: '15'
+      hitpoints: '1674'
+      area_damage: "?"
+      damage_per_second: "?"
+    - level: '16'
+      hitpoints: '1840'
+      area_damage: '269'
+      damage_per_second: '179'
+balance_history:
+- date: '2025-09-01'
+  type: evolution
+  summary: 觉醒飞龙宝宝正式加入游戏。
+- date: '2025-03-31'
+  type: buff
+  summary: 伤害提高约 0.62%。
+- date: '2025-01-08'
+  type: buff
+  summary: 攻击溅射半径从 1.2 格提高至 1.5 格。
+- date: '2022-10-26'
+  type: adjustment
+  summary: 解锁竞技场调整至皮卡超人乐园。
+- date: '2020-07-30'
+  type: visual
+  summary: 更换飞龙宝宝卡牌立绘。
+- date: '2020-05-05'
+  type: nerf
+  summary: 生命值降低 6.5%。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页面加入飞龙宝宝立绘。
+- date: '2019-11-04'
+  type: nerf
+  summary: 生命值降低 4%。
+- date: '2018-08-06'
+  type: adjustment
+  summary: 攻击间隔从 1.6 秒缩短至 1.5 秒，同时允许被击退。
+- date: '2017-02-13'
+  type: buff
+  summary: 攻击距离从 3 格提高至 3.5 格。
+- date: '2016-08-24'
+  type: buff
+  summary: 攻击间隔从 1.8 秒缩短至 1.6 秒，首次攻击间隔从 0.5 秒缩短至 0.3 秒。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复射程计算问题，面板距离从 3.5 格调整为 3 格，但实际有效距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 目标在攻击动画中被消灭时不再中止攻击，视野距离从 6 格缩短至 5.5 格。
+- date: '2016-01-04'
+  type: release
+  summary: 飞龙宝宝随游戏上线。

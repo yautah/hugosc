@@ -1,0 +1,71 @@
+key: ice-golem-hero
+parent_key: ice-golem
+kind: hero
+order: 3
+name: 英雄戈仑冰人
+label: 英雄
+url: /clashroyale/cards/ice-golem/hero/
+image: images/clashroyale/cards/variants/ice-golem-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Ice_Golem/Hero
+source_retrieved_at: '2026-07-15'
+source_revision: 436645
+release_date: '2026-01-05'
+summary: 英雄戈仑冰人可消耗两费召唤暴风雪，以三次脉冲伤害并减速四格内空地单位，完整承受后还会被冻结一点五秒。
+facts:
+  - { label: 部署圣水, value: '2' }
+  - { label: 技能圣水, value: '2' }
+  - { label: 技能半径, value: 4 格 }
+  - { label: 基础卡牌, value: 戈仑冰人 }
+overview:
+  - 英雄戈仑冰人保留低费建筑目标肉盾和死亡冰爆，主动技能“暴风雪”在一秒准备后产生三次范围脉冲。每次脉冲都会伤害并减速四格内的空中和地面单位，连续承受三次后再被冻结一点五秒。
+  - 该技能适合把廉价拉扯升级为范围控制，但部署加技能共需四费。2026 年 4 月移除击退后，暴风雪不能再靠推动改变单位路线，主要价值集中在减速、冻结和为后排争取输出时间。
+units:
+  - name: 英雄戈仑冰人
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 2.5 秒 }
+      - { label: 首次攻击间隔, value: 1.5 秒 }
+      - { label: 攻击距离, value: 近战：中 (1.2) }
+      - { label: 攻击目标, value: 建筑 }
+      - { label: 暴风雪半径, value: 4 格 }
+      - { label: 暴风雪脉冲, value: 3 次 }
+      - { label: 减速幅度, value: 30% }
+      - { label: 减速持续, value: 2 秒 }
+      - { label: 冻结持续, value: 1.5 秒 }
+      - { label: 技能冷却, value: 17 秒 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: death_damage, label: 死亡伤害 }
+        - { key: pulse_damage, label: 每次脉冲伤害 }
+      rows:
+        - { level: '3', hitpoints: '613', damage: '39', damage_per_second: '15', death_damage: '39', pulse_damage: '39' }
+        - { level: '4', hitpoints: '675', damage: '43', damage_per_second: '17', death_damage: '43', pulse_damage: '43' }
+        - { level: '5', hitpoints: '742', damage: '47', damage_per_second: '18', death_damage: '47', pulse_damage: '47' }
+        - { level: '6', hitpoints: '817', damage: '52', damage_per_second: '20', death_damage: '52', pulse_damage: '52' }
+        - { level: '7', hitpoints: '898', damage: '57', damage_per_second: '22', death_damage: '57', pulse_damage: '57' }
+        - { level: '8', hitpoints: '988', damage: '63', damage_per_second: '25', death_damage: '63', pulse_damage: '63' }
+        - { level: '9', hitpoints: '1087', damage: '69', damage_per_second: '27', death_damage: '69', pulse_damage: '69' }
+        - { level: '10', hitpoints: '1195', damage: '76', damage_per_second: '30', death_damage: '76', pulse_damage: '76' }
+        - { level: '11', hitpoints: '1315', damage: '84', damage_per_second: '33', death_damage: '84', pulse_damage: '84' }
+        - { level: '12', hitpoints: '1447', damage: '92', damage_per_second: '36', death_damage: '92', pulse_damage: '92' }
+        - { level: '13', hitpoints: '1591', damage: '102', damage_per_second: '40', death_damage: '102', pulse_damage: '102' }
+        - { level: '14', hitpoints: '1750', damage: '112', damage_per_second: '44', death_damage: '112', pulse_damage: '112' }
+        - { level: '15', hitpoints: '1925', damage: '123', damage_per_second: '49', death_damage: '123', pulse_damage: '123' }
+        - { level: '16', hitpoints: '2118', damage: '135', damage_per_second: '54', death_damage: '135', pulse_damage: '135' }
+usage_tips:
+  - 先用冰人吸引敌军聚集，再在多个目标进入四格半径后开启技能，确保三次脉冲都能覆盖关键单位。
+  - 与野猪骑士等快速建筑目标单位进攻时，可在接塔附近冻结防守，为主攻单位增加输出窗口。
+  - 技能需要额外两费，不要在普通冰人的拉扯已经足够时开启；保留圣水往往比少量脉冲伤害更重要。
+  - 暴风雪已经没有击退，不能依靠它把单位推离皇家塔或改变路线，应提前用部署位置完成实际拉扯。
+matchups:
+  - { title: 适合应对, text: '适合密集推进、攻击频率高的单位和需要争取输出时间的关键防守，完整三次脉冲可追加冻结。' }
+  - { title: 需要提防, text: '远程分散站位和快速离开范围的单位会减少脉冲覆盖，爆发伤害也可能在技能完成前击败冰人。' }
+  - { title: 搭配思路, text: '与野猪骑士、气球兵和远程范围输出搭配，用减速与冻结延长主攻单位或后排的攻击窗口。' }
+balance_history:
+  - { date: '2026-04-06', type: nerf, summary: 暴风雪移除击退效果。 }
+  - { date: '2026-03-02', type: nerf, summary: 完整承受暴风雪后的冻结持续时间从 2 秒缩短至 1.5 秒。 }
+  - { date: '2026-01-05', type: hero, summary: 英雄戈仑冰人正式上线。 }

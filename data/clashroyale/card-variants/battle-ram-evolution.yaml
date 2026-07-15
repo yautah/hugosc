@@ -1,0 +1,104 @@
+key: battle-ram-evolution
+parent_key: battle-ram
+kind: evolution
+order: 2
+name: 觉醒野蛮人攻城槌
+label: 觉醒
+url: /clashroyale/cards/battle-ram/evolution/
+image: images/clashroyale/cards/variants/battle-ram-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Battle_Ram/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436533
+release_date: '2024-04-01'
+summary: 觉醒野蛮人攻城槌在冲锋途中会伤害并击退可被推动的地面单位，撞上建筑后还会弹回并重新发起冲锋。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 冲锋距离, value: 3 格 }
+  - { label: 基础卡牌, value: 野蛮人攻城槌 }
+overview:
+  - 觉醒攻城槌的主体属性与普通形态一致，但冲锋路径会对沿途地面单位造成伤害和击退。撞上建筑后它不会立即停止，而是向后弹开并尝试再次冲锋，若未及时处理便可能连续命中同一目标。
+  - 攻城槌被摧毁后会生成两名觉醒野蛮人。它仍然无法攻击空中单位，眩晕和击退也能重置冲锋；重型单位不会被路径击退，适合用来稳定截停。
+units:
+  - name: 觉醒攻城槌
+    kind: main
+    section_label: 攻城槌
+    summary: 冲锋会伤害沿途地面单位并将可推动目标击退，命中建筑后弹回并继续寻找冲锋机会。
+    mechanics:
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 冲锋速度, value: 极快 (120) }
+      - { label: 冲锋距离, value: 3 格 }
+      - { label: 攻击距离, value: 近战：短 (0.5) }
+      - { label: 攻击目标, value: 建筑 }
+      - { label: 路径伤害目标, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: charge_damage, label: 冲锋伤害 }
+        - { key: push_damage, label: 路径伤害 }
+      rows:
+        - { level: '3', hitpoints: '451', damage: '133', charge_damage: '267', push_damage: '99' }
+        - { level: '4', hitpoints: '496', damage: '147', charge_damage: '294', push_damage: '109' }
+        - { level: '5', hitpoints: '546', damage: '161', charge_damage: '323', push_damage: '120' }
+        - { level: '6', hitpoints: '600', damage: '178', charge_damage: '356', push_damage: '132' }
+        - { level: '7', hitpoints: '660', damage: '195', charge_damage: '391', push_damage: '145' }
+        - { level: '8', hitpoints: '727', damage: '215', charge_damage: '431', push_damage: '159' }
+        - { level: '9', hitpoints: '799', damage: '236', charge_damage: '474', push_damage: '175' }
+        - { level: '10', hitpoints: '879', damage: '260', charge_damage: '521', push_damage: '193' }
+        - { level: '11', hitpoints: '967', damage: '286', charge_damage: '573', push_damage: '212' }
+        - { level: '12', hitpoints: '1064', damage: '315', charge_damage: '630', push_damage: '233' }
+        - { level: '13', hitpoints: '1170', damage: '346', charge_damage: '693', push_damage: '257' }
+        - { level: '14', hitpoints: '1287', damage: '381', charge_damage: '763', push_damage: '282' }
+        - { level: '15', hitpoints: '1416', damage: '419', charge_damage: '839', push_damage: '310' }
+        - { level: '16', hitpoints: '1557', damage: '461', charge_damage: '923', push_damage: '341' }
+  - name: 觉醒野蛮人
+    kind: child
+    section_label: 破坏后单位
+    summary: 攻城槌破坏后生成两名觉醒野蛮人，每次命中会短暂提高攻击和移动速度。
+    mechanics:
+      - { label: 攻击间隔, value: 1.4 秒 }
+      - { label: 狂暴攻击间隔, value: 约 1.08 秒 }
+      - { label: 强化持续, value: 3 秒 }
+      - { label: 强化幅度, value: 30% }
+      - { label: 单位数量, value: '2' }
+      - { label: 攻击目标, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: boosted_damage_per_second, label: 强化每秒伤害 }
+      rows:
+        - { level: '3', hitpoints: '355', damage: '90', damage_per_second: '64', boosted_damage_per_second: '83' }
+        - { level: '4', hitpoints: '390', damage: '99', damage_per_second: '70', boosted_damage_per_second: '91' }
+        - { level: '5', hitpoints: '429', damage: '108', damage_per_second: '77', boosted_damage_per_second: '100' }
+        - { level: '6', hitpoints: '472', damage: '119', damage_per_second: '85', boosted_damage_per_second: '110' }
+        - { level: '7', hitpoints: '519', damage: '131', damage_per_second: '93', boosted_damage_per_second: '121' }
+        - { level: '8', hitpoints: '571', damage: '144', damage_per_second: '102', boosted_damage_per_second: '133' }
+        - { level: '9', hitpoints: '628', damage: '159', damage_per_second: '113', boosted_damage_per_second: '147' }
+        - { level: '10', hitpoints: '691', damage: '175', damage_per_second: '125', boosted_damage_per_second: '162' }
+        - { level: '11', hitpoints: '760', damage: '192', damage_per_second: '137', boosted_damage_per_second: '178' }
+        - { level: '12', hitpoints: '836', damage: '211', damage_per_second: '150', boosted_damage_per_second: '195' }
+        - { level: '13', hitpoints: '920', damage: '232', damage_per_second: '165', boosted_damage_per_second: '215' }
+        - { level: '14', hitpoints: '1012', damage: '256', damage_per_second: '182', boosted_damage_per_second: '237' }
+        - { level: '15', hitpoints: '1113', damage: '281', damage_per_second: '200', boosted_damage_per_second: '260' }
+        - { level: '16', hitpoints: '1224', damage: '309', damage_per_second: '220', boosted_damage_per_second: '286' }
+usage_tips:
+  - 不要把它当作普通攻城槌直接送入人海；等待开始冲锋后，路径伤害才能清理轻型地面防守并保护后续野蛮人。
+  - 对建筑形成第一次撞击后，利用法术或其他单位延长存活时间，弹回后的第二次冲锋往往是主要收益来源。
+  - 眩晕与击退会重置冲锋，面对电击法术或滚木时可先用其他单位逼出手段，再部署觉醒攻城槌。
+  - 空中单位不会受到路径伤害，应准备远程防空或法术，避免低费空军稳定拆掉整次进攻。
+matchups:
+  - { title: 适合应对, text: '适合突破轻型地面人海和缺少重型拦截的建筑防线，连续撞击会对固定建筑形成很高压力。' }
+  - { title: 需要提防, text: '空中单位、眩晕、持续击退和不受击退的重型部队都能限制冲锋；保龄球尤其能反复打断它。' }
+  - { title: 搭配思路, text: '与皮卡超人和桥头进攻单位共同施压，并用地震或毒药处理建筑及周围防守，可提高连续撞击概率。' }
+balance_history:
+  - { date: '2026-03-02', type: adjustment, summary: '生成的觉醒野蛮人随基础单位调整：生命值提高 3%，攻击间隔从 1.3 秒延长至 1.4 秒。' }
+  - { date: '2025-10-06', type: nerf, summary: 觉醒野蛮人的速度强化幅度从 35% 降低至 30%。 }
+  - { date: '2025-03-31', type: adjustment, summary: '攻城槌生命值提高 0.1%，冲锋伤害提高 0.17%；同时修复受皇家大厨强化后不生成野蛮人的问题。' }
+  - { date: '2024-10-02', type: adjustment, summary: 修复部分大型单位受到路径击退时不承受伤害的问题。 }
+  - { date: '2024-05-14', type: adjustment, summary: '觉醒野蛮人强化持续时间从 2 秒延长至 3 秒，额外生命值从 25% 降至 10%；攻城槌不再击退重型单位。' }
+  - { date: '2024-04-01', type: evolution, summary: 觉醒野蛮人攻城槌正式上线。 }

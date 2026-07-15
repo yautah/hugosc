@@ -1,0 +1,12 @@
+source_url: https://clashroyale.fandom.com/wiki/Archer_Queen
+items:
+  - { date: '2025-01-08', type: nerf, summary: '隐身斗篷技能冷却从 15 秒延长至 17 秒。' }
+  - { date: '2024-01-03', type: buff, summary: '隐身斗篷持续时间从 3 秒延长至 3.5 秒。' }
+  - { date: '2023-02-07', type: nerf, summary: '首次攻击间隔从 0.1 秒延长至 0.3 秒。' }
+  - { date: '2022-04-08', type: adjustment, summary: '修复隐身状态下无法受到溅射伤害的问题。' }
+  - { date: '2022-04-04', type: nerf, summary: '隐身斗篷攻击速度强化从 200% 降至 180%。' }
+  - { date: '2022-02-03', type: adjustment, summary: '隐身斗篷生效时移动速度降为慢速。' }
+  - { date: '2021-11-15', type: adjustment, summary: '超级骑士在弓箭女皇于跃击期间开启隐身时仍可造成伤害。' }
+  - { date: '2021-11-04', type: nerf, summary: '技能冷却从 11 秒延长至 15 秒，持续时间从 3.5 秒缩短至 3 秒。' }
+  - { date: '2021-11-01', type: adjustment, summary: '修复多项隐身交互问题。' }
+  - { date: '2021-10-27', type: release, summary: '弓箭女皇作为首批英雄卡牌之一正式加入游戏。' }

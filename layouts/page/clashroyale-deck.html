@@ -1,0 +1,60 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-clash-data.css" }}{{ $css := . | fingerprint }}<link rel="stylesheet" href="{{ $css.RelPermalink }}">{{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{- $deck := index (where site.Data.clashroyale.decks.items "id" .Params.deck_id) 0 -}}
+{{- $cards := site.Data.clashroyale.cards.items -}}
+<div class="sc-data-page sc-data-detail">
+  <nav class="sc-data-breadcrumb" aria-label="面包屑"><a href="/clashroyale/">皇室战争</a><span>/</span><a href="/clashroyale/decks/">卡组榜单</a><span>/</span><span aria-current="page">{{ $deck.name }}</span></nav>
+  <header class="sc-deck-detail-hero">
+    <div>
+      <p class="sc-detail-kicker">经典卡组 · 编辑样例</p>
+      <h1>{{ $deck.name }}</h1>
+      <p class="sc-detail-lead">{{ $deck.summary }}</p>
+      <div class="sc-data-tags">{{ range $deck.modes }}<span>{{ . }}</span>{{ end }}</div>
+    </div>
+    <dl class="sc-deck-numbers sc-deck-detail-numbers">
+      <div><dt>平均圣水</dt><dd>{{ $deck.average_elixir }}</dd></div>
+      <div><dt>四卡循环</dt><dd>{{ $deck.cycle_elixir }}</dd></div>
+    </dl>
+  </header>
+  <section class="sc-detail-section sc-deck-composition">
+    <div class="sc-detail-section-head">
+      <h2>卡组组成</h2>
+      <button class="sc-copy-button" type="button" data-copy-deck>复制卡组清单</button>
+    </div>
+    <div class="sc-deck-cards sc-deck-cards-large" data-deck-name="{{ $deck.name }}">
+      {{ range $deck.cards }}
+        {{ $cardKey := . }}
+        {{ with index (where $cards "key" $cardKey) 0 }}
+          {{ $cardName := .name }}
+          <a class="sc-deck-card-slot" href="{{ default (printf "/clashroyale/cards/#%s" .key) .detail_url }}" data-card-name="{{ .name }}">
+            {{ with resources.Get .image }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $cardName }}卡牌图片">{{ end }}
+            <span>{{ .name }}</span>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  <div class="sc-detail-grid">
+    <article class="sc-detail-section">
+      <h2>核心思路</h2>
+      <p>这套卡组依靠低费单位完成防守，再通过快速过牌让野猪骑士比对手的关键建筑或防守卡更早回到手中。重点不是每次进攻都造成大量伤害，而是持续获得小幅优势。</p>
+      <h2>对局节奏</h2>
+      <p>单倍圣水阶段先确认对方的建筑和主要反制手段；双倍圣水后再提高野猪骑士的出场频率。火枪手通常承担关键对空任务，不应为了轻微进攻收益随意交出。</p>
+    </article>
+    <aside class="sc-detail-aside">
+      <h2>优势</h2>
+      <ul>{{ range $deck.strengths }}<li>{{ . }}</li>{{ end }}</ul>
+      <h2>注意事项</h2>
+      <ul>{{ range $deck.weaknesses }}<li>{{ . }}</li>{{ end }}</ul>
+    </aside>
+  </div>
+  <aside class="sc-data-notice">本页是数据结构与详情模板样例，不表示该卡组在当前赛季的实时排名。</aside>
+  {{ with resources.Get "js/scbase-clash-data.js" }}
+    {{ $js := . | minify | fingerprint }}
+    <script src="{{ $js.RelPermalink }}" defer></script>
+  {{ end }}
+</div>
+{{ end }}

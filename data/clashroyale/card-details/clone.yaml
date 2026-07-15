@@ -1,0 +1,140 @@
+---
+release_date: '2016-12-09'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 克隆法术
+  kind: main
+  mechanics:
+  - key: clone_hitpoints
+    label: 克隆单位生命值
+    value: '1'
+  - key: clone_shield_hitpoints
+    label: 克隆单位护盾生命值
+    value: '1'
+  - key: radius
+    label: 作用半径
+    value: '3'
+  - key: target
+    label: 攻击目标
+    value: 友方部队
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: cloned_common_level
+      label: 克隆后的普通等级
+    - key: cloned_rare_level
+      label: 克隆后的稀有等级
+    - key: cloned_epic_level
+      label: 克隆后的史诗等级
+    - key: cloned_legendary_level
+      label: 克隆后的传奇等级
+    - key: cloned_champion_level
+      label: 克隆后的英雄等级
+    rows:
+    - level: '6'
+      cloned_common_level: '6'
+      cloned_rare_level: '6'
+      cloned_epic_level: '6'
+      cloned_legendary_level: '9'
+      cloned_champion_level: '11'
+    - level: '7'
+      cloned_common_level: '7'
+      cloned_rare_level: '7'
+      cloned_epic_level: '7'
+      cloned_legendary_level: '9'
+      cloned_champion_level: '11'
+    - level: '8'
+      cloned_common_level: '8'
+      cloned_rare_level: '8'
+      cloned_epic_level: '8'
+      cloned_legendary_level: '9'
+      cloned_champion_level: '11'
+    - level: '9'
+      cloned_common_level: '9'
+      cloned_rare_level: '9'
+      cloned_epic_level: '9'
+      cloned_legendary_level: '9'
+      cloned_champion_level: '11'
+    - level: '10'
+      cloned_common_level: '10'
+      cloned_rare_level: '10'
+      cloned_epic_level: '10'
+      cloned_legendary_level: '10'
+      cloned_champion_level: '11'
+    - level: '11'
+      cloned_common_level: '11'
+      cloned_rare_level: '11'
+      cloned_epic_level: '11'
+      cloned_legendary_level: '11'
+      cloned_champion_level: '11'
+    - level: '12'
+      cloned_common_level: '12'
+      cloned_rare_level: '12'
+      cloned_epic_level: '12'
+      cloned_legendary_level: '12'
+      cloned_champion_level: '12'
+    - level: '13'
+      cloned_common_level: '13'
+      cloned_rare_level: '13'
+      cloned_epic_level: '13'
+      cloned_legendary_level: '13'
+      cloned_champion_level: '13'
+    - level: '14'
+      cloned_common_level: '14'
+      cloned_rare_level: '14'
+      cloned_epic_level: '14'
+      cloned_legendary_level: '14'
+      cloned_champion_level: '14'
+    - level: '15'
+      cloned_common_level: '15'
+      cloned_rare_level: '15'
+      cloned_epic_level: '15'
+      cloned_legendary_level: '15'
+      cloned_champion_level: '15'
+balance_history:
+- date: '2025-04-01'
+  type: adjustment
+  summary: 修复卡牌信息页面显示错误卡牌等级的问题。
+- date: '2023-11-13'
+  type: adjustment
+  summary: 修复生成期间使用克隆会推移单位、重复生成专属护卫以及哥布林巨人投矛手显示异常等问题。
+- date: '2022-03-30'
+  type: visual
+  summary: 卡牌信息页面加入克隆法术形象。
+- date: '2021-11-01'
+  type: adjustment
+  summary: 修复克隆单位阵亡后生成的单位不是克隆体的问题。
+- date: '2021-10-27'
+  type: adjustment
+  summary: 修复克隆法术与哥布林钻机的异常交互。
+- date: '2020-09-10'
+  type: adjustment
+  summary: 修复克隆骷髅气球无法正常运作的问题。
+- date: '2020-08-31'
+  type: nerf
+  summary: 克隆单位不再能够被治疗。
+- date: '2019-04-15'
+  type: nerf
+  summary: 作用半径从 4 格缩短至 3 格。
+- date: '2019-01-28'
+  type: adjustment
+  summary: 克隆单位改为生成在原单位后方，而不是右侧。
+- date: '2018-10-01'
+  type: adjustment
+  summary: 修复母单位阵亡后生成的单位无法被克隆的问题。
+- date: '2018-06-20'
+  type: buff
+  summary: 作用半径从 3 格提高至 4 格。
+- date: '2018-04-25'
+  type: adjustment
+  summary: 允许直接在河道区域施放。
+- date: '2017-06-12'
+  type: buff
+  summary: 克隆生成时间从 0.8 秒缩短至 0.5 秒。
+- date: '2017-03-13'
+  type: adjustment
+  summary: 不再重置原单位的冲锋状态，但克隆体生成时仍需重新蓄力。
+- date: '2016-12-09'
+  type: release
+  summary: 克隆法术正式加入游戏。

@@ -1,0 +1,148 @@
+---
+release_date: '2020-04-02'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 治疗精灵
+  kind: main
+  mechanics:
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '2.5'
+  - key: splash_radius
+    label: 溅射半径
+    value: '1.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: heal_speed
+    label: 治疗效果·治疗间隔
+    value: 4 次脉冲，每次间隔 1 秒
+  - key: time_between_pulses
+    label: 治疗效果·治疗脉冲间隔
+    value: 0.25 秒
+  - key: radius
+    label: 治疗效果·作用半径
+    value: '2.5'
+  - key: target
+    label: 治疗效果·攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: healing_per_pulse
+      label: 每次治疗量
+    - key: healing_per_second
+      label: 每秒治疗量
+    rows:
+    - level: '3'
+      hitpoints: '107'
+      area_damage: '51'
+      healing_per_pulse: '47'
+      healing_per_second: '188'
+    - level: '4'
+      hitpoints: '118'
+      area_damage: '56'
+      healing_per_pulse: '51'
+      healing_per_second: '204'
+    - level: '5'
+      hitpoints: '130'
+      area_damage: '62'
+      healing_per_pulse: '57'
+      healing_per_second: '228'
+    - level: '6'
+      hitpoints: '143'
+      area_damage: '68'
+      healing_per_pulse: '62'
+      healing_per_second: '248'
+    - level: '7'
+      hitpoints: '157'
+      area_damage: '75'
+      healing_per_pulse: '68'
+      healing_per_second: '272'
+    - level: '8'
+      hitpoints: '173'
+      area_damage: '83'
+      healing_per_pulse: '75'
+      healing_per_second: '300'
+    - level: '9'
+      hitpoints: '190'
+      area_damage: '91'
+      healing_per_pulse: '83'
+      healing_per_second: '332'
+    - level: '10'
+      hitpoints: '209'
+      area_damage: '100'
+      healing_per_pulse: '91'
+      healing_per_second: '364'
+    - level: '11'
+      hitpoints: '230'
+      area_damage: '110'
+      healing_per_pulse: '100.25'
+      healing_per_second: '401'
+    - level: '12'
+      hitpoints: '253'
+      area_damage: '121'
+      healing_per_pulse: '110'
+      healing_per_second: '440'
+    - level: '13'
+      hitpoints: '278'
+      area_damage: '133'
+      healing_per_pulse: '121'
+      healing_per_second: '484'
+    - level: '14'
+      hitpoints: '306'
+      area_damage: '146'
+      healing_per_pulse: '133'
+      healing_per_second: '532'
+    - level: '15'
+      hitpoints: '337'
+      area_damage: '161'
+      healing_per_pulse: '147'
+      healing_per_second: '588'
+    - level: '16'
+      hitpoints: '370'
+      area_damage: '177'
+      healing_per_pulse: '161'
+      healing_per_second: '644'
+balance_history:
+- date: '2025-03-31'
+  type: adjustment
+  summary: 生命值降低约 0.43%，治疗量提高约 0.25%。
+- date: '2022-12-12'
+  type: adjustment
+  summary: 治疗精灵的跳跃投射不再能够被反射。
+- date: '2021-06-07'
+  type: adjustment
+  summary: 解锁竞技场从野猪山脉调整至淘气岭，并修复卡牌信息中被错误归类为法术的问题。
+- date: '2021-03-30'
+  type: adjustment
+  summary: 伤害提高 225%，治疗半径从 3.5 格缩小至 2.5 格。
+- date: '2020-12-09'
+  type: nerf
+  summary: 伤害降低 69%。
+- date: '2020-10-06'
+  type: nerf
+  summary: 治疗效果降低 9%。
+- date: '2020-09-09'
+  type: nerf
+  summary: 治疗半径从 4 格缩小至 3.5 格。
+- date: '2020-08-31'
+  type: adjustment
+  summary: 卡牌信息页加入伤害、治疗、射程和目标数据，克隆单位不再能够被治疗精灵恢复生命。
+- date: '2020-04-02'
+  type: release
+  summary: 治疗精灵取代治疗法术并正式加入游戏。

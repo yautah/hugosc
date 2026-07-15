@@ -1,0 +1,9 @@
+source_url: https://clashroyale.fandom.com/wiki/Royal_Delivery
+items:
+  - { date: '2024-05-14', type: buff, summary: '生成的皇家卫兵生命值提高 3%。' }
+  - { date: '2020-08-31', type: visual, summary: '卡牌信息页面加入皇家卫兵属性，并调整星级视觉效果。' }
+  - { date: '2020-08-04', type: adjustment, summary: '生成的皇家卫兵伤害提高 8%，皇家速递移除击退效果。' }
+  - { date: '2020-06-01', type: nerf, summary: '落地伤害降低 10%。' }
+  - { date: '2020-05-05', type: buff, summary: '落地伤害提高 27%。' }
+  - { date: '2020-04-06', type: release, summary: '皇家速递正式向所有玩家开放。' }
+  - { date: '2020-03-02', type: adjustment, summary: '皇家速递提前通过奖杯之路和特别挑战提供。' }

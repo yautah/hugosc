@@ -1,0 +1,111 @@
+---
+release_date: '2016-02-29'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 公主
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 3 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.3 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1.2 秒
+  - key: range
+    label: 攻击距离
+    value: '9'
+  - key: splash_radius
+    label: 溅射半径
+    value: '2'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '600'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      hitpoints: '216'
+      area_damage: '139'
+      damage_per_second: '46'
+    - level: '10'
+      hitpoints: '237'
+      area_damage: '153'
+      damage_per_second: '51'
+    - level: '11'
+      hitpoints: '261'
+      area_damage: '168'
+      damage_per_second: '56'
+    - level: '12'
+      hitpoints: '286'
+      area_damage: '185'
+      damage_per_second: '61'
+    - level: '13'
+      hitpoints: '315'
+      area_damage: '203'
+      damage_per_second: '67'
+    - level: '14'
+      hitpoints: '345'
+      area_damage: '223'
+      damage_per_second: '74'
+    - level: '15'
+      hitpoints: '379'
+      area_damage: '245'
+      damage_per_second: '81'
+    - level: '16'
+      hitpoints: '417'
+      area_damage: '269'
+      damage_per_second: '89'
+balance_history:
+- date: '2026-06-01'
+  type: evolution
+  summary: 觉醒公主正式上线。
+- date: '2025-03-31'
+  type: nerf
+  summary: 伤害因数值取整降低约 0.59%。
+- date: '2025-03-04'
+  type: adjustment
+  summary: 部署时间从 1 秒延长至 1.2 秒，首次攻击间隔从 0.5 秒缩短至 0.3 秒。
+- date: '2020-04-07'
+  type: visual
+  summary: 卡牌信息页加入角色立绘。
+- date: '2019-05-06'
+  type: buff
+  summary: 投射物速度从 450 提高至 600。
+- date: '2016-08-29'
+  type: buff
+  summary: 投射物速度从 400 提高至 450。
+- date: '2016-08-24'
+  type: nerf
+  summary: 范围伤害半径从 2.5 格缩小至 2 格。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复射程问题，显示射程从 9.5 格调整为 9 格，实际有效射程不变。
+- date: '2016-03-23'
+  type: nerf
+  summary: 生命值降低 10%。
+- date: '2016-02-29'
+  type: release
+  summary: 公主正式加入游戏。

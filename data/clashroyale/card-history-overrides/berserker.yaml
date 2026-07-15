@@ -1,0 +1,6 @@
+source_url: https://clashroyale.fandom.com/wiki/Berserker
+items:
+- { date: '2025-10-06', type: nerf, summary: '攻击间隔从 0.5 秒延长至 0.6 秒。' }
+- { date: '2025-04-09', type: buff, summary: '生命值提高 8%。' }
+- { date: '2025-02-11', type: buff, summary: '攻击间隔从 0.6 秒缩短至 0.5 秒。' }
+- { date: '2025-02-03', type: release, summary: '狂战士正式加入游戏。' }

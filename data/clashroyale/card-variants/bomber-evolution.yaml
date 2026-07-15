@@ -1,0 +1,91 @@
+key: bomber-evolution
+parent_key: bomber
+kind: evolution
+order: 2
+name: 觉醒炸弹兵
+label: 觉醒
+url: /clashroyale/cards/bomber/evolution/
+image: images/clashroyale/cards/variants/bomber-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Bomber/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436449
+release_date: '2024-02-05'
+summary: 觉醒炸弹兵投出的炸弹命中后会继续向前弹跳两次，每次弹跳都造成范围伤害，可以沿直线穿过前排打击后方单位或皇家塔。
+facts:
+- label: 圣水
+  value: '2'
+- label: 觉醒周期
+  value: 2 次循环
+- label: 弹跳次数
+  value: 2 次
+- label: 基础卡牌
+  value: 炸弹兵
+overview:
+- 觉醒炸弹兵保留两费地面范围输出的定位，炸弹首次命中后还会沿投掷方向弹跳两次，每次间隔 2.5 格并造成相同范围伤害。只要目标与后排或皇家塔形成直线，一次攻击就可能同时命中多个区域。
+- 弹跳方向由首次目标决定，因此站位价值高于单纯面板伤害。对手可以通过错开单位、从侧面贴身或改变第一目标位置避开后续弹跳；觉醒炸弹兵依然不能攻击空中，生命值也不足以在没有前排时稳定完成多次投弹。
+units:
+- name: 觉醒炸弹兵
+  kind: main
+  mechanics:
+  - { label: 攻击间隔, value: 1.8 秒 }
+  - { label: 首次攻击间隔, value: 0.2 秒 }
+  - { label: 移动速度, value: 中等 (60) }
+  - { label: 部署时间, value: 1 秒 }
+  - { label: 攻击距离, value: '4.5' }
+  - { label: 溅射半径, value: '1.5' }
+  - { label: 投射物速度, value: '400' }
+  - { label: 攻击目标, value: 地面 }
+  - { label: 弹跳次数, value: '2' }
+  - { label: 弹跳距离, value: '2.5' }
+  level_stats:
+    columns:
+    - { key: level, label: 等级 }
+    - { key: hitpoints, label: 生命值 }
+    - { key: area_damage, label: 范围伤害 }
+    - { key: damage_per_second, label: 每秒伤害 }
+    - { key: bounce_damage, label: 弹跳伤害 }
+    rows:
+    - { level: '1', hitpoints: '128', area_damage: '87', damage_per_second: '48', bounce_damage: '87' }
+    - { level: '2', hitpoints: '141', area_damage: '95', damage_per_second: '52', bounce_damage: '95' }
+    - { level: '3', hitpoints: '155', area_damage: '105', damage_per_second: '58', bounce_damage: '105' }
+    - { level: '4', hitpoints: '170', area_damage: '115', damage_per_second: '63', bounce_damage: '115' }
+    - { level: '5', hitpoints: '187', area_damage: '127', damage_per_second: '70', bounce_damage: '127' }
+    - { level: '6', hitpoints: '206', area_damage: '140', damage_per_second: '77', bounce_damage: '140' }
+    - { level: '7', hitpoints: '227', area_damage: '154', damage_per_second: '85', bounce_damage: '154' }
+    - { level: '8', hitpoints: '249', area_damage: '169', damage_per_second: '93', bounce_damage: '169' }
+    - { level: '9', hitpoints: '274', area_damage: '186', damage_per_second: '103', bounce_damage: '186' }
+    - { level: '10', hitpoints: '302', area_damage: '205', damage_per_second: '113', bounce_damage: '205' }
+    - { level: '11', hitpoints: '332', area_damage: '225', damage_per_second: '125', bounce_damage: '225' }
+    - { level: '12', hitpoints: '365', area_damage: '248', damage_per_second: '137', bounce_damage: '248' }
+    - { level: '13', hitpoints: '402', area_damage: '272', damage_per_second: '151', bounce_damage: '272' }
+    - { level: '14', hitpoints: '442', area_damage: '299', damage_per_second: '166', bounce_damage: '299' }
+    - { level: '15', hitpoints: '486', area_damage: '329', damage_per_second: '182', bounce_damage: '329' }
+    - { level: '16', hitpoints: '535', area_damage: '362', damage_per_second: '201', bounce_damage: '362' }
+usage_tips:
+- 让第一目标与敌方后排或皇家塔保持直线，后续两次弹跳才有机会穿过前排继续命中高价值目标。
+- 防守时可以配合飓风法术重新排列敌人，使多个地面单位进入同一条弹跳路径，而不是只依赖首次溅射范围。
+- 进攻中让坦克先吸引火力，觉醒炸弹兵从后方选择第一目标；过早越过前排会让他被近战单位贴身，失去弹跳输出。
+- 面对空军较多的卡组时，不要因为觉醒机制投入过多保护资源，仍需把主要圣水留给可靠对空单位。
+matchups:
+- title: 适合应对
+  text: 纵向排列的地面推进、建筑后方支援单位和与皇家塔站成直线的防守目标。弹跳可以在处理前排的同时制造额外后排伤害。
+- title: 需要提防
+  text: 空中单位、从侧面快速贴身的近战单位，以及刻意错开站位的防守。只要第一目标方向被改变，后续弹跳就可能完全落空。
+- title: 搭配思路
+  text: 与巨人等坦克、飓风法术和能够固定目标位置的控制单位配合较好；坦克负责维持直线，控制负责集中目标，炸弹兵完成连续范围输出。
+balance_history:
+- date: '2024-12-16'
+  type: adjustment
+  summary: 修复同一敌人可能被一次投弹重复造成伤害的问题。
+- date: '2024-10-08'
+  type: nerf
+  summary: 伤害降低 2%。
+- date: '2024-05-14'
+  type: nerf
+  summary: 觉醒周期从 1 次循环增加至 2 次循环。
+- date: '2024-03-05'
+  type: nerf
+  summary: 每次弹跳距离从 3 格缩短至 2.5 格。
+- date: '2024-02-05'
+  type: evolution
+  summary: 觉醒炸弹兵正式加入游戏，炸弹获得连续弹跳机制。

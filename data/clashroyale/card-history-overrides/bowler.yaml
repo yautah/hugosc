@@ -1,0 +1,8 @@
+source_url: https://clashroyale.fandom.com/wiki/Bowler
+items:
+  - { date: '2026-05-04', type: hero, summary: '精英巨石投手与主动技能“远投三分”正式上线。' }
+  - { date: '2025-03-31', type: adjustment, summary: '生命值因数值取整提高约 0.04%。' }
+  - { date: '2020-08-04', type: adjustment, summary: '锁定距离从 5 格缩短至 4 格，巨石投射距离从 6 格提高至 7.5 格，生命值提高 8%。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2016-08-24', type: adjustment, summary: '费用从 6 点降至 5 点，生命值降低 7%，伤害降低 10%。' }
+  - { date: '2016-07-04', type: release, summary: '巨石投手正式加入游戏。' }

@@ -1,0 +1,117 @@
+---
+release_date: '2019-04-15'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 地震法术
+  kind: main
+  mechanics:
+  - key: radius
+    label: 作用半径
+    value: '3.5'
+  - key: duration
+    label: 持续时间
+    value: 3 秒
+  - key: slowdown
+    label: 减速幅度
+    value: "-50%"
+  - key: target
+    label: 攻击目标
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    - key: building_damage
+      label: 建筑伤害
+    rows:
+    - level: '3'
+      area_damage: 39 x3 (117)
+      crown_tower_damage: 25 x3 (75)
+      building_damage: 134 x3 (402)
+    - level: '4'
+      area_damage: 43 x3 (129)
+      crown_tower_damage: 27 x3 (81)
+      building_damage: 147 x3 (441)
+    - level: '5'
+      area_damage: 47 x3 (141)
+      crown_tower_damage: 30 x3 (90)
+      building_damage: 162 x3 (486)
+    - level: '6'
+      area_damage: 52 x3 (156)
+      crown_tower_damage: 33 x3 (99)
+      building_damage: 178 x3 (534)
+    - level: '7'
+      area_damage: 57 x3 (171)
+      crown_tower_damage: 36 x3 (108)
+      building_damage: 196 x3 (588)
+    - level: '8'
+      area_damage: 63 x3 (189)
+      crown_tower_damage: 40 x3 (120)
+      building_damage: 216 x3 (648)
+    - level: '9'
+      area_damage: 69 x3 (207)
+      crown_tower_damage: 44 x3 (132)
+      building_damage: 237 x3 (711)
+    - level: '10'
+      area_damage: 76 x3 (228)
+      crown_tower_damage: 48 x3 (144)
+      building_damage: 261 x3 (783)
+    - level: '11'
+      area_damage: 84 x3 (252)
+      crown_tower_damage: 53 x3 (159)
+      building_damage: 287 x3 (861)
+    - level: '12'
+      area_damage: 92 x3 (276)
+      crown_tower_damage: 58 x3 (174)
+      building_damage: 316 x3 (948)
+    - level: '13'
+      area_damage: 102 x3 (306)
+      crown_tower_damage: 64 x3 (192)
+      building_damage: 347 x3 (1041)
+    - level: '14'
+      area_damage: 112 x3 (336)
+      crown_tower_damage: 71 x3 (213)
+      building_damage: 382 x3 (1146)
+    - level: '15'
+      area_damage: 123 x3 (369)
+      crown_tower_damage: 78 x3 (234)
+      building_damage: 420 x3 (1260)
+    - level: '16'
+      area_damage: 135 x3 (405)
+      crown_tower_damage: 85 x3 (255)
+      building_damage: 462 x3 (1386)
+balance_history:
+- date: '2025-03-31'
+  type: buff
+  summary: 伤害提高 2.43%。
+- date: '2025-02-04'
+  type: adjustment
+  summary: 伐木工幽灵改为免疫地震法术。
+- date: '2024-10-02'
+  type: buff
+  summary: 悬浮地面单位不再免疫地震法术。
+- date: '2022-04-28'
+  type: visual
+  summary: 卡牌信息页面加入地震法术的卡牌形象。
+- date: '2022-04-08'
+  type: nerf
+  summary: 对皇家塔伤害比例从普通单位伤害的 85% 降至 65%。
+- date: '2021-02-11'
+  type: adjustment
+  summary: 对皇家塔伤害调整为普通单位伤害的 85%，对普通建筑倍率从 200% 提高至 250%。
+- date: '2020-06-02'
+  type: adjustment
+  summary: 移动减速从 35% 提高至 50%，移除攻击速度和生成速度减速。
+- date: '2020-05-05'
+  type: adjustment
+  summary: 伤害提高 11%，对建筑伤害倍率从 300% 降至 200%。
+- date: '2020-03-03'
+  type: buff
+  summary: 现在可以命中隐藏状态的特斯拉电磁塔。
+- date: '2019-04-15'
+  type: release
+  summary: 地震法术正式加入游戏。

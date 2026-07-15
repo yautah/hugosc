@@ -1,0 +1,155 @@
+---
+release_date: '2018-08-07'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 皇家卫队
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.3 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：长 (1.6)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '6'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: shield_hitpoints
+      label: 护盾生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '211'
+      shield_hitpoints: '93'
+      damage: '51'
+      damage_per_second: '39'
+    - level: '2'
+      hitpoints: '232'
+      shield_hitpoints: '102'
+      damage: '56'
+      damage_per_second: '43'
+    - level: '3'
+      hitpoints: '255'
+      shield_hitpoints: '112'
+      damage: '62'
+      damage_per_second: '47'
+    - level: '4'
+      hitpoints: '281'
+      shield_hitpoints: '123'
+      damage: '68'
+      damage_per_second: '52'
+    - level: '5'
+      hitpoints: '309'
+      shield_hitpoints: '135'
+      damage: '75'
+      damage_per_second: '57'
+    - level: '6'
+      hitpoints: '340'
+      shield_hitpoints: '149'
+      damage: '83'
+      damage_per_second: '63'
+    - level: '7'
+      hitpoints: '374'
+      shield_hitpoints: '164'
+      damage: '91'
+      damage_per_second: '70'
+    - level: '8'
+      hitpoints: '411'
+      shield_hitpoints: '180'
+      damage: '100'
+      damage_per_second: '76'
+    - level: '9'
+      hitpoints: '452'
+      shield_hitpoints: '198'
+      damage: '110'
+      damage_per_second: '84'
+    - level: '10'
+      hitpoints: '497'
+      shield_hitpoints: '218'
+      damage: '121'
+      damage_per_second: '93'
+    - level: '11'
+      hitpoints: '547'
+      shield_hitpoints: '240'
+      damage: '133'
+      damage_per_second: '102'
+    - level: '12'
+      hitpoints: '602'
+      shield_hitpoints: '264'
+      damage: '146'
+      damage_per_second: '112'
+    - level: '13'
+      hitpoints: '662'
+      shield_hitpoints: '290'
+      damage: '161'
+      damage_per_second: '123'
+    - level: '14'
+      hitpoints: '728'
+      shield_hitpoints: '319'
+      damage: '177'
+      damage_per_second: '136'
+    - level: '15'
+      hitpoints: '801'
+      shield_hitpoints: '351'
+      damage: '195'
+      damage_per_second: '150'
+    - level: '16'
+      hitpoints: '881'
+      shield_hitpoints: '387'
+      damage: '214'
+      damage_per_second: '164'
+balance_history:
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修正部署队形，使皇家卫队根据竞技场所在一侧正确镜像排列。
+- date: '2024-05-14'
+  type: buff
+  summary: 生命值提高 3%。
+- date: '2023-09-04'
+  type: evolution
+  summary: 觉醒皇家卫队正式上线，皇家卫队获得觉醒形态。
+- date: '2022-10-26'
+  type: adjustment
+  summary: 修复皇家卫队能够部署到对手半场的问题。
+- date: '2020-08-04'
+  type: buff
+  summary: 伤害提高 8%。
+- date: '2020-06-02'
+  type: adjustment
+  summary: 六名卫队改为依次部署，每名单位之间间隔 0.1 秒。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息界面增加新的卡牌图片。
+- date: '2018-12-03'
+  type: adjustment
+  summary: 圣水花费从 8 降低至 7，攻击间隔从 1.2 秒延长至 1.3 秒。
+- date: '2018-09-03'
+  type: buff
+  summary: 伤害提高 12%，并调整部署队形，允许二四或四二分路。
+- date: '2018-08-07'
+  type: release
+  summary: 皇家卫队正式向全部玩家开放。

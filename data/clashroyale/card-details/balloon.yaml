@@ -1,0 +1,145 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 气球兵
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 2 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.2 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.1)
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 空中
+  - key: death_damage_splash_radius
+    label: 炸弹·死亡伤害范围
+    value: '3'
+  - key: deploy_time
+    label: 炸弹·部署时间
+    value: 3 秒
+  - key: target
+    label: 炸弹·攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: death_damage
+      label: 死亡伤害
+    rows:
+    - level: '6'
+      hitpoints: '1049'
+      damage: '400'
+      damage_per_second: '200'
+      death_damage: '150'
+    - level: '7'
+      hitpoints: '1154'
+      damage: '440'
+      damage_per_second: '220'
+      death_damage: '165'
+    - level: '8'
+      hitpoints: '1266'
+      damage: '482'
+      damage_per_second: '241'
+      death_damage: '181'
+    - level: '9'
+      hitpoints: '1390'
+      damage: '530'
+      damage_per_second: '265'
+      death_damage: '199'
+    - level: '10'
+      hitpoints: '1528'
+      damage: '582'
+      damage_per_second: '291'
+      death_damage: '219'
+    - level: '11'
+      hitpoints: '1679'
+      damage: '640'
+      damage_per_second: '320'
+      death_damage: '240'
+    - level: '12'
+      hitpoints: '1843'
+      damage: '702'
+      damage_per_second: '351'
+      death_damage: '264'
+    - level: '13'
+      hitpoints: '2027'
+      damage: '772'
+      damage_per_second: '386'
+      death_damage: '290'
+    - level: '14'
+      hitpoints: '2223'
+      damage: '847'
+      damage_per_second: '423'
+      death_damage: '318'
+    - level: '15'
+      hitpoints: '2440'
+      damage: '930'
+      damage_per_second: '465'
+      death_damage: '349'
+    - level: '16'
+      hitpoints: '2683'
+      damage: '1022'
+      damage_per_second: '511'
+      death_damage: '384'
+balance_history:
+- date: '2026-04-06'
+  type: hero
+  summary: 气球兵的精英形态正式上线。
+- date: '2026-02-02'
+  type: adjustment
+  summary: 16 级生命值从 2679 微调为 2683，修正特定等级交互。
+- date: '2025-03-31'
+  type: nerf
+  summary: 生命值降低 0.05%。
+- date: '2022-02-03'
+  type: adjustment
+  summary: 伤害降低 33%，攻击间隔从 3 秒缩短至 2 秒。
+- date: '2021-03-30'
+  type: nerf
+  summary: 死亡伤害降低 27%。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页加入角色立绘。
+- date: '2018-08-06'
+  type: adjustment
+  summary: 气球兵开始可以被击退效果影响。
+- date: '2017-04-19'
+  type: nerf
+  summary: 死亡炸弹引爆时间从 1 秒延长至 3 秒。
+- date: '2016-12-15'
+  type: buff
+  summary: 死亡伤害提高 105%，爆炸半径从 2 格扩大至 3 格。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，显示攻击距离从 0.4 格调整为 0.1 格。
+- date: '2016-03-23'
+  type: buff
+  summary: 生命值提高 5%。
+- date: '2016-01-04'
+  type: release
+  summary: 气球兵随皇室战争上线正式加入游戏。

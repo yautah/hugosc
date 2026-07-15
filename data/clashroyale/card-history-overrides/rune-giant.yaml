@@ -1,0 +1,9 @@
+source_url: https://clashroyale.fandom.com/wiki/Rune_Giant
+items:
+  - { date: '2026-06-01', type: buff, summary: '11 级普通攻击伤害从 120 提高至 153，提升约 28%。' }
+  - { date: '2025-06-03', type: buff, summary: '生命值提高 6%。' }
+  - { date: '2025-03-31', type: adjustment, summary: '修复强化与雷电飞龙、觉醒哥布林牢笼等单位之间的多项交互问题。' }
+  - { date: '2025-03-04', type: nerf, summary: '生命值降低 11%，并使符文巨人阵亡后的强化效果最多再持续 5 秒。' }
+  - { date: '2025-01-30', type: adjustment, summary: '多弹丸攻击改为分摊一次追加伤害，附属单位不再单独获得强化。' }
+  - { date: '2025-01-21', type: buff, summary: '符文巨人阵亡后，已经施加的强化不再立即消失。' }
+  - { date: '2025-01-06', type: release, summary: '符文巨人正式加入游戏。' }

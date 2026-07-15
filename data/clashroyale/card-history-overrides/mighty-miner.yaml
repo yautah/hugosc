@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Mighty_Miner
+items:
+  - { date: '2025-03-31', type: adjustment, summary: '地下换路期间允许受到皇家大厨强化。' }
+  - { date: '2025-01-08', type: buff, summary: '伤害升至下一阶段所需时间从 2.25 秒缩短至 2 秒。' }
+  - { date: '2024-06-17', type: nerf, summary: '爆炸逃生伤害降低 1.67%。' }
+  - { date: '2023-08-08', type: nerf, summary: '伤害升至下一阶段所需时间从 2 秒延长至 2.25 秒。' }
+  - { date: '2023-06-21', type: adjustment, summary: '修复爆炸逃生炸弹造成异常高伤害的问题。' }
+  - { date: '2023-06-06', type: nerf, summary: '生命值降低 2.2%。' }
+  - { date: '2022-12-22', type: adjustment, summary: '生命值提高 5%，移动速度由快速降回中等。' }
+  - { date: '2022-12-07', type: buff, summary: '移动速度由中等提高为快速。' }
+  - { date: '2022-10-04', type: nerf, summary: '生命值降低 8%。' }
+  - { date: '2022-04-21', type: buff, summary: '爆炸逃生的炸弹引爆时间从 3 秒缩短至 1 秒。' }
+  - { date: '2022-04-08', type: buff, summary: '爆炸逃生费用从 2 降至 1，并获得击退免疫。' }
+  - { date: '2022-04-01', type: adjustment, summary: '修复威猛矿工无法被正确锁定的问题。' }
+  - { date: '2022-03-30', type: release, summary: '威猛矿工正式加入游戏。' }

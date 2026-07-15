@@ -1,0 +1,73 @@
+key: pekka-evolution
+parent_key: pekka
+kind: evolution
+order: 2
+name: 觉醒皮卡超人
+label: 觉醒
+url: /clashroyale/cards/pekka/evolution/
+image: images/clashroyale/cards/variants/pekka-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/P.E.K.K.A./Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436628
+release_date: '2024-09-02'
+summary: 觉醒皮卡超人击败单位后会按目标生命值分档治疗，并可把自身生命提高到基础上限的 150%。
+facts:
+  - { label: 圣水, value: '7' }
+  - { label: 觉醒周期, value: 1 次循环 }
+  - { label: 最高生命值, value: 基础生命值的 150% }
+  - { label: 基础卡牌, value: 皮卡超人 }
+overview:
+  - 觉醒皮卡超人的基础攻击与普通形态一致，击败部队或建筑后会触发连续治疗脉冲。治疗量按被击败目标的生命值分为三个档位，目标越耐打，获得的治疗越多；治疗还可以超过初始生命值，最高达到基础生命值的 150%。
+  - 她在防守大型推进时可以一边消灭单位一边恢复生命，形成更有威胁的反击。用大量低费单位围攻虽然仍能拖延她，但每个被她亲自击败的单位都会提供治疗，因此需要控制击杀归属或配合远程、空中输出。
+units:
+  - name: 觉醒皮卡超人
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.8 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 慢 (45) }
+      - { label: 攻击距离, value: 近战：中 (1.2) }
+      - { label: 治疗触发, value: 亲自击败部队或建筑 }
+      - { label: 治疗脉冲, value: 每 0.55 秒 1 次 }
+      - { label: 脉冲间隔, value: 0.5 秒 }
+      - { label: 最高超额生命, value: 150% }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: max_hitpoints, label: 最高生命值 }
+        - { key: small_heal, label: 小型目标治疗 }
+        - { key: medium_heal, label: 中型目标治疗 }
+        - { key: large_heal, label: 大型目标治疗 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '2350', max_hitpoints: '3525', small_heal: '100', medium_heal: '190', large_heal: '360.5', damage: '526', damage_per_second: '292' }
+        - { level: '7', hitpoints: '2585', max_hitpoints: '3877', small_heal: '110', medium_heal: '209', large_heal: '396.5', damage: '578', damage_per_second: '321' }
+        - { level: '8', hitpoints: '2835', max_hitpoints: '4252', small_heal: '120.5', medium_heal: '229.5', large_heal: '435', damage: '634', damage_per_second: '352' }
+        - { level: '9', hitpoints: '3114', max_hitpoints: '4671', small_heal: '132.5', medium_heal: '252', large_heal: '478', damage: '697', damage_per_second: '387' }
+        - { level: '10', hitpoints: '3422', max_hitpoints: '5133', small_heal: '145.5', medium_heal: '277', large_heal: '525', damage: '766', damage_per_second: '425' }
+        - { level: '11', hitpoints: '3760', max_hitpoints: '5640', small_heal: '160', medium_heal: '304.5', large_heal: '577', damage: '842', damage_per_second: '467' }
+        - { level: '12', hitpoints: '4127', max_hitpoints: '6190', small_heal: '175.5', medium_heal: '334', large_heal: '633.5', damage: '924', damage_per_second: '513' }
+        - { level: '13', hitpoints: '4539', max_hitpoints: '6808', small_heal: '193', medium_heal: '367.5', large_heal: '696.5', damage: '1016', damage_per_second: '564' }
+        - { level: '14', hitpoints: '4979', max_hitpoints: '7468', small_heal: '211.5', medium_heal: '403', large_heal: '764', damage: '1115', damage_per_second: '619' }
+        - { level: '15', hitpoints: '5464', max_hitpoints: '8196', small_heal: '232.5', medium_heal: '442.5', large_heal: '838.5', damage: '1223', damage_per_second: '679' }
+        - { level: '16', hitpoints: '6008', max_hitpoints: '9012', small_heal: '269', medium_heal: '487', large_heal: '969', damage: '1345', damage_per_second: '747' }
+usage_tips:
+  - 优先让觉醒皮卡超人参与高价值防守，争取由她完成最后一击；击败大型单位获得的治疗最多，能明显提高反击时的剩余生命值。
+  - 不要为了触发治疗追逐远离主战场的低价值单位，她移动缓慢，错误目标会让整轮七费部署失去路线压力。
+  - 进攻时准备小法术清理人海，但要控制法术时机：让皮卡超人击败部分单位可以治疗，完全交给法术则不会触发能力。
+  - 面对空中或远程防守时仍需支援，治疗只能在她亲自完成击杀后发生，不能弥补持续无法接触目标的问题。
+matchups:
+  - { title: 适合应对, text: '适合处理由多个中高生命值地面单位组成的推进，连续击杀可以恢复防守损耗，并保留高生命值反击单位。' }
+  - { title: 需要提防, text: '空中输出、远程拉扯和不提供击杀目标的高伤害单体单位能压缩治疗；觉醒骷髅等持续扩张人海仍可能在她攻击间隔内完成围杀。' }
+  - { title: 搭配思路, text: '与电击法术、飓风法术和范围支援单位配合，控制人海和目标位置，让觉醒皮卡超人持续接触高价值单位并完成击杀。' }
+balance_history:
+  - { date: '2026-07-06', type: buff, summary: '随基础卡调整，11 级伤害从 816 提高至 842，提升约 3%。' }
+  - { date: '2025-05-05', type: buff, summary: '11 级击败小型、中型和大型目标的治疗分别提高至 160、304.5 和 577。' }
+  - { date: '2025-02-04', type: nerf, summary: '随基础卡调整，攻击距离从 1.6 格缩短至 1.2 格。' }
+  - { date: '2025-01-30', type: adjustment, summary: '修正按目标生命值分档后的治疗数值。' }
+  - { date: '2025-01-08', type: adjustment, summary: '治疗改为根据被击败目标的生命值分为小型、中型和大型三个档位。' }
+  - { date: '2024-11-14', type: nerf, summary: '击败目标后的固定治疗比例从 10% 降至 7.5%。' }
+  - { date: '2024-10-08', type: nerf, summary: '击败目标后的固定治疗比例从 12.5% 降至 10%。' }
+  - { date: '2024-09-02', type: evolution, summary: '觉醒皮卡超人正式上线。' }

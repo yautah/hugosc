@@ -1,0 +1,6 @@
+source_url: https://clashroyale.fandom.com/wiki/Flying_Machine
+items:
+  - { date: '2019-11-26', type: visual, summary: 卡牌信息页面加入角色立绘。 }
+  - { date: '2019-04-01', type: nerf, summary: 攻击间隔从 1 秒延长至 1.1 秒。 }
+  - { date: '2017-10-09', type: visual, summary: 卡牌图片更换为当前版本。 }
+  - { date: '2017-10-06', type: release, summary: 飞行器正式加入游戏。 }

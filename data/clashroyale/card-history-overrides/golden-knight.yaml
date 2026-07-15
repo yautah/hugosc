@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Golden_Knight
+items:
+  - { date: '2026-01-12', type: nerf, summary: '连续突袭技能冷却从 8 秒延长至 12 秒。' }
+  - { date: '2025-05-05', type: adjustment, summary: '连续突袭现在可以让黄金圣骑向后方目标移动。' }
+  - { date: '2025-03-31', type: adjustment, summary: '连续突袭期间允许受到皇家大厨强化。' }
+  - { date: '2024-06-17', type: adjustment, summary: '生命值降低 0.05%，普通攻击伤害提高 0.625%。' }
+  - { date: '2024-03-05', type: buff, summary: '连续突袭技能冷却从 11 秒缩短至 8 秒。' }
+  - { date: '2024-01-03', type: buff, summary: '连续突袭伤害提高 8%。' }
+  - { date: '2023-11-13', type: adjustment, summary: '修复无法隔河向目标发动连续突袭的问题。' }
+  - { date: '2023-04-04', type: nerf, summary: '连续突袭最大距离从 6 格缩短至 5.5 格。' }
+  - { date: '2022-04-04', type: adjustment, summary: '连续突袭最大距离从 5 格恢复至 6 格，但命中皇家塔后会停止连锁。' }
+  - { date: '2022-03-30', type: adjustment, summary: '修复锁定移动单位时无法正确发动连续突袭的问题。' }
+  - { date: '2022-02-03', type: nerf, summary: '连续突袭最大距离从 6 格缩短至 5 格，技能冷却从 8 秒延长至 11 秒。' }
+  - { date: '2021-11-01', type: adjustment, summary: '修复首个目标在突袭命中前阵亡时技能提前结束的问题。' }
+  - { date: '2021-10-27', type: release, summary: '黄金圣骑作为首批英雄卡牌之一正式加入游戏。' }

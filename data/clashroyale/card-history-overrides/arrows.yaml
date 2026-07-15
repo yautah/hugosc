@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Arrows
+items:
+  - { date: '2025-03-04', type: nerf, summary: '作用半径从 4 格缩短至 3.5 格。' }
+  - { date: '2024-08-06', type: nerf, summary: '对皇家塔伤害比例从 30% 降至 25%。' }
+  - { date: '2023-03-27', type: adjustment, summary: '修复在双人对战中对超级国王塔造成双倍伤害的问题。' }
+  - { date: '2022-10-26', type: adjustment, summary: '伤害判定改为多个 1.4 格区域，避免全部箭雨被盖世武僧一次反弹；有效范围不变。' }
+  - { date: '2020-08-04', type: nerf, summary: '对皇家塔伤害比例从 35% 降至 30%。' }
+  - { date: '2019-11-26', type: adjustment, summary: '单轮伤害降低 58%，改为连续三轮箭雨，总伤害提高 23%，并加入卡牌形象。' }
+  - { date: '2019-06-03', type: buff, summary: '投射物速度从 800 提高至 1100。' }
+  - { date: '2018-04-25', type: adjustment, summary: '允许直接在河道区域施放。' }
+  - { date: '2017-12-12', type: nerf, summary: '对皇家塔伤害比例从 40% 降至 35%。' }
+  - { date: '2017-03-13', type: buff, summary: '投射物速度从 600 提高至 800。' }
+  - { date: '2016-02-19', type: nerf, summary: '对皇家塔伤害比例从 50% 降至 40%。' }
+  - { date: '2016-02-02', type: nerf, summary: '伤害降低 4%。' }
+  - { date: '2016-01-04', type: release, summary: '万箭齐发随游戏首发加入。' }

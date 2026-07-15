@@ -1,0 +1,10 @@
+source_url: https://clashroyale.fandom.com/wiki/Hog_Rider
+items:
+  - { date: '2025-03-31', type: adjustment, summary: '生命值提高 0.05%，伤害降低 0.31%。' }
+  - { date: '2021-09-02', type: visual, summary: 卡牌立绘更换为当前版本。 }
+  - { date: '2019-11-26', type: visual, summary: 卡牌信息页面加入角色立绘。 }
+  - { date: '2017-12-12', type: nerf, summary: '攻击间隔从 1.5 秒延长至 1.6 秒，首次攻击间隔从 0.5 秒延长至 0.6 秒。' }
+  - { date: '2016-06-21', type: nerf, summary: 伤害降低 6%。 }
+  - { date: '2016-05-03', type: adjustment, summary: 修复射程显示问题；面板射程从 1.4 格改为 0.8 格，实际攻击范围不变。 }
+  - { date: '2016-02-29', type: adjustment, summary: 视野范围从 10 格缩短至 9.5 格。 }
+  - { date: '2016-01-04', type: release, summary: 野猪骑士随游戏上线加入初始卡牌池。 }

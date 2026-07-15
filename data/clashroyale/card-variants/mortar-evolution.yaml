@@ -1,0 +1,71 @@
+key: mortar-evolution
+parent_key: mortar
+kind: evolution
+order: 2
+name: 觉醒迫击炮
+label: 觉醒
+url: /clashroyale/cards/mortar/evolution/
+image: images/clashroyale/cards/variants/mortar-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Mortar/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2023-07-03'
+summary: 觉醒迫击炮的每发炮弹都会携带一只哥布林，命中后在目标附近落地继续作战。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 携带单位, value: 哥布林 }
+  - { label: 基础卡牌, value: 迫击炮 }
+overview:
+  - 觉醒迫击炮每次发射都会把一只哥布林送到炮弹落点，既保留远程范围伤害，又能在命中后追加近战压力。锁定皇冠塔时，哥布林会直接落到塔旁，迫使对手继续处理。
+  - 迫击炮仍然存在近距离盲区和较长攻击间隔。被低费单位反复改变目标、被单位快速贴身或提前拆除时，携带哥布林的优势也无法兑现。
+units:
+  - name: 觉醒迫击炮
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 4 秒 }
+      - { label: 首次攻击间隔, value: 1 秒 }
+      - { label: 部署时间, value: 3.5 秒 }
+      - { label: 持续时间, value: 30 秒 }
+      - { label: 攻击距离, value: 3.5 至 11.5 格 }
+      - { label: 范围伤害半径, value: 2 格 }
+      - { label: 攻击目标, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: goblin_hitpoints, label: 哥布林生命值 }
+        - { key: goblin_damage, label: 哥布林伤害 }
+        - { key: goblin_damage_per_second, label: 哥布林每秒伤害 }
+      rows:
+        - { level: '1', hitpoints: '528', area_damage: '103', damage_per_second: '25', goblin_hitpoints: '78', goblin_damage: '46', goblin_damage_per_second: '41' }
+        - { level: '2', hitpoints: '581', area_damage: '113', damage_per_second: '28', goblin_hitpoints: '86', goblin_damage: '51', goblin_damage_per_second: '46' }
+        - { level: '3', hitpoints: '639', area_damage: '124', damage_per_second: '31', goblin_hitpoints: '94', goblin_damage: '56', goblin_damage_per_second: '50' }
+        - { level: '4', hitpoints: '703', area_damage: '137', damage_per_second: '34', goblin_hitpoints: '104', goblin_damage: '62', goblin_damage_per_second: '56' }
+        - { level: '5', hitpoints: '773', area_damage: '150', damage_per_second: '37', goblin_hitpoints: '114', goblin_damage: '68', goblin_damage_per_second: '61' }
+        - { level: '6', hitpoints: '850', area_damage: '165', damage_per_second: '41', goblin_hitpoints: '125', goblin_damage: '75', goblin_damage_per_second: '68' }
+        - { level: '7', hitpoints: '935', area_damage: '182', damage_per_second: '45', goblin_hitpoints: '138', goblin_damage: '82', goblin_damage_per_second: '74' }
+        - { level: '8', hitpoints: '1029', area_damage: '200', damage_per_second: '50', goblin_hitpoints: '152', goblin_damage: '90', goblin_damage_per_second: '81' }
+        - { level: '9', hitpoints: '1131', area_damage: '220', damage_per_second: '55', goblin_hitpoints: '167', goblin_damage: '99', goblin_damage_per_second: '89' }
+        - { level: '10', hitpoints: '1245', area_damage: '242', damage_per_second: '60', goblin_hitpoints: '184', goblin_damage: '109', goblin_damage_per_second: '99' }
+        - { level: '11', hitpoints: '1369', area_damage: '266', damage_per_second: '66', goblin_hitpoints: '202', goblin_damage: '120', goblin_damage_per_second: '109' }
+        - { level: '12', hitpoints: '1506', area_damage: '293', damage_per_second: '73', goblin_hitpoints: '222', goblin_damage: '132', goblin_damage_per_second: '119' }
+        - { level: '13', hitpoints: '1656', area_damage: '322', damage_per_second: '80', goblin_hitpoints: '244', goblin_damage: '145', goblin_damage_per_second: '131' }
+        - { level: '14', hitpoints: '1822', area_damage: '354', damage_per_second: '88', goblin_hitpoints: '269', goblin_damage: '160', goblin_damage_per_second: '145' }
+        - { level: '15', hitpoints: '2004', area_damage: '389', damage_per_second: '97', goblin_hitpoints: '296', goblin_damage: '176', goblin_damage_per_second: '160' }
+        - { level: '16', hitpoints: '2205', area_damage: '428', damage_per_second: '107', goblin_hitpoints: '325', goblin_damage: '193', goblin_damage_per_second: '175' }
+usage_tips:
+  - 优先保护第一次锁定，炮弹携带的哥布林能迫使对手在承受炮击后继续交牌处理。
+  - 用低费法术清理迫击炮前方的小单位，避免每发炮弹都被廉价目标吸引。
+  - 防守时也可利用哥布林落点补充场面单位，但不要忽略迫击炮本身的盲区。
+matchups:
+  - { title: 适合应对, text: 缺少快速贴身和远程拆建筑能力的卡组，尤其容易被连续炮击与落地哥布林消耗。 }
+  - { title: 需要提防, text: 快速突进、地震法术和低费循环单位会减少实际开火次数，进入盲区后也难以自保。 }
+  - { title: 搭配思路, text: 与矿工、滚木、火球和低费单位配合，清理落点周围的防守并放大哥布林压力。 }
+balance_history:
+  - { date: '2024-12-16', type: visual, summary: 新增觉醒迫击炮被摧毁后的音效。 }
+  - { date: '2024-10-08', type: nerf, summary: 首次攻击新增 1 秒延迟。 }
+  - { date: '2024-05-14', type: nerf, summary: 移除额外生命值加成。 }
+  - { date: '2024-02-05', type: visual, summary: 更新觉醒迫击炮的音效。 }
+  - { date: '2023-07-03', type: evolution, summary: 觉醒迫击炮正式上线。 }

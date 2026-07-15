@@ -1,0 +1,75 @@
+key: mini-pekka-hero
+parent_key: mini-pekka
+kind: hero
+order: 3
+name: 精英迷你皮卡
+label: 精英
+url: /clashroyale/cards/mini-pekka/hero/
+image: images/clashroyale/cards/variants/mini-pekka-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A./Hero
+source_retrieved_at: '2026-07-15'
+source_revision: 436480
+release_date: '2025-12-01'
+summary: 精英迷你皮卡会随时间和每次攻击积累薄饼，主动食用后回复生命并按积累进度临时提升自身等级。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 技能费用, value: 1 圣水 }
+  - { label: 最高提升, value: 5 级 }
+  - { label: 基础卡牌, value: 迷你皮卡 }
+overview:
+  - 精英迷你皮卡的基础攻击与普通形态一致，核心差异是“早餐强化”。它会随时间积累薄饼进度，每次完成攻击还能额外获得相当于十秒的进度；主动发动技能后会消耗全部薄饼、回复 30% 生命值，并根据当前进度提升等级。
+  - 技能没有薄饼时也能提升一级，三格全部蓄满时共提升五级，但整场只能发动一次。等待越久收益越高，也意味着更可能在技能发动前被击败；最佳时机通常是它完成防守、已经受到伤害并准备转入反击时。
+units:
+  - name: 精英迷你皮卡
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.6 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 快 (90) }
+      - { label: 攻击距离, value: 近战：短 (0.8) }
+      - { label: 技能名称, value: 早餐强化 }
+      - { label: 施放时间, value: 约 1 秒 }
+      - { label: 技能回复, value: 30% 生命值 }
+      - { label: 每格自然积累, value: 22 秒 }
+      - { label: 每次攻击进度, value: 10 秒 }
+      - { label: 技能次数, value: 1 次 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '3', hitpoints: '669', damage: '352', damage_per_second: '220' }
+        - { level: '4', hitpoints: '735', damage: '387', damage_per_second: '241' }
+        - { level: '5', hitpoints: '809', damage: '426', damage_per_second: '266' }
+        - { level: '6', hitpoints: '890', damage: '469', damage_per_second: '293' }
+        - { level: '7', hitpoints: '979', damage: '516', damage_per_second: '322' }
+        - { level: '8', hitpoints: '1077', damage: '567', damage_per_second: '354' }
+        - { level: '9', hitpoints: '1184', damage: '624', damage_per_second: '390' }
+        - { level: '10', hitpoints: '1303', damage: '686', damage_per_second: '428' }
+        - { level: '11', hitpoints: '1433', damage: '755', damage_per_second: '471' }
+        - { level: '12', hitpoints: '1576', damage: '831', damage_per_second: '519' }
+        - { level: '13', hitpoints: '1734', damage: '914', damage_per_second: '571' }
+        - { level: '14', hitpoints: '1907', damage: '1005', damage_per_second: '628' }
+        - { level: '15', hitpoints: '2098', damage: '1105', damage_per_second: '690' }
+        - { level: '16', hitpoints: '2308', damage: '1216', damage_per_second: '760' }
+        - { level: '17', hitpoints: '2539', damage: '1338', damage_per_second: '836' }
+        - { level: '18', hitpoints: '2793', damage: '1471', damage_per_second: '919' }
+        - { level: '19', hitpoints: '3072', damage: '1618', damage_per_second: '1011' }
+        - { level: '20', hitpoints: '3379', damage: '1780', damage_per_second: '1112' }
+        - { level: '21', hitpoints: '3717', damage: '1958', damage_per_second: '1223' }
+        - { level: '22', hitpoints: '4089', damage: '2154', damage_per_second: '1346' }
+usage_tips:
+  - 优先让它参与防守并多次攻击，攻击会显著加快薄饼积累；完成防守后发动技能，能同时回复损失生命并强化反击。
+  - 不必一味等待三格全满。面对即将到来的高伤害或法术时，提前用一费技能保住单位通常比追求最高五级提升更有价值。
+  - 观察对手的大法术和杂兵轮转，技能施放有短暂延迟，过晚发动可能在回复生效前被击败。
+  - 已经蓄满技能时可把它保留给对手的核心地面推进，既能快速积累攻击进度，也能在防守完成后形成高等级反击。
+matchups:
+  - { title: 适合应对, text: '高生命值地面单位和攻击频率不足以迅速击败它的目标。连续攻击既能造成高额伤害，也能加快薄饼积累。' }
+  - { title: 需要提防, text: '骷髅军团等杂兵、能够直接击败它的高伤害法术，以及在技能生效前完成爆发的单位。' }
+  - { title: 搭配思路, text: '与皇家大厨和大型前排配合可以增加存活与攻击次数，小法术和范围部队则负责清理阻止它接近目标的杂兵。' }
+balance_history:
+  - date: '2025-12-01'
+    type: hero
+    summary: 精英迷你皮卡与主动技能“早餐强化”正式上线。

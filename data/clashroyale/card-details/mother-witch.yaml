@@ -1,0 +1,161 @@
+---
+release_date: '2020-12-07'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 女巫婆婆
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.3 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: curse_duration
+    label: 诅咒持续时间
+    value: 5 秒
+  - key: range
+    label: 攻击距离
+    value: '5.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '600'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: mother_witch_hitpoints
+      label: 生命值
+    - key: mother_witch_damage
+      label: 伤害
+    - key: mother_witch_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      mother_witch_hitpoints: '438'
+      mother_witch_damage: '110'
+      mother_witch_damage_per_second: '110'
+    - level: '10'
+      mother_witch_hitpoints: '482'
+      mother_witch_damage: '121'
+      mother_witch_damage_per_second: '121'
+    - level: '11'
+      mother_witch_hitpoints: '529'
+      mother_witch_damage: '133'
+      mother_witch_damage_per_second: '133'
+    - level: '12'
+      mother_witch_hitpoints: '581'
+      mother_witch_damage: '146'
+      mother_witch_damage_per_second: '146'
+    - level: '13'
+      mother_witch_hitpoints: '639'
+      mother_witch_damage: '160'
+      mother_witch_damage_per_second: '160'
+    - level: '14'
+      mother_witch_hitpoints: '701'
+      mother_witch_damage: '176'
+      mother_witch_damage_per_second: '176'
+    - level: '15'
+      mother_witch_hitpoints: '770'
+      mother_witch_damage: '193'
+      mother_witch_damage_per_second: '193'
+- name: 被诅咒的皇家野猪
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.2 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.25 秒
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: deploy_time
+    label: 部署时间
+    value: 0.2 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.75)
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: cursed_hog_hitpoints
+      label: 生命值
+    - key: cursed_hog_damage
+      label: 伤害
+    - key: cursed_hog_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      cursed_hog_hitpoints: '521'
+      cursed_hog_damage: '44'
+      cursed_hog_damage_per_second: '36'
+    - level: '10'
+      cursed_hog_hitpoints: '573'
+      cursed_hog_damage: '48'
+      cursed_hog_damage_per_second: '40'
+    - level: '11'
+      cursed_hog_hitpoints: '629'
+      cursed_hog_damage: '53'
+      cursed_hog_damage_per_second: '44'
+    - level: '12'
+      cursed_hog_hitpoints: '691'
+      cursed_hog_damage: '59'
+      cursed_hog_damage_per_second: '49'
+    - level: '13'
+      cursed_hog_hitpoints: '760'
+      cursed_hog_damage: '64'
+      cursed_hog_damage_per_second: '53'
+    - level: '14'
+      cursed_hog_hitpoints: '833'
+      cursed_hog_damage: '71'
+      cursed_hog_damage_per_second: '59'
+    - level: '15'
+      cursed_hog_hitpoints: '915'
+      cursed_hog_damage: '78'
+      cursed_hog_damage_per_second: '65'
+balance_history:
+- date: '2025-03-31'
+  type: nerf
+  summary: 生命值降低 0.18%。
+- date: '2024-10-08'
+  type: nerf
+  summary: 生命值降低 0.2%。
+- date: '2022-06-07'
+  type: buff
+  summary: 攻击间隔从 1.1 秒缩短至 1 秒，首次攻击间隔从 0.4 秒缩短至 0.3 秒。
+- date: '2021-12-07'
+  type: nerf
+  summary: 生命值降低 18%。
+- date: '2021-09-06'
+  type: nerf
+  summary: 生命值降低 4%。
+- date: '2021-03-30'
+  type: buff
+  summary: 攻击间隔从 1.2 秒缩短至 1.1 秒，首次攻击间隔从 0.5 秒缩短至 0.4 秒，伤害提高 14%。
+- date: '2020-12-07'
+  type: release
+  summary: 女巫婆婆通过挑战活动正式加入游戏。

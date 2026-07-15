@@ -1,0 +1,13 @@
+source_url: https://clashroyale.fandom.com/wiki/Wall_Breakers
+items:
+  - { date: '2025-11-03', type: nerf, summary: '11 级伤害从 391 降至 350，降低 10%。' }
+  - { date: '2025-03-31', type: nerf, summary: '生命值降低 0.3%，伤害降低 0.25%。' }
+  - { date: '2024-02-14', type: evolution, summary: '攻城炸弹人的觉醒形态正式上线。' }
+  - { date: '2020-06-02', type: adjustment, summary: '两名攻城炸弹人之间加入 0.1 秒部署错开。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2019-11-04', type: nerf, summary: '伤害降低 19%，范围半径从 2 格缩小至 1.5 格，并增大两名单位的初始间距。' }
+  - { date: '2019-10-07', type: adjustment, summary: '圣水费用从 3 降至 2，伤害降低 10%，质量从 2 提高至 4，碰撞半径从 0.5 格缩小至 0.4 格。' }
+  - { date: '2019-06-03', type: visual, summary: '更新声音和视觉效果。' }
+  - { date: '2019-05-06', type: buff, summary: '伤害提高 10%，攻击距离从 0.25 格提高至 0.5 格，并重新定位范围伤害以命中附近单位。' }
+  - { date: '2019-03-04', type: buff, summary: '攻击准备时间从 1.5 秒缩短至 1.2 秒。' }
+  - { date: '2019-02-26', type: release, summary: '攻城炸弹人正式加入游戏。' }

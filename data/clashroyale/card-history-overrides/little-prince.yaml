@@ -1,0 +1,13 @@
+source_url: https://clashroyale.fandom.com/wiki/Little_Prince
+items:
+  - { date: '2026-01-12', type: buff, summary: '小王子伤害提高 5%。' }
+  - { date: '2025-11-03', type: buff, summary: '专属护卫伤害提高 7%。' }
+  - { date: '2025-09-01', type: buff, summary: '皇室救援伤害提高 11%，击退距离从 2 格提高至 2.5 格。' }
+  - { date: '2025-06-03', type: buff, summary: '专属护卫伤害提高 1%，皇室救援伤害提高 11%。' }
+  - { date: '2024-06-17', type: nerf, summary: '本体生命值降低 0.28%、伤害降低 1%；皇室救援伤害降低 48.1%、击退距离缩短，护卫首次攻击变慢且伤害降低。' }
+  - { date: '2024-03-05', type: nerf, summary: '攻击距离从 6 格缩短至 5.5 格，皇室救援突进距离从 4.5 格缩短至 4 格。' }
+  - { date: '2024-01-03', type: nerf, summary: '本体伤害降低 9%，专属护卫生命值降低 11%。' }
+  - { date: '2023-12-14', type: adjustment, summary: '修复小王子移动后攻击速度未重置的问题。' }
+  - { date: '2023-11-17', type: nerf, summary: '攻速提升所需攻击次数从 2 次增加至 3 次，皇室救援击退距离从 3.5 格缩短至 2.5 格。' }
+  - { date: '2023-11-13', type: nerf, summary: '皇室救援突进距离从 5 格缩短至 4.5 格，并修复地下单位与克隆交互问题。' }
+  - { date: '2023-11-06', type: release, summary: '小王子正式加入游戏。' }

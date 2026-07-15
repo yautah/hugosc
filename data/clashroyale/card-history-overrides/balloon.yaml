@@ -1,0 +1,14 @@
+source_url: https://clashroyale.fandom.com/wiki/Balloon
+items:
+  - { date: '2026-04-06', type: hero, summary: '气球兵的精英形态正式上线。' }
+  - { date: '2026-02-02', type: adjustment, summary: '16 级生命值从 2679 微调为 2683，修正特定等级交互。' }
+  - { date: '2025-03-31', type: nerf, summary: '生命值降低 0.05%。' }
+  - { date: '2022-02-03', type: adjustment, summary: '伤害降低 33%，攻击间隔从 3 秒缩短至 2 秒。' }
+  - { date: '2021-03-30', type: nerf, summary: '死亡伤害降低 27%。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2018-08-06', type: adjustment, summary: '气球兵开始可以被击退效果影响。' }
+  - { date: '2017-04-19', type: nerf, summary: '死亡炸弹引爆时间从 1 秒延长至 3 秒。' }
+  - { date: '2016-12-15', type: buff, summary: '死亡伤害提高 105%，爆炸半径从 2 格扩大至 3 格。' }
+  - { date: '2016-05-03', type: adjustment, summary: '修复攻击距离问题，显示攻击距离从 0.4 格调整为 0.1 格。' }
+  - { date: '2016-03-23', type: buff, summary: '生命值提高 5%。' }
+  - { date: '2016-01-04', type: release, summary: '气球兵随皇室战争上线正式加入游戏。' }

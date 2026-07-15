@@ -1,0 +1,17 @@
+source_url: https://clashroyale.fandom.com/wiki/Clone
+items:
+  - { date: '2025-04-01', type: adjustment, summary: '修复卡牌信息页面显示错误卡牌等级的问题。' }
+  - { date: '2023-11-13', type: adjustment, summary: '修复生成期间使用克隆会推移单位、重复生成专属护卫以及哥布林巨人投矛手显示异常等问题。' }
+  - { date: '2022-03-30', type: visual, summary: '卡牌信息页面加入克隆法术形象。' }
+  - { date: '2021-11-01', type: adjustment, summary: '修复克隆单位阵亡后生成的单位不是克隆体的问题。' }
+  - { date: '2021-10-27', type: adjustment, summary: '修复克隆法术与哥布林钻机的异常交互。' }
+  - { date: '2020-09-10', type: adjustment, summary: '修复克隆骷髅气球无法正常运作的问题。' }
+  - { date: '2020-08-31', type: nerf, summary: '克隆单位不再能够被治疗。' }
+  - { date: '2019-04-15', type: nerf, summary: '作用半径从 4 格缩短至 3 格。' }
+  - { date: '2019-01-28', type: adjustment, summary: '克隆单位改为生成在原单位后方，而不是右侧。' }
+  - { date: '2018-10-01', type: adjustment, summary: '修复母单位阵亡后生成的单位无法被克隆的问题。' }
+  - { date: '2018-06-20', type: buff, summary: '作用半径从 3 格提高至 4 格。' }
+  - { date: '2018-04-25', type: adjustment, summary: '允许直接在河道区域施放。' }
+  - { date: '2017-06-12', type: buff, summary: '克隆生成时间从 0.8 秒缩短至 0.5 秒。' }
+  - { date: '2017-03-13', type: adjustment, summary: '不再重置原单位的冲锋状态，但克隆体生成时仍需重新蓄力。' }
+  - { date: '2016-12-09', type: release, summary: '克隆法术正式加入游戏。' }

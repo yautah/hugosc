@@ -1,0 +1,124 @@
+key: goblin-giant-evolution
+parent_key: goblin-giant
+kind: evolution
+order: 2
+name: 觉醒哥布林巨人
+label: 觉醒
+url: /clashroyale/cards/goblin-giant/evolution/
+image: images/clashroyale/cards/variants/goblin-giant-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Giant/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-07-01'
+summary: 觉醒哥布林巨人的生命值降到 50% 以下后，每隔 2.2 秒从背包中放出一只哥布林，持续为推进补充近战单位。
+facts:
+  - { label: 圣水, value: '6' }
+  - { label: 觉醒周期, value: 1 次循环 }
+  - { label: 生成触发, value: 生命值低于 50% }
+  - { label: 基础卡牌, value: 哥布林巨人 }
+overview:
+  - 觉醒哥布林巨人保留本体和两名背包投矛手的基础属性，当生命值降到 50% 以下后，每隔 2.2 秒额外放出一只近战哥布林。对手处理本体的时间越长，场上累积的哥布林就越多。
+  - 额外哥布林能包围单体防守单位并继续向塔施压，但它们仍会被范围伤害和小法术快速清理。觉醒效果的价值取决于本体在半血以下还能存活多久，而不是只看是否触发。
+units:
+  - name: 觉醒哥布林巨人
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.5 秒 }
+      - { label: 首次攻击间隔, value: 0.8 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 攻击距离, value: 近战：中 (1.2) }
+      - { label: 攻击目标, value: 建筑 }
+      - { label: 生成触发, value: 生命值低于 50% }
+      - { label: 哥布林生成间隔, value: 2.2 秒 }
+      - { label: 背包投矛手, value: 2 名 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '1944', damage: '110', damage_per_second: '73' }
+        - { level: '7', hitpoints: '2138', damage: '121', damage_per_second: '80' }
+        - { level: '8', hitpoints: '2350', damage: '133', damage_per_second: '88' }
+        - { level: '9', hitpoints: '2581', damage: '146', damage_per_second: '97' }
+        - { level: '10', hitpoints: '2837', damage: '160', damage_per_second: '106' }
+        - { level: '11', hitpoints: '3110', damage: '176', damage_per_second: '117' }
+        - { level: '12', hitpoints: '3421', damage: '193', damage_per_second: '128' }
+        - { level: '13', hitpoints: '3761', damage: '213', damage_per_second: '142' }
+        - { level: '14', hitpoints: '4126', damage: '233', damage_per_second: '155' }
+        - { level: '15', hitpoints: '4529', damage: '256', damage_per_second: '170' }
+        - { level: '16', hitpoints: '4979', damage: '282', damage_per_second: '188' }
+  - name: 哥布林投矛手
+    kind: child
+    section_label: 背包与阵亡生成单位
+    summary: 两名投矛手在背包中持续攻击空地目标，本体阵亡后落地继续作战。
+    mechanics:
+      - { label: 攻击间隔, value: 1.7 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 攻击距离, value: 5 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 背包数量, value: '2' }
+      - { label: 阵亡后生成, value: 2 名 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '83', damage: '51', damage_per_second: '30' }
+        - { level: '7', hitpoints: '91', damage: '56', damage_per_second: '32' }
+        - { level: '8', hitpoints: '100', damage: '61', damage_per_second: '35' }
+        - { level: '9', hitpoints: '110', damage: '67', damage_per_second: '39' }
+        - { level: '10', hitpoints: '121', damage: '74', damage_per_second: '43' }
+        - { level: '11', hitpoints: '133', damage: '81', damage_per_second: '47' }
+        - { level: '12', hitpoints: '146', damage: '89', damage_per_second: '52' }
+        - { level: '13', hitpoints: '160', damage: '98', damage_per_second: '57' }
+        - { level: '14', hitpoints: '176', damage: '108', damage_per_second: '63' }
+        - { level: '15', hitpoints: '193', damage: '119', damage_per_second: '70' }
+        - { level: '16', hitpoints: '212', damage: '130', damage_per_second: '76' }
+  - name: 生成的哥布林
+    kind: child
+    section_label: 觉醒生成单位
+    summary: 本体低于半血后每隔 2.2 秒生成一只，负责包围防守单位并补充近战伤害。
+    mechanics:
+      - { label: 攻击间隔, value: 1.1 秒 }
+      - { label: 首次攻击间隔, value: 0.4 秒 }
+      - { label: 移动速度, value: 极快 (120) }
+      - { label: 攻击距离, value: 近战：短 (0.5) }
+      - { label: 攻击目标, value: 地面 }
+      - { label: 每次生成, value: 1 名 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '126', damage: '75', damage_per_second: '68' }
+        - { level: '7', hitpoints: '139', damage: '82', damage_per_second: '74' }
+        - { level: '8', hitpoints: '152', damage: '90', damage_per_second: '81' }
+        - { level: '9', hitpoints: '167', damage: '99', damage_per_second: '90' }
+        - { level: '10', hitpoints: '184', damage: '109', damage_per_second: '99' }
+        - { level: '11', hitpoints: '202', damage: '120', damage_per_second: '109' }
+        - { level: '12', hitpoints: '221', damage: '132', damage_per_second: '120' }
+        - { level: '13', hitpoints: '244', damage: '145', damage_per_second: '131' }
+        - { level: '14', hitpoints: '267', damage: '159', damage_per_second: '144' }
+        - { level: '15', hitpoints: '293', damage: '175', damage_per_second: '159' }
+        - { level: '16', hitpoints: '323', damage: '192', damage_per_second: '174' }
+usage_tips:
+  - 让本体在接近对手防线时进入半血，生成的哥布林才能立即围攻防守单位；过早触发会让它们在赶路途中被范围伤害清理。
+  - 准备法术处理女武神、飞斧屠夫等范围单位，这些卡牌能同时伤害本体、投矛手和持续生成的哥布林。
+  - 本体半血后的存活时间决定生成数量，可用眩晕重置地狱系伤害，或用高威胁后排迫使对手分散输出。
+  - 防守觉醒哥布林巨人时优先快速击败本体，再用范围伤害清理残留单位，避免单体防守者被不断生成的哥布林包围。
+matchups:
+  - { title: 适合应对, text: '对依赖单体地面防守的卡组压力很大，持续生成的哥布林会分散攻击并保护后排推进单位。' }
+  - { title: 需要提防, text: '地狱之塔和高单体伤害能缩短生成窗口，女武神、炸弹塔等范围伤害则能同时清理本体周围单位。' }
+  - { title: 搭配思路, text: '与电磁炮、狂暴法术和眩晕效果搭配，用哥布林群分散防守，再让核心后排处理范围单位与建筑。' }
+balance_history:
+  - { date: '2026-06-01', type: buff, summary: '随基础卡调整，11 级生命值从约 3020 提高至 3110。' }
+  - { date: '2025-10-06', type: nerf, summary: '随基础卡调整，背包投矛手首次攻击间隔延长至 0.5 秒，攻击距离缩短至 5 格。' }
+  - { date: '2025-09-05', type: nerf, summary: '半血后生成哥布林的间隔从 1.8 秒延长至 2.2 秒。' }
+  - { date: '2025-08-04', type: nerf, summary: '哥布林投矛手首次攻击间隔延长至 0.5 秒，攻击距离缩短至 5 格。' }
+  - { date: '2025-02-04', type: nerf, summary: '半血后生成哥布林的间隔从 1.5 秒延长至 1.8 秒。' }
+  - { date: '2024-07-01', type: evolution, summary: '觉醒哥布林巨人正式上线。' }

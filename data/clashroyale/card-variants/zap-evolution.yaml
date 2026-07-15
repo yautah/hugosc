@@ -1,0 +1,65 @@
+key: zap-evolution
+parent_key: zap
+kind: evolution
+order: 2
+name: 觉醒电击法术
+label: 觉醒
+url: /clashroyale/cards/zap/evolution/
+image: images/clashroyale/cards/variants/zap-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Zap/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-03-11'
+summary: 觉醒电击法术会连续触发两次电击，第二次覆盖范围更大，再次造成伤害和眩晕。
+facts:
+  - { label: 圣水, value: '2' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 电击次数, value: '2' }
+  - { label: 基础卡牌, value: 电击法术 }
+overview:
+  - 觉醒电击法术会在第一次电击后再触发一次范围更大的电击，两次均可伤害空地单位并造成短暂眩晕。连续控制能再次重置递增伤害、攻击和冲锋，也能处理第一击后仍存活的小型单位。
+  - 第二次电击并非瞬间同时发生，目标可能在间隔中离开中心区域。它对皇冠塔的伤害依然受法术衰减限制，主要价值来自双次清场和控制。
+units:
+  - name: 觉醒电击法术
+    kind: main
+    mechanics:
+      - { label: 首次作用半径, value: 2.5 格 }
+      - { label: 第二次作用半径, value: 3 格 }
+      - { label: 眩晕时间, value: 0.5 秒 }
+      - { label: 电击次数, value: '2' }
+      - { label: 作用目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: area_damage, label: 单次范围伤害 }
+        - { key: total_damage, label: 两次总伤害 }
+        - { key: tower_damage, label: 单次皇冠塔伤害 }
+        - { key: total_tower_damage, label: 两次皇冠塔总伤害 }
+      rows:
+        - { level: '1', area_damage: '74', total_damage: '148', tower_damage: '22', total_tower_damage: '44' }
+        - { level: '2', area_damage: '81', total_damage: '162', tower_damage: '25', total_tower_damage: '50' }
+        - { level: '3', area_damage: '90', total_damage: '180', tower_damage: '27', total_tower_damage: '54' }
+        - { level: '4', area_damage: '99', total_damage: '198', tower_damage: '30', total_tower_damage: '60' }
+        - { level: '5', area_damage: '108', total_damage: '216', tower_damage: '33', total_tower_damage: '66' }
+        - { level: '6', area_damage: '119', total_damage: '238', tower_damage: '36', total_tower_damage: '72' }
+        - { level: '7', area_damage: '131', total_damage: '262', tower_damage: '40', total_tower_damage: '80' }
+        - { level: '8', area_damage: '144', total_damage: '288', tower_damage: '44', total_tower_damage: '88' }
+        - { level: '9', area_damage: '159', total_damage: '318', tower_damage: '48', total_tower_damage: '96' }
+        - { level: '10', area_damage: '175', total_damage: '350', tower_damage: '53', total_tower_damage: '106' }
+        - { level: '11', area_damage: '192', total_damage: '384', tower_damage: '58', total_tower_damage: '116' }
+        - { level: '12', area_damage: '211', total_damage: '422', tower_damage: '64', total_tower_damage: '128' }
+        - { level: '13', area_damage: '232', total_damage: '464', tower_damage: '70', total_tower_damage: '140' }
+        - { level: '14', area_damage: '256', total_damage: '512', tower_damage: '77', total_tower_damage: '154' }
+        - { level: '15', area_damage: '281', total_damage: '562', tower_damage: '85', total_tower_damage: '170' }
+        - { level: '16', area_damage: '309', total_damage: '618', tower_damage: '93', total_tower_damage: '186' }
+usage_tips:
+  - 用两次眩晕重置地狱之塔、地狱飞龙或冲锋单位，为己方单位争取更长输出窗口。
+  - 预判目标在两次电击之间的移动，让第二次扩大范围仍能覆盖主要单位。
+  - 面对成群低生命值单位时，可利用第二次伤害清理第一击未能消灭的目标。
+matchups:
+  - { title: 适合应对, text: 依赖重置的递增伤害单位、冲锋单位和能被两次范围伤害清理的人海。 }
+  - { title: 需要提防, text: 高生命值单位不会因双击直接失去战斗力，快速离开范围也会降低第二次命中收益。 }
+  - { title: 搭配思路, text: 与快速推进和高伤单位配合，用连续眩晕阻止防守单位完成关键攻击。 }
+balance_history:
+  - { date: '2024-10-08', type: adjustment, summary: 第二次电击伤害提高 100%，并移除第三次电击。 }
+  - { date: '2024-05-14', type: nerf, summary: 第二次和第三次电击伤害降低 50%。 }
+  - { date: '2024-03-11', type: evolution, summary: 觉醒电击法术正式上线。 }

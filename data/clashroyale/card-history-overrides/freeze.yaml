@@ -1,0 +1,14 @@
+source_url: https://clashroyale.fandom.com/wiki/Freeze
+items:
+  - { date: '2025-11-24', type: visual, summary: '卡牌信息页面加入冰冻法术形象。' }
+  - { date: '2023-11-13', type: adjustment, summary: '冰冻单位不再能被其他单位推动。' }
+  - { date: '2020-08-04', type: nerf, summary: '对皇家塔伤害比例从 35% 降至 30%。' }
+  - { date: '2019-02-04', type: nerf, summary: '持续时间从 5 秒缩短至 4 秒，伤害降低 6%。' }
+  - { date: '2019-01-07', type: nerf, summary: '对皇家塔伤害调整为完整伤害的 35%。' }
+  - { date: '2018-12-05', type: adjustment, summary: '持续时间统一为 5 秒，并加入范围伤害。' }
+  - { date: '2018-04-25', type: adjustment, summary: '允许直接在河道区域施放。' }
+  - { date: '2016-07-04', type: buff, summary: '可以中断圣水收集器产出并重置地狱之塔伤害。' }
+  - { date: '2016-05-18', type: nerf, summary: '持续时间缩短 1 秒。' }
+  - { date: '2016-05-03', type: visual, summary: '调整冰冻法术视觉效果。' }
+  - { date: '2016-02-02', type: nerf, summary: '作用半径从 4 格缩短至 3 格，并降低每级持续时间成长。' }
+  - { date: '2016-01-04', type: release, summary: '冰冻法术随游戏首发加入。' }

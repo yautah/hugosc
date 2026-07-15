@@ -1,0 +1,12 @@
+source_url: https://clashroyale.fandom.com/wiki/Bandit
+items:
+  - { date: '2025-03-31', type: adjustment, summary: '生命值降低 0.11%，伤害与突袭伤害提高 0.51%，并允许皇家大厨在突袭期间强化幻影刺客。' }
+  - { date: '2023-11-13', type: adjustment, summary: '修复无法隔河向目标发动突袭的问题。' }
+  - { date: '2022-12-15', type: adjustment, summary: '修复突袭伤害在部分交互中不一致的问题。' }
+  - { date: '2022-03-30', type: adjustment, summary: '调整突袭期间的受击判定，修复突袭开始前过早不可选中以及结束时异常受伤的问题。' }
+  - { date: '2019-04-01', type: nerf, summary: '生命值降低 4%。' }
+  - { date: '2018-09-05', type: adjustment, summary: '突袭期间改为免疫伤害，但仍可被系统识别为场上单位。' }
+  - { date: '2018-02-12', type: buff, summary: '发动突袭所需的最短距离从 4 格缩短至 3.5 格。' }
+  - { date: '2017-06-13', type: buff, summary: '生命值提高 4%。' }
+  - { date: '2017-06-12', type: buff, summary: '突袭蓄力时间从 1 秒缩短至 0.8 秒。' }
+  - { date: '2017-03-24', type: release, summary: '幻影刺客正式加入游戏。' }

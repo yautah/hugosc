@@ -1,0 +1,21 @@
+source_url: https://clashroyale.fandom.com/wiki/Furnace
+items:
+  - { date: '2026-06-01', type: nerf, summary: 攻击距离从 6 格缩短至 5.5 格。 }
+  - { date: '2025-10-06', type: buff, summary: 移动速度从慢速提高至中等。 }
+  - { date: '2025-08-07', type: nerf, summary: '生命值降低 19%，烈焰精灵生成间隔从 5 秒延长至 7 秒。' }
+  - { date: '2025-08-04', type: adjustment, summary: '由固定建筑重做为可移动并能攻击空地目标的部队，生命值提高 5%，移除摧毁后的烈焰精灵；同时更换卡牌图片并推出觉醒形态。' }
+  - { date: '2025-03-31', type: nerf, summary: 生命值降低约 0.11%。 }
+  - { date: '2025-02-04', type: buff, summary: 生成的烈焰精灵攻击距离从 2 格提高至 2.5 格。 }
+  - { date: '2023-04-04', type: adjustment, summary: '烈焰精灵生成间隔从 6 秒缩短至 5 秒，建筑持续时间从 33 秒缩短至 28 秒。' }
+  - { date: '2022-08-02', type: nerf, summary: 生成的烈焰精灵伤害降低 9%。 }
+  - { date: '2021-12-07', type: adjustment, summary: '生命值降低 17%，持续时间从 49 秒缩短至 33 秒，生成间隔从 7 秒缩短至 6 秒；新增摧毁后生成一只烈焰精灵，并将精灵攻击距离从 2.5 格降至 2 格。' }
+  - { date: '2021-09-06', type: nerf, summary: 生成的烈焰精灵范围半径从 2.5 格缩小至 2.3 格。 }
+  - { date: '2021-06-07', type: adjustment, summary: '生成间隔从 9.9 秒缩短至 7 秒，每波烈焰精灵从两只减为一只，持续时间从 50 秒缩短至 49 秒；烈焰精灵的生命值、伤害、射程和范围半径均提高。' }
+  - { date: '2020-09-09', type: buff, summary: 生成的烈焰精灵范围半径从 1.5 格提高至 1.7 格。 }
+  - { date: '2020-05-05', type: nerf, summary: 生命值降低 16%。 }
+  - { date: '2019-11-26', type: visual, summary: 卡牌信息页面加入熔炉立绘。 }
+  - { date: '2018-07-02', type: buff, summary: 生成的烈焰精灵伤害提高 5%。 }
+  - { date: '2017-04-19', type: nerf, summary: 生命值降低 5%。 }
+  - { date: '2016-06-21', type: buff, summary: 建筑持续时间从 40 秒延长至 50 秒。 }
+  - { date: '2016-05-18', type: adjustment, summary: '圣水费用从 5 降至 4，生命值降低 14%，持续时间从 50 秒缩短至 40 秒；生成的烈焰精灵范围半径从 1.2 格提高至 1.5 格。' }
+  - { date: '2016-05-03', type: release, summary: 烈焰熔炉正式加入游戏。 }

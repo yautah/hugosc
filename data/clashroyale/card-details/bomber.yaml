@@ -1,0 +1,170 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 炸弹兵
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.8 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.2 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '4.5'
+  - key: splash_radius
+    label: 溅射半径
+    value: '1.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '400'
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '117'
+      area_damage: '87'
+      damage_per_second: '48'
+    - level: '2'
+      hitpoints: '129'
+      area_damage: '95'
+      damage_per_second: '52'
+    - level: '3'
+      hitpoints: '142'
+      area_damage: '105'
+      damage_per_second: '58'
+    - level: '4'
+      hitpoints: '156'
+      area_damage: '115'
+      damage_per_second: '63'
+    - level: '5'
+      hitpoints: '172'
+      area_damage: '127'
+      damage_per_second: '70'
+    - level: '6'
+      hitpoints: '189'
+      area_damage: '140'
+      damage_per_second: '77'
+    - level: '7'
+      hitpoints: '208'
+      area_damage: '154'
+      damage_per_second: '85'
+    - level: '8'
+      hitpoints: '228'
+      area_damage: '169'
+      damage_per_second: '93'
+    - level: '9'
+      hitpoints: '251'
+      area_damage: '186'
+      damage_per_second: '103'
+    - level: '10'
+      hitpoints: '276'
+      area_damage: '205'
+      damage_per_second: '113'
+    - level: '11'
+      hitpoints: '304'
+      area_damage: '225'
+      damage_per_second: '125'
+    - level: '12'
+      hitpoints: '334'
+      area_damage: '248'
+      damage_per_second: '137'
+    - level: '13'
+      hitpoints: '368'
+      area_damage: '272'
+      damage_per_second: '151'
+    - level: '14'
+      hitpoints: '405'
+      area_damage: '299'
+      damage_per_second: '166'
+    - level: '15'
+      hitpoints: '445'
+      area_damage: '329'
+      damage_per_second: '182'
+    - level: '16'
+      hitpoints: '490'
+      area_damage: '362'
+      damage_per_second: '201'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 生命值降低 7%。
+- date: '2024-10-08'
+  type: nerf
+  summary: 伤害降低 2%。
+- date: '2024-02-05'
+  type: evolution
+  summary: 觉醒炸弹兵正式上线，炸弹兵获得觉醒形态。
+- date: '2024-01-03'
+  type: buff
+  summary: 伤害提高 4%。
+- date: '2021-09-06'
+  type: nerf
+  summary: 攻击距离从 5 格缩短至 4.5 格。
+- date: '2021-03-30'
+  type: adjustment
+  summary: 卡牌重做：圣水费用从 3 降至 2，生命值降低 31%，伤害降低 32%。
+- date: '2020-09-09'
+  type: buff
+  summary: 攻击间隔从 1.9 秒缩短至 1.8 秒。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2019-05-06'
+  type: buff
+  summary: 生命值提高 28%。
+- date: '2018-07-02'
+  type: buff
+  summary: 攻击距离从 4.5 格提高至 5 格。
+- date: '2017-03-16'
+  type: buff
+  summary: 投射物速度从 300 提高至 400。
+- date: '2016-12-15'
+  type: buff
+  summary: 伤害提高 4%。
+- date: '2016-09-19'
+  type: adjustment
+  summary: 生命值降低 2%，伤害提高 2.5%，修正部分等级下哥布林无法三次攻击将其击败的问题。
+- date: '2016-07-04'
+  type: buff
+  summary: 伤害提高 9%。
+- date: '2016-05-18'
+  type: buff
+  summary: 伤害提高 10%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 5 格改为 4.5 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 目标在投弹动作中被击败时不再中止攻击，视野范围从 6 格缩小至 5.5 格。
+- date: '2016-02-02'
+  type: buff
+  summary: 攻击间隔从 2 秒缩短至 1.9 秒。
+- date: '2016-01-04'
+  type: release
+  summary: 炸弹兵随皇室战争上线加入游戏。

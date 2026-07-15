@@ -1,0 +1,108 @@
+key: barbarians-evolution
+parent_key: barbarians
+kind: evolution
+order: 2
+name: 觉醒野蛮人
+label: 觉醒
+url: /clashroyale/cards/barbarians/evolution/
+image: images/clashroyale/cards/variants/barbarians-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Barbarians/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436534
+release_date: '2023-06-19'
+summary: 觉醒野蛮人拥有额外生命值，完成攻击后会暂时提高攻击和移动速度，适合围攻坦克并组织高压反击。
+facts:
+- label: 圣水
+  value: '5'
+- label: 觉醒周期
+  value: 1 次循环
+- label: 速度提升
+  value: 30%
+- label: 基础卡牌
+  value: 野蛮人
+overview:
+- 觉醒野蛮人仍然一次部署五个地面近战单位，每个单位的生命值比普通野蛮人高 10%。他们完成攻击后会在 3 秒内提高 30% 的攻击速度和移动速度，持续攻击可以刷新加速时间，使五人合计输出迅速提高。
+- 加速需要先完成攻击才能启动，因此觉醒野蛮人最擅长围住坦克或从防守转入反击。面对火球配合补充伤害、范围攻击或持续击退时，他们仍可能在建立加速前损失大量单位；五费投入也意味着部署位置和对手法术轮转比普通低费觉醒更重要。
+units:
+- name: 觉醒野蛮人
+  kind: main
+  mechanics:
+  - label: 攻击间隔
+    value: 1.3 秒
+  - label: 首次攻击间隔
+    value: 0.4 秒
+  - label: 移动速度
+    value: 中等 (60)
+  - label: 部署时间
+    value: 1 秒
+  - label: 攻击距离
+    value: 近战：短 (0.7)
+  - label: 攻击目标
+    value: 地面
+  - label: 单位数量
+    value: '5'
+  - label: 加速持续时间
+    value: 3 秒
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: boosted_damage_per_second
+      label: 加速后每秒伤害
+    rows:
+    - { level: '1', hitpoints: '284', damage: '74', damage_per_second: '56', boosted_damage_per_second: '76' }
+    - { level: '2', hitpoints: '313', damage: '81', damage_per_second: '62', boosted_damage_per_second: '83' }
+    - { level: '3', hitpoints: '344', damage: '90', damage_per_second: '69', boosted_damage_per_second: '92' }
+    - { level: '4', hitpoints: '378', damage: '99', damage_per_second: '76', boosted_damage_per_second: '102' }
+    - { level: '5', hitpoints: '416', damage: '108', damage_per_second: '83', boosted_damage_per_second: '111' }
+    - { level: '6', hitpoints: '458', damage: '119', damage_per_second: '91', boosted_damage_per_second: '122' }
+    - { level: '7', hitpoints: '503', damage: '131', damage_per_second: '100', boosted_damage_per_second: '135' }
+    - { level: '8', hitpoints: '554', damage: '144', damage_per_second: '110', boosted_damage_per_second: '148' }
+    - { level: '9', hitpoints: '609', damage: '159', damage_per_second: '122', boosted_damage_per_second: '163' }
+    - { level: '10', hitpoints: '670', damage: '175', damage_per_second: '134', boosted_damage_per_second: '180' }
+    - { level: '11', hitpoints: '737', damage: '192', damage_per_second: '147', boosted_damage_per_second: '197' }
+    - { level: '12', hitpoints: '811', damage: '211', damage_per_second: '162', boosted_damage_per_second: '217' }
+    - { level: '13', hitpoints: '892', damage: '232', damage_per_second: '178', boosted_damage_per_second: '239' }
+    - { level: '14', hitpoints: '981', damage: '256', damage_per_second: '196', boosted_damage_per_second: '263' }
+    - { level: '15', hitpoints: '1079', damage: '281', damage_per_second: '216', boosted_damage_per_second: '289' }
+    - { level: '16', hitpoints: '1187', damage: '309', damage_per_second: '237', boosted_damage_per_second: '318' }
+usage_tips:
+- 用觉醒野蛮人包围高生命值地面单位，让多名单位尽快完成首次攻击并进入加速状态，比在远处追赶目标更容易发挥机制价值。
+- 防守后只要还有两到三名觉醒野蛮人存活，就能利用已经启动的加速形成反击；此时再补坦克或法术通常比桥头直接下满五人更稳定。
+- 在国王塔后方分路部署可以降低范围法术收益，但也会拆散合计输出，应根据两路压力和对手法术决定是否分兵。
+- 面对持续击退或范围伤害单位时，优先用其他卡牌处理核心威胁，避免觉醒野蛮人在无法接触目标时被逐步消耗。
+matchups:
+- title: 适合应对
+  text: 高生命值地面坦克、野猪骑士和攻城锤等建筑目标单位。完成首次攻击后，加速能让他们更快结束防守并保留反击单位。
+- title: 需要提防
+  text: 火球配合低费法术、毒药法术、范围伤害和持续击退。对手若能在首次攻击前削减单位数量，觉醒机制的整体收益会明显下降。
+- title: 搭配思路
+  text: 可用于火球诱饵和分路体系，也适合与能够吸收范围伤害或控制防守单位的前排搭配，让存活的觉醒野蛮人持续刷新加速。
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 攻击速度和移动速度提升从 35% 降至 30%。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修复部署阵型未能根据竞技场左右侧正确镜像的问题。
+- date: '2024-05-14'
+  type: adjustment
+  summary: 加速持续时间从 2 秒延长至 3 秒，但生命值倍率从 125% 降至 110%。
+- date: '2023-10-23'
+  type: adjustment
+  summary: 修复觉醒烟花炮手的每次攻击都会错误触发觉醒野蛮人加速的问题。
+- date: '2023-10-03'
+  type: nerf
+  summary: 生命值倍率从 130% 降至 125%，并移除额外伤害。
+- date: '2023-08-24'
+  type: nerf
+  summary: 攻击速度提升从 50% 降至 35%。
+- date: '2023-06-19'
+  type: evolution
+  summary: 觉醒野蛮人正式上线。

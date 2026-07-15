@@ -1,0 +1,6 @@
+source_url: https://clashroyale.fandom.com/wiki/Vines
+items:
+  - { date: '2025-10-08', type: nerf, summary: '持续时间从 2.5 秒缩短至 2 秒，总伤害降低 9%。' }
+  - { date: '2025-09-05', type: nerf, summary: '总伤害降低 17%。' }
+  - { date: '2025-09-01', type: release, summary: '藤蔓法术正式加入游戏。' }
+  - { date: '2025-08-14', type: adjustment, summary: '藤蔓法术曾在维护期间意外提前上线，随后迅速移除；已解锁玩家仍可使用。' }

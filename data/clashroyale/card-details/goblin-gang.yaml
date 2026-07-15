@@ -1,0 +1,263 @@
+---
+release_date: '2017-02-24'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 哥布林
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.6 秒
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.5)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '3'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: goblin_hitpoints
+      label: 生命值
+    - key: goblin_damage
+      label: 伤害
+    - key: goblin_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      goblin_hitpoints: '78'
+      goblin_damage: '46'
+      goblin_damage_per_second: '41'
+    - level: '2'
+      goblin_hitpoints: '86'
+      goblin_damage: '51'
+      goblin_damage_per_second: '46'
+    - level: '3'
+      goblin_hitpoints: '94'
+      goblin_damage: '56'
+      goblin_damage_per_second: '50'
+    - level: '4'
+      goblin_hitpoints: '104'
+      goblin_damage: '62'
+      goblin_damage_per_second: '56'
+    - level: '5'
+      goblin_hitpoints: '114'
+      goblin_damage: '68'
+      goblin_damage_per_second: '61'
+    - level: '6'
+      goblin_hitpoints: '125'
+      goblin_damage: '75'
+      goblin_damage_per_second: '68'
+    - level: '7'
+      goblin_hitpoints: '138'
+      goblin_damage: '82'
+      goblin_damage_per_second: '74'
+    - level: '8'
+      goblin_hitpoints: '152'
+      goblin_damage: '90'
+      goblin_damage_per_second: '81'
+    - level: '9'
+      goblin_hitpoints: '167'
+      goblin_damage: '99'
+      goblin_damage_per_second: '89'
+    - level: '10'
+      goblin_hitpoints: '184'
+      goblin_damage: '109'
+      goblin_damage_per_second: '99'
+    - level: '11'
+      goblin_hitpoints: '202'
+      goblin_damage: '120'
+      goblin_damage_per_second: '109'
+    - level: '12'
+      goblin_hitpoints: '222'
+      goblin_damage: '132'
+      goblin_damage_per_second: '119'
+    - level: '13'
+      goblin_hitpoints: '244'
+      goblin_damage: '145'
+      goblin_damage_per_second: '131'
+    - level: '14'
+      goblin_hitpoints: '269'
+      goblin_damage: '160'
+      goblin_damage_per_second: '145'
+    - level: '15'
+      goblin_hitpoints: '296'
+      goblin_damage: '176'
+      goblin_damage_per_second: '160'
+    - level: '16'
+      goblin_hitpoints: '325'
+      goblin_damage: '193'
+      goblin_damage_per_second: '175'
+- name: 哥布林投矛手
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.7 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: range
+    label: 攻击距离
+    value: '5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '500'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '3'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: spear_goblin_hitpoints
+      label: 生命值
+    - key: spear_goblin_damage
+      label: 伤害
+    - key: spear_goblin_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      spear_goblin_hitpoints: '51'
+      spear_goblin_damage: '31'
+      spear_goblin_damage_per_second: '18'
+    - level: '2'
+      spear_goblin_hitpoints: '56'
+      spear_goblin_damage: '34'
+      spear_goblin_damage_per_second: '20'
+    - level: '3'
+      spear_goblin_hitpoints: '62'
+      spear_goblin_damage: '38'
+      spear_goblin_damage_per_second: '22'
+    - level: '4'
+      spear_goblin_hitpoints: '68'
+      spear_goblin_damage: '42'
+      spear_goblin_damage_per_second: '24'
+    - level: '5'
+      spear_goblin_hitpoints: '75'
+      spear_goblin_damage: '46'
+      spear_goblin_damage_per_second: '27'
+    - level: '6'
+      spear_goblin_hitpoints: '83'
+      spear_goblin_damage: '50'
+      spear_goblin_damage_per_second: '29'
+    - level: '7'
+      spear_goblin_hitpoints: '91'
+      spear_goblin_damage: '55'
+      spear_goblin_damage_per_second: '32'
+    - level: '8'
+      spear_goblin_hitpoints: '100'
+      spear_goblin_damage: '61'
+      spear_goblin_damage_per_second: '35'
+    - level: '9'
+      spear_goblin_hitpoints: '110'
+      spear_goblin_damage: '67'
+      spear_goblin_damage_per_second: '39'
+    - level: '10'
+      spear_goblin_hitpoints: '121'
+      spear_goblin_damage: '74'
+      spear_goblin_damage_per_second: '43'
+    - level: '11'
+      spear_goblin_hitpoints: '133'
+      spear_goblin_damage: '81'
+      spear_goblin_damage_per_second: '47'
+    - level: '12'
+      spear_goblin_hitpoints: '146'
+      spear_goblin_damage: '89'
+      spear_goblin_damage_per_second: '52'
+    - level: '13'
+      spear_goblin_hitpoints: '161'
+      spear_goblin_damage: '98'
+      spear_goblin_damage_per_second: '57'
+    - level: '14'
+      spear_goblin_hitpoints: '177'
+      spear_goblin_damage: '108'
+      spear_goblin_damage_per_second: '63'
+    - level: '15'
+      spear_goblin_hitpoints: '195'
+      spear_goblin_damage: '119'
+      spear_goblin_damage_per_second: '70'
+    - level: '16'
+      spear_goblin_hitpoints: '214'
+      spear_goblin_damage: '130'
+      spear_goblin_damage_per_second: '76'
+balance_history:
+- date: '2025-08-04'
+  type: nerf
+  summary: 投矛哥布林首次攻击间隔从 0.4 秒延长至 0.5 秒，射程从 5.5 格缩短至 5 格。
+- date: '2025-04-09'
+  type: nerf
+  summary: 近战哥布林首次攻击间隔从 0.4 秒延长至 0.6 秒。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修正部署队形，使哥布林团伙根据竞技场所在一侧正确镜像排列。
+- date: '2025-01-08'
+  type: nerf
+  summary: 投矛哥布林首次攻击间隔从 0.3 秒延长至 0.4 秒。
+- date: '2024-06-17'
+  type: buff
+  summary: 投矛哥布林首次攻击间隔从 0.5 秒缩短至 0.3 秒。
+- date: '2023-04-04'
+  type: buff
+  summary: 投矛哥布林射程从 5 格提高至 5.5 格。
+- date: '2022-10-26'
+  type: nerf
+  summary: 近战哥布林首次攻击间隔从 0.2 秒延长至 0.4 秒。
+- date: '2022-10-04'
+  type: buff
+  summary: 投矛哥布林数量从 2 个增加至 3 个。
+- date: '2020-08-31'
+  type: visual
+  summary: 卡牌信息界面增加新的卡牌图片。
+- date: '2020-06-02'
+  type: buff
+  summary: 每个哥布林之间的部署间隔从 0.15 秒缩短至 0.1 秒。
+- date: '2019-03-04'
+  type: adjustment
+  summary: 六个哥布林改为依次部署，每个之间间隔 0.15 秒。
+- date: '2018-07-02'
+  type: nerf
+  summary: 近战哥布林生命值降低 1%。
+- date: '2018-06-04'
+  type: adjustment
+  summary: 投矛哥布林伤害提高 34%，攻击间隔从 1.2 秒延长至 1.7 秒，首次攻击间隔从 0.2 秒延长至 0.5 秒。
+- date: '2018-04-25'
+  type: nerf
+  summary: 投矛哥布林攻击间隔从 1.1 秒延长至 1.2 秒。
+- date: '2017-12-12'
+  type: nerf
+  summary: 近战哥布林伤害降低 6%。
+- date: '2017-10-09'
+  type: buff
+  summary: 投矛哥布林攻击间隔从 1.3 秒缩短至 1.1 秒。
+- date: '2017-06-12'
+  type: nerf
+  summary: 投矛哥布林数量从 3 个减少至 2 个，并增大部署间距。
+- date: '2017-03-16'
+  type: buff
+  summary: 投矛哥布林投射物速度从 350 提高至 500。
+- date: '2017-02-24'
+  type: release
+  summary: 哥布林团伙正式加入游戏。

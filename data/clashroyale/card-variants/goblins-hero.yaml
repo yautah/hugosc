@@ -1,0 +1,84 @@
+key: goblins-hero
+parent_key: goblins
+kind: hero
+order: 3
+name: 精英哥布林
+label: 精英
+url: /clashroyale/cards/goblins/hero/
+image: images/clashroyale/cards/variants/goblins-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Goblins/Hero
+source_retrieved_at: '2026-07-15'
+source_revision: 435705
+release_date: '2026-02-02'
+summary: 精英哥布林可消耗一费激活旗帜援军，最后一只哥布林被击败后留下限时旗帜，再召来一批哥布林继续作战。
+facts:
+- label: 圣水
+  value: '2'
+- label: 技能费用
+  value: 1 圣水
+- label: 旗帜持续
+  value: 5 秒
+- label: 基础卡牌
+  value: 哥布林
+overview:
+- 精英哥布林的基础部署仍然是四个两费近战单位，主动技能“旗帜援军”需要额外消耗一费。技能激活后，最后一只精英哥布林被击败时会留下旗帜，并在旗帜有效期内召来三只哥布林，使对手需要准备第二次清场手段。
+- 这项技能不会立即增加场上单位，收益取决于最后一只哥布林的死亡位置和旗帜能否持续存在。过早激活可能让第一批和援军被同一套范围伤害连续处理，激活过晚则可能来不及留下旗帜；三费总投入也要求玩家提前判断对手的小法术循环。
+units:
+- name: 精英哥布林
+  kind: main
+  mechanics:
+  - { label: 攻击间隔, value: 1.1 秒 }
+  - { label: 首次攻击间隔, value: 0.6 秒 }
+  - { label: 移动速度, value: 极快 (120) }
+  - { label: 部署时间, value: 1 秒 }
+  - { label: 攻击距离, value: 近战：短 (0.5) }
+  - { label: 攻击目标, value: 地面 }
+  - { label: 初始数量, value: '4' }
+  - { label: 技能名称, value: 旗帜援军 }
+  - { label: 援军数量, value: '3' }
+  - { label: 旗帜持续, value: 5 秒 }
+  level_stats:
+    columns:
+    - { key: level, label: 等级 }
+    - { key: hitpoints, label: 生命值 }
+    - { key: damage, label: 伤害 }
+    - { key: damage_per_second, label: 每秒伤害 }
+    rows:
+    - { level: '1', hitpoints: '78', damage: '46', damage_per_second: '41' }
+    - { level: '2', hitpoints: '86', damage: '51', damage_per_second: '46' }
+    - { level: '3', hitpoints: '94', damage: '56', damage_per_second: '50' }
+    - { level: '4', hitpoints: '104', damage: '62', damage_per_second: '56' }
+    - { level: '5', hitpoints: '114', damage: '68', damage_per_second: '61' }
+    - { level: '6', hitpoints: '125', damage: '75', damage_per_second: '68' }
+    - { level: '7', hitpoints: '138', damage: '82', damage_per_second: '74' }
+    - { level: '8', hitpoints: '152', damage: '90', damage_per_second: '81' }
+    - { level: '9', hitpoints: '167', damage: '99', damage_per_second: '89' }
+    - { level: '10', hitpoints: '184', damage: '109', damage_per_second: '99' }
+    - { level: '11', hitpoints: '202', damage: '120', damage_per_second: '109' }
+    - { level: '12', hitpoints: '222', damage: '132', damage_per_second: '119' }
+    - { level: '13', hitpoints: '244', damage: '145', damage_per_second: '131' }
+    - { level: '14', hitpoints: '269', damage: '160', damage_per_second: '145' }
+    - { level: '15', hitpoints: '296', damage: '176', damage_per_second: '160' }
+    - { level: '16', hitpoints: '325', damage: '193', damage_per_second: '175' }
+usage_tips:
+- 等第一批哥布林已经迫使对手交出主要范围法术后再激活技能，能提高第二批援军存活并形成反击的概率。
+- 关注最后一只哥布林的位置；在己方半场留下旗帜更适合继续防守，在桥头或皇家塔附近留下则能形成更直接的进攻压力。
+- 不要因为技能只需一费就无条件使用。第一批会被快速清除、或对手仍有第二张范围牌时，保留圣水往往更稳妥。
+- 配合其他法术诱饵时，可利用第一批哥布林试探对手回应，再决定援军是继续同路施压还是保留技能应对下一轮。
+matchups:
+- title: 适合应对
+  text: 依赖单次范围法术处理人海、缺少连续清场能力的卡组。第一批被解决后，限时旗帜仍会迫使对手为第二批哥布林保留回应。
+- title: 需要提防
+  text: 同时携带多张低费范围伤害、能够持续清理小单位的范围部队，以及可在旗帜生成位置附近提前控场的法术。
+- title: 搭配思路
+  text: 适合滚木诱饵和矿工消耗体系，也能与公主、哥布林飞桶等牌共享对手的小法术压力；卡组应准备稳定对空，避免三费投入后被换路空军惩罚。
+balance_history:
+- date: '2026-04-06'
+  type: nerf
+  summary: 援军生成位置向后移动 1 格，为防守方留下更长反应时间。
+- date: '2026-02-23'
+  type: nerf
+  summary: 援军数量从 4 个减少至 3 个，旗帜持续时间从 7 秒缩短至 5 秒。
+- date: '2026-02-02'
+  type: hero
+  summary: 精英哥布林正式加入游戏，推出主动技能“旗帜援军”。

@@ -1,0 +1,143 @@
+---
+release_date: '2022-03-30'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 威猛矿工
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 0.4 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：长 (1.6)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: deploy_time
+    label: 爆炸逃生·部署时间
+    value: 1 秒
+  - key: cast_time
+    label: 爆炸逃生·施法时间
+    value: 0.933 秒
+  - key: ability_cooldown
+    label: 爆炸逃生·技能冷却
+    value: 13 秒
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage_stage_1
+      label: 伤害(第一阶段)
+    - key: damage_stage_2
+      label: 伤害(第二阶段)
+    - key: damage_stage_3
+      label: 伤害(第三阶段)
+    - key: damage_per_second_stage_1
+      label: 每秒伤害(第一阶段)
+    - key: damage_per_second_stage_2
+      label: 每秒伤害(第二阶段)
+    - key: damage_per_second_stage_3
+      label: 每秒伤害(第三阶段)
+    - key: explosive_escape_damage
+      label: 爆炸逃生伤害
+    rows:
+    - level: '11'
+      hitpoints: '2250'
+      damage_stage_1: '40'
+      damage_stage_2: '204'
+      damage_stage_3: '409'
+      damage_per_second_stage_1: '100'
+      damage_per_second_stage_2: '510'
+      damage_per_second_stage_3: '1022'
+      explosive_escape_damage: '332'
+    - level: '12'
+      hitpoints: '2469'
+      damage_stage_1: '44'
+      damage_stage_2: '220'
+      damage_stage_3: '449'
+      damage_per_second_stage_1: '110'
+      damage_per_second_stage_2: '550'
+      damage_per_second_stage_3: '1122'
+      explosive_escape_damage: '365'
+    - level: '13'
+      hitpoints: '2716'
+      damage_stage_1: '49'
+      damage_stage_2: '242'
+      damage_stage_3: '494'
+      damage_per_second_stage_1: '122'
+      damage_per_second_stage_2: '605'
+      damage_per_second_stage_3: '1235'
+      explosive_escape_damage: '401'
+    - level: '14'
+      hitpoints: '2979'
+      damage_stage_1: '54'
+      damage_stage_2: '266'
+      damage_stage_3: '542'
+      damage_per_second_stage_1: '135'
+      damage_per_second_stage_2: '665'
+      damage_per_second_stage_3: '1355'
+      explosive_escape_damage: '440'
+    - level: '15'
+      hitpoints: '3269'
+      damage_stage_1: '59'
+      damage_stage_2: '297'
+      damage_stage_3: '595'
+      damage_per_second_stage_1: '147'
+      damage_per_second_stage_2: '742'
+      damage_per_second_stage_3: '1487'
+      explosive_escape_damage: '483'
+balance_history:
+- date: '2025-03-31'
+  type: adjustment
+  summary: 地下换路期间允许受到皇家大厨强化。
+- date: '2025-01-08'
+  type: buff
+  summary: 伤害升至下一阶段所需时间从 2.25 秒缩短至 2 秒。
+- date: '2024-06-17'
+  type: nerf
+  summary: 爆炸逃生伤害降低 1.67%。
+- date: '2023-08-08'
+  type: nerf
+  summary: 伤害升至下一阶段所需时间从 2 秒延长至 2.25 秒。
+- date: '2023-06-21'
+  type: adjustment
+  summary: 修复爆炸逃生炸弹造成异常高伤害的问题。
+- date: '2023-06-06'
+  type: nerf
+  summary: 生命值降低 2.2%。
+- date: '2022-12-22'
+  type: adjustment
+  summary: 生命值提高 5%，移动速度由快速降回中等。
+- date: '2022-12-07'
+  type: buff
+  summary: 移动速度由中等提高为快速。
+- date: '2022-10-04'
+  type: nerf
+  summary: 生命值降低 8%。
+- date: '2022-04-21'
+  type: buff
+  summary: 爆炸逃生的炸弹引爆时间从 3 秒缩短至 1 秒。
+- date: '2022-04-08'
+  type: buff
+  summary: 爆炸逃生费用从 2 降至 1，并获得击退免疫。
+- date: '2022-04-01'
+  type: adjustment
+  summary: 修复威猛矿工无法被正确锁定的问题。
+- date: '2022-03-30'
+  type: release
+  summary: 威猛矿工正式加入游戏。

@@ -1,0 +1,125 @@
+---
+release_date: '2017-03-24'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 幻影刺客
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.4 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.75)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: dash_time
+    label: 突袭·突袭时间
+    value: 0.8 秒
+  - key: dash_speed
+    label: 突袭·突袭速度
+    value: '500'
+  - key: dash_range
+    label: 突袭·突袭距离
+    value: 3.5-6
+  - key: target
+    label: 突袭·攻击目标
+    value: 地面
+  - key: transport
+    label: 突袭·移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: dash_damage
+      label: 突袭伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      hitpoints: '750'
+      damage: '161'
+      dash_damage: '322'
+      damage_per_second: '161'
+    - level: '10'
+      hitpoints: '824'
+      damage: '176'
+      dash_damage: '354'
+      damage_per_second: '176'
+    - level: '11'
+      hitpoints: '906'
+      damage: '194'
+      dash_damage: '389'
+      damage_per_second: '194'
+    - level: '12'
+      hitpoints: '994'
+      damage: '213'
+      dash_damage: '427'
+      damage_per_second: '213'
+    - level: '13'
+      hitpoints: '1093'
+      damage: '234'
+      dash_damage: '469'
+      damage_per_second: '234'
+    - level: '14'
+      hitpoints: '1200'
+      damage: '257'
+      dash_damage: '515'
+      damage_per_second: '257'
+    - level: '15'
+      hitpoints: '1316'
+      damage: '282'
+      dash_damage: '565'
+      damage_per_second: '282'
+balance_history:
+- date: '2025-03-31'
+  type: adjustment
+  summary: 生命值降低 0.11%，伤害与突袭伤害提高 0.51%，并允许皇家大厨在突袭期间强化幻影刺客。
+- date: '2023-11-13'
+  type: adjustment
+  summary: 修复无法隔河向目标发动突袭的问题。
+- date: '2022-12-15'
+  type: adjustment
+  summary: 修复突袭伤害在部分交互中不一致的问题。
+- date: '2022-03-30'
+  type: adjustment
+  summary: 调整突袭期间的受击判定，修复突袭开始前过早不可选中以及结束时异常受伤的问题。
+- date: '2019-04-01'
+  type: nerf
+  summary: 生命值降低 4%。
+- date: '2018-09-05'
+  type: adjustment
+  summary: 突袭期间改为免疫伤害，但仍可被系统识别为场上单位。
+- date: '2018-02-12'
+  type: buff
+  summary: 发动突袭所需的最短距离从 4 格缩短至 3.5 格。
+- date: '2017-06-13'
+  type: buff
+  summary: 生命值提高 4%。
+- date: '2017-06-12'
+  type: buff
+  summary: 突袭蓄力时间从 1 秒缩短至 0.8 秒。
+- date: '2017-03-24'
+  type: release
+  summary: 幻影刺客正式加入游戏。

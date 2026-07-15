@@ -1,0 +1,128 @@
+---
+release_date: '2022-10-26'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 凤凰
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: spawn_speed
+    label: 生成间隔
+    value: 3.8 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：长 (1.6)
+  - key: death_damage_splash_radius
+    label: 死亡伤害范围
+    value: '1.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 空中
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: death_damage
+      label: 死亡伤害
+    - key: phoenix_egg_hitpoints
+      label: 蛋生命值
+    rows:
+    - level: '9'
+      hitpoints: '871'
+      damage: '180'
+      damage_per_second: '180'
+      death_damage: '135'
+      phoenix_egg_hitpoints: '199'
+    - level: '10'
+      hitpoints: '957'
+      damage: '198'
+      damage_per_second: '198'
+      death_damage: '149'
+      phoenix_egg_hitpoints: '219'
+    - level: '11'
+      hitpoints: '1052'
+      damage: '217'
+      damage_per_second: '217'
+      death_damage: '163'
+      phoenix_egg_hitpoints: '240'
+    - level: '12'
+      hitpoints: '1154'
+      damage: '238'
+      damage_per_second: '238'
+      death_damage: '179'
+      phoenix_egg_hitpoints: '264'
+    - level: '13'
+      hitpoints: '1269'
+      damage: '262'
+      damage_per_second: '262'
+      death_damage: '197'
+      phoenix_egg_hitpoints: '290'
+    - level: '14'
+      hitpoints: '1393'
+      damage: '288'
+      damage_per_second: '288'
+      death_damage: '216'
+      phoenix_egg_hitpoints: '318'
+    - level: '15'
+      hitpoints: '1528'
+      damage: '316'
+      damage_per_second: '316'
+      death_damage: '238'
+      phoenix_egg_hitpoints: '349'
+balance_history:
+- date: '2026-03-02'
+  type: buff
+  summary: 凤凰蛋生命值从 240 提高至 317，孵化时间从 4.3 秒缩短至 3.8 秒。
+- date: '2025-11-03'
+  type: buff
+  summary: 重生凤凰的生命值和伤害从本体的 80% 恢复为 100%，体型也恢复正常。
+- date: '2025-08-04'
+  type: adjustment
+  summary: 移除死亡伤害对皇家塔的伤害削减。
+- date: '2025-03-31'
+  type: buff
+  summary: 凤凰蛋生命值因数值取整提高约 0.41%，并修复受到皇家大厨强化后无法生成蛋的问题。
+- date: '2023-06-06'
+  type: nerf
+  summary: 攻击间隔从 0.9 秒延长至 1 秒。
+- date: '2023-04-04'
+  type: nerf
+  summary: 死亡伤害降低 10%。
+- date: '2023-02-07'
+  type: adjustment
+  summary: 重生凤凰的生命值和伤害调整为本体的 80%，体型同步缩小。
+- date: '2022-12-07'
+  type: nerf
+  summary: 生命值降低 13%。
+- date: '2022-11-21'
+  type: nerf
+  summary: 凤凰蛋生命值降低 34%。
+- date: '2022-11-02'
+  type: nerf
+  summary: 伤害降低 10%，凤凰蛋孵化时间从 4 秒延长至 4.3 秒。
+- date: '2022-10-26'
+  type: release
+  summary: 凤凰正式加入游戏。

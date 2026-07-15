@@ -1,0 +1,144 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 火枪手
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.7 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '6'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '1000'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      hitpoints: '336'
+      damage: '101'
+      damage_per_second: '101'
+    - level: '4'
+      hitpoints: '370'
+      damage: '111'
+      damage_per_second: '111'
+    - level: '5'
+      hitpoints: '407'
+      damage: '122'
+      damage_per_second: '122'
+    - level: '6'
+      hitpoints: '448'
+      damage: '135'
+      damage_per_second: '135'
+    - level: '7'
+      hitpoints: '492'
+      damage: '148'
+      damage_per_second: '148'
+    - level: '8'
+      hitpoints: '542'
+      damage: '163'
+      damage_per_second: '163'
+    - level: '9'
+      hitpoints: '596'
+      damage: '179'
+      damage_per_second: '179'
+    - level: '10'
+      hitpoints: '655'
+      damage: '197'
+      damage_per_second: '197'
+    - level: '11'
+      hitpoints: '721'
+      damage: '217'
+      damage_per_second: '217'
+    - level: '12'
+      hitpoints: '793'
+      damage: '239'
+      damage_per_second: '239'
+    - level: '13'
+      hitpoints: '872'
+      damage: '263'
+      damage_per_second: '263'
+    - level: '14'
+      hitpoints: '960'
+      damage: '289'
+      damage_per_second: '289'
+    - level: '15'
+      hitpoints: '1056'
+      damage: '318'
+      damage_per_second: '318'
+    - level: '16'
+      hitpoints: '1161'
+      damage: '349'
+      damage_per_second: '349'
+balance_history:
+- date: '2025-12-01'
+  type: hero
+  summary: 精英火枪手正式加入游戏，推出召唤随身炮塔的主动技能。
+- date: '2025-10-29'
+  type: visual
+  summary: 更换火枪手的卡牌图片。
+- date: '2025-03-31'
+  type: nerf
+  summary: 伤害降低 0.45%，生命值降低 0.06%。
+- date: '2025-02-04'
+  type: buff
+  summary: 首次攻击间隔从 0.8 秒缩短至 0.7 秒。
+- date: '2024-11-04'
+  type: evolution
+  summary: 觉醒火枪手正式加入游戏，推出三发超远距离狙击机制。
+- date: '2022-02-03'
+  type: buff
+  summary: 攻击间隔从 1.1 秒缩短至 1 秒。
+- date: '2021-09-02'
+  type: visual
+  summary: 更换火枪手的卡牌立绘。
+- date: '2020-10-06'
+  type: nerf
+  summary: 首次攻击间隔从 0.5 秒延长至 0.8 秒。
+- date: '2019-02-04'
+  type: buff
+  summary: 伤害提高 3%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离显示问题，将显示值从 6.5 格修正为 6 格，实际有效距离不变。
+- date: '2016-02-29'
+  type: visual
+  summary: 视野范围从 6.5 格缩短至 6 格，并更换火枪手的卡牌图片。
+- date: '2016-02-19'
+  type: buff
+  summary: 伤害提高 11%。
+- date: '2016-02-09'
+  type: adjustment
+  summary: 圣水费用从 5 费降低至 4 费，伤害降低 25%。
+- date: '2016-01-04'
+  type: release
+  summary: 火枪手随游戏早期版本正式加入。

@@ -1,0 +1,8 @@
+source_url: https://clashroyale.fandom.com/wiki/Inferno_Dragon
+items:
+  - { date: '2025-06-02', type: evolution, summary: '觉醒地狱飞龙正式上线。' }
+  - { date: '2025-03-31', type: adjustment, summary: '生命值因数值取整提高约 0.07%。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2017-06-12', type: buff, summary: '生命值提高 7%，重新锁定目标速度加快。' }
+  - { date: '2016-12-15', type: buff, summary: '生命值提高 5%，重新锁定目标速度加快。' }
+  - { date: '2016-09-30', type: release, summary: '地狱飞龙正式加入游戏。' }

@@ -1,0 +1,35 @@
+source_url: https://clashroyale.fandom.com/wiki/Skeletons
+items:
+- date: '2025-10-06'
+  type: nerf
+  summary: 攻击间隔从 1 秒延长至 1.1 秒。
+- date: '2023-06-19'
+  type: evolution
+  summary: 觉醒骷髅兵正式上线，骷髅兵获得觉醒形态，同时更换卡牌图片。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2017-06-12'
+  type: adjustment
+  summary: 单位数量从 4 个减少至 3 个，并增大骷髅兵部署后的站位间距。
+- date: '2017-02-13'
+  type: buff
+  summary: 单位数量从 3 个增加至 4 个。
+- date: '2016-06-21'
+  type: nerf
+  summary: 单位数量从 4 个减少至 3 个。
+- date: '2016-05-18'
+  type: buff
+  summary: 生命值和伤害均提高 5%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 0.75 格改为 0.5 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 视野范围从 6 格缩小至 5.5 格。
+- date: '2016-02-19'
+  type: buff
+  summary: 生命值和伤害均提高 11%。
+- date: '2016-01-04'
+  type: release
+  summary: 骷髅兵随皇室战争上线加入游戏。

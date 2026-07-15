@@ -1,0 +1,44 @@
+source_url: https://clashroyale.fandom.com/wiki/Minions
+items:
+- date: '2026-02-02'
+  type: nerf
+  summary: 攻击间隔从 1.1 秒延长至 1.2 秒。
+- date: '2025-10-06'
+  type: nerf
+  summary: 伤害降低 9%。
+- date: '2025-09-01'
+  type: nerf
+  summary: 攻击间隔从 1 秒延长至 1.1 秒。
+- date: '2025-08-07'
+  type: nerf
+  summary: 生命值降低 14%。
+- date: '2025-08-04'
+  type: buff
+  summary: 生命值提高 16%，攻击距离从 1.6 格提高至 2.5 格，并取消近战攻击距离分类。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修复不同阵营部署时，三只亡灵的生成阵型没有正确镜像的问题。
+- date: '2022-12-07'
+  type: buff
+  summary: 伤害提高 15%。
+- date: '2020-11-03'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2020-06-02'
+  type: buff
+  summary: 三只亡灵依次登场的间隔从 0.15 秒缩短至 0.1 秒。
+- date: '2019-07-01'
+  type: nerf
+  summary: 攻击距离从 2 格缩短至 1.6 格，并归类为远距离近战。
+- date: '2018-06-20'
+  type: adjustment
+  summary: 三只亡灵改为依次登场，每只之间间隔 0.15 秒。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 2.5 格改为 2 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 视野范围从 6 格缩小至 5.5 格。
+- date: '2016-01-04'
+  type: release
+  summary: 亡灵随皇室战争上线加入游戏。

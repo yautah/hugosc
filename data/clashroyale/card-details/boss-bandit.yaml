@@ -1,0 +1,111 @@
+---
+release_date: '2025-04-07'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 刺客头领
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.2 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.4 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.8)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: dash_time
+    label: 突袭·突袭时间
+    value: 0.8 秒
+  - key: dash_speed
+    label: 突袭·突袭速度
+    value: '500'
+  - key: dash_range
+    label: 突袭·突袭距离
+    value: 3.5-6
+  - key: target
+    label: 突袭·攻击目标
+    value: 地面
+  - key: transport
+    label: 突袭·移动方式
+    value: 地面
+  - key: cast_time
+    label: 逃生手榴弹·施法时间
+    value: 0.933 秒
+  - key: ability_cooldown
+    label: 逃生手榴弹·技能冷却
+    value: 3 秒
+  - key: ability_count
+    label: 逃生手榴弹·技能次数
+    value: '2'
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: dash_damage
+      label: 突袭伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '11'
+      hitpoints: '2624'
+      damage: '268'
+      dash_damage: '537'
+      damage_per_second: '223'
+    - level: '12'
+      hitpoints: '2880'
+      damage: '295'
+      dash_damage: '590'
+      damage_per_second: '245'
+    - level: '13'
+      hitpoints: '3167'
+      damage: '324'
+      dash_damage: '648'
+      damage_per_second: '270'
+    - level: '14'
+      hitpoints: '3474'
+      damage: '355'
+      dash_damage: '711'
+      damage_per_second: '295'
+    - level: '15'
+      hitpoints: '3813'
+      damage: '390'
+      dash_damage: '781'
+      damage_per_second: '325'
+    - level: '16'
+      hitpoints: '4194'
+      damage: '429'
+      dash_damage: '858'
+      damage_per_second: '358'
+balance_history:
+- date: '2026-01-12'
+  type: adjustment
+  summary: 普通伤害和突袭伤害降低 9%，攻击间隔从 1.2 秒缩短至 1.1 秒。
+- date: '2025-07-08'
+  type: adjustment
+  summary: 逃生手榴弹改为固定可使用两次，两次之间有 3 秒冷却；生命值同时降低 4%。
+- date: '2025-06-03'
+  type: nerf
+  summary: 生命值降低 3%。
+- date: '2025-04-07'
+  type: release
+  summary: 刺客头领正式加入游戏。

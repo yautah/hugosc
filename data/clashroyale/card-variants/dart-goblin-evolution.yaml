@@ -1,0 +1,106 @@
+key: dart-goblin-evolution
+parent_key: dart-goblin
+kind: evolution
+order: 2
+name: 觉醒吹箭哥布林
+label: 觉醒
+url: /clashroyale/cards/dart-goblin/evolution/
+image: images/clashroyale/cards/variants/dart-goblin-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Dart_Goblin/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436647
+release_date: '2025-01-06'
+summary: 觉醒吹箭哥布林的飞镖会在命中位置留下毒素区域，连续命中同一范围可将毒素提升至三阶段并显著增加伤害。
+facts:
+  - { label: 圣水, value: '3' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 毒素半径, value: 1.5 格 }
+  - { label: 基础卡牌, value: 吹箭哥布林 }
+overview:
+  - 觉醒吹箭哥布林每次命中都会在目标位置生成持续一秒的毒素区域。区域会根据命中的飞镖数量逐步增强：第一支进入一阶段，第四支进入二阶段，第七支进入三阶段；阶段越高，每秒造成的伤害越高。
+  - 毒素区域可以伤害空中与地面单位，对皇冠塔仅造成四分之一伤害。觉醒形态本体仍然十分脆弱，想让毒素升到高阶段，需要用肉盾、控制或建筑拉扯为它创造持续攻击同一区域的时间。
+units:
+  - name: 觉醒吹箭哥布林
+    kind: main
+    section_label: 卡牌本体
+    summary: 本体属性与普通吹箭哥布林一致，负责用高速远程攻击持续生成并升级毒素区域。
+    mechanics:
+      - { label: 攻击间隔, value: 0.8 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 极快 (120) }
+      - { label: 攻击距离, value: 6.5 格 }
+      - { label: 视野距离, value: 7 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '3', hitpoints: '122', damage: '70', damage_per_second: '87' }
+        - { level: '4', hitpoints: '134', damage: '77', damage_per_second: '96' }
+        - { level: '5', hitpoints: '147', damage: '85', damage_per_second: '106' }
+        - { level: '6', hitpoints: '162', damage: '94', damage_per_second: '117' }
+        - { level: '7', hitpoints: '178', damage: '103', damage_per_second: '128' }
+        - { level: '8', hitpoints: '196', damage: '113', damage_per_second: '141' }
+        - { level: '9', hitpoints: '216', damage: '125', damage_per_second: '156' }
+        - { level: '10', hitpoints: '237', damage: '137', damage_per_second: '171' }
+        - { level: '11', hitpoints: '261', damage: '151', damage_per_second: '188' }
+        - { level: '12', hitpoints: '287', damage: '166', damage_per_second: '207' }
+        - { level: '13', hitpoints: '316', damage: '183', damage_per_second: '228' }
+        - { level: '14', hitpoints: '347', damage: '201', damage_per_second: '251' }
+        - { level: '15', hitpoints: '382', damage: '221', damage_per_second: '276' }
+        - { level: '16', hitpoints: '420', damage: '243', damage_per_second: '303' }
+  - name: 毒素区域
+    kind: child
+    section_label: 觉醒能力
+    summary: 飞镖在落点留下范围毒素，累计命中第一、第四和第七支飞镖时分别提升至三个伤害阶段。
+    mechanics:
+      - { label: 作用半径, value: 1.5 格 }
+      - { label: 区域持续, value: 1 秒 }
+      - { label: 一阶段门槛, value: 第 1 支飞镖 }
+      - { label: 二阶段门槛, value: 第 4 支飞镖 }
+      - { label: 三阶段门槛, value: 第 7 支飞镖 }
+      - { label: 皇冠塔伤害, value: 25% }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: stage_one_damage, label: 一阶段伤害 }
+        - { key: stage_two_damage, label: 二阶段伤害 }
+        - { key: stage_three_damage, label: 三阶段伤害 }
+        - { key: crown_stage_one_damage, label: 皇冠塔一阶段 }
+        - { key: crown_stage_two_damage, label: 皇冠塔二阶段 }
+        - { key: crown_stage_three_damage, label: 皇冠塔三阶段 }
+      rows:
+        - { level: '3', stage_one_damage: '30', stage_two_damage: '60', stage_three_damage: '143', crown_stage_one_damage: '8', crown_stage_two_damage: '15', crown_stage_three_damage: '36' }
+        - { level: '4', stage_one_damage: '33', stage_two_damage: '66', stage_three_damage: '158', crown_stage_one_damage: '8', crown_stage_two_damage: '17', crown_stage_three_damage: '40' }
+        - { level: '5', stage_one_damage: '36', stage_two_damage: '72', stage_three_damage: '173', crown_stage_one_damage: '9', crown_stage_two_damage: '18', crown_stage_three_damage: '43' }
+        - { level: '6', stage_one_damage: '40', stage_two_damage: '79', stage_three_damage: '191', crown_stage_one_damage: '10', crown_stage_two_damage: '20', crown_stage_three_damage: '48' }
+        - { level: '7', stage_one_damage: '44', stage_two_damage: '87', stage_three_damage: '210', crown_stage_one_damage: '11', crown_stage_two_damage: '22', crown_stage_three_damage: '53' }
+        - { level: '8', stage_one_damage: '48', stage_two_damage: '96', stage_three_damage: '231', crown_stage_one_damage: '12', crown_stage_two_damage: '24', crown_stage_three_damage: '58' }
+        - { level: '9', stage_one_damage: '53', stage_two_damage: '106', stage_three_damage: '254', crown_stage_one_damage: '13', crown_stage_two_damage: '27', crown_stage_three_damage: '64' }
+        - { level: '10', stage_one_damage: '58', stage_two_damage: '116', stage_three_damage: '279', crown_stage_one_damage: '15', crown_stage_two_damage: '29', crown_stage_three_damage: '70' }
+        - { level: '11', stage_one_damage: '64', stage_two_damage: '128', stage_three_damage: '307', crown_stage_one_damage: '16', crown_stage_two_damage: '32', crown_stage_three_damage: '77' }
+        - { level: '12', stage_one_damage: '70', stage_two_damage: '141', stage_three_damage: '338', crown_stage_one_damage: '18', crown_stage_two_damage: '35', crown_stage_three_damage: '85' }
+        - { level: '13', stage_one_damage: '77', stage_two_damage: '155', stage_three_damage: '371', crown_stage_one_damage: '19', crown_stage_two_damage: '39', crown_stage_three_damage: '93' }
+        - { level: '14', stage_one_damage: '85', stage_two_damage: '170', stage_three_damage: '409', crown_stage_one_damage: '21', crown_stage_two_damage: '43', crown_stage_three_damage: '102' }
+        - { level: '15', stage_one_damage: '94', stage_two_damage: '187', stage_three_damage: '449', crown_stage_one_damage: '24', crown_stage_two_damage: '47', crown_stage_three_damage: '112' }
+        - { level: '16', stage_one_damage: '103', stage_two_damage: '206', stage_three_damage: '494', crown_stage_one_damage: '26', crown_stage_two_damage: '52', crown_stage_three_damage: '124' }
+usage_tips:
+  - 把它放在肉盾或防守单位后方，让飞镖持续落在同一片区域；只打一两次时毒素收益有限，升到二、三阶段才会形成明显压制。
+  - 面对移动缓慢或被建筑吸引的单位时更容易叠加毒素，可用冰雪精灵、飓风法术或其他控制延长目标停留时间。
+  - 进攻皇冠塔时不要只看三阶段面板，毒素对皇冠塔仅造成四分之一伤害，本体飞镖和存活时间仍决定主要输出。
+  - 本体生命值没有额外强化，应避开小法术和远程点杀；必要时先用其他单位逼出法术，再部署觉醒形态。
+matchups:
+  - { title: 适合应对, text: '适合攻击移动缓慢、聚集或被持续拉扯的单位，高阶段毒素能同时消耗目标及其周围支援。' }
+  - { title: 需要提防, text: '小法术、远程点杀和快速突进会在毒素升级前解决本体；不断移动的目标也很难留在同一落点。' }
+  - { title: 搭配思路, text: '与肉盾、建筑、冰冻减速和飓风法术配合，为连续七次命中及三阶段毒素创造时间。' }
+balance_history:
+  - { date: '2026-06-01', type: buff, summary: '十一级毒素一阶段伤害从 51 提高至 64，二阶段伤害从 115 提高至 128；三阶段伤害保持 307。' }
+  - { date: '2026-03-02', type: nerf, summary: 随基础卡牌调整，视野距离从 7.5 格缩短至 7 格。 }
+  - { date: '2026-01-12', type: nerf, summary: 随基础卡牌调整，十一级飞镖伤害从 156 降低至 151。 }
+  - { date: '2025-08-04', type: adjustment, summary: '毒素区域持续时间从 4 秒缩短至 1 秒，攻击间隔从 0.7 秒延长至 0.8 秒，本体伤害提高 17%。' }
+  - { date: '2025-03-31', type: adjustment, summary: 生命值提高约 0.38%，伤害降低约 1.48%。 }
+  - { date: '2025-02-04', type: nerf, summary: 本体伤害降低 5%。 }
+  - { date: '2025-01-06', type: evolution, summary: 觉醒吹箭哥布林正式上线。 }

@@ -1,0 +1,95 @@
+---
+release_date: '2016-11-11'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 飓风法术
+  kind: main
+  mechanics:
+  - key: radius
+    label: 作用半径
+    value: '5.5'
+  - key: duration
+    label: 持续时间
+    value: 1.05 秒
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    rows:
+    - level: '6'
+      area_damage: '52'
+      crown_tower_damage: '18'
+    - level: '7'
+      area_damage: '57'
+      crown_tower_damage: '20'
+    - level: '8'
+      area_damage: '63'
+      crown_tower_damage: '22'
+    - level: '9'
+      area_damage: '69'
+      crown_tower_damage: '24'
+    - level: '10'
+      area_damage: '76'
+      crown_tower_damage: '26'
+    - level: '11'
+      area_damage: '84'
+      crown_tower_damage: '29'
+    - level: '12'
+      area_damage: '92'
+      crown_tower_damage: '32'
+    - level: '13'
+      area_damage: '102'
+      crown_tower_damage: '35'
+    - level: '14'
+      area_damage: '112'
+      crown_tower_damage: '39'
+    - level: '15'
+      area_damage: '123'
+      crown_tower_damage: '42'
+    - level: '16'
+      area_damage: '135'
+      crown_tower_damage: '47'
+balance_history:
+- date: '2025-04-09'
+  type: nerf
+  summary: 伤害间隔从 0.5 秒延长至 0.55 秒。
+- date: '2025-02-04'
+  type: adjustment
+  summary: 伐木工幽灵改为免疫飓风拉扯。
+- date: '2023-06-19'
+  type: adjustment
+  summary: 修复单位被拉出攻击距离后仍继续攻击皇家塔的问题。
+- date: '2022-03-30'
+  type: adjustment
+  summary: 修复部分单位偶尔忽略拉扯效果的问题。
+- date: '2021-11-15'
+  type: adjustment
+  summary: 英雄发动主动技能时仍会受到飓风伤害。
+- date: '2021-06-07'
+  type: visual
+  summary: 卡牌信息页面加入飓风法术形象。
+- date: '2020-05-05'
+  type: adjustment
+  summary: 持续时间从 2.05 秒缩短至 1.05 秒，拉力从 220% 提高至 360%，伤害提高 100%，并开始伤害建筑。
+- date: '2018-04-25'
+  type: adjustment
+  summary: 每秒伤害提高 21%，持续时间从 2.55 秒缩短至 2.05 秒，并允许在河道区域施放。
+- date: '2017-06-12'
+  type: adjustment
+  summary: 持续时间从 3.05 秒缩短至 2.55 秒，多个飓风效果现在可以叠加。
+- date: '2017-03-13'
+  type: adjustment
+  summary: 允许在建筑占据的区域施放。
+- date: '2016-12-15'
+  type: buff
+  summary: 作用半径从 5 格提高至 5.5 格，拉力从 60% 提高至 220%。
+- date: '2016-11-11'
+  type: release
+  summary: 飓风法术正式加入游戏。

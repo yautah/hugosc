@@ -1,0 +1,16 @@
+source_url: https://clashroyale.fandom.com/wiki/Ice_Golem
+items:
+  - { date: '2026-01-05', type: hero, summary: 英雄戈仑冰人正式加入游戏。 }
+  - { date: '2025-10-06', type: nerf, summary: 冰爆减速幅度从 35% 降低至 30%。 }
+  - { date: '2025-07-08', type: buff, summary: 生命值提高 10%。 }
+  - { date: '2025-03-31', type: buff, summary: 生命值提高 0.08%。 }
+  - { date: '2023-10-03', type: buff, summary: 冰爆减速持续时间从 1.5 秒延长至 2 秒。 }
+  - { date: '2022-12-22', type: visual, summary: 卡牌图片更换为当前版本。 }
+  - { date: '2022-08-02', type: buff, summary: 冰爆减速持续时间从 1 秒延长至 1.5 秒。 }
+  - { date: '2020-02-03', type: visual, summary: 卡牌信息页面加入角色立绘。 }
+  - { date: '2018-06-04', type: nerf, summary: 生命值降低 5%。 }
+  - { date: '2017-12-12', type: nerf, summary: 冰爆减速持续时间从 2 秒缩短至 1 秒。 }
+  - { date: '2017-01-23', type: nerf, summary: '生命值降低 5%，冰爆半径从 3 格缩短至 2 格，减速持续时间从 3 秒缩短至 2 秒。' }
+  - { date: '2016-11-01', type: buff, summary: 死亡伤害提高 74%。 }
+  - { date: '2016-10-20', type: buff, summary: 死亡冰爆开始影响空中单位。 }
+  - { date: '2016-10-14', type: release, summary: 戈仑冰人正式加入游戏。 }

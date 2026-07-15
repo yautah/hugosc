@@ -1,0 +1,133 @@
+---
+release_date: '2025-01-06'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 符文巨人
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.5 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：中 (1.2)
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: enchant_range
+    label: 符文强化·附魔范围
+    value: 8.5 格
+  - key: enchant_limit
+    label: 符文强化·附魔上限
+    value: '2'
+  - key: enchant_shot
+    label: 符文强化·附魔攻击
+    value: 每第 3 次攻击
+  - key: enchant_duration_after_she_dies
+    label: 符文强化·死亡后附魔持续时间
+    value: 5 秒
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: bonus_damage
+      label: 额外伤害
+    rows:
+    - level: '6'
+      hitpoints: '1664'
+      damage: '75'
+      damage_per_second: '50'
+      bonus_damage: '137'
+    - level: '7'
+      hitpoints: '1830'
+      damage: '82'
+      damage_per_second: '54'
+      bonus_damage: '151'
+    - level: '8'
+      hitpoints: '2007'
+      damage: '90'
+      damage_per_second: '60'
+      bonus_damage: '165'
+    - level: '9'
+      hitpoints: '2204'
+      damage: '99'
+      damage_per_second: '66'
+      bonus_damage: '182'
+    - level: '10'
+      hitpoints: '2423'
+      damage: '109'
+      damage_per_second: '72'
+      bonus_damage: '200'
+    - level: '11'
+      hitpoints: '2662'
+      damage: '120'
+      damage_per_second: '80'
+      bonus_damage: '220'
+    - level: '12'
+      hitpoints: '2922'
+      damage: '132'
+      damage_per_second: '88'
+      bonus_damage: '241'
+    - level: '13'
+      hitpoints: '3213'
+      damage: '145'
+      damage_per_second: '96'
+      bonus_damage: '265'
+    - level: '14'
+      hitpoints: '3525'
+      damage: '159'
+      damage_per_second: '106'
+      bonus_damage: '291'
+    - level: '15'
+      hitpoints: '3868'
+      damage: '174'
+      damage_per_second: '116'
+      bonus_damage: '319'
+    - level: '16'
+      hitpoints: '4253'
+      damage: '192'
+      damage_per_second: '128'
+      bonus_damage: '351'
+balance_history:
+- date: '2026-06-01'
+  type: buff
+  summary: 11 级普通攻击伤害从 120 提高至 153，提升约 28%。
+- date: '2025-06-03'
+  type: buff
+  summary: 生命值提高 6%。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修复强化与雷电飞龙、觉醒哥布林牢笼等单位之间的多项交互问题。
+- date: '2025-03-04'
+  type: nerf
+  summary: 生命值降低 11%，并使符文巨人阵亡后的强化效果最多再持续 5 秒。
+- date: '2025-01-30'
+  type: adjustment
+  summary: 多弹丸攻击改为分摊一次追加伤害，附属单位不再单独获得强化。
+- date: '2025-01-21'
+  type: buff
+  summary: 符文巨人阵亡后，已经施加的强化不再立即消失。
+- date: '2025-01-06'
+  type: release
+  summary: 符文巨人正式加入游戏。

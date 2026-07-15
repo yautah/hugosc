@@ -1,6 +1,11 @@
 {
   "name": "hugosc",
   "private": true,
+  "scripts": {
+    "audit:clash-cards": "ruby tools/audit-clash-card-workflow.rb",
+    "discover:clash-card-variants": "ruby tools/discover-clash-card-variants.rb",
+    "validate:clash-data": "ruby tools/validate-clash-data.rb"
+  },
   "dependencies": {
     "fuse.js": "7.5.0"
   }

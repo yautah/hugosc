@@ -1,0 +1,149 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 哥布林
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.6 秒
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.5)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '4'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '78'
+      damage: '46'
+      damage_per_second: '41'
+    - level: '2'
+      hitpoints: '86'
+      damage: '51'
+      damage_per_second: '46'
+    - level: '3'
+      hitpoints: '94'
+      damage: '56'
+      damage_per_second: '50'
+    - level: '4'
+      hitpoints: '104'
+      damage: '62'
+      damage_per_second: '56'
+    - level: '5'
+      hitpoints: '114'
+      damage: '68'
+      damage_per_second: '61'
+    - level: '6'
+      hitpoints: '125'
+      damage: '75'
+      damage_per_second: '68'
+    - level: '7'
+      hitpoints: '138'
+      damage: '82'
+      damage_per_second: '74'
+    - level: '8'
+      hitpoints: '152'
+      damage: '90'
+      damage_per_second: '81'
+    - level: '9'
+      hitpoints: '167'
+      damage: '99'
+      damage_per_second: '89'
+    - level: '10'
+      hitpoints: '184'
+      damage: '109'
+      damage_per_second: '99'
+    - level: '11'
+      hitpoints: '202'
+      damage: '120'
+      damage_per_second: '109'
+    - level: '12'
+      hitpoints: '222'
+      damage: '132'
+      damage_per_second: '119'
+    - level: '13'
+      hitpoints: '244'
+      damage: '145'
+      damage_per_second: '131'
+    - level: '14'
+      hitpoints: '269'
+      damage: '160'
+      damage_per_second: '145'
+    - level: '15'
+      hitpoints: '296'
+      damage: '176'
+      damage_per_second: '160'
+    - level: '16'
+      hitpoints: '325'
+      damage: '193'
+      damage_per_second: '175'
+balance_history:
+- date: '2026-02-02'
+  type: hero
+  summary: 精英哥布林正式上线，哥布林获得精英形态。
+- date: '2025-04-09'
+  type: adjustment
+  summary: 首次攻击间隔从 0.4 秒延长至 0.6 秒，部署时间从 1.2 秒缩短至 1 秒。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修复不同阵营部署时，四个哥布林的生成阵型没有正确镜像的问题。
+- date: '2024-01-03'
+  type: nerf
+  summary: 部署时间从 1 秒延长至 1.2 秒。
+- date: '2023-06-06'
+  type: nerf
+  summary: 每个哥布林依次登场的间隔从 0.1 秒延长至 0.2 秒。
+- date: '2022-10-26'
+  type: adjustment
+  summary: 单位数量从 3 个增加至 4 个，首次攻击间隔从 0.2 秒延长至 0.4 秒。
+- date: '2021-09-06'
+  type: adjustment
+  summary: 增大四个哥布林部署后的站位间距。
+- date: '2020-06-02'
+  type: adjustment
+  summary: 哥布林改为依次登场，每个单位之间间隔 0.1 秒。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2018-07-02'
+  type: nerf
+  summary: 生命值降低 1%，修正同等级亡灵无法两次攻击将其击败的取整问题。
+- date: '2017-12-12'
+  type: nerf
+  summary: 伤害降低 6%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 1 格改为 0.5 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 视野范围从 6 格缩小至 5.5 格。
+- date: '2016-01-04'
+  type: release
+  summary: 哥布林随皇室战争上线加入游戏。

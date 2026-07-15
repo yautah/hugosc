@@ -1,0 +1,98 @@
+key: dark-prince-hero
+parent_key: dark-prince
+kind: hero
+order: 3
+name: 精英黑暗王子
+label: 精英
+url: /clashroyale/cards/dark-prince/hero/
+image: images/clashroyale/cards/variants/dark-prince-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Dark_Prince/Hero
+source_retrieved_at: '2026-07-15'
+source_revision: 436049
+release_date: '2026-05-04'
+summary: 精英黑暗王子可主动下马造成范围伤害，本体留在原地近战，犀牛则独立冲向最近的建筑。
+facts:
+  - { label: 部署圣水, value: '4' }
+  - { label: 技能圣水, value: '3' }
+  - { label: 使用次数, value: 每次部署 1 次 }
+  - { label: 基础卡牌, value: 黑暗王子 }
+overview:
+  - 精英黑暗王子的主动技能会把一个单位拆成两个独立目标。下马时对三格内地面单位造成范围伤害和击退，黑暗王子保留生命值、护盾和普通范围攻击，但不再冲锋；犀牛则锁定最近建筑并拥有自己的生命值、普通伤害和冲锋伤害。
+  - 技能只能在每次部署中使用一次，部署与技能合计需要七费。分离后，原本锁定黑暗王子的敌军不会自动改攻犀牛，因此可以让本体继续承受火力、犀牛趁机冲向建筑。2026 年 6 月调整后，犀牛的下马伤害不再影响皇家塔，首次冲锋也需要移动 2.5 格。
+units:
+  - name: 下马后的黑暗王子
+    kind: main
+    section_label: 技能后本体
+    summary: 保留普通攻击、生命值和护盾，但失去再次冲锋的能力；敌方原有锁定不会因为犀牛出现而自动改变。
+    mechanics:
+      - { label: 攻击间隔, value: 1.3 秒 }
+      - { label: 首次攻击间隔, value: 0.4 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 攻击距离, value: 近战：中 (1.2) }
+      - { label: 范围半径, value: 1.1 格 }
+      - { label: 攻击目标, value: 地面 }
+      - { label: 冲锋能力, value: 下马后失去 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: shield_hitpoints, label: 护盾生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '750', shield_hitpoints: '150', area_damage: '166', damage_per_second: '127' }
+        - { level: '7', hitpoints: '825', shield_hitpoints: '165', area_damage: '183', damage_per_second: '140' }
+        - { level: '8', hitpoints: '905', shield_hitpoints: '181', area_damage: '201', damage_per_second: '154' }
+        - { level: '9', hitpoints: '994', shield_hitpoints: '199', area_damage: '221', damage_per_second: '170' }
+        - { level: '10', hitpoints: '1092', shield_hitpoints: '219', area_damage: '243', damage_per_second: '186' }
+        - { level: '11', hitpoints: '1200', shield_hitpoints: '240', area_damage: '266', damage_per_second: '204' }
+        - { level: '12', hitpoints: '1317', shield_hitpoints: '264', area_damage: '293', damage_per_second: '225' }
+        - { level: '13', hitpoints: '1449', shield_hitpoints: '290', area_damage: '321', damage_per_second: '246' }
+        - { level: '14', hitpoints: '1589', shield_hitpoints: '318', area_damage: '352', damage_per_second: '270' }
+        - { level: '15', hitpoints: '1744', shield_hitpoints: '349', area_damage: '387', damage_per_second: '297' }
+        - { level: '16', hitpoints: '1918', shield_hitpoints: '384', area_damage: '425', damage_per_second: '326' }
+  - name: 犀牛
+    kind: child
+    section_label: 技能分离单位
+    summary: 下马时生成并锁定最近建筑；首次冲锋需要移动 2.5 格，之后以普通攻击继续拆除建筑。
+    mechanics:
+      - { label: 攻击间隔, value: 1.6 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 攻击距离, value: 近战：短 (0.5) }
+      - { label: 攻击目标, value: 建筑 }
+      - { label: 首次冲锋距离, value: 2.5 格 }
+      - { label: 下马伤害半径, value: 3 格 }
+      - { label: 下马击退, value: 1.5 格 }
+      - { label: 皇家塔下马伤害, value: '0' }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: charge_damage, label: 冲锋伤害 }
+        - { key: spawn_damage, label: 下马范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '848', damage: '112', charge_damage: '224', spawn_damage: '192', damage_per_second: '70' }
+        - { level: '7', hitpoints: '932', damage: '123', charge_damage: '246', spawn_damage: '211', damage_per_second: '76' }
+        - { level: '8', hitpoints: '1023', damage: '135', charge_damage: '270', spawn_damage: '232', damage_per_second: '84' }
+        - { level: '9', hitpoints: '1123', damage: '149', charge_damage: '298', spawn_damage: '254', damage_per_second: '93' }
+        - { level: '10', hitpoints: '1234', damage: '164', charge_damage: '328', spawn_damage: '279', damage_per_second: '102' }
+        - { level: '11', hitpoints: '1356', damage: '179', charge_damage: '358', spawn_damage: '307', damage_per_second: '112' }
+        - { level: '12', hitpoints: '1488', damage: '197', charge_damage: '394', spawn_damage: '337', damage_per_second: '123' }
+        - { level: '13', hitpoints: '1637', damage: '216', charge_damage: '432', spawn_damage: '371', damage_per_second: '135' }
+        - { level: '14', hitpoints: '1795', damage: '237', charge_damage: '474', spawn_damage: '407', damage_per_second: '148' }
+        - { level: '15', hitpoints: '1971', damage: '260', charge_damage: '520', spawn_damage: '447', damage_per_second: '162' }
+        - { level: '16', hitpoints: '2167', damage: '286', charge_damage: '572', spawn_damage: '490', damage_per_second: '178' }
+usage_tips:
+  - 等黑暗王子接近密集地面防守或皇家塔附近后再发动技能，下马范围伤害和击退可以先清理道路，犀牛随后独立冲向建筑。
+  - 利用目标锁定关系让下马本体继续承受火力，不要把技能理解为重新隐身；犀牛能否脱离防守单位的攻击路线决定技能收益。
+  - 技能额外消耗三费，普通黑暗王子已经能完成防守时应保留圣水；一次性投入七费会显著降低另一条路线的应对能力。
+  - 皇家塔不再承受下马范围伤害，靠近塔时的核心收益是击退地面防守和生成犀牛，而不是额外直接削塔。
+matchups:
+  - { title: 适合应对, text: '适合突破依赖地面单位拦截的防守，下马范围伤害可以清理或击退周围单位，犀牛则迫使对手额外处理建筑目标压力。' }
+  - { title: 需要提防, text: '防御建筑可以直接吸引犀牛，空中单位不受下马范围伤害；高爆发防守也可能在分离后迅速处理本体和犀牛。' }
+  - { title: 搭配思路, text: '与王子、巨人或桥头施压单位组合，利用下马击退打乱地面防守；小法术和防空单位负责补足对人海及空中目标的处理。' }
+balance_history:
+  - { date: '2026-06-01', type: adjustment, summary: '技能部署时间从 2 秒缩短至 1 秒，犀牛首次冲锋所需距离从 0 调整为 2.5 格，犀牛的下马范围伤害不再影响皇家塔。' }
+  - { date: '2026-05-04', type: hero, summary: '精英黑暗王子与主动技能正式上线。' }

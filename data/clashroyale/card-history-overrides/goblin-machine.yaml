@@ -1,0 +1,10 @@
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Machine
+items:
+  - { date: '2025-10-06', type: nerf, summary: '生命值从 2304 降至 2150，火箭发射器伤害从 391 降至 304。' }
+  - { date: '2025-01-30', type: adjustment, summary: '符文巨人提供的强化不再作用于火箭发射器。' }
+  - { date: '2025-01-08', type: adjustment, summary: '近战伤害提高 57%，攻击间隔从 0.9 秒延长至 1.2 秒。' }
+  - { date: '2024-10-08', type: buff, summary: '生命值提高 5%。' }
+  - { date: '2024-08-06', type: buff, summary: '火箭发射器攻击间隔从 4 秒缩短至 3.5 秒。' }
+  - { date: '2024-07-02', type: nerf, summary: '生命值降低 15.5%，首次攻击间隔从 0.2 秒延长至 0.5 秒。' }
+  - { date: '2024-06-19', type: nerf, summary: '火箭发射器伤害从 588 降至 391，对皇家塔伤害调整为 50%，攻击间隔从 3.5 秒延长至 4 秒。' }
+  - { date: '2024-06-17', type: release, summary: '哥布林机甲正式加入游戏。' }

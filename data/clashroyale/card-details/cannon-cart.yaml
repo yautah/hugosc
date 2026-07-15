@@ -1,0 +1,173 @@
+---
+release_date: '2017-08-05'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 加农炮战车
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 0.9 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '5.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '1000'
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '6'
+      hitpoints: '1131'
+      damage: '132'
+      damage_per_second: '146'
+    - level: '7'
+      hitpoints: '1244'
+      damage: '146'
+      damage_per_second: '162'
+    - level: '8'
+      hitpoints: '1364'
+      damage: '160'
+      damage_per_second: '187'
+    - level: '9'
+      hitpoints: '1498'
+      damage: '175'
+      damage_per_second: '194'
+    - level: '10'
+      hitpoints: '1647'
+      damage: '193'
+      damage_per_second: '215'
+    - level: '11'
+      hitpoints: '1809'
+      damage: '212'
+      damage_per_second: '235'
+    - level: '12'
+      hitpoints: '1986'
+      damage: '233'
+      damage_per_second: '258'
+    - level: '13'
+      hitpoints: '2184'
+      damage: '256'
+      damage_per_second: '284'
+    - level: '14'
+      hitpoints: '2396'
+      damage: '281'
+      damage_per_second: '312'
+    - level: '15'
+      hitpoints: '2630'
+      damage: '308'
+      damage_per_second: '342'
+- name: 损坏后的加农炮战车
+  kind: child
+  mechanics:
+  - key: activation
+    label: 激活时间
+    value: 50%
+  - key: hit_speed
+    label: 攻击间隔
+    value: 0.9 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: lifetime
+    label: 持续时间
+    value: 15 秒
+  - key: range
+    label: 攻击距离
+    value: '5.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '1000'
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: broken_cannon_cart_hitpoints_lost_per_second
+      label: 每秒损失生命值
+    rows:
+    - level: '6'
+      broken_cannon_cart_hitpoints_lost_per_second: '18.85'
+    - level: '7'
+      broken_cannon_cart_hitpoints_lost_per_second: '20.73'
+    - level: '8'
+      broken_cannon_cart_hitpoints_lost_per_second: '22.73'
+    - level: '9'
+      broken_cannon_cart_hitpoints_lost_per_second: '24.96'
+    - level: '10'
+      broken_cannon_cart_hitpoints_lost_per_second: '27.45'
+    - level: '11'
+      broken_cannon_cart_hitpoints_lost_per_second: '30.15'
+    - level: '12'
+      broken_cannon_cart_hitpoints_lost_per_second: '33.1'
+    - level: '13'
+      broken_cannon_cart_hitpoints_lost_per_second: '36.4'
+    - level: '14'
+      broken_cannon_cart_hitpoints_lost_per_second: '39.93'
+    - level: '15'
+      broken_cannon_cart_hitpoints_lost_per_second: '43.83'
+balance_history:
+- date: '2025-06-03'
+  type: buff
+  summary: 生命值提高 5%。
+- date: '2025-05-05'
+  type: adjustment
+  summary: 生命值提高 109%，移除独立护盾；生命值降至一半时改为转化为限时建筑。
+- date: '2025-01-08'
+  type: adjustment
+  summary: 护盾生命值降低 8%，本体生命值提高 0.5%。
+- date: '2024-08-06'
+  type: buff
+  summary: 攻击间隔从 1 秒缩短至 0.9 秒，首次攻击从 0.6 秒缩短至 0.5 秒。
+- date: '2022-10-04'
+  type: nerf
+  summary: 生命值降低 8%。
+- date: '2021-06-07'
+  type: buff
+  summary: 固定形态攻击间隔从 1 秒缩短至 0.9 秒，首次攻击从 0.6 秒缩短至 0.5 秒。
+- date: '2021-03-30'
+  type: nerf
+  summary: 移动速度从快降低为中等。
+- date: '2020-03-03'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页加入角色立绘。
+- date: '2019-07-01'
+  type: adjustment
+  summary: 攻击间隔缩短至 1 秒、射程提高至 5.5 格，伤害降低 17%，生命值和护盾生命值提高 1.5%。
+- date: '2017-08-05'
+  type: release
+  summary: 加农炮战车正式加入游戏。

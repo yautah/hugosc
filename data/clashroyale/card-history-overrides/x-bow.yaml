@@ -1,0 +1,16 @@
+source_url: https://clashroyale.fandom.com/wiki/X-Bow
+items:
+  - { date: '2025-09-01', type: visual, summary: 新增卡牌信息界面立绘。 }
+  - { date: '2025-04-01', type: buff, summary: 伤害提高 7.5%。 }
+  - { date: '2025-03-31', type: nerf, summary: 伤害降低 2.43%。 }
+  - { date: '2020-12-09', type: adjustment, summary: '伤害提高 30%，生命值降低 4%，攻击间隔和首次攻击间隔由 0.25 秒延长至 0.3 秒，持续时间由 40 秒缩短至 30 秒。' }
+  - { date: '2019-03-04', type: buff, summary: 生命值提高 4%。 }
+  - { date: '2018-06-20', type: adjustment, summary: 修复目标位于射程边缘时可能停止攻击的问题。 }
+  - { date: '2017-08-11', type: buff, summary: 部署时间由 4 秒缩短至 3.5 秒。 }
+  - { date: '2017-03-16', type: buff, summary: 攻击间隔和首次攻击间隔由 0.3 秒缩短至 0.25 秒。 }
+  - { date: '2016-06-21', type: buff, summary: '部署时间由 5 秒缩短至 4 秒，生命值提高 18%。' }
+  - { date: '2016-05-03', type: adjustment, summary: 面板射程由 12 格调整为 11.5 格，实际有效射程不变。 }
+  - { date: '2016-03-23', type: nerf, summary: 攻击距离由 13 格降至 12 格。 }
+  - { date: '2016-02-09', type: nerf, summary: 部署时间由 3 秒延长至 5 秒。 }
+  - { date: '2016-02-02', type: nerf, summary: '生命值降低 15%，不再能够攻击空中单位。' }
+  - { date: '2016-01-04', type: release, summary: 十字连弩随《皇室战争》上线加入游戏。 }

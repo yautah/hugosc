@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Barrel
+items:
+  - { date: '2024-06-17', type: adjustment, summary: '哥布林飞桶加入哥布林类别。' }
+  - { date: '2024-06-03', type: evolution, summary: '哥布林飞桶觉醒形态正式上线。' }
+  - { date: '2022-10-26', type: nerf, summary: '生成哥布林的首次攻击间隔从 0.2 秒延长至 0.4 秒。' }
+  - { date: '2021-06-07', type: visual, summary: '卡牌信息页面加入哥布林飞桶的卡牌形象。' }
+  - { date: '2019-05-06', type: buff, summary: '哥布林生成时间从 1.2 秒缩短至 1.1 秒。' }
+  - { date: '2018-07-02', type: nerf, summary: '生成哥布林生命值降低 1%。' }
+  - { date: '2017-12-12', type: nerf, summary: '生成哥布林伤害降低 6%。' }
+  - { date: '2016-07-04', type: adjustment, summary: '费用从 4 降至 3，哥布林生成时间从 1 秒延长至 1.2 秒，并移除飞桶落地伤害。' }
+  - { date: '2016-06-21', type: buff, summary: '哥布林生成时间从 1.2 秒缩短至 1 秒。' }
+  - { date: '2016-05-03', type: adjustment, summary: '修复哥布林攻击距离显示问题，有效攻击范围不变。' }
+  - { date: '2016-02-29', type: nerf, summary: '生成哥布林视野从 6 格缩短至 5.5 格。' }
+  - { date: '2016-01-11', type: nerf, summary: '生成哥布林等级降低 1 级。' }
+  - { date: '2016-01-04', type: release, summary: '哥布林飞桶随游戏首发加入。' }

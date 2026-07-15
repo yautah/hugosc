@@ -1,0 +1,66 @@
+key: electro-dragon-evolution
+parent_key: electro-dragon
+kind: evolution
+order: 2
+name: 觉醒雷电飞龙
+label: 觉醒
+url: /clashroyale/cards/electro-dragon/evolution/
+image: images/clashroyale/cards/variants/electro-dragon-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Electro_Dragon/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-10-07'
+summary: 觉醒雷电飞龙的前三次连锁与普通形态相同，之后雷电可在多个目标间持续弹射，直到场上只剩一个可连接目标。
+facts:
+  - { label: 圣水, value: '5' }
+  - { label: 觉醒周期, value: 1 次循环 }
+  - { label: 连锁距离, value: 相邻目标 4 格 }
+  - { label: 基础卡牌, value: 雷电飞龙 }
+overview:
+  - 觉醒雷电飞龙的攻击先按普通形态命中最多三个目标并造成眩晕，第三个目标之后，只要附近仍有另一个可连接单位，雷电就会继续在目标之间反复弹射。后续弹射伤害降低、速度变慢，并且不再眩晕。
+  - 无限连锁需要至少两个相互靠近的存活目标，面对单个坦克时不会产生额外弹射。它最擅长处理分裂、召唤或密集推进，目标越多且生命值越高，雷电往返次数越容易累积。
+units:
+  - name: 觉醒雷电飞龙
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 2.1 秒 }
+      - { label: 首次攻击间隔, value: 0.7 秒 }
+      - { label: 攻击距离, value: 3.5 格 }
+      - { label: 连锁距离, value: 4 格 }
+      - { label: 前三次眩晕, value: 0.5 秒 }
+      - { label: 后续弹射, value: 目标间持续连锁 }
+      - { label: 后续弹射伤害, value: 基础伤害约 33% }
+      - { label: 攻击目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 前三次伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: chain_damage, label: 后续弹射伤害 }
+      rows:
+        - { level: '6', hitpoints: '656', damage: '120 x3', damage_per_second: '57', chain_damage: '40' }
+        - { level: '7', hitpoints: '721', damage: '132 x3', damage_per_second: '62', chain_damage: '44' }
+        - { level: '8', hitpoints: '792', damage: '144 x3', damage_per_second: '68', chain_damage: '48' }
+        - { level: '9', hitpoints: '870', damage: '159 x3', damage_per_second: '75', chain_damage: '53' }
+        - { level: '10', hitpoints: '957', damage: '174 x3', damage_per_second: '82', chain_damage: '58' }
+        - { level: '11', hitpoints: '1049', damage: '192 x3', damage_per_second: '91', chain_damage: '64' }
+        - { level: '12', hitpoints: '1154', damage: '210 x3', damage_per_second: '100', chain_damage: '70' }
+        - { level: '13', hitpoints: '1269', damage: '231 x3', damage_per_second: '110', chain_damage: '77' }
+        - { level: '14', hitpoints: '1392', damage: '254 x3', damage_per_second: '120', chain_damage: '84.5' }
+        - { level: '15', hitpoints: '1528', damage: '279 x3', damage_per_second: '132', chain_damage: '93' }
+        - { level: '16', hitpoints: '1679', damage: '306 x3', damage_per_second: '145', chain_damage: '102' }
+usage_tips:
+  - 等对手的分裂或召唤单位聚集后再部署，确保雷电前三跳后仍保留至少两个相邻目标，让后续弹射持续发生。
+  - 配合飓风法术把单位拉到四格连接范围，既能增加首轮命中数，也能防止后续弹射因目标分散而中断。
+  - 单个高生命目标不会触发无限连锁，不要为了觉醒效果单独面对皮卡超人或戈仑石人，应等待其后排或分裂单位进入范围。
+  - 本体仍然是五费中等生命单位，需要前排承伤；如果被远程单位或法术快速处理，再强的连锁也无法完成第二轮攻击。
+matchups:
+  - { title: 适合应对, text: '对戈仑石人、熔岩猎犬、圣水戈仑等会分裂的单位，以及女巫、墓园等持续生成目标的体系尤其有效。' }
+  - { title: 需要提防, text: '分散部署和单体高伤害能切断连锁并快速处理本体，单个孤立单位也不会提供无限弹射条件。' }
+  - { title: 搭配思路, text: '与重型前排和飓风法术搭配，前排保护本体，飓风维持目标密度，让雷电在多个单位间持续往返。' }
+balance_history:
+  - { date: '2026-06-01', type: buff, summary: '随基础卡调整，11 级生命值从 998 提高至 1049。' }
+  - { date: '2025-06-03', type: buff, summary: '随基础卡调整，生命值提高约 5%。' }
+  - { date: '2025-03-31', type: nerf, summary: '生命值降低 0.1%，符文巨人的追加伤害改为每第三次攻击触发，而不是每第三次弹射触发。' }
+  - { date: '2025-01-08', type: nerf, summary: '前三个目标之后的弹射伤害降低 33%。' }
+  - { date: '2024-10-07', type: evolution, summary: '觉醒雷电飞龙正式上线。' }

@@ -1,0 +1,214 @@
+---
+release_date: '2020-01-06'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 战斗天使
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.5 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.3 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：长 (1.6)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: heal_speed
+    label: 持续治疗·治疗间隔
+    value: 4 次脉冲，每次间隔 1 秒
+  - key: time_between_pulses
+    label: 持续治疗·治疗脉冲间隔
+    value: 0.25 秒
+  - key: radius
+    label: 持续治疗·作用半径
+    value: '4'
+  - key: target
+    label: 持续治疗·攻击目标
+    value: 友方部队
+  - key: heal_speed
+    label: 登场治疗·治疗间隔
+    value: 4 次脉冲，每次间隔 1 秒
+  - key: time_between_pulses
+    label: 登场治疗·治疗脉冲间隔
+    value: '0.25'
+  - key: radius
+    label: 登场治疗·作用半径
+    value: '2.5'
+  - key: target
+    label: 登场治疗·攻击目标
+    value: 友方部队
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: spawn_healing_per_pulse
+      label: 登场效果每次治疗量
+    - key: spawn_healing_per_second
+      label: 登场效果每秒治疗量
+    - key: active_healing_per_pulse
+      label: 持续效果每次治疗量
+    - key: active_healing_per_second
+      label: 持续效果每秒治疗量
+    rows:
+    - level: '3'
+      hitpoints: '801'
+      damage: '69'
+      damage_per_second: '46'
+      spawn_healing_per_pulse: '24'
+      spawn_healing_per_second: '96'
+      active_healing_per_pulse: '12'
+      active_healing_per_second: '48'
+    - level: '4'
+      hitpoints: '881'
+      damage: '76'
+      damage_per_second: '50'
+      spawn_healing_per_pulse: '26'
+      spawn_healing_per_second: '104'
+      active_healing_per_pulse: '13'
+      active_healing_per_second: '52'
+    - level: '5'
+      hitpoints: '969'
+      damage: '84'
+      damage_per_second: '56'
+      spawn_healing_per_pulse: '29'
+      spawn_healing_per_second: '116'
+      active_healing_per_pulse: '14'
+      active_healing_per_second: '56'
+    - level: '6'
+      hitpoints: '1066'
+      damage: '92'
+      damage_per_second: '61'
+      spawn_healing_per_pulse: '31'
+      spawn_healing_per_second: '124'
+      active_healing_per_pulse: '16'
+      active_healing_per_second: '64'
+    - level: '7'
+      hitpoints: '1173'
+      damage: '101'
+      damage_per_second: '67'
+      spawn_healing_per_pulse: '34'
+      spawn_healing_per_second: '136'
+      active_healing_per_pulse: '17'
+      active_healing_per_second: '68'
+    - level: '8'
+      hitpoints: '1290'
+      damage: '111'
+      damage_per_second: '74'
+      spawn_healing_per_pulse: '38'
+      spawn_healing_per_second: '152'
+      active_healing_per_pulse: '19'
+      active_healing_per_second: '76'
+    - level: '9'
+      hitpoints: '1419'
+      damage: '122'
+      damage_per_second: '81'
+      spawn_healing_per_pulse: '42'
+      spawn_healing_per_second: '168'
+      active_healing_per_pulse: '21'
+      active_healing_per_second: '84'
+    - level: '10'
+      hitpoints: '1561'
+      damage: '135'
+      damage_per_second: '90'
+      spawn_healing_per_pulse: '46'
+      spawn_healing_per_second: '184'
+      active_healing_per_pulse: '23'
+      active_healing_per_second: '92'
+    - level: '11'
+      hitpoints: '1717'
+      damage: '148'
+      damage_per_second: '98'
+      spawn_healing_per_pulse: '50.5'
+      spawn_healing_per_second: '202'
+      active_healing_per_pulse: '25.5'
+      active_healing_per_second: '102'
+    - level: '12'
+      hitpoints: '1889'
+      damage: '163'
+      damage_per_second: '108'
+      spawn_healing_per_pulse: '56'
+      spawn_healing_per_second: '224'
+      active_healing_per_pulse: '28'
+      active_healing_per_second: '112'
+    - level: '13'
+      hitpoints: '2078'
+      damage: '179'
+      damage_per_second: '119'
+      spawn_healing_per_pulse: '61'
+      spawn_healing_per_second: '244'
+      active_healing_per_pulse: '31'
+      active_healing_per_second: '124'
+    - level: '14'
+      hitpoints: '2285'
+      damage: '197'
+      damage_per_second: '131'
+      spawn_healing_per_pulse: '67'
+      spawn_healing_per_second: '268'
+      active_healing_per_pulse: '34'
+      active_healing_per_second: '136'
+    - level: '15'
+      hitpoints: '2514'
+      damage: '217'
+      damage_per_second: '144'
+      spawn_healing_per_pulse: '74'
+      spawn_healing_per_second: '296'
+      active_healing_per_pulse: '37'
+      active_healing_per_second: '148'
+    - level: '16'
+      hitpoints: '2765'
+      damage: '238'
+      damage_per_second: '158'
+      spawn_healing_per_pulse: '81'
+      spawn_healing_per_second: '324'
+      active_healing_per_pulse: '41'
+      active_healing_per_second: '164'
+balance_history:
+- date: '2025-03-31'
+  type: buff
+  summary: 攻击治疗提高 0.99%，登场治疗提高 0.49%。
+- date: '2024-10-02'
+  type: adjustment
+  summary: 战斗天使不再免疫地震法术和觉醒皇家巨人的后坐伤害。
+- date: '2024-06-19'
+  type: nerf
+  summary: 移除脱离战斗时的被动自我治疗。
+- date: '2023-06-06'
+  type: buff
+  summary: 新增登场治疗，部署时为附近友军恢复生命值。
+- date: '2020-11-18'
+  type: adjustment
+  summary: 调整悬浮机制：不再穿过建筑、推动空中单位或在被击退至河道时反弹。
+- date: '2020-10-06'
+  type: adjustment
+  summary: 获得悬浮移动能力，可以跨越河道，并改为与空中单位发生碰撞。
+- date: '2020-08-31'
+  type: nerf
+  summary: 克隆生成的单位不再能被战斗天使治疗。
+- date: '2020-05-05'
+  type: nerf
+  summary: 生命值降低 10%。
+- date: '2020-01-06'
+  type: release
+  summary: 战斗天使正式加入游戏。

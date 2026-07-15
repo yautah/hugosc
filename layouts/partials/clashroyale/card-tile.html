@@ -1,0 +1,28 @@
+{{- $card := . -}}
+{{- $typeLabels := dict "troop" "部队" "spell" "法术" "building" "建筑" "tower_troop" "皇家塔部队" -}}
+{{- $rarityLabels := dict "common" "普通" "rare" "稀有" "epic" "史诗" "legendary" "传奇" "champion" "英雄" -}}
+{{- $href := printf "/clashroyale/cards/#%s" $card.key -}}
+{{- with $card.detail_url }}{{ $href = . }}{{ end -}}
+<article
+  class="sc-data-card sc-card-tile"
+  id="{{ $card.key }}"
+  data-filter-item
+  data-search="{{ lower (printf "%s %s %s" $card.name $card.name_en (delimit $card.roles " ")) }}"
+  data-type="{{ $card.type }}"
+  data-rarity="{{ $card.rarity }}"
+  data-elixir="{{ $card.elixir }}"
+>
+  <a class="sc-card-tile-link" href="{{ $href }}">
+    <span class="sc-card-art">
+      {{- with resources.Get $card.image -}}
+        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $card.name }}卡牌图片" loading="lazy">
+      {{- end -}}
+      {{- if ne $card.elixir nil }}<span class="sc-elixir" aria-label="{{ $card.elixir }} 点圣水">{{ $card.elixir }}</span>{{ else if eq $card.key "spirit-empress" }}<span class="sc-elixir" aria-label="3 或 6 点圣水">3/6</span>{{ end -}}
+    </span>
+    <span class="sc-card-copy">
+      <strong>{{ $card.name }}</strong>
+      <span class="sc-card-meta">{{ default "卡牌" (index $typeLabels $card.type) }} · {{ default "待分类" (index $rarityLabels $card.rarity) }}</span>
+      <span class="sc-card-summary">{{ $card.summary }}</span>
+    </span>
+  </a>
+</article>

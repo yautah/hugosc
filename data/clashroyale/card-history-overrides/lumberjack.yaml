@@ -1,0 +1,19 @@
+source_url: https://clashroyale.fandom.com/wiki/Lumberjack
+items:
+  - { date: '2025-10-06', type: nerf, summary: '狂暴效果的攻速和移速加成从 35% 降低至 30%。' }
+  - { date: '2025-08-04', type: buff, summary: '狂暴法术伤害提高 21%。' }
+  - { date: '2025-04-09', type: nerf, summary: '狂暴法术伤害降低 23%。' }
+  - { date: '2025-03-04', type: nerf, summary: '单位离开狂暴范围后的效果保留时间从 2 秒缩短至 1 秒。' }
+  - { date: '2025-02-03', type: evolution, summary: '觉醒狂暴樵夫正式上线。' }
+  - { date: '2025-01-08', type: adjustment, summary: '狂暴持续时间从 6 秒缩短至 5.5 秒，狂暴樵夫伤害提高 6%。' }
+  - { date: '2022-12-12', type: adjustment, summary: '死亡后释放的狂暴法术改为造成范围伤害，作用半径从 5 格缩小至 3 格，并统一为 6 秒持续时间。' }
+  - { date: '2020-12-04', type: visual, summary: '卡牌信息页加入新的狂暴樵夫形象图。' }
+  - { date: '2019-08-05', type: nerf, summary: '攻击间隔从 0.7 秒延长至 0.8 秒。' }
+  - { date: '2018-01-24', type: buff, summary: '生命值提高 7%。' }
+  - { date: '2017-04-19', type: buff, summary: '生命值提高 4%。' }
+  - { date: '2017-03-13', type: adjustment, summary: '死亡后释放的狂暴法术等级改为与狂暴樵夫等级一致。' }
+  - { date: '2016-12-15', type: buff, summary: '生命值提高 6%。' }
+  - { date: '2016-11-01', type: buff, summary: '狂暴效果的攻速和移速加成从 30% 提高至 35%。' }
+  - { date: '2016-09-19', type: nerf, summary: '狂暴效果加成从 40% 降低至 30%，持续时间从 8 秒缩短至 6 秒。' }
+  - { date: '2016-08-24', type: adjustment, summary: '移动速度由快提高至极快，攻击间隔从 1.1 秒缩短至 0.7 秒，同时伤害降低 23%。' }
+  - { date: '2016-07-04', type: release, summary: '狂暴樵夫正式加入游戏。' }

@@ -1,0 +1,103 @@
+key: archers-evolution
+parent_key: archers
+kind: evolution
+order: 2
+name: 觉醒弓箭手
+label: 觉醒
+url: /clashroyale/cards/archers/evolution/
+image: images/clashroyale/cards/variants/archers-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Archers/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2023-11-06'
+summary: 觉醒弓箭手拥有更远射程，攻击距离合适的目标时会触发强力射击，显著提高远距离输出。
+facts:
+- label: 圣水
+  value: '3'
+- label: 觉醒周期
+  value: 2 次循环
+- label: 强力射击范围
+  value: 4–6 格
+- label: 基础卡牌
+  value: 弓箭手
+overview:
+- 觉醒弓箭手仍然是两名可以攻击空中和地面的远程单位，但射程提高到 6 格。目标与她们相距 4–6 格时，攻击会转为强力射击，造成普通攻击 150% 的伤害，因此站位和距离控制比普通弓箭手更重要。
+- 强力射击适合快速消耗坦克、远程支援和防御建筑。敌人一旦进入 4 格以内，觉醒弓箭手就会恢复普通伤害；她们的生命值也没有额外提升，万箭齐发等范围法术以及贴身单位依然能够稳定处理两名弓箭手。
+units:
+- name: 觉醒弓箭手
+  kind: main
+  mechanics:
+  - label: 攻击间隔
+    value: 0.9 秒
+  - label: 首次攻击间隔
+    value: 0.5 秒
+  - label: 移动速度
+    value: 中等 (60)
+  - label: 部署时间
+    value: 1 秒
+  - label: 攻击距离
+    value: 6 格
+  - label: 强力射击范围
+    value: 4–6 格
+  - label: 攻击目标
+    value: 空中和地面
+  - label: 单位数量
+    value: '2'
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: power_damage
+      label: 强力射击伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: power_damage_per_second
+      label: 强力射击每秒伤害
+    rows:
+    - { level: '1', hitpoints: '117', damage: '43', power_damage: '65', damage_per_second: '47', power_damage_per_second: '72' }
+    - { level: '2', hitpoints: '129', damage: '47', power_damage: '71', damage_per_second: '52', power_damage_per_second: '78' }
+    - { level: '3', hitpoints: '142', damage: '52', power_damage: '78', damage_per_second: '57', power_damage_per_second: '86' }
+    - { level: '4', hitpoints: '156', damage: '57', power_damage: '86', damage_per_second: '63', power_damage_per_second: '95' }
+    - { level: '5', hitpoints: '172', damage: '63', power_damage: '95', damage_per_second: '70', power_damage_per_second: '105' }
+    - { level: '6', hitpoints: '189', damage: '70', power_damage: '104', damage_per_second: '77', power_damage_per_second: '115' }
+    - { level: '7', hitpoints: '208', damage: '76', power_damage: '115', damage_per_second: '84', power_damage_per_second: '127' }
+    - { level: '8', hitpoints: '228', damage: '84', power_damage: '126', damage_per_second: '93', power_damage_per_second: '140' }
+    - { level: '9', hitpoints: '251', damage: '93', power_damage: '139', damage_per_second: '103', power_damage_per_second: '154' }
+    - { level: '10', hitpoints: '276', damage: '102', power_damage: '153', damage_per_second: '113', power_damage_per_second: '170' }
+    - { level: '11', hitpoints: '304', damage: '112', power_damage: '168', damage_per_second: '124', power_damage_per_second: '186' }
+    - { level: '12', hitpoints: '334', damage: '123', power_damage: '185', damage_per_second: '136', power_damage_per_second: '205' }
+    - { level: '13', hitpoints: '368', damage: '136', power_damage: '203', damage_per_second: '151', power_damage_per_second: '225' }
+    - { level: '14', hitpoints: '405', damage: '149', power_damage: '224', damage_per_second: '165', power_damage_per_second: '248' }
+    - { level: '15', hitpoints: '445', damage: '164', power_damage: '246', damage_per_second: '182', power_damage_per_second: '273' }
+    - { level: '16', hitpoints: '490', damage: '180', power_damage: '271', damage_per_second: '200', power_damage_per_second: '301' }
+usage_tips:
+- 尽量让目标停留在 4–6 格的强力射击区间，可以用骑士等低费前排拦住敌人，为弓箭手保持输出距离。
+- 从国王塔后方分路部署仍然有效，但两名弓箭手分开后更难同时利用强力射击，需要根据来袭路线决定是否分路。
+- 防守大型单位时应提前部署，让目标在接近之前承受更多强力射击；等敌人贴近后再下牌会明显损失觉醒收益。
+- 进攻时与其他后排保持距离，避免对手用一个范围法术同时处理觉醒弓箭手和主要支援单位。
+matchups:
+- title: 适合应对
+  text: 适合远距离消耗高生命值部队、空中单位和射程较短的防御单位，也能利用额外射程压制部分建筑。
+- title: 需要提防
+  text: 万箭齐发、皇家速递等范围伤害依然能够处理她们；快速贴身或将她们拉入 4 格以内，也会关闭强力射击。
+- title: 搭配思路
+  text: 与骑士等迷你坦克配合最直接，前排负责固定敌人位置，觉醒弓箭手在后方维持强力射击；攻城和矿工体系也能利用她们的远距离输出。
+balance_history:
+- date: '2025-08-04'
+  type: adjustment
+  summary: 普通伤害提高 5%，强力射击的最小触发距离从 4.5 格缩短至 4 格，但伤害倍率从 200% 降至 150%。
+- date: '2024-05-14'
+  type: adjustment
+  summary: 强力射击的伤害倍率从 170% 提高至 200%，同时移除额外生命值。
+- date: '2024-01-03'
+  type: adjustment
+  summary: 攻击距离从 6.5 格缩短至 6 格，强力射击的最小触发距离从 5 格缩短至 4.5 格。
+- date: '2023-12-13'
+  type: nerf
+  summary: 强力射击的伤害倍率从 200% 降至 170%。
+- date: '2023-11-06'
+  type: evolution
+  summary: 觉醒弓箭手正式上线。

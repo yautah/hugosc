@@ -1,0 +1,16 @@
+source_url: https://clashroyale.fandom.com/wiki/Wizard
+items:
+  - { date: '2026-01-05', type: hero, summary: 英雄法师正式加入游戏。 }
+  - { date: '2025-03-31', type: buff, summary: 生命值提高 0.13%。 }
+  - { date: '2024-08-06', type: buff, summary: 生命值提高 4.8%。 }
+  - { date: '2024-05-06', type: evolution, summary: 觉醒法师正式加入游戏。 }
+  - { date: '2020-07-07', type: visual, summary: 卡牌立绘更换为当前版本。 }
+  - { date: '2019-11-26', type: visual, summary: 卡牌信息页面加入角色立绘。 }
+  - { date: '2018-06-04', type: buff, summary: '伤害提高 2%，范围伤害半径从 1.2 格提高至 1.5 格。' }
+  - { date: '2017-01-23', type: buff, summary: 攻击距离从 5 格提高至 5.5 格。 }
+  - { date: '2016-12-15', type: adjustment, summary: '攻击间隔从 1.6 秒缩短至 1.4 秒，首次攻击间隔从 0.2 秒延长至 0.4 秒。' }
+  - { date: '2016-07-04', type: buff, summary: 攻击间隔从 1.7 秒缩短至 1.6 秒。 }
+  - { date: '2016-05-03', type: adjustment, summary: 修复射程显示问题；面板射程从 5.5 格改为 5 格，实际攻击范围不变。 }
+  - { date: '2016-02-29', type: adjustment, summary: '目标在攻击动画中被击败时不再取消攻击，视野范围从 6 格缩短至 5.5 格。' }
+  - { date: '2016-02-02', type: nerf, summary: 伤害降低 7%。 }
+  - { date: '2016-01-04', type: release, summary: 法师随游戏上线加入初始卡牌池。 }

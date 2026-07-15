@@ -1,0 +1,123 @@
+key: skeleton-army-evolution
+parent_key: skeleton-army
+kind: evolution
+order: 2
+name: 觉醒骷髅军团
+label: 觉醒
+url: /clashroyale/cards/skeleton-army/evolution/
+image: images/clashroyale/cards/variants/skeleton-army-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Skeleton_Army/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436555
+release_date: '2025-10-06'
+summary: 觉醒骷髅军团会额外部署带护盾的骷髅将军，普通骷髅阵亡后化为不可被常规锁定的影子，直到将军被消灭。
+facts:
+  - { label: 圣水, value: '3' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 普通骷髅, value: '15' }
+  - { label: 基础卡牌, value: 骷髅军团 }
+overview:
+  - 觉醒骷髅军团会部署十五只普通骷髅，并在后方额外加入一名带护盾的骷髅将军。普通骷髅被消灭后会生成影子骷髅，影子不能被部队、建筑或皇家塔锁定，但仍会受到法术影响。
+  - 骷髅将军是整套机制的核心：将军被消灭时，现有影子会同时消失，仍存活的普通骷髅也不再转化。防守方通常需要先用法术或穿透手段处理后排将军。
+units:
+  - name: 普通骷髅
+    kind: main
+    section_label: 初始军团
+    summary: 一次部署十五只；阵亡后只要骷髅将军仍存活，就会各自转化为一只影子骷髅。
+    mechanics:
+      - { label: 攻击间隔, value: 1.1 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 快 (90) }
+      - { label: 攻击距离, value: 近战：短 (0.5) }
+      - { label: 攻击目标, value: 地面 }
+      - { label: 单位数量, value: '15' }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows: &skeleton_rows
+        - { level: '6', hitpoints: '51', damage: '51', damage_per_second: '46' }
+        - { level: '7', hitpoints: '56', damage: '56', damage_per_second: '50' }
+        - { level: '8', hitpoints: '61', damage: '61', damage_per_second: '55' }
+        - { level: '9', hitpoints: '67', damage: '67', damage_per_second: '60' }
+        - { level: '10', hitpoints: '74', damage: '74', damage_per_second: '67' }
+        - { level: '11', hitpoints: '81', damage: '81', damage_per_second: '73' }
+        - { level: '12', hitpoints: '89', damage: '89', damage_per_second: '80' }
+        - { level: '13', hitpoints: '98', damage: '98', damage_per_second: '89' }
+        - { level: '14', hitpoints: '108', damage: '108', damage_per_second: '98' }
+        - { level: '15', hitpoints: '119', damage: '119', damage_per_second: '108' }
+        - { level: '16', hitpoints: '130', damage: '130', damage_per_second: '118' }
+  - name: 骷髅将军
+    kind: child
+    section_label: 核心单位
+    summary: 额外部署在后排并拥有护盾；只要将军存活，普通骷髅阵亡后就能继续转化为影子。
+    mechanics:
+      - { label: 攻击间隔, value: 1 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 快 (90) }
+      - { label: 攻击距离, value: 近战：长 (1.6) }
+      - { label: 攻击目标, value: 地面 }
+      - { label: 单位数量, value: '1' }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: shield_hitpoints, label: 护盾生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '51', shield_hitpoints: '51', damage: '51', damage_per_second: '51' }
+        - { level: '7', hitpoints: '56', shield_hitpoints: '56', damage: '56', damage_per_second: '56' }
+        - { level: '8', hitpoints: '61', shield_hitpoints: '61', damage: '61', damage_per_second: '61' }
+        - { level: '9', hitpoints: '67', shield_hitpoints: '67', damage: '67', damage_per_second: '67' }
+        - { level: '10', hitpoints: '74', shield_hitpoints: '74', damage: '74', damage_per_second: '74' }
+        - { level: '11', hitpoints: '81', shield_hitpoints: '81', damage: '81', damage_per_second: '81' }
+        - { level: '12', hitpoints: '89', shield_hitpoints: '89', damage: '89', damage_per_second: '89' }
+        - { level: '13', hitpoints: '98', shield_hitpoints: '98', damage: '98', damage_per_second: '98' }
+        - { level: '14', hitpoints: '108', shield_hitpoints: '108', damage: '108', damage_per_second: '108' }
+        - { level: '15', hitpoints: '119', shield_hitpoints: '119', damage: '119', damage_per_second: '119' }
+        - { level: '16', hitpoints: '130', shield_hitpoints: '130', damage: '130', damage_per_second: '130' }
+  - name: 影子骷髅
+    kind: child
+    section_label: 阵亡后单位
+    summary: 普通骷髅阵亡后生成，无法被部队、建筑和皇家塔锁定，但会受到法术影响；将军阵亡时全部消失。
+    mechanics:
+      - { label: 攻击间隔, value: 1.1 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 攻击距离, value: 近战：短 (0.5) }
+      - { label: 攻击目标, value: 地面 }
+      - { label: 可被常规锁定, value: 否 }
+      - { label: 可受法术影响, value: 是 }
+      - { label: 最大数量, value: '15' }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', damage: '51', damage_per_second: '46' }
+        - { level: '7', damage: '56', damage_per_second: '50' }
+        - { level: '8', damage: '61', damage_per_second: '55' }
+        - { level: '9', damage: '67', damage_per_second: '60' }
+        - { level: '10', damage: '74', damage_per_second: '67' }
+        - { level: '11', damage: '81', damage_per_second: '73' }
+        - { level: '12', damage: '89', damage_per_second: '80' }
+        - { level: '13', damage: '98', damage_per_second: '89' }
+        - { level: '14', damage: '108', damage_per_second: '98' }
+        - { level: '15', damage: '119', damage_per_second: '108' }
+        - { level: '16', damage: '130', damage_per_second: '118' }
+usage_tips:
+  - 尽量保护后排骷髅将军；普通骷髅先承受伤害并转化为影子，才能把一次防守延长为持续输出。
+  - 对手拥有万箭齐发或持续法术时不要把将军和全部骷髅暴露在同一范围，法术仍能直接处理影子并破坏核心机制。
+  - 防守高伤单体时让普通骷髅从前方包围，将军利用长距离在后排输出，降低被近战单位首先锁定的概率。
+  - 将军被消灭后，仍存活的普通骷髅不会再转化；发现核心即将倒下时，不要继续为影子投入过多支援。
+matchups:
+  - { title: 适合应对, text: '适合拖住缺少范围伤害和法术的单体地面单位，影子会持续输出并迫使对手优先寻找后排将军。' }
+  - { title: 需要提防, text: '万箭齐发、毒药等覆盖法术可以同时处理将军和影子，穿透及范围单位也更容易触及后排核心。' }
+  - { title: 搭配思路, text: '与法术诱饵和肉盾搭配，先逼出范围法术，再让将军维持影子军团完成防守反击。' }
+balance_history:
+  - { date: '2026-01-12', type: adjustment, summary: '影子骷髅移动速度从快 90 降至中等 60，并调整部署阵型，让骷髅将军更靠近影子。' }
+  - { date: '2025-10-06', type: evolution, summary: 觉醒骷髅军团正式上线。 }

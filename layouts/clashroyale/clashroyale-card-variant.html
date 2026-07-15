@@ -1,0 +1,77 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-clash-data.css" }}{{ $css := . | fingerprint }}<link rel="stylesheet" href="{{ $css.RelPermalink }}">{{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{- $variantData := index site.Data.clashroyale "card-variants" -}}
+{{- $variant := index $variantData .Params.variant_key -}}
+{{- $parent := index (where site.Data.clashroyale.cards.items "key" $variant.parent_key) 0 -}}
+{{- $historyTypeLabels := dict "buff" "增强" "nerf" "削弱" "adjustment" "调整" "release" "上线" "visual" "换图" "evolution" "觉醒" "hero" "精英" -}}
+<div class="sc-data-page sc-data-detail sc-data-variant sc-data-variant-{{ $variant.kind }}">
+  <nav class="sc-data-breadcrumb" aria-label="面包屑"><a href="/clashroyale/">皇室战争</a><span>/</span><a href="/clashroyale/cards/">卡牌百科</a><span>/</span><a href="{{ $parent.detail_url }}">{{ $parent.name }}</a><span>/</span><span aria-current="page">{{ $variant.label }}</span></nav>
+  <header class="sc-card-detail-hero">
+    <div class="sc-card-detail-art">
+      {{ with resources.Get $variant.image }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $variant.name }}卡牌图片">{{ end }}
+    </div>
+    <div>
+      <p class="sc-detail-kicker">{{ $variant.label }}形态</p>
+      <h1>{{ $variant.name }}</h1>
+      <p class="sc-detail-lead">{{ $variant.summary }}</p>
+      <dl class="sc-fact-grid">
+        {{ range $variant.facts }}<div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>{{ end }}
+      </dl>
+    </div>
+  </header>
+
+  {{ partial "clashroyale/card-variant-nav.html" (dict "parent" $parent "active_key" $variant.key) }}
+
+  {{ with $variant.overview }}
+    <section class="sc-card-overview">
+      <h2>形态特点</h2>
+      <div class="sc-card-overview-copy">{{ range . }}<p>{{ . }}</p>{{ end }}</div>
+    </section>
+  {{ end }}
+
+  {{ $unitCount := len $variant.units }}
+  {{ range $unit := $variant.units }}
+    <section class="sc-unit-section sc-unit-section-{{ $unit.kind }}">
+      {{ if gt $unitCount 1 }}<div class="sc-unit-section-head"><span>{{ with $unit.section_label }}{{ . }}{{ else }}{{ if eq $unit.kind "main" }}主单位{{ else }}召唤/分裂单位{{ end }}{{ end }}</span><h2>{{ $unit.name }}</h2>{{ with $unit.summary }}<p>{{ . }}</p>{{ end }}</div>{{ end }}
+      <div class="sc-unit-data-grid{{ if or (not $unit.level_stats) (not $unit.mechanics) }} sc-unit-data-grid-single{{ end }}">
+        {{ with $unit.mechanics }}
+          <section class="sc-unit-panel sc-unit-mechanics">
+            <div class="sc-unit-panel-head"><h2>战斗参数</h2></div>
+            <dl class="sc-mechanics-list">{{ range . }}<div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>{{ end }}</dl>
+          </section>
+        {{ end }}
+        {{ with $unit.level_stats }}
+          {{ $stats := . }}
+          <section class="sc-unit-panel sc-unit-stats">
+            <div class="sc-unit-panel-head"><h2>等级属性</h2></div>
+            <div class="sc-stat-table-wrap"><table class="sc-stat-table">
+              <thead><tr>{{ range $stats.columns }}<th scope="col">{{ .label }}</th>{{ end }}</tr></thead>
+              <tbody>{{ range $stats.rows }}{{ $row := . }}<tr>{{ range $index, $column := $stats.columns }}{{ if eq $index 0 }}<th scope="row">{{ index $row $column.key }}</th>{{ else }}<td>{{ index $row $column.key }}</td>{{ end }}{{ end }}</tr>{{ end }}</tbody>
+            </table></div>
+          </section>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ if or $variant.usage_tips $variant.matchups }}
+    <section class="sc-card-guide">
+      <div class="sc-detail-block-head"><div><h2>实战指南</h2></div></div>
+      <div class="sc-card-guide-grid">
+        <section class="sc-card-usage"><h3>使用要点</h3><ol>{{ range $variant.usage_tips }}<li>{{ . }}</li>{{ end }}</ol></section>
+        <div class="sc-card-matchups">{{ range $variant.matchups }}<section><h3>{{ .title }}</h3><p>{{ .text }}</p></section>{{ end }}</div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with $variant.balance_history }}
+    <section class="sc-detail-block">
+      <div class="sc-detail-block-head"><div><h2>版本记录</h2></div><span>收录该形态的调整与关键版本节点</span></div>
+      <ol class="sc-balance-timeline">{{ range . }}<li><time datetime="{{ .date }}">{{ if eq .date_precision "month" }}{{ time.Format "2006 年 1 月" .date }}{{ else }}{{ time.Format "2006 年 1 月 2 日" .date }}{{ end }}</time><span class="sc-balance-type sc-balance-type-{{ .type }}">{{ default "记录" (index $historyTypeLabels .type) }}</span><p>{{ .summary }}</p></li>{{ end }}</ol>
+    </section>
+  {{ end }}
+</div>
+{{ end }}

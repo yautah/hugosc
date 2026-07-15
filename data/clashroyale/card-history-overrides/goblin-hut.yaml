@@ -1,0 +1,28 @@
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Hut
+items:
+  - { date: '2025-08-04', type: adjustment, summary: '生成间隔由 1.8 秒延长至 1.9 秒，首次生成延迟由 1 秒缩短至 0.5 秒；哥布林投矛手首次攻击间隔由 0.4 秒延长至 0.5 秒，射程由 5.5 格降至 5 格。' }
+  - { date: '2025-06-03', type: nerf, summary: '生命值降低 6%，生成间隔由 1.7 秒延长至 1.8 秒。' }
+  - { date: '2025-05-05', type: adjustment, summary: '圣水费用由 5 点降至 4 点，生命值提高 46%，持续时间由 29 秒提高至 30 秒，改为敌军进入范围后每 1.7 秒生成一名哥布林投矛手，并更换卡牌图片。' }
+  - { date: '2025-03-31', type: nerf, summary: 生命值小幅降低。 }
+  - { date: '2025-01-08', type: nerf, summary: 哥布林投矛手首次攻击间隔由 0.3 秒延长至 0.4 秒。 }
+  - { date: '2024-06-17', type: buff, summary: 哥布林投矛手首次攻击间隔由 0.5 秒缩短至 0.3 秒，并将小屋归入哥布林单位。 }
+  - { date: '2023-06-06', type: nerf, summary: 被摧毁时生成的哥布林投矛手由 3 名减少至 1 名。 }
+  - { date: '2023-04-04', type: buff, summary: 哥布林投矛手射程由 5 格提高至 5.5 格。 }
+  - { date: '2022-12-07', type: adjustment, summary: '生成间隔由 4 秒延长至 10 秒，持续时间由 31 秒缩短至 29 秒，每波生成数量由 1 名提高至 3 名。' }
+  - { date: '2022-06-03', type: visual, summary: 更换哥布林小屋的卡牌图片。 }
+  - { date: '2021-12-07', type: adjustment, summary: '生命值降低 17%，持续时间由 40 秒缩短至 31 秒，生成间隔由 4.5 秒缩短至 4 秒。' }
+  - { date: '2020-05-05', type: nerf, summary: 生命值降低 35%。 }
+  - { date: '2020-04-07', type: adjustment, summary: 持续时间由 50 秒缩短至 40 秒，并新增被摧毁时生成 3 名哥布林投矛手。 }
+  - { date: '2019-11-26', type: visual, summary: 新增卡牌信息界面立绘。 }
+  - { date: '2019-04-15', type: visual, summary: 更换卡牌图片并新增两个星级外观。 }
+  - { date: '2019-04-01', type: buff, summary: 生成间隔由 4.75 秒缩短至 4.5 秒。 }
+  - { date: '2018-10-01', type: buff, summary: 生成间隔由 5.05 秒缩短至 4.75 秒。 }
+  - { date: '2018-06-04', type: adjustment, summary: '哥布林投矛手伤害提高 34%，攻击间隔由 1.2 秒延长至 1.7 秒，首次攻击间隔由 0.2 秒延长至 0.5 秒，小屋持续时间由 60 秒缩短至 50 秒。' }
+  - { date: '2018-04-25', type: nerf, summary: 哥布林投矛手攻击间隔由 1.1 秒延长至 1.2 秒。 }
+  - { date: '2018-01-24', type: nerf, summary: 生成间隔由 4.95 秒延长至 5.05 秒。 }
+  - { date: '2017-10-09', type: buff, summary: 哥布林投矛手攻击间隔由 1.3 秒缩短至 1.1 秒。 }
+  - { date: '2017-04-19', type: buff, summary: 生命值提高 5%。 }
+  - { date: '2017-03-16', type: buff, summary: 哥布林投矛手投射物速度由 350 提高至 500。 }
+  - { date: '2016-05-03', type: adjustment, summary: 哥布林投矛手面板射程由 5.5 格调整为 5 格，实际有效射程不变。 }
+  - { date: '2016-02-29', type: buff, summary: 哥布林投矛手视野距离由 6 格缩短至 5.5 格。 }
+  - { date: '2016-01-04', type: release, summary: 哥布林小屋随《皇室战争》上线加入游戏。 }

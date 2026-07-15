@@ -1,0 +1,28 @@
+source_url: https://clashroyale.fandom.com/wiki/Witch
+items:
+  - { date: '2025-10-06', type: nerf, summary: '受骷髅兵统一调整影响，召唤骷髅兵的攻击间隔从 1 秒延长至 1.1 秒。' }
+  - { date: '2025-08-04', type: adjustment, summary: '觉醒女巫改为只能由自己召唤的普通骷髅兵死亡后治疗，其他骷髅单位不再触发治疗。' }
+  - { date: '2025-05-05', type: evolution, summary: '女巫的觉醒形态正式上线。' }
+  - { date: '2025-03-31', type: buff, summary: '生命值提高 0.11%，伤害提高 0.74%。' }
+  - { date: '2025-01-08', type: buff, summary: '范围伤害半径从 1 格扩大至 1.5 格。' }
+  - { date: '2022-04-28', type: visual, summary: '更换卡牌图片和角色立绘。' }
+  - { date: '2022-02-03', type: buff, summary: '蛮羊骑士的减速效果不再降低女巫的召唤速度。' }
+  - { date: '2021-03-30', type: buff, summary: '攻击距离从 5 格提高至 5.5 格。' }
+  - { date: '2020-12-09', type: buff, summary: '首次召唤等待时间从 3.5 秒缩短至 1 秒。' }
+  - { date: '2020-02-04', type: buff, summary: '首次攻击间隔从 1 秒缩短至 0.7 秒。' }
+  - { date: '2019-11-26', type: adjustment, summary: '恢复范围伤害，伤害降低 49%，攻击间隔从 1.7 秒缩短至 1.1 秒，首次攻击间隔从 0.7 秒调整为 1 秒。' }
+  - { date: '2019-11-04', type: adjustment, summary: '暂时移除范围伤害，攻击间隔从 1.4 秒延长至 1.7 秒，首次攻击间隔从 0.4 秒延长至 0.7 秒，首次召唤等待时间从 1 秒延长至 3.5 秒，质量从 4 提高至 8。' }
+  - { date: '2019-10-07', type: adjustment, summary: '伤害提高 220%，范围半径从 1.1 格缩小至 0.5 格，生命值降低 12%，攻击间隔从 1 秒延长至 1.4 秒；移除死亡时生成的 3 只骷髅，并将召唤间隔从 5 秒延长至 7 秒。' }
+  - { date: '2019-04-01', type: buff, summary: '新增死亡时生成 3 只骷髅兵的效果。' }
+  - { date: '2018-09-03', type: nerf, summary: '生命值降低 3.5%。' }
+  - { date: '2018-07-02', type: adjustment, summary: '生命值提高 17%，召唤间隔从 7 秒缩短至 5 秒，攻击间隔从 0.7 秒延长至 1 秒。' }
+  - { date: '2017-06-12', type: buff, summary: '生命值提高 5%，范围半径从 1 格扩大至 1.1 格，召唤间隔从 7.5 秒缩短至 7 秒，并增加 1 秒首次召唤等待。' }
+  - { date: '2017-02-13', type: buff, summary: '伤害提高 6%。' }
+  - { date: '2016-06-21', type: buff, summary: '伤害提高 17%。' }
+  - { date: '2016-05-18', type: buff, summary: '女巫伤害提高 10%，召唤骷髅兵的生命值和伤害提高 5%。' }
+  - { date: '2016-05-03', type: adjustment, summary: '修复攻击距离问题，显示攻击距离从 5.5 格调整为 5 格；骷髅兵攻击距离从 0.75 格调整为 0.5 格。' }
+  - { date: '2016-03-23', type: buff, summary: '伤害提高 5%。' }
+  - { date: '2016-02-29', type: adjustment, summary: '目标在攻击动作中被消灭时不再中止攻击，并将女巫和骷髅兵的视野距离从 6 格调整为 5.5 格。' }
+  - { date: '2016-02-19', type: buff, summary: '女巫伤害提高 3%，骷髅兵生命值和伤害提高 11%。' }
+  - { date: '2016-01-11', type: nerf, summary: '召唤骷髅兵的等级降低 1 级，避免超过当时的卡牌等级上限。' }
+  - { date: '2016-01-04', type: release, summary: '女巫随皇室战争上线正式加入游戏。' }

@@ -1,0 +1,16 @@
+source_url: https://clashroyale.fandom.com/wiki/Executioner
+items:
+  - { date: '2026-03-02', type: buff, summary: '11 级单段伤害从 168 提高至 179，基础形态与觉醒形态同步生效。' }
+  - { date: '2025-04-07', type: evolution, summary: '觉醒飞斧屠夫正式上线。' }
+  - { date: '2025-03-31', type: adjustment, summary: '伤害因数值取整降低约 0.59%，并允许攻速受到狂暴效果影响。' }
+  - { date: '2022-08-02', type: buff, summary: '斧头投射距离从 6.5 格提高至 7.5 格。' }
+  - { date: '2021-12-07', type: buff, summary: '生命值提高 5%。' }
+  - { date: '2019-11-26', type: adjustment, summary: '生命值提高 5%，完整攻击周期从 2.5 秒缩短至 2.4 秒，首次攻击加快，斧头滞空时间、锁定距离、投射距离和范围半径提高，伤害降低 45%。' }
+  - { date: '2019-11-04', type: adjustment, summary: '投射距离提高至 5 格、斧头滞空时间提高至 1.2 秒，范围半径降低至 0.8 格。' }
+  - { date: '2019-10-01', type: adjustment, summary: '撤销 9 月重做，恢复重做前的生命值、伤害、攻击距离、攻速与斧头范围。' }
+  - { date: '2019-09-05', type: buff, summary: '伤害提高 2%。' }
+  - { date: '2019-09-02', type: adjustment, summary: '伤害提高 82%，攻击距离缩短至 3 格，攻击周期延长至 2.5 秒，生命值降低 5%，斧头半径和滞空时间同时降低。' }
+  - { date: '2017-04-19', type: buff, summary: '伤害提高 6%。' }
+  - { date: '2017-03-13', type: visual, summary: '更换卡牌图片；斧头范围半径恢复至 1 格，投射速度从 600 降至 550。' }
+  - { date: '2017-02-13', type: nerf, summary: '伤害降低 6%，锁定距离、投射距离和斧头范围同时降低，并修复多项飞斧异常。' }
+  - { date: '2017-01-27', type: release, summary: '飞斧屠夫正式加入游戏。' }

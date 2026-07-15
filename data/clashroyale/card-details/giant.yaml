@@ -1,0 +1,147 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 巨人
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.5 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 慢 (45)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：中 (1.2)
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      hitpoints: '1908'
+      damage: '118'
+      damage_per_second: '78'
+    - level: '4'
+      hitpoints: '2099'
+      damage: '130'
+      damage_per_second: '86'
+    - level: '5'
+      hitpoints: '2309'
+      damage: '143'
+      damage_per_second: '95'
+    - level: '6'
+      hitpoints: '2540'
+      damage: '157'
+      damage_per_second: '104'
+    - level: '7'
+      hitpoints: '2794'
+      damage: '173'
+      damage_per_second: '115'
+    - level: '8'
+      hitpoints: '3073'
+      damage: '190'
+      damage_per_second: '126'
+    - level: '9'
+      hitpoints: '3380'
+      damage: '209'
+      damage_per_second: '139'
+    - level: '10'
+      hitpoints: '3718'
+      damage: '230'
+      damage_per_second: '153'
+    - level: '11'
+      hitpoints: '4090'
+      damage: '253'
+      damage_per_second: '168'
+    - level: '12'
+      hitpoints: '4499'
+      damage: '278'
+      damage_per_second: '185'
+    - level: '13'
+      hitpoints: '4949'
+      damage: '306'
+      damage_per_second: '204'
+    - level: '14'
+      hitpoints: '5444'
+      damage: '337'
+      damage_per_second: '224'
+    - level: '15'
+      hitpoints: '5988'
+      damage: '370'
+      damage_per_second: '246'
+    - level: '16'
+      hitpoints: '6587'
+      damage: '407'
+      damage_per_second: '271'
+balance_history:
+- date: '2026-02-02'
+  type: nerf
+  summary: 生命值降低 3%，11 级生命值从 4090 调整为 3968。
+- date: '2025-12-01'
+  type: hero
+  summary: 精英巨人及其主动技能加入游戏。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 伤害降低 0.39%，生命值降低 0.02%。
+- date: '2024-06-17'
+  type: nerf
+  summary: 攻击距离从 1.6 格缩短至 1.2 格，重新归类为中距离近战。
+- date: '2023-10-03'
+  type: buff
+  summary: 攻击距离从 1.2 格提高至 1.6 格，归类为长距离近战。
+- date: '2022-02-03'
+  type: buff
+  summary: 生命值提高 4%。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页面加入新的巨人角色立绘。
+- date: '2019-07-01'
+  type: nerf
+  summary: 攻击距离从 1.25 格缩短至 1.2 格，并归类为中距离近战。
+- date: '2018-11-05'
+  type: nerf
+  summary: 生命值降低 2%。
+- date: '2016-10-20'
+  type: nerf
+  summary: 生命值降低 5%。
+- date: '2016-09-19'
+  type: nerf
+  summary: 伤害降低 5%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修正攻击距离显示问题，面板数值从 2 格改为 1.25 格，实际攻击范围保持不变。
+- date: '2016-03-23'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2016-02-29'
+  type: buff
+  summary: 视野范围从 8 格缩短至 7.5 格，使巨人更不容易被远处建筑吸引。
+- date: '2016-02-09'
+  type: buff
+  summary: 生命值提高 5%。
+- date: '2016-01-04'
+  type: release
+  summary: 巨人随游戏上线加入初始卡牌池。

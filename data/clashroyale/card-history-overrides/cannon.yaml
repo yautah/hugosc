@@ -1,0 +1,17 @@
+source_url: https://clashroyale.fandom.com/wiki/Cannon
+items:
+  - { date: '2025-03-04', type: nerf, summary: 攻击间隔和首次攻击间隔由 0.9 秒延长至 1 秒。 }
+  - { date: '2024-11-15', type: evolution, summary: 加农炮觉醒上线。 }
+  - { date: '2024-10-30', type: visual, summary: 更换加农炮的卡牌图片。 }
+  - { date: '2022-10-04', type: nerf, summary: 生命值降低 8%。 }
+  - { date: '2021-06-07', type: buff, summary: 攻击间隔和首次攻击间隔由 1 秒缩短至 0.9 秒。 }
+  - { date: '2020-03-03', type: buff, summary: 伤害提高 5%。 }
+  - { date: '2019-09-30', type: visual, summary: 新增额外星级外观。 }
+  - { date: '2019-07-01', type: adjustment, summary: '伤害提高 32%，攻击间隔和首次攻击间隔由 0.8 秒延长至 1 秒。' }
+  - { date: '2018-06-20', type: adjustment, summary: 修复目标停在射程边缘时加农炮可能停止攻击的问题。 }
+  - { date: '2016-06-21', type: nerf, summary: 生命值降低 8%。 }
+  - { date: '2016-05-18', type: nerf, summary: 生命值降低 5%。 }
+  - { date: '2016-05-03', type: nerf, summary: '生命值降低 11%，面板射程由 6 格调整为 5.5 格，实际有效射程不变。' }
+  - { date: '2016-03-23', type: nerf, summary: 持续时间由 40 秒缩短至 30 秒。 }
+  - { date: '2016-02-02', type: adjustment, summary: '圣水费用由 6 点降至 3 点，攻击距离由 7 格降至 6 格，持续时间由 60 秒缩短至 40 秒，生命值降低 55%。' }
+  - { date: '2016-01-04', type: release, summary: 加农炮随《皇室战争》上线加入游戏。 }

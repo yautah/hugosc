@@ -1,0 +1,74 @@
+key: giant-hero
+parent_key: giant
+kind: hero
+order: 3
+name: 精英巨人
+label: 精英
+url: /clashroyale/cards/giant/hero/
+image: images/clashroyale/cards/variants/giant-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Giant/Hero
+source_retrieved_at: '2026-07-15'
+source_revision: 436527
+release_date: '2025-12-01'
+summary: 精英巨人可以额外消耗两费，把附近生命值最高的敌方单位横向扔到另一条路线，并在落地时造成伤害和眩晕。
+facts:
+  - { label: 圣水, value: '5' }
+  - { label: 技能费用, value: 2 圣水 }
+  - { label: 技能冷却, value: 14 秒 }
+  - { label: 基础卡牌, value: 巨人 }
+overview:
+  - 精英巨人的基础属性和普通巨人一致，主动技能“巨力投掷”会在短暂施放后，抓起自身两格内生命值最高的一名敌方单位，将其横向扔出九格。目标落地时会受到伤害并眩晕两秒，能够把主要防守者从巨人所在路线暂时移开。
+  - 技能只影响单个部队，不能把建筑从路线中移走，对人海的作用也很有限。精英巨人和技能合计七费，使用前需要判断被扔走的目标是否足够关键，以及另一条路线是否会因此形成新的防守压力。
+units:
+  - name: 精英巨人
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.5 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 慢 (45) }
+      - { label: 攻击距离, value: 近战：中 (1.2) }
+      - { label: 攻击目标, value: 建筑 }
+      - { label: 技能名称, value: 巨力投掷 }
+      - { label: 抓取范围, value: 2 格 }
+      - { label: 投掷距离, value: 9 格 }
+      - { label: 施放时间, value: 约 1 秒 }
+      - { label: 落地眩晕, value: 2 秒 }
+      - { label: 技能目标, value: 空中和地面部队 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: impact_damage, label: 落地伤害 }
+      rows:
+        - { level: '3', hitpoints: '1851', damage: '118', damage_per_second: '78', impact_damage: '63' }
+        - { level: '4', hitpoints: '2036', damage: '130', damage_per_second: '86', impact_damage: '69' }
+        - { level: '5', hitpoints: '2240', damage: '143', damage_per_second: '95', impact_damage: '76' }
+        - { level: '6', hitpoints: '2464', damage: '157', damage_per_second: '104', impact_damage: '84' }
+        - { level: '7', hitpoints: '2710', damage: '173', damage_per_second: '115', impact_damage: '92' }
+        - { level: '8', hitpoints: '2981', damage: '190', damage_per_second: '126', impact_damage: '101' }
+        - { level: '9', hitpoints: '3279', damage: '209', damage_per_second: '139', impact_damage: '112' }
+        - { level: '10', hitpoints: '3607', damage: '230', damage_per_second: '153', impact_damage: '123' }
+        - { level: '11', hitpoints: '3968', damage: '253', damage_per_second: '168', impact_damage: '135' }
+        - { level: '12', hitpoints: '4365', damage: '278', damage_per_second: '185', impact_damage: '149' }
+        - { level: '13', hitpoints: '4801', damage: '306', damage_per_second: '204', impact_damage: '163' }
+        - { level: '14', hitpoints: '5281', damage: '337', damage_per_second: '224', impact_damage: '180' }
+        - { level: '15', hitpoints: '5810', damage: '370', damage_per_second: '246', impact_damage: '198' }
+        - { level: '16', hitpoints: '6391', damage: '407', damage_per_second: '271', impact_damage: '217' }
+usage_tips:
+  - 等关键防守单位进入两格抓取范围后再发动技能，过早施放只会等待目标，给对手调整站位的时间。
+  - 把高伤害近战单位扔到另一条路线，可以暂时保护巨人与后排；同时要准备处理目标落地后的反向压力。
+  - 建筑无法被投掷，面对地狱之塔等核心建筑时仍需依靠法术、控制或支援单位解决。
+  - 技能合计费用较高，对手只有低威胁单位时保留两费，通常比强行使用更有价值。
+matchups:
+  - { title: 适合应对, text: '适合移走威猛矿工、超级骑士等单个高生命值防守者，暂时清空巨人所在路线并打乱对手的支援关系。' }
+  - { title: 需要提防, text: '防御建筑、人海和分散部署能明显降低投掷收益；被扔到另一条路线的单位仍然存活，可能形成新的反击。' }
+  - { title: 搭配思路, text: '与墓园、双王子或高输出后排配合，利用投掷移走主要拦截单位，让其他进攻组件继续接近皇家塔。' }
+balance_history:
+  - date: '2026-02-02'
+    type: nerf
+    summary: 随基础巨人调整，生命值降低 3%，11 级生命值从 4090 调整为 3968。
+  - date: '2025-12-01'
+    type: hero
+    summary: 精英巨人与主动技能“巨力投掷”正式上线。

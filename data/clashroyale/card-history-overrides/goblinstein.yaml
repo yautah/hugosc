@@ -1,0 +1,10 @@
+source_url: https://clashroyale.fandom.com/wiki/Goblinstein
+items:
+  - { date: '2025-09-01', type: buff, summary: '怪物生命值提高 4%。' }
+  - { date: '2025-04-09', type: nerf, summary: '怪物生命值降低 4%。' }
+  - { date: '2025-02-04', type: nerf, summary: '怪物生命值降低 8%。' }
+  - { date: '2025-01-08', type: nerf, summary: '博士生命值降低 19%。' }
+  - { date: '2024-12-16', type: adjustment, summary: '修复闪电连接未对国王塔应用伤害削减的问题。' }
+  - { date: '2024-11-14', type: nerf, summary: '怪物生命值降低 6%。' }
+  - { date: '2024-10-17', type: nerf, summary: '闪电连接持续时间从 5 秒缩短至 4 秒，对皇家塔伤害降低 36%，技能冷却从 15 秒延长至 17 秒。' }
+  - { date: '2024-10-07', type: release, summary: '科学怪哥布林正式加入游戏。' }

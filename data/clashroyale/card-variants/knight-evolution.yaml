@@ -1,0 +1,107 @@
+key: knight-evolution
+parent_key: knight
+kind: evolution
+order: 2
+name: 觉醒骑士
+label: 觉醒
+url: /clashroyale/cards/knight/evolution/
+image: images/clashroyale/cards/variants/knight-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Knight/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2023-08-07'
+summary: 觉醒骑士在移动时获得高额减伤，能够更稳定地穿过远程火力并接近目标。
+facts:
+- label: 圣水
+  value: '3'
+- label: 觉醒周期
+  value: 2 次循环
+- label: 移动减伤
+  value: 60%
+- label: 基础卡牌
+  value: 骑士
+overview:
+- 觉醒骑士保留了普通骑士费用低、生命值高的特点，并在移动时获得减伤效果。只要他尚未停下攻击，来自敌方的伤害就会明显降低，因此更擅长顶住远程火力向前推进。
+- 减伤不会让觉醒骑士成为无条件的正面突破手。进入攻击动作后，他会失去移动减伤，密集近战单位、持续控制和拉扯依然能够快速消耗他。使用时应尽量让他承担接近目标过程中的伤害，再由后排单位完成输出。
+units:
+- name: 觉醒骑士
+  kind: main
+  mechanics:
+  - label: 攻击间隔
+    value: 1.2 秒
+  - label: 首次攻击间隔
+    value: 0.5 秒
+  - label: 移动速度
+    value: 中等 (60)
+  - label: 部署时间
+    value: 1 秒
+  - label: 攻击距离
+    value: 近战：中 (1.2)
+  - label: 攻击目标
+    value: 地面
+  - label: 单位数量
+    value: '1'
+  - label: 移动减伤
+    value: 60%
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - { level: '1', hitpoints: '681', damage: '78', damage_per_second: '65' }
+    - { level: '2', hitpoints: '749', damage: '86', damage_per_second: '71' }
+    - { level: '3', hitpoints: '824', damage: '94', damage_per_second: '78' }
+    - { level: '4', hitpoints: '906', damage: '104', damage_per_second: '86' }
+    - { level: '5', hitpoints: '997', damage: '114', damage_per_second: '95' }
+    - { level: '6', hitpoints: '1097', damage: '125', damage_per_second: '104' }
+    - { level: '7', hitpoints: '1206', damage: '138', damage_per_second: '115' }
+    - { level: '8', hitpoints: '1327', damage: '152', damage_per_second: '126' }
+    - { level: '9', hitpoints: '1460', damage: '167', damage_per_second: '139' }
+    - { level: '10', hitpoints: '1605', damage: '184', damage_per_second: '153' }
+    - { level: '11', hitpoints: '1766', damage: '202', damage_per_second: '168' }
+    - { level: '12', hitpoints: '1943', damage: '222', damage_per_second: '185' }
+    - { level: '13', hitpoints: '2137', damage: '244', damage_per_second: '203' }
+    - { level: '14', hitpoints: '2351', damage: '269', damage_per_second: '224' }
+    - { level: '15', hitpoints: '2586', damage: '296', damage_per_second: '246' }
+    - { level: '16', hitpoints: '2844', damage: '325', damage_per_second: '270' }
+usage_tips:
+- 把觉醒骑士部署在需要穿过远程火力的位置，让移动减伤覆盖接近目标的过程。
+- 避免让他过早停在低威胁单位面前攻击，否则会失去减伤并承受后方火力。
+- 防守完成后在他身后补充远程单位，利用剩余生命值组织反击，通常比单独桥头施压更划算。
+matchups:
+- title: 适合应对
+  text: 擅长承接远程单体输出和中等伤害的防守单位，尤其适合保护己方后排完成推进。
+- title: 需要提防
+  text: 密集近战单位、持续控制和能够迫使他停下攻击的拉扯会迅速削弱移动减伤的价值。
+- title: 搭配思路
+  text: 可与远程范围伤害或稳定对空单位搭配，让觉醒骑士负责吸收伤害，后排负责清理围攻单位。
+balance_history:
+- date: '2024-12-16'
+  type: adjustment
+  summary: 修复追击目标时偶尔承受完整伤害的问题，并更新相关音效。
+- date: '2024-06-17'
+  type: adjustment
+  summary: 移除额外生命值，并修复伤害倍率相关问题，使基础属性与普通骑士一致。
+- date: '2024-05-14'
+  type: nerf
+  summary: 生命值倍率从 120% 降至 110%。
+- date: '2024-03-05'
+  type: nerf
+  summary: 攻击间隔从 1.1 秒延长至 1.2 秒，并移除额外伤害。
+- date: '2023-11-13'
+  type: nerf
+  summary: 攻击间隔从 0.9 秒延长至 1.1 秒。
+- date: '2023-10-03'
+  type: nerf
+  summary: 生命值倍率从 130% 降至 120%。
+- date: '2023-08-24'
+  type: nerf
+  summary: 移动时的伤害减免从 80% 降至 60%。
+- date: '2023-08-07'
+  type: evolution
+  summary: 觉醒骑士正式上线。

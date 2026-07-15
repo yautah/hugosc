@@ -1,0 +1,20 @@
+source_url: https://clashroyale.fandom.com/wiki/Tombstone
+items:
+  - { date: '2025-10-06', type: nerf, summary: 骷髅兵攻击间隔由 1 秒延长至 1.1 秒。 }
+  - { date: '2025-08-04', type: adjustment, summary: 被骷髅兵击倒的单位不再为觉醒女巫提供治疗。 }
+  - { date: '2025-03-31', type: nerf, summary: 生命值小幅降低。 }
+  - { date: '2022-06-03', type: visual, summary: 新增卡牌信息界面立绘。 }
+  - { date: '2022-04-04', type: nerf, summary: 生成间隔由 3.3 秒延长至 3.5 秒。 }
+  - { date: '2021-12-07', type: adjustment, summary: '持续时间由 40 秒缩短至 30 秒，生成间隔由 3.1 秒延长至 3.3 秒，每波生成数量由 1 名提高至 2 名。' }
+  - { date: '2021-09-06', type: buff, summary: 被摧毁时生成的骷髅兵由 3 名提高至 4 名。 }
+  - { date: '2020-11-03', type: buff, summary: 生命值提高 4%。 }
+  - { date: '2018-11-05', type: nerf, summary: '生成间隔由 2.95 秒延长至 3.1 秒，被摧毁时生成的骷髅兵由 4 名减少至 3 名。' }
+  - { date: '2016-11-30', type: nerf, summary: 生成间隔由 2.55 秒延长至 2.95 秒。 }
+  - { date: '2016-08-24', type: buff, summary: 生成间隔由 2.95 秒缩短至 2.55 秒。 }
+  - { date: '2016-07-04', type: buff, summary: 生命值提高 9%。 }
+  - { date: '2016-05-18', type: buff, summary: '墓碑生命值提高 10%，骷髅兵生命值和伤害提高 5%。' }
+  - { date: '2016-05-03', type: adjustment, summary: 骷髅兵面板攻击距离由 0.75 格调整为 0.5 格，实际有效距离不变。 }
+  - { date: '2016-02-29', type: buff, summary: 骷髅兵视野距离由 6 格缩短至 5.5 格。 }
+  - { date: '2016-02-19', type: adjustment, summary: '持续时间由 60 秒缩短至 40 秒，骷髅兵生命值和伤害提高 11%。' }
+  - { date: '2016-02-09', type: nerf, summary: 被摧毁时生成的骷髅兵由 6 名减少至 4 名。 }
+  - { date: '2016-01-04', type: release, summary: 骷髅墓碑随《皇室战争》上线加入游戏。 }

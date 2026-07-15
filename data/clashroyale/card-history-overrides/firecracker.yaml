@@ -1,0 +1,26 @@
+source_url: https://clashroyale.fandom.com/wiki/Firecracker
+items:
+  - date: '2025-08-04'
+    type: nerf
+    summary: 视野范围从 8.5 格缩短至 8 格，开火后后坐距离从 1.5 格缩短至 1 格。
+  - date: '2025-01-30'
+    type: adjustment
+    summary: 符文巨人的伤害强化改为平均分配到烟花弹的五枚弹片，而不是每枚弹片都获得完整增幅。
+  - date: '2023-06-30'
+    type: nerf
+    summary: 首次攻击间隔从 0.6 秒延长至 0.65 秒。
+  - date: '2023-06-19'
+    type: evolution
+    summary: 觉醒烟花炮手正式加入游戏，同时更换烟花炮手的卡牌图片。
+  - date: '2023-06-06'
+    type: buff
+    summary: 首次攻击间隔从 0.6 秒缩短至 0.55 秒。
+  - date: '2023-02-07'
+    type: buff
+    summary: 首次攻击间隔从 1 秒缩短至 0.6 秒。
+  - date: '2020-07-07'
+    type: buff
+    summary: 每次开火后的后坐距离从 2 格缩短至 1.5 格，使其不会过快退出支援位置。
+  - date: '2020-02-03'
+    type: release
+    summary: 烟花炮手正式加入游戏。

@@ -1,0 +1,155 @@
+---
+release_date: '2016-07-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 狂暴樵夫
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 0.8 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.4 秒
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.7)
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: radius
+    label: 狂暴效果·作用半径
+    value: '3'
+  - key: duration
+    label: 狂暴效果·持续时间
+    value: 5.5 秒
+  - key: boost
+    label: 狂暴效果·强化效果
+    value: "+30%"
+  - key: target
+    label: 狂暴效果·攻击目标
+    value: 友方部队和建筑
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: lumberjack_damage
+      label: 伤害
+    - key: lumberjack_damage_per_second
+      label: 每秒伤害
+    - key: rage_damage
+      label: 狂暴法术伤害
+    - key: rage_crown_tower_damage
+      label: 狂暴法术皇家塔伤害
+    rows:
+    - level: '9'
+      hitpoints: '1060'
+      lumberjack_damage: '212'
+      lumberjack_damage_per_second: '265'
+      rage_damage: '148'
+      rage_crown_tower_damage: '45'
+    - level: '10'
+      hitpoints: '1166'
+      lumberjack_damage: '233'
+      lumberjack_damage_per_second: '291'
+      rage_damage: '163'
+      rage_crown_tower_damage: '49'
+    - level: '11'
+      hitpoints: '1282'
+      lumberjack_damage: '256'
+      lumberjack_damage_per_second: '320'
+      rage_damage: '179'
+      rage_crown_tower_damage: '54'
+    - level: '12'
+      hitpoints: '1409'
+      lumberjack_damage: '281'
+      lumberjack_damage_per_second: '351'
+      rage_damage: '196'
+      rage_crown_tower_damage: '59'
+    - level: '13'
+      hitpoints: '1547'
+      lumberjack_damage: '309'
+      lumberjack_damage_per_second: '386'
+      rage_damage: '216'
+      rage_crown_tower_damage: '65'
+    - level: '14'
+      hitpoints: '1696'
+      lumberjack_damage: '339'
+      lumberjack_damage_per_second: '423'
+      rage_damage: '237'
+      rage_crown_tower_damage: '72'
+    - level: '15'
+      hitpoints: '1863'
+      lumberjack_damage: '372'
+      lumberjack_damage_per_second: '465'
+      rage_damage: '260'
+      rage_crown_tower_damage: '78'
+    - level: '16'
+      hitpoints: '2049'
+      lumberjack_damage: '409'
+      lumberjack_damage_per_second: '511'
+      rage_damage: '286'
+      rage_crown_tower_damage: '86'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 狂暴效果的攻速和移速加成从 35% 降低至 30%。
+- date: '2025-08-04'
+  type: buff
+  summary: 狂暴法术伤害提高 21%。
+- date: '2025-04-09'
+  type: nerf
+  summary: 狂暴法术伤害降低 23%。
+- date: '2025-03-04'
+  type: nerf
+  summary: 单位离开狂暴范围后的效果保留时间从 2 秒缩短至 1 秒。
+- date: '2025-02-03'
+  type: evolution
+  summary: 觉醒狂暴樵夫正式上线。
+- date: '2025-01-08'
+  type: adjustment
+  summary: 狂暴持续时间从 6 秒缩短至 5.5 秒，狂暴樵夫伤害提高 6%。
+- date: '2022-12-12'
+  type: adjustment
+  summary: 死亡后释放的狂暴法术改为造成范围伤害，作用半径从 5 格缩小至 3 格，并统一为 6 秒持续时间。
+- date: '2020-12-04'
+  type: visual
+  summary: 卡牌信息页加入新的狂暴樵夫形象图。
+- date: '2019-08-05'
+  type: nerf
+  summary: 攻击间隔从 0.7 秒延长至 0.8 秒。
+- date: '2018-01-24'
+  type: buff
+  summary: 生命值提高 7%。
+- date: '2017-04-19'
+  type: buff
+  summary: 生命值提高 4%。
+- date: '2017-03-13'
+  type: adjustment
+  summary: 死亡后释放的狂暴法术等级改为与狂暴樵夫等级一致。
+- date: '2016-12-15'
+  type: buff
+  summary: 生命值提高 6%。
+- date: '2016-11-01'
+  type: buff
+  summary: 狂暴效果的攻速和移速加成从 30% 提高至 35%。
+- date: '2016-09-19'
+  type: nerf
+  summary: 狂暴效果加成从 40% 降低至 30%，持续时间从 8 秒缩短至 6 秒。
+- date: '2016-08-24'
+  type: adjustment
+  summary: 移动速度由快提高至极快，攻击间隔从 1.1 秒缩短至 0.7 秒，同时伤害降低 23%。
+- date: '2016-07-04'
+  type: release
+  summary: 狂暴樵夫正式加入游戏。

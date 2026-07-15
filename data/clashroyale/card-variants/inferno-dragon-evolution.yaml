@@ -1,0 +1,59 @@
+key: inferno-dragon-evolution
+parent_key: inferno-dragon
+kind: evolution
+order: 2
+name: 觉醒地狱飞龙
+label: 觉醒
+url: /clashroyale/cards/inferno-dragon/evolution/
+image: images/clashroyale/cards/variants/inferno-dragon-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Inferno_Dragon/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2025-06-02'
+summary: 觉醒地狱飞龙消灭或脱离目标后可保留当前伤害档位 7 秒，持续输出 20 秒还会进入伤害更高的第四档。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: '2' }
+  - { label: 档位保留, value: 7 秒 }
+  - { label: 基础卡牌, value: 地狱飞龙 }
+overview:
+  - 觉醒地狱飞龙保留基础形态的三档递增伤害。目标被消灭或暂时离开射程后，当前伤害档位不会立即清零，而是最多保留 7 秒；重新锁定其他目标时可从保留档位继续输出。
+  - 连续造成伤害约 20 秒后还能进入第四档，单次伤害约为第三档两倍。眩晕与冰冻仍会重置蓄能，因此觉醒主要减少目标切换造成的损失，并没有消除传统重置手段。
+units:
+  - name: 觉醒地狱飞龙
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 0.4 秒 }
+      - { label: 攻击距离, value: 3.5 格 }
+      - { label: 档位保留时间, value: 7 秒 }
+      - { label: 第四档所需输出, value: 约 20 秒 }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 移动方式, value: 空中 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage_stage_1, label: 第一档伤害 }
+        - { key: damage_stage_2, label: 第二档伤害 }
+        - { key: damage_stage_3, label: 第三档伤害 }
+        - { key: damage_stage_4, label: 第四档伤害 }
+      rows:
+        - { level: '9', hitpoints: '1072', damage_stage_1: '29', damage_stage_2: '99', damage_stage_3: '349', damage_stage_4: '698' }
+        - { level: '10', hitpoints: '1178', damage_stage_1: '32', damage_stage_2: '109', damage_stage_3: '384', damage_stage_4: '768' }
+        - { level: '11', hitpoints: '1295', damage_stage_1: '35', damage_stage_2: '120', damage_stage_3: '422', damage_stage_4: '844' }
+        - { level: '12', hitpoints: '1421', damage_stage_1: '39', damage_stage_2: '132', damage_stage_3: '463', damage_stage_4: '926' }
+        - { level: '13', hitpoints: '1563', damage_stage_1: '43', damage_stage_2: '145', damage_stage_3: '509', damage_stage_4: '1018' }
+        - { level: '14', hitpoints: '1715', damage_stage_1: '47', damage_stage_2: '159', damage_stage_3: '559', damage_stage_4: '1118' }
+        - { level: '15', hitpoints: '1882', damage_stage_1: '52', damage_stage_2: '174', damage_stage_3: '613', damage_stage_4: '1226' }
+        - { level: '16', hitpoints: '2069', damage_stage_1: '57', damage_stage_2: '192', damage_stage_3: '674', damage_stage_4: '1348' }
+usage_tips:
+  - 先锁定高生命前排完成升档，再利用七秒保留窗口转向后排或皇家塔，减少重新从第一档开始的时间。
+  - 击退和拉扯本身不会立即清空档位，但眩晕、冰冻与电击仍会重置；应优先逼出对手的重置牌。
+  - 第四档需要极长连续输出，不能作为常规对局的默认收益；主要价值仍是第三档在目标切换后的延续。
+  - 两个觉醒周期意味着登场频率有限，应把觉醒轮次留给能连续处理多个高生命目标的关键防守或反打。
+matchups:
+  - { title: 适合应对, text: '适合连续处理坦克及其后排，消灭前排后可保留高档伤害快速转向下一目标。' }
+  - { title: 需要提防, text: '闪电法师、电击法术、雷电飞龙和冰冻仍能直接重置档位，高伤防空也可在升档前将其处理。' }
+  - { title: 搭配思路, text: '与前排、小法术和控制单位搭配，保护锁定并把新目标送入射程，充分利用七秒保留窗口。' }
+balance_history:
+  - { date: '2026-06-01', type: nerf, summary: '伤害档位保留时间从 9 秒缩短至 7 秒。' }
+  - { date: '2025-06-02', type: evolution, summary: '觉醒地狱飞龙正式上线。' }

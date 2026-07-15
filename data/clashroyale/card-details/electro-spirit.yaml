@@ -1,0 +1,95 @@
+---
+release_date: '2020-11-02'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 雷电精灵
+  kind: main
+  mechanics:
+  - key: stun_duration
+    label: 眩晕持续时间
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '2.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    rows:
+    - level: '1'
+      hitpoints: '89'
+      damage: 38 x9
+    - level: '2'
+      hitpoints: '98'
+      damage: 42 x9
+    - level: '3'
+      hitpoints: '107'
+      damage: 46 x9
+    - level: '4'
+      hitpoints: '118'
+      damage: 51 x9
+    - level: '5'
+      hitpoints: '130'
+      damage: 56 x9
+    - level: '6'
+      hitpoints: '143'
+      damage: 61 x9
+    - level: '7'
+      hitpoints: '157'
+      damage: 68 x9
+    - level: '8'
+      hitpoints: '173'
+      damage: 74 x9
+    - level: '9'
+      hitpoints: '190'
+      damage: 82 x9
+    - level: '10'
+      hitpoints: '209'
+      damage: 90 x9
+    - level: '11'
+      hitpoints: '230'
+      damage: 99 x9
+    - level: '12'
+      hitpoints: '253'
+      damage: 109 x9
+    - level: '13'
+      hitpoints: '278'
+      damage: 120 x9
+    - level: '14'
+      hitpoints: '306'
+      damage: 132 x9
+    - level: '15'
+      hitpoints: '337'
+      damage: 145 x9
+    - level: '16'
+      hitpoints: '370'
+      damage: 159 x9
+balance_history:
+- date: '2025-12-01'
+  type: nerf
+  summary: 连锁攻击的投射物速度从 2000 降低至 1000。
+- date: '2022-10-26'
+  type: adjustment
+  summary: 修复电磁炮在被渔夫钩中期间遭雷电精灵命中时，蓄力没有正确重置的问题。
+- date: '2020-11-02'
+  type: release
+  summary: 雷电精灵正式加入游戏。

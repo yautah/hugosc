@@ -1,0 +1,17 @@
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Drill
+items:
+  - { date: '2025-10-06', type: nerf, summary: 首次生成时间由 0.8 秒延长至 1 秒。 }
+  - { date: '2025-03-31', type: buff, summary: '生命值小幅提高，钻出伤害提高 1.2%。' }
+  - { date: '2024-07-15', type: evolution, summary: 哥布林钻机觉醒上线。 }
+  - { date: '2024-06-17', type: adjustment, summary: 哥布林钻机归入哥布林单位。 }
+  - { date: '2024-05-14', type: nerf, summary: 首次生成时间由 0.5 秒延长至 0.8 秒。 }
+  - { date: '2024-03-05', type: adjustment, summary: '持续时间由 9 秒提高至 10 秒，首次生成时间由 1 秒缩短至 0.5 秒，生命值降低 8.9%。' }
+  - { date: '2023-10-23', type: buff, summary: 钻出伤害提高 1%。 }
+  - { date: '2022-10-26', type: nerf, summary: 哥布林首次攻击间隔由 0.2 秒延长至 0.4 秒，并更新星级粒子效果。 }
+  - { date: '2022-06-07', type: nerf, summary: 地下移动速度由 400 降至 300。 }
+  - { date: '2022-03-30', type: adjustment, summary: 修复星级外观错误使用矿工音效的问题。 }
+  - { date: '2021-10-27', type: visual, summary: 调整地下移动轨迹以区别于矿工，并修复与克隆法术的异常互动。 }
+  - { date: '2021-09-06', type: nerf, summary: 被摧毁时生成的哥布林由 3 名减少至 2 名。 }
+  - { date: '2021-07-11', type: release, summary: 哥布林钻机面向所有玩家正式推出。 }
+  - { date: '2021-06-17', type: adjustment, summary: '首次生成新增 1 秒延迟，调整被摧毁时哥布林的阵型，并降低钻出时对地面单位的推动效果。' }
+  - { date: '2021-06-12', type: release, summary: 哥布林钻机首次在专属选卡挑战中开放使用。 }

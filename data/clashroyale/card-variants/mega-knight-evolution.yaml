@@ -1,0 +1,63 @@
+key: mega-knight-evolution
+parent_key: mega-knight
+kind: evolution
+order: 2
+name: 觉醒超级骑士
+label: 觉醒
+url: /clashroyale/cards/mega-knight/evolution/
+image: images/clashroyale/cards/variants/mega-knight-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Mega_Knight/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436597
+release_date: '2024-09-14'
+summary: 觉醒超级骑士每次普通攻击会把目标朝最近的敌方皇家塔击退，轻中型单位击退 4 格，重型单位击退 2.5 格。
+facts:
+  - { label: 圣水, value: '7' }
+  - { label: 觉醒周期, value: '1' }
+  - { label: 普通击退, value: 4 格 }
+  - { label: 重型击退, value: 2.5 格 }
+overview:
+  - 觉醒超级骑士与基础形态拥有相同生命值和伤害，但每次普通攻击都会把当前目标朝最近的敌方皇家塔方向击退。轻中型单位被推 4 格，重型单位在 2026 年 6 月调整后只被推 2.5 格。
+  - 定向击退可以把前排与后排拆开，并把目标重新送入 3.5 至 5 格的跃击区间。只有当前锁定目标被击退，范围内其他单位仍能继续攻击，因此包围与重型人海仍可限制他。
+units:
+  - name: 觉醒超级骑士
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.7 秒 }
+      - { label: 攻击距离, value: 近战：中 (1.2) }
+      - { label: 普通单位击退, value: 4 格 }
+      - { label: 重型单位击退, value: 2.5 格 }
+      - { label: 跃击距离, value: 3.5-5 格 }
+      - { label: 跃击蓄力, value: 0.9 秒 }
+      - { label: 攻击目标, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: spawn_damage, label: 登场伤害 }
+        - { key: jump_damage, label: 跃击伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '9', hitpoints: '3307', area_damage: '222', spawn_damage: '356', jump_damage: '445', damage_per_second: '130' }
+        - { level: '10', hitpoints: '3634', area_damage: '244', spawn_damage: '391', jump_damage: '489', damage_per_second: '143' }
+        - { level: '11', hitpoints: '3993', area_damage: '268', spawn_damage: '430', jump_damage: '537', damage_per_second: '157' }
+        - { level: '12', hitpoints: '4383', area_damage: '295', spawn_damage: '472', jump_damage: '590', damage_per_second: '173' }
+        - { level: '13', hitpoints: '4820', area_damage: '324', spawn_damage: '519', jump_damage: '648', damage_per_second: '190' }
+        - { level: '14', hitpoints: '5288', area_damage: '355', spawn_damage: '569', jump_damage: '711', damage_per_second: '208' }
+        - { level: '15', hitpoints: '5803', area_damage: '390', spawn_damage: '624', jump_damage: '781', damage_per_second: '229' }
+        - { level: '16', hitpoints: '6380', area_damage: '429', spawn_damage: '687', jump_damage: '858', damage_per_second: '252' }
+usage_tips:
+  - 用登场伤害解场后，让普通攻击把前排推离后排；目标进入跃击距离时可以继续形成击退与跃击循环。
+  - 定向击退会朝敌方皇家塔移动目标，可与神箭游侠、飞斧屠夫等贯穿单位配合，创造对塔直线。
+  - 面对重型单位时击退只有 2.5 格，不能再依赖无限推离；需要建筑、递增伤害或其他高单体输出共同处理。
+  - 七费且只需一个觉醒周期，仍应优先用于高价值防守，不要为了轮转在缺乏目标时沉底部署。
+matchups:
+  - { title: 适合应对, text: '适合拆散以单一前排保护后排的地面推进，并反复打断可击退单位的攻击与冲锋。' }
+  - { title: 需要提防, text: '空军、地狱之塔和分散包围不会被定向击退整体解决，重型单位的击退距离也已经缩短。' }
+  - { title: 搭配思路, text: '与贯穿输出、蝙蝠和重置法术组合，利用击退制造直线，同时补足对空和递增伤害对局。' }
+balance_history:
+  - { date: '2026-06-01', type: nerf, summary: '对重型单位的击退距离从 4 格缩短至 2.5 格，普通单位仍为 4 格。' }
+  - { date: '2025-03-31', type: adjustment, summary: '登场伤害因基础卡数值取整提高约 0.23%，并修复若干击退交互。' }
+  - { date: '2025-01-15', type: adjustment, summary: '不再立即跃向刚被普通攻击击退的目标。' }
+  - { date: '2024-09-14', type: evolution, summary: '觉醒超级骑士正式上线。' }

@@ -1,0 +1,9 @@
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Demolisher
+items:
+  - { date: '2025-12-01', type: buff, summary: 攻击间隔从 1.2 秒缩短至 1.1 秒。 }
+  - { date: '2025-06-03', type: buff, summary: 半血转化后的持续时间从 8 秒延长至 10 秒。 }
+  - { date: '2025-01-08', type: buff, summary: 半血转化后的持续时间从 7 秒延长至 8 秒。 }
+  - { date: '2024-10-30', type: adjustment, summary: 解锁竞技场从哥布林矿场调整至惊魂小镇。 }
+  - { date: '2024-10-08', type: nerf, summary: 半血转化后的持续时间从 10 秒缩短至 7 秒。 }
+  - { date: '2024-07-02', type: nerf, summary: '死亡爆炸半径从 3 格缩小至 2.5 格，死亡伤害降低 13.1%，攻击间隔从 1.1 秒延长至 1.2 秒。' }
+  - { date: '2024-06-17', type: release, summary: 哥布林爆破手正式加入游戏。 }

@@ -1,0 +1,152 @@
+---
+release_date: '2016-02-29'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 寒冰法师
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.7 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: slow_duration
+    label: 减速持续时间
+    value: 2.5 秒
+  - key: slowdown
+    label: 减速幅度
+    value: "-30%"
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '5.5'
+  - key: splash_radius
+    label: 溅射半径
+    value: '1.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '700'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: radius
+    label: 登场伤害·作用半径
+    value: '3'
+  - key: spawn_slow_duration
+    label: 登场伤害·登场减速持续时间
+    value: 1 秒
+  - key: slowdown
+    label: 登场伤害·减速幅度
+    value: "-30%"
+  - key: target
+    label: 登场伤害·攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: spawn_damage
+      label: 登场伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      hitpoints: '570'
+      area_damage: '74'
+      spawn_damage: '69'
+      damage_per_second: '43'
+    - level: '10'
+      hitpoints: '626'
+      area_damage: '81'
+      spawn_damage: '76'
+      damage_per_second: '47'
+    - level: '11'
+      hitpoints: '688'
+      area_damage: '89'
+      spawn_damage: '84'
+      damage_per_second: '52'
+    - level: '12'
+      hitpoints: '755'
+      area_damage: '98'
+      spawn_damage: '92'
+      damage_per_second: '57'
+    - level: '13'
+      hitpoints: '831'
+      area_damage: '108'
+      spawn_damage: '101'
+      damage_per_second: '63'
+    - level: '14'
+      hitpoints: '911'
+      area_damage: '118'
+      spawn_damage: '110'
+      damage_per_second: '69'
+    - level: '15'
+      hitpoints: '1000'
+      area_damage: '130'
+      spawn_damage: '122'
+      damage_per_second: '76'
+balance_history:
+- date: '2025-10-06'
+  type: nerf
+  summary: 减速幅度从 35% 降至 30%。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 普通攻击伤害降低 1.11%，登场伤害提高 1.2%。
+- date: '2024-08-06'
+  type: buff
+  summary: 普通攻击范围半径从 1 格提高至 1.5 格。
+- date: '2023-06-06'
+  type: buff
+  summary: 登场伤害作用半径从 2.5 格提高至 3 格。
+- date: '2021-12-07'
+  type: buff
+  summary: 部署时新增范围伤害和减速效果。
+- date: '2021-06-10'
+  type: nerf
+  summary: 生命值因数值取整降低约 0.1%，确保同等级火球可以击败对应等级的寒冰法师。
+- date: '2021-06-07'
+  type: nerf
+  summary: 生命值降低 3%。
+- date: '2020-07-07'
+  type: visual
+  summary: 更换卡牌立绘。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页加入角色立绘。
+- date: '2018-12-03'
+  type: adjustment
+  summary: 生命值降低 11%，伤害提高 10%。
+- date: '2018-10-01'
+  type: buff
+  summary: 减速持续时间从 2 秒提高至 2.5 秒。
+- date: '2017-08-11'
+  type: adjustment
+  summary: 伤害提高 10%，攻击间隔从 1.5 秒延长至 1.7 秒。
+- date: '2016-08-24'
+  type: nerf
+  summary: 生命值降低 5%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复射程问题，显示射程从 6 格调整为 5.5 格，实际有效射程不变。
+- date: '2016-03-23'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2016-02-29'
+  type: release
+  summary: 寒冰法师正式加入游戏。

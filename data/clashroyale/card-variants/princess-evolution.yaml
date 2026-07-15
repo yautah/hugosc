@@ -1,0 +1,58 @@
+key: princess-evolution
+parent_key: princess
+kind: evolution
+order: 2
+name: 觉醒公主
+label: 觉醒
+url: /clashroyale/cards/princess/evolution/
+image: images/clashroyale/cards/variants/princess-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Princess/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2026-06-01'
+summary: 觉醒公主首次攻击及之后每第三次攻击会射出冰箭，范围减速敌军；被击败后还会留下持续减速的冰区。
+facts:
+  - { label: 圣水, value: '3' }
+  - { label: 觉醒周期, value: '2' }
+  - { label: 减速比例, value: '30%' }
+  - { label: 基础卡牌, value: 公主 }
+overview:
+  - 觉醒公主保留基础公主的超远射程和范围伤害。登场后的第一次攻击会射出冰箭，之后每完成两次普通攻击，第三次攻击再次触发冰箭。
+  - 冰箭命中后在三格范围内降低敌军 30% 的移动和攻击速度，效果持续七秒。觉醒公主被击败时还会在原地留下同样大小、持续七秒的减速区域。
+units:
+  - name: 觉醒公主
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 3 秒 }
+      - { label: 首次攻击间隔, value: 0.3 秒 }
+      - { label: 攻击距离, value: 9 格 }
+      - { label: 冰箭触发, value: 首次攻击及之后每第三次攻击 }
+      - { label: 减速范围, value: 3 格 }
+      - { label: 减速效果, value: 30%，持续 7 秒 }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 移动方式, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 范围伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '9', hitpoints: '216', area_damage: '139', damage_per_second: '46' }
+        - { level: '10', hitpoints: '237', area_damage: '153', damage_per_second: '51' }
+        - { level: '11', hitpoints: '261', area_damage: '168', damage_per_second: '56' }
+        - { level: '12', hitpoints: '286', area_damage: '185', damage_per_second: '61' }
+        - { level: '13', hitpoints: '315', area_damage: '203', damage_per_second: '67' }
+        - { level: '14', hitpoints: '345', area_damage: '223', damage_per_second: '74' }
+        - { level: '15', hitpoints: '379', area_damage: '245', damage_per_second: '81' }
+        - { level: '16', hitpoints: '417', area_damage: '269', damage_per_second: '89' }
+usage_tips:
+  - 登场后的第一箭必定带减速，可用于关键防守或桥头立刻施压；不要把这一箭浪费在已经没有威胁的小单位上。
+  - 三秒攻击间隔意味着后续冰箭触发较慢，应用前排或建筑保护公主，让她有时间完成三次攻击循环。
+  - 死亡冰区也有价值。无法保住公主时，可以让她在对手推进路径上被击败，以减速区域继续拖延前排和后排。
+  - 两个觉醒周期使登场频率有限，应根据牌序提前规划，不要在无压力轮次仅为过牌交出觉醒公主。
+matchups:
+  - { title: 适合应对, text: '适合减速戈仑石人、巨人等推进及其成组后排，范围减速能显著增加己方防守输出时间。' }
+  - { title: 需要提防, text: '滚木、万箭齐发、矿工和快速突进仍能直接处理本体；生命值没有额外提升，保护方式与普通公主相同。' }
+  - { title: 搭配思路, text: '与建筑、骑士等前排和法术诱饵牌搭配，利用减速延长防守时间，同时迫使对手继续保留针对公主的法术。' }
+balance_history:
+  - { date: '2026-06-01', type: evolution, summary: '觉醒公主正式上线，首次攻击及之后每第三次攻击附带范围减速，死亡后留下减速区域。' }

@@ -1,0 +1,188 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 炸弹塔
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.8 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: lifetime
+    label: 持续时间
+    value: 30 秒
+  - key: range
+    label: 攻击距离
+    value: '6'
+  - key: splash_radius
+    label: 溅射半径
+    value: '1.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '500'
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: death_damage_splash_radius
+    label: 炸弹·死亡伤害范围
+    value: '3'
+  - key: deploy_time
+    label: 炸弹·部署时间
+    value: 3 秒
+  - key: target
+    label: 炸弹·攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: hitpoints_lost_per_second
+      label: 每秒损失生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    - key: death_damage
+      label: 死亡伤害
+    rows:
+    - level: '3'
+      hitpoints: '633'
+      hitpoints_lost_per_second: '21.1'
+      damage: '104'
+      damage_per_second: '57'
+      death_damage: '104'
+    - level: '4'
+      hitpoints: '696'
+      hitpoints_lost_per_second: '23.2'
+      damage: '114'
+      damage_per_second: '63'
+      death_damage: '114'
+    - level: '5'
+      hitpoints: '765'
+      hitpoints_lost_per_second: '25.5'
+      damage: '125'
+      damage_per_second: '69'
+      death_damage: '125'
+    - level: '6'
+      hitpoints: '842'
+      hitpoints_lost_per_second: '28.1'
+      damage: '138'
+      damage_per_second: '76'
+      death_damage: '138'
+    - level: '7'
+      hitpoints: '926'
+      hitpoints_lost_per_second: '30.9'
+      damage: '152'
+      damage_per_second: '84'
+      death_damage: '152'
+    - level: '8'
+      hitpoints: '1019'
+      hitpoints_lost_per_second: '34'
+      damage: '167'
+      damage_per_second: '92'
+      death_damage: '167'
+    - level: '9'
+      hitpoints: '1121'
+      hitpoints_lost_per_second: '37.4'
+      damage: '183'
+      damage_per_second: '101'
+      death_damage: '183'
+    - level: '10'
+      hitpoints: '1233'
+      hitpoints_lost_per_second: '41.1'
+      damage: '202'
+      damage_per_second: '112'
+      death_damage: '202'
+    - level: '11'
+      hitpoints: '1356'
+      hitpoints_lost_per_second: '45.2'
+      damage: '222'
+      damage_per_second: '123'
+      death_damage: '222'
+    - level: '12'
+      hitpoints: '1492'
+      hitpoints_lost_per_second: '49.7'
+      damage: '244'
+      damage_per_second: '135'
+      death_damage: '244'
+    - level: '13'
+      hitpoints: '1641'
+      hitpoints_lost_per_second: '54.7'
+      damage: '269'
+      damage_per_second: '149'
+      death_damage: '269'
+    - level: '14'
+      hitpoints: '1805'
+      hitpoints_lost_per_second: '60.2'
+      damage: '295'
+      damage_per_second: '163'
+      death_damage: '295'
+    - level: '15'
+      hitpoints: '1985'
+      hitpoints_lost_per_second: '66.2'
+      damage: '325'
+      damage_per_second: '180'
+      death_damage: '325'
+    - level: '16'
+      hitpoints: '2184'
+      hitpoints_lost_per_second: '72.8'
+      damage: '358'
+      damage_per_second: '198'
+      death_damage: '358'
+balance_history:
+- date: '2023-10-03'
+  type: nerf
+  summary: 攻击间隔由 1.6 秒延长至 1.8 秒。
+- date: '2022-06-03'
+  type: visual
+  summary: 新增卡牌信息界面立绘。
+- date: '2021-09-06'
+  type: buff
+  summary: 持续时间由 25 秒提高至 30 秒。
+- date: '2021-03-30'
+  type: nerf
+  summary: 死亡伤害降低 50%。
+- date: '2020-06-02'
+  type: nerf
+  summary: 持续时间由 35 秒缩短至 25 秒。
+- date: '2019-03-04'
+  type: buff
+  summary: 新增被摧毁后的死亡伤害。
+- date: '2018-10-01'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2018-08-06'
+  type: adjustment
+  summary: 圣水费用由 5 点降至 4 点，持续时间由 40 秒缩短至 35 秒，生命值降低 33%。
+- date: '2018-06-20'
+  type: adjustment
+  summary: 修复目标位于射程边缘时可能停止攻击的问题。
+- date: '2017-03-13'
+  type: buff
+  summary: 投射物速度由 300 提高至 500。
+- date: '2016-07-04'
+  type: buff
+  summary: 生命值提高 6%。
+- date: '2016-05-03'
+  type: nerf
+  summary: 持续时间由 60 秒缩短至 40 秒，面板射程由 6.5 格调整为 6 格，实际有效射程不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 目标在攻击动作中被消灭时，炸弹塔不再停止投弹。
+- date: '2016-02-09'
+  type: buff
+  summary: 攻击间隔由 1.7 秒缩短至 1.6 秒。
+- date: '2016-02-02'
+  type: buff
+  summary: 攻击间隔由 1.8 秒缩短至 1.7 秒。
+- date: '2016-01-04'
+  type: release
+  summary: 炸弹塔随《皇室战争》上线加入游戏。

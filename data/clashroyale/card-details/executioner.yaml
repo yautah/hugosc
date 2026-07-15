@@ -1,0 +1,137 @@
+---
+release_date: '2017-01-27'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 飞斧屠夫
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 0.9 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: axe_time
+    label: 斧头准备时间
+    value: 1.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '4.5'
+  - key: projectile_range
+    label: 投射距离
+    value: '7.5'
+  - key: projectile_width
+    label: 投射物宽度
+    value: '2'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '550'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '6'
+      hitpoints: '800'
+      area_damage: 105 x2 (210)
+      damage_per_second: '87'
+    - level: '7'
+      hitpoints: '880'
+      area_damage: 116 x2 (232)
+      damage_per_second: '96'
+    - level: '8'
+      hitpoints: '965'
+      area_damage: 127 x2 (254)
+      damage_per_second: '105'
+    - level: '9'
+      hitpoints: '1060'
+      area_damage: 139 x2 (278)
+      damage_per_second: '115'
+    - level: '10'
+      hitpoints: '1165'
+      area_damage: 153 x2 (306)
+      damage_per_second: '127'
+    - level: '11'
+      hitpoints: '1280'
+      area_damage: 168 x2 (336)
+      damage_per_second: '140'
+    - level: '12'
+      hitpoints: '1405'
+      area_damage: 185 x2 (370)
+      damage_per_second: '154'
+    - level: '13'
+      hitpoints: '1545'
+      area_damage: 203 x2 (406)
+      damage_per_second: '169'
+    - level: '14'
+      hitpoints: '1695'
+      area_damage: 223 x2 (446)
+      damage_per_second: '185'
+    - level: '15'
+      hitpoints: '1860'
+      area_damage: 245 x2 (490)
+      damage_per_second: '204'
+balance_history:
+- date: '2026-03-02'
+  type: buff
+  summary: 11 级单段伤害从 168 提高至 179，基础形态与觉醒形态同步生效。
+- date: '2025-04-07'
+  type: evolution
+  summary: 觉醒飞斧屠夫正式上线。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 伤害因数值取整降低约 0.59%，并允许攻速受到狂暴效果影响。
+- date: '2022-08-02'
+  type: buff
+  summary: 斧头投射距离从 6.5 格提高至 7.5 格。
+- date: '2021-12-07'
+  type: buff
+  summary: 生命值提高 5%。
+- date: '2019-11-26'
+  type: adjustment
+  summary: 生命值提高 5%，完整攻击周期从 2.5 秒缩短至 2.4 秒，首次攻击加快，斧头滞空时间、锁定距离、投射距离和范围半径提高，伤害降低 45%。
+- date: '2019-11-04'
+  type: adjustment
+  summary: 投射距离提高至 5 格、斧头滞空时间提高至 1.2 秒，范围半径降低至 0.8 格。
+- date: '2019-10-01'
+  type: adjustment
+  summary: 撤销 9 月重做，恢复重做前的生命值、伤害、攻击距离、攻速与斧头范围。
+- date: '2019-09-05'
+  type: buff
+  summary: 伤害提高 2%。
+- date: '2019-09-02'
+  type: adjustment
+  summary: 伤害提高 82%，攻击距离缩短至 3 格，攻击周期延长至 2.5 秒，生命值降低 5%，斧头半径和滞空时间同时降低。
+- date: '2017-04-19'
+  type: buff
+  summary: 伤害提高 6%。
+- date: '2017-03-13'
+  type: visual
+  summary: 更换卡牌图片；斧头范围半径恢复至 1 格，投射速度从 600 降至 550。
+- date: '2017-02-13'
+  type: nerf
+  summary: 伤害降低 6%，锁定距离、投射距离和斧头范围同时降低，并修复多项飞斧异常。
+- date: '2017-01-27'
+  type: release
+  summary: 飞斧屠夫正式加入游戏。

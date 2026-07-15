@@ -1,0 +1,82 @@
+key: magic-archer-hero
+parent_key: magic-archer
+kind: hero
+order: 3
+name: 精英神箭游侠
+label: 精英
+url: /clashroyale/cards/magic-archer/hero/
+image: images/clashroyale/cards/variants/magic-archer-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Magic_Archer/Hero
+source_retrieved_at: '2026-07-15'
+release_date: '2026-03-02'
+summary: 精英神箭游侠发动能力后向后位移 3.5 格，在原地留下诱饵，并让下一次攻击同时射出三支穿透箭。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 能力费用, value: '2' }
+  - { label: 后撤距离, value: 3.5 格 }
+  - { label: 基础卡牌, value: 神箭游侠 }
+overview:
+  - 精英神箭游侠拥有“连环三箭”能力。花费两点圣水后，他会向后位移 3.5 格，在原位置留下诱饵，并让下一次攻击同时射出三支穿透箭。
+  - 三支箭的最大飞行距离为 13.5 格，可从不同角度穿过多个目标。能力既能躲开近战追击、重新拉开射程，也能借诱饵吸引锁定；但诱饵生命值较低，不能承担长时间前排作用。
+units:
+  - name: 精英神箭游侠
+    kind: main
+    mechanics:
+      - { label: 能力名称, value: 连环三箭 }
+      - { label: 能力费用, value: 2 点圣水 }
+      - { label: 后撤距离, value: 3.5 格 }
+      - { label: 三箭飞行距离, value: 13.5 格 }
+      - { label: 普通攻击间隔, value: 1.1 秒 }
+      - { label: 普通锁定射程, value: 7 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 移动方式, value: 地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 单箭伤害 }
+        - { key: triple_damage, label: 三箭合计伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '9', hitpoints: '438', area_damage: '118', triple_damage: '354', damage_per_second: '107' }
+        - { level: '10', hitpoints: '482', area_damage: '130', triple_damage: '390', damage_per_second: '118' }
+        - { level: '11', hitpoints: '529', area_damage: '143', triple_damage: '429', damage_per_second: '130' }
+        - { level: '12', hitpoints: '581', area_damage: '157', triple_damage: '471', damage_per_second: '142' }
+        - { level: '13', hitpoints: '639', area_damage: '172', triple_damage: '516', damage_per_second: '156' }
+        - { level: '14', hitpoints: '701', area_damage: '189', triple_damage: '567', damage_per_second: '171' }
+        - { level: '15', hitpoints: '770', area_damage: '208', triple_damage: '624', damage_per_second: '189' }
+        - { level: '16', hitpoints: '846', area_damage: '228', triple_damage: '684', damage_per_second: '207' }
+  - name: 神箭诱饵
+    kind: child
+    summary: 发动能力时留在原位置，用于吸引敌方锁定。诱饵不会攻击，生命值耗尽后消失。
+    mechanics:
+      - { label: 生成时机, value: 发动连环三箭时 }
+      - { label: 攻击能力, value: 无 }
+      - { label: 移动能力, value: 无 }
+      - { label: 单位数量, value: '1' }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+      rows:
+        - { level: '9', hitpoints: '224' }
+        - { level: '10', hitpoints: '246' }
+        - { level: '11', hitpoints: '271' }
+        - { level: '12', hitpoints: '298' }
+        - { level: '13', hitpoints: '328' }
+        - { level: '14', hitpoints: '360' }
+        - { level: '15', hitpoints: '395' }
+        - { level: '16', hitpoints: '434' }
+usage_tips:
+  - 等近战或突进单位接近后再发动能力，后撤可以重新拉开距离，诱饵则留在原地承受锁定，为后续穿透攻击争取时间。
+  - 三箭具有不同角度，先观察敌军和皇家塔的位置再启动；只为躲避一次普通攻击而浪费三箭连线，往往无法收回两点圣水成本。
+  - 2026 年 7 月后后撤距离和三箭飞行距离都已缩短，不能继续按早期五格位移估算安全距离，应给神箭游侠保留额外保护。
+  - 防守精英神箭游侠时可从侧面或后方包夹，避免所有单位与皇家塔排成一线；诱饵生命值很低，不必为它单独投入高费解牌。
+matchups:
+  - { title: 适合应对, text: '适合从近战追击中脱身，并利用三支穿透箭覆盖成组推进、建筑和皇家塔连线。' }
+  - { title: 需要提防, text: '火球、毒药法术和多方向包夹不会因后撤完全失效，快速单位也可能越过诱饵再次接近本体。' }
+  - { title: 搭配思路, text: '与飓风法术、低费前排和桥头施压单位搭配，先聚集或固定目标，再用三箭扩大穿透范围。' }
+balance_history:
+  - { date: '2026-07-06', type: nerf, summary: '11 级诱饵生命值从 627 降至 271，后撤距离从 5 格缩短至 3.5 格，三箭飞行距离从 15.5 格缩短至 13.5 格。' }
+  - { date: '2026-04-07', type: nerf, summary: '能力费用从 1 点圣水提高至 2 点圣水。' }
+  - { date: '2026-03-02', type: hero, summary: '精英神箭游侠正式上线。' }

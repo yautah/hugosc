@@ -203,7 +203,82 @@ assets/images/rewards/
 /rewards/clash-of-clans/
 ```
 
-## 7. 图片管理
+## 7. 皇室战争卡牌与卡组
+
+详细架构和数据源边界见 [`scbase-clash-royale-cards-decks-spec.md`](scbase-clash-royale-cards-decks-spec.md)。原型数据位于：
+
+```text
+data/clashroyale/cards.yaml
+data/clashroyale/card-source-manifest.yaml
+data/clashroyale/card-details/<key>.yaml
+data/clashroyale/card-variants/<parent>-<kind>.yaml
+data/clashroyale/decks.yaml
+assets/images/clashroyale/cards/
+assets/images/clashroyale/cards/variants/
+```
+
+维护约定：
+
+- 卡牌 `key` 是稳定主键，中文名变化时不要修改 key。
+- 新卡牌图片保存为本地 WebP，文件名与 key 一致。
+- 卡牌目录字段保存在 `cards.yaml`；从 Fandom 解析出的逐级数值和平衡记录保存在对应的 `card-details/<key>.yaml`，作为可重复构建的数值快照。
+- 人工提炼的卡牌特点、使用要点和对局思路只保存在 `card-editorials/<key>.yaml`。该目录不参与 Fandom 同步，避免原创内容被自动脚本覆盖。
+- 自动解析无法稳定处理的复合平衡记录，保存在 `card-history-overrides/<key>.yaml`，覆盖自动生成结果。
+- 觉醒和精英形态保存在 `card-variants/`，使用基础卡牌 `key` 作为 `parent_key`；文件名和形态 `key` 使用 `<parent>-evolution` 或 `<parent>-hero`。
+- 形态图片保存到 `assets/images/clashroyale/cards/variants/`，页面地址固定为 `/clashroyale/cards/<parent>/evolution/` 或 `/clashroyale/cards/<parent>/hero/`。
+- 形态属于基础卡牌的子实体，不要加入 `cards.yaml`，也不要计入卡牌百科的基础卡牌总数。
+- 卡牌页面入口统一位于 `content/clashroyale/cards/`：基础卡使用 `<key>.md`，形态使用 `<parent>-evolution.md` 或 `<parent>-hero.md`，栏目入口使用 `_index.md`。
+- 不要为每张基础卡建立带 `_index.md` 的子目录，否则 Hugo 会把卡牌识别为 section，额外生成 RSS，并绕过卡牌详情模板。
+- 页面文件虽然采用扁平命名，但 front matter 中的 `url` 必须继续保持 `/clashroyale/cards/<key>/`、`/evolution/` 和 `/hero/` 的公开层级。
+- `card-source-manifest.yaml` 是来源发现清单，不直接用于页面展示；英文名只作为内部来源匹配字段。
+- 平衡记录按日期倒序，仅记录影响实战数值或机制的调整，并更新来源核验日期。
+- 自动同步只写入能够可靠结构化的简单数值调整；复杂重做、问题修复和无法准确中文化的记录必须人工核对后补充。
+- 自动生成的详情路由默认 `noindex: true`。补充原创策略、克制关系和搭配内容后，将 `noindex` 改为 `false`，并将 `generated_card_data` 改为 `false`，避免下次同步覆盖该路由的 Front Matter。
+- 卡组必须包含 8 张不同卡牌，引用的 key 必须已经存在。
+- 卡组 `id` 和 `slug` 不因胜率、赛季或排序变化而修改。
+- `average_elixir` 和 `cycle_elixir` 必须由校验器复核。
+- `decks.yaml` 只用于校验卡组身份、费用和渲染组件，不作为前台固定卡组库。
+- 卡组榜单必须使用获授权数据，或由官方 API 战斗日志自行聚合；不得填写模拟排名。
+- 第三方统计必须同时记录来源、周期、模式、分段、样本量和更新时间。
+- 未取得书面授权前，不抓取或转载 RoyaleAPI 的实时排行数据。
+
+新增或修改数据后执行：
+
+```bash
+ruby tools/sync-clash-card-sources.rb --write-manifest
+ruby tools/build-clash-card-data.rb --write --images
+npm run validate:clash-data
+hugo --minify
+```
+
+日常不需要频繁重抓 Fandom。只有新增卡牌、觉醒/精英上线、平衡性调整或发现数值错误时，再运行同步和构建脚本。补充普通卡牌固定模块时，只编辑 `card-editorials/<key>.yaml`，然后运行：
+
+```bash
+npm run validate:clash-data
+ruby tools/validate-clash-data.rb --require-editorials
+hugo --minify
+```
+
+其中 `--require-editorials` 是批量固定卡牌时使用的严格检查，会列出还缺少卡牌特点、使用要点和对局模块的基础卡牌；常规校验不强制所有卡都已经完成原创内容。
+
+同步脚本负责生成基础卡牌参数、等级属性和平衡记录。人工提炼的基础卡牌特点、使用要点与对局分析必须放在 `data/clashroyale/card-editorials/<key>.yaml`，不要直接写入自动生成的 `card-details` 文件。形态数据当前采用人工核验，完整保存在 `card-variants/<key>.yaml`。校验器会检查 126 张基础卡牌及所有形态的重复 key、父卡牌、详情路由、图片、动态等级数据、中文标签、内容结构和平衡记录顺序，以及卡组的 8 卡完整性、卡牌引用、平均圣水和四卡循环。截至 2026-07-15，基础卡牌工作流与 55 个已上线形态均已完成；后续新增卡牌或形态时必须重新运行完整审计。
+
+如果自动生成的平衡记录缺失复合改动，应在 `data/clashroyale/card-history-overrides/<key>.yaml` 增加完整中文覆盖记录。文件需要填写 `source_url` 和按日期倒序排列的 `items`；重新运行卡牌同步时，覆盖记录优先于自动解析结果，不会被覆盖。
+
+历史记录允许使用 `buff`、`nerf`、`adjustment`、`release`、`visual`、`evolution` 和 `hero` 类型。除对战改动外，每张卡还应收录首次上线、卡牌图片更换、觉醒上线和精英形态上线（存在时）；任何等级上限调整都无需记录。
+
+当前页面：
+
+```text
+/clashroyale/cards/
+/clashroyale/cards/<key>/
+/clashroyale/cards/<key>/evolution/
+/clashroyale/cards/<key>/hero/
+/clashroyale/decks/
+/clashroyale/decks/hog-cycle-classic/
+```
+
+## 8. 图片管理
 
 - `assets/images/`：需要 Hugo 裁剪、转换、压缩或指纹处理的站点资源。
 - 文章同级图片：文章正文使用的 Page Resource。
@@ -212,7 +287,7 @@ assets/images/rewards/
 
 首页置顶和热门封面会由 Hugo 自动裁剪。重要入口应单独准备封面，不要直接拿正文小图或透明图标作为首页封面。
 
-## 8. 本地预览与上线检查
+## 9. 本地预览与上线检查
 
 本地预览：
 
@@ -229,6 +304,7 @@ hugo --cleanDestinationDir --minify
 提交前至少执行：
 
 ```bash
+npm run validate:clash-data
 hugo --cleanDestinationDir --minify
 git diff --check
 git status --short
@@ -244,7 +320,7 @@ git status --short
 6. 桌面端和移动端是否存在横向溢出。
 7. 浏览器控制台是否出现资源加载错误。
 
-## 9. 常见问题
+## 10. 常见问题
 
 ### 首页顺序和预期不一致
 

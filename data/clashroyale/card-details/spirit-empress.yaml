@@ -1,0 +1,121 @@
+---
+release_date: '2025-07-07'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 精灵女王
+  kind: main
+  mechanics:
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: hit_speed
+    label: 空中形态·攻击间隔
+    value: 1.4 秒
+  - key: first_hit_speed
+    label: 空中形态·首次攻击间隔
+    value: 0.5 秒
+  - key: range
+    label: 空中形态·攻击距离
+    value: '5'
+  - key: target
+    label: 空中形态·攻击目标
+    value: 空中和地面
+  - key: transport
+    label: 空中形态·移动方式
+    value: 空中
+  - key: hit_speed
+    label: 地面形态·攻击间隔
+    value: 1.2 秒
+  - key: first_hit_speed
+    label: 地面形态·首次攻击间隔
+    value: 0.3 秒
+  - key: range
+    label: 地面形态·攻击距离
+    value: 近战：中 (1.2)
+  - key: target
+    label: 地面形态·攻击目标
+    value: 地面
+  - key: transport
+    label: 地面形态·移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints_both_forms
+      label: 生命值(两种形态)
+    - key: damage
+      label: 伤害
+    - key: air_form_damage_per_second
+      label: 空中形态每秒伤害
+    - key: ground_form_damage_per_second
+      label: 地面形态每秒伤害
+    rows:
+    - level: '9'
+      hitpoints_both_forms: "?"
+      damage: '249'
+      air_form_damage_per_second: '177'
+      ground_form_damage_per_second: '207'
+    - level: '10'
+      hitpoints_both_forms: "?"
+      damage: '276'
+      air_form_damage_per_second: '197'
+      ground_form_damage_per_second: '230'
+    - level: '11'
+      hitpoints_both_forms: '1.121'
+      damage: '309'
+      air_form_damage_per_second: '219'
+      ground_form_damage_per_second: '257'
+    - level: '12'
+      hitpoints_both_forms: "?"
+      damage: '337'
+      air_form_damage_per_second: '240'
+      ground_form_damage_per_second: '280'
+    - level: '13'
+      hitpoints_both_forms: "?"
+      damage: '371'
+      air_form_damage_per_second: '265'
+      ground_form_damage_per_second: '309'
+    - level: '14'
+      hitpoints_both_forms: "?"
+      damage: '408'
+      air_form_damage_per_second: '291'
+      ground_form_damage_per_second: '340'
+    - level: '15'
+      hitpoints_both_forms: "?"
+      damage: '449'
+      air_form_damage_per_second: '320'
+      ground_form_damage_per_second: '374'
+    - level: '16'
+      hitpoints_both_forms: '1.791'
+      damage: '494'
+      air_form_damage_per_second: '352'
+      ground_form_damage_per_second: '411'
+balance_history:
+- date: '2026-05-04'
+  type: nerf
+  summary: 地面形态攻击间隔从 1.1 秒延长至 1.2 秒、生命值从 1152 降至 1121；空中形态生命值从 1177 降至 1121。
+- date: '2026-03-02'
+  type: adjustment
+  summary: 地面形态生命值从 1244 降至 1152，移动速度由中等提高为快速；空中形态生命值从 1192 降至 1177。
+- date: '2025-11-03'
+  type: buff
+  summary: 地面形态生命值从 1134 提高至 1244。
+- date: '2025-09-02'
+  type: nerf
+  summary: 空中形态生命值从 1318 降至 1192。
+- date: '2025-08-04'
+  type: buff
+  summary: 两种形态生命值提高 5%，空中形态攻击距离从 4.5 格提高至 5 格。
+- date: '2025-07-10'
+  type: buff
+  summary: 地面形态生命值提高 5%，空中形态攻击间隔从 1.5 秒缩短至 1.4 秒。
+- date: '2025-07-07'
+  type: release
+  summary: 精灵女王正式加入游戏，玩家可用三费部署地面形态或用六费部署空中形态。

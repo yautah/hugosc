@@ -1,0 +1,44 @@
+source_url: https://clashroyale.fandom.com/wiki/Goblins
+items:
+- date: '2026-02-02'
+  type: hero
+  summary: 精英哥布林正式上线，哥布林获得精英形态。
+- date: '2025-04-09'
+  type: adjustment
+  summary: 首次攻击间隔从 0.4 秒延长至 0.6 秒，部署时间从 1.2 秒缩短至 1 秒。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 修复不同阵营部署时，四个哥布林的生成阵型没有正确镜像的问题。
+- date: '2024-01-03'
+  type: nerf
+  summary: 部署时间从 1 秒延长至 1.2 秒。
+- date: '2023-06-06'
+  type: nerf
+  summary: 每个哥布林依次登场的间隔从 0.1 秒延长至 0.2 秒。
+- date: '2022-10-26'
+  type: adjustment
+  summary: 单位数量从 3 个增加至 4 个，首次攻击间隔从 0.2 秒延长至 0.4 秒。
+- date: '2021-09-06'
+  type: adjustment
+  summary: 增大四个哥布林部署后的站位间距。
+- date: '2020-06-02'
+  type: adjustment
+  summary: 哥布林改为依次登场，每个单位之间间隔 0.1 秒。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息界面更换为新的卡牌图片。
+- date: '2018-07-02'
+  type: nerf
+  summary: 生命值降低 1%，修正同等级亡灵无法两次攻击将其击败的取整问题。
+- date: '2017-12-12'
+  type: nerf
+  summary: 伤害降低 6%。
+- date: '2016-05-03'
+  type: adjustment
+  summary: 修复攻击距离问题，面板距离从 1 格改为 0.5 格，实际有效攻击距离保持不变。
+- date: '2016-02-29'
+  type: adjustment
+  summary: 视野范围从 6 格缩小至 5.5 格。
+- date: '2016-01-04'
+  type: release
+  summary: 哥布林随皇室战争上线加入游戏。

@@ -1,0 +1,89 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 雷电法术
+  kind: main
+  mechanics: []
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    rows:
+    - level: '6'
+      area_damage: '656'
+      crown_tower_damage: '178'
+    - level: '7'
+      area_damage: '722'
+      crown_tower_damage: '195'
+    - level: '8'
+      area_damage: '794'
+      crown_tower_damage: '215'
+    - level: '9'
+      area_damage: '874'
+      crown_tower_damage: '236'
+    - level: '10'
+      area_damage: '961'
+      crown_tower_damage: '260'
+    - level: '11'
+      area_damage: '1057'
+      crown_tower_damage: '286'
+    - level: '12'
+      area_damage: '1163'
+      crown_tower_damage: '315'
+    - level: '13'
+      area_damage: '1279'
+      crown_tower_damage: '346'
+    - level: '14'
+      area_damage: '1407'
+      crown_tower_damage: '381'
+    - level: '15'
+      area_damage: '1548'
+      crown_tower_damage: '419'
+    - level: '16'
+      area_damage: '1702'
+      crown_tower_damage: '461'
+balance_history:
+- date: '2025-11-24'
+  type: visual
+  summary: 卡牌信息页面加入雷电法术的卡牌形象。
+- date: '2025-06-03'
+  type: nerf
+  summary: 对皇家塔伤害比例从 30% 降至 27%。
+- date: '2025-03-31'
+  type: buff
+  summary: 伤害提高 0.09%。
+- date: '2022-03-30'
+  type: visual
+  summary: 即使没有造成伤害，雷电法术也会显示施法视觉效果。
+- date: '2020-11-19'
+  type: adjustment
+  summary: 修复雷电法术命中雷电巨人可能导致游戏崩溃的问题。
+- date: '2020-08-04'
+  type: nerf
+  summary: 对皇家塔伤害比例从 35% 降至 30%。
+- date: '2018-09-03'
+  type: adjustment
+  summary: 伤害提高 5%，但不再重置电击车小队攻击。
+- date: '2018-04-25'
+  type: buff
+  summary: 作用半径从 3 格提高至 3.5 格，并允许在河道区域施放。
+- date: '2017-12-12'
+  type: nerf
+  summary: 对皇家塔伤害比例从 40% 降至 35%。
+- date: '2017-10-09'
+  type: nerf
+  summary: 伤害降低 3%，作用半径从 3.5 格缩短至 3 格。
+- date: '2016-09-19'
+  type: buff
+  summary: 加入 0.5 秒眩晕效果。
+- date: '2016-02-19'
+  type: nerf
+  summary: 对皇家塔伤害比例从 50% 降至 40%。
+- date: '2016-01-04'
+  type: release
+  summary: 雷电法术随游戏首发加入。

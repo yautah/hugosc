@@ -1,0 +1,101 @@
+---
+release_date: '2019-02-26'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 攻城炸弹人
+  kind: main
+  mechanics:
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.5)
+  - key: splash_radius
+    label: 溅射半径
+    value: '1.5'
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '2'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    rows:
+    - level: '6'
+      hitpoints: '206'
+      area_damage: '244'
+    - level: '7'
+      hitpoints: '227'
+      area_damage: '269'
+    - level: '8'
+      hitpoints: '248'
+      area_damage: '295'
+    - level: '9'
+      hitpoints: '273'
+      area_damage: '324'
+    - level: '10'
+      hitpoints: '300'
+      area_damage: '356'
+    - level: '11'
+      hitpoints: '330'
+      area_damage: '391'
+    - level: '12'
+      hitpoints: '362'
+      area_damage: '429'
+    - level: '13'
+      hitpoints: '398'
+      area_damage: '472'
+    - level: '14'
+      hitpoints: '437'
+      area_damage: '518'
+    - level: '15'
+      hitpoints: '479'
+      area_damage: '569'
+balance_history:
+- date: '2025-11-03'
+  type: nerf
+  summary: 11 级伤害从 391 降至 350，降低 10%。
+- date: '2025-03-31'
+  type: nerf
+  summary: 生命值降低 0.3%，伤害降低 0.25%。
+- date: '2024-02-14'
+  type: evolution
+  summary: 攻城炸弹人的觉醒形态正式上线。
+- date: '2020-06-02'
+  type: adjustment
+  summary: 两名攻城炸弹人之间加入 0.1 秒部署错开。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页加入角色立绘。
+- date: '2019-11-04'
+  type: nerf
+  summary: 伤害降低 19%，范围半径从 2 格缩小至 1.5 格，并增大两名单位的初始间距。
+- date: '2019-10-07'
+  type: adjustment
+  summary: 圣水费用从 3 降至 2，伤害降低 10%，质量从 2 提高至 4，碰撞半径从 0.5 格缩小至 0.4 格。
+- date: '2019-06-03'
+  type: visual
+  summary: 更新声音和视觉效果。
+- date: '2019-05-06'
+  type: buff
+  summary: 伤害提高 10%，攻击距离从 0.25 格提高至 0.5 格，并重新定位范围伤害以命中附近单位。
+- date: '2019-03-04'
+  type: buff
+  summary: 攻击准备时间从 1.5 秒缩短至 1.2 秒。
+- date: '2019-02-26'
+  type: release
+  summary: 攻城炸弹人正式加入游戏。

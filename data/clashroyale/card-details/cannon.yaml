@@ -1,0 +1,167 @@
+---
+release_date: '2016-01-04'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 加农炮
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 1 秒
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: lifetime
+    label: 持续时间
+    value: 30 秒
+  - key: range
+    label: 攻击距离
+    value: '5.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '1000'
+  - key: target
+    label: 攻击目标
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: hitpoints_lost_per_second
+      label: 每秒损失生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '1'
+      hitpoints: '318'
+      hitpoints_lost_per_second: '10.6'
+      damage: '82'
+      damage_per_second: '82'
+    - level: '2'
+      hitpoints: '349'
+      hitpoints_lost_per_second: '11.6'
+      damage: '90'
+      damage_per_second: '90'
+    - level: '3'
+      hitpoints: '384'
+      hitpoints_lost_per_second: '12.8'
+      damage: '99'
+      damage_per_second: '99'
+    - level: '4'
+      hitpoints: '423'
+      hitpoints_lost_per_second: '14.1'
+      damage: '109'
+      damage_per_second: '109'
+    - level: '5'
+      hitpoints: '465'
+      hitpoints_lost_per_second: '15.5'
+      damage: '120'
+      damage_per_second: '120'
+    - level: '6'
+      hitpoints: '512'
+      hitpoints_lost_per_second: '17.1'
+      damage: '132'
+      damage_per_second: '132'
+    - level: '7'
+      hitpoints: '563'
+      hitpoints_lost_per_second: '18.8'
+      damage: '145'
+      damage_per_second: '145'
+    - level: '8'
+      hitpoints: '619'
+      hitpoints_lost_per_second: '20.6'
+      damage: '159'
+      damage_per_second: '159'
+    - level: '9'
+      hitpoints: '681'
+      hitpoints_lost_per_second: '22.7'
+      damage: '175'
+      damage_per_second: '175'
+    - level: '10'
+      hitpoints: '749'
+      hitpoints_lost_per_second: '25'
+      damage: '193'
+      damage_per_second: '193'
+    - level: '11'
+      hitpoints: '824'
+      hitpoints_lost_per_second: '27.5'
+      damage: '212'
+      damage_per_second: '212'
+    - level: '12'
+      hitpoints: '906'
+      hitpoints_lost_per_second: '30.2'
+      damage: '233'
+      damage_per_second: '233'
+    - level: '13'
+      hitpoints: '997'
+      hitpoints_lost_per_second: '33.2'
+      damage: '257'
+      damage_per_second: '257'
+    - level: '14'
+      hitpoints: '1097'
+      hitpoints_lost_per_second: '36.6'
+      damage: '282'
+      damage_per_second: '282'
+    - level: '15'
+      hitpoints: '1206'
+      hitpoints_lost_per_second: '40.2'
+      damage: '310'
+      damage_per_second: '310'
+    - level: '16'
+      hitpoints: '1327'
+      hitpoints_lost_per_second: '44.2'
+      damage: '341'
+      damage_per_second: '341'
+balance_history:
+- date: '2025-03-04'
+  type: nerf
+  summary: 攻击间隔和首次攻击间隔由 0.9 秒延长至 1 秒。
+- date: '2024-11-15'
+  type: evolution
+  summary: 加农炮觉醒上线。
+- date: '2024-10-30'
+  type: visual
+  summary: 更换加农炮的卡牌图片。
+- date: '2022-10-04'
+  type: nerf
+  summary: 生命值降低 8%。
+- date: '2021-06-07'
+  type: buff
+  summary: 攻击间隔和首次攻击间隔由 1 秒缩短至 0.9 秒。
+- date: '2020-03-03'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2019-09-30'
+  type: visual
+  summary: 新增额外星级外观。
+- date: '2019-07-01'
+  type: adjustment
+  summary: 伤害提高 32%，攻击间隔和首次攻击间隔由 0.8 秒延长至 1 秒。
+- date: '2018-06-20'
+  type: adjustment
+  summary: 修复目标停在射程边缘时加农炮可能停止攻击的问题。
+- date: '2016-06-21'
+  type: nerf
+  summary: 生命值降低 8%。
+- date: '2016-05-18'
+  type: nerf
+  summary: 生命值降低 5%。
+- date: '2016-05-03'
+  type: nerf
+  summary: 生命值降低 11%，面板射程由 6 格调整为 5.5 格，实际有效射程不变。
+- date: '2016-03-23'
+  type: nerf
+  summary: 持续时间由 40 秒缩短至 30 秒。
+- date: '2016-02-02'
+  type: adjustment
+  summary: 圣水费用由 6 点降至 3 点，攻击距离由 7 格降至 6 格，持续时间由 60 秒缩短至 40 秒，生命值降低 55%。
+- date: '2016-01-04'
+  type: release
+  summary: 加农炮随《皇室战争》上线加入游戏。

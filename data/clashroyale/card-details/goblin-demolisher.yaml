@@ -1,0 +1,201 @@
+---
+release_date: '2024-06-17'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 哥布林爆破手
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.2 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '5'
+  - key: splash_radius
+    label: 溅射半径
+    value: '1.5'
+  - key: projectile_speed
+    label: 投射物速度
+    value: '400'
+  - key: target
+    label: 攻击目标
+    value: 地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: area_damage
+      label: 范围伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '3'
+      hitpoints: '606'
+      area_damage: '87'
+      damage_per_second: '72'
+    - level: '4'
+      hitpoints: '667'
+      area_damage: '95'
+      damage_per_second: '79'
+    - level: '5'
+      hitpoints: '734'
+      area_damage: '105'
+      damage_per_second: '87'
+    - level: '6'
+      hitpoints: '807'
+      area_damage: '115'
+      damage_per_second: '95'
+    - level: '7'
+      hitpoints: '888'
+      area_damage: '127'
+      damage_per_second: '105'
+    - level: '8'
+      hitpoints: '977'
+      area_damage: '140'
+      damage_per_second: '116'
+    - level: '9'
+      hitpoints: '1074'
+      area_damage: '154'
+      damage_per_second: '128'
+    - level: '10'
+      hitpoints: '1182'
+      area_damage: '169'
+      damage_per_second: '140'
+    - level: '11'
+      hitpoints: '1300'
+      area_damage: '186'
+      damage_per_second: '155'
+    - level: '12'
+      hitpoints: '1430'
+      area_damage: '205'
+      damage_per_second: '170'
+    - level: '13'
+      hitpoints: '1573'
+      area_damage: '225'
+      damage_per_second: '187'
+    - level: '14'
+      hitpoints: '1730'
+      area_damage: '248'
+      damage_per_second: '206'
+    - level: '15'
+      hitpoints: '1903'
+      area_damage: '272'
+      damage_per_second: '226'
+    - level: '16'
+      hitpoints: '2094'
+      area_damage: '300'
+      damage_per_second: '250'
+- name: 自爆哥布林爆破手
+  kind: child
+  mechanics:
+  - key: activation
+    label: 激活时间
+    value: 50%
+  - key: speed
+    label: 移动速度
+    value: 极快 (120)
+  - key: lifetime
+    label: 持续时间
+    value: 10 秒
+  - key: range
+    label: 攻击距离
+    value: 近战：短 (0.5)
+  - key: death_damage_splash_radius
+    label: 死亡伤害范围
+    value: '2.5'
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: kamikaze_goblin_demolisher_hitpoints_lost_per_second
+      label: 每秒损失生命值
+    - key: death_damage
+      label: 死亡伤害
+    rows:
+    - level: '3'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '30.3'
+      death_damage: '188'
+    - level: '4'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '33.4'
+      death_damage: '207'
+    - level: '5'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '36.7'
+      death_damage: '228'
+    - level: '6'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '40.4'
+      death_damage: '251'
+    - level: '7'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '44.4'
+      death_damage: '276'
+    - level: '8'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '48.8'
+      death_damage: '304'
+    - level: '9'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '53.7'
+      death_damage: '334'
+    - level: '10'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '59.1'
+      death_damage: '367'
+    - level: '11'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '65'
+      death_damage: '404'
+    - level: '12'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '71.5'
+      death_damage: '444'
+    - level: '13'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '78.7'
+      death_damage: '489'
+    - level: '14'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '86.5'
+      death_damage: '538'
+    - level: '15'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '95.2'
+      death_damage: '591'
+    - level: '16'
+      kamikaze_goblin_demolisher_hitpoints_lost_per_second: '104.7'
+      death_damage: '651'
+balance_history:
+- date: '2025-12-01'
+  type: buff
+  summary: 攻击间隔从 1.2 秒缩短至 1.1 秒。
+- date: '2025-06-03'
+  type: buff
+  summary: 半血转化后的持续时间从 8 秒延长至 10 秒。
+- date: '2025-01-08'
+  type: buff
+  summary: 半血转化后的持续时间从 7 秒延长至 8 秒。
+- date: '2024-10-30'
+  type: adjustment
+  summary: 解锁竞技场从哥布林矿场调整至惊魂小镇。
+- date: '2024-10-08'
+  type: nerf
+  summary: 半血转化后的持续时间从 10 秒缩短至 7 秒。
+- date: '2024-07-02'
+  type: nerf
+  summary: 死亡爆炸半径从 3 格缩小至 2.5 格，死亡伤害降低 13.1%，攻击间隔从 1.1 秒延长至 1.2 秒。
+- date: '2024-06-17'
+  type: release
+  summary: 哥布林爆破手正式加入游戏。

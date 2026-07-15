@@ -1,0 +1,156 @@
+---
+release_date: '2024-10-07'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 博士
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.8 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: stun_duration
+    label: 眩晕持续时间
+    value: 0.5 秒
+  - key: range
+    label: 攻击距离
+    value: '5.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: doctor_hitpoints
+      label: 生命值
+    - key: doctor_damage
+      label: 伤害
+    - key: doctor_damage_per_second
+      label: 每秒伤害
+    - key: lightning_link_damage
+      label: 闪电连接伤害
+    - key: lightning_link_crown_tower_damage
+      label: 闪电连接皇家塔伤害
+    rows:
+    - level: '11'
+      doctor_hitpoints: '721'
+      doctor_damage: '92'
+      doctor_damage_per_second: '51'
+      lightning_link_damage: '107'
+      lightning_link_crown_tower_damage: '23'
+    - level: '12'
+      doctor_hitpoints: '792'
+      doctor_damage: '101'
+      doctor_damage_per_second: '56'
+      lightning_link_damage: '118'
+      lightning_link_crown_tower_damage: '25'
+    - level: '13'
+      doctor_hitpoints: '871'
+      doctor_damage: '111'
+      doctor_damage_per_second: '61'
+      lightning_link_damage: '129'
+      lightning_link_crown_tower_damage: '27'
+    - level: '14'
+      doctor_hitpoints: '955'
+      doctor_damage: '122'
+      doctor_damage_per_second: '67'
+      lightning_link_damage: '142'
+      lightning_link_crown_tower_damage: '30'
+    - level: '15'
+      doctor_hitpoints: '1049'
+      doctor_damage: '133'
+      doctor_damage_per_second: '73'
+      lightning_link_damage: '156'
+      lightning_link_crown_tower_damage: '33'
+- name: 怪物
+  kind: child
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.5 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.8 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: range
+    label: 攻击距离
+    value: 近战：中 (1.2)
+  - key: target
+    label: 攻击目标
+    value: 建筑
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: monster_hitpoints
+      label: 生命值
+    - key: monster_damage
+      label: 伤害
+    - key: monster_damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '11'
+      monster_hitpoints: '2393'
+      monster_damage: '128'
+      monster_damage_per_second: '85'
+    - level: '12'
+      monster_hitpoints: '2627'
+      monster_damage: '140'
+      monster_damage_per_second: '93'
+    - level: '13'
+      monster_hitpoints: '2889'
+      monster_damage: '154'
+      monster_damage_per_second: '102'
+    - level: '14'
+      monster_hitpoints: '3169'
+      monster_damage: '169'
+      monster_damage_per_second: '112'
+    - level: '15'
+      monster_hitpoints: '3478'
+      monster_damage: '186'
+      monster_damage_per_second: '124'
+balance_history:
+- date: '2025-09-01'
+  type: buff
+  summary: 怪物生命值提高 4%。
+- date: '2025-04-09'
+  type: nerf
+  summary: 怪物生命值降低 4%。
+- date: '2025-02-04'
+  type: nerf
+  summary: 怪物生命值降低 8%。
+- date: '2025-01-08'
+  type: nerf
+  summary: 博士生命值降低 19%。
+- date: '2024-12-16'
+  type: adjustment
+  summary: 修复闪电连接未对国王塔应用伤害削减的问题。
+- date: '2024-11-14'
+  type: nerf
+  summary: 怪物生命值降低 6%。
+- date: '2024-10-17'
+  type: nerf
+  summary: 闪电连接持续时间从 5 秒缩短至 4 秒，对皇家塔伤害降低 36%，技能冷却从 15 秒延长至 17 秒。
+- date: '2024-10-07'
+  type: release
+  summary: 科学怪哥布林正式加入游戏。

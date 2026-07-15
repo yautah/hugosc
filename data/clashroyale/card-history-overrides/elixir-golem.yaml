@@ -1,0 +1,11 @@
+source_url: https://clashroyale.fandom.com/wiki/Elixir_Golem
+items:
+  - { date: '2025-03-31', type: adjustment, summary: '圣水戈仑生命值提高约 0.06%、伤害降低约 0.39%；小圣水戈仑生命值降低约 0.13%、伤害提高约 0.78%；圣水泡泡伤害提高约 1.58%，并修复受皇家大厨强化后不分裂的问题。' }
+  - { date: '2023-06-30', type: adjustment, summary: 修复部分情况下被消灭后没有向对手返还圣水的问题。 }
+  - { date: '2022-10-04', type: buff, summary: '所有形态攻击间隔从 1.3 秒缩短至 1.1 秒，首次攻击间隔从 1 秒调整为 0.8 秒。' }
+  - { date: '2022-08-02', type: adjustment, summary: '圣水戈仑生命值提高 9%，小圣水戈仑生命值提高 6%；返费改为本体 1 点、每个小戈仑 0.5 点、每个泡泡 0.5 点，总返费仍为 4 点。' }
+  - { date: '2021-06-07', type: adjustment, summary: 解锁竞技场从电磁峡谷调整至宁静圣殿。 }
+  - { date: '2020-01-07', type: nerf, summary: 三种形态生命值均降低 6%。 }
+  - { date: '2019-12-02', type: adjustment, summary: 三种形态的攻击间隔统一为 1.3 秒，提高本体和小戈仑输出，但降低圣水泡泡的每秒伤害。 }
+  - { date: '2019-11-26', type: visual, summary: 卡牌信息页面加入圣水戈仑立绘。 }
+  - { date: '2019-11-04', type: release, summary: 圣水戈仑正式发布，三种形态生命值同时降低 10%。 }

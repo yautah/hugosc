@@ -1,0 +1,130 @@
+---
+release_date: '2016-09-30'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 地狱飞龙
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 0.4 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '3.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 空中
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage_stage_1
+      label: 伤害(第一阶段)
+    - key: damage_stage_2
+      label: 伤害(第二阶段)
+    - key: damage_stage_3
+      label: 伤害(第三阶段)
+    - key: damage_per_second_stage_1
+      label: 每秒伤害(第一阶段)
+    - key: damage_per_second_stage_2
+      label: 每秒伤害(第二阶段)
+    - key: damage_per_second_stage_3
+      label: 每秒伤害(第三阶段)
+    rows:
+    - level: '9'
+      hitpoints: '1072'
+      damage_stage_1: '29'
+      damage_stage_2: '99'
+      damage_stage_3: '349'
+      damage_per_second_stage_1: '72'
+      damage_per_second_stage_2: '247'
+      damage_per_second_stage_3: '872'
+    - level: '10'
+      hitpoints: '1178'
+      damage_stage_1: '32'
+      damage_stage_2: '109'
+      damage_stage_3: '384'
+      damage_per_second_stage_1: '80'
+      damage_per_second_stage_2: '272'
+      damage_per_second_stage_3: '960'
+    - level: '11'
+      hitpoints: '1295'
+      damage_stage_1: '35'
+      damage_stage_2: '120'
+      damage_stage_3: '422'
+      damage_per_second_stage_1: '87'
+      damage_per_second_stage_2: '300'
+      damage_per_second_stage_3: '1055'
+    - level: '12'
+      hitpoints: '1421'
+      damage_stage_1: '39'
+      damage_stage_2: '132'
+      damage_stage_3: '463'
+      damage_per_second_stage_1: '97'
+      damage_per_second_stage_2: '330'
+      damage_per_second_stage_3: '1157'
+    - level: '13'
+      hitpoints: '1563'
+      damage_stage_1: '43'
+      damage_stage_2: '145'
+      damage_stage_3: '509'
+      damage_per_second_stage_1: '107'
+      damage_per_second_stage_2: '362'
+      damage_per_second_stage_3: '1272'
+    - level: '14'
+      hitpoints: '1715'
+      damage_stage_1: '47'
+      damage_stage_2: '159'
+      damage_stage_3: '559'
+      damage_per_second_stage_1: '117'
+      damage_per_second_stage_2: '397'
+      damage_per_second_stage_3: '1397'
+    - level: '15'
+      hitpoints: '1882'
+      damage_stage_1: '52'
+      damage_stage_2: '174'
+      damage_stage_3: '613'
+      damage_per_second_stage_1: '130'
+      damage_per_second_stage_2: '435'
+      damage_per_second_stage_3: '1532'
+    - level: '16'
+      hitpoints: '2069'
+      damage_stage_1: '57'
+      damage_stage_2: '192'
+      damage_stage_3: '674'
+      damage_per_second_stage_1: '142'
+      damage_per_second_stage_2: '480'
+      damage_per_second_stage_3: '1685'
+balance_history:
+- date: '2025-06-02'
+  type: evolution
+  summary: 觉醒地狱飞龙正式上线。
+- date: '2025-03-31'
+  type: adjustment
+  summary: 生命值因数值取整提高约 0.07%。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页加入角色立绘。
+- date: '2017-06-12'
+  type: buff
+  summary: 生命值提高 7%，重新锁定目标速度加快。
+- date: '2016-12-15'
+  type: buff
+  summary: 生命值提高 5%，重新锁定目标速度加快。
+- date: '2016-09-30'
+  type: release
+  summary: 地狱飞龙正式加入游戏。

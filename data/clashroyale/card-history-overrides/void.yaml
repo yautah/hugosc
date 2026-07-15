@@ -1,0 +1,11 @@
+source_url: https://clashroyale.fandom.com/wiki/Void
+items:
+  - { date: '2025-12-01', type: buff, summary: '单目标伤害提高 6%。' }
+  - { date: '2025-03-04', type: buff, summary: '打击间隔从 1.3 秒缩短至 1 秒。' }
+  - { date: '2025-02-04', type: adjustment, summary: '伐木工幽灵改为免疫虚空法术。' }
+  - { date: '2024-10-08', type: nerf, summary: '单目标伤害降低 32%。' }
+  - { date: '2024-10-02', type: nerf, summary: '作用半径从 2.6 格缩短至 2.5 格。' }
+  - { date: '2024-08-06', type: adjustment, summary: '单目标伤害降低 13.2%，五个及以上目标时伤害提高 58.4%。' }
+  - { date: '2024-07-02', type: buff, summary: '作用半径从 2.5 格提高至 2.6 格。' }
+  - { date: '2024-06-17', type: adjustment, summary: '打击间隔从 1.5 秒缩短至 1.3 秒，首次打击从 0.5 秒延长至 1 秒。' }
+  - { date: '2024-05-06', type: release, summary: '虚空法术正式加入游戏。' }

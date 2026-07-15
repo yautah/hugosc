@@ -1,0 +1,103 @@
+key: musketeer-hero
+parent_key: musketeer
+kind: hero
+order: 3
+name: 精英火枪手
+label: 精英
+url: /clashroyale/cards/musketeer/hero/
+image: images/clashroyale/cards/variants/musketeer-hero.webp
+source_url: https://clashroyale.fandom.com/wiki/Musketeer/Hero
+source_retrieved_at: '2026-07-15'
+source_revision: 436484
+release_date: '2025-12-01'
+summary: 精英火枪手可以额外消耗三费，在自身前方召唤一座持续十秒的随身炮塔，用于拉扯建筑目标单位并补充近距离输出。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 技能费用, value: 3 圣水 }
+  - { label: 技能冷却, value: 22 秒 }
+  - { label: 基础卡牌, value: 火枪手 }
+overview:
+  - 精英火枪手的基础远程输出与普通火枪手相近，主动技能会在约一秒施放后，于她前方三格处召唤一座随身炮塔。炮塔可以攻击空中和地面，也具有建筑属性，能够吸引野猪骑士、巨人等只攻击建筑的单位。
+  - 炮塔只持续十秒，并会随时间损失生命值，因此更适合在关键防守时临时改变路线，而不是当作长期建筑。火枪手和技能合计七费，错误时机召唤会让整次防守成本过高；应同时计算拉扯价值、炮塔输出和火枪手本体的安全位置。
+units:
+  - name: 精英火枪手
+    kind: main
+    section_label: 主单位
+    summary: 本体保持远程对空输出，技能发动后会在前方部署随身炮塔。
+    mechanics:
+      - { label: 攻击间隔, value: 1 秒 }
+      - { label: 首次攻击间隔, value: 0.5 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 攻击距离, value: 6 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 技能名称, value: 随身炮塔 }
+      - { label: 技能施放, value: 约 1 秒 }
+      - { label: 炮塔生成位置, value: 本体前方 3 格 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '3', hitpoints: '336', damage: '101', damage_per_second: '101' }
+        - { level: '4', hitpoints: '370', damage: '111', damage_per_second: '111' }
+        - { level: '5', hitpoints: '407', damage: '122', damage_per_second: '122' }
+        - { level: '6', hitpoints: '448', damage: '135', damage_per_second: '135' }
+        - { level: '7', hitpoints: '492', damage: '148', damage_per_second: '148' }
+        - { level: '8', hitpoints: '542', damage: '163', damage_per_second: '163' }
+        - { level: '9', hitpoints: '596', damage: '179', damage_per_second: '179' }
+        - { level: '10', hitpoints: '655', damage: '197', damage_per_second: '197' }
+        - { level: '11', hitpoints: '721', damage: '217', damage_per_second: '217' }
+        - { level: '12', hitpoints: '793', damage: '239', damage_per_second: '239' }
+        - { level: '13', hitpoints: '872', damage: '263', damage_per_second: '263' }
+        - { level: '14', hitpoints: '960', damage: '289', damage_per_second: '289' }
+        - { level: '15', hitpoints: '1056', damage: '318', damage_per_second: '318' }
+        - { level: '16', hitpoints: '1161', damage: '349', damage_per_second: '349' }
+  - name: 随身炮塔
+    kind: child
+    section_label: 技能生成建筑
+    summary: 技能在火枪手前方三格召唤一座炮塔，持续十秒并随时间损失生命值，可吸引只攻击建筑的单位。
+    mechanics:
+      - { label: 持续时间, value: 10 秒 }
+      - { label: 攻击间隔, value: 0.5 秒 }
+      - { label: 攻击距离, value: 4 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+      - { label: 技能冷却, value: 炮塔消失后 22 秒 }
+      - { label: 建筑属性, value: 可吸引建筑目标单位 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: decay, label: 每秒衰减 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: spawn_damage, label: 生成伤害 }
+      rows:
+        - { level: '3', hitpoints: '717', decay: '71.7', damage: '65', damage_per_second: '130', spawn_damage: '95' }
+        - { level: '4', hitpoints: '788', decay: '78.8', damage: '72', damage_per_second: '144', spawn_damage: '105' }
+        - { level: '5', hitpoints: '867', decay: '86.7', damage: '79', damage_per_second: '158', spawn_damage: '115' }
+        - { level: '6', hitpoints: '954', decay: '95.4', damage: '87', damage_per_second: '174', spawn_damage: '127' }
+        - { level: '7', hitpoints: '1049', decay: '104.9', damage: '96', damage_per_second: '192', spawn_damage: '139' }
+        - { level: '8', hitpoints: '1154', decay: '115.4', damage: '105', damage_per_second: '210', spawn_damage: '153' }
+        - { level: '9', hitpoints: '1269', decay: '126.9', damage: '116', damage_per_second: '232', spawn_damage: '169' }
+        - { level: '10', hitpoints: '1396', decay: '139.6', damage: '127', damage_per_second: '254', spawn_damage: '185' }
+        - { level: '11', hitpoints: '1536', decay: '153.6', damage: '140', damage_per_second: '280', spawn_damage: '204' }
+        - { level: '12', hitpoints: '1690', decay: '169', damage: '154', damage_per_second: '308', spawn_damage: '224' }
+        - { level: '13', hitpoints: '1859', decay: '185.9', damage: '169', damage_per_second: '338', spawn_damage: '247' }
+        - { level: '14', hitpoints: '2044', decay: '204.4', damage: '186', damage_per_second: '372', spawn_damage: '272' }
+        - { level: '15', hitpoints: '2249', decay: '224.9', damage: '205', damage_per_second: '410', spawn_damage: '299' }
+        - { level: '16', hitpoints: '2474', decay: '247.4', damage: '225', damage_per_second: '450', spawn_damage: '329' }
+usage_tips:
+  - 把技能留给需要改变路线的关键推进，炮塔作为建筑可以把野猪骑士、巨人等目标从皇家塔前拉开。
+  - 炮塔生成在火枪手前方，部署本体时应提前考虑三格位置，避免炮塔出现在无法拉扯或会让火枪手一起承受范围伤害的位置。
+  - 本体加技能共需七费，普通火枪手已经能完成防守时不要额外召唤；炮塔十秒后会自然消失，空放收益很低。
+  - 面对空地混合推进时，炮塔与火枪手可以形成两处对空火力，但仍要防止火球或雷电法术同时命中两个高价值目标。
+matchups:
+  - { title: 适合应对, text: '野猪骑士、巨人和其他只攻击建筑的单位。临时炮塔既改变路线，也能与火枪手共同输出。' }
+  - { title: 需要提防, text: '雷电巨人、范围法术和能同时覆盖本体与炮塔的攻击。技能费用较高，错误召唤容易形成明显费用劣势。' }
+  - { title: 搭配思路, text: '与控制法术和低费防守搭配，把敌军固定在炮塔射程内；防守后保留火枪手本体，再用前排组织反击。' }
+balance_history:
+  - date: '2025-12-01'
+    type: hero
+    summary: 精英火枪手与主动技能“随身炮塔”正式上线。

@@ -1,0 +1,9 @@
+source_url: https://clashroyale.fandom.com/wiki/Dagger_Duchess
+items:
+  - { date: '2025-08-04', type: nerf, summary: 攻击间隔由 0.45 秒延长至 0.5 秒。 }
+  - { date: '2025-04-09', type: nerf, summary: 伤害降低 4%。 }
+  - { date: '2025-01-08', type: buff, summary: 投射物速度由 600 提高至 1000。 }
+  - { date: '2024-07-02', type: nerf, summary: '攻击间隔由 0.35 秒延长至 0.45 秒，飞刀恢复时间由 0.8 秒延长至 0.9 秒。' }
+  - { date: '2024-06-17', type: adjustment, summary: '伤害降低 27%，飞刀恢复时间由 1.2 秒缩短至 0.8 秒。' }
+  - { date: '2024-05-14', type: nerf, summary: 生命值降低 15.8%。 }
+  - { date: '2024-04-01', type: release, summary: 飞刀女爵正式加入游戏。 }

@@ -1,0 +1,9 @@
+source_url: https://clashroyale.fandom.com/wiki/Electro_Dragon
+items:
+  - { date: '2026-06-01', type: buff, summary: '11 级生命值从 998 提高至 1049，提升 5%。' }
+  - { date: '2025-06-03', type: buff, summary: '生命值提高约 5%。' }
+  - { date: '2025-03-31', type: nerf, summary: '生命值降低 0.1%。' }
+  - { date: '2024-10-07', type: evolution, summary: '雷电飞龙的觉醒形态正式上线。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2018-12-03', type: nerf, summary: '生命值降低 5%，首次攻击间隔从 0.2 秒延长至 0.7 秒。' }
+  - { date: '2018-11-09', type: release, summary: '雷电飞龙正式加入游戏。' }

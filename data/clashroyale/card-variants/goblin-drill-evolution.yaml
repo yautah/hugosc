@@ -1,0 +1,68 @@
+key: goblin-drill-evolution
+parent_key: goblin-drill
+kind: evolution
+order: 2
+name: 觉醒哥布林钻机
+label: 觉醒
+url: /clashroyale/cards/goblin-drill/evolution/
+image: images/clashroyale/cards/variants/goblin-drill-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Goblin_Drill/Evolution
+source_retrieved_at: '2026-07-15'
+release_date: '2024-07-15'
+summary: 觉醒哥布林钻机在生命值降至三分之二和三分之一时重新潜入，并从新位置钻出继续生成哥布林。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 重新钻出, value: 生命值 66% 和 33% }
+  - { label: 基础卡牌, value: 哥布林钻机 }
+overview:
+  - 觉醒哥布林钻机在生命值降至约三分之二和三分之一时会重新潜入地下，再从附近位置钻出。每次转移都能改变哥布林出现方向，并让对手重新调整范围防守位置。
+  - 潜入期间不会持续留在原位承伤，但当前重新钻出不再造成伤害和击退。对手仍可用覆盖范围较大的法术或单位守住多个可能落点，钻机本体的生成节奏也与普通形态一致。
+units:
+  - name: 觉醒哥布林钻机
+    kind: main
+    mechanics:
+      - { label: 生成间隔, value: 3 秒 }
+      - { label: 首次生成时间, value: 1 秒 }
+      - { label: 部署时间, value: 1 秒 }
+      - { label: 持续时间, value: 10 秒 }
+      - { label: 潜入触发, value: 生命值 66% 和 33% }
+      - { label: 哥布林攻击间隔, value: 1.1 秒 }
+      - { label: 哥布林首次攻击间隔, value: 0.4 秒 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: drill_hitpoints, label: 钻机生命值 }
+        - { key: spawn_damage, label: 首次钻出伤害 }
+        - { key: spawn_tower_damage, label: 首次钻出皇冠塔伤害 }
+        - { key: goblin_hitpoints, label: 哥布林生命值 }
+        - { key: goblin_damage, label: 哥布林伤害 }
+        - { key: goblin_damage_per_second, label: 哥布林每秒伤害 }
+      rows:
+        - { level: '6', drill_hitpoints: '815', spawn_damage: '52', spawn_tower_damage: '16', goblin_hitpoints: '125', goblin_damage: '75', goblin_damage_per_second: '68' }
+        - { level: '7', drill_hitpoints: '897', spawn_damage: '57', spawn_tower_damage: '18', goblin_hitpoints: '138', goblin_damage: '82', goblin_damage_per_second: '74' }
+        - { level: '8', drill_hitpoints: '986', spawn_damage: '63', spawn_tower_damage: '20', goblin_hitpoints: '152', goblin_damage: '90', goblin_damage_per_second: '81' }
+        - { level: '9', drill_hitpoints: '1085', spawn_damage: '69', spawn_tower_damage: '21', goblin_hitpoints: '167', goblin_damage: '99', goblin_damage_per_second: '89' }
+        - { level: '10', drill_hitpoints: '1194', spawn_damage: '76', spawn_tower_damage: '24', goblin_hitpoints: '184', goblin_damage: '109', goblin_damage_per_second: '99' }
+        - { level: '11', drill_hitpoints: '1313', spawn_damage: '84', spawn_tower_damage: '26', goblin_hitpoints: '202', goblin_damage: '120', goblin_damage_per_second: '109' }
+        - { level: '12', drill_hitpoints: '1444', spawn_damage: '92', spawn_tower_damage: '29', goblin_hitpoints: '222', goblin_damage: '132', goblin_damage_per_second: '119' }
+        - { level: '13', drill_hitpoints: '1589', spawn_damage: '102', spawn_tower_damage: '31', goblin_hitpoints: '244', goblin_damage: '145', goblin_damage_per_second: '131' }
+        - { level: '14', drill_hitpoints: '1748', spawn_damage: '112', spawn_tower_damage: '35', goblin_hitpoints: '269', goblin_damage: '160', goblin_damage_per_second: '145' }
+        - { level: '15', drill_hitpoints: '1922', spawn_damage: '123', spawn_tower_damage: '38', goblin_hitpoints: '296', goblin_damage: '176', goblin_damage_per_second: '160' }
+        - { level: '16', drill_hitpoints: '2115', spawn_damage: '135', spawn_tower_damage: '42', goblin_hitpoints: '325', goblin_damage: '193', goblin_damage_per_second: '175' }
+usage_tips:
+  - 利用两次重新钻出改变哥布林方向，让固定覆盖单一落点的防守难以处理整段持续时间。
+  - 配合其他进攻单位迫使对手先交范围伤害，再让后续潜入阶段继续产生哥布林压力。
+  - 防守使用时要留意重新钻出会改变建筑位置，可能影响后续对以建筑为目标单位的拉扯。
+matchups:
+  - { title: 适合应对, text: 依赖固定站位范围防守的卡组，钻机多次转移能绕开单一落点并持续制造哥布林。 }
+  - { title: 需要提防, text: 毒药法术、大范围单位和多层防守可以覆盖多个落点，重新钻出本身也不再造成额外伤害。 }
+  - { title: 搭配思路, text: 与矿工、攻城炸弹人和法术配合制造多点压力，迫使对手无法把范围解牌全部留给钻机。 }
+balance_history:
+  - { date: '2025-11-03', type: buff, summary: 第二次重新钻出时生成的哥布林由 1 名提高至 2 名。 }
+  - { date: '2025-10-06', type: nerf, summary: 首次生成时间由 0.8 秒延长至 1 秒。 }
+  - { date: '2025-03-31', type: buff, summary: 随基础卡牌调整，生命值小幅提高，首次钻出伤害提高 1.2%。 }
+  - { date: '2024-10-08', type: adjustment, summary: 移除两次重新钻出时的伤害和击退，为生成的哥布林增加部署时间，并把第二次生成数量由 0 名恢复为 1 名。 }
+  - { date: '2024-10-02', type: adjustment, summary: 修复潜入期间错误生成哥布林和潜入时推动其他单位的问题。 }
+  - { date: '2024-08-06', type: nerf, summary: 第二次重新钻出时生成的哥布林由 1 名减少至 0 名。 }
+  - { date: '2024-07-15', type: evolution, summary: 觉醒哥布林钻机正式上线。 }

@@ -1,0 +1,32 @@
+source_url: https://clashroyale.fandom.com/wiki/Fire_Spirit
+items:
+  - date: '2025-02-04'
+    type: buff
+    summary: 攻击距离从 2 格提高至 2.5 格。
+  - date: '2022-08-02'
+    type: nerf
+    summary: 伤害降低 9%。
+  - date: '2021-12-07'
+    type: nerf
+    summary: 攻击距离从 2.5 格缩短至 2 格。
+  - date: '2021-09-06'
+    type: nerf
+    summary: 溅射半径从 2.5 格缩小至 2.3 格。
+  - date: '2021-06-07'
+    type: adjustment
+    summary: 卡牌重做：圣水费用从 2 降至 1，单位数量从 3 减至 1，生命值提高 109%，伤害提高 6%，攻击距离从 2 格提高至 2.5 格，溅射半径从 1.7 格扩大至 2.5 格。
+  - date: '2020-09-09'
+    type: buff
+    summary: 溅射半径从 1.5 格扩大至 1.7 格。
+  - date: '2020-06-02'
+    type: adjustment
+    summary: 当时的三只烈焰精灵改为依次登场，每只相隔 0.1 秒。
+  - date: '2018-07-02'
+    type: buff
+    summary: 伤害提高 5%。
+  - date: '2016-05-18'
+    type: buff
+    summary: 溅射半径从 1.2 格扩大至 1.5 格。
+  - date: '2016-05-03'
+    type: release
+    summary: 烈焰精灵随 2016 年 5 月版本正式加入游戏。

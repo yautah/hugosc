@@ -1,0 +1,119 @@
+---
+release_date: '2016-12-30'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 闪电法师
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 1.8 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.6 秒
+  - key: stun_duration
+    label: 眩晕持续时间
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 快 (90)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: transport
+    label: 移动方式
+    value: 地面
+  - key: radius
+    label: 登场电击·作用半径
+    value: '3'
+  - key: stun_duration
+    label: 登场电击·眩晕持续时间
+    value: 0.5 秒
+  - key: target
+    label: 登场电击·攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: zap_damage
+      label: 电击法术伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '9'
+      hitpoints: '591'
+      damage: 95 x2 (190)
+      zap_damage: '159'
+      damage_per_second: '105'
+    - level: '10'
+      hitpoints: '650'
+      damage: 104 x2 (208)
+      zap_damage: '174'
+      damage_per_second: '115'
+    - level: '11'
+      hitpoints: '714'
+      damage: 115 x2 (230)
+      zap_damage: '192'
+      damage_per_second: '127'
+    - level: '12'
+      hitpoints: '783'
+      damage: 126 x2 (252)
+      zap_damage: '210'
+      damage_per_second: '140'
+    - level: '13'
+      hitpoints: '862'
+      damage: 139 x2 (278)
+      zap_damage: '231'
+      damage_per_second: '154'
+    - level: '14'
+      hitpoints: '945'
+      damage: 152 x2 (304)
+      zap_damage: '254'
+      damage_per_second: '168'
+    - level: '15'
+      hitpoints: '1037'
+      damage: 167 x2 (334)
+      zap_damage: '279'
+      damage_per_second: '185'
+balance_history:
+- date: '2025-03-31'
+  type: adjustment
+  summary: 生命值因数值取整降低约 0.14%，伤害降低约 0.86%。
+- date: '2025-03-04'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2024-08-06'
+  type: buff
+  summary: 登场电击半径从 2.5 格提高至 3 格。
+- date: '2020-12-09'
+  type: nerf
+  summary: 伤害降低 2.5%。
+- date: '2020-11-03'
+  type: nerf
+  summary: 伤害降低 3.5%。
+- date: '2017-08-11'
+  type: nerf
+  summary: 生命值降低 2%。
+- date: '2017-04-19'
+  type: nerf
+  summary: 攻击间隔从 1.7 秒延长至 1.8 秒，首次攻击从 0.3 秒延长至 0.4 秒。
+- date: '2017-03-13'
+  type: adjustment
+  summary: 移除永久眩晕敌军的异常交互。
+- date: '2017-01-23'
+  type: adjustment
+  summary: 登场伤害降低 6%，生命值提高 9%。
+- date: '2016-12-30'
+  type: release
+  summary: 闪电法师正式加入游戏。

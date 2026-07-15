@@ -1,0 +1,93 @@
+---
+release_date: '2024-01-01'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 炮兵
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 2.2 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.8 秒
+  - key: range
+    label: 攻击距离
+    value: '7.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '6'
+      hitpoints: '1740'
+      damage: '200'
+      damage_per_second: '90'
+    - level: '7'
+      hitpoints: '1872'
+      damage: '220'
+      damage_per_second: '99'
+    - level: '8'
+      hitpoints: '2016'
+      damage: '241'
+      damage_per_second: '109'
+    - level: '9'
+      hitpoints: '2172'
+      damage: '265'
+      damage_per_second: '120'
+    - level: '10'
+      hitpoints: '2388'
+      damage: '291'
+      damage_per_second: '132'
+    - level: '11'
+      hitpoints: '2616'
+      damage: '320'
+      damage_per_second: '145'
+    - level: '12'
+      hitpoints: '2868'
+      damage: '351'
+      damage_per_second: '159'
+    - level: '13'
+      hitpoints: '3144'
+      damage: '386'
+      damage_per_second: '175'
+    - level: '14'
+      hitpoints: '3456'
+      damage: '423'
+      damage_per_second: '192'
+    - level: '15'
+      hitpoints: '3792'
+      damage: '465'
+      damage_per_second: '211'
+    - level: '16'
+      hitpoints: '4164'
+      damage: '511'
+      damage_per_second: '232'
+balance_history:
+- date: '2025-09-01'
+  type: nerf
+  summary: 攻击间隔由 2.1 秒延长至 2.2 秒。
+- date: '2025-08-04'
+  type: adjustment
+  summary: 伤害降低 17%，攻击间隔由 2.4 秒缩短至 2.1 秒。
+- date: '2024-10-08'
+  type: nerf
+  summary: 伤害降低 5%，首次攻击间隔由 0.6 秒延长至 0.8 秒。
+- date: '2024-05-14'
+  type: nerf
+  summary: 伤害降低 5%。
+- date: '2024-01-10'
+  type: buff
+  summary: 视野范围提高至与皇家塔公主一致。
+- date: '2024-01-01'
+  type: release
+  summary: 炮兵正式加入游戏。

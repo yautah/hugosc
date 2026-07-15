@@ -1,0 +1,89 @@
+---
+release_date: '2016-02-29'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 毒药法术
+  kind: main
+  mechanics: []
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: area_damage
+      label: 范围伤害
+    - key: crown_tower_damage
+      label: 皇家塔伤害
+    rows:
+    - level: '6'
+      area_damage: 57 x8 (456)
+      crown_tower_damage: 14 x8 (112)
+    - level: '7'
+      area_damage: 63 x8 (504)
+      crown_tower_damage: 16 x8 (128)
+    - level: '8'
+      area_damage: 69 x8 (552)
+      crown_tower_damage: 17 x8 (136)
+    - level: '9'
+      area_damage: 76 x8 (608)
+      crown_tower_damage: 19 x8 (152)
+    - level: '10'
+      area_damage: 84 x8 (672)
+      crown_tower_damage: 21 x8 (168)
+    - level: '11'
+      area_damage: 92 x8 (736)
+      crown_tower_damage: 23 x8 (184)
+    - level: '12'
+      area_damage: 101 x8 (808)
+      crown_tower_damage: 25 x8 (200)
+    - level: '13'
+      area_damage: 111 x8 (888)
+      crown_tower_damage: 28 x8 (224)
+    - level: '14'
+      area_damage: 122 x8 (976)
+      crown_tower_damage: 31 x8 (248)
+    - level: '15'
+      area_damage: 135 x8 (1080)
+      crown_tower_damage: 34 x8 (272)
+    - level: '16'
+      area_damage: 148 x8 (1184)
+      crown_tower_damage: 37 x8 (296)
+balance_history:
+- date: '2025-03-31'
+  type: buff
+  summary: 伤害提高 1.09%。
+- date: '2025-02-04'
+  type: adjustment
+  summary: 伐木工幽灵改为免疫毒药法术。
+- date: '2024-05-14'
+  type: nerf
+  summary: 对皇家塔伤害比例从 30% 降至 25%。
+- date: '2021-09-06'
+  type: buff
+  summary: 加入 15% 移动减速。
+- date: '2020-08-04'
+  type: nerf
+  summary: 对皇家塔伤害比例从 35% 降至 30%。
+- date: '2018-04-25'
+  type: adjustment
+  summary: 允许直接在河道区域施放。
+- date: '2017-12-12'
+  type: nerf
+  summary: 对皇家塔伤害比例从 40% 降至 35%。
+- date: '2017-06-12'
+  type: buff
+  summary: 多个毒药法术效果现在可以叠加。
+- date: '2017-02-13'
+  type: adjustment
+  summary: 持续时间从 10 秒缩短至 8 秒，总伤害提高 24%。
+- date: '2016-11-30'
+  type: buff
+  summary: 伤害提高 10%。
+- date: '2016-10-20'
+  type: nerf
+  summary: 移除减速能力。
+- date: '2016-03-23'
+  type: buff
+  summary: 伤害提高 5%。
+- date: '2016-02-29'
+  type: release
+  summary: 毒药法术正式加入游戏。

@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Poison
+items:
+  - { date: '2025-03-31', type: buff, summary: '伤害提高 1.09%。' }
+  - { date: '2025-02-04', type: adjustment, summary: '伐木工幽灵改为免疫毒药法术。' }
+  - { date: '2024-05-14', type: nerf, summary: '对皇家塔伤害比例从 30% 降至 25%。' }
+  - { date: '2021-09-06', type: buff, summary: '加入 15% 移动减速。' }
+  - { date: '2020-08-04', type: nerf, summary: '对皇家塔伤害比例从 35% 降至 30%。' }
+  - { date: '2018-04-25', type: adjustment, summary: '允许直接在河道区域施放。' }
+  - { date: '2017-12-12', type: nerf, summary: '对皇家塔伤害比例从 40% 降至 35%。' }
+  - { date: '2017-06-12', type: buff, summary: '多个毒药法术效果现在可以叠加。' }
+  - { date: '2017-02-13', type: adjustment, summary: '持续时间从 10 秒缩短至 8 秒，总伤害提高 24%。' }
+  - { date: '2016-11-30', type: buff, summary: '伤害提高 10%。' }
+  - { date: '2016-10-20', type: nerf, summary: '移除减速能力。' }
+  - { date: '2016-03-23', type: buff, summary: '伤害提高 5%。' }
+  - { date: '2016-02-29', type: release, summary: '毒药法术正式加入游戏。' }

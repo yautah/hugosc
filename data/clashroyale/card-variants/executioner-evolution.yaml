@@ -1,0 +1,65 @@
+key: executioner-evolution
+parent_key: executioner
+kind: evolution
+order: 2
+name: 觉醒飞斧屠夫
+label: 觉醒
+url: /clashroyale/cards/executioner/evolution/
+image: images/clashroyale/cards/variants/executioner-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Executioner/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 430917
+release_date: '2025-04-07'
+summary: 觉醒飞斧屠夫的斧头在近身 3.5 格内造成额外伤害并击退可推动单位，同时保留去程与回程的双段贯穿。
+facts:
+  - { label: 圣水, value: '5' }
+  - { label: 觉醒周期, value: '1' }
+  - { label: 强化范围, value: 2.5 格 }
+  - { label: 基础卡牌, value: 飞斧屠夫 }
+overview:
+  - 觉醒飞斧屠夫保留普通形态的生命值与回旋飞斧。斧头处于自身 2.5 格范围内时，每段会触发近身强化伤害；去程还能击退可推动的敌军 1 格，回程继续追加伤害但不再次击退。
+  - 强化机制主要保护飞斧屠夫的近身区域，并不能提升远端斧头伤害。重型单位不受击退，远程单位也能站在强化范围外输出，因此仍需要站位、前排和龙卷风协助。
+units:
+  - name: 觉醒飞斧屠夫
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 0.9 秒 }
+      - { label: 斧头准备时间, value: 1.5 秒 }
+      - { label: 锁定距离, value: 4.5 格 }
+      - { label: 投射距离, value: 7.5 格 }
+      - { label: 强化范围, value: 2.5 格 }
+      - { label: 近身击退距离, value: 1 格 }
+      - { label: 攻击目标, value: 空中和地面 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: area_damage, label: 普通双段伤害 }
+        - { key: smash_damage, label: 近身双段伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+      rows:
+        - { level: '6', hitpoints: '800', area_damage: '112 x2 (224)', smash_damage: '150 x2 (300)', damage_per_second: '93' }
+        - { level: '7', hitpoints: '880', area_damage: '123 x2 (246)', smash_damage: '165 x2 (330)', damage_per_second: '102' }
+        - { level: '8', hitpoints: '965', area_damage: '135 x2 (270)', smash_damage: '181 x2 (362)', damage_per_second: '112' }
+        - { level: '9', hitpoints: '1060', area_damage: '148 x2 (296)', smash_damage: '199 x2 (398)', damage_per_second: '123' }
+        - { level: '10', hitpoints: '1165', area_damage: '163 x2 (326)', smash_damage: '219 x2 (438)', damage_per_second: '135' }
+        - { level: '11', hitpoints: '1280', area_damage: '179 x2 (358)', smash_damage: '240 x2 (480)', damage_per_second: '149' }
+        - { level: '12', hitpoints: '1405', area_damage: '197 x2 (394)', smash_damage: '264 x2 (528)', damage_per_second: '164' }
+        - { level: '13', hitpoints: '1545', area_damage: '216 x2 (432)', smash_damage: '290 x2 (580)', damage_per_second: '180' }
+        - { level: '14', hitpoints: '1695', area_damage: '237 x2 (474)', smash_damage: '318 x2 (636)', damage_per_second: '197' }
+        - { level: '15', hitpoints: '1860', area_damage: '260 x2 (520)', smash_damage: '349 x2 (698)', damage_per_second: '216' }
+        - { level: '16', hitpoints: '2045', area_damage: '286 x2 (572)', smash_damage: '384 x2 (768)', damage_per_second: '238' }
+usage_tips:
+  - 把觉醒飞斧屠夫部署在需要保护的区域后方，让突进单位进入 3.5 格强化范围后再被飞斧击退并承受额外伤害。
+  - 配合龙卷风把分散目标拉入近身强化范围，尽量让去程与回程都穿过同一批单位。
+  - 对重型单位不要依赖击退，皮卡超人、超级骑士等仍可继续接近；需要前排、建筑或高单体伤害补足防守。
+  - 一次觉醒周期使其能较频繁登场，但五费投入仍较重，普通形态能够完成防守时不必为了轮转强行下牌。
+matchups:
+  - { title: 适合应对, text: '适合处理可击退的地面突进、人海与空地混合推进，近身额外伤害能迅速清理贴脸单位。' }
+  - { title: 需要提防, text: '重型单位免疫击退，远程单位可在强化范围外输出；高伤法术也能显著压低他的持续防守能力。' }
+  - { title: 搭配思路, text: '与龙卷风、冰人和防御建筑组合，主动把目标送入强化范围并保证飞斧完整往返。' }
+balance_history:
+  - { date: '2026-07-06', type: nerf, summary: '11 级近身强化单段伤害从 268 降至 240，强化范围从 3.5 格缩短至 2.5 格。' }
+  - { date: '2026-03-02', type: adjustment, summary: '基础形态与觉醒形态的 11 级单段伤害从 168 提高至 179；觉醒近身击退距离从 1.5 格缩短至 1 格。' }
+  - { date: '2025-12-01', type: nerf, summary: '11 级近身强化单段伤害从 294 降至 268。' }
+  - { date: '2025-04-07', type: evolution, summary: '觉醒飞斧屠夫正式上线；上线前近身击退从 2 格调整为 1.5 格，近身额外伤害降低约 13%。' }

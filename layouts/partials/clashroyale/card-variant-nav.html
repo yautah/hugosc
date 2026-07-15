@@ -1,0 +1,23 @@
+{{- $parent := .parent -}}
+{{- $activeKey := .active_key -}}
+{{- $variantData := index site.Data.clashroyale "card-variants" -}}
+{{- $variants := slice -}}
+{{- range $key, $variant := $variantData -}}
+  {{- if eq $variant.parent_key $parent.key -}}
+    {{- $variants = $variants | append $variant -}}
+  {{- end -}}
+{{- end -}}
+{{- if gt (len $variants) 0 -}}
+  <nav class="sc-card-variant-nav" aria-label="{{ $parent.name }}形态切换">
+    <a class="sc-card-variant-link{{ if eq $activeKey $parent.key }} is-active{{ end }}" href="{{ $parent.detail_url }}"{{ if eq $activeKey $parent.key }} aria-current="page"{{ end }}>
+      <span class="sc-card-variant-thumb">{{ with resources.Get $parent.image }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">{{ end }}</span>
+      <span><small>基础卡牌</small><strong>{{ $parent.name }}</strong></span>
+    </a>
+    {{- range sort $variants "order" -}}
+      <a class="sc-card-variant-link sc-card-variant-link-{{ .kind }}{{ if eq $activeKey .key }} is-active{{ end }}" href="{{ .url }}"{{ if eq $activeKey .key }} aria-current="page"{{ end }}>
+        <span class="sc-card-variant-thumb">{{ with resources.Get .image }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">{{ end }}</span>
+        <span><small>{{ .label }}形态</small><strong>{{ .name }}</strong></span>
+      </a>
+    {{- end -}}
+  </nav>
+{{- end -}}

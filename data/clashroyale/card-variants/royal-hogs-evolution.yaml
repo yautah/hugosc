@@ -1,0 +1,68 @@
+key: royal-hogs-evolution
+parent_key: royal-hogs
+kind: evolution
+order: 2
+name: 觉醒皇家野猪
+label: 觉醒
+url: /clashroyale/cards/royal-hogs/evolution/
+image: images/clashroyale/cards/variants/royal-hogs-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Royal_Hogs/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436542
+release_date: '2025-11-03'
+summary: 觉醒皇家野猪部署后会先飞向最近建筑，被命中或抵达目标时落地，对周围敌军造成伤害后继续以普通皇家野猪作战。
+facts:
+  - { label: 圣水, value: '5' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 单位数量, value: '4' }
+  - { label: 基础卡牌, value: 皇家野猪 }
+overview:
+  - 觉醒皇家野猪部署时处于飞行状态，直接朝最近建筑移动。飞行期间只能被能够攻击空中的单位和法术命中；一旦受伤或到达目标，它们会坠落并造成小范围落地伤害，之后按普通皇家野猪继续攻击建筑。
+  - 四只野猪分别判断受击与落地，因此对手可以通过范围法术让它们提前统一落下，也可能被迫分散防空火力。当前落地伤害经过两次削弱，主要价值已经转向越过地面防守和改变可选目标，而非依靠爆发清场。
+units:
+  - name: 觉醒皇家野猪
+    kind: main
+    mechanics:
+      - { label: 攻击间隔, value: 1.2 秒 }
+      - { label: 首次攻击间隔, value: 0.4 秒 }
+      - { label: 移动速度, value: 极快 (120) }
+      - { label: 攻击距离, value: 近战：短 (0.7) }
+      - { label: 攻击目标, value: 建筑 }
+      - { label: 初始移动方式, value: 空中 }
+      - { label: 落地后移动方式, value: 地面 }
+      - { label: 单位数量, value: '4' }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: landing_damage, label: 落地伤害 }
+      rows:
+        - { level: '3', hitpoints: '390', damage: '35', damage_per_second: '29', landing_damage: '20' }
+        - { level: '4', hitpoints: '430', damage: '38', damage_per_second: '31', landing_damage: '22' }
+        - { level: '5', hitpoints: '472', damage: '42', damage_per_second: '35', landing_damage: '24' }
+        - { level: '6', hitpoints: '520', damage: '46', damage_per_second: '38', landing_damage: '27' }
+        - { level: '7', hitpoints: '572', damage: '51', damage_per_second: '42', landing_damage: '29' }
+        - { level: '8', hitpoints: '629', damage: '56', damage_per_second: '46', landing_damage: '32' }
+        - { level: '9', hitpoints: '692', damage: '61', damage_per_second: '50', landing_damage: '36' }
+        - { level: '10', hitpoints: '761', damage: '67', damage_per_second: '55', landing_damage: '39' }
+        - { level: '11', hitpoints: '837', damage: '74', damage_per_second: '61', landing_damage: '43' }
+        - { level: '12', hitpoints: '921', damage: '81', damage_per_second: '67', landing_damage: '47' }
+        - { level: '13', hitpoints: '1013', damage: '90', damage_per_second: '75', landing_damage: '52' }
+        - { level: '14', hitpoints: '1114', damage: '98', damage_per_second: '81', landing_damage: '57' }
+        - { level: '15', hitpoints: '1225', damage: '108', damage_per_second: '90', landing_damage: '63' }
+        - { level: '16', hitpoints: '1348', damage: '119', damage_per_second: '99', landing_damage: '69' }
+usage_tips:
+  - 先判断对手的防空和法术：缺少对空手段时集中一侧可以最大化飞行接近距离，有范围法术时分路能降低一次命中四只的收益。
+  - 地面建筑仍会吸引飞行中的野猪，配合地震法术提前削弱建筑，可以让落地后的普通攻击更快转向皇家塔。
+  - 不要依赖当前落地伤害单独清理人海；它需要两只野猪同时落地才能击败部分低生命值单位，应准备小法术补充清场。
+  - 与后排单位反击时，飞行阶段不会为只能攻击地面的敌军承伤，注意保护单位的实际目标顺序可能与普通皇家野猪不同。
+matchups:
+  - { title: 适合应对, text: '适合越过只能攻击地面的拦截单位，并用四个飞行目标分散单体防空；抵达建筑时还可补充范围伤害。' }
+  - { title: 需要提防, text: '范围法术会让多只野猪提前落地，防空范围单位和中央建筑也能稳定限制飞行阶段的路线收益。' }
+  - { title: 搭配思路, text: '与地震法术、火球和分路远程单位配合，先处理建筑与范围防守，再让落地后的野猪持续攻击。' }
+balance_history:
+  - { date: '2026-05-04', type: nerf, summary: 落地伤害从 84 降低至 43，需要两只觉醒皇家野猪的落地伤害才能击败骷髅。 }
+  - { date: '2026-03-02', type: nerf, summary: 落地伤害从 115 降低至 84。 }
+  - { date: '2025-11-03', type: evolution, summary: 觉醒皇家野猪正式上线。 }

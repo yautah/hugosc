@@ -1,0 +1,20 @@
+source_url: https://clashroyale.fandom.com/wiki/Giant_Skeleton
+items:
+  - { date: '2026-05-04', type: adjustment, summary: '死亡伤害提高 29%，生命值降低 7%，碰撞半径从 1 格缩小至 0.75 格，并移除死亡炸弹对皇冠塔的双倍伤害。' }
+  - { date: '2026-01-12', type: buff, summary: '攻击间隔从 1.4 秒缩短至 1.3 秒。' }
+  - { date: '2025-07-08', type: buff, summary: '伤害提高 4%。' }
+  - { date: '2025-03-31', type: adjustment, summary: '生命值提高 0.02%，伤害降低 0.37%，死亡伤害提高 0.18%。' }
+  - { date: '2024-01-03', type: buff, summary: '生命值提高 6%。' }
+  - { date: '2022-09-12', type: nerf, summary: '生命值降低 5%。' }
+  - { date: '2022-06-03', type: visual, summary: '更换卡牌图片和角色立绘。' }
+  - { date: '2022-04-04', type: buff, summary: '生命值提高 7%，攻击间隔从 1.5 秒缩短至 1.4 秒。' }
+  - { date: '2021-06-07', type: buff, summary: '死亡炸弹开始对皇冠塔造成双倍伤害。' }
+  - { date: '2021-03-30', type: adjustment, summary: '死亡伤害降低 54%，普通攻击伤害提高 29%。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页加入角色立绘。' }
+  - { date: '2019-04-01', type: buff, summary: '首次攻击间隔从 0.5 秒缩短至 0.3 秒，质量从 15 提高至 18。' }
+  - { date: '2017-12-12', type: buff, summary: '生命值提高 5%。' }
+  - { date: '2016-12-15', type: buff, summary: '伤害提高 8%。' }
+  - { date: '2016-07-04', type: buff, summary: '伤害提高 20%。' }
+  - { date: '2016-05-03', type: adjustment, summary: '修复攻击距离问题，显示攻击距离从 2 格调整为 0.8 格；碰撞半径从 1.2 格缩小至 1 格。' }
+  - { date: '2016-02-29', type: adjustment, summary: '生命值提高 11%，死亡炸弹引爆时间从 1 秒延长至 3 秒，视野距离从 6 格缩短至 5 格。' }
+  - { date: '2016-01-04', type: release, summary: '骷髅巨人随皇室战争上线正式加入游戏。' }

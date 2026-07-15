@@ -1,0 +1,81 @@
+key: musketeer-evolution
+parent_key: musketeer
+kind: evolution
+order: 2
+name: 觉醒火枪手
+label: 觉醒
+url: /clashroyale/cards/musketeer/evolution/
+image: images/clashroyale/cards/variants/musketeer-evolution.webp
+source_url: https://clashroyale.fandom.com/wiki/Musketeer/Evolution
+source_retrieved_at: '2026-07-15'
+source_revision: 436483
+release_date: '2024-11-04'
+summary: 觉醒火枪手部署后获得三发超远距离狙击弹，能够攻击正前方竞技场内的部队和建筑，但不会锁定皇家塔。
+facts:
+  - { label: 圣水, value: '4' }
+  - { label: 觉醒周期, value: 2 次循环 }
+  - { label: 狙击弹药, value: 3 发 }
+  - { label: 基础卡牌, value: 火枪手 }
+overview:
+  - 觉醒火枪手部署后会携带三发狙击弹。当普通攻击距离内没有目标时，她可以锁定正前方 6 至 30 格内最近的部队或建筑，以一秒间隔发射狙击弹，每发造成普通攻击 180% 的伤害。
+  - 狙击弹不会锁定皇家塔，且目标进入普通六格射程后会改用常规攻击，因此部署方向和距离决定弹药能否命中高价值后排。三发用尽后，她就按普通火枪手的方式继续战斗。
+units:
+  - name: 觉醒火枪手
+    kind: main
+    mechanics:
+      - { label: 普通攻击间隔, value: 1 秒 }
+      - { label: 首次攻击间隔, value: 0.7 秒 }
+      - { label: 移动速度, value: 中等 (60) }
+      - { label: 普通攻击距离, value: 6 格 }
+      - { label: 狙击距离, value: 6 至 30 格 }
+      - { label: 狙击弹数量, value: 3 发 }
+      - { label: 狙击攻击间隔, value: 1 秒 }
+      - { label: 狙击弹宽度, value: 2 格 }
+      - { label: 狙击目标, value: 部队和普通建筑 }
+    level_stats:
+      columns:
+        - { key: level, label: 等级 }
+        - { key: hitpoints, label: 生命值 }
+        - { key: damage, label: 普通伤害 }
+        - { key: damage_per_second, label: 每秒伤害 }
+        - { key: sniper_damage, label: 三发狙击伤害 }
+      rows:
+        - { level: '3', hitpoints: '336', damage: '101', damage_per_second: '101', sniper_damage: '182 x3 (546)' }
+        - { level: '4', hitpoints: '370', damage: '111', damage_per_second: '111', sniper_damage: '200 x3 (600)' }
+        - { level: '5', hitpoints: '407', damage: '122', damage_per_second: '122', sniper_damage: '220 x3 (660)' }
+        - { level: '6', hitpoints: '448', damage: '135', damage_per_second: '135', sniper_damage: '242 x3 (726)' }
+        - { level: '7', hitpoints: '492', damage: '148', damage_per_second: '148', sniper_damage: '266 x3 (798)' }
+        - { level: '8', hitpoints: '542', damage: '163', damage_per_second: '163', sniper_damage: '293 x3 (879)' }
+        - { level: '9', hitpoints: '596', damage: '179', damage_per_second: '179', sniper_damage: '322 x3 (966)' }
+        - { level: '10', hitpoints: '655', damage: '197', damage_per_second: '197', sniper_damage: '355 x3 (1065)' }
+        - { level: '11', hitpoints: '721', damage: '217', damage_per_second: '217', sniper_damage: '390 x3 (1170)' }
+        - { level: '12', hitpoints: '793', damage: '239', damage_per_second: '239', sniper_damage: '429 x3 (1287)' }
+        - { level: '13', hitpoints: '872', damage: '263', damage_per_second: '263', sniper_damage: '472 x3 (1416)' }
+        - { level: '14', hitpoints: '960', damage: '289', damage_per_second: '289', sniper_damage: '519 x3 (1557)' }
+        - { level: '15', hitpoints: '1056', damage: '318', damage_per_second: '318', sniper_damage: '571 x3 (1713)' }
+        - { level: '16', hitpoints: '1161', damage: '349', damage_per_second: '349', sniper_damage: '628 x3 (1884)' }
+usage_tips:
+  - 尽量在远离目标的位置部署，让目标处于六格普通射程之外，确保她优先消耗狙击弹而不是向前移动后普通攻击。
+  - 狙击弹只会攻击她正前方的目标，部署前先确认朝向和线路；错开一条路线可能让三发弹药找不到高价值目标。
+  - 利用不能锁定皇家塔的规则清理塔后支援或圣水收集器，不要把狙击弹总伤害误算成直接塔伤。
+  - 三发狙击结束后仍是一名完整火枪手，可让前排接住后续火力，继续把远程输出转化为反击。
+matchups:
+  - { title: 适合应对, text: '竞技场后方部署的远程支援、飞龙和普通建筑。超远狙击可以在它们接近战场前先行削弱或清除。' }
+  - { title: 需要提防, text: '快速贴近普通射程的单位、改变线路的移动技能和能直接用法术处理火枪手的组合；距离不足时不会消耗狙击弹。' }
+  - { title: 搭配思路, text: '与能够拖慢推进或固定目标位置的建筑、前排搭配，使目标长时间保持在狙击线路上，三发打完后再衔接常规防守。' }
+balance_history:
+  - date: '2025-03-31'
+    type: nerf
+    summary: 生命值降低 0.06%，普通攻击与狙击伤害均随基础伤害降低 0.45%。
+  - date: '2025-02-04'
+    type: buff
+    summary: 首次攻击间隔从 0.8 秒缩短至 0.7 秒。
+  - date: '2024-12-16'
+    type: adjustment
+    summary: 修复觉醒火枪手狙击锁定和弹药表现相关的多项问题。
+  - date: '2024-11-14'
+    type: buff
+    summary: 每发狙击弹伤害从普通攻击的 150% 提高至 180%。
+  - date: '2024-11-04'
+    type: evolution
+    summary: 觉醒火枪手正式加入游戏，推出三发超远距离狙击机制。

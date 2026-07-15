@@ -1,0 +1,10 @@
+source_url: https://clashroyale.fandom.com/wiki/Rocket
+items:
+  - { date: '2023-02-07', type: nerf, summary: '对皇家塔伤害比例从 30% 降至 25%。' }
+  - { date: '2020-08-04', type: nerf, summary: '对皇家塔伤害比例从 35% 降至 30%。' }
+  - { date: '2019-11-26', type: visual, summary: '卡牌信息页面加入火箭的卡牌形象。' }
+  - { date: '2018-04-25', type: adjustment, summary: '允许直接在河道区域施放。' }
+  - { date: '2017-12-12', type: nerf, summary: '对皇家塔伤害比例从 40% 降至 35%。' }
+  - { date: '2017-03-13', type: adjustment, summary: '修复火箭同时命中两只冰人时造成双倍伤害的问题。' }
+  - { date: '2016-02-19', type: nerf, summary: '对皇家塔伤害比例从 50% 降至 40%。' }
+  - { date: '2016-01-04', type: release, summary: '火箭随游戏首发加入。' }

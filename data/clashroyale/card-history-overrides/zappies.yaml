@@ -1,0 +1,15 @@
+source_url: https://clashroyale.fandom.com/wiki/Zappies
+items:
+  - { date: '2025-08-04', type: buff, summary: 首次攻击间隔从 1.1 秒缩短至 0.8 秒。 }
+  - { date: '2025-03-31', type: adjustment, summary: '生命值降低约 0.18%，伤害提高约 0.86%。' }
+  - { date: '2022-10-26', type: adjustment, summary: 解锁竞技场从电磁峡谷调整至野猪山脉。 }
+  - { date: '2021-11-01', type: adjustment, summary: 修复超级骑士可能被电击车小队永久眩晕的问题。 }
+  - { date: '2021-03-30', type: nerf, summary: 首次攻击间隔从 0.9 秒延长至 1.1 秒。 }
+  - { date: '2020-09-09', type: buff, summary: 首次攻击间隔从 1.1 秒缩短至 0.9 秒。 }
+  - { date: '2020-07-07', type: adjustment, summary: '伤害提高 14%，攻击间隔从 2 秒延长至 2.1 秒，首次攻击间隔从 1 秒延长至 1.1 秒。' }
+  - { date: '2020-06-02', type: buff, summary: 三辆电击车的部署间隔从 0.15 秒缩短至 0.1 秒。 }
+  - { date: '2020-02-04', type: adjustment, summary: '伤害提高 20%，攻击间隔从 1.6 秒延长至 2 秒，首次攻击间隔从 1.4 秒缩短至 1 秒，逐个部署间隔从 0.1 秒延长至 0.15 秒。' }
+  - { date: '2019-11-26', type: visual, summary: 卡牌信息页面加入电击车立绘。 }
+  - { date: '2018-09-03', type: adjustment, summary: '首次攻击间隔从 0.6 秒延长至 1.4 秒，攻击蓄力不再被眩晕重置。' }
+  - { date: '2018-01-24', type: buff, summary: 攻击目标扩展为空中和地面单位。 }
+  - { date: '2017-12-12', type: release, summary: 电击车小队正式加入游戏。 }

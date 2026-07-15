@@ -1,0 +1,1926 @@
+---
+meta:
+  updated_at: '2026-07-15'
+  status: active
+  facts_source: https://clashroyale.fandom.com/wiki/Card_Overviews
+  retrieved_at: '2026-07-15'
+  image_source: Fandom card infobox
+  image_policy: Supercell Fan Content Policy
+items:
+- key: minions
+  name: 亡灵
+  name_en: Minions
+  type: troop
+  rarity: common
+  elixir: 3
+  elixir_label: 
+  arena: 训练营
+  image: images/clashroyale/cards/minions.webp
+  summary: 三费空中输出单位，一次部署三只亡灵，适合低成本对空、防守地面单位并从防守转入反击。
+  roles:
+  - 空中输出
+  - 低费对空
+  - 防守反击
+  detail_url: "/clashroyale/cards/minions/"
+  source_url: https://clashroyale.fandom.com/wiki/Minions
+- key: archers
+  name: 弓箭手
+  name_en: Archers
+  type: troop
+  rarity: common
+  elixir: 3
+  elixir_label: 
+  arena: 训练营
+  image: images/clashroyale/cards/archers.webp
+  summary: 这对轻装上阵的姐妹花擅长远程攻击，不会放过任何陆空目标，不过可别奢望她们分享美发秘诀！
+  roles: []
+  detail_url: "/clashroyale/cards/archers/"
+  source_url: https://clashroyale.fandom.com/wiki/Archers
+- key: knight
+  name: 骑士
+  name_en: Knight
+  type: troop
+  rarity: common
+  elixir: 3
+  elixir_label: 
+  arena: 训练营
+  image: images/clashroyale/cards/knight.webp
+  summary: 费用适中的地面肉盾，适合保护后排和承接防守。
+  roles:
+  - 地面肉盾
+  - 防守反击
+  detail_url: "/clashroyale/cards/knight/"
+  source_url: https://clashroyale.fandom.com/wiki/Knight
+- key: spear-goblins
+  name: 哥布林投矛手
+  name_en: Spear Goblins
+  type: troop
+  rarity: common
+  elixir: 2
+  elixir_label: 
+  arena: 哥布林竞技场
+  image: images/clashroyale/cards/spear-goblins.webp
+  summary: 两费三单位远程卡牌，可以攻击空中和地面目标，适合过牌、拉扯和补充低成本防空。
+  roles:
+  - 低费远程
+  - 对空支援
+  - 拉扯循环
+  detail_url: "/clashroyale/cards/spear-goblins/"
+  source_url: https://clashroyale.fandom.com/wiki/Spear_Goblins
+- key: goblins
+  name: 哥布林
+  name_en: Goblins
+  type: troop
+  rarity: common
+  elixir: 2
+  elixir_label: 
+  arena: 哥布林竞技场
+  image: images/clashroyale/cards/goblins.webp
+  summary: 两费四单位近战卡牌，适合包围单体目标、拉扯进攻单位，并在低费循环或诱饵体系中施加压力。
+  roles:
+  - 低费人海
+  - 包围拉扯
+  - 法术诱饵
+  detail_url: "/clashroyale/cards/goblins/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblins
+- key: bomber
+  name: 炸弹兵
+  name_en: Bomber
+  type: troop
+  rarity: common
+  elixir: 2
+  elixir_label: 
+  arena: 骷髅墓园
+  image: images/clashroyale/cards/bomber.webp
+  summary: 两费地面范围输出，擅长清理密集近战单位并在前排身后提供低成本支援，但无法攻击空中目标。
+  roles:
+  - 地面范围伤害
+  - 低费支援
+  - 防守反击
+  detail_url: "/clashroyale/cards/bomber/"
+  source_url: https://clashroyale.fandom.com/wiki/Bomber
+- key: skeletons
+  name: 骷髅兵
+  name_en: Skeletons
+  type: troop
+  rarity: common
+  elixir: 1
+  elixir_label: 
+  arena: 骷髅墓园
+  image: images/clashroyale/cards/skeletons.webp
+  summary: 一费三单位近战卡牌，可以快速过牌、拉扯和包围单体地面目标，用极低费用创造防守时间和循环优势。
+  roles:
+  - 快速过牌
+  - 拉扯
+  - 包围防守
+  detail_url: "/clashroyale/cards/skeletons/"
+  source_url: https://clashroyale.fandom.com/wiki/Skeletons
+- key: barbarians
+  name: 野蛮人
+  name_en: Barbarians
+  type: troop
+  rarity: common
+  elixir: 5
+  elixir_label: 
+  arena: 野蛮人擂台
+  image: images/clashroyale/cards/barbarians.webp
+  summary: 五名地面近战单位组成的高总血量防线，适合围攻坦克、分路防守和组织反击。
+  roles:
+  - 群体防守
+  - 坦克杀手
+  - 分路施压
+  detail_url: "/clashroyale/cards/barbarians/"
+  source_url: https://clashroyale.fandom.com/wiki/Barbarians
+- key: electro-spirit
+  name: 雷电精灵
+  name_en: Electro Spirit
+  type: troop
+  rarity: common
+  elixir: 1
+  elixir_label: 
+  arena: 法术幽谷
+  image: images/clashroyale/cards/electro-spirit.webp
+  summary: 一费连锁控制单位，跳向目标后最多命中九个空中或地面单位，并造成短暂眩晕。
+  roles:
+  - 快速过牌
+  - 连锁控制
+  - 打断蓄力
+  detail_url: "/clashroyale/cards/electro-spirit/"
+  source_url: https://clashroyale.fandom.com/wiki/Electro_Spirit
+- key: skeleton-dragons
+  name: 骷髅飞龙
+  name_en: Skeleton Dragons
+  type: troop
+  rarity: common
+  elixir: 4
+  elixir_label: 
+  arena: 4 阶竞技场
+  image: images/clashroyale/cards/skeleton-dragons.webp
+  summary: 四费双单位空中范围输出，可同时攻击空中和地面，适合清理密集支援并从两路提供防空。
+  roles:
+  - 空中范围伤害
+  - 双单位防空
+  - 支援反击
+  detail_url: "/clashroyale/cards/skeleton-dragons/"
+  source_url: https://clashroyale.fandom.com/wiki/Skeleton_Dragons
+- key: fire-spirit
+  name: 烈焰精灵
+  name_en: Fire Spirit
+  type: troop
+  rarity: common
+  elixir: 1
+  elixir_label: 
+  arena: 法术幽谷
+  image: images/clashroyale/cards/fire-spirit.webp
+  summary: 一费自爆型范围伤害单位，可以快速清理小型部队、辅助对空并压缩卡组循环。
+  roles:
+  - 低费循环
+  - 范围伤害
+  - 辅助对空
+  detail_url: "/clashroyale/cards/fire-spirit/"
+  source_url: https://clashroyale.fandom.com/wiki/Fire_Spirit
+- key: bats
+  name: 蝙蝠
+  name_en: Bats
+  type: troop
+  rarity: common
+  elixir: 2
+  elixir_label: 
+  arena: 建筑工人工坊
+  image: images/clashroyale/cards/bats.webp
+  summary: 两费五单位空中人海，移动快、合计输出高，适合围攻单体目标和消耗对手的小法术。
+  roles:
+  - 低费空中人海
+  - 防守反击
+  - 法术诱饵
+  detail_url: "/clashroyale/cards/bats/"
+  source_url: https://clashroyale.fandom.com/wiki/Bats
+- key: royal-recruits
+  name: 皇家卫队
+  name_en: Royal Recruits
+  type: troop
+  rarity: common
+  elixir: 7
+  elixir_label: 
+  arena: 皇家竞技场
+  image: images/clashroyale/cards/royal-recruits.webp
+  summary: 七费六单位盾牌部队，横跨整片竞技场部署，适合分路防守、拦截单体输出并组织双路反击。
+  roles:
+  - 双路防守
+  - 盾牌人海
+  - 分路反击
+  detail_url: "/clashroyale/cards/royal-recruits/"
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Recruits
+- key: royal-giant
+  name: 皇家巨人
+  name_en: Royal Giant
+  type: troop
+  rarity: common
+  elixir: 6
+  elixir_label: 
+  arena: 皇家竞技场
+  image: images/clashroyale/cards/royal-giant.webp
+  summary: 六费远程建筑目标核心，可从射程外炮击防御塔，适合在防守单位存活后组织反击推进。
+  roles:
+  - 核心进攻
+  - 远程推进
+  - 防守反击
+  detail_url: "/clashroyale/cards/royal-giant/"
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Giant
+- key: ice-spirit
+  name: 冰雪精灵
+  name_en: Ice Spirit
+  type: troop
+  rarity: common
+  elixir: 1
+  elixir_label: 
+  arena: 冰封之巅
+  image: images/clashroyale/cards/ice-spirit.webp
+  summary: 一费范围控制与循环单位，跳向空中或地面目标后造成伤害，并冻结范围内单位 1.1 秒。
+  roles:
+  - 快速过牌
+  - 范围冻结
+  - 拉扯辅助
+  detail_url: "/clashroyale/cards/ice-spirit/"
+  source_url: https://clashroyale.fandom.com/wiki/Ice_Spirit
+- key: berserker
+  name: 狂战士
+  name_en: Berserker
+  type: troop
+  rarity: common
+  elixir: 2
+  elixir_label: 
+  arena: 丛林竞技场
+  image: images/clashroyale/cards/berserker.webp
+  summary: 两费近战部队，生命值扎实且攻击速度很快，适合补充防守与反击输出。
+  roles:
+  - 低费近战输出
+  - 单体防守
+  - 反击支援
+  detail_url: "/clashroyale/cards/berserker/"
+  source_url: https://clashroyale.fandom.com/wiki/Berserker
+- key: skeleton-barrel
+  name: 骷髅气球
+  name_en: Skeleton Barrel
+  type: troop
+  rarity: common
+  elixir: 3
+  elixir_label: 
+  arena: 丛林竞技场
+  image: images/clashroyale/cards/skeleton-barrel.webp
+  summary: 三费空中建筑目标单位，气球破裂时造成范围伤害并释放七个骷髅兵，适合法术诱饵和桥头压力。
+  roles:
+  - 空中进攻
+  - 法术诱饵
+  - 死亡生成
+  detail_url: "/clashroyale/cards/skeleton-barrel/"
+  source_url: https://clashroyale.fandom.com/wiki/Skeleton_Barrel
+- key: goblin-gang
+  name: 哥布林团伙
+  name_en: Goblin Gang
+  type: troop
+  rarity: common
+  elixir: 3
+  elixir_label: 
+  arena: 丛林竞技场
+  image: images/clashroyale/cards/goblin-gang.webp
+  summary: 三费混合人海，同时部署三个近战哥布林和三个投矛哥布林，可兼顾对地围攻、对空和法术诱饵。
+  roles:
+  - 杂兵防守
+  - 法术诱饵
+  - 空地混合输出
+  detail_url: "/clashroyale/cards/goblin-gang/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Gang
+- key: elite-barbarians
+  name: 野蛮人精锐
+  name_en: Elite Barbarians
+  type: troop
+  rarity: common
+  elixir: 6
+  elixir_label: 
+  arena: 野猪山脉
+  image: images/clashroyale/cards/elite-barbarians.webp
+  summary: 六费双单位高速近战部队，单体伤害和生命值较高，适合快速处理地面目标并在防守后桥头反击。
+  roles:
+  - 双单位近战输出
+  - 桥头压力
+  - 防守反击
+  detail_url: "/clashroyale/cards/elite-barbarians/"
+  source_url: https://clashroyale.fandom.com/wiki/Elite_Barbarians
+- key: minion-horde
+  name: 亡灵大军
+  name_en: Minion Horde
+  type: troop
+  rarity: common
+  elixir: 5
+  elixir_label: 
+  arena: 野猪山脉
+  image: images/clashroyale/cards/minion-horde.webp
+  summary: 五费六单位空中人海，合计输出很高，可快速围攻空地目标，但害怕箭雨和范围对空伤害。
+  roles:
+  - 空中人海
+  - 高爆发防守
+  - 法术诱饵
+  detail_url: "/clashroyale/cards/minion-horde/"
+  source_url: https://clashroyale.fandom.com/wiki/Minion_Horde
+- key: firecracker
+  name: 烟花炮手
+  name_en: Firecracker
+  type: troop
+  rarity: common
+  elixir: 3
+  elixir_label: 
+  arena: 惊魂小镇
+  image: images/clashroyale/cards/firecracker.webp
+  summary: 三费超远距离范围输出，炮弹命中后分裂为五枚弹片，每次发射还会利用后坐力向后移动。
+  roles:
+  - 超远范围输出
+  - 弹道穿透
+  - 后坐拉扯
+  detail_url: "/clashroyale/cards/firecracker/"
+  source_url: https://clashroyale.fandom.com/wiki/Firecracker
+- key: rascals
+  name: 绿林团伙
+  name_en: Rascals
+  type: troop
+  rarity: common
+  elixir: 5
+  elixir_label: 
+  arena: 淘气岭
+  image: images/clashroyale/cards/rascals.webp
+  summary: 一名近战小哥和两名远程小妹组成的攻防小队，前排吸收伤害，后排负责对空与持续输出。
+  roles:
+  - 组合部队
+  - 防守反击
+  detail_url: "/clashroyale/cards/rascals/"
+  source_url: https://clashroyale.fandom.com/wiki/Rascals
+- key: mini-pekka
+  name: 迷你皮卡
+  name_en: Mini P.E.K.K.A.
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 训练营
+  image: images/clashroyale/cards/mini-pekka.webp
+  summary: 单体伤害较高的近战部队，擅长防守高血量单位并转入反击。
+  roles:
+  - 单体输出
+  - 防守反击
+  detail_url: "/clashroyale/cards/mini-pekka/"
+  source_url: https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A.
+- key: musketeer
+  name: 火枪手
+  name_en: Musketeer
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 训练营
+  image: images/clashroyale/cards/musketeer.webp
+  summary: 稳定的远程单体输出，可以同时承担对空和反击任务。
+  roles:
+  - 远程输出
+  - 对空
+  detail_url: "/clashroyale/cards/musketeer/"
+  source_url: https://clashroyale.fandom.com/wiki/Musketeer
+- key: giant
+  name: 巨人
+  name_en: Giant
+  type: troop
+  rarity: rare
+  elixir: 5
+  elixir_label: 
+  arena: 训练营
+  image: images/clashroyale/cards/giant.webp
+  summary: 五费地面坦克，只会走向建筑，依靠高生命值为后排吸收伤害并组织推进。
+  roles:
+  - 建筑目标
+  - 地面坦克
+  - 推进核心
+  detail_url: "/clashroyale/cards/giant/"
+  source_url: https://clashroyale.fandom.com/wiki/Giant
+- key: valkyrie
+  name: 瓦基丽武神
+  name_en: Valkyrie
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 骷髅墓园
+  image: images/clashroyale/cards/valkyrie.webp
+  summary: 四费地面范围战士，旋转攻击可以覆盖身边敌人，兼具清理人海与承担伤害的能力。
+  roles:
+  - 范围伤害
+  - 地面防守
+  - 迷你坦克
+  detail_url: "/clashroyale/cards/valkyrie/"
+  source_url: https://clashroyale.fandom.com/wiki/Valkyrie
+- key: mega-minion
+  name: 重甲亡灵
+  name_en: Mega Minion
+  type: troop
+  rarity: rare
+  elixir: 3
+  elixir_label: 
+  arena: 野蛮人擂台
+  image: images/clashroyale/cards/mega-minion.webp
+  summary: 三费空中单体单位，以较高单次伤害和法术抗性完成防守，并在存活后参与反击。
+  roles:
+  - 空中防守
+  - 单体输出
+  - 反击支援
+  detail_url: "/clashroyale/cards/mega-minion/"
+  source_url: https://clashroyale.fandom.com/wiki/Mega_Minion
+- key: battle-ram
+  name: 野蛮人攻城槌
+  name_en: Battle Ram
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 野蛮人擂台
+  image: images/clashroyale/cards/battle-ram.webp
+  summary: 四费建筑目标冲锋单位，攻城槌破坏后还会留下两名野蛮人继续作战，适合桥头施压和防守反击。
+  roles:
+  - 桥头施压
+  - 建筑进攻
+  - 防守反击
+  detail_url: "/clashroyale/cards/battle-ram/"
+  source_url: https://clashroyale.fandom.com/wiki/Battle_Ram
+- key: wizard
+  name: 法师
+  name_en: Wizard
+  type: troop
+  rarity: rare
+  elixir: 5
+  elixir_label: 
+  arena: 法术幽谷
+  image: images/clashroyale/cards/wizard.webp
+  summary: 五费远程范围输出，能同时攻击空中和地面单位，适合清理密集人海并为推进提供火力支援。
+  roles:
+  - 范围输出
+  - 防空支援
+  - 推进后排
+  detail_url: "/clashroyale/cards/wizard/"
+  source_url: https://clashroyale.fandom.com/wiki/Wizard
+- key: flying-machine
+  name: 飞行器
+  name_en: Flying Machine
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 建筑工人工坊
+  image: images/clashroyale/cards/flying-machine.webp
+  summary: 四费远程空中单位，射程较远且移动迅速，能隔河输出或在防守后形成持续反击压力。
+  roles:
+  - 远程输出
+  - 防空支援
+  - 防守反击
+  detail_url: "/clashroyale/cards/flying-machine/"
+  source_url: https://clashroyale.fandom.com/wiki/Flying_Machine
+- key: hog-rider
+  name: 野猪骑士
+  name_en: Hog Rider
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 建筑工人工坊
+  image: images/clashroyale/cards/hog-rider.webp
+  summary: 四费高速建筑目标单位，可以跳过河道并快速接近皇家塔，是速转和持续施压体系中的经典进攻核心。
+  roles:
+  - 建筑进攻
+  - 快速施压
+  - 速转核心
+  detail_url: "/clashroyale/cards/hog-rider/"
+  source_url: https://clashroyale.fandom.com/wiki/Hog_Rider
+- key: royal-hogs
+  name: 皇家野猪
+  name_en: Royal Hogs
+  type: troop
+  rarity: rare
+  elixir: 5
+  elixir_label: 
+  arena: 皇家竞技场
+  image: images/clashroyale/cards/royal-hogs.webp
+  summary: 五费四单位建筑进攻卡，可以分路部署并跳过河道，适合双路施压和分散对手的单体防守火力。
+  roles:
+  - 分路施压
+  - 建筑进攻
+  - 法术诱饵
+  detail_url: "/clashroyale/cards/royal-hogs/"
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Hogs
+- key: three-musketeers
+  name: 三个火枪手
+  name_en: Three Musketeers
+  type: troop
+  rarity: rare
+  elixir: 9
+  elixir_label: 
+  arena: 皇家竞技场
+  image: images/clashroyale/cards/three-musketeers.webp
+  summary: 九费三单位远程部队，能分路部署；敌人贴近后会切换刺刀近战，以更高伤害处理地面目标。
+  roles:
+  - 分路施压
+  - 远程输出
+  - 近战爆发
+  detail_url: "/clashroyale/cards/three-musketeers/"
+  source_url: https://clashroyale.fandom.com/wiki/Three_Musketeers
+- key: battle-healer
+  name: 战斗天使
+  name_en: Battle Healer
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 冰封之巅
+  image: images/clashroyale/cards/battle-healer.webp
+  summary: 四费近战支援单位，登场和攻击时会治疗范围内友军，适合在持续推进中维持多单位生命值。
+  roles:
+  - 范围治疗
+  - 推进支援
+  - 近战承伤
+  detail_url: "/clashroyale/cards/battle-healer/"
+  source_url: https://clashroyale.fandom.com/wiki/Battle_Healer
+- key: ice-golem
+  name: 戈仑冰人
+  name_en: Ice Golem
+  type: troop
+  rarity: rare
+  elixir: 2
+  elixir_label: 
+  arena: 冰封之巅
+  image: images/clashroyale/cards/ice-golem.webp
+  summary: 两费建筑目标肉盾，擅长拉扯和承担伤害，死亡冰爆还能伤害并减速周围空地单位。
+  roles:
+  - 低费肉盾
+  - 拉扯
+  - 死亡减速
+  detail_url: "/clashroyale/cards/ice-golem/"
+  source_url: https://clashroyale.fandom.com/wiki/Ice_Golem
+- key: dart-goblin
+  name: 吹箭哥布林
+  name_en: Dart Goblin
+  type: troop
+  rarity: rare
+  elixir: 3
+  elixir_label: 
+  arena: 丛林竞技场
+  image: images/clashroyale/cards/dart-goblin.webp
+  summary: 三费高速远程单位，以较快攻击和较长射程处理空地目标，适合桥头偷袭、法术诱饵和后排支援。
+  roles:
+  - 远程输出
+  - 防空支援
+  - 法术诱饵
+  detail_url: "/clashroyale/cards/dart-goblin/"
+  source_url: https://clashroyale.fandom.com/wiki/Dart_Goblin
+- key: furnace
+  name: 烈焰熔炉
+  name_en: Furnace
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 野猪山脉
+  image: images/clashroyale/cards/furnace.webp
+  summary: 四费远程地面单位，会持续生成烈焰精灵并攻击空地目标，适合施加分路压力、消耗人海和补充防空。
+  roles:
+  - 持续施压
+  - 范围消耗
+  - 防空支援
+  detail_url: "/clashroyale/cards/furnace/"
+  source_url: https://clashroyale.fandom.com/wiki/Furnace
+- key: zappies
+  name: 电击车小队
+  name_en: Zappies
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 野猪山脉
+  image: images/clashroyale/cards/zappies.webp
+  summary: 四费三单位远程部队，每次攻击都会造成短暂眩晕，擅长打断蓄力、分路防守和控制大型推进。
+  roles:
+  - 眩晕控制
+  - 分路防守
+  - 防空支援
+  detail_url: "/clashroyale/cards/zappies/"
+  source_url: https://clashroyale.fandom.com/wiki/Zappies
+- key: goblin-demolisher
+  name: 哥布林爆破手
+  name_en: Goblin Demolisher
+  type: troop
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 惊魂小镇
+  image: images/clashroyale/cards/goblin-demolisher.webp
+  summary: 四费地面范围输出，生命值降至一半后会转为建筑目标并进入自爆倒计时，兼具防守清场与反击威胁。
+  roles:
+  - 范围输出
+  - 建筑威胁
+  - 防守反击
+  detail_url: "/clashroyale/cards/goblin-demolisher/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Demolisher
+- key: heal-spirit
+  name: 治疗精灵
+  name_en: Heal Spirit
+  type: troop
+  rarity: rare
+  elixir: 1
+  elixir_label: 
+  arena: 13 阶竞技场
+  image: images/clashroyale/cards/heal-spirit.webp
+  summary: 一费自毁型范围单位，命中敌军后造成伤害，并在落点以四次脉冲治疗附近的友方空地部队。
+  roles:
+  - 范围治疗
+  - 快速过牌
+  - 推进支援
+  detail_url: "/clashroyale/cards/heal-spirit/"
+  source_url: https://clashroyale.fandom.com/wiki/Heal_Spirit
+- key: suspicious-bush
+  name: 可疑草丛
+  name_en: Suspicious Bush
+  type: troop
+  rarity: rare
+  elixir: 2
+  elixir_label: 
+  arena: 淘气岭
+  image: images/clashroyale/cards/suspicious-bush.webp
+  summary: 两费隐蔽建筑目标单位，不会被部队或皇家塔锁定；抵达目标或被法术摧毁后会放出两名草丛哥布林。
+  roles:
+  - 建筑施压
+  - 隐蔽推进
+  - 法术诱饵
+  detail_url: "/clashroyale/cards/suspicious-bush/"
+  source_url: https://clashroyale.fandom.com/wiki/Suspicious_Bush
+- key: elixir-golem
+  name: 圣水戈仑
+  name_en: Elixir Golem
+  type: troop
+  rarity: rare
+  elixir: 3
+  elixir_label: 
+  arena: 宁静圣殿
+  image: images/clashroyale/cards/elixir-golem.webp
+  summary: 三费建筑目标肉盾，会依次分裂为两个小圣水戈仑和四个圣水泡泡，但所有形态被消灭后会共向对手返还四费。
+  roles:
+  - 低费肉盾
+  - 分裂推进
+  - 高风险施压
+  detail_url: "/clashroyale/cards/elixir-golem/"
+  source_url: https://clashroyale.fandom.com/wiki/Elixir_Golem
+- key: guards
+  name: 骷髅守卫
+  name_en: Guards
+  type: troop
+  rarity: epic
+  elixir: 3
+  elixir_label: 
+  arena: P.E.K.K.A.'s Playhouse
+  image: images/clashroyale/cards/guards.webp
+  summary: 三费三单位地面部队，每名守卫都拥有独立护盾，能够承受一次高额伤害并持续围攻单体目标。
+  roles:
+  - 护盾防守
+  - 单体围攻
+  - 法术抗性
+  detail_url: "/clashroyale/cards/guards/"
+  source_url: https://clashroyale.fandom.com/wiki/Guards
+- key: baby-dragon
+  name: 飞龙宝宝
+  name_en: Baby Dragon
+  type: troop
+  rarity: epic
+  elixir: 4
+  elixir_label: 
+  arena: P.E.K.K.A.'s Playhouse
+  image: images/clashroyale/cards/baby-dragon.webp
+  summary: 四费空中范围单位，兼具中等生命值和空地溅射伤害，适合保护推进、处理人海并承担稳定防空。
+  roles:
+  - 空中范围输出
+  - 防空支援
+  - 推进保护
+  detail_url: "/clashroyale/cards/baby-dragon/"
+  source_url: https://clashroyale.fandom.com/wiki/Baby_Dragon
+- key: skeleton-army
+  name: 骷髅军团
+  name_en: Skeleton Army
+  type: troop
+  rarity: epic
+  elixir: 3
+  elixir_label: 
+  arena: P.E.K.K.A.'s Playhouse
+  image: images/clashroyale/cards/skeleton-army.webp
+  summary: 三费一次部署十五只近战骷髅，以数量快速包围地面单体目标，是高爆发防守和法术诱饵卡。
+  roles:
+  - 人海防守
+  - 单体爆发
+  - 法术诱饵
+  detail_url: "/clashroyale/cards/skeleton-army/"
+  source_url: https://clashroyale.fandom.com/wiki/Skeleton_Army
+- key: witch
+  name: 女巫
+  name_en: Witch
+  type: troop
+  rarity: epic
+  elixir: 5
+  elixir_label: 
+  arena: P.E.K.K.A.'s Playhouse
+  image: images/clashroyale/cards/witch.webp
+  summary: 五费远程范围单位，会周期召唤骷髅兵；本体负责空地输出，骷髅兵则承担拉扯、围攻和推进保护。
+  roles:
+  - 召唤支援
+  - 空地范围输出
+  - 推进保护
+  detail_url: "/clashroyale/cards/witch/"
+  source_url: https://clashroyale.fandom.com/wiki/Witch
+- key: pekka
+  name: 皮卡超人
+  name_en: P.E.K.K.A.
+  type: troop
+  rarity: epic
+  elixir: 7
+  elixir_label: 
+  arena: P.E.K.K.A.'s Playhouse
+  image: images/clashroyale/cards/pekka.webp
+  summary: 七费重型近战单位，拥有极高生命值和单次伤害，适合化解大型地面推进并组织高威胁反击。
+  roles:
+  - 地面坦克克制
+  - 重型防守
+  - 反击核心
+  detail_url: "/clashroyale/cards/pekka/"
+  source_url: https://clashroyale.fandom.com/wiki/P.E.K.K.A.
+- key: dark-prince
+  name: 黑暗王子
+  name_en: Dark Prince
+  type: troop
+  rarity: epic
+  elixir: 4
+  elixir_label: 
+  arena: 皇家竞技场
+  image: images/clashroyale/cards/dark-prince.webp
+  summary: 四费护盾近战单位，兼具范围攻击、冲锋双倍伤害和跳河能力，适合清理地面人海并快速转入反击。
+  roles:
+  - 地面范围输出
+  - 冲锋反击
+  - 护盾承伤
+  detail_url: "/clashroyale/cards/dark-prince/"
+  source_url: https://clashroyale.fandom.com/wiki/Dark_Prince
+- key: prince
+  name: 王子
+  name_en: Prince
+  type: troop
+  rarity: epic
+  elixir: 5
+  elixir_label: 
+  arena: 皇家竞技场
+  image: images/clashroyale/cards/prince.webp
+  summary: 五费单体地面突击单位，移动一段距离后进入冲锋并造成双倍伤害，适合防守高生命目标后快速反击。
+  roles:
+  - 单体爆发
+  - 冲锋突击
+  - 防守反击
+  detail_url: "/clashroyale/cards/prince/"
+  source_url: https://clashroyale.fandom.com/wiki/Prince
+- key: balloon
+  name: 气球兵
+  name_en: Balloon
+  type: troop
+  rarity: epic
+  elixir: 5
+  elixir_label: 
+  arena: 皇家竞技场
+  image: images/clashroyale/cards/balloon.webp
+  summary: 五费空中建筑目标单位，首次投弹极快且单次伤害很高，阵亡后还会留下延迟爆炸的范围炸弹。
+  roles:
+  - 空中进攻核心
+  - 建筑目标
+  - 高额单次伤害
+  detail_url: "/clashroyale/cards/balloon/"
+  source_url: https://clashroyale.fandom.com/wiki/Balloon
+- key: giant-skeleton
+  name: 骷髅巨人
+  name_en: Giant Skeleton
+  type: troop
+  rarity: epic
+  elixir: 6
+  elixir_label: 
+  arena: 冰封之巅
+  image: images/clashroyale/cards/giant-skeleton.webp
+  summary: 六费高生命地面单位，阵亡后留下大范围延迟炸弹，适合压缩敌方站位、瓦解密集推进并组织反击。
+  roles:
+  - 地面前排
+  - 死亡炸弹
+  - 区域控制
+  detail_url: "/clashroyale/cards/giant-skeleton/"
+  source_url: https://clashroyale.fandom.com/wiki/Giant_Skeleton
+- key: rune-giant
+  name: 符文巨人
+  name_en: Rune Giant
+  type: troop
+  rarity: epic
+  elixir: 4
+  elixir_label: 
+  arena: 丛林竞技场
+  image: images/clashroyale/cards/rune-giant.webp
+  summary: 四费建筑目标前排，可强化附近最多两名友军，使它们每第三次攻击追加伤害，适合围绕高频攻击单位组织推进。
+  roles:
+  - 支援前排
+  - 友军强化
+  - 建筑目标
+  detail_url: "/clashroyale/cards/rune-giant/"
+  source_url: https://clashroyale.fandom.com/wiki/Rune_Giant
+- key: goblin-giant
+  name: 哥布林巨人
+  name_en: Goblin Giant
+  type: troop
+  rarity: epic
+  elixir: 6
+  elixir_label: 
+  arena: 丛林竞技场
+  image: images/clashroyale/cards/goblin-giant.webp
+  summary: 六费建筑目标前排，背包里的两名哥布林投矛手会持续攻击空地单位，本体阵亡后投矛手落地继续作战。
+  roles:
+  - 推进前排
+  - 远程支援
+  - 建筑目标
+  detail_url: "/clashroyale/cards/goblin-giant/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Giant
+- key: hunter
+  name: 猎人
+  name_en: Hunter
+  type: troop
+  rarity: epic
+  elixir: 4
+  elixir_label: 
+  arena: 野猪山脉
+  image: images/clashroyale/cards/hunter.webp
+  summary: 四费空地防守单位，每次发射十枚分散弹丸，贴近目标时能集中造成极高爆发，远距离伤害则明显下降。
+  roles:
+  - 近距离爆发
+  - 空地防守
+  - 坦克克制
+  detail_url: "/clashroyale/cards/hunter/"
+  source_url: https://clashroyale.fandom.com/wiki/Hunter
+- key: golem
+  name: 戈仑石人
+  name_en: Golem
+  type: troop
+  rarity: epic
+  elixir: 8
+  elixir_label: 
+  arena: 野猪山脉
+  image: images/clashroyale/cards/golem.webp
+  summary: 八费超高生命建筑目标前排，阵亡时造成范围伤害并分裂成两个小戈仑石人，适合构建重型推进。
+  roles:
+  - 重型前排
+  - 建筑目标
+  - 分裂推进
+  detail_url: "/clashroyale/cards/golem/"
+  source_url: https://clashroyale.fandom.com/wiki/Golem
+- key: electro-dragon
+  name: 雷电飞龙
+  name_en: Electro Dragon
+  type: troop
+  rarity: epic
+  elixir: 5
+  elixir_label: 
+  arena: 惊魂小镇
+  image: images/clashroyale/cards/electro-dragon.webp
+  summary: 五费空中支援单位，雷电攻击可在相邻目标间弹射三次并短暂眩晕，擅长重置蓄力和处理密集单位。
+  roles:
+  - 连锁伤害
+  - 眩晕重置
+  - 空中支援
+  detail_url: "/clashroyale/cards/electro-dragon/"
+  source_url: https://clashroyale.fandom.com/wiki/Electro_Dragon
+- key: wall-breakers
+  name: 攻城炸弹人
+  name_en: Wall Breakers
+  type: troop
+  rarity: epic
+  elixir: 2
+  elixir_label: 
+  arena: 惊魂小镇
+  image: images/clashroyale/cards/wall-breakers.webp
+  summary: 两费双单位建筑目标突击卡，移动极快，接触建筑后自爆造成高额范围伤害，适合低费施压和分路逼迫。
+  roles:
+  - 低费突击
+  - 建筑目标
+  - 分路施压
+  detail_url: "/clashroyale/cards/wall-breakers/"
+  source_url: https://clashroyale.fandom.com/wiki/Wall_Breakers
+- key: electro-giant
+  name: 雷电巨人
+  name_en: Electro Giant
+  type: troop
+  rarity: epic
+  elixir: 7
+  elixir_label: 
+  arena: 淘气岭
+  image: images/clashroyale/cards/electro-giant.webp
+  summary: 七费建筑目标前排，电击背包会反击近距离攻击者并短暂眩晕，擅长压制贴身人海和高频攻击单位。
+  roles:
+  - 重型前排
+  - 建筑目标
+  - 反击眩晕
+  detail_url: "/clashroyale/cards/electro-giant/"
+  source_url: https://clashroyale.fandom.com/wiki/Electro_Giant
+- key: bowler
+  name: 巨石投手
+  name_en: Bowler
+  type: troop
+  rarity: epic
+  elixir: 5
+  elixir_label: 
+  arena: 淘气岭
+  image: images/clashroyale/cards/bowler.webp
+  summary: 五费地面范围单位，滚动巨石能贯穿并击退路径上的轻中型部队，适合拆散推进和组织反打。
+  roles:
+  - 地面范围
+  - 贯穿击退
+  - 防守反打
+  detail_url: "/clashroyale/cards/bowler/"
+  source_url: https://clashroyale.fandom.com/wiki/Bowler
+- key: executioner
+  name: 飞斧屠夫
+  name_en: Executioner
+  type: troop
+  rarity: epic
+  elixir: 5
+  elixir_label: 
+  arena: 宁静圣殿
+  image: images/clashroyale/cards/executioner.webp
+  summary: 五费远程范围单位，回旋飞斧在去程和回程各造成一次伤害，可同时处理成排地面与空中目标。
+  roles:
+  - 双段范围
+  - 对空支援
+  - 防守反打
+  detail_url: "/clashroyale/cards/executioner/"
+  source_url: https://clashroyale.fandom.com/wiki/Executioner
+- key: cannon-cart
+  name: 加农炮战车
+  name_en: Cannon Cart
+  type: troop
+  rarity: epic
+  elixir: 5
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/cannon-cart.webp
+  summary: 五费远程地面单位，生命值降至一半后失去轮子并转为限时建筑，能够在两种形态间持续输出。
+  roles:
+  - 远程单体
+  - 形态转换
+  - 防守反打
+  detail_url: "/clashroyale/cards/cannon-cart/"
+  source_url: https://clashroyale.fandom.com/wiki/Cannon_Cart
+- key: mega-knight
+  name: 超级骑士
+  name_en: Mega Knight
+  type: troop
+  rarity: legendary
+  elixir: 7
+  elixir_label: 
+  arena: 电磁峡谷
+  image: images/clashroyale/cards/mega-knight.webp
+  summary: 七费重型范围单位，部署时造成范围伤害，并会向中距离地面目标跃击，适合解场后组织反打。
+  roles:
+  - 重型范围
+  - 登场伤害
+  - 跃击反打
+  detail_url: "/clashroyale/cards/mega-knight/"
+  source_url: https://clashroyale.fandom.com/wiki/Mega_Knight
+- key: ram-rider
+  name: 蛮羊骑士
+  name_en: Ram Rider
+  type: troop
+  rarity: legendary
+  elixir: 5
+  elixir_label: 
+  arena: 电磁峡谷
+  image: images/clashroyale/cards/ram-rider.webp
+  summary: 五费建筑目标突击单位，蛮羊冲锋造成双倍伤害，骑手同时用套索减速附近敌军。
+  roles:
+  - 冲锋突击
+  - 建筑目标
+  - 套索减速
+  detail_url: "/clashroyale/cards/ram-rider/"
+  source_url: https://clashroyale.fandom.com/wiki/Ram_Rider
+- key: electro-wizard
+  name: 闪电法师
+  name_en: Electro Wizard
+  type: troop
+  rarity: legendary
+  elixir: 4
+  elixir_label: 
+  arena: 电磁峡谷
+  image: images/clashroyale/cards/electro-wizard.webp
+  summary: 四费远程控制单位，登场时造成范围电击，普通攻击可分击两个目标并持续眩晕重置。
+  roles:
+  - 双目标控制
+  - 登场电击
+  - 递增重置
+  detail_url: "/clashroyale/cards/electro-wizard/"
+  source_url: https://clashroyale.fandom.com/wiki/Electro_Wizard
+- key: inferno-dragon
+  name: 地狱飞龙
+  name_en: Inferno Dragon
+  type: troop
+  rarity: legendary
+  elixir: 4
+  elixir_label: 
+  arena: 电磁峡谷
+  image: images/clashroyale/cards/inferno-dragon.webp
+  summary: 四费空中单体单位，持续锁定同一目标后伤害分三档快速提高，专门处理高生命前排。
+  roles:
+  - 递增伤害
+  - 空中单体
+  - 坦克克制
+  detail_url: "/clashroyale/cards/inferno-dragon/"
+  source_url: https://clashroyale.fandom.com/wiki/Inferno_Dragon
+- key: sparky
+  name: 电磁炮
+  name_en: Sparky
+  type: troop
+  rarity: legendary
+  elixir: 6
+  elixir_label: 
+  arena: 电磁峡谷
+  image: images/clashroyale/cards/sparky.webp
+  summary: 电磁炮会慢慢充能，然后可造成巨量范围伤害。她的字典里可没有"伤害过量"这个词。
+  roles:
+  - 超高爆发
+  - 地面范围
+  - 充能反打
+  detail_url: "/clashroyale/cards/sparky/"
+  source_url: https://clashroyale.fandom.com/wiki/Sparky
+- key: miner
+  name: 掘地矿工
+  name_en: Miner
+  type: troop
+  rarity: legendary
+  elixir: 3
+  elixir_label: 
+  arena: 电磁峡谷
+  image: images/clashroyale/cards/miner.webp
+  summary: 三费地面单位，可以部署在竞技场任意位置；常用于消耗皇家塔、切后排或为其他单位吸引火力。
+  roles:
+  - 全场部署
+  - 皇家塔消耗
+  detail_url: "/clashroyale/cards/miner/"
+  source_url: https://clashroyale.fandom.com/wiki/Miner
+- key: princess
+  name: 公主
+  name_en: Princess
+  type: troop
+  rarity: legendary
+  elixir: 3
+  elixir_label: 
+  arena: 电磁峡谷
+  image: images/clashroyale/cards/princess.webp
+  summary: 射程很远的范围输出单位，可持续施压并消耗防守法术。
+  roles:
+  - 超远程输出
+  - 法术诱饵
+  detail_url: "/clashroyale/cards/princess/"
+  source_url: https://clashroyale.fandom.com/wiki/Princess
+- key: phoenix
+  name: 凤凰
+  name_en: Phoenix
+  type: troop
+  rarity: legendary
+  elixir: 4
+  elixir_label: 
+  arena: 惊魂小镇
+  image: images/clashroyale/cards/phoenix.webp
+  summary: 四费空中单体单位，被击败时造成范围伤害并生成凤凰蛋；蛋存活至孵化后会以完整属性重生一次。
+  roles:
+  - 空中输出
+  - 死亡重生
+  detail_url: "/clashroyale/cards/phoenix/"
+  source_url: https://clashroyale.fandom.com/wiki/Phoenix
+- key: royal-ghost
+  name: 皇家幽灵
+  name_en: Royal Ghost
+  type: troop
+  rarity: legendary
+  elixir: 3
+  elixir_label: 
+  arena: 惊魂小镇
+  image: images/clashroyale/cards/royal-ghost.webp
+  summary: 能够隐身接近目标的范围近战单位，适合桥头施压。
+  roles:
+  - 桥头施压
+  - 范围输出
+  detail_url: "/clashroyale/cards/royal-ghost/"
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Ghost
+- key: ice-wizard
+  name: 寒冰法师
+  name_en: Ice Wizard
+  type: troop
+  rarity: legendary
+  elixir: 3
+  elixir_label: 
+  arena: 惊魂小镇
+  image: images/clashroyale/cards/ice-wizard.webp
+  summary: 三费范围减速单位，登场时造成范围伤害并减速，之后以冰晶持续降低敌军移动和攻击速度。
+  roles:
+  - 范围减速
+  - 防守控制
+  detail_url: "/clashroyale/cards/ice-wizard/"
+  source_url: https://clashroyale.fandom.com/wiki/Ice_Wizard
+- key: magic-archer
+  name: 神箭游侠
+  name_en: Magic Archer
+  type: troop
+  rarity: legendary
+  elixir: 4
+  elixir_label: 
+  arena: 淘气岭
+  image: images/clashroyale/cards/magic-archer.webp
+  summary: 四费超远程穿透单位，箭矢会伤害路径上的所有空地目标，可借前排或建筑连线消耗皇家塔。
+  roles:
+  - 穿透输出
+  - 远程消耗
+  detail_url: "/clashroyale/cards/magic-archer/"
+  source_url: https://clashroyale.fandom.com/wiki/Magic_Archer
+- key: bandit
+  name: 幻影刺客
+  name_en: Bandit
+  type: troop
+  rarity: legendary
+  elixir: 3
+  elixir_label: 
+  arena: 淘气岭
+  image: images/clashroyale/cards/bandit.webp
+  summary: 三费地面突进单位，可从中距离发动免伤突袭并造成双倍伤害，适合追击后排和桥头施压。
+  roles:
+  - 突袭进攻
+  - 后排追击
+  - 桥头施压
+  detail_url: "/clashroyale/cards/bandit/"
+  source_url: https://clashroyale.fandom.com/wiki/Bandit
+- key: lava-hound
+  name: 熔岩猎犬
+  name_en: Lava Hound
+  type: troop
+  rarity: legendary
+  elixir: 7
+  elixir_label: 
+  arena: 淘气岭
+  image: images/clashroyale/cards/lava-hound.webp
+  summary: 七费空中坦克，专门飞向建筑；被击败后会分裂出六只熔岩幼犬继续攻击空中和地面目标。
+  roles:
+  - 空中坦克
+  - 建筑目标
+  - 分裂进攻
+  detail_url: "/clashroyale/cards/lava-hound/"
+  source_url: https://clashroyale.fandom.com/wiki/Lava_Hound
+- key: night-witch
+  name: 暗夜女巫
+  name_en: Night Witch
+  type: troop
+  rarity: legendary
+  elixir: 4
+  elixir_label: 
+  arena: 宁静圣殿
+  image: images/clashroyale/cards/night-witch.webp
+  summary: 四费近战召唤单位，每隔五秒生成两只蝙蝠，在前排保护下可持续积累空地输出。
+  roles:
+  - 持续召唤
+  - 推进支援
+  - 空地输出
+  detail_url: "/clashroyale/cards/night-witch/"
+  source_url: https://clashroyale.fandom.com/wiki/Night_Witch
+- key: lumberjack
+  name: 狂暴樵夫
+  name_en: Lumberjack
+  type: troop
+  rarity: legendary
+  elixir: 4
+  elixir_label: 
+  arena: 宁静圣殿
+  image: images/clashroyale/cards/lumberjack.webp
+  summary: 四费高速近战单位，阵亡后释放造成伤害的狂暴法术，为附近友军提供攻速与移速加成。
+  roles:
+  - 高速输出
+  - 死亡狂暴
+  - 推进支援
+  detail_url: "/clashroyale/cards/lumberjack/"
+  source_url: https://clashroyale.fandom.com/wiki/Lumberjack
+- key: spirit-empress
+  name: 精灵女王
+  name_en: Spirit Empress
+  type: troop
+  rarity: legendary
+  elixir: 
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/spirit-empress.webp
+  summary: 根据部署时圣水选择三费地面形态或六费空中形态的双形态单位。
+  roles:
+  - 双形态
+  - 单体输出
+  - 空地转换
+  detail_url: "/clashroyale/cards/spirit-empress/"
+  source_url: https://clashroyale.fandom.com/wiki/Spirit_Empress
+- key: goblin-machine
+  name: 哥布林机甲
+  name_en: Goblin Machine
+  type: troop
+  rarity: legendary
+  elixir: 5
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/goblin-machine.webp
+  summary: 近身挥拳并自动向远处目标发射火箭的五费复合单位。
+  roles:
+  - 推进支援
+  - 远程压制
+  - 中型前排
+  detail_url: "/clashroyale/cards/goblin-machine/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Machine
+- key: mother-witch
+  name: 女巫婆婆
+  name_en: Mother Witch
+  type: troop
+  rarity: legendary
+  elixir: 4
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/mother-witch.webp
+  summary: 用诅咒把阵亡敌军转化为己方野猪，擅长惩罚数量密集的部队。
+  roles:
+  - 群体克制
+  - 反击支援
+  - 诅咒转化
+  detail_url: "/clashroyale/cards/mother-witch/"
+  source_url: https://clashroyale.fandom.com/wiki/Mother_Witch
+- key: fisherman
+  name: 渔夫
+  name_en: Fisherman
+  type: troop
+  rarity: legendary
+  elixir: 3
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/fisherman.webp
+  summary: 利用鱼钩改变单位位置，为防守和集火创造条件。
+  roles:
+  - 拉扯
+  - 控制
+  - 防守反击
+  detail_url: "/clashroyale/cards/fisherman/"
+  source_url: https://clashroyale.fandom.com/wiki/Fisherman
+- key: ronin
+  name: 浪人
+  name_en: Ronin
+  type: troop
+  rarity: legendary
+  elixir: 5
+  elixir_label: 
+  arena: 宁静圣殿
+  image: images/clashroyale/cards/ronin.webp
+  summary: 能够周期性反弹近战攻击的传奇剑客，擅长正面对抗近战部队。
+  roles:
+  - 单挑
+  - 近战反制
+  - 中型前排
+  detail_url: "/clashroyale/cards/ronin/"
+  source_url: https://clashroyale.fandom.com/wiki/Ronin
+- key: golden-knight
+  name: 黄金圣骑
+  name_en: Golden Knight
+  type: troop
+  rarity: champion
+  elixir: 4
+  elixir_label: 
+  arena: 行刑者厨房
+  image: images/clashroyale/cards/golden-knight.webp
+  summary: 通过一费连续突袭在多个地面目标间穿梭的英雄近战单位。
+  roles:
+  - 连锁突袭
+  - 人海处理
+  - 反击推进
+  detail_url: "/clashroyale/cards/golden-knight/"
+  source_url: https://clashroyale.fandom.com/wiki/Golden_Knight
+- key: skeleton-king
+  name: 骷髅帝王
+  name_en: Skeleton King
+  type: troop
+  rarity: champion
+  elixir: 4
+  elixir_label: 
+  arena: 行刑者厨房
+  image: images/clashroyale/cards/skeleton-king.webp
+  summary: 收集场上阵亡单位的灵魂，并用主动技能召唤骷髅兵群的英雄单位。
+  roles:
+  - 灵魂收集
+  - 人海召唤
+  - 地面溅射
+  detail_url: "/clashroyale/cards/skeleton-king/"
+  source_url: https://clashroyale.fandom.com/wiki/Skeleton_King
+- key: boss-bandit
+  name: 刺客头领
+  name_en: Boss Bandit
+  type: troop
+  rarity: champion
+  elixir: 6
+  elixir_label: 
+  arena: 皇家墓穴
+  image: images/clashroyale/cards/boss-bandit.webp
+  summary: 拥有主动位移技能的英雄部队，可重新拉开距离并再次发动突袭。
+  roles:
+  - 突袭
+  - 主动位移
+  - 前排承伤
+  detail_url: "/clashroyale/cards/boss-bandit/"
+  source_url: https://clashroyale.fandom.com/wiki/Boss_Bandit
+- key: archer-queen
+  name: 弓箭女皇
+  name_en: Archer Queen
+  type: troop
+  rarity: champion
+  elixir: 5
+  elixir_label: 
+  arena: 皇家墓穴
+  image: images/clashroyale/cards/archer-queen.webp
+  summary: 开启隐身斗篷后暂时无法被锁定，并大幅提高攻击速度的远程英雄。
+  roles:
+  - 远程输出
+  - 爆发
+  - 防空
+  detail_url: "/clashroyale/cards/archer-queen/"
+  source_url: https://clashroyale.fandom.com/wiki/Archer_Queen
+- key: mighty-miner
+  name: 威猛矿工
+  name_en: Mighty Miner
+  type: troop
+  rarity: champion
+  elixir: 4
+  elixir_label: 
+  arena: 17 阶竞技场
+  image: images/clashroyale/cards/mighty-miner.webp
+  summary: 持续锁定同一目标会逐级提高伤害，并能用技能钻到另一条路线。
+  roles:
+  - 坦克克制
+  - 换路
+  - 持续输出
+  detail_url: "/clashroyale/cards/mighty-miner/"
+  source_url: https://clashroyale.fandom.com/wiki/Mighty_Miner
+- key: goblinstein
+  name: 科学怪哥布林
+  name_en: Goblinstein
+  type: troop
+  rarity: champion
+  elixir: 5
+  elixir_label: 
+  arena: 寂静圣殿
+  image: images/clashroyale/cards/goblinstein.webp
+  summary: 由博士与怪物共同作战的英雄卡牌，技能可激活两者之间的闪电连接。
+  roles:
+  - 双单位推进
+  - 眩晕支援
+  - 连接伤害
+  detail_url: "/clashroyale/cards/goblinstein/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblinstein
+- key: little-prince
+  name: 小王子
+  name_en: Little Prince
+  type: troop
+  rarity: champion
+  elixir: 3
+  elixir_label: 
+  arena: 寂静圣殿
+  image: images/clashroyale/cards/little-prince.webp
+  summary: 攻击速度会逐步提升的远程英雄，技能可召唤专属护卫加入战斗。
+  roles:
+  - 远程输出
+  - 攻速叠加
+  - 护卫召唤
+  detail_url: "/clashroyale/cards/little-prince/"
+  source_url: https://clashroyale.fandom.com/wiki/Little_Prince
+- key: monk
+  name: 盖世武僧
+  name_en: Monk
+  type: troop
+  rarity: champion
+  elixir: 5
+  elixir_label: 
+  arena: 寂静圣殿
+  image: images/clashroyale/cards/monk.webp
+  summary: 以三段连击击退地面目标，并能减免伤害、反弹投射物的英雄单位。
+  roles:
+  - 投射物反制
+  - 减伤
+  - 近战控制
+  detail_url: "/clashroyale/cards/monk/"
+  source_url: https://clashroyale.fandom.com/wiki/Monk
+- key: arrows
+  name: 万箭齐发
+  name_en: Arrows
+  type: spell
+  rarity: common
+  elixir: 3
+  elixir_label: 
+  arena: 训练营
+  image: images/clashroyale/cards/arrows.webp
+  summary: 万箭齐发可以覆盖大片区域并对该区域内的所有敌军造成伤害。对皇家塔的伤害会大打折扣。
+  roles: []
+  detail_url: "/clashroyale/cards/arrows/"
+  source_url: https://clashroyale.fandom.com/wiki/Arrows
+- key: zap
+  name: 电击法术
+  name_en: Zap
+  type: spell
+  rarity: common
+  elixir: 2
+  elixir_label: 
+  arena: 建筑工人工坊
+  image: images/clashroyale/cards/zap.webp
+  summary: 电击法术可以对目标单位造成瞬间眩晕效果，并在小范围内造成伤害。对皇家塔的伤害会大打折扣。
+  roles: []
+  detail_url: "/clashroyale/cards/zap/"
+  source_url: https://clashroyale.fandom.com/wiki/Zap
+- key: giant-snowball
+  name: 大雪球
+  name_en: Giant Snowball
+  type: spell
+  rarity: common
+  elixir: 2
+  elixir_label: 
+  arena: 冰封之巅
+  image: images/clashroyale/cards/giant-snowball.webp
+  summary: 大雪球从天而降！它从冰封之巅滚落，无人可挡。大雪球会对敌军造成击退和减速效果。对皇家塔的伤害会大打折扣。
+  roles: []
+  detail_url: "/clashroyale/cards/giant-snowball/"
+  source_url: https://clashroyale.fandom.com/wiki/Giant_Snowball
+- key: royal-delivery
+  name: 皇家速递
+  name_en: Royal Delivery
+  type: spell
+  rarity: common
+  elixir: 3
+  elixir_label: 
+  arena: 宁静圣殿
+  image: images/clashroyale/cards/royal-delivery.webp
+  summary: |-
+    签不签收由不得你！
+
+    一个箱子从天而降，对范围内的敌军造成伤害，最后放出一名皇家卫队新兵。
+
+    用过的箱子还是谍报特工的绝佳伪装。
+  roles: []
+  detail_url: "/clashroyale/cards/royal-delivery/"
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Delivery
+- key: fireball
+  name: 火球
+  name_en: Fireball
+  type: spell
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 训练营
+  image: images/clashroyale/cards/fireball.webp
+  summary: 兼顾范围伤害和击退效果的中费法术。
+  roles:
+  - 范围法术
+  - 终结伤害
+  detail_url: "/clashroyale/cards/fireball/"
+  source_url: https://clashroyale.fandom.com/wiki/Fireball
+- key: rocket
+  name: 火箭
+  name_en: Rocket
+  type: spell
+  rarity: rare
+  elixir: 6
+  elixir_label: 
+  arena: 建筑工人工坊
+  image: images/clashroyale/cards/rocket.webp
+  summary: 高伤害小范围法术，可处理高价值单位或完成终结。
+  roles:
+  - 重型法术
+  - 终结伤害
+  detail_url: "/clashroyale/cards/rocket/"
+  source_url: https://clashroyale.fandom.com/wiki/Rocket
+- key: earthquake
+  name: 地震法术
+  name_en: Earthquake
+  type: spell
+  rarity: rare
+  elixir: 3
+  elixir_label: 
+  arena: 惊魂小镇
+  image: images/clashroyale/cards/earthquake.webp
+  summary: 地震法术可对目标区域内的军队和皇家塔造成每秒伤害，对除皇家塔之外的建筑更可造成大量伤害！对飞行单位无效，毕竟它叫"地"震法术。
+  roles:
+  - 建筑克制
+  - 地面减速
+  - 持续伤害
+  detail_url: "/clashroyale/cards/earthquake/"
+  source_url: https://clashroyale.fandom.com/wiki/Earthquake
+- key: goblin-barrel
+  name: 哥布林飞桶
+  name_en: Goblin Barrel
+  type: spell
+  rarity: epic
+  elixir: 3
+  elixir_label: 
+  arena: P.E.K.K.A.'s Playhouse
+  image: images/clashroyale/cards/goblin-barrel.webp
+  summary: 可以直接投向竞技场任意位置的进攻法术，是诱饵体系的核心。
+  roles:
+  - 核心进攻
+  - 法术诱饵
+  detail_url: "/clashroyale/cards/goblin-barrel/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Barrel
+- key: vines
+  name: 藤蔓法术
+  name_en: Vines
+  type: spell
+  rarity: epic
+  elixir: 3
+  elixir_label: 
+  arena: 冰封之巅
+  image: images/clashroyale/cards/vines.webp
+  summary: 短暂束缚多个高生命值目标并造成伤害的控制法术。
+  roles: []
+  detail_url: "/clashroyale/cards/vines/"
+  source_url: https://clashroyale.fandom.com/wiki/Vines
+- key: lightning
+  name: 雷电法术
+  name_en: Lightning
+  type: spell
+  rarity: epic
+  elixir: 6
+  elixir_label: 
+  arena: 冰封之巅
+  image: images/clashroyale/cards/lightning.webp
+  summary: 高费定点法术，适合处理推进路线上的高价值单位和建筑。
+  roles:
+  - 重型法术
+  - 推进支援
+  detail_url: "/clashroyale/cards/lightning/"
+  source_url: https://clashroyale.fandom.com/wiki/Lightning
+- key: freeze
+  name: 冰冻法术
+  name_en: Freeze
+  type: spell
+  rarity: epic
+  elixir: 4
+  elixir_label: 
+  arena: 冰封之巅
+  image: images/clashroyale/cards/freeze.webp
+  summary: 冻结军队和建筑，使其无法移动或攻击，还能对其造成伤害。瞧，敌人已经瑟瑟发抖了！对皇家塔的伤害会大打折扣。
+  roles: []
+  detail_url: "/clashroyale/cards/freeze/"
+  source_url: https://clashroyale.fandom.com/wiki/Freeze
+- key: barbarian-barrel
+  name: 野蛮人滚桶
+  name_en: Barbarian Barrel
+  type: spell
+  rarity: epic
+  elixir: 2
+  elixir_label: 
+  arena: 丛林竞技场
+  image: images/clashroyale/cards/barbarian-barrel.webp
+  summary: 它会向前滚动，对路径上的所有目标造成伤害。滚桶碎裂后会蹦出来一个野蛮人！他到底是怎么钻进去的？！
+  roles: []
+  detail_url: "/clashroyale/cards/barbarian-barrel/"
+  source_url: https://clashroyale.fandom.com/wiki/Barbarian_Barrel
+- key: poison
+  name: 毒药法术
+  name_en: Poison
+  type: spell
+  rarity: epic
+  elixir: 4
+  elixir_label: 
+  arena: 丛林竞技场
+  image: images/clashroyale/cards/poison.webp
+  summary: 强烈的药效覆盖目标区域，并对区域内的军队和建筑造成持续性伤害。为什么伤害药水法术作用过的草地依然生机勃勃绿意盎然呢？猜猜看吧。对皇家塔的伤害会大打折扣。
+  roles:
+  - 持续范围伤害
+  - 减速
+  - 区域封锁
+  detail_url: "/clashroyale/cards/poison/"
+  source_url: https://clashroyale.fandom.com/wiki/Poison
+- key: goblin-curse
+  name: 哥布林魔咒
+  name_en: Goblin Curse
+  type: spell
+  rarity: epic
+  elixir: 2
+  elixir_label: 
+  arena: 宁静圣殿
+  image: images/clashroyale/cards/goblin-curse.webp
+  summary: 使范围内敌军承受额外伤害，并将被击倒单位转化为哥布林的法术。
+  roles: []
+  detail_url: "/clashroyale/cards/goblin-curse/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Curse
+- key: rage
+  name: 狂暴法术
+  name_en: Rage
+  type: spell
+  rarity: epic
+  elixir: 2
+  elixir_label: 
+  arena: 宁静圣殿
+  image: images/clashroyale/cards/rage.webp
+  summary: 提高军队的移动速度和攻击速度，还可以让建筑的攻击速度和出兵速度加快。冲锋吧！
+  roles: []
+  detail_url: "/clashroyale/cards/rage/"
+  source_url: https://clashroyale.fandom.com/wiki/Rage
+- key: clone
+  name: 克隆法术
+  name_en: Clone
+  type: spell
+  rarity: epic
+  elixir: 3
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/clone.webp
+  summary: 克隆目标区域内的我方军队。克隆出的军队非常脆弱，但其伤害输出和同等级的本体一致！克隆法术对建筑无效。
+  roles: []
+  detail_url: "/clashroyale/cards/clone/"
+  source_url: https://clashroyale.fandom.com/wiki/Clone
+- key: tornado
+  name: 飓风法术
+  name_en: Tornado
+  type: spell
+  rarity: epic
+  elixir: 3
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/tornado.webp
+  summary: 飓风法术就像个不断旋转产生飓风旋涡的巨型磁铁，会将目标区域内的敌方军队卷至飓风中心，并对其中的敌军造成持续性伤害。
+  roles: []
+  detail_url: "/clashroyale/cards/tornado/"
+  source_url: https://clashroyale.fandom.com/wiki/Tornado
+- key: mirror
+  name: 镜像法术
+  name_en: Mirror
+  type: spell
+  rarity: epic
+  elixir: 
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/mirror.webp
+  summary: 复制您用的上一张牌，圣水花费在原卡牌的基础上+1。不会出现在初始卡牌中。
+  roles: []
+  detail_url: "/clashroyale/cards/mirror/"
+  source_url: https://clashroyale.fandom.com/wiki/Mirror
+- key: void
+  name: 虚空法术
+  name_en: Void
+  type: spell
+  rarity: epic
+  elixir: 3
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/void.webp
+  summary: 根据作用范围内目标数量改变伤害的法术，目标越集中单体伤害越高。
+  roles: []
+  detail_url: "/clashroyale/cards/void/"
+  source_url: https://clashroyale.fandom.com/wiki/Void
+- key: the-log
+  name: 滚木
+  name_en: The Log
+  type: spell
+  rarity: legendary
+  elixir: 2
+  elixir_label: 
+  arena: 电磁峡谷
+  image: images/clashroyale/cards/the-log.webp
+  summary: 低费地面法术，可以清理杂兵并提供稳定击退。
+  roles:
+  - 低费法术
+  - 击退
+  detail_url: "/clashroyale/cards/the-log/"
+  source_url: https://clashroyale.fandom.com/wiki/The_Log
+- key: graveyard
+  name: 骷髅召唤
+  name_en: Graveyard
+  type: spell
+  rarity: legendary
+  elixir: 5
+  elixir_label: 
+  arena: 惊魂小镇
+  image: images/clashroyale/cards/graveyard.webp
+  summary: 没想到吧！这是一场派对，一场可以在竞技场中任意地点举办的骷髅派对，哇哦！
+  roles: []
+  detail_url: "/clashroyale/cards/graveyard/"
+  source_url: https://clashroyale.fandom.com/wiki/Graveyard
+- key: cannon
+  name: 加农炮
+  name_en: Cannon
+  type: building
+  rarity: common
+  elixir: 3
+  elixir_label: 
+  arena: 野蛮人擂台
+  image: images/clashroyale/cards/cannon.webp
+  summary: 低费防守建筑，用于拉扯地面单位并帮助快速过牌。
+  roles:
+  - 防守建筑
+  - 拉扯
+  detail_url: "/clashroyale/cards/cannon/"
+  source_url: https://clashroyale.fandom.com/wiki/Cannon
+- key: mortar
+  name: 迫击炮
+  name_en: Mortar
+  type: building
+  rarity: common
+  elixir: 4
+  elixir_label: 
+  arena: 建筑工人工坊
+  image: images/clashroyale/cards/mortar.webp
+  summary: 射程极远的防御建筑，能发射巨石并造成范围伤害，无法攻击靠得太近的目标！
+  roles: []
+  detail_url: "/clashroyale/cards/mortar/"
+  source_url: https://clashroyale.fandom.com/wiki/Mortar
+- key: tesla
+  name: 特斯拉电磁塔
+  name_en: Tesla
+  type: building
+  rarity: common
+  elixir: 4
+  elixir_label: 
+  arena: 野猪山脉
+  image: images/clashroyale/cards/tesla.webp
+  summary: 防御建筑。不用电击敌军的时候，拥有雷电之力的特斯拉电磁塔还是藏在地底会比较安全。
+  roles: []
+  detail_url: "/clashroyale/cards/tesla/"
+  source_url: https://clashroyale.fandom.com/wiki/Tesla
+- key: goblin-cage
+  name: 哥布林牢笼
+  name_en: Goblin Cage
+  type: building
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 哥布林竞技场
+  image: images/clashroyale/cards/goblin-cage.webp
+  summary: 哥布林牢笼被摧毁后，牢笼里的哥布林硬汉会冲向竞技场！虽然这位硬汉的腿细了点，但他的拳头可硬了。
+  roles: []
+  detail_url: "/clashroyale/cards/goblin-cage/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Cage
+- key: goblin-hut
+  name: 哥布林小屋
+  name_en: Goblin Hut
+  type: building
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 哥布林竞技场
+  image: images/clashroyale/cards/goblin-hut.webp
+  summary: 这座小屋能放出哥布林投矛手。千万别往里瞧，相信我，你不会想知道他们是如何训练出来的。
+  roles: []
+  detail_url: "/clashroyale/cards/goblin-hut/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Hut
+- key: tombstone
+  name: 骷髅墓碑
+  name_en: Tombstone
+  type: building
+  rarity: rare
+  elixir: 3
+  elixir_label: 
+  arena: 骷髅墓园
+  image: images/clashroyale/cards/tombstone.webp
+  summary: 军队建筑，每隔一会儿放出骷髅兵攻击敌军。被摧毁后会产生4个骷髅兵。有点小恐怖哦！
+  roles: []
+  detail_url: "/clashroyale/cards/tombstone/"
+  source_url: https://clashroyale.fandom.com/wiki/Tombstone
+- key: bomb-tower
+  name: 炸弹塔
+  name_en: Bomb Tower
+  type: building
+  rarity: rare
+  elixir: 4
+  elixir_label: 
+  arena: 法术幽谷
+  image: images/clashroyale/cards/bomb-tower.webp
+  summary: 防御建筑，它里面住着一个炸弹兵，会对任何蠢到接近它的笨蛋造成范围伤害。
+  roles: []
+  detail_url: "/clashroyale/cards/bomb-tower/"
+  source_url: https://clashroyale.fandom.com/wiki/Bomb_Tower
+- key: inferno-tower
+  name: 地狱之塔
+  name_en: Inferno Tower
+  type: building
+  rarity: rare
+  elixir: 5
+  elixir_label: 
+  arena: 法术幽谷
+  image: images/clashroyale/cards/inferno-tower.webp
+  summary: 伤害会持续增长的防守建筑，主要应对高血量推进单位。
+  roles:
+  - 防守建筑
+  - 坦克克制
+  detail_url: "/clashroyale/cards/inferno-tower/"
+  source_url: https://clashroyale.fandom.com/wiki/Inferno_Tower
+- key: barbarian-hut
+  name: 野蛮人小屋
+  name_en: Barbarian Hut
+  type: building
+  rarity: rare
+  elixir: 6
+  elixir_label: 
+  arena: 丛林竞技场
+  image: images/clashroyale/cards/barbarian-hut.webp
+  summary: 这座小屋每隔一会儿就会放出野蛮人攻击敌军。野蛮人出征！
+  roles: []
+  detail_url: "/clashroyale/cards/barbarian-hut/"
+  source_url: https://clashroyale.fandom.com/wiki/Barbarian_Hut
+- key: elixir-collector
+  name: 圣水收集器
+  name_en: Elixir Collector
+  type: building
+  rarity: rare
+  elixir: 6
+  elixir_label: 
+  arena: 矿工矿井
+  image: images/clashroyale/cards/elixir-collector.webp
+  summary: 钱生钱，圣水生圣水。圣水收集器在场上总共可以产出8圣水，不会出现在初始卡牌中。
+  roles: []
+  detail_url: "/clashroyale/cards/elixir-collector/"
+  source_url: https://clashroyale.fandom.com/wiki/Elixir_Collector
+- key: x-bow
+  name: 十字连弩
+  name_en: X-Bow
+  type: building
+  rarity: epic
+  elixir: 6
+  elixir_label: 
+  arena: 野猪山脉
+  image: images/clashroyale/cards/x-bow.webp
+  summary: 你的皇家塔不错啊，但这把十字连弩在竞技场这边就能把它射成筛子，真是遗憾呢......
+  roles: []
+  detail_url: "/clashroyale/cards/x-bow/"
+  source_url: https://clashroyale.fandom.com/wiki/X-Bow
+- key: goblin-drill
+  name: 哥布林钻机
+  name_en: Goblin Drill
+  type: building
+  rarity: epic
+  elixir: 4
+  elixir_label: 
+  arena: 宁静圣殿
+  image: images/clashroyale/cards/goblin-drill.webp
+  summary: 建筑卡牌，在地底穿行并能从竞技场的任何位置钻出。钻机里每次会跑出一个哥布林，被摧毁时，还会再跑出几个哥布林，手持匕首捅向附近的敌人或建筑。
+  roles: []
+  detail_url: "/clashroyale/cards/goblin-drill/"
+  source_url: https://clashroyale.fandom.com/wiki/Goblin_Drill
+- key: tower-princess
+  name: 皇家塔公主
+  name_en: Tower Princess
+  type: tower_troop
+  rarity: common
+  elixir: 
+  elixir_label: 
+  arena: 训练营
+  image: images/clashroyale/cards/tower-princess.webp
+  summary: 基础皇家塔部队，能够稳定攻击空中与地面目标。
+  roles: []
+  detail_url: "/clashroyale/cards/tower-princess/"
+  source_url: https://clashroyale.fandom.com/wiki/Tower_Princess
+- key: cannoneer
+  name: 炮兵
+  name_en: Cannoneer
+  type: tower_troop
+  rarity: epic
+  elixir: 
+  elixir_label: 
+  arena: 冰封之巅
+  image: images/clashroyale/cards/cannoneer.webp
+  summary: 攻击速度较慢但单次伤害较高的皇家塔部队，擅长处理高生命值目标。
+  roles: []
+  detail_url: "/clashroyale/cards/cannoneer/"
+  source_url: https://clashroyale.fandom.com/wiki/Cannoneer
+- key: dagger-duchess
+  name: 飞刀女爵
+  name_en: Dagger Duchess
+  type: tower_troop
+  rarity: legendary
+  elixir: 
+  elixir_label: 
+  arena: 电磁峡谷
+  image: images/clashroyale/cards/dagger-duchess.webp
+  summary: 储存飞刀后可快速连续攻击的皇家塔部队，爆发后需要时间恢复。
+  roles: []
+  detail_url: "/clashroyale/cards/dagger-duchess/"
+  source_url: https://clashroyale.fandom.com/wiki/Dagger_Duchess
+- key: royal-chef
+  name: 皇家大厨
+  name_en: Royal Chef
+  type: tower_troop
+  rarity: legendary
+  elixir: 
+  elixir_label: 
+  arena: 淘气岭
+  image: images/clashroyale/cards/royal-chef.webp
+  summary: 能够周期性提升友方部队等级的皇家塔部队。
+  roles: []
+  detail_url: "/clashroyale/cards/royal-chef/"
+  source_url: https://clashroyale.fandom.com/wiki/Royal_Chef

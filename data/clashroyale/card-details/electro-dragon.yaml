@@ -1,0 +1,111 @@
+---
+release_date: '2018-11-09'
+source_retrieved_at: '2026-07-15'
+units:
+- name: 雷电飞龙
+  kind: main
+  mechanics:
+  - key: hit_speed
+    label: 攻击间隔
+    value: 2.1 秒
+  - key: first_hit_speed
+    label: 首次攻击间隔
+    value: 0.7 秒
+  - key: stun_duration
+    label: 眩晕持续时间
+    value: 0.5 秒
+  - key: speed
+    label: 移动速度
+    value: 中等 (60)
+  - key: deploy_time
+    label: 部署时间
+    value: 1 秒
+  - key: range
+    label: 攻击距离
+    value: '3.5'
+  - key: target
+    label: 攻击目标
+    value: 空中和地面
+  - key: count
+    label: 单位数量
+    value: '1'
+  - key: transport
+    label: 移动方式
+    value: 空中
+  level_stats:
+    columns:
+    - key: level
+      label: 等级
+    - key: hitpoints
+      label: 生命值
+    - key: damage
+      label: 伤害
+    - key: damage_per_second
+      label: 每秒伤害
+    rows:
+    - level: '6'
+      hitpoints: '593'
+      damage: 120 x3
+      damage_per_second: '57'
+    - level: '7'
+      hitpoints: '652'
+      damage: 132 x3
+      damage_per_second: '62'
+    - level: '8'
+      hitpoints: '716'
+      damage: 144 x3
+      damage_per_second: '68'
+    - level: '9'
+      hitpoints: '786'
+      damage: 159 x3
+      damage_per_second: '75'
+    - level: '10'
+      hitpoints: '864'
+      damage: 174 x3
+      damage_per_second: '82'
+    - level: '11'
+      hitpoints: '949'
+      damage: 192 x3
+      damage_per_second: '91'
+    - level: '12'
+      hitpoints: '1042'
+      damage: 210 x3
+      damage_per_second: '100'
+    - level: '13'
+      hitpoints: '1146'
+      damage: 231 x3
+      damage_per_second: '110'
+    - level: '14'
+      hitpoints: '1257'
+      damage: 254 x3
+      damage_per_second: '120'
+    - level: '15'
+      hitpoints: '1380'
+      damage: 279 x3
+      damage_per_second: '132'
+    - level: '16'
+      hitpoints: '1517'
+      damage: 306 x3
+      damage_per_second: '145'
+balance_history:
+- date: '2026-06-01'
+  type: buff
+  summary: 11 级生命值从 998 提高至 1049，提升 5%。
+- date: '2025-06-03'
+  type: buff
+  summary: 生命值提高约 5%。
+- date: '2025-03-31'
+  type: nerf
+  summary: 生命值降低 0.1%。
+- date: '2024-10-07'
+  type: evolution
+  summary: 雷电飞龙的觉醒形态正式上线。
+- date: '2019-11-26'
+  type: visual
+  summary: 卡牌信息页加入角色立绘。
+- date: '2018-12-03'
+  type: nerf
+  summary: 生命值降低 5%，首次攻击间隔从 0.2 秒延长至 0.7 秒。
+- date: '2018-11-09'
+  type: release
+  summary: 雷电飞龙正式加入游戏。
