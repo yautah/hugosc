@@ -11,6 +11,7 @@ LINK_RE = re.compile(r"\[(?P<text>[^\]]+)\]\((?P<href>[^)\s]+)(?:\s+\"[^\"]*\")?
 BOLD_RE = re.compile(r"\*\*(?P<text>.+?)\*\*")
 CODE_RE = re.compile(r"`(?P<text>[^`]+)`")
 ORDERED_ITEM_RE = re.compile(r"^\d+\.\s+")
+TABLE_DELIMITER_CELL_RE = re.compile(r"^:?-{3,}:?$")
 
 
 @dataclass(frozen=True)
@@ -51,25 +52,18 @@ def markdown_to_html(
 
     def flush_list() -> None:
         if list_items:
-            if html_template.name == "redream-obsidian-blue":
-                items = "•".join(f"{_inline(item, html_template)}" for item in list_items)
-                blocks.append(f"<p{_attr(html_template, 'ul')}>•{items}</p>")
-            else:
-                items = "".join(f"<li>{_inline(item, html_template)}</li>" for item in list_items)
-                blocks.append(f"<ul>{items}</ul>")
+            items = "".join(
+                f"<li{_attr(html_template, 'listitem')}>{_inline(item, html_template)}</li>" for item in list_items
+            )
+            blocks.append(f"<ul{_attr(html_template, 'ul')}>{items}</ul>")
             list_items.clear()
 
     def flush_ordered_list() -> None:
         if ordered_items:
-            if html_template.name == "redream-obsidian-blue":
-                items = "".join(
-                    f'<span{_attr(html_template, "listitem")}><span style="margin-right: 10px;">{index}.</span>{_inline(item, html_template)}</span>'
-                    for index, item in enumerate(ordered_items, start=1)
-                )
-                blocks.append(f"<p{_attr(html_template, 'ol')}>{items}</p>")
-            else:
-                items = "".join(f"<li>{_inline(item, html_template)}</li>" for item in ordered_items)
-                blocks.append(f"<ol>{items}</ol>")
+            items = "".join(
+                f"<li{_attr(html_template, 'listitem')}>{_inline(item, html_template)}</li>" for item in ordered_items
+            )
+            blocks.append(f"<ol{_attr(html_template, 'ol')}>{items}</ol>")
             ordered_items.clear()
 
     def flush_quote() -> None:
@@ -100,7 +94,10 @@ def markdown_to_html(
         flush_ordered_list()
         flush_quote()
 
-    for line in lines:
+    skip_until = -1
+    for line_index, line in enumerate(lines):
+        if line_index <= skip_until:
+            continue
         stripped = line.strip()
         if stripped.startswith("```"):
             if in_code_block:
@@ -116,6 +113,21 @@ def markdown_to_html(
         if not stripped:
             flush_all()
             continue
+        if line_index + 1 < len(lines) and _is_table_delimiter(lines[line_index + 1]):
+            header = _split_table_row(stripped)
+            if header:
+                flush_all()
+                rows: list[list[str]] = []
+                cursor = line_index + 2
+                while cursor < len(lines):
+                    row_line = lines[cursor].strip()
+                    if not row_line or "|" not in row_line:
+                        break
+                    rows.append(_split_table_row(row_line))
+                    cursor += 1
+                blocks.append(_render_table(header, rows, html_template))
+                skip_until = cursor - 1
+                continue
         if stripped in {"---", "***", "___"}:
             flush_all()
             blocks.append(f"<hr{_attr(html_template, 'hr')}>")
@@ -210,9 +222,12 @@ def get_template(name: str, *, unwrap_links: bool, image_style: str) -> HtmlTemp
             "image": {"border-radius": "4px", "display": "block", "margin": "0.1em auto 0.5em", "width": "100% !important", "height": "auto"},
             "figcaption": {**base, "text-align": "center", "color": "#888", "font-size": "0.8em"},
             "hr": {"border-style": "solid", "border-width": "1px 0 0", "border-color": "rgba(0,0,0,0.1)", "transform-origin": "0 0", "transform": "scale(1, 0.5)"},
-            "ul": {**base, "margin-left": "0", "padding-left": "1em", "list-style": "circle", "color": text},
-            "ol": {**base, "margin-left": "0", "padding-left": "1em", "color": text},
-            "listitem": {**base, "text-indent": "-1em", "display": "block", "margin": "0.2em 8px", "color": text},
+            "ul": {**base, "margin": "1.5em 8px", "padding-left": "1.5em", "list-style-type": "disc", "color": text},
+            "ol": {**base, "margin": "1.5em 8px", "padding-left": "1.5em", "color": text},
+            "listitem": {**base, "display": "list-item", "margin": "0.4em 0", "color": text},
+            "table": {**base, "width": "100%", "table-layout": "fixed", "border-collapse": "collapse", "margin": "1.5em 0", "font-size": "14px", "color": text},
+            "th": {**base, "padding": "8px 6px", "border": "1px solid #d9d9d9", "background": "#f3f6f8", "font-size": "14px", "font-weight": "bold", "text-align": "left", "vertical-align": "top", "word-break": "break-word", "color": text},
+            "td": {**base, "padding": "8px 6px", "border": "1px solid #d9d9d9", "font-size": "14px", "text-align": "left", "vertical-align": "top", "word-break": "break-word", "color": text},
             "code_pre": {"font-size": "14px", "overflow-x": "auto", "border-radius": "8px", "padding": "1em", "line-height": "1.5", "margin": "10px 8px", "background": "#282c34", "color": "#abb2bf"},
             "code": {"margin": "0", "white-space": "nowrap", "font-family": "Menlo, Operator Mono, Consolas, Monaco, monospace"},
             "codespan": {**base, "font-size": "90%", "white-space": "pre", "color": "#d14", "background": "rgba(27,31,35,.05)", "padding": "3px 5px", "border-radius": "4px"},
@@ -240,6 +255,32 @@ def _image_block(text: str, template: HtmlTemplate) -> str | None:
     escaped_alt = html.escape(alt, quote=True)
     caption = f"<figcaption{_attr(template, 'figcaption')}>{escaped_alt}</figcaption>" if escaped_alt else ""
     return f'<figure{_attr(template, "figure")}><img referrerpolicy="same-origin"{_attr(template, "image")} src="{escaped_src}" title="{escaped_alt}" alt="{escaped_alt}"/>{caption}</figure>'
+
+
+def _split_table_row(line: str) -> list[str]:
+    row = line.strip()
+    if row.startswith("|"):
+        row = row[1:]
+    if row.endswith("|") and not row.endswith(r"\|"):
+        row = row[:-1]
+    return [cell.strip().replace(r"\|", "|") for cell in re.split(r"(?<!\\)\|", row)]
+
+
+def _is_table_delimiter(line: str) -> bool:
+    cells = _split_table_row(line)
+    return bool(cells) and all(TABLE_DELIMITER_CELL_RE.fullmatch(cell) for cell in cells)
+
+
+def _render_table(header: list[str], rows: list[list[str]], template: HtmlTemplate) -> str:
+    column_count = len(header)
+
+    def cells(values: list[str], tag: str) -> str:
+        normalized = (values + [""] * column_count)[:column_count]
+        return "".join(f"<{tag}{_attr(template, tag)}>{_inline(value, template)}</{tag}>" for value in normalized)
+
+    head = f"<thead><tr>{cells(header, 'th')}</tr></thead>"
+    body = "".join(f"<tr>{cells(row, 'td')}</tr>" for row in rows)
+    return f"<table{_attr(template, 'table')}>{head}<tbody>{body}</tbody></table>"
 
 
 def _style_attr(template: HtmlTemplate, key: str) -> str:

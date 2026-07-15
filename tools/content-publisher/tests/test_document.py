@@ -248,6 +248,32 @@ wechat:
         self.assertIn("<figcaption", html)
         self.assertIn("<strong", html)
 
+    def test_redream_obsidian_blue_template_renders_unordered_list_elements(self):
+        html = markdown_to_html(
+            "- 第一项\n- 第二项\n",
+            template="redream-obsidian-blue",
+        )
+
+        self.assertIn("<ul", html)
+        self.assertIn("<li", html)
+        self.assertIn("list-style-type:disc", html)
+        self.assertNotIn("•", html)
+        self.assertNotIn("- 第一项", html)
+
+    def test_redream_obsidian_blue_template_renders_markdown_table(self):
+        html = markdown_to_html(
+            "| 时间 | 阶段 | 说明 |\n|---|---|---|\n| 2026 年 8 月 | Beta | 新一轮测试 |\n",
+            template="redream-obsidian-blue",
+        )
+
+        self.assertIn("<table", html)
+        self.assertIn("<thead>", html)
+        self.assertIn("<tbody>", html)
+        self.assertIn("<th", html)
+        self.assertIn("<td", html)
+        self.assertIn("border-collapse:collapse", html)
+        self.assertNotIn("|---|", html)
+
 
 if __name__ == "__main__":
     unittest.main()
