@@ -47,12 +47,25 @@
   {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .Site.Title "item" .Site.BaseURL) -}}
   {{- range .Ancestors.Reverse }}
     {{- if ne .Kind "home" }}
-      {{- $position = add $position 1 -}}
-      {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .LinkTitle "item" .Permalink) -}}
+      {{- $crumbName := default .Title .LinkTitle -}}
+      {{- if eq .Kind "taxonomy" -}}
+        {{- if eq .Type "tags" -}}
+          {{- $crumbName = "标签" -}}
+        {{- else if eq .Type "categories" -}}
+          {{- $crumbName = "分类" -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $crumbURL := .Permalink -}}
+      {{- with $crumbName -}}
+        {{- $position = add $position 1 -}}
+        {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" . "item" $crumbURL) -}}
+      {{- end -}}
     {{- end }}
   {{- end }}
+  {{- $currentName := default .Title .LinkTitle -}}
+  {{- $currentName = default "当前页面" $currentName -}}
   {{- $position = add $position 1 -}}
-  {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .LinkTitle "item" .Permalink) -}}
+  {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" $currentName "item" .Permalink) -}}
   {{- $breadcrumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $breadcrumbItems -}}
   <script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
 {{- end }}
