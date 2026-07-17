@@ -134,10 +134,9 @@ wechat:
             article_path = Path(temp_dir) / "content" / "posts" / "index.md"
             assets_image_dir = Path(temp_dir) / "assets" / "images"
 
-            self.assertEqual(
-                resolve_cover_image_path("/images/2026/cover.png", article_path, assets_image_dir),
-                (assets_image_dir / "2026" / "cover.png").resolve(),
-            )
+            expected = (assets_image_dir / "2026" / "cover.png").resolve()
+            self.assertEqual(resolve_cover_image_path("/images/2026/cover.png", article_path, assets_image_dir), expected)
+            self.assertEqual(resolve_cover_image_path("images/2026/cover.png", article_path, assets_image_dir), expected)
 
     def test_body_images_resolve_relative_to_article_directory(self):
         with TemporaryDirectory() as temp_dir:

@@ -40,8 +40,9 @@ def resolve_image_path(src: str, article_path: Path) -> Path:
 
 
 def resolve_cover_image_path(src: str, article_path: Path, assets_image_dir: Path) -> Path:
-    if src.startswith("/images/"):
-        return (assets_image_dir / src.removeprefix("/images/")).resolve()
+    site_image_src = src.removeprefix("/")
+    if site_image_src.startswith("images/"):
+        return (assets_image_dir / site_image_src.removeprefix("images/")).resolve()
     return resolve_image_path(src, article_path)
 
 

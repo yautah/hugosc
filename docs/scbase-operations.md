@@ -182,15 +182,57 @@ assets/images/rewards/
 - `verified_at`：最后一次人工确认日期。
 - `expires_at`：已知截止日期时填写，否则留空。
 
-更新奖励时：
+### 奖励同步工作流
 
-1. 核验领取链接仍然有效。
-2. 下载并保存本地 WebP 图片。
-3. 使用简洁且不包含第三方站点名称的文件名。
-4. 更新 `data/rewards.yaml` 中的奖励记录。
-5. 更新 `source.synced_at`。
-6. 将失效奖励设为 `expired`，不要直接删除历史记录。
-7. 执行 Hugo 构建并检查三个游戏标签后的数量。
+当前可使用 [ClashLoot](https://clashloot.com/) 及其皇室战争、荒野乱斗、部落冲突列表作为奖励发现和状态对比来源。第三方列表只用于发现线索；最终必须检查奖励详情及官方领取地址，`redeem_url` 不能填写第三方详情页。
+
+同步遵循“差异更新”，不要用来源站内容全量覆盖站内数据：
+
+- 来源站与 SCBase 都存在的奖励，保留 SCBase 已校验的中文标题、类型、图片和说明，只复核领取状态与链接。
+- 来源站新增的奖励，新增 YAML 记录并下载对应图片。
+- 来源站已经移除或明确失效的奖励，将 `status` 改为 `expired`，保留历史记录和图片。
+- 对状态存疑、领取条件不明确或官方链接无法核验的奖励，不直接标记为有效。
+
+每次同步按以下顺序执行：
+
+1. 分别检查皇室战争、荒野乱斗和部落冲突的当前奖励列表，不要只检查站点首页。
+2. 以奖励 ID、官方领取链接和奖励内容联合比对 `data/rewards.yaml`，列出新增、仍有效、失效和待复核四组。
+3. 对既有奖励只更新 `status`、`verified_at`、`expires_at` 或确有变化的官方领取链接，不覆盖人工校验过的标题和图片。
+4. 为新增奖励分配稳定且唯一的 ID：皇室战争使用 `cr-*`，荒野乱斗使用 `bs-*`，部落冲突使用 `coc-*`。
+5. 下载新增奖励的原图并转换为 WebP，分别保存到对应游戏目录。文件名直接使用奖励 ID，例如 `cr-324.webp`，不得包含第三方站点名称。
+6. 在新增记录的 `image` 中填写 Hugo 资源路径，例如 `images/rewards/clashroyale/cr-324.webp`；文件实际位置应为 `assets/images/rewards/clashroyale/cr-324.webp`。
+7. 检查 `type` 和 `type_label` 是否符合实际内容，例如卡牌不要标成宝箱、战旗不要写成旗帜。
+8. 将确认失效的记录改为 `expired`，不要删除 YAML 记录，也不要立即删除历史图片。
+9. 将 `source.synced_at` 和本次核验过的 `verified_at` 更新为当天日期。
+10. 执行 Hugo 构建，在 `/rewards/` 下逐一切换三个游戏标签，核对数量、标题、图片和领取按钮。
+
+### 图片与 Git 检查
+
+Hugo 使用 `resources.Get` 从 `assets/` 读取奖励图片。图片不存在时页面不会中断构建，而会回退到对应游戏图标，因此“本地正常、线上显示游戏图标”通常意味着新增图片没有进入 Git。
+
+提交前必须同时检查数据和图片：
+
+```bash
+git status --short -- data/rewards.yaml assets/images/rewards/
+hugo --gc --minify
+git diff --check
+git diff --cached --check
+```
+
+精确暂存本次变更，避免遗漏图片：
+
+```bash
+git add -- data/rewards.yaml assets/images/rewards/
+git diff --cached --stat
+```
+
+该命令只暂存奖励数据和奖励图片，不会带入文章或其他页面改动。暂存后，新增图片应在 `git status` 中显示为 `A`，不能保持 `??`。提交后再用以下命令确认新增资源已经被 Git 跟踪：
+
+```bash
+git ls-files -- assets/images/rewards/
+```
+
+上线后至少抽查所有新增奖励，并确认页面展示的是奖励实图而不是皇室战争盾牌、荒野乱斗骷髅或部落冲突盾牌等回退图标。
 
 奖励标签数量由模板自动统计，`expired` 不计入数量，也不会显示在列表中。
 
@@ -346,3 +388,11 @@ git status --short
 - 检查奖励是否被标记为 `expired`。
 - 检查 YAML 缩进和列表结构。
 - 执行 Hugo 构建后重新查看生成页面。
+
+### 奖励图片显示为游戏图标
+
+- 检查 YAML 中的 `image` 是否以 `images/rewards/` 开头，并与 `assets/images/rewards/` 下的实际文件名完全一致。
+- 检查扩展名和大小写，避免 YAML 写 `.webp`、实际文件仍是 `.png`。
+- 执行 `git status --short -- assets/images/rewards/`，确认新图片不是未跟踪的 `??` 状态。
+- 执行 `git ls-files -- assets/images/rewards/`，确认图片已经进入仓库索引。
+- 重新执行 Hugo 构建；如果本地正常而线上仍是回退图标，检查包含图片的提交是否已经推送并完成部署。

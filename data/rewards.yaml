@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-16"
+  synced_at: "2026-07-17"
 
 items:
+  - id: cr-324
+    game: clashroyale
+    title: "浪人表情（每周奖励）"
+    original_title: "x1 Ronin emote (weekly reward)"
+    type: cosmetic
+    type_label: "表情"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz"
+    image: "images/rewards/clashroyale/cr-324.webp"
+    status: active
+    verified_at: "2026-07-17"
+    expires_at: ""
   - id: cr-310
     game: clashroyale
     title: "2 张浪人传奇卡"
@@ -31,7 +43,7 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz"
     image: "images/rewards/clashroyale/cr-310.webp"
-    status: active
+    status: expired
     verified_at: "2026-07-14"
     expires_at: ""
   - id: cr-289
@@ -238,6 +250,54 @@ items:
     status: active
     verified_at: "2026-07-14"
     expires_at: ""
+  - id: bs-326
+    game: brawlstars
+    title: "2 个纳米宝箱（每周）"
+    original_title: "x2 Nano Box (Weekly)"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-326.webp"
+    status: active
+    verified_at: "2026-07-17"
+    expires_at: ""
+  - id: bs-325
+    game: brawlstars
+    title: "2 个纳米宝箱（每日）"
+    original_title: "x2 Nano Box (Daily)"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-325.webp"
+    status: active
+    verified_at: "2026-07-17"
+    expires_at: ""
+  - id: bs-322
+    game: brawlstars
+    title: "1 个诺里宝箱"
+    original_title: "x1 Nori Box"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: direct_link
+    redeem_url: "https://link.brawlstars.com/voucher/619907d1-6819-47b1-8563-277d162e0323"
+    image: "images/rewards/brawlstars/bs-322.webp"
+    status: active
+    verified_at: "2026-07-17"
+    expires_at: ""
+  - id: bs-321
+    game: brawlstars
+    title: "75 点战力能量（每日）"
+    original_title: "x75 Power Points"
+    type: resource
+    type_label: "战力能量"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-321.webp"
+    status: active
+    verified_at: "2026-07-17"
+    expires_at: ""
   - id: bs-319
     game: brawlstars
     title: "150 闪闪币（每日）"
@@ -247,7 +307,7 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-319.webp"
-    status: active
+    status: expired
     verified_at: "2026-07-14"
     expires_at: ""
   - id: bs-312
@@ -535,7 +595,7 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashofclans"
     image: "images/rewards/clashofclans/coc-307.webp"
-    status: active
+    status: expired
     verified_at: "2026-07-14"
     expires_at: ""
   - id: coc-14
