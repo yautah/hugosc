@@ -32,11 +32,11 @@ wechat:
 draft: false
 faq:
   - question: mo.co 第三赛季新增了哪些武器？
-    answer: 第三赛季主要新增三把武器：Blood Sucker、Fancy Wrench 和 Hornbow。本文中暂译为嗜血者、华丽扳手和号角弓。
-  - question: Blood Sucker 适合什么玩家？
-    answer: Blood Sucker 是近战范围输出武器，技能带有自伤和回血机制，更适合喜欢贴脸输出、能控制血量和走位的玩家。
-  - question: Fancy Wrench 和 Hornbow 哪个更适合先解锁？
-    answer: Fancy Wrench 更偏炮台和单体输出，适合喜欢稳定打 Boss 或裂谷的玩家；Hornbow 更偏中距离输出和技能充能，操作节奏会更灵活。
+    answer: 第三赛季主要新增三把武器：嗜血者、炫酷扳手和兽角弩。
+  - question: 嗜血者适合什么玩家？
+    answer: 嗜血者是近战范围输出武器，技能带有自伤和回血机制，更适合喜欢贴脸输出、能控制血量和走位的玩家。
+  - question: 炫酷扳手和兽角弩哪个更适合先解锁？
+    answer: 炫酷扳手更偏炮台和单体输出，适合喜欢稳定打 Boss 或裂谷的玩家；兽角弩更偏中距离输出和技能充能，操作节奏会更灵活。
 ---
 新版本 mo.co 第三赛季终于来了。
 
