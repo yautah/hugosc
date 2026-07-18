@@ -24,7 +24,7 @@ keywords:
   - 皇室战争安卓安装
   - XAPK
 related:
-  - /posts/clashroyale/03-18_how_to_play_global_clash_royale
+  - /posts/clashroyale/2025-03-17/how-to-play-global-clash-royale
 faq:
   - question: XAPK 为什么不能像 APK 一样直接安装？
     answer: XAPK 通常同时包含主程序和其他资源包，本质上是组合安装包，需要支持 XAPK 的安装器解析并安装其中的各个部分。

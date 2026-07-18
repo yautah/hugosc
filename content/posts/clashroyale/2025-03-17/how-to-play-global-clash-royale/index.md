@@ -24,7 +24,7 @@ keywords:
   - 皇室战争苹果安装
   - Clash Royale
 related:
-  - /posts/clashroyale/03-18_how_to_install_clashroyale_android
+  - /posts/clashroyale/2025-03-17/how-to-install-clashroyale-android
 faq:
   - question: 皇室战争国际服和国服可以同时安装吗？
     answer: 可以。两个版本能够同时保留在设备上，但更新时需要登录各自对应地区的 Apple ID。
