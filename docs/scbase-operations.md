@@ -362,7 +362,37 @@ git status --short
 6. 桌面端和移动端是否存在横向溢出。
 7. 浏览器控制台是否出现资源加载错误。
 
-## 10. 常见问题
+## 10. 百度主动提交
+
+未备案站点当前不能在百度搜索资源平台使用 Sitemap 提交入口。`static/robots.txt` 中仍保留 Sitemap 声明，供支持它的搜索引擎和爬虫发现；百度的主动收录以普通收录 API 为准。
+
+仓库提供 `tools/submit-baidu-urls.rb`，默认从线上 `https://scbase.cn/sitemap.xml` 提取本站 URL。先检查待提交内容：
+
+```bash
+npm run submit:baidu -- --dry-run --limit 20
+```
+
+正式提交时，从百度搜索资源平台复制接口 token，通过环境变量传入：
+
+```bash
+BAIDU_PUSH_TOKEN='重新生成的 token' npm run submit:baidu -- --limit 20
+```
+
+也可以只提交本次新增或更新的 URL，文本文件必须每行一个完整 URL：
+
+```bash
+BAIDU_PUSH_TOKEN='重新生成的 token' npm run submit:baidu -- --file urls.txt
+```
+
+注意事项：
+
+- token 等同提交凭证，不得写入脚本、文档、提交记录或截图；发生泄露后立即在百度侧重新生成。
+- 普通收录有每日配额，日常更新优先使用 `--file` 提交新增或实质修改的页面，不要每次全量提交 Sitemap。
+- API 返回的 `success` 是百度接受的 URL 数量，不代表页面一定会被收录。
+- 提交前确认 URL 使用唯一主域 `https://scbase.cn`，不要提交 `www.scbase.cn`。
+- 百度控制台示例中的 `site=https://scbase.cn` 会触发 `400 site init fail`；脚本会自动将 API 参数规范化为纯域名 `site=scbase.cn`，正文 URL 仍保持完整的 HTTPS 地址。
+
+## 11. 常见问题
 
 ### 首页顺序和预期不一致
 

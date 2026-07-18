@@ -4,6 +4,7 @@
   "scripts": {
     "audit:clash-cards": "ruby tools/audit-clash-card-workflow.rb",
     "discover:clash-card-variants": "ruby tools/discover-clash-card-variants.rb",
+    "submit:baidu": "ruby tools/submit-baidu-urls.rb",
     "validate:clash-data": "ruby tools/validate-clash-data.rb"
   },
   "dependencies": {
