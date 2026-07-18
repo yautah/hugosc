@@ -44,7 +44,7 @@ items:
     redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz"
     image: "images/rewards/clashroyale/cr-310.webp"
     status: expired
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-289
     game: clashroyale
@@ -56,7 +56,7 @@ items:
     redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz"
     image: "images/rewards/clashroyale/cr-289.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-270
     game: clashroyale
@@ -68,7 +68,7 @@ items:
     redeem_url: "https://link.clashroyale.com/?action=voucher&code=819f7582-9242-444a-a6bf-9ea3efa913e3"
     image: "images/rewards/clashroyale/cr-270.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-255
     game: clashroyale
@@ -80,7 +80,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=af8747d0-12e1-4c54-8ce1-98f2f1a86f45"
     image: "images/rewards/clashroyale/cr-255.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-166
     game: clashroyale
@@ -92,7 +92,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=ade6dc82-6909-4b22-a50d-8a7b39afe21d"
     image: "images/rewards/clashroyale/cr-166.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-157
     game: clashroyale
@@ -104,7 +104,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=f49b8488-8068-4b1a-8f9f-57e1517f2f5a"
     image: "images/rewards/clashroyale/cr-157.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-156
     game: clashroyale
@@ -116,7 +116,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=856a823c-c920-42f5-993a-c68d75ab02c7"
     image: "images/rewards/clashroyale/cr-156.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-144
     game: clashroyale
@@ -176,7 +176,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=f9a8c8fa-8844-4e3d-99df-8c01de1d8862"
     image: "images/rewards/clashroyale/cr-97.webp"
     status: active
-    verified_at: "2026-07-16"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-74
     game: clashroyale
@@ -188,7 +188,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=6884f0e3-367c-4449-93ef-fb4e17ac55a1"
     image: "images/rewards/clashroyale/cr-74.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-36
     game: clashroyale
@@ -200,7 +200,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=94158c89-9f24-4d8c-8694-76eb087caef2"
     image: "images/rewards/clashroyale/cr-36.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-35
     game: clashroyale
@@ -212,7 +212,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=bf578c2b-bc44-4312-8c61-5e513b6fb817"
     image: "images/rewards/clashroyale/cr-35.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-34
     game: clashroyale
@@ -224,7 +224,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=80486871-5620-4237-83fb-42174ddc8a83"
     image: "images/rewards/clashroyale/cr-34.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-32
     game: clashroyale
@@ -236,7 +236,7 @@ items:
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=2c13ee10-68de-4cc6-940e-57cfb9aebb0c"
     image: "images/rewards/clashroyale/cr-32.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: cr-8
     game: clashroyale
@@ -248,7 +248,7 @@ items:
     redeem_url: "https://store.supercell.com/en/clashroyale?boost=tryaz&storeCode=FIREANDICE!%21"
     image: "images/rewards/clashroyale/cr-8.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-326
     game: brawlstars
@@ -308,7 +308,7 @@ items:
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-319.webp"
     status: expired
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-312
     game: brawlstars
@@ -320,7 +320,7 @@ items:
     redeem_url: "https://store.supercell.com/fr/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-312.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-292
     game: brawlstars
@@ -332,7 +332,7 @@ items:
     redeem_url: "https://store.supercell.com/brawlstars/product/gems/43c54f43?boost=periado"
     image: "images/rewards/brawlstars/bs-292.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-277
     game: brawlstars
@@ -344,7 +344,7 @@ items:
     redeem_url: "https://link.brawlstars.com/voucher/7bae5a2d-2afa-4e58-8f9b-dab2d987834c/"
     image: "images/rewards/brawlstars/bs-277.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-154
     game: brawlstars
@@ -356,7 +356,7 @@ items:
     redeem_url: "https://link.brawlstars.com/en/voucher/6bb96c6a-bb06-4b06-aae8-4de28c39474d"
     image: "images/rewards/brawlstars/bs-154.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-153
     game: brawlstars
@@ -368,7 +368,7 @@ items:
     redeem_url: "https://link.brawlstars.com/en/voucher/24321637-3978-4f14-a258-a1a713d17213"
     image: "images/rewards/brawlstars/bs-153.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-151
     game: brawlstars
@@ -380,7 +380,7 @@ items:
     redeem_url: "https://link.brawlstars.com/en/voucher/963326be-8393-492e-91ea-b19325ffb088"
     image: "images/rewards/brawlstars/bs-151.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-150
     game: brawlstars
@@ -392,7 +392,7 @@ items:
     redeem_url: "https://link.brawlstars.com/en/voucher/fad039a8-4850-4a09-b1dd-f673afec5aa7/"
     image: "images/rewards/brawlstars/bs-150.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-149
     game: brawlstars
@@ -404,7 +404,7 @@ items:
     redeem_url: "https://link.brawlstars.com/en/voucher/963326be-8393-492e-91ea-b19325ffb088"
     image: "images/rewards/brawlstars/bs-149.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-72
     game: brawlstars
@@ -416,7 +416,7 @@ items:
     redeem_url: "https://link.brawlstars.com/en/voucher/da19cd17-68af-4ed9-8671-b974a3a73356/"
     image: "images/rewards/brawlstars/bs-72.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-42
     game: brawlstars
@@ -428,7 +428,7 @@ items:
     redeem_url: "https://link.brawlstars.com/en/voucher/e4a3bb44-95fd-48d1-9fe6-378619bf2eb9/"
     image: "images/rewards/brawlstars/bs-42.webp"
     status: active
-    verified_at: "2026-07-14"
+    verified_at: "2026-07-17"
     expires_at: ""
   - id: bs-41
     game: brawlstars
