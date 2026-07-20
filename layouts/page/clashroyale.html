@@ -10,13 +10,13 @@
 {{- $posts := where .Site.RegularPages "Section" "posts" -}}
 {{- $crPosts := where $posts "Params.categories" "intersect" (slice "皇室战争") -}}
 
-<div class="sc-channel-page sc-channel-clashroyale">
+<div class="sc-channel-page sc-channel-clashroyale sc-channel-editorial">
 <section class="sc-home-hero">
   <div class="sc-hero-grid">
     <div>
       <h1 class="sc-hero-title">皇室战争攻略中心</h1>
       <p class="sc-hero-lead">
-        聚合皇室战争卡组推荐、版本更新、活动挑战、新卡解析和长期指南。这里会优先沉淀能反复查阅的攻略内容，而不是只做短期资讯列表。
+        查找当前版本的热门卡组、卡牌数据、活动攻略和版本变化，快速解决组卡、对局与奖励领取中的常见问题。
       </p>
       <div class="sc-actions">
         <a class="sc-button sc-button-primary" href="/posts/clashroyale/">最新文章</a>
@@ -51,26 +51,26 @@
   </div>
 </section>
 
-<section class="sc-section">
+<section class="sc-section sc-section-focus">
   <div class="sc-section-head">
     <div>
       <h2 class="sc-section-title">当前重点</h2>
-      <p class="sc-section-desc">优先展示最近仍有参考价值的皇室战争内容。</p>
+      <p class="sc-section-desc">了解近期版本变化、活动奖励与值得关注的实战攻略。</p>
     </div>
   </div>
 
   <div class="sc-latest-grid">
-    {{ range first 3 $crPosts }}
+    {{ range first 5 $crPosts }}
       {{- partial "content/card.html" . -}}
     {{ end }}
   </div>
 </section>
 
-<section class="sc-section">
+<section class="sc-section sc-section-guides">
   <div class="sc-section-head">
     <div>
       <h2 class="sc-section-title">精选长期攻略</h2>
-      <p class="sc-section-desc">这些文章更适合作为栏目核心内容长期保留。</p>
+      <p class="sc-section-desc">从组卡基础到挑战玩法，系统掌握可以反复使用的对战思路。</p>
     </div>
   </div>
 
@@ -117,41 +117,15 @@
       </div>
     </article>
   </div>
+  <div class="sc-guide-dots" data-guide-dots aria-label="精选长期攻略分页"></div>
 </section>
 
-<section class="sc-section">
-  <div class="sc-section-head">
-    <div>
-      <h2 class="sc-section-title">按主题浏览</h2>
-    </div>
-  </div>
-
-  <div class="sc-entry-grid">
-    <a class="sc-entry-card" href="/tags/皇室战争卡组/">
-      <h3>皇室战争卡组</h3>
-      <p>版本卡组、推荐卡组和玩法思路。</p>
-    </a>
-    <a class="sc-entry-card" href="/tags/皇室战争更新/">
-      <h3>皇室战争更新</h3>
-      <p>版本更新、赛季变化和系统改动。</p>
-    </a>
-    <a class="sc-entry-card" href="/tags/卡牌觉醒/">
-      <h3>卡牌觉醒</h3>
-      <p>觉醒卡牌、强度变化和实战影响。</p>
-    </a>
-    <a class="sc-entry-card" href="/tags/平衡性调整/">
-      <h3>平衡性调整</h3>
-      <p>平衡预案、实装变化和环境判断。</p>
-    </a>
-  </div>
-</section>
-
-<section class="sc-section">
+<section class="sc-section sc-section-latest">
   <div class="sc-section-head">
     <div>
       <h2 class="sc-section-title">最新皇室战争文章</h2>
     </div>
-    <a class="sc-button sc-button-secondary" href="/posts/clashroyale/">全部皇室战争文章</a>
+    <a class="sc-button sc-button-secondary" href="/posts/clashroyale/">全部文章</a>
   </div>
 
   <div class="sc-latest-grid">
@@ -161,5 +135,9 @@
   </div>
 </section>
 </div>
+
+{{ with resources.Get "js/scbase-channel.js" | minify | fingerprint }}
+  <script src="{{ .RelPermalink }}" defer></script>
+{{ end }}
 
 {{ end }}

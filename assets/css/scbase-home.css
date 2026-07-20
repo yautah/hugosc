@@ -243,11 +243,6 @@
   --hp-card-soft: var(--sc-game-clash-soft);
 }
 
-.hp-tool-card-squad {
-  --hp-card-accent: var(--sc-game-squad);
-  --hp-card-soft: var(--sc-game-squad-soft);
-}
-
 .hp-tool-icon,
 .hp-channel-icon {
   display: flex;
@@ -291,11 +286,6 @@
 .hp-icon-moco {
   --hp-icon-accent: var(--sc-game-moco);
   --hp-icon-soft: var(--sc-game-moco-soft);
-}
-
-.hp-icon-squad {
-  --hp-icon-accent: var(--sc-game-squad);
-  --hp-icon-soft: var(--sc-game-squad-soft);
 }
 
 .hp-tool-card strong {
