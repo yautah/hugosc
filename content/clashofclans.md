@@ -7,7 +7,8 @@ layout: game-channel
 game_key: clashofclans
 channel_kicker: Clash of Clans
 hero_title: 部落冲突资料中心
-hero_lead: 聚合部落冲突版本更新、活动资讯、官方内容和适合长期查阅的玩家实用资料。
+hero_lead: 查找部落冲突版本更新、赛季活动、兵种调整和实用资料，及时了解村庄发展的重要变化。
+focus_description: 了解近期版本变化、赛季活动与值得关注的村庄发展内容。
 posts_url: /posts/clashofclans/
 game_categories:
   - 部落冲突

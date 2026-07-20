@@ -16,7 +16,7 @@
 {{- end -}}
 {{- $allPostsURL := default "/posts/" .Params.posts_url -}}
 
-<div class="sc-channel-page sc-channel-{{ .Params.game_key }}">
+<div class="sc-channel-page sc-channel-{{ .Params.game_key }} sc-channel-editorial">
 <section class="sc-home-hero">
   <div class="sc-hero-grid">
     <div>
@@ -42,7 +42,7 @@
   </div>
 </section>
 
-<section class="sc-section">
+<section class="sc-section sc-section-focus">
   <div class="sc-section-head">
     <div>
       <h2 class="sc-section-title">当前重点</h2>
@@ -51,35 +51,18 @@
   </div>
 
   <div class="sc-latest-grid">
-    {{ range first 3 $gamePosts }}
+    {{ range first 5 $gamePosts }}
       {{- partial "content/card.html" . -}}
     {{ end }}
   </div>
 </section>
 
-<section class="sc-section">
-  <div class="sc-section-head">
-    <div>
-      <h2 class="sc-section-title">按主题浏览</h2>
-    </div>
-  </div>
-
-  <div class="sc-entry-grid">
-    {{ range .Params.channel_browse }}
-      <a class="sc-entry-card" href="{{ .url }}">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description }}</p>
-      </a>
-    {{ end }}
-  </div>
-</section>
-
-<section class="sc-section">
+<section class="sc-section sc-section-latest">
   <div class="sc-section-head">
     <div>
       <h2 class="sc-section-title">最新{{ .Title }}文章</h2>
     </div>
-    <a class="sc-button sc-button-secondary" href="{{ $allPostsURL }}">全部{{ .Title }}文章</a>
+    <a class="sc-button sc-button-secondary" href="{{ $allPostsURL }}">全部文章</a>
   </div>
 
   <div class="sc-latest-grid">

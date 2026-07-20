@@ -7,7 +7,8 @@ layout: game-channel
 game_key: moco
 channel_kicker: Mo.Co
 hero_title: Mo.Co 观察站
-hero_lead: 聚合 Mo.Co 更新观察、官方资讯、测试节奏和玩家入坑相关内容，先沉淀游戏早期最容易被反复查询的信息。
+hero_lead: 查找 Mo.Co 版本变化、官方动态、武器调整和入坑信息，及时掌握狩猎世界的新内容。
+focus_description: 了解近期版本变化、武器调整与值得关注的狩猎内容。
 posts_url: /posts/moco/
 game_categories:
   - moco

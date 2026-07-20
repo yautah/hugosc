@@ -7,7 +7,8 @@ layout: game-channel
 game_key: brawlstars
 channel_kicker: Brawl Stars
 hero_title: 荒野乱斗资料中心
-hero_lead: 聚合荒野乱斗版本更新、活动资讯、英雄调整、赛事信息和适合中文玩家查阅的实用内容。
+hero_lead: 查找荒野乱斗版本变化、活动奖励、英雄调整和赛事资讯，快速了解当前赛季值得关注的内容。
+focus_description: 了解近期版本变化、限时活动与可能影响实战体验的英雄调整。
 posts_url: /posts/brawlstars/
 game_categories:
   - 荒野乱斗
