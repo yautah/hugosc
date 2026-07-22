@@ -11,6 +11,7 @@ keywords:
   - 皇室奇兵
   - 更新预告
   - 皇室战争
+noindex: true
 draft: false
 tags:
   - 资讯

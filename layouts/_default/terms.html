@@ -29,10 +29,13 @@
 
   <section class="sc-term-grid">
     {{- range .Pages.ByTitle -}}
-      <a class="sc-term-card" href="{{ .RelPermalink }}">
-        <h2>{{ .LinkTitle | humanize }}</h2>
-        <p>{{ len .Pages }} 篇内容</p>
-      </a>
+      {{- $pages := where .Pages "Params.noindex" "ne" true -}}
+      {{- if gt (len $pages) 0 -}}
+        <a class="sc-term-card" href="{{ .RelPermalink }}">
+          <h2>{{ .LinkTitle | humanize }}</h2>
+          <p>{{ len $pages }} 篇内容</p>
+        </a>
+      {{- end -}}
     {{- end -}}
   </section>
 </div>

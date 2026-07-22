@@ -12,6 +12,8 @@ keywords:
   - 皇室战争
   - 卡牌觉醒
   - 觉醒熔炉
+noindex: true
+headless: true
 draft: false
 ---
 
@@ -63,4 +65,3 @@ draft: false
 那么问题来了：你觉得这次的觉醒剧透，更可能是哪一种？
 
 你支持机械熔炉，还是隐藏觉醒新卡？
-

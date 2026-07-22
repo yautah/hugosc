@@ -4,6 +4,8 @@ image: /images/2025/maxresdefault.jpg
 description: 全新极限充能系统正式上线！两个新英雄「鳄梨」「桩」加入乱斗，更新包含全新模式、新皮肤、荣誉之路重做等海量内容。
 date: 2025-06-21T23:37:29+08:00
 slug: brawl-talk-june-2025
+aliases:
+  - /posts/brawlstars/2025/06/brawl-stars-june-2025-brawl-talk-preview/
 keywords:
   - 荒野乱斗
   - 极限充能

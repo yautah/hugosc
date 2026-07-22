@@ -20,13 +20,17 @@
         {{- end }}
 
         <div id="writer" class="sc-article-byline">
-          {{- $name := default "超级细胞营地" .Site.Author.name -}}
-          {{- with $avatar := resources.Get .Site.Author.avatar }}
+          {{- $name := default "超级细胞营地" .Site.Params.authorName -}}
+          {{- with $avatar := resources.Get .Site.Params.authorAvatar }}
             <img class="sc-article-avatar" src="{{ $avatar.Permalink }}" alt="{{ $name }}" width="{{ $avatar.Width }}" height="{{ $avatar.Height }}">
           {{- end }}
 
           <div class="sc-article-byline-copy">
-            <span class="sc-article-author">{{ $name }}</span>
+            {{- with $.Site.Params.authorURL -}}
+              <a class="sc-article-author" href="{{ . }}" rel="author">{{ $name }}</a>
+            {{- else -}}
+              <span class="sc-article-author">{{ $name }}</span>
+            {{- end -}}
             {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
             {{- $dateHuman := .Date | time.Format ":date_long" -}}
             <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>

@@ -4,6 +4,8 @@ image: /images/2025/xxxccccccc.jpg
 description: "熔炉卡牌将是本赛季的主要进化，也是唯一的进化！"
 date: 2025-07-31T23:14:31+08:00
 slug: clash-royale-furnace-evo
+aliases:
+  - /posts/clashroyale/2025/07/clash-royale-furnace-evolution-leak/
 categories:
   - 皇室战争
 tags:
@@ -68,4 +70,3 @@ draft: false
 - 商店优惠（未来季节）
 - 传奇幸运滴
 - 使用野性碎片
-

@@ -11,6 +11,7 @@ game: clashroyale
 content_type: guide
 difficulty: intermediate
 evergreen: true
+ads: true
 featured: false
 categories:
   - 皇室战争
@@ -163,7 +164,7 @@ Android 安装国际服最省心的方式仍然是 Google Play。无法使用商
 
 网盘链接：
 
-[国际服资源下载](/global)
+[国际服资源下载](/resources/)
   
   
 记得关注”**皇室小蜜**“微信公众号，关注后，在公众号后台发送“全家桶”关键字，同样即可获取包含文中各种资源的自动回复。  

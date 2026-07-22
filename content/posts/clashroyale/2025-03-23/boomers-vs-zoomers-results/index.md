@@ -8,6 +8,7 @@ categories:
   - 皇室战争
 tags:
   - 资讯
+noindex: true
 draft: false
 ---
 

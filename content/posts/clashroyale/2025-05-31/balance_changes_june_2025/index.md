@@ -4,6 +4,8 @@ image: /images/2025/balance_changes_june_2025.webp
 description: 觉醒猎人意外躺枪，大闪惨遭削弱，家驹卡组恐成最大输家！
 date: 2025-05-31T16:35:11+08:00
 slug: changes-june-2025
+aliases:
+  - /posts/clashroyale/2025/05/wip-balance-change-2025-may/
 categories:
   - 皇室战争
 tags:

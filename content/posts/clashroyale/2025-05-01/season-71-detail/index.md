@@ -36,7 +36,7 @@ draft: false
 
 亡灵进军是一个限时天梯活动，你需要从一组恐怖的亡灵主题卡牌中组建自己的卡组进行战斗。
 
-![](GpyqXBcWEAARkus.png)  
+![](GpyqXBcWEAARkus.jpeg)
 
 活动时间为 5 月 6 日至 13 日，开放给达到 11 阶竞技场及以上的玩家。
 
@@ -99,4 +99,4 @@ draft: false
 挑战时间：5 月 30 日 - 6 月 2 日  
 奖励：战旗（边框与装饰）+ 表情
 
-![](season5.png)  
+![](season5.png)

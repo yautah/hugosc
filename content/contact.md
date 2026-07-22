@@ -4,7 +4,7 @@ date: 2026-07-13T00:00:00+08:00
 description: "联系超级细胞营地，反馈内容错误、链接失效、合作建议或其他问题。"
 draft: false
 layout: site-page
-kicker: Contact
+kicker: 联系反馈
 ---
 
 如果你想反馈超级细胞营地的内容错误、链接失效、工具问题，或有其他建议，可以通过以下方式联系。

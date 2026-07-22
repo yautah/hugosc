@@ -15,6 +15,7 @@
 {{- if eq (len $pages) 0 -}}
   {{- $pages = where .Pages "Kind" "page" -}}
 {{- end -}}
+{{- $pages = where $pages "Params.noindex" "ne" true -}}
 {{- $paginator := .Paginate $pages 9 -}}
 {{- $title := .Title | humanize -}}
 {{- if eq .Section "posts" -}}

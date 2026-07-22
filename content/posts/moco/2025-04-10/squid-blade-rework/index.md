@@ -9,6 +9,7 @@ categories:
 tags:
   - 资讯
   - 平衡性调整
+noindex: true
 draft: false
 ---
 

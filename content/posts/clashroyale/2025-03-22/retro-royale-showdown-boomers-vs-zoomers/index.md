@@ -53,23 +53,6 @@ draft: false
 
 锁定直播，不仅享受高水平对局，还能赢取专属奖励。  
 
-<div style="width: 100%; text-align: center;">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6805938250941375"
-      crossorigin="anonymous"></script>
-    <!-- footer广告 -->
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-6805938250941375"
-      data-ad-slot="6009517339"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
-
-
 ## 参赛队伍
 两大阵营，十位传奇选手，象征着《皇室战争》的过去与未来。  一支队伍致敬过去，另一支队伍塑造未来。
 ![](096e710e92c055e346bac36fb556da0d.jpeg)  

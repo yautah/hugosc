@@ -4,7 +4,7 @@ date: 2026-07-13T00:00:00+08:00
 description: "超级细胞营地的隐私政策，说明本站可能收集的信息、统计服务和第三方链接。"
 draft: false
 layout: site-page
-kicker: Privacy
+kicker: 隐私说明
 ---
 
 本隐私政策说明超级细胞营地在网站运行过程中可能涉及的信息收集与使用方式。

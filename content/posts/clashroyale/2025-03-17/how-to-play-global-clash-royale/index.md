@@ -11,6 +11,7 @@ game: clashroyale
 content_type: guide
 difficulty: advanced
 evergreen: true
+ads: true
 featured: false
 categories:
   - 皇室战争

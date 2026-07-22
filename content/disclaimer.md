@@ -4,7 +4,7 @@ date: 2026-07-13T00:00:00+08:00
 description: "超级细胞营地的免责声明，说明非官方身份、内容时效性、第三方链接和游戏素材归属。"
 draft: false
 layout: site-page
-kicker: Disclaimer
+kicker: 使用说明
 ---
 
 超级细胞营地是玩家个人维护的非官方游戏资料与攻略站。

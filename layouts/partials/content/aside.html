@@ -1,0 +1,14 @@
+<div class="lg:sticky lg:top-8">
+  {{- if and .Site.Params.enableAds .IsPage .Params.ads (not .Params.noindex) -}}
+    {{- partial "content/aside-banner.html" . -}}
+  {{- end -}}
+
+  <div class="space-y-6">
+    <h2 class="font-bold text-xl mb-8">最新发布</h2>
+    {{- $posts := where .Site.RegularPages "Type" "posts" -}}
+    {{- $posts = where $posts "Params.noindex" "ne" true -}}
+    {{- range first 5 $posts -}}
+      {{- partial "content/list-post.html" . -}}
+    {{- end -}}
+  </div>
+</div>

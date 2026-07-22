@@ -15,7 +15,9 @@
   "event-recap" "活动回顾"
 -}}
 {{- $entries := slice -}}
-{{- range where site.RegularPages "Section" "posts" -}}
+{{- $posts := where site.RegularPages "Section" "posts" -}}
+{{- $posts = where $posts "Params.noindex" "ne" true -}}
+{{- range $posts -}}
   {{- $game := "文章" -}}
   {{- with .Params.game -}}
     {{- $game = default . (index $gameLabels .) -}}

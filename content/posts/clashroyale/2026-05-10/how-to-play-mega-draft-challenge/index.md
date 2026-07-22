@@ -10,6 +10,7 @@ game: clashroyale
 content_type: guide
 difficulty: intermediate
 evergreen: true
+ads: true
 featured: false
 categories:
   - 皇室战争

@@ -6,6 +6,7 @@ updated: 2026-07-15T03:00:00+08:00
 url: "/clashroyale/cards/mini-pekka/"
 layout: clashroyale-card
 card_key: mini-pekka
+noindex: false
 generated_card_data: false
 draft: false
 ---

@@ -9,6 +9,8 @@ categories:
 tags:
   -  资讯
   -  平衡性调整
+noindex: true
+headless: true
 draft: false
 ---
 
@@ -105,5 +107,3 @@ draft: false
 其他的调整意义不明。
 
 各位挑战者，你怎么看？
-
-

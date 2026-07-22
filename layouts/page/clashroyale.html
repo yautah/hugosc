@@ -8,6 +8,7 @@
 {{ define "main" }}
 
 {{- $posts := where .Site.RegularPages "Section" "posts" -}}
+{{- $posts = where $posts "Params.noindex" "ne" true -}}
 {{- $crPosts := where $posts "Params.categories" "intersect" (slice "皇室战争") -}}
 
 <div class="sc-channel-page sc-channel-clashroyale sc-channel-editorial">

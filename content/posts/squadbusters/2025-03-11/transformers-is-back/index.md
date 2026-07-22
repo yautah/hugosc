@@ -11,6 +11,7 @@ tags:
   - 爆裂资讯
   - hot
   - 热门
+noindex: true
 draft: false
 --- 
 

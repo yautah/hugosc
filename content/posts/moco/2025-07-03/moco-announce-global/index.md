@@ -12,6 +12,7 @@ keywords:
   - mo.co
   - Supercell
   - 全球发布
+noindex: true
 draft: false
 ---
 

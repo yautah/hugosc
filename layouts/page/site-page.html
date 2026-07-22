@@ -6,8 +6,13 @@
 {{ end }}
 
 {{ define "main" }}
+{{- $updated := .Date -}}
+{{- with .Params.updated -}}
+  {{- $updated = time . -}}
+{{- end -}}
 {{- $pages := slice
   (dict "title" "关于超级细胞营地" "url" "/about/")
+  (dict "title" "编辑与勘误说明" "url" "/editorial-policy/")
   (dict "title" "联系方式" "url" "/contact/")
   (dict "title" "隐私政策" "url" "/privacy/")
   (dict "title" "版权声明" "url" "/copyright/")
@@ -17,14 +22,14 @@
 <section class="sc-site-page">
   <header class="sc-site-page-hero">
     <div>
-      <p class="sc-site-page-kicker">{{ default "Site Info" .Params.kicker }}</p>
+      <p class="sc-site-page-kicker">{{ default "站点说明" .Params.kicker }}</p>
       <h1 class="sc-site-page-title">{{ .Title }}</h1>
       {{ with .Description }}
         <p class="sc-site-page-desc">{{ . }}</p>
       {{ end }}
     </div>
-    <time class="sc-site-page-date" datetime="{{ .Date.Format "2006-01-02" }}">
-      更新于 {{ .Date.Format "2006-01-02" }}
+    <time class="sc-site-page-date" datetime="{{ $updated.Format "2006-01-02" }}">
+      更新于 {{ $updated.Format "2006-01-02" }}
     </time>
   </header>
 

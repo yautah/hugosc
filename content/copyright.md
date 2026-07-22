@@ -4,7 +4,7 @@ date: 2026-07-13T00:00:00+08:00
 description: "超级细胞营地的版权声明，说明原创内容、引用内容、游戏素材和侵权反馈处理方式。"
 draft: false
 layout: site-page
-kicker: Copyright
+kicker: 版权说明
 ---
 
 超级细胞营地尊重原创内容和相关权利方的合法权益。

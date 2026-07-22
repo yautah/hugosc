@@ -6,6 +6,6 @@ updated: '2026-07-15T03:00:00+08:00'
 url: /clashroyale/cards/giant-snowball/evolution/
 layout: clashroyale-card-variant
 variant_key: giant-snowball-evolution
-noindex: false
+noindex: true
 draft: false
 ---

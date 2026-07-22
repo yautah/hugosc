@@ -1,5 +1,6 @@
-{{- $posts := (where .Site.RegularPages "Section" "posts").ByDate.Reverse -}}
-{{- $popularCandidates := where .Site.RegularPages "Params.home_popular" "ne" nil -}}
+{{- $posts := where .Site.RegularPages "Section" "posts" -}}
+{{- $posts = (where $posts "Params.noindex" "ne" true).ByDate.Reverse -}}
+{{- $popularCandidates := where $posts "Params.home_popular" "ne" nil -}}
 {{- $pinnedTarget := 5 -}}
 {{- $popularTarget := 5 -}}
 

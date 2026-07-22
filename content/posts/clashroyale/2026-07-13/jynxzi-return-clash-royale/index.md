@@ -10,6 +10,7 @@ game: clashroyale
 content_type: commentary
 difficulty: beginner
 evergreen: false
+ads: true
 featured: false
 categories:
   - 皇室战争

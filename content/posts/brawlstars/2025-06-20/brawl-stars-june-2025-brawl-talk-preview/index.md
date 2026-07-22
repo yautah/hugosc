@@ -11,6 +11,8 @@ keywords:
   - 新英雄
   - 斯塔尔公园
   - 新赛季预告
+noindex: true
+headless: true
 draft: false
 tags:
   - 资讯
@@ -51,4 +53,3 @@ Supercell 即将在 6 月 21 日（周六）中午正式发布《荒野乱斗》
 
 - 时间：北京时间6月21日晚上23点整（星期六）  
 - 平台：荒野乱斗 官方 YouTube 频道
-

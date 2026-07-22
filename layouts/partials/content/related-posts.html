@@ -9,10 +9,9 @@
   {{- end }}
 {{- end }}
 {{- if eq (len $related) 0 }}
-  {{- $related = .Site.RegularPages.Related . | first 2 -}}
-{{- else }}
-  {{- $related = first 2 $related -}}
+  {{- $related = .Site.RegularPages.Related . -}}
 {{- end }}
+{{- $related = where $related "Params.noindex" "ne" true | first 2 -}}
 
 {{- with $related }}
   <div id="related-post">

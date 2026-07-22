@@ -6,6 +6,6 @@ updated: '2026-07-15T03:00:00+08:00'
 url: /clashroyale/cards/knight/hero/
 layout: clashroyale-card-variant
 variant_key: knight-hero
-noindex: false
+noindex: true
 draft: false
 ---

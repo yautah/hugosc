@@ -9,6 +9,8 @@ categories:
 tags:
   - 资讯
   - 免费资源
+noindex: true
+headless: true
 draft: false
 ---
 

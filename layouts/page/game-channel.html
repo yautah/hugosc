@@ -8,6 +8,7 @@
 {{ define "main" }}
 
 {{- $posts := where .Site.RegularPages "Section" "posts" -}}
+{{- $posts = where $posts "Params.noindex" "ne" true -}}
 {{- $gamePath := printf "^posts/%s/" .Params.game_key -}}
 {{- $categories := default (slice .Title) .Params.game_categories -}}
 {{- $gamePosts := where $posts "File.Dir" "like" $gamePath -}}

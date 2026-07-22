@@ -6,6 +6,6 @@ updated: '2026-07-15T03:00:00+08:00'
 url: /clashroyale/cards/tesla/evolution/
 layout: clashroyale-card-variant
 variant_key: tesla-evolution
-noindex: false
+noindex: true
 draft: false
 ---

@@ -348,9 +348,12 @@ hugo --cleanDestinationDir --minify
 ```bash
 npm run validate:clash-data
 hugo --cleanDestinationDir --minify
+npm run audit:site
 git diff --check
 git status --short
 ```
+
+`npm run audit:site` 会检查 canonical、内部链接与图片、JSON-LD、Sitemap、`noindex` 以及 AdSense 实际输出。必须在干净构建后运行，不得用旧 `public/` 产物代替当前站点结果。
 
 人工检查：
 

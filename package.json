@@ -2,6 +2,7 @@
   "name": "hugosc",
   "private": true,
   "scripts": {
+    "audit:site": "ruby tools/audit-site.rb",
     "audit:clash-cards": "ruby tools/audit-clash-card-workflow.rb",
     "discover:clash-card-variants": "ruby tools/discover-clash-card-variants.rb",
     "submit:baidu": "ruby tools/submit-baidu-urls.rb",

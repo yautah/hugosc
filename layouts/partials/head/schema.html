@@ -1,8 +1,12 @@
 {{- $siteName := .Site.Title -}}
 {{- $siteURL := .Site.BaseURL -}}
 {{- $siteDescription := .Site.Params.description -}}
-{{- $authorName := default "超级细胞营地" .Site.Author.name -}}
+{{- $authorName := default "超级细胞营地" .Site.Params.authorName -}}
 {{- $organization := dict "@type" "Organization" "name" $siteName "url" $siteURL -}}
+{{- $author := dict "@type" "Person" "name" $authorName -}}
+{{- with .Site.Params.authorURL -}}
+  {{- $author = merge $author (dict "url" .) -}}
+{{- end -}}
 
 {{- if .IsHome }}
   {{- $website := dict "@context" "https://schema.org" "@type" "WebSite" "name" $siteName "url" $siteURL "description" $siteDescription "inLanguage" .Site.LanguageCode "publisher" $organization -}}
@@ -31,7 +35,7 @@
     "mainEntityOfPage" .Permalink
     "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
     "dateModified" ($dateModified.Format "2006-01-02T15:04:05-07:00")
-    "author" (dict "@type" "Person" "name" $authorName)
+    "author" $author
     "publisher" $organization
     "inLanguage" .Site.LanguageCode
   -}}

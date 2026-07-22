@@ -13,7 +13,6 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 googleAnalytics = 'G-VNF9P6RDMW' # <- Your GA-4
 disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
 
-
 [permalinks]
   posts = "/:sections/:year/:month/:slug"
 
@@ -31,6 +30,9 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
 	description = '超级细胞营地是面向中文玩家的超级细胞游戏攻略、资料与工具站，整理皇室战争、荒野乱斗、部落冲突、Mo.Co 等游戏的攻略、更新与实用工具。'
 	mainSections = 'posts'
+	enableAds = false
+	authorName = '皇室小蜜'
+	authorURL = 'https://scbase.cn/about/'
 
 	
 	[[params.slides]]
