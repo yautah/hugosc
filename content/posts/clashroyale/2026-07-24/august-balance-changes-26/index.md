@@ -9,7 +9,8 @@ game: clashroyale
 content_type: news
 difficulty: beginner
 evergreen: false
-featured: false
+featured: true
+home_pinned: 2
 categories:
   - 皇室战争
 tags:
