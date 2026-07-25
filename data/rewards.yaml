@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-23"
+  synced_at: "2026-07-24"
 
 items:
+  - id: cr-338
+    game: clashroyale
+    title: "武士圣殿塔皮肤"
+    original_title: "Samurai Sanctum Tower Skin"
+    type: cosmetic
+    type_label: "塔皮肤"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz"
+    image: "images/rewards/clashroyale/cr-338.webp"
+    status: active
+    verified_at: "2026-07-24"
+    expires_at: ""
   - id: cr-336
     game: clashroyale
     title: "1 个免费幸运宝箱"
@@ -43,8 +55,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz"
     image: "images/rewards/clashroyale/cr-324.webp"
-    status: active
-    verified_at: "2026-07-23"
+    status: expired
+    verified_at: "2026-07-24"
     expires_at: ""
   - id: cr-310
     game: clashroyale
@@ -274,6 +286,18 @@ items:
     status: expired
     verified_at: "2026-07-22"
     expires_at: ""
+  - id: bs-339
+    game: brawlstars
+    title: "1 个纳米宝箱"
+    original_title: "x1 Nano Box"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-339.webp"
+    status: active
+    verified_at: "2026-07-24"
+    expires_at: ""
   - id: bs-337
     game: brawlstars
     title: "100 金币"
@@ -283,8 +307,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-337.webp"
-    status: active
-    verified_at: "2026-07-23"
+    status: expired
+    verified_at: "2026-07-24"
     expires_at: ""
   - id: bs-330
     game: brawlstars
