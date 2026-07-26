@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-24"
+  synced_at: "2026-07-25"
 
 items:
   - id: cr-338
@@ -295,8 +295,20 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-339.webp"
+    status: expired
+    verified_at: "2026-07-25"
+    expires_at: ""
+  - id: bs-341
+    game: brawlstars
+    title: "1 个混沌宝箱"
+    original_title: "x1 CHAOS DROP"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-341.webp"
     status: active
-    verified_at: "2026-07-24"
+    verified_at: "2026-07-25"
     expires_at: ""
   - id: bs-337
     game: brawlstars
