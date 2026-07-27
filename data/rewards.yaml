@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-25"
+  synced_at: "2026-07-26"
 
 items:
   - id: cr-338
@@ -298,6 +298,18 @@ items:
     status: expired
     verified_at: "2026-07-25"
     expires_at: ""
+  - id: bs-342
+    game: brawlstars
+    title: "100 能量点数"
+    original_title: "x100 Power Points"
+    type: resource
+    type_label: "能量点数"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-342.webp"
+    status: active
+    verified_at: "2026-07-26"
+    expires_at: ""
   - id: bs-341
     game: brawlstars
     title: "1 个混沌宝箱"
@@ -307,8 +319,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-341.webp"
-    status: active
-    verified_at: "2026-07-25"
+    status: expired
+    verified_at: "2026-07-26"
     expires_at: ""
   - id: bs-337
     game: brawlstars
@@ -343,8 +355,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-326.webp"
-    status: active
-    verified_at: "2026-07-23"
+    status: expired
+    verified_at: "2026-07-26"
     expires_at: ""
   - id: bs-325
     game: brawlstars
