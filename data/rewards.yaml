@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-26"
+  synced_at: "2026-07-27"
 
 items:
   - id: cr-338
@@ -151,8 +151,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/en/clashroyale?boost=tryaz&storeCode=MINIONHORDE%21"
     image: "images/rewards/clashroyale/cr-144.webp"
-    status: active
-    verified_at: "2026-07-23"
+    status: expired
+    verified_at: "2026-07-27"
     expires_at: ""
   - id: cr-142
     game: clashroyale
@@ -163,8 +163,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/en/clashroyale?boost=tryaz&storeCode=PRINCESSEVO%21"
     image: "images/rewards/clashroyale/cr-142.webp"
-    status: active
-    verified_at: "2026-07-23"
+    status: expired
+    verified_at: "2026-07-27"
     expires_at: ""
   - id: cr-133
     game: clashroyale
@@ -271,8 +271,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/en/clashroyale?boost=tryaz&storeCode=FIREANDICE!%21"
     image: "images/rewards/clashroyale/cr-8.webp"
-    status: active
-    verified_at: "2026-07-23"
+    status: expired
+    verified_at: "2026-07-27"
     expires_at: ""
   - id: bs-331
     game: brawlstars
@@ -307,8 +307,32 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-342.webp"
+    status: expired
+    verified_at: "2026-07-27"
+    expires_at: ""
+  - id: bs-344
+    game: brawlstars
+    title: "2 个纳米宝箱（每周）"
+    original_title: "x2 Nano Box (Weekly)"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-344.webp"
     status: active
-    verified_at: "2026-07-26"
+    verified_at: "2026-07-27"
+    expires_at: ""
+  - id: bs-343
+    game: brawlstars
+    title: "75 个英雄券"
+    original_title: "x75 Credit"
+    type: resource
+    type_label: "英雄券"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-343.webp"
+    status: active
+    verified_at: "2026-07-27"
     expires_at: ""
   - id: bs-341
     game: brawlstars
