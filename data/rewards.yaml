@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-28"
+  synced_at: "2026-07-29"
 
 items:
   - id: cr-348
@@ -334,6 +334,18 @@ items:
     status: active
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-352
+    game: brawlstars
+    title: "150 闪闪币"
+    original_title: "x150 Bling"
+    type: resource
+    type_label: "闪闪币"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-352.webp"
+    status: active
+    verified_at: "2026-07-29"
+    expires_at: ""
   - id: bs-347
     game: brawlstars
     title: "50 能量点数"
@@ -343,8 +355,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-347.webp"
-    status: active
-    verified_at: "2026-07-28"
+    status: expired
+    verified_at: "2026-07-29"
     expires_at: ""
   - id: bs-343
     game: brawlstars
