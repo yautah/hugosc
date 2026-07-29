@@ -167,4 +167,4 @@ TV Royale 明确说，**精英瓦基丽武神将通过皇室令牌获取**。这
 
 - 皇室战争官方 TV Royale：《Welcome to K.H.A.O.S》
 - 皇室战争官方频道：[Clash Royale YouTube](https://www.youtube.com/@ClashRoyale)
-- 相关阅读：[狂战士精英？野蛮人精锐觉醒？还有一把金斧子！](/posts/clashroyale/2026-07-26/august-season-elite-evolution-teaser/)
+- 相关阅读：[狂战士精英？野蛮人精锐觉醒？还有一把金斧子！](/posts/clashroyale/2026/07/clash-royale-august-season-elite-evolution-teaser/)

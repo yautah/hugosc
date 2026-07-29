@@ -139,4 +139,4 @@ faq:
 参考来源：
 
 - 皇室战争官方 X 账号近期预热图：[Clash Royale on X](https://x.com/ClashRoyale)
-- 相关阅读：[狂战士要爆了？皇室战争官方新图疑似预告 8 月新精英或觉醒](/posts/clashroyale/2026-07-24/berserker-august-season-teaser/)
+- 相关阅读：[狂战士要爆了？皇室战争官方新图疑似预告 8 月新精英或觉醒](/posts/clashroyale/2026/07/clash-royale-berserker-august-season-teaser/)
