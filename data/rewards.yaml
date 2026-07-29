@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-27"
+  synced_at: "2026-07-28"
 
 items:
+  - id: cr-348
+    game: clashroyale
+    title: "熊熊战旗套装（TV Royale 独占）"
+    original_title: "Bear Banner Set (TV Royale Exclusive)"
+    type: cosmetic
+    type_label: "战旗"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=02873bc1-970b-47f4-996d-e973559464f6"
+    image: "images/rewards/clashroyale/cr-348.webp"
+    status: active
+    verified_at: "2026-07-28"
+    expires_at: ""
   - id: cr-338
     game: clashroyale
     title: "武士圣殿塔皮肤"
@@ -322,6 +334,18 @@ items:
     status: active
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-347
+    game: brawlstars
+    title: "50 能量点数"
+    original_title: "x50 Power Points"
+    type: resource
+    type_label: "能量点数"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-347.webp"
+    status: active
+    verified_at: "2026-07-28"
+    expires_at: ""
   - id: bs-343
     game: brawlstars
     title: "75 个英雄券"
@@ -331,8 +355,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-343.webp"
-    status: active
-    verified_at: "2026-07-27"
+    status: expired
+    verified_at: "2026-07-28"
     expires_at: ""
   - id: bs-341
     game: brawlstars
@@ -705,6 +729,30 @@ items:
     image: "images/rewards/brawlstars/bs-20.webp"
     status: active
     verified_at: "2026-07-23"
+    expires_at: ""
+  - id: coc-351
+    game: clashofclans
+    title: "1 个力量煎饼"
+    original_title: "x1 Power Pancake"
+    type: resource
+    type_label: "魔法道具"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/en/?action=voucher&code=98bf5e71-ad1c-428f-8f1d-628eff317f41"
+    image: "images/rewards/clashofclans/coc-351.webp"
+    status: active
+    verified_at: "2026-07-28"
+    expires_at: ""
+  - id: coc-350
+    game: clashofclans
+    title: "2 个宝藏箱"
+    original_title: "x2 Treasure Chests"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashofclans#communityEvent"
+    image: "images/rewards/clashofclans/coc-350.webp"
+    status: active
+    verified_at: "2026-07-28"
     expires_at: ""
   - id: coc-332
     game: clashofclans
