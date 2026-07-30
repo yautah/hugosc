@@ -1,16 +1,16 @@
 ---
 title: 觉醒野蛮人精锐登场！远程标枪加狂暴路径，免费获取，莽夫时代又要来临？
-image: images/2026/clash-royale-evo-elite-barbarians-guide-cover.png
+image: images/2026/evo-elite-barbarians-guide-cover.png
 description: 皇室战争 8 月新觉醒卡牌觉醒野蛮人精锐即将上线。本文整理怒气标枪机制、射程、伤害、狂暴路径、免费获取方式和实战影响。
 date: 2026-07-30T13:30:00+08:00
 updated: 2026-07-30T13:30:00+08:00
-slug: clash-royale-evo-elite-barbarians-guide
+slug: evo-elite-barbarians-guide
 game: clashroyale
 content_type: guide
 difficulty: intermediate
 evergreen: false
-home_pinned: 1
 featured: true
+home_pinned: 3
 categories:
   - 皇室战争
 tags:
@@ -27,9 +27,9 @@ keywords:
   - 皇室战争8月觉醒卡
   - Clash Royale Elite Barbarians Evolution
 related:
-  - clash-royale-hero-berserker-guide
-  - clash-royale-tv-royale-khaos-august-season
-  - clash-royale-august-season-elite-evolution-teaser
+  - hero-berserker-guide
+  - tv-royale-khaos-august-season
+  - august-season-elite-evolution-teaser
 wechat:
   template: redream-obsidian-blue
 draft: false

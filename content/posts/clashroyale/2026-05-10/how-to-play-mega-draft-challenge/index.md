@@ -5,7 +5,6 @@ description: 皇室战争超级选卡怎么选牌？掌握观察卡池、确定�
 date: 2026-05-10T15:00:59+08:00
 updated: 2026-07-15T00:00:00+08:00
 slug: how-to-play-mega-draft-challenge
-home_pinned: 5
 game: clashroyale
 content_type: guide
 difficulty: intermediate

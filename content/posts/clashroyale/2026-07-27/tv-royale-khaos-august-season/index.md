@@ -1,16 +1,14 @@
 ---
 title: 皇室TV确认8月赛季：精英狂战士、精英瓦基丽武神、觉醒野蛮人精锐全来了
-image: images/2026/clash-royale-tv-royale-khaos-cover.jpg
+image: images/2026/tv-royale-khaos-august-season-cover.jpg
 description: 皇室战争最新 TV Royale 公布 8 月 K.H.A.O.S 赛季内容：精英狂战士、精英瓦基丽武神、觉醒野蛮人精锐，以及 Ken 带来的混沌试炼选卡联赛。
 date: 2026-07-27T11:30:00+08:00
 updated: 2026-07-27T11:30:00+08:00
-slug: clash-royale-tv-royale-khaos-august-season
+slug: tv-royale-khaos-august-season
 game: clashroyale
 content_type: news
 difficulty: beginner
 evergreen: false
-featured: true
-home_pinned: 2
 categories:
   - 皇室战争
 tags:
@@ -29,7 +27,7 @@ keywords:
   - 皇室战争觉醒野蛮人精锐
   - Clash Royale TV Royale KHAOS
 related:
-  - clash-royale-august-season-elite-evolution-teaser
+  - august-season-elite-evolution-teaser
   - berserker-august-season-teaser
   - august-balance-changes-26
 wechat:
@@ -167,4 +165,4 @@ TV Royale 明确说，**精英瓦基丽武神将通过皇室令牌获取**。这
 
 - 皇室战争官方 TV Royale：《Welcome to K.H.A.O.S》
 - 皇室战争官方频道：[Clash Royale YouTube](https://www.youtube.com/@ClashRoyale)
-- 相关阅读：[狂战士精英？野蛮人精锐觉醒？还有一把金斧子！](/posts/clashroyale/2026/07/clash-royale-august-season-elite-evolution-teaser/)
+- 相关阅读：[狂战士精英？野蛮人精锐觉醒？还有一把金斧子！](/posts/clashroyale/2026/07/august-season-elite-evolution-teaser/)

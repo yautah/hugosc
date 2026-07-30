@@ -33,6 +33,7 @@ content/posts/clashroyale/2026-07-15/example-slug/
 - 远程图片应确认长期可用；重要图片优先本地化。
 - 文章封面由 Front Matter 的 `image` 指定，当前统一放在 `assets/images/<年份>/`。
 - Front Matter 中填写 Hugo 资源路径，例如 `image: "/images/2026/cover.webp"`。
+- 新文章的 `date` 和 `updated` 默认使用创建时的当前时间，不写未来排期时间；Hugo 默认不会构建未来日期文章。
 
 新文章至少确认以下字段：
 
@@ -53,6 +54,32 @@ draft: false
 
 `description` 应直接说明读者能获得什么，不要写成个人编辑记录。
 
+### 2.1 URL 与 slug 规则
+
+文章 URL 由目录层级、日期和 Front Matter 的 `slug` 共同决定。当前 `posts` 的公开 URL 规则是：
+
+```text
+/posts/<频道>/<年份>/<月份>/<slug>/
+```
+
+例如：
+
+```text
+content/posts/clashroyale/2026-07-31/hero-valkyrie-guide/index.md
+slug: hero-valkyrie-guide
+
+=> /posts/clashroyale/2026/07/hero-valkyrie-guide/
+```
+
+命名约定：
+
+- `slug` 使用小写英文、数字和连字符，避免空格、下划线和中文。
+- 频道已经出现在 URL 中，`slug` 不再重复写 `clash-royale`、`brawl-stars`、`clash-of-clans`、`moco`、`supercell` 等频道名。
+- `slug` 应描述文章主题本身，例如 `season-86-khaos-guide`、`hero-valkyrie-guide`、`ranked-trophy-requirements`。
+- 旧文章已经被搜索引擎收录时，原则上不改 URL；如必须改，需配置 alias 或重定向。
+- 刚发布且确认未收录的新文章，可以直接调整 `slug`，同时更新相关内容中的 `related` 引用。
+- 不要为普通文章手写 `url` 覆盖 permalink；只有卡牌、奖励、工具等稳定功能页才使用固定 `url`。
+
 ## 3. 首页置顶内容
 
 置顶区域固定展示 5 篇文章，只从 `content/posts/` 中选择。
@@ -63,11 +90,12 @@ draft: false
 home_pinned: 1
 ```
 
-- 使用 `1-5` 控制展示顺序，数字越小越靠前。
-- `1` 是左侧主图，`2-5` 是右侧四张小图。
+- 使用正整数控制展示顺序，数字越小越靠前。
+- `home_pinned` 可以重复；同一个数字下，发布时间越新的文章越靠前。
+- 当前置顶区最终取前 5 篇：第 1 篇是左侧主图，第 2-5 篇是右侧四张小图。
 - 如果配置不足 5 篇，模板使用未重复的最新文章补位。
 - 独立功能页面目前不能加入置顶，只支持文章。
-- 调整顺序时同时检查其余文章，避免出现重复序号。
+- 置顶内容允许同时出现在最新资讯之外的内部相关文章模块；首页编排只控制首页入口。
 
 取消置顶：
 
@@ -90,6 +118,7 @@ home_popular: 1
 - 热门配置不足 5 项时，模板使用未进入置顶和热门的最新文章补位。
 - 热门内容不会再次进入首页“最新资讯”。
 - 调整顺序时必须保证序号唯一。
+- 热门可以配置文章，也可以配置奖励、工具等独立页面。
 
 普通文章配置示例：
 
@@ -136,7 +165,47 @@ layout: rewards
 - 首页最多展示 12 篇。
 - 独立页面不会进入最新资讯。
 
-## 6. 免费奖励数据
+## 6. featured 与 evergreen
+
+`featured` 和 `evergreen` 是文章性质标记，不等同于首页编排字段。
+
+### featured
+
+```yaml
+featured: true
+```
+
+当前 `featured` 主要作为预留的内容质量/重点标记，暂不直接参与首页置顶、热门或最新资讯排序。需要进入首页置顶或热门时，仍然使用 `home_pinned` 或 `home_popular`。
+
+建议用法：
+
+- 可标记阶段性重点内容、深度整理或后续可能进入专题聚合的文章。
+- 不要只因为文章新就设置 `featured: true`。
+- 不要依赖 `featured` 改变首页展示顺序。
+
+### evergreen
+
+```yaml
+evergreen: true
+```
+
+`evergreen` 用于标记长期有效、可反复阅读的攻略或资料页。文章页元信息会展示“长期攻略”标记。
+
+适合设置为 `evergreen: true` 的内容：
+
+- 安装指南、国际服使用指南。
+- 卡组基础、卡牌体系、机制说明。
+- 长期有效的挑战玩法和资源说明。
+
+不适合设置为 `evergreen: true` 的内容：
+
+- 赛季预告、短期活动、版本更新新闻。
+- 临时奖励、限时联赛、一次性公告。
+- 依赖当前环境的卡组推荐，除非文章本身是长期方法论。
+
+`evergreen` 不会自动进入首页热门。如果某篇长期攻略需要首页入口，应额外配置 `home_popular`。
+
+## 7. 免费奖励数据
 
 奖励数据统一维护在：
 
@@ -245,7 +314,7 @@ git ls-files -- assets/images/rewards/
 /rewards/clash-of-clans/
 ```
 
-## 7. 皇室战争卡牌与卡组
+## 8. 皇室战争卡牌与卡组
 
 详细架构和数据源边界见 [`scbase-clash-royale-cards-decks-spec.md`](scbase-clash-royale-cards-decks-spec.md)。原型数据位于：
 
@@ -320,7 +389,7 @@ hugo --minify
 /clashroyale/decks/hog-cycle-classic/
 ```
 
-## 8. 图片管理
+## 9. 图片管理
 
 - `assets/images/`：需要 Hugo 裁剪、转换、压缩或指纹处理的站点资源。
 - 文章同级图片：文章正文使用的 Page Resource。
@@ -329,7 +398,7 @@ hugo --minify
 
 首页置顶和热门封面会由 Hugo 自动裁剪。重要入口应单独准备封面，不要直接拿正文小图或透明图标作为首页封面。
 
-## 9. 本地预览与上线检查
+## 10. 本地预览与上线检查
 
 本地预览：
 
@@ -365,7 +434,7 @@ git status --short
 6. 桌面端和移动端是否存在横向溢出。
 7. 浏览器控制台是否出现资源加载错误。
 
-## 10. 百度主动提交
+## 11. 百度主动提交
 
 未备案站点当前不能在百度搜索资源平台使用 Sitemap 提交入口。`static/robots.txt` 中仍保留 Sitemap 声明，供支持它的搜索引擎和爬虫发现；百度的主动收录以普通收录 API 为准。
 
@@ -395,11 +464,11 @@ BAIDU_PUSH_TOKEN='重新生成的 token' npm run submit:baidu -- --file urls.txt
 - 提交前确认 URL 使用唯一主域 `https://scbase.cn`，不要提交 `www.scbase.cn`。
 - 百度控制台示例中的 `site=https://scbase.cn` 会触发 `400 site init fail`；脚本会自动将 API 参数规范化为纯域名 `site=scbase.cn`，正文 URL 仍保持完整的 HTTPS 地址。
 
-## 11. 常见问题
+## 12. 常见问题
 
 ### 首页顺序和预期不一致
 
-检查是否存在重复的 `home_pinned` 或 `home_popular` 数字。当前不做自动冲突校验。
+检查 `home_pinned`、`home_popular`、文章日期和 `draft` 状态。`home_pinned` 允许重复，重复时同一数字下按发布日期倒序排列；`home_popular` 应保持序号唯一。当前不做自动冲突校验。
 
 ### 配置了热门但没有显示
 

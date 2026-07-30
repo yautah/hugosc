@@ -9,8 +9,7 @@ game: clashroyale
 content_type: news
 difficulty: beginner
 evergreen: false
-featured: true
-home_pinned: 2
+featured: false
 categories:
   - 皇室战争
 tags:
@@ -27,7 +26,7 @@ keywords:
   - Clash Royale August Balance Changes
 related:
   - berserker-august-season-teaser
-  - clash-royale-ranked-trophy-requirements
+  - ranked-trophy-requirements
   - jynxzi-return-clash-royale
 wechat:
   template: redream-obsidian-blue

@@ -5,7 +5,6 @@ description: 皇室战争怎么组卡？从卡组节奏、核心卡牌、费用�
 date: 2026-05-16T20:57:24+08:00
 updated: 2026-07-15T00:00:00+08:00
 slug: how-to-make-reasonable-deck
-home_pinned: 3
 game: clashroyale
 content_type: guide
 difficulty: intermediate

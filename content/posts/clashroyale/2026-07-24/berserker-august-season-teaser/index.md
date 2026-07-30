@@ -1,10 +1,10 @@
 ---
 title: 狂战士要爆了？皇室战争官方新图疑似预告 8 月新精英或觉醒
-image: images/2026/clash-royale-berserker-teaser-cover.jpg
+image: images/2026/berserker-august-season-teaser-cover.jpg
 description: 皇室战争官方在 X 上发布狂战士相关预热图，画面里的巨大影子让玩家开始猜测 8 月主题季可能会迎来狂战士精英形态或觉醒形态。
 date: 2026-07-24T15:30:00+08:00
 updated: 2026-07-24T16:10:00+08:00
-slug: clash-royale-berserker-august-season-teaser
+slug: berserker-august-season-teaser
 game: clashroyale
 content_type: news
 difficulty: beginner
@@ -26,7 +26,7 @@ keywords:
   - Clash Royale Berserker Elite
   - Clash Royale Berserker Evolution
 related:
-  - clash-royale-ranked-trophy-requirements
+  - ranked-trophy-requirements
 wechat:
   template: redream-obsidian-blue
 draft: false

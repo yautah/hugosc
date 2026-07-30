@@ -1,10 +1,10 @@
 ---
 title: 13000 杯就能打天梯？皇室战争传奇征程门槛突然下调
-image: images/2026/clash-royale-ranked-trophy-requirements-cover.jpg
+image: images/2026/ranked-trophy-requirements-cover.jpg
 description: 皇室战争 Ranked 天梯现在多少杯可以打？官方已将 7 月和 8 月解锁门槛降至 13000 杯，想冲天梯的玩家可以把握这次窗口期。
 date: 2026-07-16T10:30:00+08:00
 updated: 2026-07-16T10:30:00+08:00
-slug: clash-royale-ranked-trophy-requirements
+slug: ranked-trophy-requirements
 game: clashroyale
 content_type: news
 difficulty: beginner

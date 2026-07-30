@@ -1,10 +1,10 @@
 ---
 title: 狂战士精英？野蛮人精锐觉醒？还有一把金斧子！
-image: images/2026/clash-royale-august-season-elite-evolution-teaser-cover.jpg
+image: images/2026/august-season-elite-evolution-teaser-cover.jpg
 description: 皇室战争官方连续发布 8 月赛季预热图，狂战士山洞影子、野蛮人精锐镜子和金色斧子都在暗示新内容。
 date: 2026-07-26T11:30:00+08:00
 updated: 2026-07-26T11:30:00+08:00
-slug: clash-royale-august-season-elite-evolution-teaser
+slug: august-season-elite-evolution-teaser
 game: clashroyale
 content_type: news
 difficulty: beginner
@@ -29,7 +29,7 @@ keywords:
 related:
   - berserker-august-season-teaser
   - august-balance-changes-26
-  - clash-royale-ranked-trophy-requirements
+  - ranked-trophy-requirements
 wechat:
   template: redream-obsidian-blue
 draft: false
@@ -139,4 +139,4 @@ faq:
 参考来源：
 
 - 皇室战争官方 X 账号近期预热图：[Clash Royale on X](https://x.com/ClashRoyale)
-- 相关阅读：[狂战士要爆了？皇室战争官方新图疑似预告 8 月新精英或觉醒](/posts/clashroyale/2026/07/clash-royale-berserker-august-season-teaser/)
+- 相关阅读：[狂战士要爆了？皇室战争官方新图疑似预告 8 月新精英或觉醒](/posts/clashroyale/2026/07/berserker-august-season-teaser/)

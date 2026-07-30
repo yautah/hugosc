@@ -1,16 +1,16 @@
 ---
 title: 皇室战争精英狂战士登场～3费锁血开大、最强AD来了!
-image: images/2026/clash-royale-hero-berserker-guide-cover.jpeg
+image: images/2026/hero-berserker-guide-cover.jpeg
 description: 皇室战争 8 月新精英卡牌精英狂战士即将上线。本文整理精英狂战士技能机制、数值变化、解锁方式、实战用法和目前需要注意的弱点。
 date: 2026-07-29T14:30:00+08:00
 updated: 2026-07-29T14:30:00+08:00
-slug: clash-royale-hero-berserker-guide
+slug: hero-berserker-guide
 game: clashroyale
 content_type: guide
 difficulty: intermediate
 evergreen: false
+home_pinned: 4
 featured: true
-home_pinned: 2
 categories:
   - 皇室战争
 tags:
@@ -27,8 +27,8 @@ keywords:
   - 皇室战争8月新精英
   - Clash Royale Hero Berserker
 related:
-  - clash-royale-tv-royale-khaos-august-season
-  - clash-royale-august-season-elite-evolution-teaser
+  - tv-royale-khaos-august-season
+  - august-season-elite-evolution-teaser
   - berserker-august-season-teaser
 wechat:
   template: redream-obsidian-blue

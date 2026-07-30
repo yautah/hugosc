@@ -1,0 +1,28 @@
+<article class="relative group flex flex-row">
+  <a class="insert-link" href="{{ .RelPermalink }}"></a>
+  <figure class="basis-1/5 aspect-square overflow-hidden rounded-2xl bg-zinc-100">
+    {{- $page := . -}}
+    {{- $hasImage := false -}}
+    {{- with .Params.image }}
+      {{- if strings.HasPrefix . "http" }}
+        {{- $hasImage = true -}}
+        <img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ . }}" alt="{{ $page.LinkTitle }}">
+      {{- else }}
+        {{- with resources.Get . -}}
+          {{- $hasImage = true -}}
+          {{- $imglist := .Crop "250x250 Center webp q82" -}}
+          <img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="{{ $imglist.RelPermalink }}" alt="{{ $page.LinkTitle }}" width="{{ $imglist.Width }}" height="{{ $imglist.Height }}" loading="lazy" decoding="async">
+        {{- end }}
+      {{- end }}
+    {{- end }}
+
+    {{- if not $hasImage }}
+      <div class="flex h-full w-full items-center justify-center bg-zinc-200 px-3 text-center">
+        <span class="text-xs font-bold text-zinc-500">超级细胞营地</span>
+      </div>
+    {{- end }}
+  </figure>
+  <div class="basis-2/3 self-center ml-4">
+    <h3 class="font-medium group-hover:underline decoration-auto">{{ .LinkTitle }}</h3>
+  </div>
+</article>

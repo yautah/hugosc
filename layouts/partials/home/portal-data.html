@@ -6,10 +6,18 @@
 
 {{- $pinned := slice -}}
 {{- $pinnedKeys := slice -}}
-{{- range sort (where $posts "Params.home_pinned" "ne" nil) "Params.home_pinned" "asc" -}}
-  {{- if lt (len $pinned) $pinnedTarget -}}
-    {{- $pinned = $pinned | append . -}}
-    {{- $pinnedKeys = $pinnedKeys | append .RelPermalink -}}
+{{- $pinnedCandidates := where $posts "Params.home_pinned" "ne" nil -}}
+{{- $pinnedRanks := slice -}}
+{{- range sort $pinnedCandidates "Params.home_pinned" "asc" -}}
+  {{- $rank := .Params.home_pinned -}}
+  {{- if not (in $pinnedRanks $rank) -}}
+    {{- $pinnedRanks = $pinnedRanks | append $rank -}}
+    {{- range (where $pinnedCandidates "Params.home_pinned" $rank).ByDate.Reverse -}}
+      {{- if lt (len $pinned) $pinnedTarget -}}
+        {{- $pinned = $pinned | append . -}}
+        {{- $pinnedKeys = $pinnedKeys | append .RelPermalink -}}
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- if lt (len $pinned) $pinnedTarget -}}
