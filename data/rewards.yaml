@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-30"
+  synced_at: "2026-07-31"
 
 items:
+  - id: cr-357
+    game: clashroyale
+    title: "浪人战旗套装"
+    original_title: "Lantern Festival Banner Set (Ronin)"
+    type: cosmetic
+    type_label: "战旗"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz"
+    image: "images/rewards/clashroyale/cr-357.webp"
+    status: active
+    verified_at: "2026-07-31"
+    expires_at: ""
   - id: cr-348
     game: clashroyale
     title: "熊熊战旗套装（TV Royale 独占）"
@@ -43,8 +55,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz"
     image: "images/rewards/clashroyale/cr-338.webp"
-    status: active
-    verified_at: "2026-07-24"
+    status: expired
+    verified_at: "2026-07-31"
     expires_at: ""
   - id: cr-336
     game: clashroyale
@@ -334,6 +346,18 @@ items:
     status: active
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-356
+    game: brawlstars
+    title: "2 个纳米宝箱"
+    original_title: "x2 Nano Box"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-356.webp"
+    status: active
+    verified_at: "2026-07-31"
+    expires_at: ""
   - id: bs-353
     game: brawlstars
     title: "75 金币"
@@ -343,8 +367,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-353.webp"
-    status: active
-    verified_at: "2026-07-30"
+    status: expired
+    verified_at: "2026-07-31"
     expires_at: ""
   - id: bs-352
     game: brawlstars
