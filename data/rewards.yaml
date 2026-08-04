@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-07-31"
+  synced_at: "2026-08-01"
 
 items:
   - id: cr-357
@@ -297,6 +297,18 @@ items:
     image: "images/rewards/clashroyale/cr-8.webp"
     status: expired
     verified_at: "2026-07-27"
+    expires_at: ""
+  - id: bs-358
+    game: brawlstars
+    title: "1 个混沌空投"
+    original_title: "x1 Chaos Drop"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
+    image: "images/rewards/brawlstars/bs-358.webp"
+    status: active
+    verified_at: "2026-08-01"
     expires_at: ""
   - id: bs-331
     game: brawlstars
