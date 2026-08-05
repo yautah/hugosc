@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-08-01"
+  synced_at: "2026-08-04"
 
 items:
+  - id: cr-361
+    game: clashroyale
+    title: "英雄女武神表情"
+    original_title: "Hero Valkyrie Emote"
+    type: cosmetic
+    type_label: "表情"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz&storeCode=HEROVALKYRIE"
+    image: "images/rewards/clashroyale/cr-361.webp"
+    status: active
+    verified_at: "2026-08-04"
+    expires_at: ""
   - id: cr-357
     game: clashroyale
     title: "浪人战旗套装"
@@ -298,6 +310,18 @@ items:
     status: expired
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-364
+    game: brawlstars
+    title: "1 个混沌空投"
+    original_title: "x1 Chaos Drop"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=AP"
+    image: "images/rewards/brawlstars/bs-364.webp"
+    status: active
+    verified_at: "2026-08-04"
+    expires_at: ""
   - id: bs-358
     game: brawlstars
     title: "1 个混沌空投"
@@ -307,8 +331,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-358.webp"
-    status: active
-    verified_at: "2026-08-01"
+    status: expired
+    verified_at: "2026-08-04"
     expires_at: ""
   - id: bs-331
     game: brawlstars
@@ -367,8 +391,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-356.webp"
-    status: active
-    verified_at: "2026-07-31"
+    status: expired
+    verified_at: "2026-08-04"
     expires_at: ""
   - id: bs-353
     game: brawlstars
@@ -799,8 +823,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.clashofclans.com/en/?action=voucher&code=98bf5e71-ad1c-428f-8f1d-628eff317f41"
     image: "images/rewards/clashofclans/coc-351.webp"
-    status: active
-    verified_at: "2026-07-28"
+    status: expired
+    verified_at: "2026-08-04"
     expires_at: ""
   - id: coc-350
     game: clashofclans
@@ -811,8 +835,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashofclans#communityEvent"
     image: "images/rewards/clashofclans/coc-350.webp"
-    status: active
-    verified_at: "2026-07-28"
+    status: expired
+    verified_at: "2026-08-04"
     expires_at: ""
   - id: coc-332
     game: clashofclans
