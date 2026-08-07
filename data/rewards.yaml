@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-08-05"
+  synced_at: "2026-08-06"
 
 items:
   - id: cr-361
@@ -310,6 +310,30 @@ items:
     status: expired
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-367
+    game: brawlstars
+    title: "10 宝石"
+    original_title: "x10 gems"
+    type: resource
+    type_label: "宝石"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/fr/brawlstars/product/gems/ce5de354?boost=AP"
+    image: "images/rewards/brawlstars/bs-367.webp"
+    status: active
+    verified_at: "2026-08-06"
+    expires_at: ""
+  - id: bs-366
+    game: brawlstars
+    title: "2 个冰沙空投"
+    original_title: "x2 Smoothie Drop"
+    type: resource
+    type_label: "空投"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars?boost=AP"
+    image: "images/rewards/brawlstars/bs-366.webp"
+    status: active
+    verified_at: "2026-08-06"
+    expires_at: ""
   - id: bs-365
     game: brawlstars
     title: "150 闪闪币"
@@ -319,8 +343,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=AP"
     image: "images/rewards/brawlstars/bs-365.webp"
-    status: active
-    verified_at: "2026-08-05"
+    status: expired
+    verified_at: "2026-08-06"
     expires_at: ""
   - id: bs-364
     game: brawlstars
@@ -391,8 +415,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars?boost=periado"
     image: "images/rewards/brawlstars/bs-344.webp"
-    status: active
-    verified_at: "2026-07-27"
+    status: expired
+    verified_at: "2026-08-06"
     expires_at: ""
   - id: bs-356
     game: brawlstars
@@ -571,8 +595,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/gems/43c54f43?boost=periado"
     image: "images/rewards/brawlstars/bs-292.webp"
-    status: active
-    verified_at: "2026-07-23"
+    status: expired
+    verified_at: "2026-08-06"
     expires_at: ""
   - id: bs-277
     game: brawlstars
@@ -873,6 +897,30 @@ items:
     image: "images/rewards/clashofclans/coc-307.webp"
     status: expired
     verified_at: "2026-07-18"
+    expires_at: ""
+  - id: coc-369
+    game: clashofclans
+    title: "部落冲突周年庆任务"
+    original_title: "Clashiversary Quests : Complete personals quests in game in-game to earn rewards each day of the events"
+    type: resource
+    type_label: "活动"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashofclans#personal-tracker"
+    image: "images/rewards/clashofclans/coc-369.webp"
+    status: active
+    verified_at: "2026-08-06"
+    expires_at: ""
+  - id: coc-368
+    game: clashofclans
+    title: "3 个卡包"
+    original_title: "x3 Card Pack"
+    type: resource
+    type_label: "卡包"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashofclans/product/free-gift-/c7c014ab"
+    image: "images/rewards/clashofclans/coc-368.webp"
+    status: active
+    verified_at: "2026-08-06"
     expires_at: ""
   - id: coc-14
     game: clashofclans
