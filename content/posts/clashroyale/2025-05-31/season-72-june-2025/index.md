@@ -8,6 +8,7 @@ categories:
   - 皇室战争
 tags:
   - 资讯
+noindex: true
 draft: false
 ---
 准备好在《皇室战争》第72赛季中释放你内心的驯龙高手吧！

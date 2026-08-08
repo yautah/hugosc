@@ -12,6 +12,7 @@ keywords:
   - 皇室战争
   - 74 赛季
   - 觉醒熔炉
+noindex: true
 draft: false
 ---
 

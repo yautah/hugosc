@@ -9,6 +9,7 @@ categories:
 tags:
   - 资讯
   - 游戏更新
+noindex: true
 draft: false
 ---
 《爆裂小队》(Squad Busters)将于**6月17日**迎来重要内容更新。

@@ -13,6 +13,7 @@ keywords:
   - 皇室战争
   - 皇室奇兵
   - 皇室战争联赛
+noindex: true
 draft: false
 ---
 

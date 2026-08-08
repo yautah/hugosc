@@ -13,6 +13,7 @@ keywords:
   - 乱斗躲避球
   - 荣誉之路
   - 天使恶魔皮肤
+noindex: true
 draft: false
 tags:
   - 游戏更新

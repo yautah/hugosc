@@ -8,6 +8,7 @@ categories:
   - 荒野乱斗
 tags:
   - 资讯
+noindex: true
 draft: false
 ---
 Matcherino 正在更新它的 荒野乱斗赛事计划。这次更新主要是为了让选手、主办方和玩家都能有更多回报。新的规则让比赛更简单，也有了更多奖励。这次还加入了两个新的表情。

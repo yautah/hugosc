@@ -15,6 +15,7 @@ keywords:
   - 新卡牌
   - 精灵女皇
   - 73 赛季
+noindex: true
 draft: false
 ---
 

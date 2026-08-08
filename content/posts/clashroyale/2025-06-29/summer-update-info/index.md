@@ -12,6 +12,7 @@ keywords:
   - 奖杯上限
   - 排名模式
   - 合并战术
+noindex: true
 draft: false
 tags:
   - 资讯

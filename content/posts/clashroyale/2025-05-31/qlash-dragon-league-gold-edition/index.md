@@ -9,6 +9,7 @@ categories:
 tags:
   - 资讯
   - CRL2025
+noindex: true
 draft: false
 ---
 

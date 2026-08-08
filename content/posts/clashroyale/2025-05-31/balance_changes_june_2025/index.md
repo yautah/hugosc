@@ -11,6 +11,7 @@ categories:
 tags:
   - 资讯
   - 平衡性调整
+noindex: true
 draft: false
 ---
 六月份平衡性调整最终方案出炉！

@@ -10,6 +10,7 @@ categories:
 tags:
   - 皇室资讯
   - 卡牌觉醒 
+noindex: true
 draft: false
 ---
 

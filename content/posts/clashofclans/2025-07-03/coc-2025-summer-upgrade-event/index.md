@@ -13,6 +13,7 @@ categories:
   - 部落冲突
 tags:
   - 资讯
+noindex: true
 ---
 
 首领们，是时候加速你的村庄发展了！

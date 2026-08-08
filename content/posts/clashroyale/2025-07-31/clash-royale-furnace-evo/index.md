@@ -14,6 +14,7 @@ keywords:
   - 皇室战争
   - 觉醒熔炉
   - 熔炉
+noindex: true
 draft: false
 ---
 

@@ -9,6 +9,7 @@ categories:
 tags:
   - 资讯
   - 卡牌觉醒
+noindex: true
 draft: false
 ---
 

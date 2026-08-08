@@ -12,6 +12,7 @@ keywords:
   - 英雄
   - 预览
   - 双形态
+noindex: true
 draft: false
 tags:
   - 资讯

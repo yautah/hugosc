@@ -12,6 +12,7 @@ keywords:
   - 皇室战争
   - 烈焰熔炉
   - 卡牌重做
+noindex: true
 draft: false
 ---
 

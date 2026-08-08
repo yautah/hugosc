@@ -9,6 +9,7 @@ categories:
   - 部落冲突
 tags:
   - 资讯
+noindex: true
 draft: false
 ---
 

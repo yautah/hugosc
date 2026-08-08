@@ -14,6 +14,7 @@ keywords:
   - 卡牌觉醒
   - 觉醒骨球
   - 觉醒骷髅气球
+noindex: true
 draft: false
 ---
 

@@ -11,6 +11,7 @@ keywords:
   - 英雄皮肤
   - 黄金令牌
   - 赛季更新
+noindex: true
 draft: false
 tags:
   - 赛季更新
