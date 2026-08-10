@@ -1,15 +1,16 @@
 ---
 title: mo.co 赛季制还缺什么？从玩家反馈和团队 QA 看长期进度、武器天赋和裂谷玩法
 image: images/2026/moco-qa-cover.jpg
-description: mo.co 新版本的战斗依然好玩，但玩家也在担心后期目标不够。结合 Joao AMA 和社区反馈，聊聊武器天赋、核心槽、裂谷机制和长期留存。
+description: mo.co 赛季制上线后，玩家开始担心长期目标、武器天赋、核心槽和裂谷玩法是否足够撑住留存。本文结合 Joao AMA 与社区反馈，整理 mo.co 后续最需要补强的系统方向。
 date: 2026-07-21T15:20:00+08:00
-updated: 2026-07-21T23:00:42+08:00
+updated: 2026-08-09T00:00:00+08:00
 slug: moco-long-term-progression-feedback
 game: moco
 content_type: commentary
 difficulty: intermediate
 evergreen: false
-featured: false
+ads: true
+featured: true
 categories:
   - moco
 tags:
@@ -26,6 +27,8 @@ keywords:
   - moco 核心槽
   - moco 裂谷
   - moco 玩家反馈
+  - moco 留存
+  - moco 武器平衡
 related:
   - neo-moco-season-3-more-monsters-more-weapons
 wechat:
@@ -52,6 +55,8 @@ mo.co 第三赛季上线后，大家最先聊的肯定是三把新武器：嗜�
 > 大家喜欢 mo.co 的战斗，但担心战斗之外缺少足够长线的目标。
 
 这不是一句空话。mo.co 现在已经不是单纯“上线一个新章节”的节奏，而是在尝试用赛季、武器冲刺、轮换内容和精英玩法维持活跃。如果长期进度撑不住，新武器再有趣，也很容易变成“玩几天，等下个月”的循环。
+
+最后核验时间为 2026 年 8 月 9 日。本文更偏系统分析，不是版本速报；后续如果 mo.co 对核心槽、裂谷或武器天赋做了实装调整，这篇会更适合作为回看当时问题的参考。
 
 ## QA 里官方其实说得很直白
 

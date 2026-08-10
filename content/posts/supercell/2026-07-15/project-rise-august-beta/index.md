@@ -1,15 +1,16 @@
 ---
-title: Project R.I.S.E 8 月 Beta 测试即将开启：从三次 Alpha 到这次回归
+title: Project R.I.S.E 8 月 Beta 测试前瞻：从三次 Alpha 到这次回归
 image: /images/2026/image_3333339.webp
-description: Project R.I.S.E 开发者确认 2026 年 8 月会有 Beta 测试。本文整理测试时间线、前三次 Alpha 情况、去年取消 Beta 的原因，以及新版本高塔和英雄系统变化。
+description: Project R.I.S.E 预计在 2026 年 8 月迎来 Beta 测试。本文整理前三次 Alpha、去年取消 Beta 的原因，以及新版高塔路线、英雄套组和测试资格需要关注的信息。
 date: 2026-07-15T11:10:00+08:00
-updated: 2026-07-15T11:10:00+08:00
+updated: 2026-08-09T00:00:00+08:00
 slug: project-rise-august-beta
 game: supercell
 content_type: news
 difficulty: beginner
 evergreen: false
-featured: false
+ads: true
+featured: true
 categories:
   - 超级细胞
 tags:
@@ -22,10 +23,20 @@ keywords:
   - Supercell Project Rise
   - Clash Heroes
   - 超级细胞新游
-related: []
+  - Project RISE 测试资格
+  - Project RISE Alpha
+related:
+  - /posts/moco/2026/07/moco-long-term-progression-feedback/
 wechat:
   template: redream-obsidian-blue
 draft: false
+faq:
+  - question: Project R.I.S.E 8 月 Beta 有具体日期了吗？
+    answer: 截至 2026 年 8 月 9 日，公开信息仍以“8 月会有测试”为主，具体日期、地区、平台和资格发放方式还需要等官方进一步公布。
+  - question: Project R.I.S.E 和 Clash Heroes 是什么关系？
+    answer: Project R.I.S.E 可以理解为 Clash Heroes 重启后的新项目，仍然使用 Clash 世界观，但更强调多人合作、英雄动作和爬塔构筑。
+  - question: 这次 Beta 和前三次 Alpha 最大区别是什么？
+    answer: 重点在高塔结构和英雄系统。新版高塔会按不同难度路线组织，英雄也会有更完整的基础套组和局内成长，而不是只靠简单数值升级。
 ---
 沉寂了很久之后，**Project R.I.S.E** 终于又有新消息了。
 
@@ -34,6 +45,8 @@ draft: false
 ![Project R.I.S.E 开发者在 Discord 中确认 8 月会有 Beta 测试](project-rise-discord-beta.png)
 
 也就是说，Supercell 这款从 Clash Heroes 延续而来的合作动作新游，预计将在 **2026 年 8 月迎来一次 Beta 测试**。目前官方还没有公布具体日期、地区、平台和资格获取方式，但至少方向已经很明确：这一次，它真的要重新出塔了。
+
+最后核验时间为 2026 年 8 月 9 日。本文会继续以“测试前瞻和历史整理”为主，具体日期、地区和资格方式仍以官方后续公告为准。
 
 ## 8 月 Beta 目前已知信息
 
@@ -134,7 +147,7 @@ Project R.I.S.E 并不是第一次测试。过去几年内，它已经经历过�
 
 根据开发团队最近在 Discord 发布的说明，去年原本计划的 Beta 被取消，并不是单纯因为“还差一点打磨”，而是因为团队认为当时的游戏在结构上还不够好。
 
-开发人员的说法很直接：他们回头看 Beta 前的版本，觉得他的根本问题是结构上海不够好。
+开发人员的说法很直接：他们回头看 Beta 前的版本，觉得它的问题不是差一点打磨，而是结构本身还不够好。
 
 这其实和去年那套前瞻方向能对上。
 
@@ -249,7 +262,7 @@ Project R.I.S.E 并不是第一次测试。过去几年内，它已经经历过�
 
 我的看法是：值得期待，但也不用无脑乐观。
 
-值得期待的地方在于，Project R.I.S.E 的底子一直不差。Clash 世界观、合作动作、英雄成长、爬塔构筑，这几个关键词单看似乎都很有潜力，但揉到一起却不是那么回事。前三次 Alpha 里，抛开其他的问题，单从乐趣上来说，这款游戏还是缺失的。
+值得期待的地方在于，Project R.I.S.E 的底子一直不差。Clash 世界观、合作动作、英雄成长、爬塔构筑，这几个关键词单看似乎都很有潜力，但揉到一起并不容易。前三次 Alpha 里，抛开匹配、成长和内容深度这些问题，单看“和朋友一起打怪爬塔”这件事，它的乐趣是成立的。
 
 而且风险也很现实。
 
@@ -275,6 +288,6 @@ Supercell 这些年被砍掉的项目太多了，Project R.I.S.E 这种还没正
 
 我会继续关注这次测试。如果后续公布具体时间、测试地区、下载安装方式、资格获取方法，或者出现新的开发者说明，我也会第一时间整理。
 
-想第一时间知道 Project R.I.S.E 8 月 Beta 怎么参加，记得持续关注我有。
+想第一时间知道 Project R.I.S.E 8 月 Beta 怎么参加，后续可以重点关注官方 Discord、社媒公告和社区创作者渠道。
 
 高塔见～
