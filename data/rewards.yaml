@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-08-09"
+  synced_at: "2026-08-10"
 
 items:
   - id: cr-373
@@ -321,6 +321,18 @@ items:
     image: "images/rewards/clashroyale/cr-8.webp"
     status: expired
     verified_at: "2026-07-27"
+    expires_at: ""
+  - id: bs-383
+    game: brawlstars
+    title: "1 个混沌空投"
+    original_title: "x1 Chaos Drop"
+    type: resource
+    type_label: "空投"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/fr/brawlstars?boost=AP"
+    image: "images/rewards/brawlstars/bs-383.webp"
+    status: active
+    verified_at: "2026-08-10"
     expires_at: ""
   - id: bs-380
     game: brawlstars
@@ -945,6 +957,18 @@ items:
     image: "images/rewards/clashofclans/coc-307.webp"
     status: expired
     verified_at: "2026-07-18"
+    expires_at: ""
+  - id: coc-381
+    game: clashofclans
+    title: "1 个免费卡包"
+    original_title: "x1 Free Card Pack"
+    type: resource
+    type_label: "卡包"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=9f7dea72-b0b8-4d1a-bef2-58958aea0a4e"
+    image: "images/rewards/clashofclans/coc-381.webp"
+    status: active
+    verified_at: "2026-08-10"
     expires_at: ""
   - id: coc-379
     game: clashofclans
