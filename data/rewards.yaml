@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-08-12"
+  synced_at: "2026-08-13"
 
 items:
   - id: cr-373
@@ -909,6 +909,18 @@ items:
     image: "images/rewards/brawlstars/bs-20.webp"
     status: active
     verified_at: "2026-07-23"
+    expires_at: ""
+  - id: coc-386
+    game: clashofclans
+    title: "100 枚活动奖章"
+    original_title: "x100 Event Medals"
+    type: resource
+    type_label: "资源"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashofclans/product/quest-medals/14a19553"
+    image: "images/rewards/clashofclans/coc-386.webp"
+    status: active
+    verified_at: "2026-08-13"
     expires_at: ""
   - id: coc-351
     game: clashofclans
