@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-08-15"
+  synced_at: "2026-08-16"
 
 items:
+  - id: cr-391
+    game: clashroyale
+    title: "250 个赛季代币"
+    original_title: "x250 Season Tokens"
+    type: resource
+    type_label: "赛季代币"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashroyale.com/?action=voucher&code=ca8d436a-5bc4-4ae4-afd2-786d4b753eac"
+    image: "images/rewards/clashroyale/cr-391.webp"
+    status: active
+    verified_at: "2026-08-16"
+    expires_at: ""
   - id: cr-373
     game: clashroyale
     title: "5 万金币（每周奖励）"
@@ -1015,8 +1027,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashofclans#personal-tracker"
     image: "images/rewards/clashofclans/coc-369.webp"
-    status: active
-    verified_at: "2026-08-06"
+    status: expired
+    verified_at: "2026-08-16"
     expires_at: ""
   - id: coc-368
     game: clashofclans

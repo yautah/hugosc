@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141B2F"/>
+      <stop offset="0.55" stop-color="#1D2750"/>
+      <stop offset="1" stop-color="#221833"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F7C948"/>
+      <stop offset="1" stop-color="#FF7A45"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+    <style>
+      text {
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+        dominant-baseline: middle;
+      }
+      .title { fill: #FFFFFF; font-size: 56px; font-weight: 800; letter-spacing: 0; }
+      .subtitle { fill: #AEB9D8; font-size: 28px; font-weight: 600; letter-spacing: 0; }
+      .platform { fill: #F7C948; font-size: 42px; font-weight: 900; letter-spacing: 0; }
+      .label { fill: #AEB9D8; font-size: 26px; font-weight: 800; letter-spacing: 0; }
+      .value { fill: #FFFFFF; font-size: 38px; font-weight: 850; letter-spacing: 0; }
+      .note { fill: #CCD5EF; font-size: 34px; font-weight: 760; letter-spacing: 0; }
+      .tag { fill: #151B2A; font-size: 22px; font-weight: 800; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="none"/>
+
+  <g filter="url(#shadow)">
+    <rect x="130" y="105" width="1340" height="690" rx="42" fill="url(#card)"/>
+    <rect x="130" y="105" width="1340" height="690" rx="42" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  </g>
+
+  <rect x="130" y="105" width="1340" height="14" rx="7" fill="url(#accent)"/>
+
+  <g transform="translate(190 185)">
+    <rect x="0" y="0" width="206" height="44" rx="22" fill="url(#accent)"/>
+    <text x="103" y="23" text-anchor="middle" class="tag">DEVICE REQ</text>
+    <text x="0" y="104" class="title">Project R.I.S.E 设备要求</text>
+    <text x="0" y="158" class="subtitle">Beta 测试支持 iOS 和 Android，老设备可能会被挡在门外</text>
+  </g>
+
+  <g transform="translate(190 395)">
+    <rect x="0" y="0" width="1220" height="166" rx="28" fill="#FFFFFF" fill-opacity="0.07"/>
+    <rect x="0" y="0" width="6" height="166" rx="3" fill="#F7C948"/>
+    <text x="42" y="83" class="platform">iOS</text>
+    <text x="245" y="48" class="label">最低要求</text>
+    <text x="375" y="48" class="value">iOS 17 或更高；iPhone XS 或更新机型</text>
+    <text x="245" y="116" class="label">推荐配置</text>
+    <text x="375" y="116" class="note">iPhone 11 或更新机型</text>
+  </g>
+
+  <g transform="translate(190 595)">
+    <rect x="0" y="0" width="1220" height="166" rx="28" fill="#FFFFFF" fill-opacity="0.07"/>
+    <rect x="0" y="0" width="6" height="166" rx="3" fill="#FF7A45"/>
+    <text x="42" y="83" class="platform">Android</text>
+    <text x="245" y="48" class="label">最低要求</text>
+    <text x="375" y="48" class="value">Android 11 或更高；至少 4GB RAM</text>
+    <text x="245" y="116" class="label">推荐配置</text>
+    <text x="375" y="116" class="note">官方暂未单独公布</text>
+  </g>
+</svg>
