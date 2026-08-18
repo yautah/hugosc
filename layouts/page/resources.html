@@ -1,0 +1,120 @@
+{{ define "css" }}
+  {{ with resources.Get "css/scbase-resources.css" }}
+    {{ $resourcesCSS := . | fingerprint }}
+    <link rel="stylesheet" href="{{ $resourcesCSS.RelPermalink }}">
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{- $downloadLinks := site.Data.resources.downloadLinks -}}
+{{- $updated := .Date -}}
+{{- with .Params.updated -}}
+  {{- $updated = time . -}}
+{{- else with .Params.lastmod -}}
+  {{- $updated = time . -}}
+{{- end -}}
+
+<section class="sc-resources-hero">
+  <div class="sc-resources-hero-copy">
+    <h1>游戏下载、素材和实用工具</h1>
+    <p>这里集中整理超级细胞旗下游戏的国际服客户端、表情包、壁纸、动画素材和常用工具。</p>
+  </div>
+  <time class="sc-resources-date" datetime="{{ $updated.Format "2006-01-02" }}">
+    更新于 {{ $updated.Format "2006-01-02" }}
+  </time>
+</section>
+
+{{- range site.Data.resources.downloads }}
+  <section class="sc-resources-section">
+    <div class="sc-resources-section-head">
+      <div>
+        <h2>{{ .title }}</h2>
+        <p>{{ .description }}</p>
+      </div>
+    </div>
+
+    <div class="sc-resources-download-grid{{ if eq .title "表情、壁纸以及素材资源" }} sc-resources-download-grid-compact{{ end }}">
+      {{- range .items }}
+        <article class="sc-resource-card sc-resource-card-{{ .class }}">
+          <div class="sc-resource-card-main">
+            <span class="sc-resource-icon">
+              {{- if .iconKey -}}
+                {{ partial "resources/icon.html" .iconKey }}
+              {{- else -}}
+                <img src="{{ .icon }}" alt="">
+              {{- end -}}
+            </span>
+            <div>
+              <h3>{{ .title }}</h3>
+              <p>{{ .description }}</p>
+            </div>
+          </div>
+          <div class="sc-resource-card-footer">
+            <div class="sc-resource-actions">
+              {{- range $downloadLinks }}
+                <a href="{{ .href }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .title }}</a>
+              {{- end }}
+            </div>
+          </div>
+        </article>
+      {{- end }}
+    </div>
+  </section>
+{{- end }}
+
+<section class="sc-resources-section sc-resources-tools">
+  <div class="sc-resources-section-head">
+    <div>
+      <h2>实用工具</h2>
+      <p>整理玩家常用的外部工具和开源项目，适合查询数据、制作素材或辅助内容整理。</p>
+    </div>
+  </div>
+
+  {{- range site.Data.tools.groups }}
+    {{- $visibleItems := slice -}}
+    {{- range .items }}
+      {{- if and (ne .href "/resources/") (ne .class "squad") (ne .href "/kl/") }}
+        {{- $visibleItems = $visibleItems | append . -}}
+      {{- end }}
+    {{- end }}
+    {{- if gt (len $visibleItems) 0 }}
+      <div class="sc-resources-tool-group">
+        <h3>{{ .title }}</h3>
+        <div class="sc-resources-tool-grid">
+          {{- range $visibleItems }}
+            <a class="sc-resource-tool sc-resource-card-{{ .class }}" href="{{ .href }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>
+              <span class="sc-resource-tool-icon"><img src="{{ .icon }}" alt=""></span>
+              <span class="sc-resource-tool-copy">
+                <strong>{{ .title }}</strong>
+                <span>{{ .description }}</span>
+              </span>
+            </a>
+          {{- end }}
+        </div>
+      </div>
+    {{- end }}
+  {{- end }}
+</section>
+
+<section class="sc-resources-guide" aria-labelledby="resource-guide-title">
+  <div class="sc-resources-guide-title">
+    <h2 id="resource-guide-title">使用说明</h2>
+    <p>资源页只保留长期可用或高频需要的入口，方便安装、更新、配图和日常查询。</p>
+  </div>
+  <div class="sc-resources-guide-grid">
+    <div>
+      <h3>安装包格式</h3>
+      <p>安卓安装包可能是 apk、xapk 或 apkm。apk 通常可以直接安装，xapk 和 apkm 往往需要配合安装器导入。不同手机系统的限制不一样，安装前建议先确认文件来源和系统提示。</p>
+    </div>
+    <div>
+      <h3>资源维护方式</h3>
+      <p>网盘入口会按游戏版本和常用素材更新维护。夸克网盘和百度网盘保留为两个访问通道，主要是为了兼顾不同设备和网络环境；如果其中一个入口失效，可以优先尝试另一个。</p>
+    </div>
+    <div>
+      <h3>下载前请确认</h3>
+      <p>本站只整理公开资源入口，不会要求提供账号密码或邮箱验证码。安装包、网盘和外部工具可能随版本变化失效，使用前请自行确认来源和文件安全。</p>
+    </div>
+  </div>
+</section>
+
+{{ end }}

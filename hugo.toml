@@ -75,8 +75,8 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 		pageRef = '/moco'
 		weight = 50
 	[[menu.main]]
-		name = '工具'
-		pageRef = '/tools'
+		name = '资源'
+		pageRef = '/resources'
 		weight = 60
 	[[menu.main]]
 		name = '关于'

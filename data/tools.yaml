@@ -4,38 +4,13 @@ groups:
       - title: 超级细胞全家桶
         description: 超级细胞旗下游戏的安装包、安装工具、表情、动画、视频等。
         href: /resources/
-        icon: /global_banner.jpg
+        icon: /cloud.png
         class: neutral
         chips:
           - 站内资源
           - 游戏下载
-      - title: 爆裂小队国服宝箱查询
-        description: 输入玩家信息，快速查看后续宝箱序列。
-        href: /sb-chests/
-        icon: /sb-chests/assets/chest_epic.png
-        class: squad
-        chips:
-          - 站内可用
-          - 爆裂小队
-      - title: 皇室小蜜收藏等级查询
-        description: 查询收藏等级、国王塔等级和版本奖励等信息。
-        href: /kl/
-        icon: /kl/assets/collection-level.png
-        class: royale
-        chips:
-          - 站内可用
-          - 皇室战争
   - title: 外部工具
     items:
-      - title: 爆裂小队国际服宝箱查询
-        description: 面向国际服玩家的宝箱序列查询入口。
-        href: https://yautah.github.io/sb-chests/
-        icon: /sb-chests/assets/chest_epic.png
-        class: squad
-        external: true
-        chips:
-          - 外部链接
-          - 爆裂小队
       - title: 超级细胞背景生成器
         description: 生成超级细胞风格背景图，用于文章和社媒配图。
         href: http://www.madn.xyz/sc-background/
@@ -50,7 +25,7 @@ groups:
       - title: 超级细胞资源下载器
         description: 下载和整理游戏资源，辅助文章素材与资料整理。
         href: https://github.com/yautah/scdownload
-        icon: /global_banner.jpg
+        icon: /cloud.png
         class: neutral
         external: true
         chips:

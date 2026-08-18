@@ -1,0 +1,51 @@
+downloadLinks:
+  - title: 夸克网盘
+    href: https://pan.quark.cn/s/a1958db3c9c5
+    external: true
+  - title: 百度网盘
+    href: https://pan.baidu.com/s/1_GZBdd72GBcCDRgQTjCCcg?pwd=7vay
+    external: true
+
+downloads:
+  - title: 游戏客户端
+    description: 按游戏整理常用国际服安装包入口，适合安装、更新或重装时快速查找。
+    items:
+      - title: 皇室战争国际服
+        description: Clash Royale 国际服客户端，适合需要安装、更新或重装的玩家。
+        icon: /royale.svg
+        class: royale
+      - title: 荒野乱斗国际服
+        description: Brawl Stars 国际服客户端，包含常用安装包和版本更新资源。
+        icon: /brawl.svg
+        class: brawl
+      - title: 部落冲突国际服
+        description: Clash of Clans 国际服客户端，适合需要手动安装或更新的玩家。
+        icon: /clash.svg
+        class: clan
+      - title: Mo.Co 国际服
+        description: Mo.Co 国际服客户端和测试期相关安装资源。
+        icon: /moco.svg
+        class: moco
+      - title: 海岛奇兵国际服
+        description: Boom Beach 国际服客户端，适合需要手动安装和版本维护的玩家。
+        iconKey: boom
+        class: boom
+      - title: 卡通农场国际服
+        description: Hay Day 国际服客户端，适合需要手动安装或更新的玩家。
+        iconKey: hay
+        class: hay
+  - title: 表情、壁纸以及素材资源
+    description: 收录适合文章配图、社群交流和个人收藏的图片、表情与视频素材。
+    items:
+      - title: 超级细胞表情包
+        description: 整理常见表情、头像和社群传播素材，适合聊天、文章和社媒使用。
+        iconKey: emote
+        class: neutral
+      - title: 游戏壁纸
+        description: 收录部分官方壁纸、活动视觉和适合作为桌面或手机背景的图片资源。
+        iconKey: wallpaper
+        class: neutral
+      - title: 动画与视频素材
+        description: 整理常见官方动画、短片和视频素材入口，方便查找和收藏。
+        iconKey: video
+        class: neutral

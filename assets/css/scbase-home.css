@@ -68,6 +68,23 @@
   border-top: 0;
 }
 
+.hp-carousel-section {
+  padding-bottom: 8px;
+}
+
+.hp-carousel-section + .hp-section {
+  padding-top: 10px;
+  border-top: 0;
+}
+
+#latest {
+  border-top: 0;
+}
+
+#latest + .hp-section {
+  border-top: 0;
+}
+
 .hp-section-first {
   padding-top: 22px;
 }

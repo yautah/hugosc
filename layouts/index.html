@@ -10,8 +10,8 @@
 {{- $portal := partial "home/portal-data.html" . -}}
 {{- partial "home/pinned.html" $portal.pinned -}}
 {{- partial "home/popular.html" $portal.popular -}}
-{{- partial "home/latest.html" $portal.latest -}}
 {{- partial "home/tools.html" . -}}
+{{- partial "home/latest.html" $portal.latest -}}
 {{- partial "home/channels.html" . -}}
 
 {{ with resources.Get "js/scbase-home.js" | minify | fingerprint }}
