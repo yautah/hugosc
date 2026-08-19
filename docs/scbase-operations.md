@@ -205,7 +205,54 @@ evergreen: true
 
 `evergreen` 不会自动进入首页热门。如果某篇长期攻略需要首页入口，应额外配置 `home_popular`。
 
-## 7. 免费奖励数据
+## 7. 资源页与旧工具入口
+
+资源中心的公开入口是：
+
+```text
+/resources/
+```
+
+旧 `/tools/` 只作为历史兼容入口保留，由 `content/resources.md` 的 `aliases` 生成 `noindex` 跳转页。导航、Footer、首页常用入口、站内链接和对外提交 URL 都应使用 `/resources/`，不要再新增指向 `/tools/` 的链接。
+
+当前职责边界：
+
+- `/resources/`：游戏下载、表情、壁纸、动画素材和实用工具入口。
+- `/rewards/`：限时免费奖励、兑换链接、活动奖励入口。
+- 两者不要合并；资源页不放限时奖励列表，奖励页不放普通下载和素材网盘。
+
+资源页数据维护：
+
+- 下载和素材入口维护在 `data/resources.yaml`。
+- 通用网盘链接维护在 `downloadLinks`，当前包括夸克网盘和百度网盘。
+- 下载卡片分组维护在 `downloads`，每个条目使用 `title`、`description`、`class`、`iconKey` 或 `icon`。
+- `iconKey` 对应 `layouts/partials/resources/icon.html` 中的内置 SVG；如果使用图片图标，优先放在 `static/` 或 `assets/` 中并确认路径稳定。
+- 游戏客户端目前包括皇室战争、荒野乱斗、部落冲突、Mo.Co、海岛奇兵和卡通农场；爆裂小队已退役，不再出现在资源页。
+- 表情、壁纸和动画视频素材作为独立分组维护，后续可以按游戏继续细分。
+
+工具入口维护：
+
+- 工具数据继续维护在 `data/tools.yaml`。
+- 资源页会复用工具数据，但会过滤 `/resources/`、`/kl/` 和 `class: squad` 的旧入口。
+- 如果某个工具已经过时，应从 `data/tools.yaml` 删除或调整，不要只依赖模板或 CSS 隐藏。
+- 首页“常用”模块维护在 `layouts/partials/home/tools.html`，当前资源中心、免费奖励和高频外部工具优先放在前面。
+
+修改资源页、工具数据或首页常用入口后，至少执行：
+
+```bash
+hugo --cleanDestinationDir --minify
+git diff --check
+rg -n '(/tools/|工具</a>|爆裂小队|收藏等级查询|超级细胞官方素材站)' public/index.html public/resources/index.html public/sitemap.xml public/tools/index.html
+```
+
+预期结果：
+
+- `public/resources/index.html` 正常生成并进入 sitemap。
+- `public/tools/index.html` 为 `noindex` 跳转页，不进入 sitemap。
+- 首页和资源页不再出现旧工具入口、爆裂小队、收藏等级查询和超级细胞官方素材站卡片。
+- AdSense 复审前，资源页、工具页、奖励页等资料型页面不输出广告代码。
+
+## 8. 免费奖励数据
 
 奖励数据统一维护在：
 
@@ -314,7 +361,7 @@ git ls-files -- assets/images/rewards/
 /rewards/clash-of-clans/
 ```
 
-## 8. 皇室战争卡牌与卡组
+## 9. 皇室战争卡牌与卡组
 
 详细架构和数据源边界见 [`scbase-clash-royale-cards-decks-spec.md`](scbase-clash-royale-cards-decks-spec.md)。原型数据位于：
 
@@ -389,7 +436,7 @@ hugo --minify
 /clashroyale/decks/hog-cycle-classic/
 ```
 
-## 9. 图片管理
+## 10. 图片管理
 
 - `assets/images/`：需要 Hugo 裁剪、转换、压缩或指纹处理的站点资源。
 - 文章同级图片：文章正文使用的 Page Resource。
@@ -398,7 +445,7 @@ hugo --minify
 
 首页置顶和热门封面会由 Hugo 自动裁剪。重要入口应单独准备封面，不要直接拿正文小图或透明图标作为首页封面。
 
-## 10. 本地预览与上线检查
+## 11. 本地预览与上线检查
 
 本地预览：
 
@@ -434,7 +481,7 @@ git status --short
 6. 桌面端和移动端是否存在横向溢出。
 7. 浏览器控制台是否出现资源加载错误。
 
-## 11. 百度主动提交
+## 12. 百度主动提交
 
 未备案站点当前不能在百度搜索资源平台使用 Sitemap 提交入口。`static/robots.txt` 中仍保留 Sitemap 声明，供支持它的搜索引擎和爬虫发现；百度的主动收录以普通收录 API 为准。
 
@@ -464,7 +511,7 @@ BAIDU_PUSH_TOKEN='重新生成的 token' npm run submit:baidu -- --file urls.txt
 - 提交前确认 URL 使用唯一主域 `https://scbase.cn`，不要提交 `www.scbase.cn`。
 - 百度控制台示例中的 `site=https://scbase.cn` 会触发 `400 site init fail`；脚本会自动将 API 参数规范化为纯域名 `site=scbase.cn`，正文 URL 仍保持完整的 HTTPS 地址。
 
-## 12. 常见问题
+## 13. 常见问题
 
 ### 首页顺序和预期不一致
 
