@@ -35,6 +35,10 @@
 
     <div class="sc-resources-download-grid{{ if eq .title "表情、壁纸以及素材资源" }} sc-resources-download-grid-compact{{ end }}">
       {{- range .items }}
+        {{- $links := $downloadLinks -}}
+        {{- with .links -}}
+          {{- $links = . -}}
+        {{- end -}}
         <article class="sc-resource-card sc-resource-card-{{ .class }}">
           <div class="sc-resource-card-main">
             <span class="sc-resource-icon">
@@ -51,7 +55,7 @@
           </div>
           <div class="sc-resource-card-footer">
             <div class="sc-resource-actions">
-              {{- range $downloadLinks }}
+              {{- range $links }}
                 <a href="{{ .href }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .title }}</a>
               {{- end }}
             </div>

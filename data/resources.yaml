@@ -26,6 +26,17 @@ downloads:
         description: Mo.Co 国际服客户端和测试期相关安装资源。
         icon: /moco.svg
         class: moco
+      - title: Project R.I.S.E 测试服
+        description: Project R.I.S.E 测试客户端，适合参与测试或想要尝鲜的玩家。
+        iconKey: rise
+        class: rise
+        links:
+          - title: 夸克网盘
+            href: https://pan.quark.cn/s/4d465c45b037?pwd=crFt
+            external: true
+          - title: 百度网盘
+            href: https://pan.baidu.com/s/1Ih6zZiUv0olj6xMt4UnVag?pwd=pa1i
+            external: true
       - title: 海岛奇兵国际服
         description: Boom Beach 国际服客户端，适合需要手动安装和版本维护的玩家。
         iconKey: boom

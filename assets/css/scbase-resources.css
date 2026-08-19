@@ -217,6 +217,11 @@
   --sc-resource-icon-bg: #f0fae9;
 }
 
+.sc-resource-card-rise {
+  --sc-resource-accent: #64748b;
+  --sc-resource-icon-bg: #f4f7fb;
+}
+
 .sc-resource-card-neutral {
   --sc-resource-accent: #64748b;
   --sc-resource-icon-bg: #f4f4f5;
