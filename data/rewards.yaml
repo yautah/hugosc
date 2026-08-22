@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-08-20"
+  synced_at: "2026-08-21"
 
 items:
   - id: cr-391
@@ -333,6 +333,30 @@ items:
     image: "images/rewards/clashroyale/cr-8.webp"
     status: expired
     verified_at: "2026-07-27"
+    expires_at: ""
+  - id: bs-403
+    game: brawlstars
+    title: "1 个混沌空投"
+    original_title: "x1 Chaos Drop"
+    type: resource
+    type_label: "空投"
+    redeem_type: direct_link
+    redeem_url: "https://link.brawlstars.com/voucher/7496c7ab-c9df-4cec-a1b3-b5f35ba17c3d"
+    image: "images/rewards/brawlstars/bs-403.webp"
+    status: active
+    verified_at: "2026-08-21"
+    expires_at: ""
+  - id: bs-397
+    game: brawlstars
+    title: "1 个温迪宝箱"
+    original_title: "x1 Wendy Box"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: direct_link
+    redeem_url: "https://link.brawlstars.com/voucher/7227944b-5edf-40fa-9a50-4b3449cd4d64/"
+    image: "images/rewards/brawlstars/bs-397.webp"
+    status: active
+    verified_at: "2026-08-21"
     expires_at: ""
   - id: bs-383
     game: brawlstars
