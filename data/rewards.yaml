@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-08-28"
+  synced_at: "2026-08-29"
 
 items:
+  - id: cr-421
+    game: clashroyale
+    title: "冰法英雄战旗套装"
+    original_title: "Ice Wizard Hero : Banner Set"
+    type: cosmetic
+    type_label: "战旗"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashroyale.com/?action=voucher&code=0bf05679-0b49-4197-b42f-2ce53a4c79b8"
+    image: "images/rewards/clashroyale/cr-421.webp"
+    status: active
+    verified_at: "2026-08-29"
+    expires_at: ""
   - id: cr-391
     game: clashroyale
     title: "250 个赛季代币"
@@ -333,6 +345,18 @@ items:
     image: "images/rewards/clashroyale/cr-8.webp"
     status: expired
     verified_at: "2026-07-27"
+    expires_at: ""
+  - id: bs-419
+    game: brawlstars
+    title: "骷髅蜡烛喷漆"
+    original_title: "Skull Candle Spray"
+    type: cosmetic
+    type_label: "喷漆"
+    redeem_type: direct_link
+    redeem_url: "https://link.brawlstars.com/voucher/04b98c55-f411-4656-bbec-ef47b46ef1fa"
+    image: "images/rewards/brawlstars/bs-419.webp"
+    status: active
+    verified_at: "2026-08-29"
     expires_at: ""
   - id: bs-403
     game: brawlstars
