@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-08-29"
+  synced_at: "2026-08-31"
 
 items:
   - id: cr-421
@@ -970,6 +970,18 @@ items:
     status: active
     verified_at: "2026-07-23"
     expires_at: ""
+  - id: coc-422
+    game: clashofclans
+    title: "5 个免费卡包"
+    original_title: "x5 Free Card Pack"
+    type: resource
+    type_label: "卡包"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/fr/clashofclans/product/free-gift-/da129c5a"
+    image: "images/rewards/clashofclans/coc-422.webp"
+    status: active
+    verified_at: "2026-08-31"
+    expires_at: ""
   - id: coc-411
     game: clashofclans
     title: "1 个部落城堡蛋糕"
@@ -1003,8 +1015,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashofclans/product/quest-medals/14a19553"
     image: "images/rewards/clashofclans/coc-386.webp"
-    status: active
-    verified_at: "2026-08-13"
+    status: expired
+    verified_at: "2026-08-31"
     expires_at: ""
   - id: coc-351
     game: clashofclans
