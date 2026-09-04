@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-08-31"
+  synced_at: "2026-09-02"
 
 items:
   - id: cr-421
@@ -346,6 +346,18 @@ items:
     status: expired
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-433
+    game: brawlstars
+    title: "2 个冰沙宝箱"
+    original_title: "x2 Smoothie Box"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/40e033ed"
+    image: "images/rewards/brawlstars/bs-433.webp"
+    status: active
+    verified_at: "2026-09-02"
+    expires_at: ""
   - id: bs-419
     game: brawlstars
     title: "骷髅蜡烛喷漆"
@@ -439,8 +451,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/fr/brawlstars/product/gems/ce5de354?boost=AP"
     image: "images/rewards/brawlstars/bs-367.webp"
-    status: active
-    verified_at: "2026-08-06"
+    status: expired
+    verified_at: "2026-09-02"
     expires_at: ""
   - id: bs-366
     game: brawlstars
@@ -970,6 +982,18 @@ items:
     status: active
     verified_at: "2026-07-23"
     expires_at: ""
+  - id: coc-434
+    game: clashofclans
+    title: "1 个建筑工人咬咬"
+    original_title: "x1 Builder Bite"
+    type: resource
+    type_label: "魔法道具"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashofclans/product/free-gift-/454c21bd"
+    image: "images/rewards/clashofclans/coc-434.webp"
+    status: active
+    verified_at: "2026-09-02"
+    expires_at: ""
   - id: coc-422
     game: clashofclans
     title: "5 个免费卡包"
@@ -979,8 +1003,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/fr/clashofclans/product/free-gift-/da129c5a"
     image: "images/rewards/clashofclans/coc-422.webp"
-    status: active
-    verified_at: "2026-08-31"
+    status: expired
+    verified_at: "2026-09-02"
     expires_at: ""
   - id: coc-411
     game: clashofclans
@@ -991,8 +1015,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.clashofclans.com/?action=voucher&code=d73f5e4f-ff63-40b2-9aac-d9b458691f07"
     image: "images/rewards/clashofclans/coc-411.webp"
-    status: active
-    verified_at: "2026-08-26"
+    status: expired
+    verified_at: "2026-09-02"
     expires_at: ""
   - id: coc-402
     game: clashofclans
@@ -1003,8 +1027,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.clashofclans.com/?action=voucher&code=1f23b95e-fdce-432d-bfcd-3aa982b24d9b"
     image: "images/rewards/clashofclans/coc-402.webp"
-    status: active
-    verified_at: "2026-08-22"
+    status: expired
+    verified_at: "2026-09-02"
     expires_at: ""
   - id: coc-386
     game: clashofclans
@@ -1075,8 +1099,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.clashofclans.com/?action=voucher&code=9f7dea72-b0b8-4d1a-bef2-58958aea0a4e"
     image: "images/rewards/clashofclans/coc-381.webp"
-    status: active
-    verified_at: "2026-08-10"
+    status: expired
+    verified_at: "2026-09-02"
     expires_at: ""
   - id: coc-379
     game: clashofclans
@@ -1087,8 +1111,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.clashofclans.com/?action=voucher&code=e239d1f5-3bb2-41c5-9e2d-2b468ef07412"
     image: "images/rewards/clashofclans/coc-379.webp"
-    status: active
-    verified_at: "2026-08-09"
+    status: expired
+    verified_at: "2026-09-02"
     expires_at: ""
   - id: coc-377
     game: clashofclans
