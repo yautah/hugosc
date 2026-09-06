@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-09-02"
+  synced_at: "2026-09-04"
 
 items:
+  - id: cr-407
+    game: clashroyale
+    title: "1 个宝箱"
+    original_title: "x1 Chest"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashroyale.com/?action=voucher&code=df74f033-e1c9-4e3e-99fb-e77372425c72"
+    image: "images/rewards/clashroyale/cr-407.webp"
+    status: active
+    verified_at: "2026-09-04"
+    expires_at: ""
   - id: cr-421
     game: clashroyale
     title: "冰法英雄战旗套装"
@@ -115,8 +127,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/?action=voucher&code=2c612f57-b0b2-425d-84f2-7c8fd9c70349"
     image: "images/rewards/clashroyale/cr-336.webp"
-    status: active
-    verified_at: "2026-07-23"
+    status: expired
+    verified_at: "2026-09-04"
     expires_at: ""
   - id: cr-324
     game: clashroyale
@@ -346,6 +358,30 @@ items:
     status: expired
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-442
+    game: brawlstars
+    title: "10 宝石"
+    original_title: "x10 Gems"
+    type: resource
+    type_label: "宝石"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/gems/72ae87bf"
+    image: "images/rewards/brawlstars/bs-442.webp"
+    status: active
+    verified_at: "2026-09-04"
+    expires_at: ""
+  - id: bs-441
+    game: brawlstars
+    title: "75 个英雄券"
+    original_title: "x75 Credits"
+    type: resource
+    type_label: "英雄券"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/d8aa4f9"
+    image: "images/rewards/brawlstars/bs-441.webp"
+    status: active
+    verified_at: "2026-09-04"
+    expires_at: ""
   - id: bs-433
     game: brawlstars
     title: "2 个冰沙宝箱"
@@ -355,8 +391,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/40e033ed"
     image: "images/rewards/brawlstars/bs-433.webp"
-    status: active
-    verified_at: "2026-09-02"
+    status: expired
+    verified_at: "2026-09-04"
     expires_at: ""
   - id: bs-419
     game: brawlstars
@@ -379,8 +415,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.brawlstars.com/voucher/7496c7ab-c9df-4cec-a1b3-b5f35ba17c3d"
     image: "images/rewards/brawlstars/bs-403.webp"
-    status: active
-    verified_at: "2026-08-21"
+    status: expired
+    verified_at: "2026-09-04"
     expires_at: ""
   - id: bs-397
     game: brawlstars
