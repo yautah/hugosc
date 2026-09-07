@@ -1,0 +1,69 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title {
+        font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+        font-size: 58px;
+        font-weight: 700;
+        fill: #ffffff;
+      }
+      .subtitle {
+        font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+        fill: #ffd76a;
+      }
+      .head {
+        font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        fill: #dfe7f5;
+      }
+      .cell {
+        font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        fill: #ffffff;
+      }
+      .muted {
+        fill: #cbd5e1;
+      }
+      .down {
+        fill: #ff7272;
+      }
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="none"/>
+
+  <rect x="200" y="225" width="1520" height="630" rx="42" fill="#000000" opacity="0.5"/>
+  <rect x="200" y="225" width="1520" height="630" rx="42" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2"/>
+
+  <text x="260" y="325" class="title">觉醒野蛮人精锐调整</text>
+  <text x="260" y="383" class="subtitle">9 月最终平衡，继续削弱长矛距离和狂暴时间</text>
+
+  <line x1="260" y1="430" x2="1660" y2="430" stroke="#ffffff" stroke-opacity="0.22" stroke-width="2"/>
+
+  <text x="285" y="500" class="head">调整项目</text>
+  <text x="740" y="500" class="head">调整前</text>
+  <text x="1045" y="500" class="head">调整后</text>
+  <text x="1360" y="500" class="head">幅度</text>
+
+  <rect x="260" y="535" width="1400" height="94" rx="18" fill="#ffffff" opacity="0.08"/>
+  <text x="285" y="595" class="cell">长矛最小射程</text>
+  <text x="740" y="595" class="cell muted">3.5 格</text>
+  <text x="1045" y="595" class="cell">3.0 格</text>
+  <text x="1360" y="595" class="cell down">-14%</text>
+
+  <rect x="260" y="645" width="1400" height="94" rx="18" fill="#ffffff" opacity="0.05"/>
+  <text x="285" y="705" class="cell">长矛最大射程</text>
+  <text x="740" y="705" class="cell muted">5.0 格</text>
+  <text x="1045" y="705" class="cell">4.5 格</text>
+  <text x="1360" y="705" class="cell down">-10%</text>
+
+  <rect x="260" y="755" width="1400" height="94" rx="18" fill="#ffffff" opacity="0.08"/>
+  <text x="285" y="815" class="cell">狂暴持续时间</text>
+  <text x="740" y="815" class="cell muted">2.5 秒</text>
+  <text x="1045" y="815" class="cell">2.0 秒</text>
+  <text x="1360" y="815" class="cell down">-20%</text>
+</svg>
