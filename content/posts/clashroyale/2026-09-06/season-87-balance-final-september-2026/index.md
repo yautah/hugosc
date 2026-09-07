@@ -1,6 +1,6 @@
 ---
 title: 皇室战争9月最终平衡来了，觉醒精锐再砍，火球冰冻也挨刀～
-image: /images/2026/season-87-balance-final-september-2026.jpg
+image: /images/2026/season-87-balance-final-september-2026.png
 description: 皇室战争第 87 赛季 9 月最终平衡公布，18 张卡牌调整。觉醒野蛮人精锐、攻城槌、精英气球、冰冻、火球等削弱，浪人、哥布林牢笼、精灵女皇加强，炸弹兵、法师和精英重甲亡灵迎来重做。
 date: 2026-09-06T23:08:33+08:00
 updated: 2026-09-06T23:08:33+08:00
@@ -101,7 +101,7 @@ faq:
 
 ### 精英气球
 
-![精英气球|214x261](card-balloon-hero.webp)
+![精英气球|156x190](card-balloon-hero.webp)
 
 | 改动项目 | 调整前 | 调整后 | 幅度 |
 |---|---|---|---|
@@ -272,7 +272,7 @@ faq:
 
 ### 觉醒法师
 
-![觉醒法师|204x242](card-wizard-evolution.webp)
+![觉醒法师|166x197](card-wizard-evolution.webp)
 
 | 改动项目 | 调整前 | 调整后 | 幅度 |
 |---|---|---|---|
@@ -286,7 +286,7 @@ faq:
 
 ### 精英法师
 
-![精英法师|192x234](card-wizard-hero.webp)
+![精英法师|150x183](card-wizard-hero.webp)
 
 | 改动项目 | 调整前 | 调整后 | 幅度 |
 |---|---|---|---|
@@ -300,7 +300,7 @@ faq:
 
 ### 精英重甲亡灵
 
-![精英重甲亡灵|249x304](card-mega-minion-hero.webp)
+![精英重甲亡灵|131x160](card-mega-minion-hero.webp)
 
 | 改动项目 | 调整前 | 调整后 | 幅度 |
 |---|---|---|---|
