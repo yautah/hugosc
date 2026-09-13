@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-09-09"
+  synced_at: "2026-09-11"
 
 items:
   - id: cr-407
