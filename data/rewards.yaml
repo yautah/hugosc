@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-09-17"
+  synced_at: "2026-09-18"
 
 items:
+  - id: cr-483
+    game: clashroyale
+    title: "1 个潜水斯坦克表情"
+    original_title: "x1 Scuba Stank Emote"
+    type: cosmetic
+    type_label: "表情"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale/product/emote/776712a4"
+    image: "images/rewards/clashroyale/cr-483.webp"
+    status: active
+    verified_at: "2026-09-18"
+    expires_at: ""
   - id: cr-407
     game: clashroyale
     title: "1 个宝箱"
@@ -358,6 +370,18 @@ items:
     status: expired
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-484
+    game: brawlstars
+    title: "100 能量点数"
+    original_title: "x100 Power Points"
+    type: resource
+    type_label: "能量点数"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/22ed1b11"
+    image: "images/rewards/brawlstars/bs-484.webp"
+    status: active
+    verified_at: "2026-09-18"
+    expires_at: ""
   - id: bs-481
     game: brawlstars
     title: "150 闪闪币"
@@ -367,8 +391,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/4486a714"
     image: "images/rewards/brawlstars/bs-481.webp"
-    status: active
-    verified_at: "2026-09-17"
+    status: expired
+    verified_at: "2026-09-18"
     expires_at: ""
   - id: bs-474
     game: brawlstars
