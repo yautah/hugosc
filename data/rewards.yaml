@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-09-18"
+  synced_at: "2026-09-19"
 
 items:
   - id: cr-483
@@ -91,8 +91,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale?boost=tryaz&storeCode=HEROVALKYRIE"
     image: "images/rewards/clashroyale/cr-361.webp"
-    status: active
-    verified_at: "2026-08-04"
+    status: expired
+    verified_at: "2026-09-19"
     expires_at: ""
   - id: cr-357
     game: clashroyale
@@ -370,6 +370,18 @@ items:
     status: expired
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-492
+    game: brawlstars
+    title: "1 个混沌空投"
+    original_title: "x1 Chaos Drop"
+    type: resource
+    type_label: "空投"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/2d738848"
+    image: "images/rewards/brawlstars/bs-492.webp"
+    status: active
+    verified_at: "2026-09-19"
+    expires_at: ""
   - id: bs-484
     game: brawlstars
     title: "100 能量点数"
@@ -379,8 +391,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/22ed1b11"
     image: "images/rewards/brawlstars/bs-484.webp"
-    status: active
-    verified_at: "2026-09-18"
+    status: expired
+    verified_at: "2026-09-19"
     expires_at: ""
   - id: bs-481
     game: brawlstars
@@ -403,8 +415,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.brawlstars.com/voucher/04f4753c-6c93-4213-b0e2-3fb354317342/"
     image: "images/rewards/brawlstars/bs-474.webp"
-    status: active
-    verified_at: "2026-09-17"
+    status: expired
+    verified_at: "2026-09-19"
     expires_at: ""
   - id: bs-471
     game: brawlstars
