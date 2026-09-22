@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-09-20"
+  synced_at: "2026-09-21"
 
 items:
   - id: cr-483
@@ -370,6 +370,18 @@ items:
     status: expired
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-516
+    game: brawlstars
+    title: "75 个英雄券"
+    original_title: "x75 Credit"
+    type: resource
+    type_label: "英雄券"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/c2441c42"
+    image: "images/rewards/brawlstars/bs-516.webp"
+    status: active
+    verified_at: "2026-09-21"
+    expires_at: ""
   - id: bs-509
     game: brawlstars
     title: "100 金币"
@@ -379,8 +391,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/78618995"
     image: "images/rewards/brawlstars/bs-509.webp"
-    status: active
-    verified_at: "2026-09-20"
+    status: expired
+    verified_at: "2026-09-21"
     expires_at: ""
   - id: bs-492
     game: brawlstars
