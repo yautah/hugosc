@@ -19,9 +19,33 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-09-22"
+  synced_at: "2026-09-26"
 
 items:
+  - id: cr-530
+    game: clashroyale
+    title: "1 个塔皮肤"
+    original_title: "x1 Tower Skin"
+    type: cosmetic
+    type_label: "塔皮肤"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale/product/tower-skin/487199ce"
+    image: "images/rewards/clashroyale/cr-530.webp"
+    status: active
+    verified_at: "2026-09-26"
+    expires_at: ""
+  - id: cr-527
+    game: clashroyale
+    title: "1 个免费幸运宝箱"
+    original_title: "x1 Free Lucky Chest"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashroyale.com/?action=voucher&code=540f8848-ac47-42ad-bdad-791d68a116ee"
+    image: "images/rewards/clashroyale/cr-527.webp"
+    status: active
+    verified_at: "2026-09-26"
+    expires_at: ""
   - id: cr-483
     game: clashroyale
     title: "1 个潜水斯坦克表情"
@@ -31,8 +55,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale/product/emote/776712a4"
     image: "images/rewards/clashroyale/cr-483.webp"
-    status: active
-    verified_at: "2026-09-18"
+    status: expired
+    verified_at: "2026-09-26"
     expires_at: ""
   - id: cr-407
     game: clashroyale
@@ -379,8 +403,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/6cfc8f0"
     image: "images/rewards/brawlstars/bs-519.webp"
-    status: active
-    verified_at: "2026-09-22"
+    status: expired
+    verified_at: "2026-09-26"
     expires_at: ""
   - id: bs-516
     game: brawlstars
@@ -413,10 +437,10 @@ items:
     type: resource
     type_label: "空投"
     redeem_type: official_page
-    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/2d738848"
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/712c8d9f"
     image: "images/rewards/brawlstars/bs-492.webp"
-    status: expired
-    verified_at: "2026-09-20"
+    status: active
+    verified_at: "2026-09-26"
     expires_at: ""
   - id: bs-484
     game: brawlstars
@@ -1125,6 +1149,30 @@ items:
     image: "images/rewards/brawlstars/bs-20.webp"
     status: active
     verified_at: "2026-07-23"
+    expires_at: ""
+  - id: coc-532
+    game: clashofclans
+    title: "1 个宝箱"
+    original_title: "x1 Chest"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashofclans/product/free-gift-/a1634f3"
+    image: "images/rewards/clashofclans/coc-532.webp"
+    status: active
+    verified_at: "2026-09-26"
+    expires_at: ""
+  - id: coc-531
+    game: clashofclans
+    title: "1 个英雄烤肉串"
+    original_title: "x1 Hero Skewer"
+    type: resource
+    type_label: "魔法道具"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=61785b9e-461f-4773-bde9-ed90cec06939"
+    image: "images/rewards/clashofclans/coc-531.webp"
+    status: active
+    verified_at: "2026-09-26"
     expires_at: ""
   - id: coc-521
     game: clashofclans
