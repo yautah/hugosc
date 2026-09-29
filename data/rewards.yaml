@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-09-27"
+  synced_at: "2026-09-28"
 
 items:
+  - id: cr-534
+    game: clashroyale
+    title: "爆米花免费战旗套装"
+    original_title: "Pop Corn Free Banner Set"
+    type: cosmetic
+    type_label: "战旗"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashroyale.com/?action=voucher&code=691d20f2-fb4c-4193-b820-d96f517ae781"
+    image: "images/rewards/clashroyale/cr-534.webp"
+    status: active
+    verified_at: "2026-09-28"
+    expires_at: ""
   - id: cr-530
     game: clashroyale
     title: "1 个塔皮肤"
@@ -425,10 +437,10 @@ items:
     type: resource
     type_label: "金币"
     redeem_type: official_page
-    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/78618995"
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/ed261e14"
     image: "images/rewards/brawlstars/bs-509.webp"
-    status: expired
-    verified_at: "2026-09-21"
+    status: active
+    verified_at: "2026-09-28"
     expires_at: ""
   - id: bs-492
     game: brawlstars
@@ -451,8 +463,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/3777f5eb"
     image: "images/rewards/brawlstars/bs-484.webp"
-    status: active
-    verified_at: "2026-09-27"
+    status: expired
+    verified_at: "2026-09-28"
     expires_at: ""
   - id: bs-481
     game: brawlstars
