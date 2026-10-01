@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-09-29"
+  synced_at: "2026-09-30"
 
 items:
   - id: cr-534
@@ -413,10 +413,10 @@ items:
     type: resource
     type_label: "闪闪币"
     redeem_type: official_page
-    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/6cfc8f0"
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/8e71094c"
     image: "images/rewards/brawlstars/bs-519.webp"
-    status: expired
-    verified_at: "2026-09-26"
+    status: active
+    verified_at: "2026-09-30"
     expires_at: ""
   - id: bs-516
     game: brawlstars
@@ -427,8 +427,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/93171f90"
     image: "images/rewards/brawlstars/bs-516.webp"
-    status: active
-    verified_at: "2026-09-29"
+    status: expired
+    verified_at: "2026-09-30"
     expires_at: ""
   - id: bs-509
     game: brawlstars
