@@ -3,7 +3,7 @@ title: 皇室战争合合奇兵 10 月更新，超级部队进入共享卡池，
 description: 合合奇兵第 11 赛季 10 月更新于 10 月 1 日上线，月度超级部队改为共享卡池，迷你皮卡、皮卡、超级骑士和武僧成为首领，每回合圣水恢复为 4 点，并加入两款统帅皮肤。
 date: 2026-10-01T16:40:01+08:00
 updated: 2026-10-01T16:40:01+08:00
-image: /images/2026/merge-tactics-season-11-october-update.jpg
+image: /images/2026/merge-tactics-season-11-october-update.png
 slug: merge-tactics-season-11-october-update
 content_type: news
 difficulty: beginner
