@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-01"
+  synced_at: "2026-10-02"
 
 items:
+  - id: cr-540
+    game: clashroyale
+    title: "5 万金币"
+    original_title: "x50000 Gold"
+    type: resource
+    type_label: "金币"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale/product/gold/9fbdaf13"
+    image: "images/rewards/clashroyale/cr-540.webp"
+    status: active
+    verified_at: "2026-10-02"
+    expires_at: ""
   - id: cr-534
     game: clashroyale
     title: "爆米花免费战旗套装"
@@ -43,8 +55,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale/product/tower-skin/487199ce"
     image: "images/rewards/clashroyale/cr-530.webp"
-    status: active
-    verified_at: "2026-09-26"
+    status: expired
+    verified_at: "2026-10-02"
     expires_at: ""
   - id: cr-527
     game: clashroyale
@@ -406,6 +418,18 @@ items:
     status: expired
     verified_at: "2026-07-27"
     expires_at: ""
+  - id: bs-528
+    game: brawlstars
+    title: "75 金币"
+    original_title: "x75 Coins"
+    type: resource
+    type_label: "金币"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/82ba06a6"
+    image: "images/rewards/brawlstars/bs-528.webp"
+    status: active
+    verified_at: "2026-10-02"
+    expires_at: ""
   - id: bs-536
     game: brawlstars
     title: "1 个棺材宝箱"
@@ -427,8 +451,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/ecb790c9"
     image: "images/rewards/brawlstars/bs-525.webp"
-    status: active
-    verified_at: "2026-10-01"
+    status: expired
+    verified_at: "2026-10-02"
     expires_at: ""
   - id: bs-519
     game: brawlstars
