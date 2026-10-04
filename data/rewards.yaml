@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-02"
+  synced_at: "2026-10-03"
 
 items:
   - id: cr-540
@@ -91,8 +91,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/?action=voucher&code=df74f033-e1c9-4e3e-99fb-e77372425c72"
     image: "images/rewards/clashroyale/cr-407.webp"
-    status: active
-    verified_at: "2026-09-04"
+    status: expired
+    verified_at: "2026-10-03"
     expires_at: ""
   - id: cr-421
     game: clashroyale
@@ -331,8 +331,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.clashroyale.com/en/?action=voucher&code=9040373e-ceaf-4bf7-b6b8-a789197f974e"
     image: "images/rewards/clashroyale/cr-125.webp"
-    status: active
-    verified_at: "2026-07-23"
+    status: expired
+    verified_at: "2026-10-03"
     expires_at: ""
   - id: cr-97
     game: clashroyale
@@ -427,8 +427,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/82ba06a6"
     image: "images/rewards/brawlstars/bs-528.webp"
-    status: active
-    verified_at: "2026-10-02"
+    status: expired
+    verified_at: "2026-10-03"
     expires_at: ""
   - id: bs-536
     game: brawlstars
@@ -497,10 +497,10 @@ items:
     type: resource
     type_label: "空投"
     redeem_type: official_page
-    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/712c8d9f"
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/ad93940e"
     image: "images/rewards/brawlstars/bs-492.webp"
-    status: expired
-    verified_at: "2026-09-27"
+    status: active
+    verified_at: "2026-10-03"
     expires_at: ""
   - id: bs-484
     game: brawlstars
@@ -547,8 +547,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.brawlstars.com/voucher/7c876047-3a74-4b9e-8378-d43822b6ca94/"
     image: "images/rewards/brawlstars/bs-471.webp"
-    status: active
-    verified_at: "2026-09-17"
+    status: expired
+    verified_at: "2026-10-03"
     expires_at: ""
   - id: bs-442
     game: brawlstars
@@ -1231,8 +1231,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashofclans/product/free-gift-/a1634f3"
     image: "images/rewards/clashofclans/coc-532.webp"
-    status: active
-    verified_at: "2026-09-26"
+    status: expired
+    verified_at: "2026-10-03"
     expires_at: ""
   - id: coc-531
     game: clashofclans
@@ -1243,8 +1243,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.clashofclans.com/?action=voucher&code=61785b9e-461f-4773-bde9-ed90cec06939"
     image: "images/rewards/clashofclans/coc-531.webp"
-    status: active
-    verified_at: "2026-09-26"
+    status: expired
+    verified_at: "2026-10-03"
     expires_at: ""
   - id: coc-521
     game: clashofclans
