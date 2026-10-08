@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-04"
+  synced_at: "2026-10-05"
 
 items:
   - id: cr-540
@@ -509,10 +509,10 @@ items:
     type: resource
     type_label: "能量点数"
     redeem_type: official_page
-    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/3777f5eb"
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/9a7385fa"
     image: "images/rewards/brawlstars/bs-484.webp"
-    status: expired
-    verified_at: "2026-09-28"
+    status: active
+    verified_at: "2026-10-05"
     expires_at: ""
   - id: bs-481
     game: brawlstars
@@ -523,8 +523,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/21010095"
     image: "images/rewards/brawlstars/bs-481.webp"
-    status: active
-    verified_at: "2026-10-04"
+    status: expired
+    verified_at: "2026-10-05"
     expires_at: ""
   - id: bs-474
     game: brawlstars
