@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-05"
+  synced_at: "2026-10-08"
 
 items:
   - id: cr-540
@@ -454,6 +454,18 @@ items:
     status: expired
     verified_at: "2026-10-02"
     expires_at: ""
+  - id: bs-548
+    game: brawlstars
+    title: "10 宝石"
+    original_title: "x10 Gems"
+    type: resource
+    type_label: "宝石"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/gems/7896466c"
+    image: "images/rewards/brawlstars/bs-548.webp"
+    status: active
+    verified_at: "2026-10-08"
+    expires_at: ""
   - id: bs-519
     game: brawlstars
     title: "100 闪闪币"
@@ -461,10 +473,10 @@ items:
     type: resource
     type_label: "闪闪币"
     redeem_type: official_page
-    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/8e71094c"
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/9ed22ec0"
     image: "images/rewards/brawlstars/bs-519.webp"
-    status: expired
-    verified_at: "2026-10-01"
+    status: active
+    verified_at: "2026-10-08"
     expires_at: ""
   - id: bs-516
     game: brawlstars
@@ -511,8 +523,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/9a7385fa"
     image: "images/rewards/brawlstars/bs-484.webp"
-    status: active
-    verified_at: "2026-10-05"
+    status: expired
+    verified_at: "2026-10-08"
     expires_at: ""
   - id: bs-481
     game: brawlstars
@@ -1209,6 +1221,18 @@ items:
     image: "images/rewards/brawlstars/bs-20.webp"
     status: active
     verified_at: "2026-07-23"
+    expires_at: ""
+  - id: coc-550
+    game: clashofclans
+    title: "100 枚裂隙勋章"
+    original_title: "x100 Medal Event Hard Currency"
+    type: resource
+    type_label: "活动货币"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashofclans/product/rift-medals/9639fbfb"
+    image: "images/rewards/clashofclans/coc-550.webp"
+    status: active
+    verified_at: "2026-10-08"
     expires_at: ""
   - id: coc-537
     game: clashofclans
