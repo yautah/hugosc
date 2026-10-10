@@ -10,6 +10,7 @@ content_type: feature
 difficulty: beginner
 evergreen: false
 ads: true
+home_pinned: -5
 featured: true
 categories:
   - 皇室战争
