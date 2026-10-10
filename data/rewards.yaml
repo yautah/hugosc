@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-08"
+  synced_at: "2026-10-09"
 
 items:
+  - id: cr-551
+    game: clashroyale
+    title: "电磁巨人英雄战旗套装"
+    original_title: "Electro Giant Hero Banner Set"
+    type: cosmetic
+    type_label: "战旗"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale/product/banner-set/d559ea1b"
+    image: "images/rewards/clashroyale/cr-551.webp"
+    status: active
+    verified_at: "2026-10-09"
+    expires_at: ""
   - id: cr-540
     game: clashroyale
     title: "5 万金币"
@@ -31,8 +43,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale/product/gold/9fbdaf13"
     image: "images/rewards/clashroyale/cr-540.webp"
-    status: active
-    verified_at: "2026-10-02"
+    status: expired
+    verified_at: "2026-10-09"
     expires_at: ""
   - id: cr-534
     game: clashroyale
@@ -475,8 +487,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/9ed22ec0"
     image: "images/rewards/brawlstars/bs-519.webp"
-    status: active
-    verified_at: "2026-10-08"
+    status: expired
+    verified_at: "2026-10-09"
     expires_at: ""
   - id: bs-516
     game: brawlstars
