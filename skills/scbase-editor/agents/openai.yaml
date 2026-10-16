@@ -1,0 +1,4 @@
+interface:
+  display_name: "scbase 游戏编辑"
+  short_description: "撰写审校 scbase 资讯、攻略与专题，整理格式配图并入库，供用户二次编辑"
+  default_prompt: "使用 $scbase-editor 撰写或编辑这篇 scbase 文章，保存到 hugosc 的 Obsidian 内容库供我二次编辑。"
