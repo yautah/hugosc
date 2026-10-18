@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-11"
+  synced_at: "2026-10-16"
 
 items:
   - id: cr-551
@@ -31,8 +31,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale/product/banner-set/d559ea1b"
     image: "images/rewards/clashroyale/cr-551.webp"
-    status: active
-    verified_at: "2026-10-09"
+    status: expired
+    verified_at: "2026-10-16"
     expires_at: ""
   - id: cr-540
     game: clashroyale
@@ -521,10 +521,10 @@ items:
     type: resource
     type_label: "空投"
     redeem_type: official_page
-    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/ad93940e"
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/c979bf78"
     image: "images/rewards/brawlstars/bs-492.webp"
-    status: expired
-    verified_at: "2026-10-04"
+    status: active
+    verified_at: "2026-10-16"
     expires_at: ""
   - id: bs-484
     game: brawlstars
