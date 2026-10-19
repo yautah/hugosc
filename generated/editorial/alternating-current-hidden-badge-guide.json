@@ -1,0 +1,17 @@
+{
+  "source": "content/posts/clashroyale/2026-10-19/alternating-current-hidden-badge-guide/index.md",
+  "stage": "awaiting_user_edit",
+  "verified_at": "2026-10-19T21:57:00+08:00",
+  "pending": [
+    "内容以本会话用户提供的视频口播为依据，本站未游戏内复测。",
+    "待补交流电徽章原始截图及原视频链接，当前使用赛季竞技场作为主题封面。",
+    "左起手是否有效、其他混沌活动是否同样触发，以及当前国服开放状态未确认。",
+    "口播未明确徽章的获取截止日期，未写限时或永久可得。"
+  ],
+  "sources": [
+    {
+      "type": "user_provided_transcript",
+      "scope": "普通电法、右左交替三轮、同场获胜、词条无关及完成六次后部署不再受限的口播实测"
+    }
+  ]
+}
