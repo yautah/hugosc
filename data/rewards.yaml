@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-16"
+  synced_at: "2026-10-18"
 
 items:
+  - id: cr-560
+    game: clashroyale
+    title: "电磁巨人好奇偷看表情"
+    original_title: "Electro Giant Curious Peek Emote"
+    type: cosmetic
+    type_label: "表情"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashroyale.com/?action=voucher&code=7e43c296-949e-4e35-8e11-1096e1ddb535"
+    image: "images/rewards/clashroyale/cr-560.webp"
+    status: active
+    verified_at: "2026-10-18"
+    expires_at: ""
   - id: cr-551
     game: clashroyale
     title: "电磁巨人英雄战旗套装"
@@ -523,8 +535,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/c979bf78"
     image: "images/rewards/brawlstars/bs-492.webp"
-    status: active
-    verified_at: "2026-10-16"
+    status: expired
+    verified_at: "2026-10-18"
     expires_at: ""
   - id: bs-484
     game: brawlstars
