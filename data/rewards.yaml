@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-21"
+  synced_at: "2026-10-23"
 
 items:
   - id: cr-560
@@ -547,8 +547,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/f11848c6"
     image: "images/rewards/brawlstars/bs-484.webp"
-    status: active
-    verified_at: "2026-10-21"
+    status: expired
+    verified_at: "2026-10-23"
     expires_at: ""
   - id: bs-481
     game: brawlstars
