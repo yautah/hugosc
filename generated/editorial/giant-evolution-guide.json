@@ -1,0 +1,13 @@
+{
+  "source": "content/posts/clashroyale/2026-10-24/giant-evolution-guide/index.md",
+  "stage": "awaiting_user_edit",
+  "verified_at": "2026-10-24T23:48:00+08:00",
+  "pending": [
+    "先行开发版本数值，正式上线后需复核。",
+    "本文与十一月皇室TV汇总中关于狂暴范围随时间扩大、巨人循环未知的表述存在新旧信息差异，未自动修改用户现有汇总稿。"
+  ],
+  "sources": [
+    {"url": "https://note.com/kabutom/n/n882475c83af0", "scope": "全文及四张配图已读取；11级基础数据、触发机制、范围成长、获取方式"},
+    {"url": "https://royaleapi.com/blog/giant-evolution-november-2026", "scope": "用户完成验证后全文已读取；交叉核对触发门槛、循环及上线时间，补充生成间隔、朝向偏移、触发后攻击计数、令牌四选一与未来获取渠道，已读取能力概览图"}
+  ]
+}
