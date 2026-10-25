@@ -19,9 +19,69 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-25"
+  synced_at: "2026-10-26"
 
 items:
+  - id: cr-570
+    game: clashroyale
+    title: "免费电视皇家战旗套装"
+    original_title: "Free TV Royale Banner Set"
+    type: cosmetic
+    type_label: "战旗"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashroyale.com/?action=voucher&code=a022bc73-20fc-4cb8-bccb-34359bd7533d"
+    image: "images/rewards/clashroyale/cr-570.webp"
+    status: active
+    verified_at: "2026-10-26"
+    expires_at: ""
+  - id: cr-566
+    game: clashroyale
+    title: "2 个独特碎片"
+    original_title: "x2 Unique Snippets"
+    type: resource
+    type_label: "碎片"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale/product/unique-snippets/3d865c52"
+    image: "images/rewards/clashroyale/cr-566.webp"
+    status: active
+    verified_at: "2026-10-26"
+    expires_at: ""
+  - id: cr-557
+    game: clashroyale
+    title: "1 个魔法宝箱"
+    original_title: "x1 Magic Chest"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashroyale.com/?action=voucher&code=e36dca45-b709-4359-9292-4bbee65900a1"
+    image: "images/rewards/clashroyale/cr-557.webp"
+    status: active
+    verified_at: "2026-10-26"
+    expires_at: ""
+  - id: bs-573
+    game: brawlstars
+    title: "100 个璀璨点"
+    original_title: "x100 Bling"
+    type: resource
+    type_label: "璀璨点"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/1b0cd42b?boost=PERIADO"
+    image: "images/rewards/brawlstars/bs-573.webp"
+    status: active
+    verified_at: "2026-10-26"
+    expires_at: ""
+  - id: bs-567
+    game: brawlstars
+    title: "1 个文斯宝箱"
+    original_title: "Free Vince Box"
+    type: resource
+    type_label: "宝箱"
+    redeem_type: direct_link
+    redeem_url: "https://link.brawlstars.com/voucher/5855939c-6254-4ed3-a364-4f9927de5a97/"
+    image: "images/rewards/brawlstars/bs-567.webp"
+    status: active
+    verified_at: "2026-10-26"
+    expires_at: ""
   - id: cr-560
     game: clashroyale
     title: "电磁巨人好奇偷看表情"
