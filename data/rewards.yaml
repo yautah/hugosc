@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-23"
+  synced_at: "2026-10-25"
 
 items:
   - id: cr-560
@@ -454,6 +454,18 @@ items:
     status: expired
     verified_at: "2026-10-03"
     expires_at: ""
+  - id: bs-573
+    game: brawlstars
+    title: "100 闪闪币"
+    original_title: "x100 Bling"
+    type: resource
+    type_label: "闪闪币"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/1b0cd42b"
+    image: "images/rewards/brawlstars/bs-573.webp"
+    status: active
+    verified_at: "2026-10-25"
+    expires_at: "2026-10-26"
   - id: bs-536
     game: brawlstars
     title: "1 个棺材宝箱"
