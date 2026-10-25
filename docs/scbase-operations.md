@@ -293,6 +293,7 @@ assets/images/rewards/
 - `game`：只能使用 `clashroyale`、`brawlstars` 或 `clashofclans`。
 - `redeem_type`：使用 `direct_link`、`official_page` 或 `store_code`。
 - `redeem_url`：必须指向可以核验的官方领取链接或官方商店。
+- 若来源奖励详情明确将领取入口指向对应游戏的官方 Supercell Store 首页或游戏专属商店页（例如 `https://store.supercell.com/clashroyale`），该官方页面可作为有效 `redeem_url`，无需再要求奖励专属商品 URL。
 - `image`：必须使用本地 Hugo 资源路径，不引用外部图片 CDN。
 - `status`：有效奖励使用 `active`；失效奖励使用 `expired`。
 - `verified_at`：最后一次人工确认日期。
@@ -308,6 +309,7 @@ assets/images/rewards/
 - 来源站新增的奖励，新增 YAML 记录并下载对应图片。
 - 来源站已经移除或明确失效的奖励，将 `status` 改为 `expired`，保留历史记录和图片。
 - 对状态存疑、领取条件不明确或官方链接无法核验的奖励，不直接标记为有效。
+- 来源详情已明确给出对应游戏的官方 Supercell Store 领取页时，允许直接新增为有效奖励；不得以第三方详情页、搜索结果页或无法确认目标游戏的通用链接替代。
 
 每次同步按以下顺序执行：
 
