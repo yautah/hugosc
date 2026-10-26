@@ -1,0 +1,15 @@
+{
+  "source": "content/posts/clashroyale/2026-10-26/mirror-evolution-guide/index.md",
+  "stage": "local_draft",
+  "verified_at": null,
+  "pending": [
+    "RoyaleAPI 当前有 Cloudflare 验证，已请求用户处理，待两篇交叉核对。",
+    "kabutom 获取方式段落将专属碎片误写为巨人碎片，正文未沿用该明显笔误。",
+    "kabutom 附记提及 CRL 禁用两张新觉醒，尚未对照官方原公告，未写入本文。",
+    "开发版本资料，正式上线后复核机制及活动获取安排。"
+  ],
+  "sources": [
+    {"url": "https://note.com/kabutom/n/nf22ae4980570", "scope": "全文及四张配图已读取"},
+    {"url": "https://royaleapi.com/blog/mirror-evolution-november-2026", "scope": "尚待完成真人验证后读取"}
+  ]
+}
