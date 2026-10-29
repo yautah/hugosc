@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-27"
+  synced_at: "2026-10-28"
 
 items:
   - id: cr-570
@@ -58,6 +58,18 @@ items:
     status: active
     verified_at: "2026-10-26"
     expires_at: ""
+  - id: bs-579
+    game: brawlstars
+    title: "75 个金币"
+    original_title: "x75 Coins"
+    type: resource
+    type_label: "金币"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/cad6363e?boost=PERIADO"
+    image: "images/rewards/brawlstars/bs-579.webp"
+    status: active
+    verified_at: "2026-10-28"
+    expires_at: ""
   - id: bs-575
     game: brawlstars
     title: "50 能量点数"
@@ -67,9 +79,9 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/1063ef65?boost=PERIADO"
     image: "images/rewards/brawlstars/bs-575.webp"
-    status: active
-    verified_at: "2026-10-27"
-    expires_at: ""
+    status: expired
+    verified_at: "2026-10-28"
+    expires_at: "2026-10-28"
   - id: coc-578
     game: clashofclans
     title: "1 个力量煎饼"
@@ -1351,9 +1363,9 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashofclans/product/rift-medals/9639fbfb"
     image: "images/rewards/clashofclans/coc-550.webp"
-    status: active
-    verified_at: "2026-10-08"
-    expires_at: ""
+    status: expired
+    verified_at: "2026-10-28"
+    expires_at: "2026-10-28"
   - id: coc-537
     game: clashofclans
     title: "5 宝石"
