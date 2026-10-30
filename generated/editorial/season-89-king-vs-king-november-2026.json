@@ -1,0 +1,16 @@
+{
+  "source": "content/posts/clashroyale/2026-10-30/season-89-king-vs-king-november-2026/index.md",
+  "stage": "local_draft",
+  "verified_at": null,
+  "pending": [
+    "RoyaleAPI 页面出现 Cloudflare 真人验证，已请求用户处理，尚未读取该篇正文。",
+    "部分外观、活动名称为暂译，待游戏内正式中文名称核对。",
+    "市场兑换价格来自先行截图，正式开放时需复核。",
+    "官方首轮每日谜题按11月2至8日表述，第二轮11月30至12月7日来自先行资料。"
+  ],
+  "sources": [
+    {"url": "https://note.com/kabutom/n/n95deaefae168", "scope": "全文与配图已读，表情13项、战旗18套、塔皮2款、赛季日期和活动安排"},
+    {"url": "https://supercell.com/en/games/clashroyale/blog/release-notes/new-season-king-vs-king/", "scope": "全文已读，核心卡轮换、挑战、每日谜题无奖励导向、市场消费门槛、组卡器分批测试、赛事与修复"},
+    {"url": "https://royaleapi.com/blog/season-89-november-2026-season-info", "scope": "访问受真人验证阻挡，未作为已核验来源"}
+  ]
+}
