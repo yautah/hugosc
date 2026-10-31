@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-10-30"
+  synced_at: "2026-10-31"
 
 items:
+  - id: cr-586
+    game: clashroyale
+    title: "英雄电磁法师战旗套装"
+    original_title: "x1 Hero Electro Wizard Banner Set"
+    type: cosmetic
+    type_label: "战旗"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale/product/banner-set/c42f007b"
+    image: "images/rewards/clashroyale/cr-586.webp"
+    status: active
+    verified_at: "2026-10-31"
+    expires_at: ""
   - id: cr-547
     game: clashroyale
     title: "2 个星星幸运宝箱"
@@ -32,7 +44,7 @@ items:
     redeem_url: "https://store.supercell.com/clashroyale"
     image: "images/rewards/clashroyale/cr-547.webp"
     status: active
-    verified_at: "2026-10-30"
+    verified_at: "2026-10-31"
     expires_at: ""
   - id: cr-570
     game: clashroyale
@@ -55,8 +67,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale/product/unique-snippets/3d865c52"
     image: "images/rewards/clashroyale/cr-566.webp"
-    status: active
-    verified_at: "2026-10-30"
+    status: expired
+    verified_at: "2026-10-31"
     expires_at: ""
   - id: cr-557
     game: clashroyale
@@ -69,6 +81,30 @@ items:
     image: "images/rewards/clashroyale/cr-557.webp"
     status: active
     verified_at: "2026-10-30"
+    expires_at: ""
+  - id: bs-587
+    game: brawlstars
+    title: "思考表情"
+    original_title: "Thinking Pin"
+    type: cosmetic
+    type_label: "表情"
+    redeem_type: direct_link
+    redeem_url: "https://link.brawlstars.com/voucher/49966048-c8a6-4b6c-809b-b1e9896cf76d/"
+    image: "images/rewards/brawlstars/bs-587.webp"
+    status: active
+    verified_at: "2026-10-31"
+    expires_at: ""
+  - id: bs-509
+    game: brawlstars
+    title: "100 个金币"
+    original_title: "X100 Coins"
+    type: resource
+    type_label: "金币"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/655648b3?boost=PERIADO"
+    image: "images/rewards/brawlstars/bs-509.webp"
+    status: active
+    verified_at: "2026-10-31"
     expires_at: ""
   - id: bs-579
     game: brawlstars
@@ -92,7 +128,7 @@ items:
     redeem_url: "https://link.brawlstars.com/voucher/45b2ac73-4c9d-4dc1-9289-a1e4c0f169cc/"
     image: "images/rewards/brawlstars/bs-585.webp"
     status: active
-    verified_at: "2026-10-30"
+    verified_at: "2026-10-31"
     expires_at: ""
   - id: bs-583
     game: brawlstars
@@ -103,8 +139,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/aac6d636?boost=PERIADO"
     image: "images/rewards/brawlstars/bs-583.webp"
-    status: active
-    verified_at: "2026-10-30"
+    status: expired
+    verified_at: "2026-10-31"
     expires_at: "2026-10-30"
   - id: bs-575
     game: brawlstars
