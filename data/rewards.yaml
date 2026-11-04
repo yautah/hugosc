@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-11-01"
+  synced_at: "2026-11-03"
 
 items:
   - id: cr-586
@@ -715,8 +715,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/726d5d2b?boost=PERIADO"
     image: "images/rewards/brawlstars/bs-492.webp"
-    status: active
-    verified_at: "2026-11-01"
+    status: expired
+    verified_at: "2026-11-03"
     expires_at: "2026-11-01"
   - id: bs-484
     game: brawlstars
@@ -1447,8 +1447,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashofclans/product/free-gift-/dab93f61"
     image: "images/rewards/clashofclans/coc-537.webp"
-    status: active
-    verified_at: "2026-10-01"
+    status: expired
+    verified_at: "2026-11-03"
     expires_at: ""
   - id: coc-532
     game: clashofclans
