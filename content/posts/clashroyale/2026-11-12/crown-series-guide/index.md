@@ -18,6 +18,7 @@ tags:
 wechat:
   template: redream-obsidian-blue
 draft: false
+home_pinned: -100
 ---
 
 11月13日，明天，皇室战争上线新的竞技模式皇冠系列。
