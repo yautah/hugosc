@@ -18,7 +18,7 @@ tags:
   - 卡牌攻略
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 home_pinned: -5
 ---
 

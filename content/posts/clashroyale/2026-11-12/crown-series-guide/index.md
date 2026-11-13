@@ -17,7 +17,7 @@ tags:
   - 赛事奖励
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 ---
 
 11月13日，明天，皇室战争上线新的竞技模式皇冠系列。

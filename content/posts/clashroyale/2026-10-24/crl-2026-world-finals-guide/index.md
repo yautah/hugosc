@@ -16,7 +16,7 @@ tags:
   - 电竞赛事
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 ---
 
 CRL 2026 全球总决赛将于 **11 月 6 日至 8 日**在中国上海举行，比赛地点为上海黄浦滨江文化中心（官方英文名称 Shanghai Huangpu Inner Bund Culture Center）。

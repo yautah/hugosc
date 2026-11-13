@@ -22,7 +22,7 @@ keywords:
   - 电法右左部署
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 ---
 本赛季，皇室战争混沌模式又藏了一枚新徽章，名字叫“交流电”。
 

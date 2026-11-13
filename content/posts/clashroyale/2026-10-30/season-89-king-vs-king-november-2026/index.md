@@ -17,7 +17,7 @@ tags:
   - 赛季资讯
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 home_pinned: -100
 ---
 

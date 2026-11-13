@@ -22,7 +22,7 @@ keywords:
   - 精英电法加强
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 ---
 
 皇室战争 10 月赛季中最终平衡方案已确定，计划于 **10 月 19 日，周一**上线，具体维护时间尚未注明，国服是否同步也有待确认。

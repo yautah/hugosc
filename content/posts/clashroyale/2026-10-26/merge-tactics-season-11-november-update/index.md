@@ -17,7 +17,7 @@ tags:
   - 赛季资讯
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 ---
 
 《皇室战争》合合奇兵第 11 赛季的十一月更新，计划于 **2026 年 10 月 27 日**上线。每回合获得的圣水将从 4 点恢复至 5 点，2 费与 3 费部队在共享卡池中的可用数量也会增加。

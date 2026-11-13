@@ -18,7 +18,7 @@ tags:
   - 卡牌攻略
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 home_pinned: -5
 ---
 镜像卡牌是 11 月的另一张觉醒卡牌。
