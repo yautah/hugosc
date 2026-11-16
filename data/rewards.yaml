@@ -19,9 +19,21 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-11-05"
+  synced_at: "2026-11-14"
 
 items:
+  - id: cr-631
+    game: clashroyale
+    title: "1 个表情"
+    original_title: "x1 Emote"
+    type: cosmetic
+    type_label: "表情"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashroyale/product/emote/5d8bbe82"
+    image: "images/rewards/clashroyale/cr-631.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: "2026-11-20"
   - id: cr-586
     game: clashroyale
     title: "英雄电磁法师战旗套装"
@@ -31,8 +43,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/clashroyale/product/banner-set/c42f007b"
     image: "images/rewards/clashroyale/cr-586.webp"
-    status: active
-    verified_at: "2026-10-31"
+    status: expired
+    verified_at: "2026-11-14"
     expires_at: ""
   - id: cr-547
     game: clashroyale
@@ -103,8 +115,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars"
     image: "images/rewards/brawlstars/bs-588.webp"
-    status: active
-    verified_at: "2026-11-05"
+    status: expired
+    verified_at: "2026-11-14"
     expires_at: "2026-11-05"
   - id: bs-509
     game: brawlstars
@@ -113,11 +125,11 @@ items:
     type: resource
     type_label: "金币"
     redeem_type: official_page
-    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/655648b3?boost=PERIADO"
+    redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/c6615968?boost=PERIADO"
     image: "images/rewards/brawlstars/bs-509.webp"
-    status: expired
-    verified_at: "2026-11-01"
-    expires_at: ""
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: "2026-11-14"
   - id: bs-579
     game: brawlstars
     title: "75 个金币"
@@ -139,8 +151,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.brawlstars.com/voucher/45b2ac73-4c9d-4dc1-9289-a1e4c0f169cc/"
     image: "images/rewards/brawlstars/bs-585.webp"
-    status: active
-    verified_at: "2026-10-31"
+    status: expired
+    verified_at: "2026-11-14"
     expires_at: ""
   - id: bs-583
     game: brawlstars
@@ -667,8 +679,8 @@ items:
     redeem_type: official_page
     redeem_url: "https://store.supercell.com/brawlstars/product/freebie--/7e00260b"
     image: "images/rewards/brawlstars/bs-536.webp"
-    status: active
-    verified_at: "2026-10-01"
+    status: expired
+    verified_at: "2026-11-14"
     expires_at: ""
   - id: bs-525
     game: brawlstars
@@ -1714,3 +1726,111 @@ items:
     status: active
     verified_at: "2026-07-23"
     expires_at: ""
+  - id: coc-580
+    game: clashofclans
+    title: "10 万暗黑重油"
+    original_title: "x100k Dark Elixir"
+    type: resource
+    type_label: "资源"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=HJ2026_RufflesCat"
+    image: "images/rewards/clashofclans/coc-580.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: ""
+  - id: coc-581
+    game: clashofclans
+    title: "1 个建筑工小点心"
+    original_title: "x1 Builder Bite"
+    type: resource
+    type_label: "魔法物品"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=HJ2026_GUTS"
+    image: "images/rewards/clashofclans/coc-581.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: ""
+  - id: coc-582
+    game: clashofclans
+    title: "100 万圣水"
+    original_title: "1 Million Elixir"
+    type: resource
+    type_label: "资源"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=HJ2026_ZestyBestie"
+    image: "images/rewards/clashofclans/coc-582.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: ""
+  - id: coc-583
+    game: clashofclans
+    title: "1 个学习汤"
+    original_title: "x1 Study Soup"
+    type: resource
+    type_label: "魔法物品"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=HJ2026_VIDEOKILLED"
+    image: "images/rewards/clashofclans/coc-583.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: ""
+  - id: coc-584
+    game: clashofclans
+    title: "1 个学习汤"
+    original_title: "x1 Study Soup"
+    type: resource
+    type_label: "魔法物品"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=HJ2026_Papaplatte"
+    image: "images/rewards/clashofclans/coc-584.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: ""
+  - id: coc-585
+    game: clashofclans
+    title: "1 个建筑工小点心"
+    original_title: "x1 Builder Bite"
+    type: resource
+    type_label: "魔法物品"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=HJ2026_Papaplatte"
+    image: "images/rewards/clashofclans/coc-585.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: ""
+  - id: coc-586
+    game: clashofclans
+    title: "100 万圣水"
+    original_title: "x1 million Elixir"
+    type: resource
+    type_label: "资源"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=HJ2026_OhnePixel"
+    image: "images/rewards/clashofclans/coc-586.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: ""
+  - id: coc-587
+    game: clashofclans
+    title: "1 个学习汤"
+    original_title: "x1 Study soup"
+    type: resource
+    type_label: "魔法物品"
+    redeem_type: direct_link
+    redeem_url: "https://link.clashofclans.com/?action=voucher&code=HJ2026_GoatR2"
+    image: "images/rewards/clashofclans/coc-587.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: ""
+  - id: coc-588
+    game: clashofclans
+    title: "4.5 万金币"
+    original_title: "x45000 Gold"
+    type: resource
+    type_label: "资源"
+    redeem_type: official_page
+    redeem_url: "https://store.supercell.com/clashofclans/product/free-gift-/ec6e6320"
+    image: "images/rewards/clashofclans/coc-588.webp"
+    status: active
+    verified_at: "2026-11-14"
+    expires_at: "2026-11-14"
