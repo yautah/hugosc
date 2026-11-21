@@ -1,0 +1,17 @@
+{
+  "source": "content/posts/clashroyale/2026-11-20/season-90-balance-wip-december-2026/index.md",
+  "stage": "awaiting_user_edit",
+  "verified_at": "2026-11-20T23:13:00+08:00",
+  "pending": [
+    "WIP版本，尚未公布实装日期、国服同步安排及数值等级口径。",
+    "网页正文遗漏烈焰熔炉独立章节，并将生成速度放在精英女武神表格下，本文依据同页13项总览图分组。",
+    "精英女武神网页表格另有Ability DPS 388至324，但总览图该卡仅列减伤15%至10%；该DPS指标归属不明，未并入正文，待官方最终方案核对。",
+    "皮卡生命值3760至3891实际增幅约3.48%，图示取整3%，本文保留原始前后数值与约3.5%。"
+  ],
+  "sources": [
+    {
+      "url": "https://royaleapi.com/blog/season-90-balance-wip-december-2026",
+      "scope": "用户完成真人验证后已读取全文、表格及2160x2880总览图；13项以总览图身份和具体指标为准。RoyaleAPI为第三方资讯站。"
+    }
+  ]
+}
