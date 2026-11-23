@@ -1,0 +1,15 @@
+{
+  "source": "content/posts/clashroyale/2026-11-23/archer-queen-evolution-clues/index.md",
+  "stage": "awaiting_user_edit",
+  "verified_at": null,
+  "pending": [
+    "根据用户确认的预览稿原样入库，未重新核验后续官宣状态。",
+    "三张图片均为用户提供截图，未取得官方原视频链接或客户端样本，字符串真实性与具体功能未独立验证。",
+    "觉醒女皇、槽位规则、技能、循环与上线时间均属未确认内容。"
+  ],
+  "sources": [
+    {"type": "user_provided_images", "scope": "视频截图、放大卡框、含2026/6/8标记的字符串截图"},
+    {"url": "https://x.com/i/trending/2124722746382864768", "scope": "预览阶段已读取Dcmat相关帖子，不采用Grok自动摘要中的排位测试与使用率说法"},
+    {"url": "https://x.com/Dcmat/status/2124701870459617507", "scope": "预览阶段读到关于万能槽位与英雄觉醒兼容方式的提问"}
+  ]
+}
