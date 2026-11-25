@@ -17,7 +17,7 @@ tags:
   - 第90赛季
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 ---
 
 《皇室战争》2026 年 12 月、第 90 赛季的平衡调整预案已经公布。这轮涉及 **13 个调整对象，分为 7 项削弱、5 项增强和 1 项重做**。

@@ -17,7 +17,7 @@ tags:
   - 社区讨论
 wechat:
   template: redream-obsidian-blue
-draft: true
+draft: false
 home_pinned: -100
 ---
 
