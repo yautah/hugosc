@@ -19,7 +19,7 @@ games:
     class: clash
 
 source:
-  synced_at: "2026-11-24"
+  synced_at: "2026-11-26"
 
 items:
   - id: cr-641
@@ -67,8 +67,8 @@ items:
     redeem_type: direct_link
     redeem_url: "https://link.brawlstars.com/voucher/e363011e-beab-4069-9a29-bb6040ee9789/"
     image: "images/rewards/brawlstars/bs-643.webp"
-    status: active
-    verified_at: "2026-11-22"
+    status: expired
+    verified_at: "2026-11-26"
     expires_at: ""
   - id: bs-617
     game: brawlstars
